@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-15. The unified bundle contains 202 distinct skills.
+Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **76**
-- Current total: **202**
+- Original curated skills: **124**
+- Current total: **250**
 - Target by 2026-12-31: **500**
-- Remaining: **298**
+- Remaining: **250**
 
 ## Categories
 
@@ -42,25 +42,39 @@ Updated: 2026-10-15. The unified bundle contains 202 distinct skills.
 - skill-development
 - writing-rules
 
-### Claude Code setup & MCP (5)
+### Claude Code setup & MCP (9)
 
 - agent-task-decomposition — NEW
 - agent-task-handoff-contract — NEW
+- agent-tool-output-schema-validation — NEW
 - claude-code-hook-safety-review — NEW
 - claude-code-mcp-setup — NEW
 - mcp-tool-permission-audit — NEW
+- plugin-package-compatibility-test — NEW
+- prompt-injection-boundary-testing — NEW
+- repository-instruction-conflict-resolution — NEW
 
-### Engine architecture & runtime (21)
+### Engine architecture & runtime (31)
 
 - asset-pipeline-provenance — NEW
 - cross-platform-engine-build-matrix — NEW
 - deterministic-simulation-replay — NEW
 - engine-architecture-adr — NEW
 - engine-asset-hot-reload — NEW
+- engine-asset-streaming-budget — NEW
+- engine-collision-layer-contracts — NEW
+- engine-crash-recovery-state — NEW
+- engine-debug-draw-observability — NEW
 - engine-fixed-timestep-simulation — NEW
 - engine-frame-time-budget — NEW
+- engine-input-action-mapping — NEW
+- engine-job-system-backpressure — NEW
+- engine-memory-budget-profiling — NEW
 - engine-performance-benchmarking — NEW
 - engine-plugin-boundaries — NEW
+- engine-render-feature-matrix — NEW
+- engine-render-resource-lifetime — NEW
+- engine-world-origin-rebasing — NEW
 - game-mod-api-versioning — NEW
 - physics-simulation-validation — NEW
 - procedural-world-generation-pipeline — NEW
@@ -74,12 +88,21 @@ Updated: 2026-10-15. The unified bundle contains 202 distinct skills.
 - voxel-meshing-optimization — NEW
 - voxel-seed-reproducibility — NEW
 
-### Game content & save systems (5)
+### Game content & save systems (14)
 
 - animation-state-machine-audit — NEW
+- audio-mix-loudness-budget — NEW
+- dialogue-branch-continuity-audit — NEW
 - game-save-recovery-testing — NEW
+- gameplay-input-remapping-accessibility — NEW
 - gameplay-telemetry-balance — NEW
+- localization-placeholder-integrity — NEW
+- loot-table-probability-validation — NEW
 - procedural-content-regression-testing — NEW
+- procedural-level-pacing-validation — NEW
+- save-format-compatibility-fixtures — NEW
+- tutorial-onboarding-progression-audit — NEW
+- ui-state-transition-invariant-testing — NEW
 - world-content-pipeline — NEW
 
 ### Game design, engines & gameplay QA (27)
@@ -132,33 +155,47 @@ Updated: 2026-10-15. The unified bundle contains 202 distinct skills.
 - telegram-access
 - telegram-configure
 
-### Minecraft & modpack engineering (9)
+### Minecraft & modpack engineering (14)
 
+- minecraft-client-server-parity-check — NEW
+- minecraft-jvm-gc-diagnostics — NEW
 - minecraft-modpack-repro-issue-bundle — NEW
+- minecraft-server-backup-restore-drill — NEW
 - minecraft-server-tick-profiling — NEW
+- minecraft-startup-dependency-resolution — NEW
 - minecraft-world-migration-readiness — NEW
 - mod-loader-compatibility-matrix — NEW
 - modded-minecraft-crash-triage — NEW
 - modpack-config-diff-review — NEW
+- modpack-config-schema-drift — NEW
 - modpack-dependency-triage — NEW
 - modpack-reproducibility-snapshot — NEW
 - modpack-server-capacity-planning — NEW
 
-### Networked games & determinism (2)
+### Networked games & determinism (6)
 
 - multiplayer-determinism-testing — NEW
+- multiplayer-reconnect-state-resync — NEW
 - multiplayer-state-sync — NEW
+- netcode-lag-compensation-validation — NEW
+- network-protocol-versioning — NEW
+- replication-interest-management — NEW
 
-### Release, tests & repository quality (10)
+### Release, tests & repository quality (15)
 
+- api-backward-compatibility-review — NEW
 - api-contract-regression-testing — NEW
 - build-cache-ci-optimization — NEW
+- database-migration-rollback-drill — NEW
 - database-migration-safety — NEW
+- dependency-supply-chain-verification — NEW
 - event-driven-architecture-tracing — NEW
 - flaky-test-isolation — NEW
+- frontend-accessibility-smoke-test — NEW
 - incident-postmortem-evidence — NEW
 - repository-architecture-map — NEW
 - reproducible-build-artifact-provenance — NEW
+- secrets-scan-remediation — NEW
 - supabase-rls-policy-audit — NEW
 - typescript-api-error-contract-design — NEW
 
@@ -219,27 +256,38 @@ Updated: 2026-10-15. The unified bundle contains 202 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (6)
+### Rust & platform engineering (11)
 
 - native-wasm-behavior-parity — NEW
+- rust-allocator-memory-profiling — NEW
 - rust-api-error-taxonomy — NEW
 - rust-async-cancellation-safety — NEW
 - rust-async-runtime-diagnostics — NEW
+- rust-async-task-supervision — NEW
 - rust-crate-boundary-audit — NEW
+- rust-ffi-resource-ownership — NEW
+- rust-proc-macro-diagnostics — NEW
+- rust-workspace-feature-matrix — NEW
 - wasm-native-performance-comparison — NEW
 
-### Simulation, NPCs & world history (10)
+### Simulation, NPCs & world history (16)
 
+- ecology-feedback-loop-validation — NEW
+- economy-market-price-stability — NEW
 - economy-simulation-balancing — NEW
 - emergent-behavior-test-design — NEW
 - game-ai-decision-architecture — NEW
 - large-population-simulation-lod — NEW
 - npc-memory-knowledge-model — NEW
 - npc-memory-retention-policy — NEW
+- npc-pathfinding-budget-policy — NEW
 - npc-simulation-lod-policy — NEW
 - npc-state-machine-design — NEW
 - procedural-civilization-simulation — NEW
+- social-rumor-propagation-model — NEW
+- utility-ai-score-calibration — NEW
 - world-history-event-sourcing — NEW
+- world-simulation-save-snapshot — NEW
 
 ### Skill library governance (8)
 
