@@ -155,6 +155,7 @@ const CURATED_CATEGORY_LABELS = {
   "release-testing-operations": "Release, tests & repository quality",
   "skill-library-governance": "Skill library governance",
   "game-content-pipelines": "Game content & save systems",
+  "agent-tooling": "Claude Code setup & MCP",
 };
 function categoryForExistingSkill(n) {
   if (n.startsWith("rea-") || n === "reverse-engineer-anything") return "Reverse engineering & artifact analysis";

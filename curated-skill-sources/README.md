@@ -2,6 +2,7 @@
 
 Original skills authored for this library are organized by domain below. Each skill is a unique folder with a SKILL.md entrypoint; the unified plugin is regenerated from these sources.
 
+- agent-tooling/: guides and reusable workflows for Claude Code setup, MCP configuration, connection checks, and troubleshooting.
 - engine-runtime: Rust-first engine architecture, voxel lifecycle, rendering, deterministic simulation and performance.
 - simulation-world: NPC state, population LOD, memory, economies, civilization and event history.
 - networked-games: multiplayer synchronization and determinism.

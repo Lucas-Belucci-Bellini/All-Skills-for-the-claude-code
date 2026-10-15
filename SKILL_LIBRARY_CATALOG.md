@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-15. The unified bundle contains 176 distinct skills.
+Updated: 2026-10-15. The unified bundle contains 177 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **50**
-- Current total: **176**
+- Original curated skills: **51**
+- Current total: **177**
 - Target by 2026-12-31: **500**
-- Remaining: **324**
+- Remaining: **323**
 
 ## Categories
 
@@ -41,6 +41,10 @@ Updated: 2026-10-15. The unified bundle contains 176 distinct skills.
 - skill-creator
 - skill-development
 - writing-rules
+
+### Claude Code setup & MCP (1)
+
+- claude-code-mcp-setup — NEW
 
 ### Engine architecture & runtime (15)
 

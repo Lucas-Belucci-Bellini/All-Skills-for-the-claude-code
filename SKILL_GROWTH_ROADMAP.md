@@ -1,15 +1,15 @@
 # Roadmap to 500 distinct skills by December 31, 2026
 
-Current unique count: 176; remaining to target: 324.
+Current unique count: 177; remaining to target: 323.
 
-Baseline date: 2026-10-15. The branch targets 176 distinct skills after adding 50 authored skills. The final target is 500, so 324 additional distinct skills remain. Across roughly 11 weeks this requires about 30 net-new skills every week.
+Baseline date: 2026-10-15. The collection now contains 177 distinct skills: the original 126-skill bundle, 50 newly authored skills, and a dedicated MCP setup skill. The final target is 500, so 323 additional distinct skills remain. Across roughly 11 weeks this requires about 30 net-new skills every week.
 
 ## Milestones
 
 | Checkpoint | Target total | Added since prior checkpoint | Focus |
 |---|---:|---:|---|
-| 2026-10-15 | 176 | +50 in this branch | Audit baseline, engine/Rust, voxel streaming, simulation, modpack reliability and library governance |
-| 2026-10-31 | 225 | 49 | Engine internals, rendering, Rust systems, world streaming, physics and assets |
+| 2026-10-15 | 177 | +51 authored skills in this expansion | Audit baseline, engine/Rust, voxel streaming, simulation, modpack reliability and library governance |
+| 2026-10-31 | 225 | 48 | Engine internals, rendering, Rust systems, world streaming, physics and assets |
 | 2026-11-15 | 290 | 65 | NPC cognition, economy, civilization, multiplayer, procedural world generation and simulation tests |
 | 2026-11-30 | 360 | 70 | APIs, data, CI, build/release, plugin/MCP architecture, security and modpack tooling |
 | 2026-12-15 | 430 | 70 | Platform-specific workflows, test harnesses, content pipeline, interoperability and runtime diagnostics |
@@ -24,11 +24,11 @@ Baseline date: 2026-10-15. The branch targets 176 distinct skills after adding 5
 | Game content and quality | 45 | animation/audio/physics tests, procedural content, localization, accessibility and saves |
 | Language and platform engineering | 45 | Rust, TypeScript, Python, Java/C#, native interop, WASM and packaging |
 | Build, CI, release and security | 35 | supply chain, artifact provenance, rollouts, fuzzing and incident diagnosis |
-| Agents, plugins, MCP and skill quality | 35 | retrieval/routing tests, orchestration, memory boundaries and plugin packaging |
+| Agents, plugins, MCP and skill quality | 34 | retrieval/routing tests, orchestration, memory boundaries and plugin packaging |
 | Reverse engineering and evidence | 25 | additional artifact families, differential analysis and evidence provenance |
 | Minecraft, modding and server operations | 15 | compatibility, configuration diffs, server metrics and pack reproducibility |
 | APIs, data, backend and frontend | 24 | contracts, SQL/RLS, event flows, UI accessibility and observability |
-| Total remaining | 324 | 500 total when added to the current 176 |
+| Total remaining | 323 | 500 total when added to the current 177 |
 
 ## Quality gate for every skill
 

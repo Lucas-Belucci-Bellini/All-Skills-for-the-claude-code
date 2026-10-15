@@ -1,7 +1,7 @@
 {
   "name": "all-skills-collection",
-  "version": "2.0.1",
-  "description": "A generated, unified collection of 176 distinct skills with skill-local supporting files.",
+  "version": "2.0.2",
+  "description": "A generated, unified collection of 177 distinct skills with skill-local supporting files.",
   "author": {
     "name": "Lucas-Belucci-Bellini"
   },
@@ -14,6 +14,8 @@
     "reverse-engineering",
     "mcp",
     "engine-architecture",
-    "simulation"
+    "simulation",
+    "mcp-setup",
+    "documentation"
   ]
 }
