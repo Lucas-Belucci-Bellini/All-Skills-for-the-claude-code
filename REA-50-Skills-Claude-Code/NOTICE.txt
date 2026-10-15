@@ -1,0 +1,3 @@
+Companion-skill package notice
+
+This archive contains 50 independently authored instruction files for use alongside the REA MCP/CLI. It does not contain a copy of the REA source tree or claim official status. REA project: https://github.com/morluto/rea. REA's distribution and its dependencies retain their own licenses; this package does not grant licenses to third-party analysis engines, apps, binaries, or targets. Use only on artifacts you own or are authorized to inspect.

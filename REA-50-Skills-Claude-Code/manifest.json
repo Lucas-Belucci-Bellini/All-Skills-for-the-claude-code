@@ -1,0 +1,310 @@
+{
+  "name": "REA 50 Companion Skills for Claude Code",
+  "version": "1.0.0",
+  "skill_count": 50,
+  "type": "community-authored companion skills; not an official morluto/rea distribution",
+  "upstream": "https://github.com/morluto/rea",
+  "npm_package": "rea-agents",
+  "skills": [
+    {
+      "name": "rea-task-triage",
+      "title": "REA Task Triage",
+      "category": "General triage",
+      "description": "Use this skill when a reverse-engineering request arrives and the target type, evidence source, or safest REA workflow needs to be selected. It routes the task to available REA capabilities without running unrelated diagnostics."
+    },
+    {
+      "name": "rea-js-app-map",
+      "title": "JavaScript Application Map",
+      "category": "JavaScript/Electron",
+      "description": "Use when the user needs an architectural map of an extracted JavaScript or Electron app: modules, imports, package boundaries, entry points, and relationships."
+    },
+    {
+      "name": "rea-js-export-shapes",
+      "title": "JavaScript Export Shape Diff",
+      "category": "JavaScript/Electron",
+      "description": "Use when comparing the returned object/API shape of one named JavaScript export across two application versions."
+    },
+    {
+      "name": "rea-js-module-graph",
+      "title": "JavaScript Dependency Graph",
+      "category": "JavaScript/Electron",
+      "description": "Use for tracing direct and transitive module dependencies, cycles, and likely change-impact areas in a supplied JavaScript/Electron artifact."
+    },
+    {
+      "name": "rea-electron-ipc",
+      "title": "Electron IPC Boundary Tracing",
+      "category": "JavaScript/Electron",
+      "description": "Use when investigating how an Electron renderer feature crosses preload, IPC, and main-process boundaries."
+    },
+    {
+      "name": "rea-electron-native-addons",
+      "title": "Electron Native Add-on Inventory",
+      "category": "JavaScript/Electron",
+      "description": "Use when mapping Electron/Node native modules and their relationships to JavaScript code."
+    },
+    {
+      "name": "rea-app-version-diff",
+      "title": "Application Version Comparison",
+      "category": "JavaScript/Electron",
+      "description": "Use when comparing two shipped JavaScript/Electron application versions for structural or semantic module changes."
+    },
+    {
+      "name": "rea-feature-trace",
+      "title": "Application Feature Trace",
+      "category": "JavaScript/Electron",
+      "description": "Use when asked how a named feature in a shipped JavaScript/Electron app works, from UI/API entry to underlying implementation."
+    },
+    {
+      "name": "rea-source-map-provenance",
+      "title": "Source Map and Bundle Provenance",
+      "category": "JavaScript/Electron",
+      "description": "Use when reconstructing source-file relationships from JavaScript bundles and source maps."
+    },
+    {
+      "name": "rea-js-bundle-reconstruction",
+      "title": "JavaScript Bundle Reconstruction Plan",
+      "category": "JavaScript/Electron",
+      "description": "Use when a user wants a maintainable, original implementation based on observed behavior and static bundle evidence."
+    },
+    {
+      "name": "rea-native-binary-triage",
+      "title": "Native Binary Triage",
+      "category": "Native binary",
+      "description": "Use when starting analysis of an authorized native executable, library, or analysis database."
+    },
+    {
+      "name": "rea-native-function-analysis",
+      "title": "Native Function Investigation",
+      "category": "Native binary",
+      "description": "Use when analyzing a single native function with pseudocode, assembly, references, or neighboring functions."
+    },
+    {
+      "name": "rea-native-xref-tracing",
+      "title": "Native Cross-Reference Tracing",
+      "category": "Native binary",
+      "description": "Use for tracing incoming/outgoing references to a native function, string, global, or address."
+    },
+    {
+      "name": "rea-native-call-graph",
+      "title": "Native Call Graph Analysis",
+      "category": "Native binary",
+      "description": "Use when the user needs a bounded call graph around a specific native routine."
+    },
+    {
+      "name": "rea-native-string-analysis",
+      "title": "Native String Reference Analysis",
+      "category": "Native binary",
+      "description": "Use when investigating a feature by tracing meaningful strings and their native references."
+    },
+    {
+      "name": "rea-native-function-reconstruction",
+      "title": "Native Function Reconstruction Spec",
+      "category": "Native binary",
+      "description": "Use when reconstructing a small native function’s behavior in clean-room source code."
+    },
+    {
+      "name": "rea-assembly-pseudocode-check",
+      "title": "Assembly vs Pseudocode Verification",
+      "category": "Native binary",
+      "description": "Use when a decompiler’s pseudocode looks suspicious or must be validated against machine instructions."
+    },
+    {
+      "name": "rea-native-abi-analysis",
+      "title": "Native ABI and Calling Convention Analysis",
+      "category": "Native binary",
+      "description": "Use when determining how a native function receives arguments, returns values, or crosses module boundaries."
+    },
+    {
+      "name": "rea-crash-core-analysis",
+      "title": "Recorded Crash/Core Analysis",
+      "category": "Crash/core",
+      "description": "Use when analyzing a supplied crash dump/core file or preserved register snapshot."
+    },
+    {
+      "name": "rea-elf-layout-audit",
+      "title": "ELF Layout and Mitigation Inventory",
+      "category": "ELF",
+      "description": "Use for offline inspection of a supplied Linux ELF’s sections, segments, relocations, and static mitigation indicators."
+    },
+    {
+      "name": "rea-pe-resource-analysis",
+      "title": "PE Resource Analysis",
+      "category": "Windows PE",
+      "description": "Use when inspecting a supplied Windows PE’s resource tree, icons, manifests, or embedded payloads."
+    },
+    {
+      "name": "rea-windows-binary-inspection",
+      "title": "Windows Binary Inspection",
+      "category": "Windows PE",
+      "description": "Use for static triage of a supplied Windows executable/library when running it is unnecessary or inappropriate."
+    },
+    {
+      "name": "rea-dos-ghidra-analysis",
+      "title": "16-bit DOS Binary Analysis",
+      "category": "DOS/native binary",
+      "description": "Use when inspecting a legitimate 16-bit DOS/legacy binary through a supported Ghidra workflow."
+    },
+    {
+      "name": "rea-ida-provider-workflow",
+      "title": "REA with IDA Provider",
+      "category": "Provider workflow",
+      "description": "Use when REA’s configured IDA provider is the selected route for a supplied native binary."
+    },
+    {
+      "name": "rea-ghidra-provider-workflow",
+      "title": "REA with Ghidra Provider",
+      "category": "Provider workflow",
+      "description": "Use when REA’s Ghidra provider is the route for native analysis."
+    },
+    {
+      "name": "rea-large-binary-investigation",
+      "title": "Large Binary Investigation",
+      "category": "Large targets",
+      "description": "Use when the binary or evidence payload is large enough to risk truncated tool results or excessive context use."
+    },
+    {
+      "name": "rea-rust-binary-inventory",
+      "title": "Rust Binary Dependency Inventory",
+      "category": "Rust binaries",
+      "description": "Use when checking an authorized ELF/PE/thin Mach-O for embedded cargo-auditable Rust dependency metadata."
+    },
+    {
+      "name": "rea-rust-dependency-audit",
+      "title": "Rust Binary Dependency Audit",
+      "category": "Rust binaries",
+      "description": "Use when preparing a dependency/supply-chain review from metadata embedded in a supplied Rust binary."
+    },
+    {
+      "name": "rea-rust-dependency-graph",
+      "title": "Rust Crate Dependency Graph",
+      "category": "Rust binaries",
+      "description": "Use when reconstructing the embedded crate dependency edges in a Rust binary."
+    },
+    {
+      "name": "rea-rust-runtime-boundary",
+      "title": "Rust Runtime and FFI Boundary Mapping",
+      "category": "Rust binaries",
+      "description": "Use when mapping observable Rust-native interfaces, C ABI edges, imports/exports, and dependency boundaries in a compiled artifact."
+    },
+    {
+      "name": "rea-rust-artifact-source-compare",
+      "title": "Rust Artifact vs Source Comparison",
+      "category": "Rust binaries/source",
+      "description": "Use when checking whether a supplied Rust binary’s embedded metadata and symbols align with a supplied source tree or Cargo.lock."
+    },
+    {
+      "name": "rea-engine-architecture-learning",
+      "title": "Engine Architecture Learning from Artifacts",
+      "category": "Engine/code learning",
+      "description": "Use when learning how a game engine or complex native app is structured so the user can design an independent implementation, including in Rust."
+    },
+    {
+      "name": "rea-browser-passive-observation",
+      "title": "Passive Browser Observation",
+      "category": "Browser/web",
+      "description": "Use when inspecting an already-open, user-owned or authorized website/browser page without performing interactions."
+    },
+    {
+      "name": "rea-browser-scenario-capture",
+      "title": "Declared Browser Scenario Capture",
+      "category": "Browser/web",
+      "description": "Use when the user explicitly asks to reproduce a specific browser flow on a target they own or are authorized to test."
+    },
+    {
+      "name": "rea-web-feature-tracing",
+      "title": "Web Feature Trace",
+      "category": "Browser/web",
+      "description": "Use when explaining how a web feature connects DOM/UI code, handlers, API requests, and response rendering."
+    },
+    {
+      "name": "rea-har-network-analysis",
+      "title": "HAR Network Capture Analysis",
+      "category": "Network captures",
+      "description": "Use when analyzing a saved HAR file to understand historical web requests/responses without contacting the recorded URLs."
+    },
+    {
+      "name": "rea-saz-traffic-analysis",
+      "title": "Fiddler SAZ Traffic Analysis",
+      "category": "Network captures",
+      "description": "Use when inspecting a saved Fiddler Everywhere `.saz` file, or a separately connected live Fiddler MCP session when explicitly requested."
+    },
+    {
+      "name": "rea-pcap-summary-analysis",
+      "title": "PCAP Summary and Endpoint Analysis",
+      "category": "Network captures",
+      "description": "Use when summarizing a supplied PCAP’s endpoints, DNS/TLS SNI, protocols, or recorded HTTP requests."
+    },
+    {
+      "name": "rea-packet-field-discovery",
+      "title": "Packet Field Discovery and Decode",
+      "category": "Network captures",
+      "description": "Use when finding valid field names/types and choosing decode-as or display filters for an existing packet capture."
+    },
+    {
+      "name": "rea-browser-capture-compare",
+      "title": "Browser Capture Comparison",
+      "category": "Browser/web",
+      "description": "Use when comparing two browser snapshots or declared scenarios to spot DOM, request, or behavior differences."
+    },
+    {
+      "name": "rea-wasm-module-analysis",
+      "title": "WebAssembly Artifact Inspection",
+      "category": "WebAssembly",
+      "description": "Use when examining a local WASM artifact’s sections, imports/exports, and decoded WAT."
+    },
+    {
+      "name": "rea-evm-bytecode-inspection",
+      "title": "EVM Bytecode Interface Inspection",
+      "category": "EVM bytecode",
+      "description": "Use when inspecting caller-supplied EVM bytecode locally to infer selectors, candidate arguments, and mutability."
+    },
+    {
+      "name": "rea-wasm-js-boundary",
+      "title": "WASM-to-JavaScript Boundary Mapping",
+      "category": "WebAssembly/JavaScript",
+      "description": "Use when mapping how JavaScript glue passes data to and receives results from a WASM module."
+    },
+    {
+      "name": "rea-android-apk-triage",
+      "title": "Android APK Triage",
+      "category": "Android",
+      "description": "Use when inventorying an authorized APK’s identity, manifest declarations, classes, and analysis prerequisites without launching the app."
+    },
+    {
+      "name": "rea-android-method-analysis",
+      "title": "Android Class and Method Analysis",
+      "category": "Android",
+      "description": "Use when finding a specific Android class/method and its incoming static references in an APK."
+    },
+    {
+      "name": "rea-android-resource-analysis",
+      "title": "Android Manifest and Resource Analysis",
+      "category": "Android",
+      "description": "Use when inspecting Android manifest entries, string resources, locales, or version facts from a supplied APK."
+    },
+    {
+      "name": "rea-flutter-apk-inventory",
+      "title": "Flutter APK Static Inventory",
+      "category": "Android/Flutter",
+      "description": "Use when inventorying supplied Flutter APKs and identifying Dart snapshot/engine build provenance without running the app."
+    },
+    {
+      "name": "rea-dotnet-assembly-analysis",
+      "title": ".NET Assembly Analysis",
+      "category": "Managed code",
+      "description": "Use when inspecting a supplied managed .NET assembly’s metadata, CIL, and declared native dependencies."
+    },
+    {
+      "name": "rea-firmware-analysis",
+      "title": "Firmware Region and Extraction Analysis",
+      "category": "Firmware",
+      "description": "Use when inspecting a firmware image’s regions and, if explicitly requested, extracting files to a caller-selected directory."
+    },
+    {
+      "name": "rea-sqlite-schema-analysis",
+      "title": "SQLite Schema and Snapshot Analysis",
+      "category": "Databases",
+      "description": "Use when inspecting a supplied SQLite database snapshot’s schema, indexes, triggers, or selected table rows."
+    }
+  ]
+}
