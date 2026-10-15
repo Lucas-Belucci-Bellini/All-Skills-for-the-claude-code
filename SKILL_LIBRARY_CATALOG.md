@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-15. The unified bundle contains 177 distinct skills.
+Updated: 2026-10-15. The unified bundle contains 202 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **51**
-- Current total: **177**
+- Original curated skills: **76**
+- Current total: **202**
 - Target by 2026-12-31: **500**
-- Remaining: **323**
+- Remaining: **298**
 
 ## Categories
 
@@ -42,27 +42,37 @@ Updated: 2026-10-15. The unified bundle contains 177 distinct skills.
 - skill-development
 - writing-rules
 
-### Claude Code setup & MCP (1)
+### Claude Code setup & MCP (5)
 
+- agent-task-decomposition — NEW
+- agent-task-handoff-contract — NEW
+- claude-code-hook-safety-review — NEW
 - claude-code-mcp-setup — NEW
+- mcp-tool-permission-audit — NEW
 
-### Engine architecture & runtime (15)
+### Engine architecture & runtime (21)
 
 - asset-pipeline-provenance — NEW
 - cross-platform-engine-build-matrix — NEW
 - deterministic-simulation-replay — NEW
 - engine-architecture-adr — NEW
+- engine-asset-hot-reload — NEW
+- engine-fixed-timestep-simulation — NEW
+- engine-frame-time-budget — NEW
 - engine-performance-benchmarking — NEW
 - engine-plugin-boundaries — NEW
 - game-mod-api-versioning — NEW
 - physics-simulation-validation — NEW
 - procedural-world-generation-pipeline — NEW
 - rendering-abstraction-design — NEW
+- rust-data-oriented-ecs-design — NEW
 - rust-game-loop-architecture — NEW
+- rust-unsafe-boundary-audit — NEW
 - save-schema-migration — NEW
 - shader-render-pipeline-debugging — NEW
 - voxel-chunk-lifecycle — NEW
 - voxel-meshing-optimization — NEW
+- voxel-seed-reproducibility — NEW
 
 ### Game content & save systems (5)
 
@@ -122,10 +132,14 @@ Updated: 2026-10-15. The unified bundle contains 177 distinct skills.
 - telegram-access
 - telegram-configure
 
-### Minecraft & modpack engineering (5)
+### Minecraft & modpack engineering (9)
 
+- minecraft-modpack-repro-issue-bundle — NEW
+- minecraft-server-tick-profiling — NEW
+- minecraft-world-migration-readiness — NEW
 - mod-loader-compatibility-matrix — NEW
 - modded-minecraft-crash-triage — NEW
+- modpack-config-diff-review — NEW
 - modpack-dependency-triage — NEW
 - modpack-reproducibility-snapshot — NEW
 - modpack-server-capacity-planning — NEW
@@ -135,14 +149,18 @@ Updated: 2026-10-15. The unified bundle contains 177 distinct skills.
 - multiplayer-determinism-testing — NEW
 - multiplayer-state-sync — NEW
 
-### Release, tests & repository quality (6)
+### Release, tests & repository quality (10)
 
 - api-contract-regression-testing — NEW
 - build-cache-ci-optimization — NEW
 - database-migration-safety — NEW
 - event-driven-architecture-tracing — NEW
+- flaky-test-isolation — NEW
+- incident-postmortem-evidence — NEW
 - repository-architecture-map — NEW
 - reproducible-build-artifact-provenance — NEW
+- supabase-rls-policy-audit — NEW
+- typescript-api-error-contract-design — NEW
 
 ### Reverse engineering & artifact analysis (54)
 
@@ -201,29 +219,36 @@ Updated: 2026-10-15. The unified bundle contains 177 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (3)
+### Rust & platform engineering (6)
 
+- native-wasm-behavior-parity — NEW
+- rust-api-error-taxonomy — NEW
+- rust-async-cancellation-safety — NEW
 - rust-async-runtime-diagnostics — NEW
 - rust-crate-boundary-audit — NEW
 - wasm-native-performance-comparison — NEW
 
-### Simulation, NPCs & world history (8)
+### Simulation, NPCs & world history (10)
 
 - economy-simulation-balancing — NEW
 - emergent-behavior-test-design — NEW
 - game-ai-decision-architecture — NEW
 - large-population-simulation-lod — NEW
 - npc-memory-knowledge-model — NEW
+- npc-memory-retention-policy — NEW
+- npc-simulation-lod-policy — NEW
 - npc-state-machine-design — NEW
 - procedural-civilization-simulation — NEW
 - world-history-event-sourcing — NEW
 
-### Skill library governance (6)
+### Skill library governance (8)
 
 - agent-artifact-quality-gates — NEW
 - automation-change-risk-gating — NEW
 - skill-deduplication-and-consolidation — NEW
+- skill-documentation-example-audit — NEW
 - skill-quality-evaluation — NEW
+- skill-trigger-regression-suite — NEW
 - skill-trigger-routing-evaluation — NEW
 - third-party-skill-provenance-audit — NEW
 
