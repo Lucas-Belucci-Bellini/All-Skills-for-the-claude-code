@@ -1,0 +1,1072 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-15",
+  "unique_skills": 177,
+  "target": 500,
+  "remaining": 323,
+  "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
+  "skills": [
+    {
+      "name": "agent-development",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "build-mcp-app",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "build-mcp-server",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "build-mcpb",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "claude-automation-recommender",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "claude-security",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "command-development",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "critiquing-own-response",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "dispatching-agent-work",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "example-command",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "example-skill",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "extracting-agent-skills",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "extracting-spec-design-ladders",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "gating-by-blind-restoration",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "gating-expensive-batch-work",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "hook-development",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "mcp-integration",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "migrating-agents-md-to-control-flow",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "plugin-settings",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "plugin-structure",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "project-artifact",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "receipts",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "refining-workflows-from-artifacts",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "session-report",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "skill-creator",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "skill-development",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "writing-rules",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "claude-code-mcp-setup",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/claude-code-mcp-setup/SKILL.md"
+    },
+    {
+      "name": "asset-pipeline-provenance",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/asset-pipeline-provenance/SKILL.md"
+    },
+    {
+      "name": "cross-platform-engine-build-matrix",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/cross-platform-engine-build-matrix/SKILL.md"
+    },
+    {
+      "name": "deterministic-simulation-replay",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/deterministic-simulation-replay/SKILL.md"
+    },
+    {
+      "name": "engine-architecture-adr",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-architecture-adr/SKILL.md"
+    },
+    {
+      "name": "engine-performance-benchmarking",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-performance-benchmarking/SKILL.md"
+    },
+    {
+      "name": "engine-plugin-boundaries",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-plugin-boundaries/SKILL.md"
+    },
+    {
+      "name": "game-mod-api-versioning",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/game-mod-api-versioning/SKILL.md"
+    },
+    {
+      "name": "physics-simulation-validation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/physics-simulation-validation/SKILL.md"
+    },
+    {
+      "name": "procedural-world-generation-pipeline",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/procedural-world-generation-pipeline/SKILL.md"
+    },
+    {
+      "name": "rendering-abstraction-design",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/rendering-abstraction-design/SKILL.md"
+    },
+    {
+      "name": "rust-game-loop-architecture",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/rust-game-loop-architecture/SKILL.md"
+    },
+    {
+      "name": "save-schema-migration",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/save-schema-migration/SKILL.md"
+    },
+    {
+      "name": "shader-render-pipeline-debugging",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/shader-render-pipeline-debugging/SKILL.md"
+    },
+    {
+      "name": "voxel-chunk-lifecycle",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/voxel-chunk-lifecycle/SKILL.md"
+    },
+    {
+      "name": "voxel-meshing-optimization",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/voxel-meshing-optimization/SKILL.md"
+    },
+    {
+      "name": "animation-state-machine-audit",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/animation-state-machine-audit/SKILL.md"
+    },
+    {
+      "name": "game-save-recovery-testing",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/game-save-recovery-testing/SKILL.md"
+    },
+    {
+      "name": "gameplay-telemetry-balance",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/gameplay-telemetry-balance/SKILL.md"
+    },
+    {
+      "name": "procedural-content-regression-testing",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/procedural-content-regression-testing/SKILL.md"
+    },
+    {
+      "name": "world-content-pipeline",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/world-content-pipeline/SKILL.md"
+    },
+    {
+      "name": "adversarially-validating-game-repairs",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "arcadifying-mini-games",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "auditing-game-screen-readability",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "auditing-gameplay-implementation-coverage",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "curating-game-concept-portfolio",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "designing-mini-games",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "designing-minimal-game-rules",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "developing-with-crisp-game-lib",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "evaluating-gameplay-balance",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "exploring-game-design-space",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "gating-intent-legibility",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "generating-retro-arcade-concepts",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "generating-semantic-game-mutants",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "godot-game-dev",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "implementing-gameplay-invariants",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "localizing-game-state-divergence",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "maximizing-game-feel",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "playground",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "probing-web-game-mechanics",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "refining-game-prototypes",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "running-headless-godot",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "scaffolding-godot-mini-games",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "smoke-testing-web-games",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "stress-testing-game-concepts",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "unity-game-dev",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "unreal-game-dev",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "verifying-turn-based-games",
+      "category": "Game design, engines & gameplay QA",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "cardputer-buddy",
+      "category": "Hardware & embedded devices",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "m5-onboard",
+      "category": "Hardware & embedded devices",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "math-olympiad",
+      "category": "Mathematics",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "siege",
+      "category": "Mathematics",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "solo",
+      "category": "Mathematics",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "discord-access",
+      "category": "Messaging integrations",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "discord-configure",
+      "category": "Messaging integrations",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "imessage-access",
+      "category": "Messaging integrations",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "imessage-configure",
+      "category": "Messaging integrations",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "telegram-access",
+      "category": "Messaging integrations",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "telegram-configure",
+      "category": "Messaging integrations",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "mod-loader-compatibility-matrix",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/mod-loader-compatibility-matrix/SKILL.md"
+    },
+    {
+      "name": "modded-minecraft-crash-triage",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/modded-minecraft-crash-triage/SKILL.md"
+    },
+    {
+      "name": "modpack-dependency-triage",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-dependency-triage/SKILL.md"
+    },
+    {
+      "name": "modpack-reproducibility-snapshot",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-reproducibility-snapshot/SKILL.md"
+    },
+    {
+      "name": "modpack-server-capacity-planning",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-server-capacity-planning/SKILL.md"
+    },
+    {
+      "name": "multiplayer-determinism-testing",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/multiplayer-determinism-testing/SKILL.md"
+    },
+    {
+      "name": "multiplayer-state-sync",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/multiplayer-state-sync/SKILL.md"
+    },
+    {
+      "name": "api-contract-regression-testing",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/api-contract-regression-testing/SKILL.md"
+    },
+    {
+      "name": "build-cache-ci-optimization",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/build-cache-ci-optimization/SKILL.md"
+    },
+    {
+      "name": "database-migration-safety",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/database-migration-safety/SKILL.md"
+    },
+    {
+      "name": "event-driven-architecture-tracing",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/event-driven-architecture-tracing/SKILL.md"
+    },
+    {
+      "name": "repository-architecture-map",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/repository-architecture-map/SKILL.md"
+    },
+    {
+      "name": "reproducible-build-artifact-provenance",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/reproducible-build-artifact-provenance/SKILL.md"
+    },
+    {
+      "name": "rea-android-apk-triage",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-android-method-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-android-resource-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-app-version-diff",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-assembly-pseudocode-check",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-browser-capture-compare",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-browser-passive-observation",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-browser-scenario-capture",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-changelog-update",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-ci-tests-audit",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-crash-core-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-dos-ghidra-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-dotnet-assembly-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-electron-ipc",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-electron-native-addons",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-elf-layout-audit",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-engine-architecture-learning",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-evm-bytecode-inspection",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-feature-trace",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-firmware-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-flutter-apk-inventory",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-ghidra-provider-workflow",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-har-network-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-ida-provider-workflow",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-js-app-map",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-js-bundle-reconstruction",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-js-export-shapes",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-js-module-graph",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-large-binary-investigation",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-native-abi-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-native-binary-triage",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-native-call-graph",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-native-function-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-native-function-reconstruction",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-native-string-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-native-xref-tracing",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-packet-field-discovery",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-pcap-summary-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-pe-resource-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-rust-artifact-source-compare",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-rust-binary-inventory",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-rust-dependency-audit",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-rust-dependency-graph",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-rust-runtime-boundary",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-saz-traffic-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-source-map-provenance",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-sqlite-schema-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-task-triage",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-tool-design",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-wasm-js-boundary",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-wasm-module-analysis",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-web-feature-tracing",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rea-windows-binary-inspection",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "category": "Reverse engineering & artifact analysis",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "rust-async-runtime-diagnostics",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-async-runtime-diagnostics/SKILL.md"
+    },
+    {
+      "name": "rust-crate-boundary-audit",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-crate-boundary-audit/SKILL.md"
+    },
+    {
+      "name": "wasm-native-performance-comparison",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/wasm-native-performance-comparison/SKILL.md"
+    },
+    {
+      "name": "economy-simulation-balancing",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/economy-simulation-balancing/SKILL.md"
+    },
+    {
+      "name": "emergent-behavior-test-design",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/emergent-behavior-test-design/SKILL.md"
+    },
+    {
+      "name": "game-ai-decision-architecture",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/game-ai-decision-architecture/SKILL.md"
+    },
+    {
+      "name": "large-population-simulation-lod",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/large-population-simulation-lod/SKILL.md"
+    },
+    {
+      "name": "npc-memory-knowledge-model",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-memory-knowledge-model/SKILL.md"
+    },
+    {
+      "name": "npc-state-machine-design",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-state-machine-design/SKILL.md"
+    },
+    {
+      "name": "procedural-civilization-simulation",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/procedural-civilization-simulation/SKILL.md"
+    },
+    {
+      "name": "world-history-event-sourcing",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/world-history-event-sourcing/SKILL.md"
+    },
+    {
+      "name": "agent-artifact-quality-gates",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-artifact-quality-gates/SKILL.md"
+    },
+    {
+      "name": "automation-change-risk-gating",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/automation-change-risk-gating/SKILL.md"
+    },
+    {
+      "name": "skill-deduplication-and-consolidation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-deduplication-and-consolidation/SKILL.md"
+    },
+    {
+      "name": "skill-quality-evaluation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-quality-evaluation/SKILL.md"
+    },
+    {
+      "name": "skill-trigger-routing-evaluation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-trigger-routing-evaluation/SKILL.md"
+    },
+    {
+      "name": "third-party-skill-provenance-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/third-party-skill-provenance-audit/SKILL.md"
+    },
+    {
+      "name": "building-era-authentic-game-audio",
+      "category": "UI, art, audio & assets",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "creating-godot-procedural-audio",
+      "category": "UI, art, audio & assets",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "designing-retro-arcade-sound-kits",
+      "category": "UI, art, audio & assets",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "directing-game-visuals",
+      "category": "UI, art, audio & assets",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "frontend-design",
+      "category": "UI, art, audio & assets",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "generating-dot-assets",
+      "category": "UI, art, audio & assets",
+      "origin": "existing",
+      "source_path": null
+    },
+    {
+      "name": "styling-web-game-typography",
+      "category": "UI, art, audio & assets",
+      "origin": "existing",
+      "source_path": null
+    }
+  ]
+}
