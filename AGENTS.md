@@ -1,69 +1,55 @@
 # AGENTS.md
 
-Custom instructions for AI coding agents (Codex CLI reads this natively; other agents read it as
-extra context) working **inside this repository**.
+## Mission
 
-## What this repo is
+This repository is a collection of agent skills extracted from game-development work and related personal research.
 
-`ai-game-dev-plugin` is a **marketplace of game-dev plugins/skills** for AI coding agents —
-**Unreal, Unity & Godot**, one plugin each. Every plugin ships a single **skill** (a runbook) that
-teaches the agent to drive that engine's official npm CLI (`unreal-mcp-cli`, `unity-mcp-cli`,
-`godot-cli`) so the agent can take a user from _nothing_ to a running editor **connected to
-[ai-game.dev](https://ai-game.dev)** — creating the project, installing the engine plugin, logging
-in, and opening the editor, automatically.
+Treat `.agents/skills/` as the primary project content. Each skill should be reusable outside the project that produced it, clear about when it applies, and concise enough for an agent to follow without unnecessary context.
 
-It targets **both Claude Code and Codex CLI** from one source tree.
+## Repository Rules
 
-## Layout
+- Keep skills under `.agents/skills/<skill-name>/`.
+- Use `SKILL.md` as the entry point for every skill.
+- Keep supporting material in skill-local directories such as `references/`, `assets/`, `scripts/`, `tools/`, or `agents/`.
+- Update both `README.md` and `README.ja.md` when adding, removing, renaming, or materially changing a skill.
+- Do not place generated experiments, game projects, or throwaway outputs at the repository root.
 
-```
-.claude-plugin/marketplace.json          # Claude Code marketplace catalog
-.agents/plugins/marketplace.json         # Codex marketplace catalog
-.agents/skills/<engine>-game-dev/SKILL.md# Codex repo-native skills (GENERATED — do not hand-edit)
-plugins/<engine>/
-  .claude-plugin/plugin.json             # Claude Code plugin manifest
-  .codex-plugin/plugin.json              # Codex plugin manifest
-  skills/<engine>-game-dev/SKILL.md      # CANONICAL runbook (shared by both agents' plugins)
-  README.md                              # per-plugin readme (agent-neutral)
-scripts/sync-skills.mjs                  # regenerates .agents/skills/ from the canonical skills
-```
+## Skill Maintenance
 
-`<engine>` is one of `unreal`, `unity`, `godot`.
+- Prefer small, behavior-changing skills over broad documentation dumps.
+- Write skill descriptions so an agent can decide when to use the skill.
+- Put detailed examples, long checklists, and implementation notes in `references/` instead of overloading `SKILL.md`.
+- Preserve concrete workflows, validation steps, failure modes, and tool-use patterns.
+- Remove or revise instructions that only made sense for the original project and do not transfer.
 
-## Single source of truth for the skill bodies
+## Frontmatter Convention
 
-- The **canonical** runbook for each engine is `plugins/<engine>/skills/<engine>-game-dev/SKILL.md`.
-  Both plugin manifests (`.claude-plugin/plugin.json` and `.codex-plugin/plugin.json`) reference the
-  plugin's own `./skills/` directory, so the two agent bundles share that one file — no second copy.
-- The repo-native Codex discovery copies under `.agents/skills/` are **generated** from the
-  canonical files by `scripts/sync-skills.mjs`. **Never hand-edit `.agents/skills/`.**
-- After editing any canonical `SKILL.md`, run:
+Local skills should follow this style; external skills may keep their upstream form.
 
-  ```bash
-  node scripts/sync-skills.mjs          # regenerate the .agents/skills/ copies
-  node scripts/sync-skills.mjs --check  # verify no drift (exits non-zero on drift)
-  ```
+- Quote multi-clause descriptions: `description: "Does X. Use when ..."`.
+- Open `description` with a third-person present verb (`Designs ...`, `Verifies ...`, `Generates ...`), not a noun phrase.
+- Include both _what the skill does_ and _when to use it_ in the description so the agent can match on either.
+- The only required directory name for in-skill documentation is `references/`. Do not use `skills/`, `docs/`, or other variants.
 
-## The one thing that differs per agent
+## Verification Scope
 
-The runbooks are agent-neutral except the **wire-MCP** step, which selects the target by the
-assistant you are running as:
+Applies both to work done in this repository and to the verification steps skills prescribe.
 
-- **Claude Code** → `npx -y <engine>-cli@latest setup-mcp claude-code "<path>"`
-- **Codex CLI** → `npx -y <engine>-cli@latest setup-mcp codex "<path>"`
+- Choose verification by what the change can reach at runtime and what a failure would cost, not by diff size or by which skill produced the change.
+- Start from the cheapest check that covers the change and stop once the current failure mode is covered.
+- Do not enter an expensive gate — real-browser runs, bot ladders, telemetry sweeps, independent agent review — merely because a skill mentions it, because an earlier step used a related skill, or because prior evidence is absent rather than negative.
+- Keep strict rules that exist for reproducibility, sandboxing, or irreversible cost; they are not scope creep.
 
-## Golden rules (do not reorder the flow)
+## Validation
 
-1. Always **`close` before `login`**, and **`open` only after a successful `login`** (the editor
-   loads the auth token at startup).
-2. Never declare success until **`wait-for-ready`** passes.
-3. `login` is **interactive** (device-code OAuth) — relay the verification URL + code to the user
-   and wait.
-4. Keep all JSON valid and keep the create → install → close → login → open → wait-for-ready →
-   wire-MCP ordering intact.
+Before finishing skill changes:
 
-## Contributing
+- Run `bash tools/check-readme-skills.sh`. It must exit 0; it diffs `.agents/skills/` against both `README.md` and `README.ja.md`.
+- Run `bash tools/tests/test-repository-tools.sh` after changing anything under `tools/`.
 
-Keep changes focused on the create → install → login → open → connect story, keep every JSON file
-valid, run `node scripts/sync-skills.mjs --check` before committing, and match the existing skill
-structure. Engine-CLI behavior itself lives in other repos — don't reinvent it here.
+The script only matches skill names. These still need a human or agent read:
+
+- Check that the relevant `SKILL.md` has a clear `name` and a `description` following the frontmatter convention above.
+- Confirm linked supporting files exist.
+- Confirm the README overview paragraphs and section groupings still describe what the repository actually contains.
+- Note any validation that was not possible.
