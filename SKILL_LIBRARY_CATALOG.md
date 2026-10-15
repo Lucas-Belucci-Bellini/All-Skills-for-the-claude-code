@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
+Updated: 2026-10-15. The unified bundle contains 300 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **124**
-- Current total: **250**
+- Original curated skills: **174**
+- Current total: **300**
 - Target by 2026-12-31: **500**
-- Remaining: **250**
+- Remaining: **200**
 
 ## Categories
 
@@ -42,8 +42,12 @@ Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
 - skill-development
 - writing-rules
 
-### Claude Code setup & MCP (9)
+### Claude Code setup & MCP (14)
 
+- agent-human-approval-gates — NEW
+- agent-memory-write-policy — NEW
+- agent-plan-vs-execution-verification — NEW
+- agent-state-checkpointing — NEW
 - agent-task-decomposition — NEW
 - agent-task-handoff-contract — NEW
 - agent-tool-output-schema-validation — NEW
@@ -53,8 +57,9 @@ Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
 - plugin-package-compatibility-test — NEW
 - prompt-injection-boundary-testing — NEW
 - repository-instruction-conflict-resolution — NEW
+- tool-call-budget-policy — NEW
 
-### Engine architecture & runtime (31)
+### Engine architecture & runtime (34)
 
 - asset-pipeline-provenance — NEW
 - cross-platform-engine-build-matrix — NEW
@@ -74,6 +79,9 @@ Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
 - engine-plugin-boundaries — NEW
 - engine-render-feature-matrix — NEW
 - engine-render-resource-lifetime — NEW
+- engine-runtime-telemetry-taxonomy — NEW
+- engine-startup-dependency-graph — NEW
+- engine-subsystem-lifecycle-order — NEW
 - engine-world-origin-rebasing — NEW
 - game-mod-api-versioning — NEW
 - physics-simulation-validation — NEW
@@ -88,12 +96,15 @@ Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
 - voxel-meshing-optimization — NEW
 - voxel-seed-reproducibility — NEW
 
-### Game content & save systems (14)
+### Game content & save systems (18)
 
+- animation-event-timing-audit — NEW
 - animation-state-machine-audit — NEW
+- asset-import-validation — NEW
 - audio-mix-loudness-budget — NEW
 - dialogue-branch-continuity-audit — NEW
 - game-save-recovery-testing — NEW
+- gameplay-economy-anti-exploit — NEW
 - gameplay-input-remapping-accessibility — NEW
 - gameplay-telemetry-balance — NEW
 - localization-placeholder-integrity — NEW
@@ -104,6 +115,7 @@ Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
 - tutorial-onboarding-progression-audit — NEW
 - ui-state-transition-invariant-testing — NEW
 - world-content-pipeline — NEW
+- worldgen-biome-distribution-analysis — NEW
 
 ### Game design, engines & gameplay QA (27)
 
@@ -155,12 +167,14 @@ Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
 - telegram-access
 - telegram-configure
 
-### Minecraft & modpack engineering (14)
+### Minecraft & modpack engineering (18)
 
 - minecraft-client-server-parity-check — NEW
+- minecraft-datapack-validation — NEW
 - minecraft-jvm-gc-diagnostics — NEW
 - minecraft-modpack-repro-issue-bundle — NEW
 - minecraft-server-backup-restore-drill — NEW
+- minecraft-server-performance-change-benchmark — NEW
 - minecraft-server-tick-profiling — NEW
 - minecraft-startup-dependency-resolution — NEW
 - minecraft-world-migration-readiness — NEW
@@ -169,6 +183,8 @@ Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
 - modpack-config-diff-review — NEW
 - modpack-config-schema-drift — NEW
 - modpack-dependency-triage — NEW
+- modpack-launch-environment-audit — NEW
+- modpack-release-manifest-audit — NEW
 - modpack-reproducibility-snapshot — NEW
 - modpack-server-capacity-planning — NEW
 
@@ -181,23 +197,46 @@ Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
 - network-protocol-versioning — NEW
 - replication-interest-management — NEW
 
-### Release, tests & repository quality (15)
+### Release, tests & repository quality (38)
 
 - api-backward-compatibility-review — NEW
 - api-contract-regression-testing — NEW
+- api-error-boundary-observability — NEW
+- api-pagination-contract — NEW
+- authorization-matrix-tests — NEW
+- background-job-retry-design — NEW
 - build-cache-ci-optimization — NEW
+- cache-invalidation-contract — NEW
 - database-migration-rollback-drill — NEW
 - database-migration-safety — NEW
 - dependency-supply-chain-verification — NEW
+- dependency-update-risk-assessment — NEW
+- distributed-outbox-inbox — NEW
 - event-driven-architecture-tracing — NEW
+- event-schema-evolution — NEW
 - flaky-test-isolation — NEW
+- form-validation-contract — NEW
 - frontend-accessibility-smoke-test — NEW
+- frontend-loading-empty-error-contracts — NEW
+- frontend-route-auth-guard-audit — NEW
+- frontend-server-state-cache — NEW
+- idempotency-key-design — NEW
 - incident-postmortem-evidence — NEW
+- log-redaction-pii-audit — NEW
+- multi-tenant-data-boundary — NEW
+- oauth-oidc-flow-audit — NEW
+- optimistic-ui-rollback — NEW
+- postgres-index-design — NEW
+- postgresql-query-plan-regression — NEW
+- rate-limit-policy-design — NEW
 - repository-architecture-map — NEW
 - reproducible-build-artifact-provenance — NEW
 - secrets-scan-remediation — NEW
+- ssrf-boundary-review — NEW
 - supabase-rls-policy-audit — NEW
+- threat-model-data-flow — NEW
 - typescript-api-error-contract-design — NEW
+- web-performance-budget-audit — NEW
 
 ### Reverse engineering & artifact analysis (54)
 
@@ -256,28 +295,37 @@ Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (11)
+### Rust & platform engineering (17)
 
 - native-wasm-behavior-parity — NEW
 - rust-allocator-memory-profiling — NEW
 - rust-api-error-taxonomy — NEW
+- rust-api-semver-audit — NEW
 - rust-async-cancellation-safety — NEW
 - rust-async-runtime-diagnostics — NEW
 - rust-async-task-supervision — NEW
+- rust-binary-size-budget — NEW
 - rust-crate-boundary-audit — NEW
+- rust-crate-public-api-surface — NEW
+- rust-cross-compilation-validation — NEW
 - rust-ffi-resource-ownership — NEW
+- rust-lock-contention-profile — NEW
 - rust-proc-macro-diagnostics — NEW
+- rust-test-fixture-isolation — NEW
 - rust-workspace-feature-matrix — NEW
 - wasm-native-performance-comparison — NEW
 
-### Simulation, NPCs & world history (16)
+### Simulation, NPCs & world history (19)
 
+- civilization-migration-validation — NEW
 - ecology-feedback-loop-validation — NEW
 - economy-market-price-stability — NEW
+- economy-production-sink-invariants — NEW
 - economy-simulation-balancing — NEW
 - emergent-behavior-test-design — NEW
 - game-ai-decision-architecture — NEW
 - large-population-simulation-lod — NEW
+- npc-goal-lifecycle — NEW
 - npc-memory-knowledge-model — NEW
 - npc-memory-retention-policy — NEW
 - npc-pathfinding-budget-policy — NEW
@@ -289,15 +337,17 @@ Updated: 2026-10-15. The unified bundle contains 250 distinct skills.
 - world-history-event-sourcing — NEW
 - world-simulation-save-snapshot — NEW
 
-### Skill library governance (8)
+### Skill library governance (10)
 
 - agent-artifact-quality-gates — NEW
 - automation-change-risk-gating — NEW
+- skill-catalog-taxonomy-consistency — NEW
 - skill-deduplication-and-consolidation — NEW
 - skill-documentation-example-audit — NEW
 - skill-quality-evaluation — NEW
 - skill-trigger-regression-suite — NEW
 - skill-trigger-routing-evaluation — NEW
+- skill-usage-feedback-triage — NEW
 - third-party-skill-provenance-audit — NEW
 
 ### UI, art, audio & assets (7)
