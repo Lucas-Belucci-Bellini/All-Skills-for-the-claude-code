@@ -1,0 +1,25 @@
+{
+  "name": "all-skills-for-the-claude-code",
+  "owner": {
+    "name": "Lucas-Belucci-Bellini"
+  },
+  "metadata": {
+    "description": "Private marketplace for the unified skills collection and its maintenance workflow."
+  },
+  "plugins": [
+    {
+      "name": "all-skills-collection",
+      "source": "./plugins/all-skills-collection",
+      "description": "Install the unified collection of 126 distinct skills with their skill-local supporting files.",
+      "version": "2.0.0",
+      "category": "development"
+    },
+    {
+      "name": "skill-library-maintainer",
+      "source": "./plugins/skill-library-maintainer",
+      "description": "Maintain source skills, deduplicate safely, validate the combined bundle, and prepare pull requests.",
+      "version": "1.0.0",
+      "category": "development"
+    }
+  ]
+}

@@ -95,3 +95,14 @@ Please see each linked plugin for the relevant LICENSE file.
 ## Documentation
 
 For more information on developing Claude Code plugins, see the [official documentation](https://code.claude.com/docs/en/plugins).
+
+
+## Unified Skills Library (Lucas's collection)
+
+This repository also maintains a private, unified Claude Code plugin that gathers distinct skill sources while preserving each skill's supporting files.
+
+- [All Skills Collection plugin](plugins/all-skills-collection/README.md)
+- [Skill Library Maintainer plugin](plugins/skill-library-maintainer/README.md)
+- [Source refresh script](tools/sync-skill-bundles.mjs)
+
+After adding a new skill batch, run `node tools/sync-skill-bundles.mjs --write`, review the diff, then validate with `node tools/sync-skill-bundles.mjs --check`. Updates should go through a feature branch and pull request. Keep this repository private until all source license and provenance terms have been reviewed.
