@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-15",
-  "unique_skills": 177,
+  "unique_skills": 202,
   "target": 500,
-  "remaining": 323,
+  "remaining": 298,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -169,10 +169,34 @@
       "source_path": null
     },
     {
+      "name": "agent-task-decomposition",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-task-decomposition/SKILL.md"
+    },
+    {
+      "name": "agent-task-handoff-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-task-handoff-contract/SKILL.md"
+    },
+    {
+      "name": "claude-code-hook-safety-review",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/claude-code-hook-safety-review/SKILL.md"
+    },
+    {
       "name": "claude-code-mcp-setup",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/claude-code-mcp-setup/SKILL.md"
+    },
+    {
+      "name": "mcp-tool-permission-audit",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/mcp-tool-permission-audit/SKILL.md"
     },
     {
       "name": "asset-pipeline-provenance",
@@ -197,6 +221,24 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-architecture-adr/SKILL.md"
+    },
+    {
+      "name": "engine-asset-hot-reload",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-hot-reload/SKILL.md"
+    },
+    {
+      "name": "engine-fixed-timestep-simulation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-fixed-timestep-simulation/SKILL.md"
+    },
+    {
+      "name": "engine-frame-time-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-frame-time-budget/SKILL.md"
     },
     {
       "name": "engine-performance-benchmarking",
@@ -235,10 +277,22 @@
       "source_path": "curated-skill-sources/engine-runtime/rendering-abstraction-design/SKILL.md"
     },
     {
+      "name": "rust-data-oriented-ecs-design",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/rust-data-oriented-ecs-design/SKILL.md"
+    },
+    {
       "name": "rust-game-loop-architecture",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/rust-game-loop-architecture/SKILL.md"
+    },
+    {
+      "name": "rust-unsafe-boundary-audit",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/rust-unsafe-boundary-audit/SKILL.md"
     },
     {
       "name": "save-schema-migration",
@@ -263,6 +317,12 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/voxel-meshing-optimization/SKILL.md"
+    },
+    {
+      "name": "voxel-seed-reproducibility",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/voxel-seed-reproducibility/SKILL.md"
     },
     {
       "name": "animation-state-machine-audit",
@@ -523,6 +583,24 @@
       "source_path": null
     },
     {
+      "name": "minecraft-modpack-repro-issue-bundle",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-modpack-repro-issue-bundle/SKILL.md"
+    },
+    {
+      "name": "minecraft-server-tick-profiling",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-server-tick-profiling/SKILL.md"
+    },
+    {
+      "name": "minecraft-world-migration-readiness",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-world-migration-readiness/SKILL.md"
+    },
+    {
       "name": "mod-loader-compatibility-matrix",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
@@ -533,6 +611,12 @@
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/minecraft-modded-environments/modded-minecraft-crash-triage/SKILL.md"
+    },
+    {
+      "name": "modpack-config-diff-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-config-diff-review/SKILL.md"
     },
     {
       "name": "modpack-dependency-triage",
@@ -589,6 +673,18 @@
       "source_path": "curated-skill-sources/release-testing-operations/event-driven-architecture-tracing/SKILL.md"
     },
     {
+      "name": "flaky-test-isolation",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/flaky-test-isolation/SKILL.md"
+    },
+    {
+      "name": "incident-postmortem-evidence",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/incident-postmortem-evidence/SKILL.md"
+    },
+    {
       "name": "repository-architecture-map",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
@@ -599,6 +695,18 @@
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/reproducible-build-artifact-provenance/SKILL.md"
+    },
+    {
+      "name": "supabase-rls-policy-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/supabase-rls-policy-audit/SKILL.md"
+    },
+    {
+      "name": "typescript-api-error-contract-design",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/typescript-api-error-contract-design/SKILL.md"
     },
     {
       "name": "rea-android-apk-triage",
@@ -925,6 +1033,24 @@
       "source_path": null
     },
     {
+      "name": "native-wasm-behavior-parity",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/native-wasm-behavior-parity/SKILL.md"
+    },
+    {
+      "name": "rust-api-error-taxonomy",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-api-error-taxonomy/SKILL.md"
+    },
+    {
+      "name": "rust-async-cancellation-safety",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-async-cancellation-safety/SKILL.md"
+    },
+    {
       "name": "rust-async-runtime-diagnostics",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
@@ -973,6 +1099,18 @@
       "source_path": "curated-skill-sources/simulation-world/npc-memory-knowledge-model/SKILL.md"
     },
     {
+      "name": "npc-memory-retention-policy",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-memory-retention-policy/SKILL.md"
+    },
+    {
+      "name": "npc-simulation-lod-policy",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-simulation-lod-policy/SKILL.md"
+    },
+    {
       "name": "npc-state-machine-design",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
@@ -1009,10 +1147,22 @@
       "source_path": "curated-skill-sources/skill-library-governance/skill-deduplication-and-consolidation/SKILL.md"
     },
     {
+      "name": "skill-documentation-example-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-documentation-example-audit/SKILL.md"
+    },
+    {
       "name": "skill-quality-evaluation",
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/skill-quality-evaluation/SKILL.md"
+    },
+    {
+      "name": "skill-trigger-regression-suite",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-trigger-regression-suite/SKILL.md"
     },
     {
       "name": "skill-trigger-routing-evaluation",

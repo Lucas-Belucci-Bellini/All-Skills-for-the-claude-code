@@ -4,14 +4,14 @@
     "name": "Lucas-Belucci-Bellini"
   },
   "metadata": {
-    "description": "Private marketplace for the unified skills collection and its maintenance workflow."
+    "description": "Marketplace for the unified skills collection and its maintenance workflow."
   },
   "plugins": [
     {
       "name": "all-skills-collection",
       "source": "./plugins/all-skills-collection",
-      "description": "Install the unified collection of 177 distinct skills with skill-local supporting files.",
-      "version": "2.0.2",
+      "description": "Install the unified collection of 202 distinct skills with skill-local supporting files.",
+      "version": "2.0.3",
       "category": "development"
     },
     {

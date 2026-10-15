@@ -99,7 +99,7 @@ For more information on developing Claude Code plugins, see the [official docume
 
 ## Unified Skills Library (Lucas's collection)
 
-This repository also maintains a private, unified Claude Code plugin that gathers distinct skill sources while preserving each skill's supporting files.
+This repository also maintains a unified Claude Code plugin that gathers distinct skill sources while preserving each skill's supporting files.
 
 - [All Skills Collection plugin](plugins/all-skills-collection/README.md)
 - [Skill Library Maintainer plugin](plugins/skill-library-maintainer/README.md)
@@ -107,4 +107,4 @@ This repository also maintains a private, unified Claude Code plugin that gather
 
 After adding a new skill batch, run `node tools/sync-skill-bundles.mjs --write`, review the diff, then validate with `node tools/sync-skill-bundles.mjs --check`. Updates should go through a feature branch and pull request. Keep this repository private until all source license and provenance terms have been reviewed.
 
-The combined collection currently packages 177 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the plan to reach 500 by December 31, 2026. See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
+The combined collection currently packages 202 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the plan to reach 500 by December 31, 2026. See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
