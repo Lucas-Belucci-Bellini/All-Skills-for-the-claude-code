@@ -14,6 +14,9 @@ const skillsRoot = path.join(pluginRoot, "skills");
 const manifestPath = path.join(pluginRoot, ".claude-plugin", "plugin.json");
 const catalogPath = path.join(root, ".claude-plugin", "marketplace.json");
 const readmePath = path.join(pluginRoot, "README.md");
+const skillCatalogPath = path.join(root, "SKILL_LIBRARY_CATALOG.json");
+const skillCatalogMarkdownPath = path.join(root, "SKILL_LIBRARY_CATALOG.md");
+const growthRoadmapPath = path.join(root, "SKILL_GROWTH_ROADMAP.md");
 const skipDirs = new Set([".git", "node_modules", ".next", "coverage", "dist", "vendor"]);
 const generated = ["plugins/all-skills-collection/", "plugins/skill-library-maintainer/"];
 const slash = (v) => v.split(path.sep).join("/");
@@ -142,6 +145,107 @@ function diff(expected, actual) {
   for (const file of actual.keys()) if (!expected.has(file)) out.push("EXTRA " + file);
   return out;
 }
+
+const CURATED_CATEGORY_LABELS = {
+  "engine-runtime": "Engine architecture & runtime",
+  "simulation-world": "Simulation, NPCs & world history",
+  "networked-games": "Networked games & determinism",
+  "minecraft-modded-environments": "Minecraft & modpack engineering",
+  "rust-platform-engineering": "Rust & platform engineering",
+  "release-testing-operations": "Release, tests & repository quality",
+  "skill-library-governance": "Skill library governance",
+  "game-content-pipelines": "Game content & save systems",
+};
+function categoryForExistingSkill(n) {
+  if (n.startsWith("rea-") || n === "reverse-engineer-anything") return "Reverse engineering & artifact analysis";
+  if (/^discord-|^imessage-|^telegram-/.test(n)) return "Messaging integrations";
+  if (n === "m5-onboard" || n === "cardputer-buddy") return "Hardware & embedded devices";
+  if (n === "math-olympiad" || n === "siege" || n === "solo") return "Mathematics";
+  if (["frontend-design","directing-game-visuals","generating-dot-assets","styling-web-game-typography","building-era-authentic-game-audio","creating-godot-procedural-audio","designing-retro-arcade-sound-kits"].includes(n)) return "UI, art, audio & assets";
+  if (/game|gameplay|godot|unity|unreal|arcad|mini-game|crisp|retro|prototype|playground|screen-readability|intent-legibility|game-feel|turn-based|web-mini/.test(n)) return "Game design, engines & gameplay QA";
+  if (/agent|skill|plugin|hook|command|mcp|claude|dispatch|extract|gating|workflow|critiquing|example-|receipts|session-report|project-artifact|writing-rules/.test(n)) return "Agent workflows, Claude Code & MCP";
+  if (/rust|wasm|build|database|api|repository|event|security|report/.test(n)) return "Developer tooling, CI & security";
+  return "General utilities & productivity";
+}
+async function buildSkillCatalog(expected, previous) {
+  const sourceFiles = await listFiles(root);
+  const curatedPaths = sourceFiles.filter((p) => p.startsWith("curated-skill-sources/") && p.endsWith("/SKILL.md"));
+  const curatedByName = new Map();
+  for (const sourcePath of curatedPaths) {
+    const parts = sourcePath.split("/");
+    if (parts.length >= 4) curatedByName.set(parts[2], sourcePath);
+  }
+  const names = [...new Set([...expected.keys()]
+    .filter((p) => p.startsWith("skills/") && p.endsWith("/SKILL.md"))
+    .map((p) => p.split("/")[1]))].sort();
+  const skills = names.map((name) => {
+    const sourcePath = curatedByName.get(name) || null;
+    const folder = sourcePath ? sourcePath.split("/")[1] : null;
+    return {
+      name,
+      category: sourcePath ? (CURATED_CATEGORY_LABELS[folder] || "Curated: " + folder) : categoryForExistingSkill(name),
+      origin: sourcePath ? "new-authored" : "existing",
+      source_path: sourcePath,
+    };
+  }).sort((a, b) => a.category.localeCompare(b.category) || a.name.localeCompare(b.name));
+  const unchanged = previous && JSON.stringify(previous.skills) === JSON.stringify(skills);
+  const updatedAt = unchanged && previous.updated_at ? previous.updated_at : new Date().toISOString().slice(0, 10);
+  return {
+    schema_version: 1,
+    updated_at: updatedAt,
+    unique_skills: names.length,
+    target: 500,
+    remaining: Math.max(0, 500 - names.length),
+    source_policy: "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
+    skills,
+  };
+}
+function renderSkillCatalogMarkdown(data) {
+  const counts = new Map();
+  for (const skill of data.skills) counts.set(skill.category, (counts.get(skill.category) || 0) + 1);
+  const imported = data.skills.filter((s) => s.origin === "existing").length;
+  const authored = data.skills.filter((s) => s.origin === "new-authored").length;
+  const categories = [...counts.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([category, count]) => {
+    const items = data.skills.filter((s) => s.category === category)
+      .map((s) => "- " + s.name + (s.origin === "new-authored" ? " — NEW" : "")).join("\n");
+    return "### " + category + " (" + count + ")\n\n" + items;
+  }).join("\n\n");
+  return [
+    "# Skill Library Catalog",
+    "",
+    "Updated: " + data.updated_at + ". The unified bundle contains " + data.unique_skills + " distinct skills.",
+    "",
+    "## Inventory summary",
+    "",
+    "- Existing/imported skills retained: **" + imported + "**",
+    "- Original curated skills: **" + authored + "**",
+    "- Current total: **" + data.unique_skills + "**",
+    "- Target by 2026-12-31: **" + data.target + "**",
+    "- Remaining: **" + data.remaining + "**",
+    "",
+    "## Categories",
+    "",
+    categories,
+    "",
+    "## Source-of-truth rules",
+    "",
+    "- Each distinct skill is identified by its entrypoint and complete skill-local subtree, not merely by its name.",
+    "- Original skill source locations are preserved when bundled; new authored sources are organized under curated-skill-sources by category.",
+    "- The all-skills-collection plugin is generated output. Do not add new source skills only inside that generated directory.",
+    "- Keep third-party provenance, licenses, attribution, and required notices. A repository-level license does not automatically relicense imported content.",
+    "- Do not count placeholders, repeated aliases, or near-duplicates as additional skills.",
+    "- Regenerate and validate using the repository sync script before completing a skills batch.",
+    "",
+  ].join("\n");
+}
+function updateRoadmapCount(content, total) {
+  const line = "Current unique count: " + total + "; remaining to target: " + Math.max(0, 500 - total) + ".";
+  if (/Current unique count: \d+; remaining to target: \d+\./.test(content)) {
+    return content.replace(/Current unique count: \d+; remaining to target: \d+\./, line);
+  }
+  return content.replace(/^(#.*\n)/, "$1\n" + line + "\n");
+}
+
 function bump(version) {
   const m = /^(\d+)\.(\d+)\.(\d+)$/.exec(version || "");
   if (!m) throw new Error("Invalid semantic version: " + version);
@@ -198,6 +302,16 @@ async function main() {
     if (!String(plugin.description || "").includes(expectedCountText)) changes.push("Plugin manifest description count should be " + skillCount);
     if (entry && !String(entry.description || "").includes(expectedCountText)) changes.push("Marketplace description count should be " + skillCount);
     if (!rootReadme.includes("currently packages " + expectedCountText)) changes.push("Root README skill count should be " + skillCount);
+    const currentLibraryCatalog = JSON.parse(await fs.readFile(skillCatalogPath, "utf8"));
+    const expectedLibraryCatalog = await buildSkillCatalog(expected, currentLibraryCatalog);
+    if (currentLibraryCatalog.unique_skills !== skillCount) changes.push("SKILL_LIBRARY_CATALOG.json count should be " + skillCount);
+    if (JSON.stringify(currentLibraryCatalog.skills) !== JSON.stringify(expectedLibraryCatalog.skills)) changes.push("SKILL_LIBRARY_CATALOG.json skill inventory/categories are stale");
+    const currentCatalogMarkdown = (await fs.readFile(skillCatalogMarkdownPath, "utf8")).replace(/^Updated: \d{4}-\d{2}-\d{2}\./m, "Updated: <DATE>.");
+    const expectedCatalogMarkdown = renderSkillCatalogMarkdown(expectedLibraryCatalog).replace(/^Updated: \d{4}-\d{2}-\d{2}\./m, "Updated: <DATE>.");
+    if (currentCatalogMarkdown !== expectedCatalogMarkdown) changes.push("SKILL_LIBRARY_CATALOG.md is stale");
+    const roadmap = await fs.readFile(growthRoadmapPath, "utf8");
+    const expectedRoadmapLine = "Current unique count: " + skillCount + "; remaining to target: " + Math.max(0, 500 - skillCount) + ".";
+    if (!roadmap.includes(expectedRoadmapLine)) changes.push("SKILL_GROWTH_ROADMAP.md count should be updated to " + skillCount);
     if (changes.length) {
       console.log(changes.slice(0, 100).join("\n"));
       console.error("FAILED: " + changes.length + " discrepancy(s).");
@@ -222,6 +336,12 @@ async function main() {
   const rootReadme = (await fs.readFile(path.join(root, "README.md"), "utf8"))
     .replace(/currently packages \d+ distinct skills/g, "currently packages " + skillCount + " distinct skills");
   await writeAtomic(path.join(root, "README.md"), rootReadme);
+  const priorLibraryCatalog = await fs.readFile(skillCatalogPath, "utf8").then((v) => JSON.parse(v)).catch(() => null);
+  const libraryCatalog = await buildSkillCatalog(expected, priorLibraryCatalog);
+  await writeAtomic(skillCatalogPath, JSON.stringify(libraryCatalog, null, 2) + "\n");
+  await writeAtomic(skillCatalogMarkdownPath, renderSkillCatalogMarkdown(libraryCatalog));
+  const roadmap = await fs.readFile(growthRoadmapPath, "utf8");
+  await writeAtomic(growthRoadmapPath, updateRoadmapCount(roadmap, skillCount));
   console.log("Wrote " + skillCount + " distinct skills (" + expected.size + " files), plugin version " + nextVersion + ".");
 }
 main().catch((error) => { console.error("sync-skill-bundles: " + (error.stack || String(error))); process.exitCode = 1; });

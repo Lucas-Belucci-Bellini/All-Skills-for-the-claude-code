@@ -1,11 +1,16 @@
 # Skill Library Maintainer
 
-This plugin guides safe refreshes of the unified skills collection after new skill batches arrive.
+A maintenance plugin for the private combined skill collection and its 500-skill target.
 
-1. Inspect the default branch, git status, and any open pull request.
-2. Keep each skill's references, scripts, assets, templates, examples, and applicable license notices.
-3. Run `node tools/sync-skill-bundles.mjs --write`, then `node tools/sync-skill-bundles.mjs --check` from the repository root.
-4. Review changes and test the generated payload before opening/updating a PR.
-5. Never merge or publish automatically.
+- /update-skill-library regenerates and validates the unified bundle after a new source batch.
+- /audit-skill-library audits counts, categories, duplicate candidates, metadata, support files and provenance blockers.
 
-The script is included here as a reference and is also tracked at the repository root. Pass `--repo PATH` when the checkout is not the current working directory.
+## Routine
+
+1. Inspect the default branch and open pull requests before changes.
+2. Add authored skills under curated-skill-sources/<category>/<name>/SKILL.md. Preserve source attribution/license notices for imported content.
+3. Run the bundle sync script in write mode and then check mode.
+4. Update SKILL_LIBRARY_CATALOG.md, SKILL_LIBRARY_CATALOG.json and SKILL_GROWTH_ROADMAP.md in the same branch.
+5. Verify the unique count is based on complete deduplicated subtrees, review the diff and open a PR. Never merge or publish automatically.
+
+A skill count is not a quality metric by itself. Do not count placeholders, duplicate aliases, or entries without actionable workflow and validation.

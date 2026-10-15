@@ -106,3 +106,5 @@ This repository also maintains a private, unified Claude Code plugin that gather
 - [Source refresh script](tools/sync-skill-bundles.mjs)
 
 After adding a new skill batch, run `node tools/sync-skill-bundles.mjs --write`, review the diff, then validate with `node tools/sync-skill-bundles.mjs --check`. Updates should go through a feature branch and pull request. Keep this repository private until all source license and provenance terms have been reviewed.
+
+The combined collection currently packages 176 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the plan to reach 500 by December 31, 2026.

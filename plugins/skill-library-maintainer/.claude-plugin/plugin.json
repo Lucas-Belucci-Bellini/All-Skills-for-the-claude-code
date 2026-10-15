@@ -1,7 +1,7 @@
 {
   "name": "skill-library-maintainer",
-  "version": "1.0.0",
-  "description": "Maintains, deduplicates, validates, and refreshes the unified skills collection from repository sources.",
+  "version": "1.1.0",
+  "description": "Maintains, deduplicates, categorizes, validates, and refreshes the unified skills collection from repository sources.",
   "author": {
     "name": "Lucas-Belucci-Bellini"
   },
@@ -11,6 +11,8 @@
     "skill-library",
     "deduplication",
     "validation",
-    "claude-code"
+    "claude-code",
+    "catalog",
+    "roadmap"
   ]
 }

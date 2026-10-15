@@ -1,35 +1,27 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **126 distinct skills** from this repository and preserving skill-local supporting files. Add new skills to the repository's source directories, then regenerate this payload; do not edit generated skill copies by hand.
+A generated plugin containing **176 distinct skills**, including a new authored batch for engine/Rust, voxel and procedural world generation, NPCs and simulation, multiplayer, Minecraft modpack reliability, release engineering, game-content pipelines and skill-library governance. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
-In Claude Code:
+In Claude Code, add this private repository as a marketplace and install all-skills-collection. The account installing it must have repository access.
 
-```text
-/plugin marketplace add Lucas-Belucci-Bellini/All-Skills-for-the-claude-code
-/plugin install all-skills-collection@all-skills-for-the-claude-code
-```
+## Inventory and growth plan
 
-The repository is private, so the installing GitHub/Claude Code identity must have access.
+- Full inventory: SKILL_LIBRARY_CATALOG.md
+- Machine-readable inventory: SKILL_LIBRARY_CATALOG.json
+- Roadmap to 500 by December 31, 2026: SKILL_GROWTH_ROADMAP.md
+- Canonical authored sources: curated-skill-sources/README.md
 
-## Included
+## Refresh after new skills
 
-REA and reverse engineering; game design, Godot, Unity, Unreal and web games; gameplay testing; Claude Code plugin/agent/hook/command development; MCP server/app development; security; frontend design; mathematics; hardware onboarding; and messaging integration skills. Skill-local references, scripts, assets, templates, examples, and applicable license files are preserved.
+From the repository root run the commands below, review the diff, and open a pull request.
 
-## Update after a new batch
+    node tools/sync-skill-bundles.mjs --write
+    node tools/sync-skill-bundles.mjs --check
 
-From the repository root, run:
-
-```bash
-node tools/sync-skill-bundles.mjs --write
-node tools/sync-skill-bundles.mjs --check
-```
-
-The sync script deduplicates identical subtrees, namespaces genuine name collisions, preserves executable modes, updates the unified plugin's version/catalog entry, and refuses an empty collection. Review and validate the diff on a feature branch and PR; the script does not merge or publish.
-
-Use the separate **Skill Library Maintainer** plugin for the maintenance workflow.
+The sync script removes identical skill subtrees from the output, namespaces real naming collisions, preserves executable modes, updates the bundle version/catalog and refuses an empty collection. It does not merge or publish.
 
 ## Limits and provenance
 
-This bundle includes skill entrypoints and files local to each skill. It does not automatically include every upstream plugin's agents, slash commands, hooks, MCP server implementation, or runtime dependencies. Keep the repo private until the third-party licensing/provenance audit is complete.
+This bundle includes skill entrypoints and skill-local files. It does not automatically include every upstream plugin's agents, slash commands, hooks, MCP server implementation or runtime dependencies. Keep the repository private until third-party provenance and redistribution terms have been reviewed.
