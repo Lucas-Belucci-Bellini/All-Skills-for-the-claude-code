@@ -1,6 +1,6 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **202 distinct skills**, with authored workflows across Rust/engine runtime, voxel determinism, NPC simulation, modded Minecraft operations, MCP security, native/WASM parity, API contracts, Supabase RLS and skill-quality testing. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
+A generated plugin containing **250 distinct skills**, with authored workflows across engine runtime, rendering, NPC/economy simulation, multiplayer, Minecraft operations, Rust/FFI, release security, agent guardrails and game-content quality. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
