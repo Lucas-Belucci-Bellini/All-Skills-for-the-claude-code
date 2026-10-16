@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-15. The unified bundle contains 300 distinct skills.
+Updated: 2026-10-15. The unified bundle contains 325 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **174**
-- Current total: **300**
+- Original curated skills: **199**
+- Current total: **325**
 - Target by 2026-12-31: **500**
-- Remaining: **200**
+- Remaining: **175**
 
 ## Categories
 
@@ -59,7 +59,7 @@ Updated: 2026-10-15. The unified bundle contains 300 distinct skills.
 - repository-instruction-conflict-resolution — NEW
 - tool-call-budget-policy — NEW
 
-### Engine architecture & runtime (34)
+### Engine architecture & runtime (50)
 
 - asset-pipeline-provenance — NEW
 - cross-platform-engine-build-matrix — NEW
@@ -84,22 +84,40 @@ Updated: 2026-10-15. The unified bundle contains 300 distinct skills.
 - engine-subsystem-lifecycle-order — NEW
 - engine-world-origin-rebasing — NEW
 - game-mod-api-versioning — NEW
+- gpu-resource-lifetime-audit — NEW
+- gpu-upload-staging-ring — NEW
+- mesh-geometry-attribute-contract — NEW
+- physics-contact-resolution-regression — NEW
+- physics-fixed-step-stability — NEW
 - physics-simulation-validation — NEW
 - procedural-world-generation-pipeline — NEW
+- render-graph-dependency-validation — NEW
+- render-pass-state-transition — NEW
+- render-target-format-capability — NEW
+- renderer-frame-capture-triage — NEW
 - rendering-abstraction-design — NEW
 - rust-data-oriented-ecs-design — NEW
 - rust-game-loop-architecture — NEW
 - rust-unsafe-boundary-audit — NEW
 - save-schema-migration — NEW
 - shader-render-pipeline-debugging — NEW
+- shader-variant-budget — NEW
+- visibility-culling-correctness — NEW
 - voxel-chunk-lifecycle — NEW
 - voxel-meshing-optimization — NEW
+- voxel-meshing-seam-validation — NEW
 - voxel-seed-reproducibility — NEW
+- world-chunk-lifecycle-invariants — NEW
+- world-chunk-streaming-state-machine — NEW
+- world-coordinate-overflow-audit — NEW
+- worldgen-deterministic-seed-contract — NEW
 
-### Game content & save systems (18)
+### Game content & save systems (22)
 
 - animation-event-timing-audit — NEW
 - animation-state-machine-audit — NEW
+- asset-bundle-content-addressing — NEW
+- asset-dependency-cycle-detection — NEW
 - asset-import-validation — NEW
 - audio-mix-loudness-budget — NEW
 - dialogue-branch-continuity-audit — NEW
@@ -112,9 +130,11 @@ Updated: 2026-10-15. The unified bundle contains 300 distinct skills.
 - procedural-content-regression-testing — NEW
 - procedural-level-pacing-validation — NEW
 - save-format-compatibility-fixtures — NEW
+- texture-mipmap-import-validation — NEW
 - tutorial-onboarding-progression-audit — NEW
 - ui-state-transition-invariant-testing — NEW
 - world-content-pipeline — NEW
+- world-region-serialization-contract — NEW
 - worldgen-biome-distribution-analysis — NEW
 
 ### Game design, engines & gameplay QA (27)
@@ -295,7 +315,7 @@ Updated: 2026-10-15. The unified bundle contains 300 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (17)
+### Rust & platform engineering (22)
 
 - native-wasm-behavior-parity — NEW
 - rust-allocator-memory-profiling — NEW
@@ -305,12 +325,17 @@ Updated: 2026-10-15. The unified bundle contains 300 distinct skills.
 - rust-async-runtime-diagnostics — NEW
 - rust-async-task-supervision — NEW
 - rust-binary-size-budget — NEW
+- rust-borrow-scope-performance — NEW
+- rust-channel-backpressure — NEW
 - rust-crate-boundary-audit — NEW
+- rust-crate-feature-budget — NEW
 - rust-crate-public-api-surface — NEW
 - rust-cross-compilation-validation — NEW
 - rust-ffi-resource-ownership — NEW
 - rust-lock-contention-profile — NEW
 - rust-proc-macro-diagnostics — NEW
+- rust-profile-guided-optimization — NEW
+- rust-shared-state-lock-elimination — NEW
 - rust-test-fixture-isolation — NEW
 - rust-workspace-feature-matrix — NEW
 - wasm-native-performance-comparison — NEW
@@ -359,12 +384,3 @@ Updated: 2026-10-15. The unified bundle contains 300 distinct skills.
 - frontend-design
 - generating-dot-assets
 - styling-web-game-typography
-
-## Source-of-truth rules
-
-- Each distinct skill is identified by its entrypoint and complete skill-local subtree, not merely by its name.
-- Original skill source locations are preserved when bundled; new authored sources are organized under curated-skill-sources by category.
-- The all-skills-collection plugin is generated output. Do not add new source skills only inside that generated directory.
-- Keep third-party provenance, licenses, attribution, and required notices. A repository-level license does not automatically relicense imported content.
-- Do not count placeholders, repeated aliases, or near-duplicates as additional skills.
-- Regenerate and validate using the repository sync script before completing a skills batch.
