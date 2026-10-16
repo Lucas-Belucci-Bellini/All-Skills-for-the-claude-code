@@ -1,33 +1,32 @@
 # Roadmap to 500 distinct skills by December 31, 2026
 
-Current unique count: 400; remaining to target: 100.
+Current unique count: 425; remaining to target: 75.
 
-Baseline date: 2026-10-16. The collection contains 400 distinct skills: the original 126-skill bundle and 274 authored skills. This milestone adds 25 skills for scheduler deadlines, runtime observability/configuration, task dependency and shutdown diagnostics, simulation fairness/backlog controls, and reproducible runtime evidence. The 500-skill target leaves 100 net-new skills.
+Baseline date: 2026-10-16. The collection contains 425 distinct skills: the original 126-skill bundle and 299 authored skills. This milestone adds 25 skills for runtime integration/fault testing, queue and workload observability, engine allocation and stall diagnostics, simulation scale/backpressure, Rust build/lifecycle contracts and release evidence. The 500-skill target leaves 75 net-new skills.
 
 ## Milestones
 
 | Checkpoint | Target total | Status / additions | Focus |
 |---|---:|---|---|
-| 2026-10-16 | 400 | Achieved early; +25 in this milestone | Runtime instrumentation, scheduler fairness/deadlines, simulation backlog controls, and reproducible crash/build evidence |
-| 2026-10-31 | 425 | +25 planned | Bounded background work, runtime integration tests, memory/queue observability and release diagnostics |
-| 2026-11-15 | 450 | +25 planned | Simulation, multiplayer determinism, NPC/economy validation and platform correctness |
-| 2026-11-30 | 475 | +25 planned | API/data/security contracts, build/release automation, plugin/MCP governance and modpack diagnostics |
+| 2026-10-16 | 425 | Achieved early; +25 in this milestone | Runtime integration tests, queue/memory observability, simulation overload, Rust build/lifecycle and release-evidence controls |
+| 2026-10-31 | 450 | +25 planned | Simulation and multiplayer correctness, runtime robustness, asset/save integration and package diagnostics |
+| 2026-11-15 | 475 | +25 planned | API/data/security contracts, CI/build/release automation, plugin/MCP quality and modpack diagnostics |
 | 2026-12-31 | 500 | +25 planned | Close verified gaps, remove redundancy, test triggers, validate package and freeze catalog |
 
 ## Remaining skill budget after this batch
 
 | Domain | Planned additions | Examples |
 |---|---:|---|
-| Engine and Rust engine design | 15 | scheduler internals, resource lifetimes, world coordinates and runtime profiling |
-| World simulation, NPCs and economies | 15 | fairness, lifecycle, pathfinding, migration and resource-flow invariants |
-| Game content and quality | 12 | import/build validation, procedural distributions, save recovery and soak tests |
-| Language and platform engineering | 15 | Rust API stability, async/concurrency, builds and native/WASM parity |
-| Build, CI, release and security | 10 | crash evidence, provenance, rollback, observability and incident response |
-| Agents, plugins, MCP and skill quality | 8 | memory policy, approval gates, tool budgets, evals and workflow regression |
-| Reverse engineering and evidence | 12 | additional artifact families, differential analysis and evidence provenance |
+| Engine and Rust engine design | 12 | scheduler internals, resource lifetimes, world coordinates and runtime profiling |
+| World simulation, NPCs and economies | 10 | fairness, lifecycle, pathfinding, migration and resource-flow invariants |
+| Game content and quality | 9 | import/build validation, procedural distributions, save recovery and soak tests |
+| Language and platform engineering | 10 | Rust API stability, async/concurrency, builds and native/WASM parity |
+| Build, CI, release and security | 12 | rollback, provenance, observability, environment parity and incident response |
+| Agents, plugins, MCP and skill quality | 6 | memory policy, approval gates, tool budgets, evals and workflow regression |
+| Reverse engineering and evidence | 8 | additional artifact families, differential analysis and evidence provenance |
 | Minecraft, modding and server operations | 3 | loader compatibility, pack release and server diagnostics |
-| APIs, data, backend and frontend | 10 | SQL plans, pagination, tenancy, caching, forms and API evolution |
-| Total remaining | 100 | 500 total when added to the current 400 |
+| APIs, data, backend and frontend | 5 | SQL plans, pagination, tenancy, caching, forms and API evolution |
+| Total remaining | 75 | 500 total when added to the current 425 |
 
 ## Quality gate for every skill
 
