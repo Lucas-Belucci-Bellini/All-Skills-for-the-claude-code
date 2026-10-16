@@ -245,10 +245,10 @@ function updateRoadmapCount(content, total, authored, retained) {
   let next = content;
   const inventoryLine = "**Current draft inventory:** " + total.toLocaleString("en-US") + " distinct skills (" + authored.toLocaleString("en-US") + " authored + " + retained.toLocaleString("en-US") + " retained/imported)";
   const remainingLine = "**Remaining to long-term target:** " + remaining.toLocaleString("en-US");
-  if (!/^\\*\\*Current draft inventory:\\*\\*.*$/m.test(next)) throw new Error("Roadmap is missing the current draft inventory line.");
-  if (!/^\\*\\*Remaining to long-term target:\\*\\*.*$/m.test(next)) throw new Error("Roadmap is missing the long-term remaining line.");
-  next = next.replace(/^\\*\\*Current draft inventory:\\*\\*.*$/m, inventoryLine);
-  next = next.replace(/^\\*\\*Remaining to long-term target:\\*\\*.*$/m, remainingLine);
+  if (!/^\*\*Current draft inventory:\*\*.*$/m.test(next)) throw new Error("Roadmap is missing the current draft inventory line.");
+  if (!/^\*\*Remaining to long-term target:\*\*.*$/m.test(next)) throw new Error("Roadmap is missing the long-term remaining line.");
+  next = next.replace(/^\*\*Current draft inventory:\*\*.*$/m, inventoryLine);
+  next = next.replace(/^\*\*Remaining to long-term target:\*\*.*$/m, remainingLine);
   return next;
 }
 
