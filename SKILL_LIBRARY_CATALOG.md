@@ -298,9 +298,9 @@ Updated: 2026-10-16. The unified bundle contains 550 distinct skills.
 - minecraft-mod-optional-dependency-boundary-audit — NEW
 - minecraft-modpack-clean-install-smoke-test — NEW
 - minecraft-modpack-config-origin-traceability — NEW
-- minecraft-modpack-launcher-profile-contract — NEW
 - minecraft-modpack-repro-issue-bundle — NEW
 - minecraft-server-backup-restore-drill — NEW
+- minecraft-server-command-permission-boundary-audit — NEW
 - minecraft-server-performance-change-benchmark — NEW
 - minecraft-server-tick-profiling — NEW
 - minecraft-server-update-preflight-gate — NEW

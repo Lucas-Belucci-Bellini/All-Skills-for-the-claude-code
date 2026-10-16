@@ -1513,12 +1513,6 @@
       "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-modpack-config-origin-traceability/SKILL.md"
     },
     {
-      "name": "minecraft-modpack-launcher-profile-contract",
-      "category": "Minecraft & modpack engineering",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-modpack-launcher-profile-contract/SKILL.md"
-    },
-    {
       "name": "minecraft-modpack-repro-issue-bundle",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
@@ -1529,6 +1523,12 @@
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-server-backup-restore-drill/SKILL.md"
+    },
+    {
+      "name": "minecraft-server-command-permission-boundary-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-server-command-permission-boundary-audit/SKILL.md"
     },
     {
       "name": "minecraft-server-performance-change-benchmark",
