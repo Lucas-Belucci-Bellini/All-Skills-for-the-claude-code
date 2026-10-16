@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 600 distinct skills.
+Updated: 2026-10-16. The unified bundle contains 850 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **474**
-- Current total: **600**
+- Original curated skills: **724**
+- Current total: **850**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,900**
+- Remaining to long-term target: **1,650**
 
 ## Categories
 
@@ -22,6 +22,84 @@ Updated: 2026-10-16. The unified bundle contains 600 distinct skills.
 - keyboard-shortcut-conflict-inventory — NEW
 - reduced-motion-interaction-equivalence — NEW
 - zoom-reflow-overflow-audit — NEW
+
+### AERIS-10 radar and embedded-systems engineering (75)
+
+- radar-adc-channel-map-consistency — NEW
+- radar-antenna-simulated-measurement-parity — NEW
+- radar-array-element-coordinate-contract — NEW
+- radar-baseband-decimation-alias-rejection — NEW
+- radar-bom-footprint-source-consistency — NEW
+- radar-build-artifact-quarantine-policy — NEW
+- radar-calibration-record-provenance — NEW
+- radar-cfar-threshold-synthetic-noise-validation — NEW
+- radar-chirp-frequency-table-integrity — NEW
+- radar-cic-filter-growth-and-rounding — NEW
+- radar-clock-reference-tree-consistency — NEW
+- radar-command-acknowledgment-timeout — NEW
+- radar-cross-layer-invariant-test-plan — NEW
+- radar-design-file-cad-tool-version-audit — NEW
+- radar-dma-capture-length-contract — NEW
+- radar-docs-cross-layer-traceability — NEW
+- radar-doppler-fft-axis-contract — NEW
+- radar-fan-control-hysteresis-validation — NEW
+- radar-fir-coefficient-quantization — NEW
+- radar-firmware-version-skew-matrix — NEW
+- radar-fpga-buffer-overrun-check — NEW
+- radar-fpga-clock-domain-boundary-audit — NEW
+- radar-fpga-cosim-reference-alignment — NEW
+- radar-fpga-fixed-point-range-proof — NEW
+- radar-fpga-interface-version-compatibility — NEW
+- radar-fpga-resource-budget-review — NEW
+- radar-frequency-synth-config-review — NEW
+- radar-gerber-generation-provenance — NEW
+- radar-gps-imu-stale-data-interlock — NEW
+- radar-gui-map-coordinate-frame-audit — NEW
+- radar-hal-null-failure-behavior — NEW
+- radar-hardware-source-license-compliance — NEW
+- radar-hardware-version-variant-separation — NEW
+- radar-i2c-address-collision-audit — NEW
+- radar-idq-calibration-sanity-check — NEW
+- radar-iq-component-normalization — NEW
+- radar-lfm-waveform-shape-validation — NEW
+- radar-live-data-vs-synthetic-fixture-labeling — NEW
+- radar-logging-no-sensitive-data-contract — NEW
+- radar-matched-filter-latency-alignment — NEW
+- radar-mcu-host-unit-test-shims — NEW
+- radar-mti-stationary-baseline-regression — NEW
+- radar-multisegment-waveform-state-contract — NEW
+- radar-pcb-impedance-note-traceability — NEW
+- radar-peripheral-initialization-order — NEW
+- radar-power-amplifier-thermal-envelope — NEW
+- radar-pulse-compression-reference-fixtures — NEW
+- radar-python-config-versioning — NEW
+- radar-python-gui-offline-fixtures — NEW
+- radar-rail-emergency-stop-ordering — NEW
+- radar-raw-capture-clipping-detection — NEW
+- radar-reconstruction-filter-response — NEW
+- radar-replay-csv-schema-validation — NEW
+- radar-rf-emissions-compliance-preflight — NEW
+- radar-rf-switch-state-safety — NEW
+- radar-rtl-opcode-source-of-truth — NEW
+- radar-rtl-reset-default-contract — NEW
+- radar-safe-rf-lab-test-conditions — NEW
+- radar-sample-width-signedness-audit — NEW
+- radar-schematic-netlist-consistency — NEW
+- radar-signal-processing-units-and-dB-audit — NEW
+- radar-simulator-vs-hardware-claim-boundary — NEW
+- radar-spi-chip-select-transaction-contract — NEW
+- radar-stepper-motion-limit-contract — NEW
+- radar-stm32-power-up-state-machine — NEW
+- radar-stream-ready-valid-invariant — NEW
+- radar-synthesis-constraint-coverage — NEW
+- radar-synthetic-detection-fixture-governance — NEW
+- radar-system-health-state-model — NEW
+- radar-testbench-mid-operation-reset — NEW
+- radar-thermal-watchdog-response-tests — NEW
+- radar-timing-closure-evidence — NEW
+- radar-uart-and-gps-parser-boundary-tests — NEW
+- radar-vg-dac-range-and-limit-validation — NEW
+- radar-waveguide-geometry-parametric-validation — NEW
 
 ### Agent workflows, Claude Code & MCP (28)
 
@@ -204,6 +282,134 @@ Updated: 2026-10-16. The unified bundle contains 600 distinct skills.
 - worldgen-deterministic-seed-contract — NEW
 - worldgen-feature-overlap-validation — NEW
 
+### Flipper Zero firmware and hardware engineering (125)
+
+- flipper-adc-measurement-unit-contract — NEW
+- flipper-app-accessibility-key-contrast — NEW
+- flipper-app-asset-bundle-path-validation — NEW
+- flipper-app-back-navigation-invariant — NEW
+- flipper-app-crash-repro-test-minimization — NEW
+- flipper-app-foreground-background-transition — NEW
+- flipper-app-manifest-dependency-contract — NEW
+- flipper-app-menu-registration-integrity — NEW
+- flipper-app-scene-transition-table — NEW
+- flipper-app-settings-migration — NEW
+- flipper-app-startup-rollback — NEW
+- flipper-battery-telemetry-range-validation — NEW
+- flipper-ble-pairing-state-machine — NEW
+- flipper-ble-reconnect-stale-session — NEW
+- flipper-bootloader-firmware-integrity-preflight — NEW
+- flipper-brownout-recovery-state-contract — NEW
+- flipper-bt-profile-version-matrix — NEW
+- flipper-build-cache-staleness-audit — NEW
+- flipper-build-config-reproducibility — NEW
+- flipper-build-failure-triage-taxonomy — NEW
+- flipper-ci-test-shard-determinism — NEW
+- flipper-ci-workflow-dependency-contract — NEW
+- flipper-cli-input-quoting-and-length-guard — NEW
+- flipper-compact-build-compatibility — NEW
+- flipper-devboard-serial-debug-guardrails — NEW
+- flipper-dma-alignment-and-cache-policy — NEW
+- flipper-documentation-api-drift-audit — NEW
+- flipper-expansion-module-api-compatibility — NEW
+- flipper-exported-config-secret-redaction — NEW
+- flipper-fbt-target-selection-contract — NEW
+- flipper-file-format-versioning-contract — NEW
+- flipper-file-parser-fuzz-fixture-plan — NEW
+- flipper-firmware-artifact-manifest — NEW
+- flipper-firmware-update-version-skew-audit — NEW
+- flipper-freertos-stack-budget-validation — NEW
+- flipper-furi-cancellation-and-unwind — NEW
+- flipper-furi-cli-command-concurrency — NEW
+- flipper-furi-event-loop-owner-thread — NEW
+- flipper-furi-heap-allocation-audit — NEW
+- flipper-furi-logger-rate-budget — NEW
+- flipper-furi-message-queue-overflow-policy — NEW
+- flipper-furi-mutex-lock-order-review — NEW
+- flipper-furi-notification-resource-lifetime — NEW
+- flipper-furi-panic-error-path-contract — NEW
+- flipper-furi-queue-shutdown-drain — NEW
+- flipper-furi-record-service-ownership — NEW
+- flipper-furi-stream-buffer-bounds — NEW
+- flipper-furi-thread-lifecycle-contract — NEW
+- flipper-furi-timer-callback-lifetime — NEW
+- flipper-generated-asset-provenance — NEW
+- flipper-gpio-mode-transition-validation — NEW
+- flipper-gpio-pin-ownership-audit — NEW
+- flipper-gui-draw-callback-budget — NEW
+- flipper-gui-input-event-order — NEW
+- flipper-gui-view-lifecycle-cleanup — NEW
+- flipper-gui-widget-model-view-separation — NEW
+- flipper-hal-fault-injection-with-mocks — NEW
+- flipper-hardware-bench-current-limit-checklist — NEW
+- flipper-hardware-revision-pin-map-matrix — NEW
+- flipper-hid-event-permission-boundary — NEW
+- flipper-hid-lab-demo-safety-review — NEW
+- flipper-host-tool-version-preflight — NEW
+- flipper-i2c-bus-arbitration-timeout — NEW
+- flipper-i2c-register-endianness-contract — NEW
+- flipper-ibutton-file-format-validation — NEW
+- flipper-ibutton-read-write-state-safety — NEW
+- flipper-infrared-command-file-validation — NEW
+- flipper-infrared-library-attribution-check — NEW
+- flipper-input-parser-fuzz-corpus-maintenance — NEW
+- flipper-interrupt-context-api-safety — NEW
+- flipper-issue-to-regression-test-traceability — NEW
+- flipper-js-app-runtime-lifecycle — NEW
+- flipper-js-event-loop-backpressure — NEW
+- flipper-js-gpio-authorization-and-bounds — NEW
+- flipper-js-gui-binding-leak-audit — NEW
+- flipper-js-heap-pressure-and-script-budget — NEW
+- flipper-js-module-registration-contract — NEW
+- flipper-js-package-api-version-matrix — NEW
+- flipper-js-sdk-example-executability — NEW
+- flipper-js-serial-transport-framing-tests — NEW
+- flipper-js-storage-path-restrictions — NEW
+- flipper-lfrfid-file-parser-invariants — NEW
+- flipper-lfrfid-operations-consent-policy — NEW
+- flipper-license-and-third-party-notice-check — NEW
+- flipper-linker-size-budget-regression — NEW
+- flipper-localization-resource-completeness — NEW
+- flipper-low-power-state-transition — NEW
+- flipper-nfc-file-format-roundtrip — NEW
+- flipper-nfc-protocol-parser-malformed-input — NEW
+- flipper-nfc-reader-authorization-boundary — NEW
+- flipper-nfc-secret-material-redaction — NEW
+- flipper-ota-update-rollback-resilience — NEW
+- flipper-pwm-timer-channel-conflict — NEW
+- flipper-radio-emulation-lab-only-check — NEW
+- flipper-release-notes-source-traceability — NEW
+- flipper-release-version-metadata-sync — NEW
+- flipper-rpc-client-authentication-boundary — NEW
+- flipper-rpc-message-schema-compatibility — NEW
+- flipper-scons-environment-isolation — NEW
+- flipper-sd-card-removal-race — NEW
+- flipper-security-update-impact-matrix — NEW
+- flipper-shutdown-resource-ordering — NEW
+- flipper-spi-dma-buffer-lifetime — NEW
+- flipper-spi-transaction-boundary-test — NEW
+- flipper-static-analysis-warning-triage — NEW
+- flipper-storage-atomic-save-and-recovery — NEW
+- flipper-storage-migration-backup-policy — NEW
+- flipper-storage-path-sandbox-validation — NEW
+- flipper-subghz-file-parser-conformance — NEW
+- flipper-subghz-protocol-metadata-boundary — NEW
+- flipper-subghz-region-and-frequency-config-guard — NEW
+- flipper-subghz-transmit-consent-interlock — NEW
+- flipper-submodule-check-integrity — NEW
+- flipper-tar-heatshrink-decompression-bounds — NEW
+- flipper-target-board-variant-coverage — NEW
+- flipper-temperature-threshold-hysteresis — NEW
+- flipper-third-party-dependency-license-audit — NEW
+- flipper-translation-resource-schema-check — NEW
+- flipper-transport-frame-size-and-integrity — NEW
+- flipper-uart-protocol-framing-qa — NEW
+- flipper-uart-ring-buffer-overflow — NEW
+- flipper-unit-test-boundary-mocks — NEW
+- flipper-usb-descriptor-regression — NEW
+- flipper-usb-host-compatibility-fixtures — NEW
+- flipper-usb-rpc-transport-timeout — NEW
+
 ### Game content & save systems (30)
 
 - animation-event-timing-audit — NEW
@@ -364,6 +570,59 @@ Updated: 2026-10-16. The unified bundle contains 600 distinct skills.
 - network-protocol-versioning — NEW
 - replication-interest-management — NEW
 - rollback-netcode-state-coverage — NEW
+
+### OSIRIS intelligence platform engineering (50)
+
+- osiris-active-fire-feed-provenance — NEW
+- osiris-agent-evidence-vs-narrative-contract — NEW
+- osiris-api-response-size-guard — NEW
+- osiris-camera-snapshot-stream-honesty — NEW
+- osiris-cctv-export-region-geojson-contract — NEW
+- osiris-cctv-frame-proxy-cache-and-headers — NEW
+- osiris-cctv-region-adapter-fixtures — NEW
+- osiris-conflict-zone-report-sensitivity — NEW
+- osiris-crypto-observation-source-provenance — NEW
+- osiris-cve-feed-schema-and-severity-audit — NEW
+- osiris-cyber-event-dedup-source-lineage — NEW
+- osiris-dns-whois-parser-boundaries — NEW
+- osiris-docker-env-and-port-hardening — NEW
+- osiris-earthquake-feed-freshness — NEW
+- osiris-env-secret-boundary-audit — NEW
+- osiris-flight-feed-adapter-contract — NEW
+- osiris-forecast-calibration-backtest — NEW
+- osiris-forecast-scenario-assumption-boundary — NEW
+- osiris-forecast-source-citation-completeness — NEW
+- osiris-geo-query-privacy-minimization — NEW
+- osiris-global-news-rss-source-attribution — NEW
+- osiris-live-layer-demand-fetch-contract — NEW
+- osiris-llm-provider-key-client-boundary — NEW
+- osiris-llm-user-document-injection-isolation — NEW
+- osiris-map-entity-budget-regression — NEW
+- osiris-map-source-region-fallback — NEW
+- osiris-map-style-and-state-restoration — NEW
+- osiris-maritime-feed-source-identity — NEW
+- osiris-mcp-prediction-run-isolation — NEW
+- osiris-mcp-tool-permission-boundary — NEW
+- osiris-nextjs-api-route-contract-validation — NEW
+- osiris-offline-vs-live-test-separation — NEW
+- osiris-oi-run-repro-manifest — NEW
+- osiris-open-redirect-and-url-fetch-guard — NEW
+- osiris-provider-error-taxonomy — NEW
+- osiris-public-cctv-inventory-conformance — NEW
+- osiris-sanctions-match-false-positive-review — NEW
+- osiris-scanner-authorized-scope-gate — NEW
+- osiris-scanner-fingerprint-evidence-bounds — NEW
+- osiris-scanner-port-result-minimization — NEW
+- osiris-scanner-rate-budget-audit — NEW
+- osiris-scanner-target-allowlist-contract — NEW
+- osiris-server-side-token-redaction — NEW
+- osiris-sse-disconnect-cleanup — NEW
+- osiris-sse-run-event-ordering — NEW
+- osiris-stale-cache-preservation — NEW
+- osiris-static-intel-expiry-review — NEW
+- osiris-telegram-public-channel-limit-review — NEW
+- osiris-threat-feed-confidence-labels — NEW
+- osiris-weather-hazard-normalization — NEW
 
 ### Public-data provenance, privacy & ethics (10)
 

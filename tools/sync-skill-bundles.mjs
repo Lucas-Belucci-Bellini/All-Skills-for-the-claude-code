@@ -150,6 +150,9 @@ function diff(expected, actual) {
 const CURATED_CATEGORY_LABELS = {
   "developer-cli-tooling": "Developer environment & CLI tooling",
   "documentation-knowledge-systems": "Documentation & technical knowledge systems",
+  "osiris-intelligence-platform": "OSIRIS intelligence platform engineering",
+  "aeris-radar-engineering": "AERIS-10 radar and embedded-systems engineering",
+  "flipperzero-firmware-engineering": "Flipper Zero firmware and hardware engineering",
   "geospatial-visualization": "Geospatial visualization & map UX",
   "live-public-data-systems": "Live public-data ingestion & reliability",
   "realtime-voice-agents": "Realtime voice agents & multimodal control",
