@@ -148,6 +148,8 @@ function diff(expected, actual) {
 }
 
 const CURATED_CATEGORY_LABELS = {
+  "developer-cli-tooling": "Developer environment & CLI tooling",
+  "documentation-knowledge-systems": "Documentation & technical knowledge systems",
   "accessibility-inclusive-ux": "Accessibility & inclusive UX",
   "engine-runtime": "Engine architecture & runtime",
   "simulation-world": "Simulation, NPCs & world history",

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-16",
-  "unique_skills": 525,
+  "unique_skills": 550,
   "target": 2500,
-  "remaining": 1975,
+  "remaining": 1950,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -341,6 +341,114 @@
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/tool-call-budget-policy/SKILL.md"
+    },
+    {
+      "name": "cli-config-precedence-resolution",
+      "category": "Developer environment & CLI tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/developer-cli-tooling/cli-config-precedence-resolution/SKILL.md"
+    },
+    {
+      "name": "cli-dry-run-side-effect-parity",
+      "category": "Developer environment & CLI tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/developer-cli-tooling/cli-dry-run-side-effect-parity/SKILL.md"
+    },
+    {
+      "name": "cli-exit-code-contract-testing",
+      "category": "Developer environment & CLI tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/developer-cli-tooling/cli-exit-code-contract-testing/SKILL.md"
+    },
+    {
+      "name": "cli-signal-cancellation-process-tree",
+      "category": "Developer environment & CLI tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/developer-cli-tooling/cli-signal-cancellation-process-tree/SKILL.md"
+    },
+    {
+      "name": "cli-stdout-stderr-channel-contract",
+      "category": "Developer environment & CLI tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/developer-cli-tooling/cli-stdout-stderr-channel-contract/SKILL.md"
+    },
+    {
+      "name": "cli-temp-artifact-cleanup-invariants",
+      "category": "Developer environment & CLI tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/developer-cli-tooling/cli-temp-artifact-cleanup-invariants/SKILL.md"
+    },
+    {
+      "name": "cli-working-directory-independence",
+      "category": "Developer environment & CLI tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/developer-cli-tooling/cli-working-directory-independence/SKILL.md"
+    },
+    {
+      "name": "local-dev-environment-preflight-doctor",
+      "category": "Developer environment & CLI tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/developer-cli-tooling/local-dev-environment-preflight-doctor/SKILL.md"
+    },
+    {
+      "name": "reproducible-toolchain-bootstrap",
+      "category": "Developer environment & CLI tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/developer-cli-tooling/reproducible-toolchain-bootstrap/SKILL.md"
+    },
+    {
+      "name": "shell-command-path-quoting-audit",
+      "category": "Developer environment & CLI tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/developer-cli-tooling/shell-command-path-quoting-audit/SKILL.md"
+    },
+    {
+      "name": "api-example-schema-conformance",
+      "category": "Documentation & technical knowledge systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/api-example-schema-conformance/SKILL.md"
+    },
+    {
+      "name": "architecture-documentation-code-drift-audit",
+      "category": "Documentation & technical knowledge systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/architecture-documentation-code-drift-audit/SKILL.md"
+    },
+    {
+      "name": "configuration-reference-coverage-audit",
+      "category": "Documentation & technical knowledge systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/configuration-reference-coverage-audit/SKILL.md"
+    },
+    {
+      "name": "decision-log-supersession-integrity",
+      "category": "Documentation & technical knowledge systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/decision-log-supersession-integrity/SKILL.md"
+    },
+    {
+      "name": "documentation-version-compatibility-matrix",
+      "category": "Documentation & technical knowledge systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/documentation-version-compatibility-matrix/SKILL.md"
+    },
+    {
+      "name": "requirements-to-acceptance-traceability",
+      "category": "Documentation & technical knowledge systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/requirements-to-acceptance-traceability/SKILL.md"
+    },
+    {
+      "name": "runbook-command-risk-review",
+      "category": "Documentation & technical knowledge systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/runbook-command-risk-review/SKILL.md"
+    },
+    {
+      "name": "technical-example-executability-audit",
+      "category": "Documentation & technical knowledge systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/technical-example-executability-audit/SKILL.md"
     },
     {
       "name": "asset-pipeline-provenance",
@@ -1351,10 +1459,22 @@
       "source_path": null
     },
     {
+      "name": "minecraft-client-optional-mod-handshake-validation",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-client-optional-mod-handshake-validation/SKILL.md"
+    },
+    {
       "name": "minecraft-client-server-parity-check",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-client-server-parity-check/SKILL.md"
+    },
+    {
+      "name": "minecraft-crash-signature-version-index",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-crash-signature-version-index/SKILL.md"
     },
     {
       "name": "minecraft-datapack-validation",
@@ -1363,10 +1483,40 @@
       "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-datapack-validation/SKILL.md"
     },
     {
+      "name": "minecraft-instance-path-portability-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-instance-path-portability-audit/SKILL.md"
+    },
+    {
       "name": "minecraft-jvm-gc-diagnostics",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-jvm-gc-diagnostics/SKILL.md"
+    },
+    {
+      "name": "minecraft-mod-optional-dependency-boundary-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-mod-optional-dependency-boundary-audit/SKILL.md"
+    },
+    {
+      "name": "minecraft-modpack-clean-install-smoke-test",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-modpack-clean-install-smoke-test/SKILL.md"
+    },
+    {
+      "name": "minecraft-modpack-config-origin-traceability",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-modpack-config-origin-traceability/SKILL.md"
+    },
+    {
+      "name": "minecraft-modpack-launcher-profile-contract",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-modpack-launcher-profile-contract/SKILL.md"
     },
     {
       "name": "minecraft-modpack-repro-issue-bundle",
