@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-15. The unified bundle contains 375 distinct skills.
+Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **249**
-- Current total: **375**
+- Original curated skills: **274**
+- Current total: **400**
 - Target by 2026-12-31: **500**
-- Remaining: **125**
+- Remaining: **100**
 
 ## Categories
 
@@ -59,7 +59,7 @@ Updated: 2026-10-15. The unified bundle contains 375 distinct skills.
 - repository-instruction-conflict-resolution — NEW
 - tool-call-budget-policy — NEW
 
-### Engine architecture & runtime (70)
+### Engine architecture & runtime (84)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -70,15 +70,19 @@ Updated: 2026-10-15. The unified bundle contains 375 distinct skills.
 - engine-architecture-adr — NEW
 - engine-asset-hot-reload — NEW
 - engine-asset-streaming-budget — NEW
+- engine-background-io-batching — NEW
 - engine-background-task-cancellation — NEW
 - engine-cache-locality-analysis — NEW
 - engine-collision-layer-contracts — NEW
 - engine-crash-recovery-state — NEW
 - engine-debug-draw-observability — NEW
+- engine-deferred-work-staleness-budget — NEW
+- engine-dependency-wait-graph — NEW
 - engine-fixed-timestep-simulation — NEW
 - engine-frame-pacing-jitter — NEW
 - engine-frame-time-budget — NEW
 - engine-input-action-mapping — NEW
+- engine-job-coalescing-policy — NEW
 - engine-job-system-backpressure — NEW
 - engine-memory-budget-profiling — NEW
 - engine-memory-fragmentation-audit — NEW
@@ -89,11 +93,21 @@ Updated: 2026-10-15. The unified bundle contains 375 distinct skills.
 - engine-render-feature-matrix — NEW
 - engine-render-resource-lifetime — NEW
 - engine-resource-hot-reload-atomicity — NEW
+- engine-runtime-config-drift-audit — NEW
+- engine-runtime-degradation-state — NEW
 - engine-runtime-event-tracing — NEW
 - engine-runtime-telemetry-taxonomy — NEW
+- engine-scheduler-deadline-budget — NEW
+- engine-shutdown-deadline-budget — NEW
+- engine-span-correlation-validation — NEW
 - engine-startup-dependency-graph — NEW
+- engine-startup-phase-observability — NEW
 - engine-subsystem-lifecycle-order — NEW
+- engine-task-priority-inheritance — NEW
+- engine-telemetry-cardinality-budget — NEW
 - engine-thread-pool-saturation — NEW
+- engine-tick-phase-order-audit — NEW
+- engine-work-stealing-fairness — NEW
 - engine-world-origin-rebasing — NEW
 - game-mod-api-versioning — NEW
 - gpu-readback-stall-audit — NEW
@@ -248,7 +262,7 @@ Updated: 2026-10-15. The unified bundle contains 375 distinct skills.
 - replication-interest-management — NEW
 - rollback-netcode-state-coverage — NEW
 
-### Release, tests & repository quality (38)
+### Release, tests & repository quality (44)
 
 - api-backward-compatibility-review — NEW
 - api-contract-regression-testing — NEW
@@ -282,6 +296,12 @@ Updated: 2026-10-15. The unified bundle contains 375 distinct skills.
 - rate-limit-policy-design — NEW
 - repository-architecture-map — NEW
 - reproducible-build-artifact-provenance — NEW
+- runtime-build-fingerprint-contract — NEW
+- runtime-crash-symbolication-audit — NEW
+- runtime-diagnostic-bundle-reproducibility — NEW
+- runtime-health-signal-contract — NEW
+- runtime-log-redaction-boundary — NEW
+- runtime-regression-bisect-workflow — NEW
 - secrets-scan-remediation — NEW
 - ssrf-boundary-review — NEW
 - supabase-rls-policy-audit — NEW
@@ -380,7 +400,7 @@ Updated: 2026-10-15. The unified bundle contains 375 distinct skills.
 - rust-workspace-feature-matrix — NEW
 - wasm-native-performance-comparison — NEW
 
-### Simulation, NPCs & world history (29)
+### Simulation, NPCs & world history (34)
 
 - civilization-migration-validation — NEW
 - civilization-production-throughput-audit — NEW
@@ -403,10 +423,15 @@ Updated: 2026-10-15. The unified bundle contains 375 distinct skills.
 - npc-simulation-lod-policy — NEW
 - npc-state-machine-design — NEW
 - procedural-civilization-simulation — NEW
+- simulation-agent-wakeup-sleep-contract — NEW
 - simulation-event-ordering-contract — NEW
+- simulation-multirate-update-policy — NEW
 - simulation-replay-state-diff — NEW
+- simulation-scheduler-fairness-audit — NEW
 - simulation-soak-test-design — NEW
+- simulation-tick-backlog-recovery — NEW
 - simulation-time-dilation-contract — NEW
+- simulation-world-invariant-checkpointing — NEW
 - social-rumor-propagation-model — NEW
 - utility-ai-score-calibration — NEW
 - world-history-event-sourcing — NEW
