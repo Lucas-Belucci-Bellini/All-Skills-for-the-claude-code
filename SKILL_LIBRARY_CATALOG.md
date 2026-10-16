@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
+Updated: 2026-10-16. The unified bundle contains 475 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **324**
-- Current total: **450**
+- Original curated skills: **349**
+- Current total: **475**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to the long-term target: **2,050**
+- Remaining to the long-term target: **2,025**
 
 ## Categories
 
@@ -67,7 +67,7 @@ Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
 - claude-plugin-upgrade-rollback-validation — NEW
 
 
-### Engine architecture & runtime (95)
+### Engine architecture & runtime (98)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -167,6 +167,11 @@ Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
 - resource-shutdown-use-after-close — NEW
 
 
+
+- wasm-memory-growth-budget — NEW
+- wasm-host-capability-restriction — NEW
+- worldgen-coordinate-hash-stability — NEW
+
 ### Game content & save systems (30)
 
 - animation-event-timing-audit — NEW
@@ -252,7 +257,7 @@ Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
 - telegram-access
 - telegram-configure
 
-### Minecraft & modpack engineering (18)
+### Minecraft & modpack engineering (22)
 
 - minecraft-client-server-parity-check — NEW
 - minecraft-datapack-validation — NEW
@@ -273,7 +278,13 @@ Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
 - modpack-reproducibility-snapshot — NEW
 - modpack-server-capacity-planning — NEW
 
-### Networked games & determinism (12)
+
+- modpack-server-rolling-restart-readiness — NEW
+- modpack-client-startup-phase-profiler — NEW
+- modpack-config-secret-leak-audit — NEW
+- minecraft-world-save-latency-audit — NEW
+
+### Networked games & determinism (15)
 
 - multiplayer-determinism-testing — NEW
 - multiplayer-entity-replication-prioritization — NEW
@@ -290,7 +301,12 @@ Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
 - multiplayer-message-ordering-fault-injection — NEW
 
 
-### Release, tests & repository quality (65)
+
+- network-packet-fragmentation-boundary-testing — NEW
+- multiplayer-client-prediction-divergence-triage — NEW
+- multiplayer-entity-despawn-ordering — NEW
+
+### Release, tests & repository quality (76)
 
 - api-backward-compatibility-review — NEW
 - api-contract-regression-testing — NEW
@@ -360,6 +376,19 @@ Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
 - event-consumer-offset-recovery — NEW
 
 
+
+- deployment-canary-health-window — NEW
+- feature-flag-expiry-enforcement — NEW
+- github-actions-token-permission-audit — NEW
+- release-evidence-retention-policy — NEW
+- graphql-query-cost-budget — NEW
+- api-conditional-request-contract — NEW
+- api-content-negotiation-contract — NEW
+- database-replica-lag-read-routing — NEW
+- distributed-saga-compensation-testing — NEW
+- object-storage-upload-integrity — NEW
+- batch-window-watermark-validation — NEW
+
 ### Reverse engineering & artifact analysis (54)
 
 - rea-android-apk-triage
@@ -417,7 +446,7 @@ Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (36)
+### Rust & platform engineering (38)
 
 - native-wasm-behavior-parity — NEW
 - rust-allocator-contention-analysis — NEW
@@ -456,7 +485,11 @@ Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
 - rust-workspace-feature-matrix — NEW
 - wasm-native-performance-comparison — NEW
 
-### Simulation, NPCs & world history (39)
+
+- rust-msrv-compatibility-gate — NEW
+- rust-panic-boundary-observability — NEW
+
+### Simulation, NPCs & world history (40)
 
 - civilization-migration-validation — NEW
 - civilization-production-throughput-audit — NEW
@@ -498,7 +531,10 @@ Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
 - world-history-event-sourcing — NEW
 - world-simulation-save-snapshot — NEW
 
-### Skill library governance (11)
+
+- simulation-rng-stream-isolation — NEW
+
+### Skill library governance (12)
 
 - agent-artifact-quality-gates — NEW
 - automation-change-risk-gating — NEW
@@ -513,6 +549,9 @@ Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
 
 - agent-output-evidence-traceability — NEW
 
+
+
+- license-notice-redistribution-audit — NEW
 
 ### UI, art, audio & assets (7)
 

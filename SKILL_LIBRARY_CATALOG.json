@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-16",
-  "unique_skills": 450,
+  "unique_skills": 475,
   "target": 2500,
-  "remaining": 2050,
+  "remaining": 2025,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -847,6 +847,24 @@
       "source_path": "curated-skill-sources/engine-runtime/resource-shutdown-use-after-close/SKILL.md"
     },
     {
+      "name": "wasm-memory-growth-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/wasm-memory-growth-budget/SKILL.md"
+    },
+    {
+      "name": "wasm-host-capability-restriction",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/wasm-host-capability-restriction/SKILL.md"
+    },
+    {
+      "name": "worldgen-coordinate-hash-stability",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/worldgen-coordinate-hash-stability/SKILL.md"
+    },
+    {
       "name": "animation-event-timing-audit",
       "category": "Game content & save systems",
       "origin": "new-authored",
@@ -1363,6 +1381,30 @@
       "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-server-capacity-planning/SKILL.md"
     },
     {
+      "name": "modpack-server-rolling-restart-readiness",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-server-rolling-restart-readiness/SKILL.md"
+    },
+    {
+      "name": "modpack-client-startup-phase-profiler",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-client-startup-phase-profiler/SKILL.md"
+    },
+    {
+      "name": "modpack-config-secret-leak-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-config-secret-leak-audit/SKILL.md"
+    },
+    {
+      "name": "minecraft-world-save-latency-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-world-save-latency-audit/SKILL.md"
+    },
+    {
       "name": "multiplayer-determinism-testing",
       "category": "Networked games & determinism",
       "origin": "new-authored",
@@ -1433,6 +1475,24 @@
       "category": "Networked games & determinism",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/networked-games/multiplayer-message-ordering-fault-injection/SKILL.md"
+    },
+    {
+      "name": "network-packet-fragmentation-boundary-testing",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/network-packet-fragmentation-boundary-testing/SKILL.md"
+    },
+    {
+      "name": "multiplayer-client-prediction-divergence-triage",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/multiplayer-client-prediction-divergence-triage/SKILL.md"
+    },
+    {
+      "name": "multiplayer-entity-despawn-ordering",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/multiplayer-entity-despawn-ordering/SKILL.md"
     },
     {
       "name": "api-backward-compatibility-review",
@@ -1823,6 +1883,72 @@
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/event-consumer-offset-recovery/SKILL.md"
+    },
+    {
+      "name": "deployment-canary-health-window",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/deployment-canary-health-window/SKILL.md"
+    },
+    {
+      "name": "feature-flag-expiry-enforcement",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/feature-flag-expiry-enforcement/SKILL.md"
+    },
+    {
+      "name": "github-actions-token-permission-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/github-actions-token-permission-audit/SKILL.md"
+    },
+    {
+      "name": "release-evidence-retention-policy",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/release-evidence-retention-policy/SKILL.md"
+    },
+    {
+      "name": "graphql-query-cost-budget",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/graphql-query-cost-budget/SKILL.md"
+    },
+    {
+      "name": "api-conditional-request-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/api-conditional-request-contract/SKILL.md"
+    },
+    {
+      "name": "api-content-negotiation-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/api-content-negotiation-contract/SKILL.md"
+    },
+    {
+      "name": "database-replica-lag-read-routing",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/database-replica-lag-read-routing/SKILL.md"
+    },
+    {
+      "name": "distributed-saga-compensation-testing",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/distributed-saga-compensation-testing/SKILL.md"
+    },
+    {
+      "name": "object-storage-upload-integrity",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/object-storage-upload-integrity/SKILL.md"
+    },
+    {
+      "name": "batch-window-watermark-validation",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/batch-window-watermark-validation/SKILL.md"
     },
     {
       "name": "rea-android-apk-triage",
@@ -2365,6 +2491,18 @@
       "source_path": "curated-skill-sources/rust-platform-engineering/wasm-native-performance-comparison/SKILL.md"
     },
     {
+      "name": "rust-msrv-compatibility-gate",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-msrv-compatibility-gate/SKILL.md"
+    },
+    {
+      "name": "rust-panic-boundary-observability",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-panic-boundary-observability/SKILL.md"
+    },
+    {
       "name": "civilization-migration-validation",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
@@ -2599,6 +2737,12 @@
       "source_path": "curated-skill-sources/simulation-world/world-simulation-save-snapshot/SKILL.md"
     },
     {
+      "name": "simulation-rng-stream-isolation",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-rng-stream-isolation/SKILL.md"
+    },
+    {
       "name": "agent-artifact-quality-gates",
       "category": "Skill library governance",
       "origin": "new-authored",
@@ -2663,6 +2807,12 @@
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/agent-output-evidence-traceability/SKILL.md"
+    },
+    {
+      "name": "license-notice-redistribution-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/license-notice-redistribution-audit/SKILL.md"
     },
     {
       "name": "building-era-authentic-game-audio",
