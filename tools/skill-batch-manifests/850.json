@@ -1,0 +1,1261 @@
+{
+  "schema_version": 1,
+  "batch_size": 250,
+  "milestone_total": 850,
+  "long_term_target": 2500,
+  "authored_count": 724,
+  "retained_count": 126,
+  "plugin_version": "2.1.9",
+  "skills": [
+    {
+      "name": "radar-adc-channel-map-consistency",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-adc-channel-map-consistency/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-antenna-simulated-measurement-parity",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-antenna-simulated-measurement-parity/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-array-element-coordinate-contract",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-array-element-coordinate-contract/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-baseband-decimation-alias-rejection",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-baseband-decimation-alias-rejection/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-bom-footprint-source-consistency",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-bom-footprint-source-consistency/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-build-artifact-quarantine-policy",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-build-artifact-quarantine-policy/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-calibration-record-provenance",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-calibration-record-provenance/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-cfar-threshold-synthetic-noise-validation",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-cfar-threshold-synthetic-noise-validation/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-chirp-frequency-table-integrity",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-chirp-frequency-table-integrity/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-cic-filter-growth-and-rounding",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-cic-filter-growth-and-rounding/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-clock-reference-tree-consistency",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-clock-reference-tree-consistency/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-command-acknowledgment-timeout",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-command-acknowledgment-timeout/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-cross-layer-invariant-test-plan",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-cross-layer-invariant-test-plan/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-design-file-cad-tool-version-audit",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-design-file-cad-tool-version-audit/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-dma-capture-length-contract",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-dma-capture-length-contract/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-docs-cross-layer-traceability",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-docs-cross-layer-traceability/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-doppler-fft-axis-contract",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-doppler-fft-axis-contract/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-fan-control-hysteresis-validation",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-fan-control-hysteresis-validation/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-fir-coefficient-quantization",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-fir-coefficient-quantization/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-firmware-version-skew-matrix",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-firmware-version-skew-matrix/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-fpga-buffer-overrun-check",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-fpga-buffer-overrun-check/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-fpga-clock-domain-boundary-audit",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-fpga-clock-domain-boundary-audit/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-fpga-cosim-reference-alignment",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-fpga-cosim-reference-alignment/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-fpga-fixed-point-range-proof",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-fpga-fixed-point-range-proof/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-fpga-interface-version-compatibility",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-fpga-interface-version-compatibility/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-fpga-resource-budget-review",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-fpga-resource-budget-review/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-frequency-synth-config-review",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-frequency-synth-config-review/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-gerber-generation-provenance",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-gerber-generation-provenance/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-gps-imu-stale-data-interlock",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-gps-imu-stale-data-interlock/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-gui-map-coordinate-frame-audit",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-gui-map-coordinate-frame-audit/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-hal-null-failure-behavior",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-hal-null-failure-behavior/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-hardware-source-license-compliance",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-hardware-source-license-compliance/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-hardware-version-variant-separation",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-hardware-version-variant-separation/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-i2c-address-collision-audit",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-i2c-address-collision-audit/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-idq-calibration-sanity-check",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-idq-calibration-sanity-check/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-iq-component-normalization",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-iq-component-normalization/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-lfm-waveform-shape-validation",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-lfm-waveform-shape-validation/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-live-data-vs-synthetic-fixture-labeling",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-live-data-vs-synthetic-fixture-labeling/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-logging-no-sensitive-data-contract",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-logging-no-sensitive-data-contract/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-matched-filter-latency-alignment",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-matched-filter-latency-alignment/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-mcu-host-unit-test-shims",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-mcu-host-unit-test-shims/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-mti-stationary-baseline-regression",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-mti-stationary-baseline-regression/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-multisegment-waveform-state-contract",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-multisegment-waveform-state-contract/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-pcb-impedance-note-traceability",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-pcb-impedance-note-traceability/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-peripheral-initialization-order",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-peripheral-initialization-order/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-power-amplifier-thermal-envelope",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-power-amplifier-thermal-envelope/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-pulse-compression-reference-fixtures",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-pulse-compression-reference-fixtures/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-python-config-versioning",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-python-config-versioning/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-python-gui-offline-fixtures",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-python-gui-offline-fixtures/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-rail-emergency-stop-ordering",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-rail-emergency-stop-ordering/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-raw-capture-clipping-detection",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-raw-capture-clipping-detection/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-reconstruction-filter-response",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-reconstruction-filter-response/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-replay-csv-schema-validation",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-replay-csv-schema-validation/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-rf-emissions-compliance-preflight",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-rf-emissions-compliance-preflight/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-rf-switch-state-safety",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-rf-switch-state-safety/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-rtl-opcode-source-of-truth",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-rtl-opcode-source-of-truth/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-rtl-reset-default-contract",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-rtl-reset-default-contract/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-safe-rf-lab-test-conditions",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-safe-rf-lab-test-conditions/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-sample-width-signedness-audit",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-sample-width-signedness-audit/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-schematic-netlist-consistency",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-schematic-netlist-consistency/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-signal-processing-units-and-db-audit",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-signal-processing-units-and-db-audit/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-simulator-vs-hardware-claim-boundary",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-simulator-vs-hardware-claim-boundary/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-spi-chip-select-transaction-contract",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-spi-chip-select-transaction-contract/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-stepper-motion-limit-contract",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-stepper-motion-limit-contract/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-stm32-power-up-state-machine",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-stm32-power-up-state-machine/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-stream-ready-valid-invariant",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-stream-ready-valid-invariant/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-synthesis-constraint-coverage",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-synthesis-constraint-coverage/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-synthetic-detection-fixture-governance",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-synthetic-detection-fixture-governance/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-system-health-state-model",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-system-health-state-model/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-testbench-mid-operation-reset",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-testbench-mid-operation-reset/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-thermal-watchdog-response-tests",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-thermal-watchdog-response-tests/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-timing-closure-evidence",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-timing-closure-evidence/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-uart-and-gps-parser-boundary-tests",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-uart-and-gps-parser-boundary-tests/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-vg-dac-range-and-limit-validation",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-vg-dac-range-and-limit-validation/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "radar-waveguide-geometry-parametric-validation",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-waveguide-geometry-parametric-validation/SKILL.md",
+      "category": "AERIS-10 radar and embedded-systems engineering"
+    },
+    {
+      "name": "flipper-adc-measurement-unit-contract",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-adc-measurement-unit-contract/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-app-accessibility-key-contrast",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-app-accessibility-key-contrast/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-app-asset-bundle-path-validation",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-app-asset-bundle-path-validation/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-app-back-navigation-invariant",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-app-back-navigation-invariant/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-app-crash-repro-test-minimization",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-app-crash-repro-test-minimization/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-app-foreground-background-transition",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-app-foreground-background-transition/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-app-manifest-dependency-contract",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-app-manifest-dependency-contract/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-app-menu-registration-integrity",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-app-menu-registration-integrity/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-app-scene-transition-table",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-app-scene-transition-table/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-app-settings-migration",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-app-settings-migration/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-app-startup-rollback",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-app-startup-rollback/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-battery-telemetry-range-validation",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-battery-telemetry-range-validation/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-ble-pairing-state-machine",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-ble-pairing-state-machine/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-ble-reconnect-stale-session",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-ble-reconnect-stale-session/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-bootloader-firmware-integrity-preflight",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-bootloader-firmware-integrity-preflight/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-brownout-recovery-state-contract",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-brownout-recovery-state-contract/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-bt-profile-version-matrix",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-bt-profile-version-matrix/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-build-cache-staleness-audit",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-build-cache-staleness-audit/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-build-config-reproducibility",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-build-config-reproducibility/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-build-failure-triage-taxonomy",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-build-failure-triage-taxonomy/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-ci-test-shard-determinism",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-ci-test-shard-determinism/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-ci-workflow-dependency-contract",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-ci-workflow-dependency-contract/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-cli-input-quoting-and-length-guard",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-cli-input-quoting-and-length-guard/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-compact-build-compatibility",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-compact-build-compatibility/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-devboard-serial-debug-guardrails",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-devboard-serial-debug-guardrails/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-dma-alignment-and-cache-policy",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-dma-alignment-and-cache-policy/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-documentation-api-drift-audit",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-documentation-api-drift-audit/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-expansion-module-api-compatibility",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-expansion-module-api-compatibility/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-exported-config-secret-redaction",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-exported-config-secret-redaction/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-fbt-target-selection-contract",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-fbt-target-selection-contract/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-file-format-versioning-contract",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-file-format-versioning-contract/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-file-parser-fuzz-fixture-plan",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-file-parser-fuzz-fixture-plan/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-firmware-artifact-manifest",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-firmware-artifact-manifest/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-firmware-update-version-skew-audit",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-firmware-update-version-skew-audit/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-freertos-stack-budget-validation",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-freertos-stack-budget-validation/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-cancellation-and-unwind",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-cancellation-and-unwind/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-cli-command-concurrency",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-cli-command-concurrency/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-event-loop-owner-thread",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-event-loop-owner-thread/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-heap-allocation-audit",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-heap-allocation-audit/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-logger-rate-budget",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-logger-rate-budget/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-message-queue-overflow-policy",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-message-queue-overflow-policy/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-mutex-lock-order-review",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-mutex-lock-order-review/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-notification-resource-lifetime",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-notification-resource-lifetime/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-panic-error-path-contract",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-panic-error-path-contract/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-queue-shutdown-drain",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-queue-shutdown-drain/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-record-service-ownership",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-record-service-ownership/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-stream-buffer-bounds",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-stream-buffer-bounds/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-thread-lifecycle-contract",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-thread-lifecycle-contract/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-furi-timer-callback-lifetime",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-furi-timer-callback-lifetime/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-generated-asset-provenance",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-generated-asset-provenance/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-gpio-mode-transition-validation",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-gpio-mode-transition-validation/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-gpio-pin-ownership-audit",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-gpio-pin-ownership-audit/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-gui-draw-callback-budget",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-gui-draw-callback-budget/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-gui-input-event-order",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-gui-input-event-order/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-gui-view-lifecycle-cleanup",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-gui-view-lifecycle-cleanup/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-gui-widget-model-view-separation",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-gui-widget-model-view-separation/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-hal-fault-injection-with-mocks",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-hal-fault-injection-with-mocks/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-hardware-bench-current-limit-checklist",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-hardware-bench-current-limit-checklist/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-hardware-revision-pin-map-matrix",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-hardware-revision-pin-map-matrix/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-hid-event-permission-boundary",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-hid-event-permission-boundary/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-hid-lab-demo-safety-review",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-hid-lab-demo-safety-review/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-host-tool-version-preflight",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-host-tool-version-preflight/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-i2c-bus-arbitration-timeout",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-i2c-bus-arbitration-timeout/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-i2c-register-endianness-contract",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-i2c-register-endianness-contract/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-ibutton-file-format-validation",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-ibutton-file-format-validation/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-ibutton-read-write-state-safety",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-ibutton-read-write-state-safety/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-infrared-command-file-validation",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-infrared-command-file-validation/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-infrared-library-attribution-check",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-infrared-library-attribution-check/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-input-parser-fuzz-corpus-maintenance",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-input-parser-fuzz-corpus-maintenance/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-interrupt-context-api-safety",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-interrupt-context-api-safety/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-issue-to-regression-test-traceability",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-issue-to-regression-test-traceability/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-js-app-runtime-lifecycle",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-js-app-runtime-lifecycle/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-js-event-loop-backpressure",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-js-event-loop-backpressure/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-js-gpio-authorization-and-bounds",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-js-gpio-authorization-and-bounds/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-js-gui-binding-leak-audit",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-js-gui-binding-leak-audit/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-js-heap-pressure-and-script-budget",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-js-heap-pressure-and-script-budget/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-js-module-registration-contract",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-js-module-registration-contract/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-js-package-api-version-matrix",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-js-package-api-version-matrix/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-js-sdk-example-executability",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-js-sdk-example-executability/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-js-serial-transport-framing-tests",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-js-serial-transport-framing-tests/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-js-storage-path-restrictions",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-js-storage-path-restrictions/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-lfrfid-file-parser-invariants",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-lfrfid-file-parser-invariants/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-lfrfid-operations-consent-policy",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-lfrfid-operations-consent-policy/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-license-and-third-party-notice-check",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-license-and-third-party-notice-check/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-linker-size-budget-regression",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-linker-size-budget-regression/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-localization-resource-completeness",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-localization-resource-completeness/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-low-power-state-transition",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-low-power-state-transition/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-nfc-file-format-roundtrip",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-nfc-file-format-roundtrip/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-nfc-protocol-parser-malformed-input",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-nfc-protocol-parser-malformed-input/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-nfc-reader-authorization-boundary",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-nfc-reader-authorization-boundary/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-nfc-secret-material-redaction",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-nfc-secret-material-redaction/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-ota-update-rollback-resilience",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-ota-update-rollback-resilience/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-pwm-timer-channel-conflict",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-pwm-timer-channel-conflict/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-radio-emulation-lab-only-check",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-radio-emulation-lab-only-check/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-release-notes-source-traceability",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-release-notes-source-traceability/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-release-version-metadata-sync",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-release-version-metadata-sync/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-rpc-client-authentication-boundary",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-rpc-client-authentication-boundary/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-rpc-message-schema-compatibility",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-rpc-message-schema-compatibility/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-scons-environment-isolation",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-scons-environment-isolation/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-sd-card-removal-race",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-sd-card-removal-race/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-security-update-impact-matrix",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-security-update-impact-matrix/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-shutdown-resource-ordering",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-shutdown-resource-ordering/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-spi-dma-buffer-lifetime",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-spi-dma-buffer-lifetime/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-spi-transaction-boundary-test",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-spi-transaction-boundary-test/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-static-analysis-warning-triage",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-static-analysis-warning-triage/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-storage-atomic-save-and-recovery",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-storage-atomic-save-and-recovery/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-storage-migration-backup-policy",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-storage-migration-backup-policy/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-storage-path-sandbox-validation",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-storage-path-sandbox-validation/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-subghz-file-parser-conformance",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-subghz-file-parser-conformance/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-subghz-protocol-metadata-boundary",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-subghz-protocol-metadata-boundary/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-subghz-region-and-frequency-config-guard",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-subghz-region-and-frequency-config-guard/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-subghz-transmit-consent-interlock",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-subghz-transmit-consent-interlock/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-submodule-check-integrity",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-submodule-check-integrity/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-tar-heatshrink-decompression-bounds",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-tar-heatshrink-decompression-bounds/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-target-board-variant-coverage",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-target-board-variant-coverage/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-temperature-threshold-hysteresis",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-temperature-threshold-hysteresis/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-third-party-dependency-license-audit",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-third-party-dependency-license-audit/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-translation-resource-schema-check",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-translation-resource-schema-check/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-transport-frame-size-and-integrity",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-transport-frame-size-and-integrity/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-uart-protocol-framing-qa",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-uart-protocol-framing-qa/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-uart-ring-buffer-overflow",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-uart-ring-buffer-overflow/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-unit-test-boundary-mocks",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-unit-test-boundary-mocks/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-usb-descriptor-regression",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-usb-descriptor-regression/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-usb-host-compatibility-fixtures",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-usb-host-compatibility-fixtures/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "flipper-usb-rpc-transport-timeout",
+      "source_path": "curated-skill-sources/flipperzero-firmware-engineering/flipper-usb-rpc-transport-timeout/SKILL.md",
+      "category": "Flipper Zero firmware and hardware engineering"
+    },
+    {
+      "name": "osiris-active-fire-feed-provenance",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-active-fire-feed-provenance/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-agent-evidence-vs-narrative-contract",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-agent-evidence-vs-narrative-contract/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-api-response-size-guard",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-api-response-size-guard/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-camera-snapshot-stream-honesty",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-camera-snapshot-stream-honesty/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-cctv-export-region-geojson-contract",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-cctv-export-region-geojson-contract/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-cctv-frame-proxy-cache-and-headers",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-cctv-frame-proxy-cache-and-headers/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-cctv-region-adapter-fixtures",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-cctv-region-adapter-fixtures/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-conflict-zone-report-sensitivity",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-conflict-zone-report-sensitivity/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-crypto-observation-source-provenance",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-crypto-observation-source-provenance/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-cve-feed-schema-and-severity-audit",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-cve-feed-schema-and-severity-audit/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-cyber-event-dedup-source-lineage",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-cyber-event-dedup-source-lineage/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-dns-whois-parser-boundaries",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-dns-whois-parser-boundaries/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-docker-env-and-port-hardening",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-docker-env-and-port-hardening/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-earthquake-feed-freshness",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-earthquake-feed-freshness/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-env-secret-boundary-audit",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-env-secret-boundary-audit/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-flight-feed-adapter-contract",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-flight-feed-adapter-contract/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-forecast-calibration-backtest",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-forecast-calibration-backtest/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-forecast-scenario-assumption-boundary",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-forecast-scenario-assumption-boundary/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-forecast-source-citation-completeness",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-forecast-source-citation-completeness/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-geo-query-privacy-minimization",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-geo-query-privacy-minimization/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-global-news-rss-source-attribution",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-global-news-rss-source-attribution/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-live-layer-demand-fetch-contract",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-live-layer-demand-fetch-contract/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-llm-provider-key-client-boundary",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-llm-provider-key-client-boundary/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-llm-user-document-injection-isolation",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-llm-user-document-injection-isolation/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-map-entity-budget-regression",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-map-entity-budget-regression/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-map-source-region-fallback",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-map-source-region-fallback/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-map-style-and-state-restoration",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-map-style-and-state-restoration/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-maritime-feed-source-identity",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-maritime-feed-source-identity/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-mcp-prediction-run-isolation",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-mcp-prediction-run-isolation/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-mcp-tool-permission-boundary",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-mcp-tool-permission-boundary/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-nextjs-api-route-contract-validation",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-nextjs-api-route-contract-validation/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-offline-vs-live-test-separation",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-offline-vs-live-test-separation/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-oi-run-repro-manifest",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-oi-run-repro-manifest/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-open-redirect-and-url-fetch-guard",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-open-redirect-and-url-fetch-guard/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-provider-error-taxonomy",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-provider-error-taxonomy/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-public-cctv-inventory-conformance",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-public-cctv-inventory-conformance/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-sanctions-match-false-positive-review",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-sanctions-match-false-positive-review/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-scanner-authorized-scope-gate",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-scanner-authorized-scope-gate/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-scanner-fingerprint-evidence-bounds",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-scanner-fingerprint-evidence-bounds/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-scanner-port-result-minimization",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-scanner-port-result-minimization/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-scanner-rate-budget-audit",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-scanner-rate-budget-audit/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-scanner-target-allowlist-contract",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-scanner-target-allowlist-contract/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-server-side-token-redaction",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-server-side-token-redaction/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-sse-disconnect-cleanup",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-sse-disconnect-cleanup/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-sse-run-event-ordering",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-sse-run-event-ordering/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-stale-cache-preservation",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-stale-cache-preservation/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-static-intel-expiry-review",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-static-intel-expiry-review/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-telegram-public-channel-limit-review",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-telegram-public-channel-limit-review/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-threat-feed-confidence-labels",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-threat-feed-confidence-labels/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    },
+    {
+      "name": "osiris-weather-hazard-normalization",
+      "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-weather-hazard-normalization/SKILL.md",
+      "category": "OSIRIS intelligence platform engineering"
+    }
+  ]
+}

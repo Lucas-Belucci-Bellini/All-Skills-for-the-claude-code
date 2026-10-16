@@ -150,6 +150,9 @@ function diff(expected, actual) {
 const CURATED_CATEGORY_LABELS = {
   "developer-cli-tooling": "Developer environment & CLI tooling",
   "documentation-knowledge-systems": "Documentation & technical knowledge systems",
+  "osiris-intelligence-platform": "OSIRIS intelligence platform engineering",
+  "aeris-radar-engineering": "AERIS-10 radar and embedded-systems engineering",
+  "flipperzero-firmware-engineering": "Flipper Zero firmware and hardware engineering",
   "geospatial-visualization": "Geospatial visualization & map UX",
   "live-public-data-systems": "Live public-data ingestion & reliability",
   "realtime-voice-agents": "Realtime voice agents & multimodal control",
@@ -251,8 +254,8 @@ function renderSkillCatalogMarkdown(data) {
 function updateRoadmapCount(content, total, authored, retained) {
   const remaining = Math.max(0, LONG_TERM_TARGET - total);
   let next = content;
-  const inventoryLine = "**Current draft inventory:** " + total.toLocaleString("en-US") + " distinct skills (" + authored.toLocaleString("en-US") + " authored + " + retained.toLocaleString("en-US") + " retained/imported)  ";
-  const remainingLine = "**Remaining to long-term target:** " + remaining.toLocaleString("en-US") + "  ";
+  const inventoryLine = "**Current draft inventory:** " + total.toLocaleString("en-US") + " distinct skills (" + authored.toLocaleString("en-US") + " authored + " + retained.toLocaleString("en-US") + " retained/imported)";
+  const remainingLine = "**Remaining to long-term target:** " + remaining.toLocaleString("en-US");
   if (!/^\*\*Current draft inventory:\*\*.*$/m.test(next)) throw new Error("Roadmap is missing the current draft inventory line.");
   if (!/^\*\*Remaining to long-term target:\*\*.*$/m.test(next)) throw new Error("Roadmap is missing the long-term remaining line.");
   next = next.replace(/^\*\*Current draft inventory:\*\*.*$/m, inventoryLine);
