@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - fix/skill-sync-target-2500-2026
+      - feat/skills-expansion-525-from-sync-fix-2026
   workflow_dispatch:
 
 permissions:

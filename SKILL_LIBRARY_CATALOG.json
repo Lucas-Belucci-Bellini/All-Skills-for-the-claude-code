@@ -1,16 +1,70 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-16",
-  "unique_skills": 500,
+  "unique_skills": 525,
   "target": 2500,
-  "remaining": 2000,
+  "remaining": 1975,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
+    {
+      "name": "accessible-data-table-navigation-audit",
+      "category": "Accessibility & inclusive UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/accessible-data-table-navigation-audit/SKILL.md"
+    },
+    {
+      "name": "accessible-focus-return-contract",
+      "category": "Accessibility & inclusive UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/accessible-focus-return-contract/SKILL.md"
+    },
+    {
+      "name": "accessible-form-error-association-audit",
+      "category": "Accessibility & inclusive UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/accessible-form-error-association-audit/SKILL.md"
+    },
+    {
+      "name": "accessible-live-region-announcement-testing",
+      "category": "Accessibility & inclusive UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/accessible-live-region-announcement-testing/SKILL.md"
+    },
+    {
+      "name": "bidirectional-text-layout-regression",
+      "category": "Accessibility & inclusive UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/bidirectional-text-layout-regression/SKILL.md"
+    },
+    {
+      "name": "keyboard-shortcut-conflict-inventory",
+      "category": "Accessibility & inclusive UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/keyboard-shortcut-conflict-inventory/SKILL.md"
+    },
+    {
+      "name": "reduced-motion-interaction-equivalence",
+      "category": "Accessibility & inclusive UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/reduced-motion-interaction-equivalence/SKILL.md"
+    },
+    {
+      "name": "zoom-reflow-overflow-audit",
+      "category": "Accessibility & inclusive UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/zoom-reflow-overflow-audit/SKILL.md"
+    },
     {
       "name": "agent-development",
       "category": "Agent workflows, Claude Code & MCP",
       "origin": "existing",
       "source_path": null
+    },
+    {
+      "name": "agent-workspace-isolation",
+      "category": "Agent workflows, Claude Code & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-workspace-isolation/SKILL.md"
     },
     {
       "name": "build-mcp-app",
@@ -169,12 +223,6 @@
       "source_path": null
     },
     {
-      "name": "agent-workspace-isolation",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/agent-tooling/agent-workspace-isolation/SKILL.md"
-    },
-    {
       "name": "agent-human-approval-gates",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
@@ -229,10 +277,46 @@
       "source_path": "curated-skill-sources/agent-tooling/claude-code-mcp-setup/SKILL.md"
     },
     {
+      "name": "claude-code-session-permission-sanity-check",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/claude-code-session-permission-sanity-check/SKILL.md"
+    },
+    {
+      "name": "claude-plugin-upgrade-rollback-validation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/claude-plugin-upgrade-rollback-validation/SKILL.md"
+    },
+    {
+      "name": "mcp-auth-scope-minimization",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/mcp-auth-scope-minimization/SKILL.md"
+    },
+    {
+      "name": "mcp-oauth-token-refresh-boundary-tests",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/mcp-oauth-token-refresh-boundary-tests/SKILL.md"
+    },
+    {
+      "name": "mcp-side-effect-risk-classification",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/mcp-side-effect-risk-classification/SKILL.md"
+    },
+    {
       "name": "mcp-tool-permission-audit",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/mcp-tool-permission-audit/SKILL.md"
+    },
+    {
+      "name": "plugin-marketplace-discovery-smoke-test",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/plugin-marketplace-discovery-smoke-test/SKILL.md"
     },
     {
       "name": "plugin-package-compatibility-test",
@@ -257,42 +341,6 @@
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/tool-call-budget-policy/SKILL.md"
-    },
-    {
-      "name": "mcp-side-effect-risk-classification",
-      "category": "Claude Code setup & MCP",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/agent-tooling/mcp-side-effect-risk-classification/SKILL.md"
-    },
-    {
-      "name": "mcp-auth-scope-minimization",
-      "category": "Claude Code setup & MCP",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/agent-tooling/mcp-auth-scope-minimization/SKILL.md"
-    },
-    {
-      "name": "claude-plugin-upgrade-rollback-validation",
-      "category": "Claude Code setup & MCP",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/agent-tooling/claude-plugin-upgrade-rollback-validation/SKILL.md"
-    },
-    {
-      "name": "plugin-marketplace-discovery-smoke-test",
-      "category": "Claude Code setup & MCP",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/agent-tooling/plugin-marketplace-discovery-smoke-test/SKILL.md"
-    },
-    {
-      "name": "claude-code-session-permission-sanity-check",
-      "category": "Claude Code setup & MCP",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/agent-tooling/claude-code-session-permission-sanity-check/SKILL.md"
-    },
-    {
-      "name": "mcp-oauth-token-refresh-boundary-tests",
-      "category": "Claude Code setup & MCP",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/agent-tooling/mcp-oauth-token-refresh-boundary-tests/SKILL.md"
     },
     {
       "name": "asset-pipeline-provenance",
@@ -497,6 +545,12 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-render-resource-lifetime/SKILL.md"
+    },
+    {
+      "name": "engine-resource-budget-overcommit-detection",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-resource-budget-overcommit-detection/SKILL.md"
     },
     {
       "name": "engine-resource-hot-reload-atomicity",
@@ -745,6 +799,12 @@
       "source_path": "curated-skill-sources/engine-runtime/rendering-abstraction-design/SKILL.md"
     },
     {
+      "name": "resource-shutdown-use-after-close",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/resource-shutdown-use-after-close/SKILL.md"
+    },
+    {
       "name": "rust-data-oriented-ecs-design",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -799,6 +859,12 @@
       "source_path": "curated-skill-sources/engine-runtime/voxel-chunk-lifecycle/SKILL.md"
     },
     {
+      "name": "voxel-chunk-work-amplification-audit",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/voxel-chunk-work-amplification-audit/SKILL.md"
+    },
+    {
       "name": "voxel-meshing-optimization",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -823,6 +889,24 @@
       "source_path": "curated-skill-sources/engine-runtime/voxel-seed-reproducibility/SKILL.md"
     },
     {
+      "name": "wasm-host-capability-restriction",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/wasm-host-capability-restriction/SKILL.md"
+    },
+    {
+      "name": "wasm-memory-growth-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/wasm-memory-growth-budget/SKILL.md"
+    },
+    {
+      "name": "wasm-plugin-host-call-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/wasm-plugin-host-call-budget/SKILL.md"
+    },
+    {
       "name": "world-chunk-lifecycle-invariants",
       "category": "Engine architecture & runtime",
       "source_path": "curated-skill-sources/engine-runtime/world-chunk-lifecycle-invariants/SKILL.md",
@@ -841,6 +925,12 @@
       "origin": "new-authored"
     },
     {
+      "name": "worldgen-coordinate-hash-stability",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/worldgen-coordinate-hash-stability/SKILL.md"
+    },
+    {
       "name": "worldgen-deterministic-seed-contract",
       "category": "Engine architecture & runtime",
       "source_path": "curated-skill-sources/engine-runtime/worldgen-deterministic-seed-contract/SKILL.md",
@@ -851,48 +941,6 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/worldgen-feature-overlap-validation/SKILL.md"
-    },
-    {
-      "name": "voxel-chunk-work-amplification-audit",
-      "category": "Engine architecture & runtime",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/engine-runtime/voxel-chunk-work-amplification-audit/SKILL.md"
-    },
-    {
-      "name": "resource-shutdown-use-after-close",
-      "category": "Engine architecture & runtime",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/engine-runtime/resource-shutdown-use-after-close/SKILL.md"
-    },
-    {
-      "name": "wasm-memory-growth-budget",
-      "category": "Engine architecture & runtime",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/engine-runtime/wasm-memory-growth-budget/SKILL.md"
-    },
-    {
-      "name": "wasm-host-capability-restriction",
-      "category": "Engine architecture & runtime",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/engine-runtime/wasm-host-capability-restriction/SKILL.md"
-    },
-    {
-      "name": "worldgen-coordinate-hash-stability",
-      "category": "Engine architecture & runtime",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/engine-runtime/worldgen-coordinate-hash-stability/SKILL.md"
-    },
-    {
-      "name": "wasm-plugin-host-call-budget",
-      "category": "Engine architecture & runtime",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/engine-runtime/wasm-plugin-host-call-budget/SKILL.md"
-    },
-    {
-      "name": "engine-resource-budget-overcommit-detection",
-      "category": "Engine architecture & runtime",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/engine-runtime/engine-resource-budget-overcommit-detection/SKILL.md"
     },
     {
       "name": "animation-event-timing-audit",
@@ -935,6 +983,12 @@
       "category": "Game content & save systems",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/game-content-pipelines/asset-import-validation/SKILL.md"
+    },
+    {
+      "name": "asset-load-cancellation-race-audit",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/asset-load-cancellation-race-audit/SKILL.md"
     },
     {
       "name": "asset-pipeline-incremental-build-validation",
@@ -1039,6 +1093,12 @@
       "source_path": "curated-skill-sources/game-content-pipelines/ui-state-transition-invariant-testing/SKILL.md"
     },
     {
+      "name": "voxel-chunk-edit-undo-consistency",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/voxel-chunk-edit-undo-consistency/SKILL.md"
+    },
+    {
       "name": "world-content-pipeline",
       "category": "Game content & save systems",
       "origin": "new-authored",
@@ -1061,18 +1121,6 @@
       "category": "Game content & save systems",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/game-content-pipelines/worldgen-distribution-drift-detection/SKILL.md"
-    },
-    {
-      "name": "asset-load-cancellation-race-audit",
-      "category": "Game content & save systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/game-content-pipelines/asset-load-cancellation-race-audit/SKILL.md"
-    },
-    {
-      "name": "voxel-chunk-edit-undo-consistency",
-      "category": "Game content & save systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/game-content-pipelines/voxel-chunk-edit-undo-consistency/SKILL.md"
     },
     {
       "name": "adversarially-validating-game-repairs",
@@ -1345,6 +1393,12 @@
       "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-server-tick-profiling/SKILL.md"
     },
     {
+      "name": "minecraft-server-update-preflight-gate",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-server-update-preflight-gate/SKILL.md"
+    },
+    {
       "name": "minecraft-startup-dependency-resolution",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
@@ -1355,6 +1409,12 @@
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-world-migration-readiness/SKILL.md"
+    },
+    {
+      "name": "minecraft-world-save-latency-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-world-save-latency-audit/SKILL.md"
     },
     {
       "name": "mod-loader-compatibility-matrix",
@@ -1369,6 +1429,12 @@
       "source_path": "curated-skill-sources/minecraft-modded-environments/modded-minecraft-crash-triage/SKILL.md"
     },
     {
+      "name": "modpack-client-startup-phase-profiler",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-client-startup-phase-profiler/SKILL.md"
+    },
+    {
       "name": "modpack-config-diff-review",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
@@ -1379,6 +1445,12 @@
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-config-schema-drift/SKILL.md"
+    },
+    {
+      "name": "modpack-config-secret-leak-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-config-secret-leak-audit/SKILL.md"
     },
     {
       "name": "modpack-dependency-triage",
@@ -1417,34 +1489,22 @@
       "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-server-rolling-restart-readiness/SKILL.md"
     },
     {
-      "name": "modpack-client-startup-phase-profiler",
-      "category": "Minecraft & modpack engineering",
+      "name": "multiplayer-client-prediction-divergence-triage",
+      "category": "Networked games & determinism",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-client-startup-phase-profiler/SKILL.md"
-    },
-    {
-      "name": "modpack-config-secret-leak-audit",
-      "category": "Minecraft & modpack engineering",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/modpack-config-secret-leak-audit/SKILL.md"
-    },
-    {
-      "name": "minecraft-world-save-latency-audit",
-      "category": "Minecraft & modpack engineering",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-world-save-latency-audit/SKILL.md"
-    },
-    {
-      "name": "minecraft-server-update-preflight-gate",
-      "category": "Minecraft & modpack engineering",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/minecraft-server-update-preflight-gate/SKILL.md"
+      "source_path": "curated-skill-sources/networked-games/multiplayer-client-prediction-divergence-triage/SKILL.md"
     },
     {
       "name": "multiplayer-determinism-testing",
       "category": "Networked games & determinism",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/networked-games/multiplayer-determinism-testing/SKILL.md"
+    },
+    {
+      "name": "multiplayer-entity-despawn-ordering",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/multiplayer-entity-despawn-ordering/SKILL.md"
     },
     {
       "name": "multiplayer-entity-replication-prioritization",
@@ -1457,6 +1517,18 @@
       "category": "Networked games & determinism",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/networked-games/multiplayer-latency-compensation-validation/SKILL.md"
+    },
+    {
+      "name": "multiplayer-message-ordering-fault-injection",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/multiplayer-message-ordering-fault-injection/SKILL.md"
+    },
+    {
+      "name": "multiplayer-reconnect-command-deduplication",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/multiplayer-reconnect-command-deduplication/SKILL.md"
     },
     {
       "name": "multiplayer-reconnect-state-resync",
@@ -1489,6 +1561,12 @@
       "source_path": "curated-skill-sources/networked-games/network-packet-budget-analysis/SKILL.md"
     },
     {
+      "name": "network-packet-fragmentation-boundary-testing",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/network-packet-fragmentation-boundary-testing/SKILL.md"
+    },
+    {
       "name": "network-protocol-versioning",
       "category": "Networked games & determinism",
       "origin": "new-authored",
@@ -1507,40 +1585,34 @@
       "source_path": "curated-skill-sources/networked-games/rollback-netcode-state-coverage/SKILL.md"
     },
     {
-      "name": "multiplayer-message-ordering-fault-injection",
-      "category": "Networked games & determinism",
+      "name": "alert-noise-budget-audit",
+      "category": "Release, tests & repository quality",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/networked-games/multiplayer-message-ordering-fault-injection/SKILL.md"
-    },
-    {
-      "name": "network-packet-fragmentation-boundary-testing",
-      "category": "Networked games & determinism",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/networked-games/network-packet-fragmentation-boundary-testing/SKILL.md"
-    },
-    {
-      "name": "multiplayer-client-prediction-divergence-triage",
-      "category": "Networked games & determinism",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/networked-games/multiplayer-client-prediction-divergence-triage/SKILL.md"
-    },
-    {
-      "name": "multiplayer-entity-despawn-ordering",
-      "category": "Networked games & determinism",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/networked-games/multiplayer-entity-despawn-ordering/SKILL.md"
-    },
-    {
-      "name": "multiplayer-reconnect-command-deduplication",
-      "category": "Networked games & determinism",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/networked-games/multiplayer-reconnect-command-deduplication/SKILL.md"
+      "source_path": "curated-skill-sources/release-testing-operations/alert-noise-budget-audit/SKILL.md"
     },
     {
       "name": "api-backward-compatibility-review",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/api-backward-compatibility-review/SKILL.md"
+    },
+    {
+      "name": "api-bulk-operation-partial-failure-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/api-bulk-operation-partial-failure-contract/SKILL.md"
+    },
+    {
+      "name": "api-conditional-request-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/api-conditional-request-contract/SKILL.md"
+    },
+    {
+      "name": "api-content-negotiation-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/api-content-negotiation-contract/SKILL.md"
     },
     {
       "name": "api-contract-regression-testing",
@@ -1555,10 +1627,52 @@
       "source_path": "curated-skill-sources/release-testing-operations/api-error-boundary-observability/SKILL.md"
     },
     {
+      "name": "api-generated-client-drift-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/api-generated-client-drift-audit/SKILL.md"
+    },
+    {
       "name": "api-pagination-contract",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/api-pagination-contract/SKILL.md"
+    },
+    {
+      "name": "api-response-size-budget-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/api-response-size-budget-contract/SKILL.md"
+    },
+    {
+      "name": "api-version-sunset-planning",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/api-version-sunset-planning/SKILL.md"
+    },
+    {
+      "name": "api-webhook-delivery-invariants",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/api-webhook-delivery-invariants/SKILL.md"
+    },
+    {
+      "name": "artifact-signature-verification",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/artifact-signature-verification/SKILL.md"
+    },
+    {
+      "name": "async-job-state-retention-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/async-job-state-retention-contract/SKILL.md"
+    },
+    {
+      "name": "auth-refresh-token-replay-boundaries",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/auth-refresh-token-replay-boundaries/SKILL.md"
     },
     {
       "name": "authorization-matrix-tests",
@@ -1571,6 +1685,12 @@
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/background-job-retry-design/SKILL.md"
+    },
+    {
+      "name": "batch-window-watermark-validation",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/batch-window-watermark-validation/SKILL.md"
     },
     {
       "name": "build-cache-ci-optimization",
@@ -1591,10 +1711,82 @@
       "source_path": "curated-skill-sources/release-testing-operations/cache-invalidation-contract/SKILL.md"
     },
     {
+      "name": "chaos-experiment-safety-gate",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/chaos-experiment-safety-gate/SKILL.md"
+    },
+    {
       "name": "ci-environment-parity-audit",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/ci-environment-parity-audit/SKILL.md"
+    },
+    {
+      "name": "circuit-breaker-recovery-probe",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/circuit-breaker-recovery-probe/SKILL.md"
+    },
+    {
+      "name": "client-retry-after-window-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/client-retry-after-window-contract/SKILL.md"
+    },
+    {
+      "name": "container-image-reproducibility-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/container-image-reproducibility-audit/SKILL.md"
+    },
+    {
+      "name": "contract-test-provider-verification",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/contract-test-provider-verification/SKILL.md"
+    },
+    {
+      "name": "cross-service-deadline-propagation-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/cross-service-deadline-propagation-audit/SKILL.md"
+    },
+    {
+      "name": "data-export-consistent-snapshot-validation",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/data-export-consistent-snapshot-validation/SKILL.md"
+    },
+    {
+      "name": "data-retention-deletion-verification",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/data-retention-deletion-verification/SKILL.md"
+    },
+    {
+      "name": "database-backfill-resumability",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/database-backfill-resumability/SKILL.md"
+    },
+    {
+      "name": "database-connection-pool-saturation",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/database-connection-pool-saturation/SKILL.md"
+    },
+    {
+      "name": "database-constraint-race-regression",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/database-constraint-race-regression/SKILL.md"
+    },
+    {
+      "name": "database-lock-wait-triage",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/database-lock-wait-triage/SKILL.md"
     },
     {
       "name": "database-migration-rollback-drill",
@@ -1609,6 +1801,24 @@
       "source_path": "curated-skill-sources/release-testing-operations/database-migration-safety/SKILL.md"
     },
     {
+      "name": "database-online-index-migration-validation",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/database-online-index-migration-validation/SKILL.md"
+    },
+    {
+      "name": "database-replica-lag-read-routing",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/database-replica-lag-read-routing/SKILL.md"
+    },
+    {
+      "name": "dependency-lockfile-drift-classification",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/dependency-lockfile-drift-classification/SKILL.md"
+    },
+    {
       "name": "dependency-supply-chain-verification",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
@@ -1621,10 +1831,46 @@
       "source_path": "curated-skill-sources/release-testing-operations/dependency-update-risk-assessment/SKILL.md"
     },
     {
+      "name": "deployment-canary-health-window",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/deployment-canary-health-window/SKILL.md"
+    },
+    {
+      "name": "deployment-config-version-skew-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/deployment-config-version-skew-audit/SKILL.md"
+    },
+    {
+      "name": "distributed-cache-namespace-isolation",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/distributed-cache-namespace-isolation/SKILL.md"
+    },
+    {
+      "name": "distributed-lease-fencing-token-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/distributed-lease-fencing-token-audit/SKILL.md"
+    },
+    {
       "name": "distributed-outbox-inbox",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/distributed-outbox-inbox/SKILL.md"
+    },
+    {
+      "name": "distributed-saga-compensation-testing",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/distributed-saga-compensation-testing/SKILL.md"
+    },
+    {
+      "name": "event-consumer-offset-recovery",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/event-consumer-offset-recovery/SKILL.md"
     },
     {
       "name": "event-driven-architecture-tracing",
@@ -1637,6 +1883,12 @@
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/event-schema-evolution/SKILL.md"
+    },
+    {
+      "name": "feature-flag-expiry-enforcement",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/feature-flag-expiry-enforcement/SKILL.md"
     },
     {
       "name": "flaky-test-isolation",
@@ -1675,6 +1927,24 @@
       "source_path": "curated-skill-sources/release-testing-operations/frontend-server-state-cache/SKILL.md"
     },
     {
+      "name": "github-actions-token-permission-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/github-actions-token-permission-audit/SKILL.md"
+    },
+    {
+      "name": "graceful-degradation-fallback-verification",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/graceful-degradation-fallback-verification/SKILL.md"
+    },
+    {
+      "name": "graphql-query-cost-budget",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/graphql-query-cost-budget/SKILL.md"
+    },
+    {
       "name": "idempotency-key-design",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
@@ -1693,6 +1963,18 @@
       "source_path": "curated-skill-sources/release-testing-operations/log-redaction-pii-audit/SKILL.md"
     },
     {
+      "name": "log-schema-evolution-validation",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/log-schema-evolution-validation/SKILL.md"
+    },
+    {
+      "name": "multi-region-failover-readiness-test",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/multi-region-failover-readiness-test/SKILL.md"
+    },
+    {
       "name": "multi-tenant-data-boundary",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
@@ -1705,10 +1987,28 @@
       "source_path": "curated-skill-sources/release-testing-operations/oauth-oidc-flow-audit/SKILL.md"
     },
     {
+      "name": "object-storage-download-integrity",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/object-storage-download-integrity/SKILL.md"
+    },
+    {
+      "name": "object-storage-upload-integrity",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/object-storage-upload-integrity/SKILL.md"
+    },
+    {
       "name": "optimistic-ui-rollback",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/optimistic-ui-rollback/SKILL.md"
+    },
+    {
+      "name": "patch-field-presence-semantics-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/patch-field-presence-semantics-contract/SKILL.md"
     },
     {
       "name": "postgres-index-design",
@@ -1723,16 +2023,64 @@
       "source_path": "curated-skill-sources/release-testing-operations/postgresql-query-plan-regression/SKILL.md"
     },
     {
+      "name": "postgresql-transaction-isolation-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/postgresql-transaction-isolation-audit/SKILL.md"
+    },
+    {
+      "name": "queue-consumer-rebalance-drain-safety",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/queue-consumer-rebalance-drain-safety/SKILL.md"
+    },
+    {
+      "name": "queue-dead-letter-replay-safety",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/queue-dead-letter-replay-safety/SKILL.md"
+    },
+    {
+      "name": "queue-drain-shutdown-deadline-validation",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/queue-drain-shutdown-deadline-validation/SKILL.md"
+    },
+    {
+      "name": "queue-poison-message-quarantine",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/queue-poison-message-quarantine/SKILL.md"
+    },
+    {
       "name": "rate-limit-policy-design",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/rate-limit-policy-design/SKILL.md"
     },
     {
+      "name": "redis-cache-stampede-control",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/redis-cache-stampede-control/SKILL.md"
+    },
+    {
+      "name": "release-artifact-quarantine-gate",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/release-artifact-quarantine-gate/SKILL.md"
+    },
+    {
       "name": "release-candidate-evidence-manifest",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/release-candidate-evidence-manifest/SKILL.md"
+    },
+    {
+      "name": "release-evidence-retention-policy",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/release-evidence-retention-policy/SKILL.md"
     },
     {
       "name": "release-rollback-readiness-drill",
@@ -1751,6 +2099,12 @@
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/reproducible-build-artifact-provenance/SKILL.md"
+    },
+    {
+      "name": "retry-amplification-storm-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/retry-amplification-storm-audit/SKILL.md"
     },
     {
       "name": "runtime-build-fingerprint-contract",
@@ -1801,10 +2155,40 @@
       "source_path": "curated-skill-sources/release-testing-operations/runtime-regression-bisect-workflow/SKILL.md"
     },
     {
+      "name": "search-index-rebuild-parity",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/search-index-rebuild-parity/SKILL.md"
+    },
+    {
+      "name": "secrets-rotation-exercise",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/secrets-rotation-exercise/SKILL.md"
+    },
+    {
       "name": "secrets-scan-remediation",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/secrets-scan-remediation/SKILL.md"
+    },
+    {
+      "name": "service-timeout-budget-matrix",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/service-timeout-budget-matrix/SKILL.md"
+    },
+    {
+      "name": "signed-url-scope-expiry-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/signed-url-scope-expiry-audit/SKILL.md"
+    },
+    {
+      "name": "slo-burn-rate-window-analysis",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/slo-burn-rate-window-analysis/SKILL.md"
     },
     {
       "name": "ssrf-boundary-review",
@@ -1819,10 +2203,28 @@
       "source_path": "curated-skill-sources/release-testing-operations/supabase-rls-policy-audit/SKILL.md"
     },
     {
+      "name": "tenant-quota-enforcement-tests",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/tenant-quota-enforcement-tests/SKILL.md"
+    },
+    {
+      "name": "test-fixture-data-sensitivity-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/test-fixture-data-sensitivity-audit/SKILL.md"
+    },
+    {
       "name": "threat-model-data-flow",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/threat-model-data-flow/SKILL.md"
+    },
+    {
+      "name": "trace-context-propagation-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/trace-context-propagation-contract/SKILL.md"
     },
     {
       "name": "typescript-api-error-contract-design",
@@ -1835,258 +2237,6 @@
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/web-performance-budget-audit/SKILL.md"
-    },
-    {
-      "name": "api-generated-client-drift-audit",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/api-generated-client-drift-audit/SKILL.md"
-    },
-    {
-      "name": "api-webhook-delivery-invariants",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/api-webhook-delivery-invariants/SKILL.md"
-    },
-    {
-      "name": "api-version-sunset-planning",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/api-version-sunset-planning/SKILL.md"
-    },
-    {
-      "name": "tenant-quota-enforcement-tests",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/tenant-quota-enforcement-tests/SKILL.md"
-    },
-    {
-      "name": "database-connection-pool-saturation",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/database-connection-pool-saturation/SKILL.md"
-    },
-    {
-      "name": "database-backfill-resumability",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/database-backfill-resumability/SKILL.md"
-    },
-    {
-      "name": "database-lock-wait-triage",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/database-lock-wait-triage/SKILL.md"
-    },
-    {
-      "name": "data-retention-deletion-verification",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/data-retention-deletion-verification/SKILL.md"
-    },
-    {
-      "name": "postgresql-transaction-isolation-audit",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/postgresql-transaction-isolation-audit/SKILL.md"
-    },
-    {
-      "name": "artifact-signature-verification",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/artifact-signature-verification/SKILL.md"
-    },
-    {
-      "name": "container-image-reproducibility-audit",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/container-image-reproducibility-audit/SKILL.md"
-    },
-    {
-      "name": "secrets-rotation-exercise",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/secrets-rotation-exercise/SKILL.md"
-    },
-    {
-      "name": "auth-refresh-token-replay-boundaries",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/auth-refresh-token-replay-boundaries/SKILL.md"
-    },
-    {
-      "name": "release-artifact-quarantine-gate",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/release-artifact-quarantine-gate/SKILL.md"
-    },
-    {
-      "name": "event-consumer-offset-recovery",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/event-consumer-offset-recovery/SKILL.md"
-    },
-    {
-      "name": "deployment-canary-health-window",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/deployment-canary-health-window/SKILL.md"
-    },
-    {
-      "name": "feature-flag-expiry-enforcement",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/feature-flag-expiry-enforcement/SKILL.md"
-    },
-    {
-      "name": "github-actions-token-permission-audit",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/github-actions-token-permission-audit/SKILL.md"
-    },
-    {
-      "name": "release-evidence-retention-policy",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/release-evidence-retention-policy/SKILL.md"
-    },
-    {
-      "name": "graphql-query-cost-budget",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/graphql-query-cost-budget/SKILL.md"
-    },
-    {
-      "name": "api-conditional-request-contract",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/api-conditional-request-contract/SKILL.md"
-    },
-    {
-      "name": "api-content-negotiation-contract",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/api-content-negotiation-contract/SKILL.md"
-    },
-    {
-      "name": "database-replica-lag-read-routing",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/database-replica-lag-read-routing/SKILL.md"
-    },
-    {
-      "name": "distributed-saga-compensation-testing",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/distributed-saga-compensation-testing/SKILL.md"
-    },
-    {
-      "name": "object-storage-upload-integrity",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/object-storage-upload-integrity/SKILL.md"
-    },
-    {
-      "name": "batch-window-watermark-validation",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/batch-window-watermark-validation/SKILL.md"
-    },
-    {
-      "name": "contract-test-provider-verification",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/contract-test-provider-verification/SKILL.md"
-    },
-    {
-      "name": "trace-context-propagation-contract",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/trace-context-propagation-contract/SKILL.md"
-    },
-    {
-      "name": "log-schema-evolution-validation",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/log-schema-evolution-validation/SKILL.md"
-    },
-    {
-      "name": "alert-noise-budget-audit",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/alert-noise-budget-audit/SKILL.md"
-    },
-    {
-      "name": "queue-poison-message-quarantine",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/queue-poison-message-quarantine/SKILL.md"
-    },
-    {
-      "name": "queue-dead-letter-replay-safety",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/queue-dead-letter-replay-safety/SKILL.md"
-    },
-    {
-      "name": "queue-consumer-rebalance-drain-safety",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/queue-consumer-rebalance-drain-safety/SKILL.md"
-    },
-    {
-      "name": "redis-cache-stampede-control",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/redis-cache-stampede-control/SKILL.md"
-    },
-    {
-      "name": "distributed-cache-namespace-isolation",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/distributed-cache-namespace-isolation/SKILL.md"
-    },
-    {
-      "name": "database-constraint-race-regression",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/database-constraint-race-regression/SKILL.md"
-    },
-    {
-      "name": "search-index-rebuild-parity",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/search-index-rebuild-parity/SKILL.md"
-    },
-    {
-      "name": "object-storage-download-integrity",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/object-storage-download-integrity/SKILL.md"
-    },
-    {
-      "name": "signed-url-scope-expiry-audit",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/signed-url-scope-expiry-audit/SKILL.md"
-    },
-    {
-      "name": "deployment-config-version-skew-audit",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/deployment-config-version-skew-audit/SKILL.md"
-    },
-    {
-      "name": "dependency-lockfile-drift-classification",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/dependency-lockfile-drift-classification/SKILL.md"
-    },
-    {
-      "name": "test-fixture-data-sensitivity-audit",
-      "category": "Release, tests & repository quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/release-testing-operations/test-fixture-data-sensitivity-audit/SKILL.md"
     },
     {
       "name": "rea-android-apk-triage",
@@ -2539,6 +2689,12 @@
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-crate-public-api-surface/SKILL.md"
     },
     {
+      "name": "rust-crate-publish-dry-run-audit",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-crate-publish-dry-run-audit/SKILL.md"
+    },
+    {
       "name": "rust-cross-compilation-validation",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
@@ -2573,6 +2729,18 @@
       "category": "Rust & platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-lock-order-deadlock-audit/SKILL.md"
+    },
+    {
+      "name": "rust-msrv-compatibility-gate",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-msrv-compatibility-gate/SKILL.md"
+    },
+    {
+      "name": "rust-panic-boundary-observability",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-panic-boundary-observability/SKILL.md"
     },
     {
       "name": "rust-perf-regression-thresholds",
@@ -2627,24 +2795,6 @@
       "category": "Rust & platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/rust-platform-engineering/wasm-native-performance-comparison/SKILL.md"
-    },
-    {
-      "name": "rust-msrv-compatibility-gate",
-      "category": "Rust & platform engineering",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/rust-platform-engineering/rust-msrv-compatibility-gate/SKILL.md"
-    },
-    {
-      "name": "rust-panic-boundary-observability",
-      "category": "Rust & platform engineering",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/rust-platform-engineering/rust-panic-boundary-observability/SKILL.md"
-    },
-    {
-      "name": "rust-crate-publish-dry-run-audit",
-      "category": "Rust & platform engineering",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/rust-platform-engineering/rust-crate-publish-dry-run-audit/SKILL.md"
     },
     {
       "name": "civilization-migration-validation",
@@ -2821,6 +2971,12 @@
       "source_path": "curated-skill-sources/simulation-world/simulation-replay-state-diff/SKILL.md"
     },
     {
+      "name": "simulation-rng-stream-isolation",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-rng-stream-isolation/SKILL.md"
+    },
+    {
       "name": "simulation-scheduler-fairness-audit",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
@@ -2881,22 +3037,28 @@
       "source_path": "curated-skill-sources/simulation-world/world-simulation-save-snapshot/SKILL.md"
     },
     {
-      "name": "simulation-rng-stream-isolation",
-      "category": "Simulation, NPCs & world history",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/simulation-world/simulation-rng-stream-isolation/SKILL.md"
-    },
-    {
       "name": "agent-artifact-quality-gates",
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/agent-artifact-quality-gates/SKILL.md"
     },
     {
+      "name": "agent-output-evidence-traceability",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-output-evidence-traceability/SKILL.md"
+    },
+    {
       "name": "automation-change-risk-gating",
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/automation-change-risk-gating/SKILL.md"
+    },
+    {
+      "name": "license-notice-redistribution-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/license-notice-redistribution-audit/SKILL.md"
     },
     {
       "name": "skill-catalog-taxonomy-consistency",
@@ -2915,6 +3077,12 @@
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/skill-documentation-example-audit/SKILL.md"
+    },
+    {
+      "name": "skill-frontmatter-schema-compatibility-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-frontmatter-schema-compatibility-audit/SKILL.md"
     },
     {
       "name": "skill-quality-evaluation",
@@ -2945,24 +3113,6 @@
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/third-party-skill-provenance-audit/SKILL.md"
-    },
-    {
-      "name": "agent-output-evidence-traceability",
-      "category": "Skill library governance",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/skill-library-governance/agent-output-evidence-traceability/SKILL.md"
-    },
-    {
-      "name": "license-notice-redistribution-audit",
-      "category": "Skill library governance",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/skill-library-governance/license-notice-redistribution-audit/SKILL.md"
-    },
-    {
-      "name": "skill-frontmatter-schema-compatibility-audit",
-      "category": "Skill library governance",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/skill-library-governance/skill-frontmatter-schema-compatibility-audit/SKILL.md"
     },
     {
       "name": "building-era-authentic-game-audio",

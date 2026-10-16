@@ -148,6 +148,7 @@ function diff(expected, actual) {
 }
 
 const CURATED_CATEGORY_LABELS = {
+  "accessibility-inclusive-ux": "Accessibility & inclusive UX",
   "engine-runtime": "Engine architecture & runtime",
   "simulation-world": "Simulation, NPCs & world history",
   "networked-games": "Networked games & determinism",
