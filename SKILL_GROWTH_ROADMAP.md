@@ -1,34 +1,33 @@
 # Roadmap to 500 distinct skills by December 31, 2026
 
-Current unique count: 250; remaining to target: 250.
+Current unique count: 400; remaining to target: 100.
 
-Baseline date: 2026-10-15. The collection now contains 250 distinct skills: the original 126-skill bundle, 51 authored skills in the first expansion including MCP setup, 25 in the second expansion, and 48 in this batch. The target is 500, leaving 250 net-new skills. Across roughly 11 weeks, this requires about 23 new skills per week.
+Baseline date: 2026-10-16. The collection contains 400 distinct skills: the original 126-skill bundle and 274 authored skills. This milestone adds 25 skills for scheduler deadlines, runtime observability/configuration, task dependency and shutdown diagnostics, simulation fairness/backlog controls, and reproducible runtime evidence. The 500-skill target leaves 100 net-new skills.
 
 ## Milestones
 
-| Checkpoint | Target total | Added since prior checkpoint | Focus |
-|---|---:|---:|---|
-| 2026-10-15 | 250 | +48 skills in this expansion batch | Rendering/resource lifetimes, world simulation, multiplayer protocols, modpack operations, Rust FFI/async, supply-chain safety, agent guardrails and game-content QA |
-| 2026-10-31 | 275 | 25 | Engine internals, rendering, Rust systems, world streaming, physics and assets |
-| 2026-11-15 | 330 | 55 | NPC cognition, economy, civilization, multiplayer, procedural world generation and simulation tests |
-| 2026-11-30 | 390 | 60 | APIs, data, CI, build/release, plugin/MCP architecture, security and modpack tooling |
-| 2026-12-15 | 450 | 60 | Platform-specific workflows, test harnesses, content pipeline, interoperability and runtime diagnostics |
-| 2026-12-31 | 500 | 70 | Fill verified gaps, remove redundancy, test triggers, validate package and freeze catalog |
+| Checkpoint | Target total | Status / additions | Focus |
+|---|---:|---|---|
+| 2026-10-16 | 400 | Achieved early; +25 in this milestone | Runtime instrumentation, scheduler fairness/deadlines, simulation backlog controls, and reproducible crash/build evidence |
+| 2026-10-31 | 425 | +25 planned | Bounded background work, runtime integration tests, memory/queue observability and release diagnostics |
+| 2026-11-15 | 450 | +25 planned | Simulation, multiplayer determinism, NPC/economy validation and platform correctness |
+| 2026-11-30 | 475 | +25 planned | API/data/security contracts, build/release automation, plugin/MCP governance and modpack diagnostics |
+| 2026-12-31 | 500 | +25 planned | Close verified gaps, remove redundancy, test triggers, validate package and freeze catalog |
 
 ## Remaining skill budget after this batch
 
 | Domain | Planned additions | Examples |
 |---|---:|---|
-| Engine and Rust engine design | 42 | ECS, schedulers, memory layout, render-resource lifetimes, profiling and streaming |
-| World simulation, NPCs and economies | 37 | pathfinding, perception, social networks, ecology, culture and simulation calibration |
-| Game content and quality | 33 | animation/audio/physics tests, procedural content, localization, accessibility and saves |
-| Language and platform engineering | 37 | Rust, TypeScript, Python, Java/C#, native interop, WASM and packaging |
-| Build, CI, release and security | 28 | supply chain, artifact provenance, rollouts, fuzzing and incident diagnosis |
-| Agents, plugins, MCP and skill quality | 28 | retrieval/routing tests, orchestration, memory boundaries and plugin packaging |
-| Reverse engineering and evidence | 23 | additional artifact families, differential analysis and evidence provenance |
-| Minecraft, modding and server operations | 9 | compatibility, configuration diffs, server metrics and pack reproducibility |
-| APIs, data, backend and frontend | 13 | contracts, SQL/RLS, event flows, UI accessibility and observability |
-| Total remaining | 250 | 500 total when added to the current 250 |
+| Engine and Rust engine design | 15 | scheduler internals, resource lifetimes, world coordinates and runtime profiling |
+| World simulation, NPCs and economies | 15 | fairness, lifecycle, pathfinding, migration and resource-flow invariants |
+| Game content and quality | 12 | import/build validation, procedural distributions, save recovery and soak tests |
+| Language and platform engineering | 15 | Rust API stability, async/concurrency, builds and native/WASM parity |
+| Build, CI, release and security | 10 | crash evidence, provenance, rollback, observability and incident response |
+| Agents, plugins, MCP and skill quality | 8 | memory policy, approval gates, tool budgets, evals and workflow regression |
+| Reverse engineering and evidence | 12 | additional artifact families, differential analysis and evidence provenance |
+| Minecraft, modding and server operations | 3 | loader compatibility, pack release and server diagnostics |
+| APIs, data, backend and frontend | 10 | SQL plans, pagination, tenancy, caching, forms and API evolution |
+| Total remaining | 100 | 500 total when added to the current 400 |
 
 ## Quality gate for every skill
 
