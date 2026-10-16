@@ -10,7 +10,7 @@ In Claude Code, add this repository as a marketplace and install all-skills-coll
 
 - Full inventory: SKILL_LIBRARY_CATALOG.md
 - Machine-readable inventory: SKILL_LIBRARY_CATALOG.json
-- Roadmap to 500 by December 31, 2026: SKILL_GROWTH_ROADMAP.md
+- Long-term roadmap to 2,500 distinct skills (500 is the 2026 intermediate milestone): SKILL_GROWTH_ROADMAP.md
 - Canonical authored sources: curated-skill-sources/README.md
 
 ## Refresh after new skills

@@ -7,8 +7,8 @@ Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
 - Existing/imported skills retained: **126**
 - Original curated skills: **299**
 - Current total: **425**
-- Target by 2026-12-31: **500**
-- Remaining: **75**
+- Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
+- Remaining to the long-term target: **2,075**
 
 ## Categories
 

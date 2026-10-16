@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated_at": "2026-10-16",
   "unique_skills": 425,
-  "target": 500,
-  "remaining": 75,
+  "target": 2500,
+  "remaining": 2075,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
