@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
+Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **274**
-- Current total: **400**
+- Original curated skills: **299**
+- Current total: **425**
 - Target by 2026-12-31: **500**
-- Remaining: **100**
+- Remaining: **75**
 
 ## Categories
 
@@ -59,7 +59,7 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - repository-instruction-conflict-resolution — NEW
 - tool-call-budget-policy — NEW
 
-### Engine architecture & runtime (84)
+### Engine architecture & runtime (93)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -71,6 +71,7 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - engine-asset-hot-reload — NEW
 - engine-asset-streaming-budget — NEW
 - engine-background-io-batching — NEW
+- engine-background-queue-observability — NEW
 - engine-background-task-cancellation — NEW
 - engine-cache-locality-analysis — NEW
 - engine-collision-layer-contracts — NEW
@@ -81,6 +82,8 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - engine-fixed-timestep-simulation — NEW
 - engine-frame-pacing-jitter — NEW
 - engine-frame-time-budget — NEW
+- engine-frame-time-distribution — NEW
+- engine-hot-path-allocation-budget — NEW
 - engine-input-action-mapping — NEW
 - engine-job-coalescing-policy — NEW
 - engine-job-system-backpressure — NEW
@@ -93,9 +96,12 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - engine-render-feature-matrix — NEW
 - engine-render-resource-lifetime — NEW
 - engine-resource-hot-reload-atomicity — NEW
+- engine-resource-residency-budget — NEW
 - engine-runtime-config-drift-audit — NEW
 - engine-runtime-degradation-state — NEW
 - engine-runtime-event-tracing — NEW
+- engine-runtime-fault-injection-matrix — NEW
+- engine-runtime-stall-classification — NEW
 - engine-runtime-telemetry-taxonomy — NEW
 - engine-scheduler-deadline-budget — NEW
 - engine-shutdown-deadline-budget — NEW
@@ -103,11 +109,14 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - engine-startup-dependency-graph — NEW
 - engine-startup-phase-observability — NEW
 - engine-subsystem-lifecycle-order — NEW
+- engine-subsystem-readiness-contract-test — NEW
 - engine-task-priority-inheritance — NEW
 - engine-telemetry-cardinality-budget — NEW
 - engine-thread-pool-saturation — NEW
 - engine-tick-phase-order-audit — NEW
 - engine-work-stealing-fairness — NEW
+- engine-worker-capacity-sizing — NEW
+- engine-workload-profile-catalog — NEW
 - engine-world-origin-rebasing — NEW
 - game-mod-api-versioning — NEW
 - gpu-readback-stall-audit — NEW
@@ -262,7 +271,7 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - replication-interest-management — NEW
 - rollback-netcode-state-coverage — NEW
 
-### Release, tests & repository quality (44)
+### Release, tests & repository quality (50)
 
 - api-backward-compatibility-review — NEW
 - api-contract-regression-testing — NEW
@@ -271,7 +280,9 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - authorization-matrix-tests — NEW
 - background-job-retry-design — NEW
 - build-cache-ci-optimization — NEW
+- build-cache-poisoning-resilience — NEW
 - cache-invalidation-contract — NEW
+- ci-environment-parity-audit — NEW
 - database-migration-rollback-drill — NEW
 - database-migration-safety — NEW
 - dependency-supply-chain-verification — NEW
@@ -294,13 +305,17 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - postgres-index-design — NEW
 - postgresql-query-plan-regression — NEW
 - rate-limit-policy-design — NEW
+- release-candidate-evidence-manifest — NEW
+- release-rollback-readiness-drill — NEW
 - repository-architecture-map — NEW
 - reproducible-build-artifact-provenance — NEW
 - runtime-build-fingerprint-contract — NEW
 - runtime-crash-symbolication-audit — NEW
 - runtime-diagnostic-bundle-reproducibility — NEW
 - runtime-health-signal-contract — NEW
+- runtime-integration-test-harness — NEW
 - runtime-log-redaction-boundary — NEW
+- runtime-observability-smoke-test — NEW
 - runtime-regression-bisect-workflow — NEW
 - secrets-scan-remediation — NEW
 - ssrf-boundary-review — NEW
@@ -366,11 +381,12 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (31)
+### Rust & platform engineering (36)
 
 - native-wasm-behavior-parity — NEW
 - rust-allocator-contention-analysis — NEW
 - rust-allocator-memory-profiling — NEW
+- rust-api-error-compatibility-fixtures — NEW
 - rust-api-error-taxonomy — NEW
 - rust-api-semver-audit — NEW
 - rust-async-backpressure-budget — NEW
@@ -380,6 +396,7 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - rust-binary-size-budget — NEW
 - rust-borrow-scope-performance — NEW
 - rust-bounded-worker-queue — NEW
+- rust-build-script-reproducibility-audit — NEW
 - rust-cache-line-sharing-audit — NEW
 - rust-channel-backpressure — NEW
 - rust-channel-shutdown-drain — NEW
@@ -388,19 +405,22 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - rust-crate-feature-budget — NEW
 - rust-crate-public-api-surface — NEW
 - rust-cross-compilation-validation — NEW
+- rust-error-path-observability-contract — NEW
+- rust-feature-configuration-smoke-matrix — NEW
 - rust-ffi-resource-ownership — NEW
 - rust-lock-contention-profile — NEW
 - rust-lock-order-deadlock-audit — NEW
 - rust-perf-regression-thresholds — NEW
 - rust-proc-macro-diagnostics — NEW
 - rust-profile-guided-optimization — NEW
+- rust-service-startup-shutdown-test — NEW
 - rust-shared-state-lock-elimination — NEW
 - rust-task-cancellation-propagation — NEW
 - rust-test-fixture-isolation — NEW
 - rust-workspace-feature-matrix — NEW
 - wasm-native-performance-comparison — NEW
 
-### Simulation, NPCs & world history (34)
+### Simulation, NPCs & world history (39)
 
 - civilization-migration-validation — NEW
 - civilization-production-throughput-audit — NEW
@@ -425,10 +445,15 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - procedural-civilization-simulation — NEW
 - simulation-agent-wakeup-sleep-contract — NEW
 - simulation-event-ordering-contract — NEW
+- simulation-event-queue-overflow-policy — NEW
+- simulation-long-run-memory-stability — NEW
 - simulation-multirate-update-policy — NEW
+- simulation-population-scale-benchmark — NEW
+- simulation-region-load-shedding — NEW
 - simulation-replay-state-diff — NEW
 - simulation-scheduler-fairness-audit — NEW
 - simulation-soak-test-design — NEW
+- simulation-state-migration-validation — NEW
 - simulation-tick-backlog-recovery — NEW
 - simulation-time-dilation-contract — NEW
 - simulation-world-invariant-checkpointing — NEW
