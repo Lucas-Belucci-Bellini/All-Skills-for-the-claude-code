@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-15",
-  "unique_skills": 375,
+  "updated_at": "2026-10-16",
+  "unique_skills": 400,
   "target": 500,
-  "remaining": 125,
+  "remaining": 100,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -307,6 +307,12 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-asset-streaming-budget/SKILL.md"
     },
     {
+      "name": "engine-background-io-batching",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-background-io-batching/SKILL.md"
+    },
+    {
       "name": "engine-background-task-cancellation",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -337,6 +343,18 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-debug-draw-observability/SKILL.md"
     },
     {
+      "name": "engine-deferred-work-staleness-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-deferred-work-staleness-budget/SKILL.md"
+    },
+    {
+      "name": "engine-dependency-wait-graph",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-dependency-wait-graph/SKILL.md"
+    },
+    {
       "name": "engine-fixed-timestep-simulation",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -359,6 +377,12 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-input-action-mapping/SKILL.md"
+    },
+    {
+      "name": "engine-job-coalescing-policy",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-job-coalescing-policy/SKILL.md"
     },
     {
       "name": "engine-job-system-backpressure",
@@ -421,6 +445,18 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-resource-hot-reload-atomicity/SKILL.md"
     },
     {
+      "name": "engine-runtime-config-drift-audit",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-runtime-config-drift-audit/SKILL.md"
+    },
+    {
+      "name": "engine-runtime-degradation-state",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-runtime-degradation-state/SKILL.md"
+    },
+    {
       "name": "engine-runtime-event-tracing",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -433,10 +469,34 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-runtime-telemetry-taxonomy/SKILL.md"
     },
     {
+      "name": "engine-scheduler-deadline-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scheduler-deadline-budget/SKILL.md"
+    },
+    {
+      "name": "engine-shutdown-deadline-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-shutdown-deadline-budget/SKILL.md"
+    },
+    {
+      "name": "engine-span-correlation-validation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-span-correlation-validation/SKILL.md"
+    },
+    {
       "name": "engine-startup-dependency-graph",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-startup-dependency-graph/SKILL.md"
+    },
+    {
+      "name": "engine-startup-phase-observability",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-startup-phase-observability/SKILL.md"
     },
     {
       "name": "engine-subsystem-lifecycle-order",
@@ -445,10 +505,34 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-subsystem-lifecycle-order/SKILL.md"
     },
     {
+      "name": "engine-task-priority-inheritance",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-task-priority-inheritance/SKILL.md"
+    },
+    {
+      "name": "engine-telemetry-cardinality-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-telemetry-cardinality-budget/SKILL.md"
+    },
+    {
       "name": "engine-thread-pool-saturation",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-thread-pool-saturation/SKILL.md"
+    },
+    {
+      "name": "engine-tick-phase-order-audit",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-tick-phase-order-audit/SKILL.md"
+    },
+    {
+      "name": "engine-work-stealing-fairness",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-work-stealing-fairness/SKILL.md"
     },
     {
       "name": "engine-world-origin-rebasing",
@@ -1435,6 +1519,42 @@
       "source_path": "curated-skill-sources/release-testing-operations/reproducible-build-artifact-provenance/SKILL.md"
     },
     {
+      "name": "runtime-build-fingerprint-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/runtime-build-fingerprint-contract/SKILL.md"
+    },
+    {
+      "name": "runtime-crash-symbolication-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/runtime-crash-symbolication-audit/SKILL.md"
+    },
+    {
+      "name": "runtime-diagnostic-bundle-reproducibility",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/runtime-diagnostic-bundle-reproducibility/SKILL.md"
+    },
+    {
+      "name": "runtime-health-signal-contract",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/runtime-health-signal-contract/SKILL.md"
+    },
+    {
+      "name": "runtime-log-redaction-boundary",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/runtime-log-redaction-boundary/SKILL.md"
+    },
+    {
+      "name": "runtime-regression-bisect-workflow",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/runtime-regression-bisect-workflow/SKILL.md"
+    },
+    {
       "name": "secrets-scan-remediation",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
@@ -2107,10 +2227,22 @@
       "source_path": "curated-skill-sources/simulation-world/procedural-civilization-simulation/SKILL.md"
     },
     {
+      "name": "simulation-agent-wakeup-sleep-contract",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-agent-wakeup-sleep-contract/SKILL.md"
+    },
+    {
       "name": "simulation-event-ordering-contract",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/simulation-event-ordering-contract/SKILL.md"
+    },
+    {
+      "name": "simulation-multirate-update-policy",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-multirate-update-policy/SKILL.md"
     },
     {
       "name": "simulation-replay-state-diff",
@@ -2119,16 +2251,34 @@
       "source_path": "curated-skill-sources/simulation-world/simulation-replay-state-diff/SKILL.md"
     },
     {
+      "name": "simulation-scheduler-fairness-audit",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-scheduler-fairness-audit/SKILL.md"
+    },
+    {
       "name": "simulation-soak-test-design",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/simulation-soak-test-design/SKILL.md"
     },
     {
+      "name": "simulation-tick-backlog-recovery",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-tick-backlog-recovery/SKILL.md"
+    },
+    {
       "name": "simulation-time-dilation-contract",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/simulation-time-dilation-contract/SKILL.md"
+    },
+    {
+      "name": "simulation-world-invariant-checkpointing",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-world-invariant-checkpointing/SKILL.md"
     },
     {
       "name": "social-rumor-propagation-model",
