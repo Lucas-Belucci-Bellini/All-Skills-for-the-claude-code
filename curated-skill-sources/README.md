@@ -1,6 +1,6 @@
 # Curated Skill Sources
 
-Original skills authored for this library are organized by domain below. Each skill is a unique folder with a SKILL.md entrypoint; the unified plugin is regenerated from these sources. The current authored corpus contains 174 skills: 51 from the first expansion, 25 from the second, 48 in the third, and 50 in this milestone.
+Original skills authored for this library are organized by domain below. Each skill is a unique folder with a SKILL.md entrypoint; the unified plugin is regenerated from these sources. The current authored corpus contains 199 skills: 51 from the first expansion, 25 from the second, 48 in the third, 50 in the fourth, and 25 in the fifth milestone.
 
 - agent-tooling/: guides and reusable workflows for Claude Code setup, MCP configuration, connection checks, and troubleshooting.
 - engine-runtime: Rust-first engine architecture, voxel lifecycle, rendering, deterministic simulation and performance.
