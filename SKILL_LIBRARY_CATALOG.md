@@ -1,20 +1,32 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
+Updated: 2026-10-16. The unified bundle contains 525 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **374**
-- Current total: **500**
+- Original curated skills: **399**
+- Current total: **525**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to the long-term target: **2,000**
+- Remaining to long-term target: **1,975**
 
 ## Categories
+
+### Accessibility & inclusive UX (8)
+
+- accessible-data-table-navigation-audit — NEW
+- accessible-focus-return-contract — NEW
+- accessible-form-error-association-audit — NEW
+- accessible-live-region-announcement-testing — NEW
+- bidirectional-text-layout-regression — NEW
+- keyboard-shortcut-conflict-inventory — NEW
+- reduced-motion-interaction-equivalence — NEW
+- zoom-reflow-overflow-audit — NEW
 
 ### Agent workflows, Claude Code & MCP (28)
 
 - agent-development
+- agent-workspace-isolation — NEW
 - build-mcp-app
 - build-mcp-server
 - build-mcpb
@@ -42,9 +54,6 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - skill-development
 - writing-rules
 
-- agent-workspace-isolation — NEW
-
-
 ### Claude Code setup & MCP (20)
 
 - agent-human-approval-gates — NEW
@@ -56,21 +65,17 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - agent-tool-output-schema-validation — NEW
 - claude-code-hook-safety-review — NEW
 - claude-code-mcp-setup — NEW
+- claude-code-session-permission-sanity-check — NEW
+- claude-plugin-upgrade-rollback-validation — NEW
+- mcp-auth-scope-minimization — NEW
+- mcp-oauth-token-refresh-boundary-tests — NEW
+- mcp-side-effect-risk-classification — NEW
 - mcp-tool-permission-audit — NEW
+- plugin-marketplace-discovery-smoke-test — NEW
 - plugin-package-compatibility-test — NEW
 - prompt-injection-boundary-testing — NEW
 - repository-instruction-conflict-resolution — NEW
 - tool-call-budget-policy — NEW
-
-- mcp-side-effect-risk-classification — NEW
-- mcp-auth-scope-minimization — NEW
-- claude-plugin-upgrade-rollback-validation — NEW
-
-
-
-- plugin-marketplace-discovery-smoke-test — NEW
-- claude-code-session-permission-sanity-check — NEW
-- mcp-oauth-token-refresh-boundary-tests — NEW
 
 ### Engine architecture & runtime (100)
 
@@ -108,6 +113,7 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - engine-plugin-shutdown-contract — NEW
 - engine-render-feature-matrix — NEW
 - engine-render-resource-lifetime — NEW
+- engine-resource-budget-overcommit-detection — NEW
 - engine-resource-hot-reload-atomicity — NEW
 - engine-resource-residency-budget — NEW
 - engine-runtime-config-drift-audit — NEW
@@ -149,6 +155,7 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - render-target-format-capability — NEW
 - renderer-frame-capture-triage — NEW
 - rendering-abstraction-design — NEW
+- resource-shutdown-use-after-close — NEW
 - rust-data-oriented-ecs-design — NEW
 - rust-game-loop-architecture — NEW
 - rust-unsafe-boundary-audit — NEW
@@ -158,28 +165,20 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - shader-variant-budget — NEW
 - visibility-culling-correctness — NEW
 - voxel-chunk-lifecycle — NEW
+- voxel-chunk-work-amplification-audit — NEW
 - voxel-meshing-optimization — NEW
 - voxel-meshing-seam-validation — NEW
 - voxel-neighbor-dependency-invalidation — NEW
 - voxel-seed-reproducibility — NEW
+- wasm-host-capability-restriction — NEW
+- wasm-memory-growth-budget — NEW
+- wasm-plugin-host-call-budget — NEW
 - world-chunk-lifecycle-invariants — NEW
 - world-chunk-streaming-state-machine — NEW
 - world-coordinate-overflow-audit — NEW
+- worldgen-coordinate-hash-stability — NEW
 - worldgen-deterministic-seed-contract — NEW
 - worldgen-feature-overlap-validation — NEW
-
-- voxel-chunk-work-amplification-audit — NEW
-- resource-shutdown-use-after-close — NEW
-
-
-
-- wasm-memory-growth-budget — NEW
-- wasm-host-capability-restriction — NEW
-- worldgen-coordinate-hash-stability — NEW
-
-
-- wasm-plugin-host-call-budget — NEW
-- engine-resource-budget-overcommit-detection — NEW
 
 ### Game content & save systems (30)
 
@@ -190,6 +189,7 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - asset-dependency-cycle-detection — NEW
 - asset-import-cache-key-audit — NEW
 - asset-import-validation — NEW
+- asset-load-cancellation-race-audit — NEW
 - asset-pipeline-incremental-build-validation — NEW
 - audio-mix-loudness-budget — NEW
 - dialogue-branch-continuity-audit — NEW
@@ -207,14 +207,11 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - texture-mipmap-import-validation — NEW
 - tutorial-onboarding-progression-audit — NEW
 - ui-state-transition-invariant-testing — NEW
+- voxel-chunk-edit-undo-consistency — NEW
 - world-content-pipeline — NEW
 - world-region-serialization-contract — NEW
 - worldgen-biome-distribution-analysis — NEW
 - worldgen-distribution-drift-detection — NEW
-
-- asset-load-cancellation-race-audit — NEW
-- voxel-chunk-edit-undo-consistency — NEW
-
 
 ### Game design, engines & gameplay QA (27)
 
@@ -275,90 +272,131 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - minecraft-server-backup-restore-drill — NEW
 - minecraft-server-performance-change-benchmark — NEW
 - minecraft-server-tick-profiling — NEW
+- minecraft-server-update-preflight-gate — NEW
 - minecraft-startup-dependency-resolution — NEW
 - minecraft-world-migration-readiness — NEW
+- minecraft-world-save-latency-audit — NEW
 - mod-loader-compatibility-matrix — NEW
 - modded-minecraft-crash-triage — NEW
+- modpack-client-startup-phase-profiler — NEW
 - modpack-config-diff-review — NEW
 - modpack-config-schema-drift — NEW
+- modpack-config-secret-leak-audit — NEW
 - modpack-dependency-triage — NEW
 - modpack-launch-environment-audit — NEW
 - modpack-release-manifest-audit — NEW
 - modpack-reproducibility-snapshot — NEW
 - modpack-server-capacity-planning — NEW
-
-
 - modpack-server-rolling-restart-readiness — NEW
-- modpack-client-startup-phase-profiler — NEW
-- modpack-config-secret-leak-audit — NEW
-- minecraft-world-save-latency-audit — NEW
-
-
-- minecraft-server-update-preflight-gate — NEW
 
 ### Networked games & determinism (16)
 
+- multiplayer-client-prediction-divergence-triage — NEW
 - multiplayer-determinism-testing — NEW
+- multiplayer-entity-despawn-ordering — NEW
 - multiplayer-entity-replication-prioritization — NEW
 - multiplayer-latency-compensation-validation — NEW
+- multiplayer-message-ordering-fault-injection — NEW
+- multiplayer-reconnect-command-deduplication — NEW
 - multiplayer-reconnect-state-resync — NEW
 - multiplayer-state-sync — NEW
 - netcode-lag-compensation-validation — NEW
 - network-authoritative-state-reconciliation — NEW
 - network-packet-budget-analysis — NEW
+- network-packet-fragmentation-boundary-testing — NEW
 - network-protocol-versioning — NEW
 - replication-interest-management — NEW
 - rollback-netcode-state-coverage — NEW
 
-- multiplayer-message-ordering-fault-injection — NEW
+### Release, tests & repository quality (109)
 
-
-
-- network-packet-fragmentation-boundary-testing — NEW
-- multiplayer-client-prediction-divergence-triage — NEW
-- multiplayer-entity-despawn-ordering — NEW
-
-
-- multiplayer-reconnect-command-deduplication — NEW
-
-### Release, tests & repository quality (92)
-
+- alert-noise-budget-audit — NEW
 - api-backward-compatibility-review — NEW
+- api-bulk-operation-partial-failure-contract — NEW
+- api-conditional-request-contract — NEW
+- api-content-negotiation-contract — NEW
 - api-contract-regression-testing — NEW
 - api-error-boundary-observability — NEW
+- api-generated-client-drift-audit — NEW
 - api-pagination-contract — NEW
+- api-response-size-budget-contract — NEW
+- api-version-sunset-planning — NEW
+- api-webhook-delivery-invariants — NEW
+- artifact-signature-verification — NEW
+- async-job-state-retention-contract — NEW
+- auth-refresh-token-replay-boundaries — NEW
 - authorization-matrix-tests — NEW
 - background-job-retry-design — NEW
+- batch-window-watermark-validation — NEW
 - build-cache-ci-optimization — NEW
 - build-cache-poisoning-resilience — NEW
 - cache-invalidation-contract — NEW
+- chaos-experiment-safety-gate — NEW
 - ci-environment-parity-audit — NEW
+- circuit-breaker-recovery-probe — NEW
+- client-retry-after-window-contract — NEW
+- container-image-reproducibility-audit — NEW
+- contract-test-provider-verification — NEW
+- cross-service-deadline-propagation-audit — NEW
+- data-export-consistent-snapshot-validation — NEW
+- data-retention-deletion-verification — NEW
+- database-backfill-resumability — NEW
+- database-connection-pool-saturation — NEW
+- database-constraint-race-regression — NEW
+- database-lock-wait-triage — NEW
 - database-migration-rollback-drill — NEW
 - database-migration-safety — NEW
+- database-online-index-migration-validation — NEW
+- database-replica-lag-read-routing — NEW
+- dependency-lockfile-drift-classification — NEW
 - dependency-supply-chain-verification — NEW
 - dependency-update-risk-assessment — NEW
+- deployment-canary-health-window — NEW
+- deployment-config-version-skew-audit — NEW
+- distributed-cache-namespace-isolation — NEW
+- distributed-lease-fencing-token-audit — NEW
 - distributed-outbox-inbox — NEW
+- distributed-saga-compensation-testing — NEW
+- event-consumer-offset-recovery — NEW
 - event-driven-architecture-tracing — NEW
 - event-schema-evolution — NEW
+- feature-flag-expiry-enforcement — NEW
 - flaky-test-isolation — NEW
 - form-validation-contract — NEW
 - frontend-accessibility-smoke-test — NEW
 - frontend-loading-empty-error-contracts — NEW
 - frontend-route-auth-guard-audit — NEW
 - frontend-server-state-cache — NEW
+- github-actions-token-permission-audit — NEW
+- graceful-degradation-fallback-verification — NEW
+- graphql-query-cost-budget — NEW
 - idempotency-key-design — NEW
 - incident-postmortem-evidence — NEW
 - log-redaction-pii-audit — NEW
+- log-schema-evolution-validation — NEW
+- multi-region-failover-readiness-test — NEW
 - multi-tenant-data-boundary — NEW
 - oauth-oidc-flow-audit — NEW
+- object-storage-download-integrity — NEW
+- object-storage-upload-integrity — NEW
 - optimistic-ui-rollback — NEW
+- patch-field-presence-semantics-contract — NEW
 - postgres-index-design — NEW
 - postgresql-query-plan-regression — NEW
+- postgresql-transaction-isolation-audit — NEW
+- queue-consumer-rebalance-drain-safety — NEW
+- queue-dead-letter-replay-safety — NEW
+- queue-drain-shutdown-deadline-validation — NEW
+- queue-poison-message-quarantine — NEW
 - rate-limit-policy-design — NEW
+- redis-cache-stampede-control — NEW
+- release-artifact-quarantine-gate — NEW
 - release-candidate-evidence-manifest — NEW
+- release-evidence-retention-policy — NEW
 - release-rollback-readiness-drill — NEW
 - repository-architecture-map — NEW
 - reproducible-build-artifact-provenance — NEW
+- retry-amplification-storm-audit — NEW
 - runtime-build-fingerprint-contract — NEW
 - runtime-crash-symbolication-audit — NEW
 - runtime-diagnostic-bundle-reproducibility — NEW
@@ -367,60 +405,20 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - runtime-log-redaction-boundary — NEW
 - runtime-observability-smoke-test — NEW
 - runtime-regression-bisect-workflow — NEW
+- search-index-rebuild-parity — NEW
+- secrets-rotation-exercise — NEW
 - secrets-scan-remediation — NEW
+- service-timeout-budget-matrix — NEW
+- signed-url-scope-expiry-audit — NEW
+- slo-burn-rate-window-analysis — NEW
 - ssrf-boundary-review — NEW
 - supabase-rls-policy-audit — NEW
+- tenant-quota-enforcement-tests — NEW
+- test-fixture-data-sensitivity-audit — NEW
 - threat-model-data-flow — NEW
+- trace-context-propagation-contract — NEW
 - typescript-api-error-contract-design — NEW
 - web-performance-budget-audit — NEW
-
-- api-generated-client-drift-audit — NEW
-- api-webhook-delivery-invariants — NEW
-- api-version-sunset-planning — NEW
-- tenant-quota-enforcement-tests — NEW
-- database-connection-pool-saturation — NEW
-- database-backfill-resumability — NEW
-- database-lock-wait-triage — NEW
-- data-retention-deletion-verification — NEW
-- postgresql-transaction-isolation-audit — NEW
-- artifact-signature-verification — NEW
-- container-image-reproducibility-audit — NEW
-- secrets-rotation-exercise — NEW
-- auth-refresh-token-replay-boundaries — NEW
-- release-artifact-quarantine-gate — NEW
-- event-consumer-offset-recovery — NEW
-
-
-
-- deployment-canary-health-window — NEW
-- feature-flag-expiry-enforcement — NEW
-- github-actions-token-permission-audit — NEW
-- release-evidence-retention-policy — NEW
-- graphql-query-cost-budget — NEW
-- api-conditional-request-contract — NEW
-- api-content-negotiation-contract — NEW
-- database-replica-lag-read-routing — NEW
-- distributed-saga-compensation-testing — NEW
-- object-storage-upload-integrity — NEW
-- batch-window-watermark-validation — NEW
-
-
-- contract-test-provider-verification — NEW
-- trace-context-propagation-contract — NEW
-- log-schema-evolution-validation — NEW
-- alert-noise-budget-audit — NEW
-- queue-poison-message-quarantine — NEW
-- queue-dead-letter-replay-safety — NEW
-- queue-consumer-rebalance-drain-safety — NEW
-- redis-cache-stampede-control — NEW
-- distributed-cache-namespace-isolation — NEW
-- database-constraint-race-regression — NEW
-- search-index-rebuild-parity — NEW
-- object-storage-download-integrity — NEW
-- signed-url-scope-expiry-audit — NEW
-- deployment-config-version-skew-audit — NEW
-- dependency-lockfile-drift-classification — NEW
-- test-fixture-data-sensitivity-audit — NEW
 
 ### Reverse engineering & artifact analysis (54)
 
@@ -502,12 +500,15 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - rust-crate-boundary-audit — NEW
 - rust-crate-feature-budget — NEW
 - rust-crate-public-api-surface — NEW
+- rust-crate-publish-dry-run-audit — NEW
 - rust-cross-compilation-validation — NEW
 - rust-error-path-observability-contract — NEW
 - rust-feature-configuration-smoke-matrix — NEW
 - rust-ffi-resource-ownership — NEW
 - rust-lock-contention-profile — NEW
 - rust-lock-order-deadlock-audit — NEW
+- rust-msrv-compatibility-gate — NEW
+- rust-panic-boundary-observability — NEW
 - rust-perf-regression-thresholds — NEW
 - rust-proc-macro-diagnostics — NEW
 - rust-profile-guided-optimization — NEW
@@ -517,13 +518,6 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - rust-test-fixture-isolation — NEW
 - rust-workspace-feature-matrix — NEW
 - wasm-native-performance-comparison — NEW
-
-
-- rust-msrv-compatibility-gate — NEW
-- rust-panic-boundary-observability — NEW
-
-
-- rust-crate-publish-dry-run-audit — NEW
 
 ### Simulation, NPCs & world history (40)
 
@@ -556,6 +550,7 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - simulation-population-scale-benchmark — NEW
 - simulation-region-load-shedding — NEW
 - simulation-replay-state-diff — NEW
+- simulation-rng-stream-isolation — NEW
 - simulation-scheduler-fairness-audit — NEW
 - simulation-soak-test-design — NEW
 - simulation-state-migration-validation — NEW
@@ -567,30 +562,21 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - world-history-event-sourcing — NEW
 - world-simulation-save-snapshot — NEW
 
-
-- simulation-rng-stream-isolation — NEW
-
 ### Skill library governance (13)
 
 - agent-artifact-quality-gates — NEW
+- agent-output-evidence-traceability — NEW
 - automation-change-risk-gating — NEW
+- license-notice-redistribution-audit — NEW
 - skill-catalog-taxonomy-consistency — NEW
 - skill-deduplication-and-consolidation — NEW
 - skill-documentation-example-audit — NEW
+- skill-frontmatter-schema-compatibility-audit — NEW
 - skill-quality-evaluation — NEW
 - skill-trigger-regression-suite — NEW
 - skill-trigger-routing-evaluation — NEW
 - skill-usage-feedback-triage — NEW
 - third-party-skill-provenance-audit — NEW
-
-- agent-output-evidence-traceability — NEW
-
-
-
-- license-notice-redistribution-audit — NEW
-
-
-- skill-frontmatter-schema-compatibility-audit — NEW
 
 ### UI, art, audio & assets (7)
 
@@ -602,3 +588,11 @@ Updated: 2026-10-16. The unified bundle contains 500 distinct skills.
 - generating-dot-assets
 - styling-web-game-typography
 
+## Source-of-truth rules
+
+- Each distinct skill is identified by its entrypoint and complete skill-local subtree, not merely by its name.
+- Original skill source locations are preserved when bundled; new authored sources are organized under curated-skill-sources by category.
+- The all-skills-collection plugin is generated output. Do not add new source skills only inside that generated directory.
+- Keep third-party provenance, licenses, attribution, and required notices. A repository-level license does not automatically relicense imported content.
+- Do not count placeholders, repeated aliases, or near-duplicates as additional skills.
+- Regenerate and validate using the repository sync script before completing a skills batch.
