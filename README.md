@@ -107,4 +107,4 @@ This repository also maintains a unified Claude Code plugin that gathers distinc
 
 After adding a new skill batch, run `node tools/sync-skill-bundles.mjs --write`, review the diff, then validate with `node tools/sync-skill-bundles.mjs --check`. Updates should go through a feature branch and pull request. Keep this repository private until all source license and provenance terms have been reviewed.
 
-The combined collection currently packages 475 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the long-term plan to reach 2,500 distinct skills (with 500 as the 2026 intermediate milestone). See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
+The combined collection currently packages 500 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the long-term plan to reach 2,500 distinct skills (with 500 as the 2026 intermediate milestone). See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
