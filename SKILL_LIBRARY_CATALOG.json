@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-15",
-  "unique_skills": 350,
+  "unique_skills": 375,
   "target": 500,
-  "remaining": 150,
+  "remaining": 125,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -307,6 +307,12 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-asset-streaming-budget/SKILL.md"
     },
     {
+      "name": "engine-background-task-cancellation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-background-task-cancellation/SKILL.md"
+    },
+    {
       "name": "engine-cache-locality-analysis",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -373,6 +379,12 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-memory-fragmentation-audit/SKILL.md"
     },
     {
+      "name": "engine-memory-pressure-response",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-memory-pressure-response/SKILL.md"
+    },
+    {
       "name": "engine-performance-benchmarking",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -385,6 +397,12 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-plugin-boundaries/SKILL.md"
     },
     {
+      "name": "engine-plugin-shutdown-contract",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-plugin-shutdown-contract/SKILL.md"
+    },
+    {
       "name": "engine-render-feature-matrix",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -395,6 +413,18 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-render-resource-lifetime/SKILL.md"
+    },
+    {
+      "name": "engine-resource-hot-reload-atomicity",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-resource-hot-reload-atomicity/SKILL.md"
+    },
+    {
+      "name": "engine-runtime-event-tracing",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-runtime-event-tracing/SKILL.md"
     },
     {
       "name": "engine-runtime-telemetry-taxonomy",
@@ -673,6 +703,12 @@
       "origin": "new-authored"
     },
     {
+      "name": "asset-import-cache-key-audit",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/asset-import-cache-key-audit/SKILL.md"
+    },
+    {
       "name": "asset-import-validation",
       "category": "Game content & save systems",
       "origin": "new-authored",
@@ -695,6 +731,12 @@
       "category": "Game content & save systems",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/game-content-pipelines/dialogue-branch-continuity-audit/SKILL.md"
+    },
+    {
+      "name": "game-save-fault-injection",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/game-save-fault-injection/SKILL.md"
     },
     {
       "name": "game-save-recovery-testing",
@@ -745,6 +787,12 @@
       "source_path": "curated-skill-sources/game-content-pipelines/procedural-level-pacing-validation/SKILL.md"
     },
     {
+      "name": "procedural-world-golden-test",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/procedural-world-golden-test/SKILL.md"
+    },
+    {
       "name": "save-format-compatibility-fixtures",
       "category": "Game content & save systems",
       "origin": "new-authored",
@@ -785,6 +833,12 @@
       "category": "Game content & save systems",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/game-content-pipelines/worldgen-biome-distribution-analysis/SKILL.md"
+    },
+    {
+      "name": "worldgen-distribution-drift-detection",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/worldgen-distribution-drift-detection/SKILL.md"
     },
     {
       "name": "adversarially-validating-game-repairs",
@@ -1129,6 +1183,18 @@
       "source_path": "curated-skill-sources/networked-games/multiplayer-determinism-testing/SKILL.md"
     },
     {
+      "name": "multiplayer-entity-replication-prioritization",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/multiplayer-entity-replication-prioritization/SKILL.md"
+    },
+    {
+      "name": "multiplayer-latency-compensation-validation",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/multiplayer-latency-compensation-validation/SKILL.md"
+    },
+    {
       "name": "multiplayer-reconnect-state-resync",
       "category": "Networked games & determinism",
       "origin": "new-authored",
@@ -1147,6 +1213,18 @@
       "source_path": "curated-skill-sources/networked-games/netcode-lag-compensation-validation/SKILL.md"
     },
     {
+      "name": "network-authoritative-state-reconciliation",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/network-authoritative-state-reconciliation/SKILL.md"
+    },
+    {
+      "name": "network-packet-budget-analysis",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/network-packet-budget-analysis/SKILL.md"
+    },
+    {
       "name": "network-protocol-versioning",
       "category": "Networked games & determinism",
       "origin": "new-authored",
@@ -1157,6 +1235,12 @@
       "category": "Networked games & determinism",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/networked-games/replication-interest-management/SKILL.md"
+    },
+    {
+      "name": "rollback-netcode-state-coverage",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/rollback-netcode-state-coverage/SKILL.md"
     },
     {
       "name": "api-backward-compatibility-review",
@@ -1741,6 +1825,12 @@
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-api-semver-audit/SKILL.md"
     },
     {
+      "name": "rust-async-backpressure-budget",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-async-backpressure-budget/SKILL.md"
+    },
+    {
       "name": "rust-async-cancellation-safety",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
@@ -1771,6 +1861,12 @@
       "origin": "new-authored"
     },
     {
+      "name": "rust-bounded-worker-queue",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-bounded-worker-queue/SKILL.md"
+    },
+    {
       "name": "rust-cache-line-sharing-audit",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
@@ -1787,6 +1883,12 @@
       "category": "Rust & platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-channel-shutdown-drain/SKILL.md"
+    },
+    {
+      "name": "rust-concurrency-test-scenario-design",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-concurrency-test-scenario-design/SKILL.md"
     },
     {
       "name": "rust-crate-boundary-audit",
@@ -1825,6 +1927,12 @@
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-lock-contention-profile/SKILL.md"
     },
     {
+      "name": "rust-lock-order-deadlock-audit",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-lock-order-deadlock-audit/SKILL.md"
+    },
+    {
       "name": "rust-perf-regression-thresholds",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
@@ -1849,6 +1957,12 @@
       "origin": "new-authored"
     },
     {
+      "name": "rust-task-cancellation-propagation",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-task-cancellation-propagation/SKILL.md"
+    },
+    {
       "name": "rust-test-fixture-isolation",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
@@ -1871,6 +1985,12 @@
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/civilization-migration-validation/SKILL.md"
+    },
+    {
+      "name": "civilization-production-throughput-audit",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-production-throughput-audit/SKILL.md"
     },
     {
       "name": "civilization-resource-reservation",
@@ -1921,6 +2041,12 @@
       "source_path": "curated-skill-sources/simulation-world/large-population-simulation-lod/SKILL.md"
     },
     {
+      "name": "npc-action-precondition-validation",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-action-precondition-validation/SKILL.md"
+    },
+    {
       "name": "npc-agent-decision-budget",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
@@ -1943,6 +2069,12 @@
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/npc-memory-retention-policy/SKILL.md"
+    },
+    {
+      "name": "npc-memory-retrieval-budget",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-memory-retrieval-budget/SKILL.md"
     },
     {
       "name": "npc-pathfinding-budget-policy",
@@ -1979,6 +2111,24 @@
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/simulation-event-ordering-contract/SKILL.md"
+    },
+    {
+      "name": "simulation-replay-state-diff",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-replay-state-diff/SKILL.md"
+    },
+    {
+      "name": "simulation-soak-test-design",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-soak-test-design/SKILL.md"
+    },
+    {
+      "name": "simulation-time-dilation-contract",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-time-dilation-contract/SKILL.md"
     },
     {
       "name": "social-rumor-propagation-model",
