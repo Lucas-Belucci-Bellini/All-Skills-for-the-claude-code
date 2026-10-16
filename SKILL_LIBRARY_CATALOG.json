@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-16",
-  "unique_skills": 850,
+  "unique_skills": 1000,
   "target": 2500,
-  "remaining": 1650,
+  "remaining": 1500,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -3055,6 +3055,306 @@
       "source_path": "curated-skill-sources/networked-games/rollback-netcode-state-coverage/SKILL.md"
     },
     {
+      "name": "scorecard-api-data-license-boundary",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-api-data-license-boundary/SKILL.md"
+    },
+    {
+      "name": "scorecard-change-over-change-diff",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-change-over-change-diff/SKILL.md"
+    },
+    {
+      "name": "scorecard-check-coverage-matrix",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-check-coverage-matrix/SKILL.md"
+    },
+    {
+      "name": "scorecard-critical-finding-triage",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-critical-finding-triage/SKILL.md"
+    },
+    {
+      "name": "scorecard-false-positive-expiry",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-false-positive-expiry/SKILL.md"
+    },
+    {
+      "name": "scorecard-release-gate-exemption",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-release-gate-exemption/SKILL.md"
+    },
+    {
+      "name": "scorecard-result-provenance-label",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-result-provenance-label/SKILL.md"
+    },
+    {
+      "name": "scorecard-score-threshold-policy",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-score-threshold-policy/SKILL.md"
+    },
+    {
+      "name": "scorecard-weekly-baseline-drift",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-weekly-baseline-drift/SKILL.md"
+    },
+    {
+      "name": "supply-chain-action-sha-pinning",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-action-sha-pinning/SKILL.md"
+    },
+    {
+      "name": "supply-chain-advisory-feed-staleness",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-advisory-feed-staleness/SKILL.md"
+    },
+    {
+      "name": "supply-chain-artifact-retention-policy",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-artifact-retention-policy/SKILL.md"
+    },
+    {
+      "name": "supply-chain-attestation-subject-digest",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-attestation-subject-digest/SKILL.md"
+    },
+    {
+      "name": "supply-chain-build-reproducibility-evidence",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-build-reproducibility-evidence/SKILL.md"
+    },
+    {
+      "name": "supply-chain-build-runner-image-pinning",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-build-runner-image-pinning/SKILL.md"
+    },
+    {
+      "name": "supply-chain-cache-poisoning-review",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-cache-poisoning-review/SKILL.md"
+    },
+    {
+      "name": "supply-chain-codeowners-coverage",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-codeowners-coverage/SKILL.md"
+    },
+    {
+      "name": "supply-chain-commit-signature-verification",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-commit-signature-verification/SKILL.md"
+    },
+    {
+      "name": "supply-chain-container-base-image-digest",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-container-base-image-digest/SKILL.md"
+    },
+    {
+      "name": "supply-chain-container-rootless-policy",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-container-rootless-policy/SKILL.md"
+    },
+    {
+      "name": "supply-chain-dependency-confusion-boundary",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-dependency-confusion-boundary/SKILL.md"
+    },
+    {
+      "name": "supply-chain-dependency-update-pr-validation",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-dependency-update-pr-validation/SKILL.md"
+    },
+    {
+      "name": "supply-chain-fuzzing-regression-triage",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-fuzzing-regression-triage/SKILL.md"
+    },
+    {
+      "name": "supply-chain-image-signature-verification",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-image-signature-verification/SKILL.md"
+    },
+    {
+      "name": "supply-chain-license-policy-exception",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-license-policy-exception/SKILL.md"
+    },
+    {
+      "name": "supply-chain-lockfile-drift-audit",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-lockfile-drift-audit/SKILL.md"
+    },
+    {
+      "name": "supply-chain-package-maintainer-change",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-package-maintainer-change/SKILL.md"
+    },
+    {
+      "name": "supply-chain-package-publish-dry-run",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-package-publish-dry-run/SKILL.md"
+    },
+    {
+      "name": "supply-chain-protected-branch-preflight",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-protected-branch-preflight/SKILL.md"
+    },
+    {
+      "name": "supply-chain-provenance-attestation-check",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-provenance-attestation-check/SKILL.md"
+    },
+    {
+      "name": "supply-chain-provenance-branch-match",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-provenance-branch-match/SKILL.md"
+    },
+    {
+      "name": "supply-chain-registry-auth-scope",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-registry-auth-scope/SKILL.md"
+    },
+    {
+      "name": "supply-chain-release-approval-evidence",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-release-approval-evidence/SKILL.md"
+    },
+    {
+      "name": "supply-chain-release-artifact-hash",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-release-artifact-hash/SKILL.md"
+    },
+    {
+      "name": "supply-chain-release-tag-signature-check",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-release-tag-signature-check/SKILL.md"
+    },
+    {
+      "name": "supply-chain-reusable-workflow-pin",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-reusable-workflow-pin/SKILL.md"
+    },
+    {
+      "name": "supply-chain-runner-isolation",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-runner-isolation/SKILL.md"
+    },
+    {
+      "name": "supply-chain-sbom-component-inventory",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-sbom-component-inventory/SKILL.md"
+    },
+    {
+      "name": "supply-chain-sbom-diff-review",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-sbom-diff-review/SKILL.md"
+    },
+    {
+      "name": "supply-chain-secret-exposure-review",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-secret-exposure-review/SKILL.md"
+    },
+    {
+      "name": "supply-chain-secret-scan-exception-expiry",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-secret-scan-exception-expiry/SKILL.md"
+    },
+    {
+      "name": "supply-chain-security-metadata-required",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-security-metadata-required/SKILL.md"
+    },
+    {
+      "name": "supply-chain-security-policy-drift",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-security-policy-drift/SKILL.md"
+    },
+    {
+      "name": "supply-chain-submodule-commit-provenance",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-submodule-commit-provenance/SKILL.md"
+    },
+    {
+      "name": "supply-chain-transitive-risk-reachability",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-transitive-risk-reachability/SKILL.md"
+    },
+    {
+      "name": "supply-chain-typosquat-suspicion-triage",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-typosquat-suspicion-triage/SKILL.md"
+    },
+    {
+      "name": "supply-chain-untrusted-pr-trigger-boundary",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-untrusted-pr-trigger-boundary/SKILL.md"
+    },
+    {
+      "name": "supply-chain-vulnerability-exploitability-triage",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-vulnerability-exploitability-triage/SKILL.md"
+    },
+    {
+      "name": "supply-chain-vulnerability-sla-aging",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-vulnerability-sla-aging/SKILL.md"
+    },
+    {
+      "name": "supply-chain-workflow-permission-minimum",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-workflow-permission-minimum/SKILL.md"
+    },
+    {
       "name": "osiris-active-fire-feed-provenance",
       "category": "OSIRIS intelligence platform engineering",
       "origin": "new-authored",
@@ -5065,6 +5365,306 @@
       "source_path": "curated-skill-sources/skill-library-governance/third-party-skill-provenance-audit/SKILL.md"
     },
     {
+      "name": "supabase-audit-event-retention-policy",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-audit-event-retention-policy/SKILL.md"
+    },
+    {
+      "name": "supabase-auth-email-provider-failure-drill",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-auth-email-provider-failure-drill/SKILL.md"
+    },
+    {
+      "name": "supabase-auth-jwt-claim-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-auth-jwt-claim-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-auth-session-revocation-check",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-auth-session-revocation-check/SKILL.md"
+    },
+    {
+      "name": "supabase-backup-restore-drill-evidence",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-backup-restore-drill-evidence/SKILL.md"
+    },
+    {
+      "name": "supabase-backup-retention-policy",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-backup-retention-policy/SKILL.md"
+    },
+    {
+      "name": "supabase-database-alert-threshold-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-database-alert-threshold-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-database-maintenance-window-plan",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-database-maintenance-window-plan/SKILL.md"
+    },
+    {
+      "name": "supabase-database-secret-rotation",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-database-secret-rotation/SKILL.md"
+    },
+    {
+      "name": "supabase-database-webhook-retry-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-database-webhook-retry-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-edge-function-cors-allowlist",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-cors-allowlist/SKILL.md"
+    },
+    {
+      "name": "supabase-edge-function-idempotency-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-idempotency-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-edge-function-request-size-limit",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-request-size-limit/SKILL.md"
+    },
+    {
+      "name": "supabase-edge-function-secret-redaction",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-secret-redaction/SKILL.md"
+    },
+    {
+      "name": "supabase-edge-function-timeout-budget",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-timeout-budget/SKILL.md"
+    },
+    {
+      "name": "supabase-extension-compatibility-matrix",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-extension-compatibility-matrix/SKILL.md"
+    },
+    {
+      "name": "supabase-generated-types-schema-drift",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-generated-types-schema-drift/SKILL.md"
+    },
+    {
+      "name": "supabase-graphql-schema-exposure-audit",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-graphql-schema-exposure-audit/SKILL.md"
+    },
+    {
+      "name": "supabase-incident-reproduction-bundle",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-incident-reproduction-bundle/SKILL.md"
+    },
+    {
+      "name": "supabase-local-production-parity",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-local-production-parity/SKILL.md"
+    },
+    {
+      "name": "supabase-migration-backfill-checkpointing",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-migration-backfill-checkpointing/SKILL.md"
+    },
+    {
+      "name": "supabase-migration-expand-contract-plan",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-migration-expand-contract-plan/SKILL.md"
+    },
+    {
+      "name": "supabase-migration-lock-duration-budget",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-migration-lock-duration-budget/SKILL.md"
+    },
+    {
+      "name": "supabase-migration-reversible-down-path",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-migration-reversible-down-path/SKILL.md"
+    },
+    {
+      "name": "supabase-pgvector-recall-validation",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-pgvector-recall-validation/SKILL.md"
+    },
+    {
+      "name": "supabase-point-in-time-recovery-acceptance",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-point-in-time-recovery-acceptance/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-connection-pool-budget",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-connection-pool-budget/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-deadlock-reproduction",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-deadlock-reproduction/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-index-usage-review",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-index-usage-review/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-log-pii-scrubbing",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-log-pii-scrubbing/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-query-plan-regression",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-query-plan-regression/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-statement-timeout-matrix",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-statement-timeout-matrix/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-supavisor-mode-compatibility",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-supavisor-mode-compatibility/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-transaction-isolation-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-transaction-isolation-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-postgrest-relationship-ambiguity",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgrest-relationship-ambiguity/SKILL.md"
+    },
+    {
+      "name": "supabase-realtime-channel-cleanup",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-realtime-channel-cleanup/SKILL.md"
+    },
+    {
+      "name": "supabase-realtime-event-ordering-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-realtime-event-ordering-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-realtime-presence-expiry",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-realtime-presence-expiry/SKILL.md"
+    },
+    {
+      "name": "supabase-realtime-subscription-auth-refresh",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-realtime-subscription-auth-refresh/SKILL.md"
+    },
+    {
+      "name": "supabase-replica-lag-stale-read-policy",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-replica-lag-stale-read-policy/SKILL.md"
+    },
+    {
+      "name": "supabase-rls-policy-coverage-matrix",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-policy-coverage-matrix/SKILL.md"
+    },
+    {
+      "name": "supabase-rls-query-plan-performance",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-query-plan-performance/SKILL.md"
+    },
+    {
+      "name": "supabase-rls-role-escalation-test",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-role-escalation-test/SKILL.md"
+    },
+    {
+      "name": "supabase-rls-tenant-isolation-negative-cases",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-tenant-isolation-negative-cases/SKILL.md"
+    },
+    {
+      "name": "supabase-schema-drift-environment-parity",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-schema-drift-environment-parity/SKILL.md"
+    },
+    {
+      "name": "supabase-seed-fixture-determinism",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-seed-fixture-determinism/SKILL.md"
+    },
+    {
+      "name": "supabase-storage-object-ownership-policy",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-storage-object-ownership-policy/SKILL.md"
+    },
+    {
+      "name": "supabase-storage-orphan-reconciliation",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-storage-orphan-reconciliation/SKILL.md"
+    },
+    {
+      "name": "supabase-storage-signed-url-expiry",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-storage-signed-url-expiry/SKILL.md"
+    },
+    {
+      "name": "supabase-storage-upload-mime-boundary",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-storage-upload-mime-boundary/SKILL.md"
+    },
+    {
       "name": "building-era-authentic-game-audio",
       "category": "UI, art, audio & assets",
       "origin": "existing",
@@ -5105,6 +5705,306 @@
       "category": "UI, art, audio & assets",
       "origin": "existing",
       "source_path": null
+    },
+    {
+      "name": "ai-sdk-agent-duplicate-call-detection",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-duplicate-call-detection/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-agent-max-step-limit",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-max-step-limit/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-agent-memory-expiration",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-memory-expiration/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-audio-transcript-confidence",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-audio-transcript-confidence/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-background-job-cancellation",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-background-job-cancellation/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-browser-tool-domain-allowlist",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-browser-tool-domain-allowlist/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-cancelled-stream-resource-cleanup",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-cancelled-stream-resource-cleanup/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-concurrency-limit",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-concurrency-limit/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-context-window-budget",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-context-window-budget/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-conversation-truncation-policy",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-conversation-truncation-policy/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-cost-attribution-by-tool",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-cost-attribution-by-tool/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-evaluation-deterministic-mocks",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-deterministic-mocks/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-evaluation-golden-set-versioning",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-golden-set-versioning/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-evaluation-provider-variance",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-provider-variance/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-evaluation-regression-thresholds",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-regression-thresholds/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-evaluation-rubric-contract",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-rubric-contract/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-grounding-citation-check",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-grounding-citation-check/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-human-approval-gate",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-human-approval-gate/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-image-reference-retention",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-image-reference-retention/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-json-repair-observability",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-json-repair-observability/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-message-serialization-roundtrip",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-message-serialization-roundtrip/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-model-fallback-compatibility",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-model-fallback-compatibility/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-multimodal-input-size-guard",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-multimodal-input-size-guard/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-multistep-stop-conditions",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-multistep-stop-conditions/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-output-schema-validation",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-output-schema-validation/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-production-shadow-evaluation",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-production-shadow-evaluation/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-prompt-injection-test-matrix",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-prompt-injection-test-matrix/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-prompt-version-rollback",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-prompt-version-rollback/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-provider-capability-matrix",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-provider-capability-matrix/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-provider-error-normalization",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-provider-error-normalization/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-provider-key-isolation",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-provider-key-isolation/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-rag-source-provenance",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-rag-source-provenance/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-rate-limit-backpressure",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-rate-limit-backpressure/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-retrieval-freshness-contract",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-retrieval-freshness-contract/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-retry-budget-and-backoff",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-retry-budget-and-backoff/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-sensitive-data-log-filter",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-sensitive-data-log-filter/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-stream-reconnect-policy",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-stream-reconnect-policy/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-stream-ui-state-machine",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-stream-ui-state-machine/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-streamtext-cancel-handling",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-streamtext-cancel-handling/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-structured-output-nullability",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-structured-output-nullability/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-token-budget-envelope",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-token-budget-envelope/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-authorization-boundary",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-authorization-boundary/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-idempotency-contract",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-idempotency-contract/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-input-schema-guard",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-input-schema-guard/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-output-size-contract",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-output-size-contract/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-result-validation",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-result-validation/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-timeout-fallback",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-timeout-fallback/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tracing-span-cardinality",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tracing-span-cardinality/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-untrusted-tool-result-delimiting",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-untrusted-tool-result-delimiting/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-user-session-scope",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
     }
   ]
 }

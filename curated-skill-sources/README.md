@@ -1,6 +1,6 @@
 # Curated Skill Sources
 
-Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The 850-skill draft contains **724 original skills** and 126 retained/imported entries.
+Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The 1,000-skill draft contains **874 original skills** and 126 retained/imported entries.
 
 - `agent-tooling/`: Claude Code setup, MCP configuration, permissions, connection checks, and troubleshooting.
 - `developer-cli-tooling/`: CLI behavior contracts, portable environments, and deterministic command workflows.
@@ -14,6 +14,9 @@ Original skills authored for this library are organized by domain below. Each sk
 - `osiris-intelligence-platform/`: public-source API contracts, map/camera inventories, defensive scanner scope, source attribution, forecast evidence, MCP/SSE lifecycle, and safe deployment.
 - `aeris-radar-engineering/`: AERIS-10/PLFM_RADAR FPGA contracts, simulated signal-processing validation, PCB/schematic provenance, STM32 safety states, and cross-layer test evidence.
 - `flipperzero-firmware-engineering/`: FBT/SCons builds, Furi/FreeRTOS lifetime, GUI/application state, HAL contracts, storage formats, transport compatibility, parser safety, JS SDK, and firmware CI.
+- `supabase-database-engineering/`: RLS and tenant isolation, migrations, PostgreSQL performance/recovery, Realtime, Storage, Edge Functions, and safe evidence drills.
+- `ai-sdk-agent-reliability/`: provider compatibility, tool boundaries, streaming/cancellation, evaluation, grounding, budgets, and human approval gates.
+- `secure-software-supply-chain/`: Scorecard evidence, least-privilege CI, SBOM/provenance, artifact identity, dependency risk, and release controls.
 
 ## Research and provenance
 

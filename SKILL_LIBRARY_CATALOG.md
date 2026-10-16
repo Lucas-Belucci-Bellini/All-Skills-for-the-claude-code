@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 850 distinct skills.
+Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **724**
-- Current total: **850**
+- Original curated skills: **874**
+- Current total: **1,000**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,650**
+- Remaining to long-term target: **1,500**
 
 ## Categories
 
@@ -85,7 +85,7 @@ Updated: 2026-10-16. The unified bundle contains 850 distinct skills.
 - radar-safe-rf-lab-test-conditions — NEW
 - radar-sample-width-signedness-audit — NEW
 - radar-schematic-netlist-consistency — NEW
-- radar-signal-processing-units-and-dB-audit — NEW
+- radar-signal-processing-units-and-db-audit — NEW
 - radar-simulator-vs-hardware-claim-boundary — NEW
 - radar-spi-chip-select-transaction-contract — NEW
 - radar-stepper-motion-limit-contract — NEW
@@ -571,6 +571,59 @@ Updated: 2026-10-16. The unified bundle contains 850 distinct skills.
 - replication-interest-management — NEW
 - rollback-netcode-state-coverage — NEW
 
+### OpenSSF Scorecard & software supply chain (50)
+
+- scorecard-api-data-license-boundary — NEW
+- scorecard-change-over-change-diff — NEW
+- scorecard-check-coverage-matrix — NEW
+- scorecard-critical-finding-triage — NEW
+- scorecard-false-positive-expiry — NEW
+- scorecard-release-gate-exemption — NEW
+- scorecard-result-provenance-label — NEW
+- scorecard-score-threshold-policy — NEW
+- scorecard-weekly-baseline-drift — NEW
+- supply-chain-action-sha-pinning — NEW
+- supply-chain-advisory-feed-staleness — NEW
+- supply-chain-artifact-retention-policy — NEW
+- supply-chain-attestation-subject-digest — NEW
+- supply-chain-build-reproducibility-evidence — NEW
+- supply-chain-build-runner-image-pinning — NEW
+- supply-chain-cache-poisoning-review — NEW
+- supply-chain-codeowners-coverage — NEW
+- supply-chain-commit-signature-verification — NEW
+- supply-chain-container-base-image-digest — NEW
+- supply-chain-container-rootless-policy — NEW
+- supply-chain-dependency-confusion-boundary — NEW
+- supply-chain-dependency-update-pr-validation — NEW
+- supply-chain-fuzzing-regression-triage — NEW
+- supply-chain-image-signature-verification — NEW
+- supply-chain-license-policy-exception — NEW
+- supply-chain-lockfile-drift-audit — NEW
+- supply-chain-package-maintainer-change — NEW
+- supply-chain-package-publish-dry-run — NEW
+- supply-chain-protected-branch-preflight — NEW
+- supply-chain-provenance-attestation-check — NEW
+- supply-chain-provenance-branch-match — NEW
+- supply-chain-registry-auth-scope — NEW
+- supply-chain-release-approval-evidence — NEW
+- supply-chain-release-artifact-hash — NEW
+- supply-chain-release-tag-signature-check — NEW
+- supply-chain-reusable-workflow-pin — NEW
+- supply-chain-runner-isolation — NEW
+- supply-chain-sbom-component-inventory — NEW
+- supply-chain-sbom-diff-review — NEW
+- supply-chain-secret-exposure-review — NEW
+- supply-chain-secret-scan-exception-expiry — NEW
+- supply-chain-security-metadata-required — NEW
+- supply-chain-security-policy-drift — NEW
+- supply-chain-submodule-commit-provenance — NEW
+- supply-chain-transitive-risk-reachability — NEW
+- supply-chain-typosquat-suspicion-triage — NEW
+- supply-chain-untrusted-pr-trigger-boundary — NEW
+- supply-chain-vulnerability-exploitability-triage — NEW
+- supply-chain-vulnerability-sla-aging — NEW
+- supply-chain-workflow-permission-minimum — NEW
+
 ### OSIRIS intelligence platform engineering (50)
 
 - osiris-active-fire-feed-provenance — NEW
@@ -933,6 +986,59 @@ Updated: 2026-10-16. The unified bundle contains 850 distinct skills.
 - skill-usage-feedback-triage — NEW
 - third-party-skill-provenance-audit — NEW
 
+### Supabase & PostgreSQL platform engineering (50)
+
+- supabase-audit-event-retention-policy — NEW
+- supabase-auth-email-provider-failure-drill — NEW
+- supabase-auth-jwt-claim-contract — NEW
+- supabase-auth-session-revocation-check — NEW
+- supabase-backup-restore-drill-evidence — NEW
+- supabase-backup-retention-policy — NEW
+- supabase-database-alert-threshold-contract — NEW
+- supabase-database-maintenance-window-plan — NEW
+- supabase-database-secret-rotation — NEW
+- supabase-database-webhook-retry-contract — NEW
+- supabase-edge-function-cors-allowlist — NEW
+- supabase-edge-function-idempotency-contract — NEW
+- supabase-edge-function-request-size-limit — NEW
+- supabase-edge-function-secret-redaction — NEW
+- supabase-edge-function-timeout-budget — NEW
+- supabase-extension-compatibility-matrix — NEW
+- supabase-generated-types-schema-drift — NEW
+- supabase-graphql-schema-exposure-audit — NEW
+- supabase-incident-reproduction-bundle — NEW
+- supabase-local-production-parity — NEW
+- supabase-migration-backfill-checkpointing — NEW
+- supabase-migration-expand-contract-plan — NEW
+- supabase-migration-lock-duration-budget — NEW
+- supabase-migration-reversible-down-path — NEW
+- supabase-pgvector-recall-validation — NEW
+- supabase-point-in-time-recovery-acceptance — NEW
+- supabase-postgres-connection-pool-budget — NEW
+- supabase-postgres-deadlock-reproduction — NEW
+- supabase-postgres-index-usage-review — NEW
+- supabase-postgres-log-pii-scrubbing — NEW
+- supabase-postgres-query-plan-regression — NEW
+- supabase-postgres-statement-timeout-matrix — NEW
+- supabase-postgres-supavisor-mode-compatibility — NEW
+- supabase-postgres-transaction-isolation-contract — NEW
+- supabase-postgrest-relationship-ambiguity — NEW
+- supabase-realtime-channel-cleanup — NEW
+- supabase-realtime-event-ordering-contract — NEW
+- supabase-realtime-presence-expiry — NEW
+- supabase-realtime-subscription-auth-refresh — NEW
+- supabase-replica-lag-stale-read-policy — NEW
+- supabase-rls-policy-coverage-matrix — NEW
+- supabase-rls-query-plan-performance — NEW
+- supabase-rls-role-escalation-test — NEW
+- supabase-rls-tenant-isolation-negative-cases — NEW
+- supabase-schema-drift-environment-parity — NEW
+- supabase-seed-fixture-determinism — NEW
+- supabase-storage-object-ownership-policy — NEW
+- supabase-storage-orphan-reconciliation — NEW
+- supabase-storage-signed-url-expiry — NEW
+- supabase-storage-upload-mime-boundary — NEW
+
 ### UI, art, audio & assets (7)
 
 - building-era-authentic-game-audio
@@ -942,6 +1048,59 @@ Updated: 2026-10-16. The unified bundle contains 850 distinct skills.
 - frontend-design
 - generating-dot-assets
 - styling-web-game-typography
+
+### Vercel AI SDK & agent reliability (50)
+
+- ai-sdk-agent-duplicate-call-detection — NEW
+- ai-sdk-agent-max-step-limit — NEW
+- ai-sdk-agent-memory-expiration — NEW
+- ai-sdk-audio-transcript-confidence — NEW
+- ai-sdk-background-job-cancellation — NEW
+- ai-sdk-browser-tool-domain-allowlist — NEW
+- ai-sdk-cancelled-stream-resource-cleanup — NEW
+- ai-sdk-concurrency-limit — NEW
+- ai-sdk-context-window-budget — NEW
+- ai-sdk-conversation-truncation-policy — NEW
+- ai-sdk-cost-attribution-by-tool — NEW
+- ai-sdk-evaluation-deterministic-mocks — NEW
+- ai-sdk-evaluation-golden-set-versioning — NEW
+- ai-sdk-evaluation-provider-variance — NEW
+- ai-sdk-evaluation-regression-thresholds — NEW
+- ai-sdk-evaluation-rubric-contract — NEW
+- ai-sdk-grounding-citation-check — NEW
+- ai-sdk-human-approval-gate — NEW
+- ai-sdk-image-reference-retention — NEW
+- ai-sdk-json-repair-observability — NEW
+- ai-sdk-message-serialization-roundtrip — NEW
+- ai-sdk-model-fallback-compatibility — NEW
+- ai-sdk-multimodal-input-size-guard — NEW
+- ai-sdk-multistep-stop-conditions — NEW
+- ai-sdk-output-schema-validation — NEW
+- ai-sdk-production-shadow-evaluation — NEW
+- ai-sdk-prompt-injection-test-matrix — NEW
+- ai-sdk-prompt-version-rollback — NEW
+- ai-sdk-provider-capability-matrix — NEW
+- ai-sdk-provider-error-normalization — NEW
+- ai-sdk-provider-key-isolation — NEW
+- ai-sdk-rag-source-provenance — NEW
+- ai-sdk-rate-limit-backpressure — NEW
+- ai-sdk-retrieval-freshness-contract — NEW
+- ai-sdk-retry-budget-and-backoff — NEW
+- ai-sdk-sensitive-data-log-filter — NEW
+- ai-sdk-stream-reconnect-policy — NEW
+- ai-sdk-stream-ui-state-machine — NEW
+- ai-sdk-streamtext-cancel-handling — NEW
+- ai-sdk-structured-output-nullability — NEW
+- ai-sdk-token-budget-envelope — NEW
+- ai-sdk-tool-authorization-boundary — NEW
+- ai-sdk-tool-idempotency-contract — NEW
+- ai-sdk-tool-input-schema-guard — NEW
+- ai-sdk-tool-output-size-contract — NEW
+- ai-sdk-tool-result-validation — NEW
+- ai-sdk-tool-timeout-fallback — NEW
+- ai-sdk-tracing-span-cardinality — NEW
+- ai-sdk-untrusted-tool-result-delimiting — NEW
+- ai-sdk-user-session-scope — NEW
 
 ## Source-of-truth rules
 
