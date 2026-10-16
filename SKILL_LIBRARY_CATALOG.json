@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-16",
-  "unique_skills": 400,
+  "unique_skills": 425,
   "target": 500,
-  "remaining": 100,
+  "remaining": 75,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -313,6 +313,12 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-background-io-batching/SKILL.md"
     },
     {
+      "name": "engine-background-queue-observability",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-background-queue-observability/SKILL.md"
+    },
+    {
       "name": "engine-background-task-cancellation",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -371,6 +377,18 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-frame-time-budget/SKILL.md"
+    },
+    {
+      "name": "engine-frame-time-distribution",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-frame-time-distribution/SKILL.md"
+    },
+    {
+      "name": "engine-hot-path-allocation-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-hot-path-allocation-budget/SKILL.md"
     },
     {
       "name": "engine-input-action-mapping",
@@ -445,6 +463,12 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-resource-hot-reload-atomicity/SKILL.md"
     },
     {
+      "name": "engine-resource-residency-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-resource-residency-budget/SKILL.md"
+    },
+    {
       "name": "engine-runtime-config-drift-audit",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -461,6 +485,18 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-runtime-event-tracing/SKILL.md"
+    },
+    {
+      "name": "engine-runtime-fault-injection-matrix",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-runtime-fault-injection-matrix/SKILL.md"
+    },
+    {
+      "name": "engine-runtime-stall-classification",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-runtime-stall-classification/SKILL.md"
     },
     {
       "name": "engine-runtime-telemetry-taxonomy",
@@ -505,6 +541,12 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-subsystem-lifecycle-order/SKILL.md"
     },
     {
+      "name": "engine-subsystem-readiness-contract-test",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-subsystem-readiness-contract-test/SKILL.md"
+    },
+    {
       "name": "engine-task-priority-inheritance",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -533,6 +575,18 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-work-stealing-fairness/SKILL.md"
+    },
+    {
+      "name": "engine-worker-capacity-sizing",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worker-capacity-sizing/SKILL.md"
+    },
+    {
+      "name": "engine-workload-profile-catalog",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-workload-profile-catalog/SKILL.md"
     },
     {
       "name": "engine-world-origin-rebasing",
@@ -1369,10 +1423,22 @@
       "source_path": "curated-skill-sources/release-testing-operations/build-cache-ci-optimization/SKILL.md"
     },
     {
+      "name": "build-cache-poisoning-resilience",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/build-cache-poisoning-resilience/SKILL.md"
+    },
+    {
       "name": "cache-invalidation-contract",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/cache-invalidation-contract/SKILL.md"
+    },
+    {
+      "name": "ci-environment-parity-audit",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/ci-environment-parity-audit/SKILL.md"
     },
     {
       "name": "database-migration-rollback-drill",
@@ -1507,6 +1573,18 @@
       "source_path": "curated-skill-sources/release-testing-operations/rate-limit-policy-design/SKILL.md"
     },
     {
+      "name": "release-candidate-evidence-manifest",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/release-candidate-evidence-manifest/SKILL.md"
+    },
+    {
+      "name": "release-rollback-readiness-drill",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/release-rollback-readiness-drill/SKILL.md"
+    },
+    {
       "name": "repository-architecture-map",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
@@ -1543,10 +1621,22 @@
       "source_path": "curated-skill-sources/release-testing-operations/runtime-health-signal-contract/SKILL.md"
     },
     {
+      "name": "runtime-integration-test-harness",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/runtime-integration-test-harness/SKILL.md"
+    },
+    {
       "name": "runtime-log-redaction-boundary",
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/runtime-log-redaction-boundary/SKILL.md"
+    },
+    {
+      "name": "runtime-observability-smoke-test",
+      "category": "Release, tests & repository quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/release-testing-operations/runtime-observability-smoke-test/SKILL.md"
     },
     {
       "name": "runtime-regression-bisect-workflow",
@@ -1933,6 +2023,12 @@
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-allocator-memory-profiling/SKILL.md"
     },
     {
+      "name": "rust-api-error-compatibility-fixtures",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-api-error-compatibility-fixtures/SKILL.md"
+    },
+    {
       "name": "rust-api-error-taxonomy",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
@@ -1987,6 +2083,12 @@
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-bounded-worker-queue/SKILL.md"
     },
     {
+      "name": "rust-build-script-reproducibility-audit",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-build-script-reproducibility-audit/SKILL.md"
+    },
+    {
       "name": "rust-cache-line-sharing-audit",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
@@ -2035,6 +2137,18 @@
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-cross-compilation-validation/SKILL.md"
     },
     {
+      "name": "rust-error-path-observability-contract",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-error-path-observability-contract/SKILL.md"
+    },
+    {
+      "name": "rust-feature-configuration-smoke-matrix",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-feature-configuration-smoke-matrix/SKILL.md"
+    },
+    {
       "name": "rust-ffi-resource-ownership",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
@@ -2069,6 +2183,12 @@
       "category": "Rust & platform engineering",
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-profile-guided-optimization/SKILL.md",
       "origin": "new-authored"
+    },
+    {
+      "name": "rust-service-startup-shutdown-test",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-service-startup-shutdown-test/SKILL.md"
     },
     {
       "name": "rust-shared-state-lock-elimination",
@@ -2239,10 +2359,34 @@
       "source_path": "curated-skill-sources/simulation-world/simulation-event-ordering-contract/SKILL.md"
     },
     {
+      "name": "simulation-event-queue-overflow-policy",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-event-queue-overflow-policy/SKILL.md"
+    },
+    {
+      "name": "simulation-long-run-memory-stability",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-long-run-memory-stability/SKILL.md"
+    },
+    {
       "name": "simulation-multirate-update-policy",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/simulation-multirate-update-policy/SKILL.md"
+    },
+    {
+      "name": "simulation-population-scale-benchmark",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-population-scale-benchmark/SKILL.md"
+    },
+    {
+      "name": "simulation-region-load-shedding",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-region-load-shedding/SKILL.md"
     },
     {
       "name": "simulation-replay-state-diff",
@@ -2261,6 +2405,12 @@
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/simulation-soak-test-design/SKILL.md"
+    },
+    {
+      "name": "simulation-state-migration-validation",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-state-migration-validation/SKILL.md"
     },
     {
       "name": "simulation-tick-backlog-recovery",
