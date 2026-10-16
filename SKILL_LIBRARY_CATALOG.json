@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-15",
-  "unique_skills": 325,
+  "unique_skills": 350,
   "target": 500,
-  "remaining": 175,
+  "remaining": 150,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -259,6 +259,18 @@
       "source_path": "curated-skill-sources/engine-runtime/asset-pipeline-provenance/SKILL.md"
     },
     {
+      "name": "chunk-priority-scheduling",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/chunk-priority-scheduling/SKILL.md"
+    },
+    {
+      "name": "chunk-save-dirty-region-tracking",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/chunk-save-dirty-region-tracking/SKILL.md"
+    },
+    {
       "name": "cross-platform-engine-build-matrix",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -269,6 +281,12 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/deterministic-simulation-replay/SKILL.md"
+    },
+    {
+      "name": "engine-allocator-tracking",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-allocator-tracking/SKILL.md"
     },
     {
       "name": "engine-architecture-adr",
@@ -287,6 +305,12 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-asset-streaming-budget/SKILL.md"
+    },
+    {
+      "name": "engine-cache-locality-analysis",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-cache-locality-analysis/SKILL.md"
     },
     {
       "name": "engine-collision-layer-contracts",
@@ -313,6 +337,12 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-fixed-timestep-simulation/SKILL.md"
     },
     {
+      "name": "engine-frame-pacing-jitter",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-frame-pacing-jitter/SKILL.md"
+    },
+    {
       "name": "engine-frame-time-budget",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -335,6 +365,12 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-memory-budget-profiling/SKILL.md"
+    },
+    {
+      "name": "engine-memory-fragmentation-audit",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-memory-fragmentation-audit/SKILL.md"
     },
     {
       "name": "engine-performance-benchmarking",
@@ -379,6 +415,12 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-subsystem-lifecycle-order/SKILL.md"
     },
     {
+      "name": "engine-thread-pool-saturation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-thread-pool-saturation/SKILL.md"
+    },
+    {
       "name": "engine-world-origin-rebasing",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -389,6 +431,12 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/game-mod-api-versioning/SKILL.md"
+    },
+    {
+      "name": "gpu-readback-stall-audit",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/gpu-readback-stall-audit/SKILL.md"
     },
     {
       "name": "gpu-resource-lifetime-audit",
@@ -407,6 +455,18 @@
       "category": "Engine architecture & runtime",
       "source_path": "curated-skill-sources/engine-runtime/mesh-geometry-attribute-contract/SKILL.md",
       "origin": "new-authored"
+    },
+    {
+      "name": "occlusion-culling-replay-validation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/occlusion-culling-replay-validation/SKILL.md"
+    },
+    {
+      "name": "physics-broadphase-performance-audit",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/physics-broadphase-performance-audit/SKILL.md"
     },
     {
       "name": "physics-contact-resolution-regression",
@@ -443,6 +503,18 @@
       "category": "Engine architecture & runtime",
       "source_path": "curated-skill-sources/engine-runtime/render-pass-state-transition/SKILL.md",
       "origin": "new-authored"
+    },
+    {
+      "name": "render-resolution-scaling-policy",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/render-resolution-scaling-policy/SKILL.md"
+    },
+    {
+      "name": "render-resource-aliasing-validation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/render-resource-aliasing-validation/SKILL.md"
     },
     {
       "name": "render-target-format-capability",
@@ -487,6 +559,12 @@
       "source_path": "curated-skill-sources/engine-runtime/save-schema-migration/SKILL.md"
     },
     {
+      "name": "shader-compilation-cache-integrity",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/shader-compilation-cache-integrity/SKILL.md"
+    },
+    {
       "name": "shader-render-pipeline-debugging",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -523,6 +601,12 @@
       "origin": "new-authored"
     },
     {
+      "name": "voxel-neighbor-dependency-invalidation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/voxel-neighbor-dependency-invalidation/SKILL.md"
+    },
+    {
       "name": "voxel-seed-reproducibility",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -553,6 +637,12 @@
       "origin": "new-authored"
     },
     {
+      "name": "worldgen-feature-overlap-validation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/worldgen-feature-overlap-validation/SKILL.md"
+    },
+    {
       "name": "animation-event-timing-audit",
       "category": "Game content & save systems",
       "origin": "new-authored",
@@ -571,6 +661,12 @@
       "origin": "new-authored"
     },
     {
+      "name": "asset-bundle-size-budget",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/asset-bundle-size-budget/SKILL.md"
+    },
+    {
       "name": "asset-dependency-cycle-detection",
       "category": "Game content & save systems",
       "source_path": "curated-skill-sources/game-content-pipelines/asset-dependency-cycle-detection/SKILL.md",
@@ -581,6 +677,12 @@
       "category": "Game content & save systems",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/game-content-pipelines/asset-import-validation/SKILL.md"
+    },
+    {
+      "name": "asset-pipeline-incremental-build-validation",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/asset-pipeline-incremental-build-validation/SKILL.md"
     },
     {
       "name": "audio-mix-loudness-budget",
@@ -1615,6 +1717,12 @@
       "source_path": "curated-skill-sources/rust-platform-engineering/native-wasm-behavior-parity/SKILL.md"
     },
     {
+      "name": "rust-allocator-contention-analysis",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-allocator-contention-analysis/SKILL.md"
+    },
+    {
       "name": "rust-allocator-memory-profiling",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
@@ -1663,10 +1771,22 @@
       "origin": "new-authored"
     },
     {
+      "name": "rust-cache-line-sharing-audit",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-cache-line-sharing-audit/SKILL.md"
+    },
+    {
       "name": "rust-channel-backpressure",
       "category": "Rust & platform engineering",
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-channel-backpressure/SKILL.md",
       "origin": "new-authored"
+    },
+    {
+      "name": "rust-channel-shutdown-drain",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-channel-shutdown-drain/SKILL.md"
     },
     {
       "name": "rust-crate-boundary-audit",
@@ -1703,6 +1823,12 @@
       "category": "Rust & platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-lock-contention-profile/SKILL.md"
+    },
+    {
+      "name": "rust-perf-regression-thresholds",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-perf-regression-thresholds/SKILL.md"
     },
     {
       "name": "rust-proc-macro-diagnostics",
@@ -1747,6 +1873,12 @@
       "source_path": "curated-skill-sources/simulation-world/civilization-migration-validation/SKILL.md"
     },
     {
+      "name": "civilization-resource-reservation",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-resource-reservation/SKILL.md"
+    },
+    {
       "name": "ecology-feedback-loop-validation",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
@@ -1789,6 +1921,12 @@
       "source_path": "curated-skill-sources/simulation-world/large-population-simulation-lod/SKILL.md"
     },
     {
+      "name": "npc-agent-decision-budget",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-agent-decision-budget/SKILL.md"
+    },
+    {
       "name": "npc-goal-lifecycle",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
@@ -1813,6 +1951,12 @@
       "source_path": "curated-skill-sources/simulation-world/npc-pathfinding-budget-policy/SKILL.md"
     },
     {
+      "name": "npc-schedule-constraint-validation",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-schedule-constraint-validation/SKILL.md"
+    },
+    {
       "name": "npc-simulation-lod-policy",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
@@ -1829,6 +1973,12 @@
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/procedural-civilization-simulation/SKILL.md"
+    },
+    {
+      "name": "simulation-event-ordering-contract",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-event-ordering-contract/SKILL.md"
     },
     {
       "name": "social-rumor-propagation-model",
