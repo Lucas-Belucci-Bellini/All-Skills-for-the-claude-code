@@ -5,6 +5,7 @@ on:
     branches:
       - fix/skill-sync-target-2500-2026
       - feat/skills-expansion-525-from-sync-fix-2026
+      - feat/skills-expansion-550-from-525-2026
   workflow_dispatch:
 
 permissions:
@@ -38,5 +39,5 @@ jobs:
           git diff --check
           node tools/sync-skill-bundles.mjs --check
 
-      - name: Validate 525-skill structure and source/bundle parity
-        run: node tools/validate-525-skill-batch.mjs
+      - name: Validate current milestone structure and source/bundle parity
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/550.json

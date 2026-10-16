@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 525 distinct skills.
+Updated: 2026-10-16. The unified bundle contains 550 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **399**
-- Current total: **525**
+- Original curated skills: **424**
+- Current total: **550**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,975**
+- Remaining to long-term target: **1,950**
 
 ## Categories
 
@@ -76,6 +76,30 @@ Updated: 2026-10-16. The unified bundle contains 525 distinct skills.
 - prompt-injection-boundary-testing — NEW
 - repository-instruction-conflict-resolution — NEW
 - tool-call-budget-policy — NEW
+
+### Developer environment & CLI tooling (10)
+
+- cli-config-precedence-resolution — NEW
+- cli-dry-run-side-effect-parity — NEW
+- cli-exit-code-contract-testing — NEW
+- cli-signal-cancellation-process-tree — NEW
+- cli-stdout-stderr-channel-contract — NEW
+- cli-temp-artifact-cleanup-invariants — NEW
+- cli-working-directory-independence — NEW
+- local-dev-environment-preflight-doctor — NEW
+- reproducible-toolchain-bootstrap — NEW
+- shell-command-path-quoting-audit — NEW
+
+### Documentation & technical knowledge systems (8)
+
+- api-example-schema-conformance — NEW
+- architecture-documentation-code-drift-audit — NEW
+- configuration-reference-coverage-audit — NEW
+- decision-log-supersession-integrity — NEW
+- documentation-version-compatibility-matrix — NEW
+- requirements-to-acceptance-traceability — NEW
+- runbook-command-risk-review — NEW
+- technical-example-executability-audit — NEW
 
 ### Engine architecture & runtime (100)
 
@@ -263,13 +287,20 @@ Updated: 2026-10-16. The unified bundle contains 525 distinct skills.
 - telegram-access
 - telegram-configure
 
-### Minecraft & modpack engineering (23)
+### Minecraft & modpack engineering (30)
 
+- minecraft-client-optional-mod-handshake-validation — NEW
 - minecraft-client-server-parity-check — NEW
+- minecraft-crash-signature-version-index — NEW
 - minecraft-datapack-validation — NEW
+- minecraft-instance-path-portability-audit — NEW
 - minecraft-jvm-gc-diagnostics — NEW
+- minecraft-mod-optional-dependency-boundary-audit — NEW
+- minecraft-modpack-clean-install-smoke-test — NEW
+- minecraft-modpack-config-origin-traceability — NEW
 - minecraft-modpack-repro-issue-bundle — NEW
 - minecraft-server-backup-restore-drill — NEW
+- minecraft-server-command-permission-boundary-audit — NEW
 - minecraft-server-performance-change-benchmark — NEW
 - minecraft-server-tick-profiling — NEW
 - minecraft-server-update-preflight-gate — NEW
