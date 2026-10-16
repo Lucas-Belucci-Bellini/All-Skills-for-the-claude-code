@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 550 distinct skills.
+Updated: 2026-10-16. The unified bundle contains 600 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **424**
-- Current total: **550**
+- Original curated skills: **474**
+- Current total: **600**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,950**
+- Remaining to long-term target: **1,900**
 
 ## Categories
 
@@ -267,10 +267,36 @@ Updated: 2026-10-16. The unified bundle contains 550 distinct skills.
 - unreal-game-dev
 - verifying-turn-based-games
 
+### Geospatial visualization & map UX (10)
+
+- geoviz-3d-terrain-provider-fallback-validation — NEW
+- geoviz-camera-ground-clearance-invariants — NEW
+- geoviz-camera-state-restoration-contract — NEW
+- geoviz-coordinate-input-normalization — NEW
+- geoviz-geocoder-fallback-chain-audit — NEW
+- geoviz-globe-render-budget-profiling — NEW
+- geoviz-map-layer-visibility-state-contract — NEW
+- geoviz-map-source-attribution-completeness — NEW
+- geoviz-viewport-selection-context-integrity — NEW
+- geoviz-world-overlay-label-budget — NEW
+
 ### Hardware & embedded devices (2)
 
 - cardputer-buddy
 - m5-onboard
+
+### Live public-data ingestion & reliability (10)
+
+- livefeed-data-fallback-provenance-labeling — NEW
+- livefeed-entity-deduplication-window — NEW
+- livefeed-feed-schema-drift-detection — NEW
+- livefeed-polling-backoff-budget — NEW
+- livefeed-provider-adapter-contract — NEW
+- livefeed-provider-quota-circuit-breaker — NEW
+- livefeed-runtime-source-health-dashboard — NEW
+- livefeed-source-timestamp-normalization — NEW
+- livefeed-stale-data-status-propagation — NEW
+- livefeed-websocket-reconnect-state-machine — NEW
 
 ### Mathematics (3)
 
@@ -338,6 +364,32 @@ Updated: 2026-10-16. The unified bundle contains 550 distinct skills.
 - network-protocol-versioning — NEW
 - replication-interest-management — NEW
 - rollback-netcode-state-coverage — NEW
+
+### Public-data provenance, privacy & ethics (10)
+
+- geo-alpr-location-only-data-guardrail — NEW
+- geo-privacy-location-precision-budget — NEW
+- geo-track-data-privacy-safe-export — NEW
+- geospatial-incident-data-ethical-use-gate — NEW
+- public-camera-privacy-display-policy — NEW
+- public-data-attribution-license-boundary — NEW
+- public-data-confidence-and-estimate-labeling — NEW
+- public-data-source-terms-matrix — NEW
+- public-feed-retention-minimization — NEW
+- sensitive-location-aggregation-threshold — NEW
+
+### Realtime voice agents & multimodal control (10)
+
+- voice-agent-ephemeral-credential-boundary — NEW
+- voice-agent-microphone-lifecycle-cleanup — NEW
+- voice-agent-pointer-context-snapshot — NEW
+- voice-agent-result-referent-stability — NEW
+- voice-agent-session-cost-metering — NEW
+- voice-agent-speech-action-schema-contract — NEW
+- voice-agent-speech-latency-span-analysis — NEW
+- voice-agent-tool-call-confirmation-gates — NEW
+- voice-agent-transcript-locale-regression — NEW
+- voice-agent-turn-cancellation-races — NEW
 
 ### Release, tests & repository quality (109)
 
@@ -549,6 +601,19 @@ Updated: 2026-10-16. The unified bundle contains 550 distinct skills.
 - rust-test-fixture-isolation — NEW
 - rust-workspace-feature-matrix — NEW
 - wasm-native-performance-comparison — NEW
+
+### Scene navigation, sharing & replay (10)
+
+- scene-bundle-import-preview-sandbox — NEW
+- scene-capture-deterministic-reproducibility — NEW
+- scene-deeplink-live-target-expiry — NEW
+- scene-director-camera-tour-validation — NEW
+- scene-navigation-generation-cancellation — NEW
+- scene-replay-data-pack-manifest — NEW
+- scene-restoration-subscription-cleanup — NEW
+- scene-save-version-migration — NEW
+- scene-share-url-state-roundtrip — NEW
+- scene-state-unknown-field-preservation — NEW
 
 ### Simulation, NPCs & world history (40)
 

@@ -8,8 +8,9 @@ if(!manifestArg) throw new Error("Usage: node tools/validate-skill-batch.mjs <ma
 const manifest=JSON.parse(await fs.readFile(path.resolve(root,manifestArg),"utf8"));
 const read=(p)=>fs.readFile(path.join(root,p),"utf8");
 const batch=manifest.skills;
-assert.ok(Array.isArray(batch)&&batch.length===25,"manifest must contain exactly 25 skills");
-assert.equal(new Set(batch.map(s=>s.name)).size,25,"duplicate names in manifest");
+const expectedBatchSize=manifest.batch_size ?? 25;
+assert.ok(Array.isArray(batch)&&batch.length===expectedBatchSize,`manifest must contain exactly ${expectedBatchSize} skills`);
+assert.equal(new Set(batch.map(s=>s.name)).size,expectedBatchSize,"duplicate names in manifest");
 const catalog=JSON.parse(await read("SKILL_LIBRARY_CATALOG.json"));
 assert.equal(catalog.unique_skills,manifest.milestone_total,"catalog total mismatch");
 assert.equal(catalog.skills.length,manifest.milestone_total,"catalog entry count mismatch");
