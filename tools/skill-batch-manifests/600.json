@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "batch_size": 50,
+  "milestone_total": 600,
+  "long_term_target": 2500,
+  "authored_count": 474,
+  "retained_count": 126,
+  "plugin_version": "2.1.7",
+  "skills": [
+    {
+      "name": "geoviz-camera-state-restoration-contract",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-camera-state-restoration-contract/SKILL.md",
+      "category": "Geospatial visualization & map UX"
+    },
+    {
+      "name": "geoviz-camera-ground-clearance-invariants",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-camera-ground-clearance-invariants/SKILL.md",
+      "category": "Geospatial visualization & map UX"
+    },
+    {
+      "name": "geoviz-coordinate-input-normalization",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-coordinate-input-normalization/SKILL.md",
+      "category": "Geospatial visualization & map UX"
+    },
+    {
+      "name": "geoviz-geocoder-fallback-chain-audit",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-geocoder-fallback-chain-audit/SKILL.md",
+      "category": "Geospatial visualization & map UX"
+    },
+    {
+      "name": "geoviz-map-source-attribution-completeness",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-map-source-attribution-completeness/SKILL.md",
+      "category": "Geospatial visualization & map UX"
+    },
+    {
+      "name": "geoviz-map-layer-visibility-state-contract",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-map-layer-visibility-state-contract/SKILL.md",
+      "category": "Geospatial visualization & map UX"
+    },
+    {
+      "name": "geoviz-3d-terrain-provider-fallback-validation",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-3d-terrain-provider-fallback-validation/SKILL.md",
+      "category": "Geospatial visualization & map UX"
+    },
+    {
+      "name": "geoviz-globe-render-budget-profiling",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-globe-render-budget-profiling/SKILL.md",
+      "category": "Geospatial visualization & map UX"
+    },
+    {
+      "name": "geoviz-world-overlay-label-budget",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-world-overlay-label-budget/SKILL.md",
+      "category": "Geospatial visualization & map UX"
+    },
+    {
+      "name": "geoviz-viewport-selection-context-integrity",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-viewport-selection-context-integrity/SKILL.md",
+      "category": "Geospatial visualization & map UX"
+    },
+    {
+      "name": "livefeed-provider-adapter-contract",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-provider-adapter-contract/SKILL.md",
+      "category": "Live public-data ingestion & reliability"
+    },
+    {
+      "name": "livefeed-stale-data-status-propagation",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-stale-data-status-propagation/SKILL.md",
+      "category": "Live public-data ingestion & reliability"
+    },
+    {
+      "name": "livefeed-polling-backoff-budget",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-polling-backoff-budget/SKILL.md",
+      "category": "Live public-data ingestion & reliability"
+    },
+    {
+      "name": "livefeed-websocket-reconnect-state-machine",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-websocket-reconnect-state-machine/SKILL.md",
+      "category": "Live public-data ingestion & reliability"
+    },
+    {
+      "name": "livefeed-source-timestamp-normalization",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-source-timestamp-normalization/SKILL.md",
+      "category": "Live public-data ingestion & reliability"
+    },
+    {
+      "name": "livefeed-feed-schema-drift-detection",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-feed-schema-drift-detection/SKILL.md",
+      "category": "Live public-data ingestion & reliability"
+    },
+    {
+      "name": "livefeed-provider-quota-circuit-breaker",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-provider-quota-circuit-breaker/SKILL.md",
+      "category": "Live public-data ingestion & reliability"
+    },
+    {
+      "name": "livefeed-entity-deduplication-window",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-entity-deduplication-window/SKILL.md",
+      "category": "Live public-data ingestion & reliability"
+    },
+    {
+      "name": "livefeed-data-fallback-provenance-labeling",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-data-fallback-provenance-labeling/SKILL.md",
+      "category": "Live public-data ingestion & reliability"
+    },
+    {
+      "name": "livefeed-runtime-source-health-dashboard",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-runtime-source-health-dashboard/SKILL.md",
+      "category": "Live public-data ingestion & reliability"
+    },
+    {
+      "name": "voice-agent-ephemeral-credential-boundary",
+      "source_path": "curated-skill-sources/realtime-voice-agents/voice-agent-ephemeral-credential-boundary/SKILL.md",
+      "category": "Realtime voice agents & multimodal control"
+    },
+    {
+      "name": "voice-agent-turn-cancellation-races",
+      "source_path": "curated-skill-sources/realtime-voice-agents/voice-agent-turn-cancellation-races/SKILL.md",
+      "category": "Realtime voice agents & multimodal control"
+    },
+    {
+      "name": "voice-agent-tool-call-confirmation-gates",
+      "source_path": "curated-skill-sources/realtime-voice-agents/voice-agent-tool-call-confirmation-gates/SKILL.md",
+      "category": "Realtime voice agents & multimodal control"
+    },
+    {
+      "name": "voice-agent-speech-action-schema-contract",
+      "source_path": "curated-skill-sources/realtime-voice-agents/voice-agent-speech-action-schema-contract/SKILL.md",
+      "category": "Realtime voice agents & multimodal control"
+    },
+    {
+      "name": "voice-agent-pointer-context-snapshot",
+      "source_path": "curated-skill-sources/realtime-voice-agents/voice-agent-pointer-context-snapshot/SKILL.md",
+      "category": "Realtime voice agents & multimodal control"
+    },
+    {
+      "name": "voice-agent-result-referent-stability",
+      "source_path": "curated-skill-sources/realtime-voice-agents/voice-agent-result-referent-stability/SKILL.md",
+      "category": "Realtime voice agents & multimodal control"
+    },
+    {
+      "name": "voice-agent-session-cost-metering",
+      "source_path": "curated-skill-sources/realtime-voice-agents/voice-agent-session-cost-metering/SKILL.md",
+      "category": "Realtime voice agents & multimodal control"
+    },
+    {
+      "name": "voice-agent-speech-latency-span-analysis",
+      "source_path": "curated-skill-sources/realtime-voice-agents/voice-agent-speech-latency-span-analysis/SKILL.md",
+      "category": "Realtime voice agents & multimodal control"
+    },
+    {
+      "name": "voice-agent-microphone-lifecycle-cleanup",
+      "source_path": "curated-skill-sources/realtime-voice-agents/voice-agent-microphone-lifecycle-cleanup/SKILL.md",
+      "category": "Realtime voice agents & multimodal control"
+    },
+    {
+      "name": "voice-agent-transcript-locale-regression",
+      "source_path": "curated-skill-sources/realtime-voice-agents/voice-agent-transcript-locale-regression/SKILL.md",
+      "category": "Realtime voice agents & multimodal control"
+    },
+    {
+      "name": "scene-share-url-state-roundtrip",
+      "source_path": "curated-skill-sources/scene-navigation-sharing/scene-share-url-state-roundtrip/SKILL.md",
+      "category": "Scene navigation, sharing & replay"
+    },
+    {
+      "name": "scene-bundle-import-preview-sandbox",
+      "source_path": "curated-skill-sources/scene-navigation-sharing/scene-bundle-import-preview-sandbox/SKILL.md",
+      "category": "Scene navigation, sharing & replay"
+    },
+    {
+      "name": "scene-director-camera-tour-validation",
+      "source_path": "curated-skill-sources/scene-navigation-sharing/scene-director-camera-tour-validation/SKILL.md",
+      "category": "Scene navigation, sharing & replay"
+    },
+    {
+      "name": "scene-replay-data-pack-manifest",
+      "source_path": "curated-skill-sources/scene-navigation-sharing/scene-replay-data-pack-manifest/SKILL.md",
+      "category": "Scene navigation, sharing & replay"
+    },
+    {
+      "name": "scene-save-version-migration",
+      "source_path": "curated-skill-sources/scene-navigation-sharing/scene-save-version-migration/SKILL.md",
+      "category": "Scene navigation, sharing & replay"
+    },
+    {
+      "name": "scene-state-unknown-field-preservation",
+      "source_path": "curated-skill-sources/scene-navigation-sharing/scene-state-unknown-field-preservation/SKILL.md",
+      "category": "Scene navigation, sharing & replay"
+    },
+    {
+      "name": "scene-deeplink-live-target-expiry",
+      "source_path": "curated-skill-sources/scene-navigation-sharing/scene-deeplink-live-target-expiry/SKILL.md",
+      "category": "Scene navigation, sharing & replay"
+    },
+    {
+      "name": "scene-navigation-generation-cancellation",
+      "source_path": "curated-skill-sources/scene-navigation-sharing/scene-navigation-generation-cancellation/SKILL.md",
+      "category": "Scene navigation, sharing & replay"
+    },
+    {
+      "name": "scene-restoration-subscription-cleanup",
+      "source_path": "curated-skill-sources/scene-navigation-sharing/scene-restoration-subscription-cleanup/SKILL.md",
+      "category": "Scene navigation, sharing & replay"
+    },
+    {
+      "name": "scene-capture-deterministic-reproducibility",
+      "source_path": "curated-skill-sources/scene-navigation-sharing/scene-capture-deterministic-reproducibility/SKILL.md",
+      "category": "Scene navigation, sharing & replay"
+    },
+    {
+      "name": "public-data-source-terms-matrix",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-source-terms-matrix/SKILL.md",
+      "category": "Public-data provenance, privacy & ethics"
+    },
+    {
+      "name": "public-data-attribution-license-boundary",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-attribution-license-boundary/SKILL.md",
+      "category": "Public-data provenance, privacy & ethics"
+    },
+    {
+      "name": "geo-privacy-location-precision-budget",
+      "source_path": "curated-skill-sources/public-data-ethics/geo-privacy-location-precision-budget/SKILL.md",
+      "category": "Public-data provenance, privacy & ethics"
+    },
+    {
+      "name": "public-camera-privacy-display-policy",
+      "source_path": "curated-skill-sources/public-data-ethics/public-camera-privacy-display-policy/SKILL.md",
+      "category": "Public-data provenance, privacy & ethics"
+    },
+    {
+      "name": "geo-alpr-location-only-data-guardrail",
+      "source_path": "curated-skill-sources/public-data-ethics/geo-alpr-location-only-data-guardrail/SKILL.md",
+      "category": "Public-data provenance, privacy & ethics"
+    },
+    {
+      "name": "public-feed-retention-minimization",
+      "source_path": "curated-skill-sources/public-data-ethics/public-feed-retention-minimization/SKILL.md",
+      "category": "Public-data provenance, privacy & ethics"
+    },
+    {
+      "name": "sensitive-location-aggregation-threshold",
+      "source_path": "curated-skill-sources/public-data-ethics/sensitive-location-aggregation-threshold/SKILL.md",
+      "category": "Public-data provenance, privacy & ethics"
+    },
+    {
+      "name": "public-data-confidence-and-estimate-labeling",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-confidence-and-estimate-labeling/SKILL.md",
+      "category": "Public-data provenance, privacy & ethics"
+    },
+    {
+      "name": "geo-track-data-privacy-safe-export",
+      "source_path": "curated-skill-sources/public-data-ethics/geo-track-data-privacy-safe-export/SKILL.md",
+      "category": "Public-data provenance, privacy & ethics"
+    },
+    {
+      "name": "geospatial-incident-data-ethical-use-gate",
+      "source_path": "curated-skill-sources/public-data-ethics/geospatial-incident-data-ethical-use-gate/SKILL.md",
+      "category": "Public-data provenance, privacy & ethics"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-16  
-**Current draft inventory:** 550 distinct skills (424 authored + 126 retained/imported)  
+**Current draft inventory:** 600 distinct skills (474 authored + 126 retained/imported)  
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 1,950  
-**Current milestone:** +25 skills from 525 to 550 on `feat/skills-expansion-550-from-525-2026`  
+**Remaining to long-term target:** 1,900  
+**Current milestone:** +50 skills from 550 to 600 on `feat/skills-expansion-600-from-550-2026`  
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
 The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -19,13 +19,14 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | Current draft | 500 | Adds 25 distinct release/data, queue/cache, plugin governance, runtime, network, and Minecraft update workflows |
 | 525 | 525 | Draft batch stacked on sync-script fix; automated sync checks pass; Claude Code runtime, provenance and semantic audits remain pending |
 | 550 | 550 | Draft batch stacked on 525; CI validates sync and the 25 new skills; Claude Code runtime and license/overlap audits remain pending |
+| 600 | 600 | Adds 50 original geospatial, public-feed reliability, realtime voice, scene-sharing, and privacy/provenance workflows; full runtime discovery, upstream-use and broader semantic review remain pending |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
-| Scale-up | 575–1,000 | Continue in batches of 25; review domain balance and real usage every 100 skills |
+| Scale-up | 625–1,000 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 1,025–1,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
 | Long-range scale | 1,525–2,000 | Review discoverability, maintenance burden, provenance and package size every 100 skills |
 | Final planned range | 2,025–2,500 | Continue only while new skills add distinct value; revisit ceiling based on adoption evidence |
 
-A catalog counter alone does not complete a milestone. Each batch requires exact-name and semantic-overlap review, source/bundle parity, frontmatter/workflow checks, catalog reconciliation, manifest consistency, and diff review. If fewer than 25 useful skills are ready, ship fewer rather than inventing near-duplicates.
+A catalog counter alone does not complete a milestone. Each batch requires exact-name and semantic-overlap review, source/bundle parity, frontmatter/workflow checks, catalog reconciliation, manifest consistency, and diff review. If fewer than the planned batch size of useful skills are ready, ship fewer rather than inventing near-duplicates.
 
 ## Quality gate for every skill
 
