@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-15. The unified bundle contains 325 distinct skills.
+Updated: 2026-10-15. The unified bundle contains 350 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **199**
-- Current total: **325**
+- Original curated skills: **224**
+- Current total: **350**
 - Target by 2026-12-31: **500**
-- Remaining: **175**
+- Remaining: **150**
 
 ## Categories
 
@@ -59,22 +59,28 @@ Updated: 2026-10-15. The unified bundle contains 325 distinct skills.
 - repository-instruction-conflict-resolution — NEW
 - tool-call-budget-policy — NEW
 
-### Engine architecture & runtime (50)
+### Engine architecture & runtime (65)
 
 - asset-pipeline-provenance — NEW
+- chunk-priority-scheduling — NEW
+- chunk-save-dirty-region-tracking — NEW
 - cross-platform-engine-build-matrix — NEW
 - deterministic-simulation-replay — NEW
+- engine-allocator-tracking — NEW
 - engine-architecture-adr — NEW
 - engine-asset-hot-reload — NEW
 - engine-asset-streaming-budget — NEW
+- engine-cache-locality-analysis — NEW
 - engine-collision-layer-contracts — NEW
 - engine-crash-recovery-state — NEW
 - engine-debug-draw-observability — NEW
 - engine-fixed-timestep-simulation — NEW
+- engine-frame-pacing-jitter — NEW
 - engine-frame-time-budget — NEW
 - engine-input-action-mapping — NEW
 - engine-job-system-backpressure — NEW
 - engine-memory-budget-profiling — NEW
+- engine-memory-fragmentation-audit — NEW
 - engine-performance-benchmarking — NEW
 - engine-plugin-boundaries — NEW
 - engine-render-feature-matrix — NEW
@@ -82,17 +88,23 @@ Updated: 2026-10-15. The unified bundle contains 325 distinct skills.
 - engine-runtime-telemetry-taxonomy — NEW
 - engine-startup-dependency-graph — NEW
 - engine-subsystem-lifecycle-order — NEW
+- engine-thread-pool-saturation — NEW
 - engine-world-origin-rebasing — NEW
 - game-mod-api-versioning — NEW
+- gpu-readback-stall-audit — NEW
 - gpu-resource-lifetime-audit — NEW
 - gpu-upload-staging-ring — NEW
 - mesh-geometry-attribute-contract — NEW
+- occlusion-culling-replay-validation — NEW
+- physics-broadphase-performance-audit — NEW
 - physics-contact-resolution-regression — NEW
 - physics-fixed-step-stability — NEW
 - physics-simulation-validation — NEW
 - procedural-world-generation-pipeline — NEW
 - render-graph-dependency-validation — NEW
 - render-pass-state-transition — NEW
+- render-resolution-scaling-policy — NEW
+- render-resource-aliasing-validation — NEW
 - render-target-format-capability — NEW
 - renderer-frame-capture-triage — NEW
 - rendering-abstraction-design — NEW
@@ -100,25 +112,30 @@ Updated: 2026-10-15. The unified bundle contains 325 distinct skills.
 - rust-game-loop-architecture — NEW
 - rust-unsafe-boundary-audit — NEW
 - save-schema-migration — NEW
+- shader-compilation-cache-integrity — NEW
 - shader-render-pipeline-debugging — NEW
 - shader-variant-budget — NEW
 - visibility-culling-correctness — NEW
 - voxel-chunk-lifecycle — NEW
 - voxel-meshing-optimization — NEW
 - voxel-meshing-seam-validation — NEW
+- voxel-neighbor-dependency-invalidation — NEW
 - voxel-seed-reproducibility — NEW
 - world-chunk-lifecycle-invariants — NEW
 - world-chunk-streaming-state-machine — NEW
 - world-coordinate-overflow-audit — NEW
 - worldgen-deterministic-seed-contract — NEW
+- worldgen-feature-overlap-validation — NEW
 
-### Game content & save systems (22)
+### Game content & save systems (24)
 
 - animation-event-timing-audit — NEW
 - animation-state-machine-audit — NEW
 - asset-bundle-content-addressing — NEW
+- asset-bundle-size-budget — NEW
 - asset-dependency-cycle-detection — NEW
 - asset-import-validation — NEW
+- asset-pipeline-incremental-build-validation — NEW
 - audio-mix-loudness-budget — NEW
 - dialogue-branch-continuity-audit — NEW
 - game-save-recovery-testing — NEW
@@ -315,9 +332,10 @@ Updated: 2026-10-15. The unified bundle contains 325 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (22)
+### Rust & platform engineering (26)
 
 - native-wasm-behavior-parity — NEW
+- rust-allocator-contention-analysis — NEW
 - rust-allocator-memory-profiling — NEW
 - rust-api-error-taxonomy — NEW
 - rust-api-semver-audit — NEW
@@ -326,13 +344,16 @@ Updated: 2026-10-15. The unified bundle contains 325 distinct skills.
 - rust-async-task-supervision — NEW
 - rust-binary-size-budget — NEW
 - rust-borrow-scope-performance — NEW
+- rust-cache-line-sharing-audit — NEW
 - rust-channel-backpressure — NEW
+- rust-channel-shutdown-drain — NEW
 - rust-crate-boundary-audit — NEW
 - rust-crate-feature-budget — NEW
 - rust-crate-public-api-surface — NEW
 - rust-cross-compilation-validation — NEW
 - rust-ffi-resource-ownership — NEW
 - rust-lock-contention-profile — NEW
+- rust-perf-regression-thresholds — NEW
 - rust-proc-macro-diagnostics — NEW
 - rust-profile-guided-optimization — NEW
 - rust-shared-state-lock-elimination — NEW
@@ -340,9 +361,10 @@ Updated: 2026-10-15. The unified bundle contains 325 distinct skills.
 - rust-workspace-feature-matrix — NEW
 - wasm-native-performance-comparison — NEW
 
-### Simulation, NPCs & world history (19)
+### Simulation, NPCs & world history (23)
 
 - civilization-migration-validation — NEW
+- civilization-resource-reservation — NEW
 - ecology-feedback-loop-validation — NEW
 - economy-market-price-stability — NEW
 - economy-production-sink-invariants — NEW
@@ -350,13 +372,16 @@ Updated: 2026-10-15. The unified bundle contains 325 distinct skills.
 - emergent-behavior-test-design — NEW
 - game-ai-decision-architecture — NEW
 - large-population-simulation-lod — NEW
+- npc-agent-decision-budget — NEW
 - npc-goal-lifecycle — NEW
 - npc-memory-knowledge-model — NEW
 - npc-memory-retention-policy — NEW
 - npc-pathfinding-budget-policy — NEW
+- npc-schedule-constraint-validation — NEW
 - npc-simulation-lod-policy — NEW
 - npc-state-machine-design — NEW
 - procedural-civilization-simulation — NEW
+- simulation-event-ordering-contract — NEW
 - social-rumor-propagation-model — NEW
 - utility-ai-score-calibration — NEW
 - world-history-event-sourcing — NEW
@@ -384,3 +409,4 @@ Updated: 2026-10-15. The unified bundle contains 325 distinct skills.
 - frontend-design
 - generating-dot-assets
 - styling-web-game-typography
+
