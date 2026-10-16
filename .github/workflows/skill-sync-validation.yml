@@ -37,3 +37,6 @@ jobs:
           cmp "$RUNNER_TEMP/first-write.diff" "$RUNNER_TEMP/second-write.diff"
           git diff --check
           node tools/sync-skill-bundles.mjs --check
+
+      - name: Validate 525-skill structure and source/bundle parity
+        run: node tools/validate-525-skill-batch.mjs
