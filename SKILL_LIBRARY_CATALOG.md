@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-15. The unified bundle contains 350 distinct skills.
+Updated: 2026-10-15. The unified bundle contains 375 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **224**
-- Current total: **350**
+- Original curated skills: **249**
+- Current total: **375**
 - Target by 2026-12-31: **500**
-- Remaining: **150**
+- Remaining: **125**
 
 ## Categories
 
@@ -59,7 +59,7 @@ Updated: 2026-10-15. The unified bundle contains 350 distinct skills.
 - repository-instruction-conflict-resolution — NEW
 - tool-call-budget-policy — NEW
 
-### Engine architecture & runtime (65)
+### Engine architecture & runtime (70)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -70,6 +70,7 @@ Updated: 2026-10-15. The unified bundle contains 350 distinct skills.
 - engine-architecture-adr — NEW
 - engine-asset-hot-reload — NEW
 - engine-asset-streaming-budget — NEW
+- engine-background-task-cancellation — NEW
 - engine-cache-locality-analysis — NEW
 - engine-collision-layer-contracts — NEW
 - engine-crash-recovery-state — NEW
@@ -81,10 +82,14 @@ Updated: 2026-10-15. The unified bundle contains 350 distinct skills.
 - engine-job-system-backpressure — NEW
 - engine-memory-budget-profiling — NEW
 - engine-memory-fragmentation-audit — NEW
+- engine-memory-pressure-response — NEW
 - engine-performance-benchmarking — NEW
 - engine-plugin-boundaries — NEW
+- engine-plugin-shutdown-contract — NEW
 - engine-render-feature-matrix — NEW
 - engine-render-resource-lifetime — NEW
+- engine-resource-hot-reload-atomicity — NEW
+- engine-runtime-event-tracing — NEW
 - engine-runtime-telemetry-taxonomy — NEW
 - engine-startup-dependency-graph — NEW
 - engine-subsystem-lifecycle-order — NEW
@@ -127,17 +132,19 @@ Updated: 2026-10-15. The unified bundle contains 350 distinct skills.
 - worldgen-deterministic-seed-contract — NEW
 - worldgen-feature-overlap-validation — NEW
 
-### Game content & save systems (24)
+### Game content & save systems (28)
 
 - animation-event-timing-audit — NEW
 - animation-state-machine-audit — NEW
 - asset-bundle-content-addressing — NEW
 - asset-bundle-size-budget — NEW
 - asset-dependency-cycle-detection — NEW
+- asset-import-cache-key-audit — NEW
 - asset-import-validation — NEW
 - asset-pipeline-incremental-build-validation — NEW
 - audio-mix-loudness-budget — NEW
 - dialogue-branch-continuity-audit — NEW
+- game-save-fault-injection — NEW
 - game-save-recovery-testing — NEW
 - gameplay-economy-anti-exploit — NEW
 - gameplay-input-remapping-accessibility — NEW
@@ -146,6 +153,7 @@ Updated: 2026-10-15. The unified bundle contains 350 distinct skills.
 - loot-table-probability-validation — NEW
 - procedural-content-regression-testing — NEW
 - procedural-level-pacing-validation — NEW
+- procedural-world-golden-test — NEW
 - save-format-compatibility-fixtures — NEW
 - texture-mipmap-import-validation — NEW
 - tutorial-onboarding-progression-audit — NEW
@@ -153,6 +161,7 @@ Updated: 2026-10-15. The unified bundle contains 350 distinct skills.
 - world-content-pipeline — NEW
 - world-region-serialization-contract — NEW
 - worldgen-biome-distribution-analysis — NEW
+- worldgen-distribution-drift-detection — NEW
 
 ### Game design, engines & gameplay QA (27)
 
@@ -225,14 +234,19 @@ Updated: 2026-10-15. The unified bundle contains 350 distinct skills.
 - modpack-reproducibility-snapshot — NEW
 - modpack-server-capacity-planning — NEW
 
-### Networked games & determinism (6)
+### Networked games & determinism (11)
 
 - multiplayer-determinism-testing — NEW
+- multiplayer-entity-replication-prioritization — NEW
+- multiplayer-latency-compensation-validation — NEW
 - multiplayer-reconnect-state-resync — NEW
 - multiplayer-state-sync — NEW
 - netcode-lag-compensation-validation — NEW
+- network-authoritative-state-reconciliation — NEW
+- network-packet-budget-analysis — NEW
 - network-protocol-versioning — NEW
 - replication-interest-management — NEW
+- rollback-netcode-state-coverage — NEW
 
 ### Release, tests & repository quality (38)
 
@@ -332,38 +346,44 @@ Updated: 2026-10-15. The unified bundle contains 350 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (26)
+### Rust & platform engineering (31)
 
 - native-wasm-behavior-parity — NEW
 - rust-allocator-contention-analysis — NEW
 - rust-allocator-memory-profiling — NEW
 - rust-api-error-taxonomy — NEW
 - rust-api-semver-audit — NEW
+- rust-async-backpressure-budget — NEW
 - rust-async-cancellation-safety — NEW
 - rust-async-runtime-diagnostics — NEW
 - rust-async-task-supervision — NEW
 - rust-binary-size-budget — NEW
 - rust-borrow-scope-performance — NEW
+- rust-bounded-worker-queue — NEW
 - rust-cache-line-sharing-audit — NEW
 - rust-channel-backpressure — NEW
 - rust-channel-shutdown-drain — NEW
+- rust-concurrency-test-scenario-design — NEW
 - rust-crate-boundary-audit — NEW
 - rust-crate-feature-budget — NEW
 - rust-crate-public-api-surface — NEW
 - rust-cross-compilation-validation — NEW
 - rust-ffi-resource-ownership — NEW
 - rust-lock-contention-profile — NEW
+- rust-lock-order-deadlock-audit — NEW
 - rust-perf-regression-thresholds — NEW
 - rust-proc-macro-diagnostics — NEW
 - rust-profile-guided-optimization — NEW
 - rust-shared-state-lock-elimination — NEW
+- rust-task-cancellation-propagation — NEW
 - rust-test-fixture-isolation — NEW
 - rust-workspace-feature-matrix — NEW
 - wasm-native-performance-comparison — NEW
 
-### Simulation, NPCs & world history (23)
+### Simulation, NPCs & world history (29)
 
 - civilization-migration-validation — NEW
+- civilization-production-throughput-audit — NEW
 - civilization-resource-reservation — NEW
 - ecology-feedback-loop-validation — NEW
 - economy-market-price-stability — NEW
@@ -372,16 +392,21 @@ Updated: 2026-10-15. The unified bundle contains 350 distinct skills.
 - emergent-behavior-test-design — NEW
 - game-ai-decision-architecture — NEW
 - large-population-simulation-lod — NEW
+- npc-action-precondition-validation — NEW
 - npc-agent-decision-budget — NEW
 - npc-goal-lifecycle — NEW
 - npc-memory-knowledge-model — NEW
 - npc-memory-retention-policy — NEW
+- npc-memory-retrieval-budget — NEW
 - npc-pathfinding-budget-policy — NEW
 - npc-schedule-constraint-validation — NEW
 - npc-simulation-lod-policy — NEW
 - npc-state-machine-design — NEW
 - procedural-civilization-simulation — NEW
 - simulation-event-ordering-contract — NEW
+- simulation-replay-state-diff — NEW
+- simulation-soak-test-design — NEW
+- simulation-time-dilation-contract — NEW
 - social-rumor-propagation-model — NEW
 - utility-ai-score-calibration — NEW
 - world-history-event-sourcing — NEW
