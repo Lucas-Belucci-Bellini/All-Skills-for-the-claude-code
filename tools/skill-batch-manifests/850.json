@@ -5,7 +5,7 @@
   "long_term_target": 2500,
   "authored_count": 724,
   "retained_count": 126,
-  "plugin_version": "2.1.8",
+  "plugin_version": "2.1.9",
   "skills": [
     {
       "name": "radar-adc-channel-map-consistency",
@@ -308,8 +308,8 @@
       "category": "AERIS-10 radar and embedded-systems engineering"
     },
     {
-      "name": "radar-signal-processing-units-and-dB-audit",
-      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-signal-processing-units-and-dB-audit/SKILL.md",
+      "name": "radar-signal-processing-units-and-db-audit",
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-signal-processing-units-and-db-audit/SKILL.md",
       "category": "AERIS-10 radar and embedded-systems engineering"
     },
     {

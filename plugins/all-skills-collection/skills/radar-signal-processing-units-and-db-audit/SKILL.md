@@ -1,5 +1,5 @@
 ---
-name: radar-signal-processing-units-and-dB-audit
+name: radar-signal-processing-units-and-db-audit
 description: "Apply deterministic engineering checks to keep amplitude, power, frequency, time, and decibel conventions explicit across code, plots, and report tables."
 ---
 

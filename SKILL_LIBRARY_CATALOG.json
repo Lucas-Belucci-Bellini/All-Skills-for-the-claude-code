@@ -415,10 +415,10 @@
       "source_path": "curated-skill-sources/aeris-radar-engineering/radar-schematic-netlist-consistency/SKILL.md"
     },
     {
-      "name": "radar-signal-processing-units-and-dB-audit",
+      "name": "radar-signal-processing-units-and-db-audit",
       "category": "AERIS-10 radar and embedded-systems engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-signal-processing-units-and-dB-audit/SKILL.md"
+      "source_path": "curated-skill-sources/aeris-radar-engineering/radar-signal-processing-units-and-db-audit/SKILL.md"
     },
     {
       "name": "radar-simulator-vs-hardware-claim-boundary",
