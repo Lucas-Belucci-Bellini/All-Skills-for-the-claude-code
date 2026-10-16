@@ -1,18 +1,18 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
+Updated: 2026-10-16. The unified bundle contains 450 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **299**
-- Current total: **425**
+- Original curated skills: **324**
+- Current total: **450**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to the long-term target: **2,075**
+- Remaining to the long-term target: **2,050**
 
 ## Categories
 
-### Agent workflows, Claude Code & MCP (27)
+### Agent workflows, Claude Code & MCP (28)
 
 - agent-development
 - build-mcp-app
@@ -42,7 +42,10 @@ Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
 - skill-development
 - writing-rules
 
-### Claude Code setup & MCP (14)
+- agent-workspace-isolation — NEW
+
+
+### Claude Code setup & MCP (17)
 
 - agent-human-approval-gates — NEW
 - agent-memory-write-policy — NEW
@@ -59,7 +62,12 @@ Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
 - repository-instruction-conflict-resolution — NEW
 - tool-call-budget-policy — NEW
 
-### Engine architecture & runtime (93)
+- mcp-side-effect-risk-classification — NEW
+- mcp-auth-scope-minimization — NEW
+- claude-plugin-upgrade-rollback-validation — NEW
+
+
+### Engine architecture & runtime (95)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -155,7 +163,11 @@ Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
 - worldgen-deterministic-seed-contract — NEW
 - worldgen-feature-overlap-validation — NEW
 
-### Game content & save systems (28)
+- voxel-chunk-work-amplification-audit — NEW
+- resource-shutdown-use-after-close — NEW
+
+
+### Game content & save systems (30)
 
 - animation-event-timing-audit — NEW
 - animation-state-machine-audit — NEW
@@ -185,6 +197,10 @@ Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
 - world-region-serialization-contract — NEW
 - worldgen-biome-distribution-analysis — NEW
 - worldgen-distribution-drift-detection — NEW
+
+- asset-load-cancellation-race-audit — NEW
+- voxel-chunk-edit-undo-consistency — NEW
+
 
 ### Game design, engines & gameplay QA (27)
 
@@ -257,7 +273,7 @@ Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
 - modpack-reproducibility-snapshot — NEW
 - modpack-server-capacity-planning — NEW
 
-### Networked games & determinism (11)
+### Networked games & determinism (12)
 
 - multiplayer-determinism-testing — NEW
 - multiplayer-entity-replication-prioritization — NEW
@@ -271,7 +287,10 @@ Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
 - replication-interest-management — NEW
 - rollback-netcode-state-coverage — NEW
 
-### Release, tests & repository quality (50)
+- multiplayer-message-ordering-fault-injection — NEW
+
+
+### Release, tests & repository quality (65)
 
 - api-backward-compatibility-review — NEW
 - api-contract-regression-testing — NEW
@@ -323,6 +342,23 @@ Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
 - threat-model-data-flow — NEW
 - typescript-api-error-contract-design — NEW
 - web-performance-budget-audit — NEW
+
+- api-generated-client-drift-audit — NEW
+- api-webhook-delivery-invariants — NEW
+- api-version-sunset-planning — NEW
+- tenant-quota-enforcement-tests — NEW
+- database-connection-pool-saturation — NEW
+- database-backfill-resumability — NEW
+- database-lock-wait-triage — NEW
+- data-retention-deletion-verification — NEW
+- postgresql-transaction-isolation-audit — NEW
+- artifact-signature-verification — NEW
+- container-image-reproducibility-audit — NEW
+- secrets-rotation-exercise — NEW
+- auth-refresh-token-replay-boundaries — NEW
+- release-artifact-quarantine-gate — NEW
+- event-consumer-offset-recovery — NEW
+
 
 ### Reverse engineering & artifact analysis (54)
 
@@ -462,7 +498,7 @@ Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
 - world-history-event-sourcing — NEW
 - world-simulation-save-snapshot — NEW
 
-### Skill library governance (10)
+### Skill library governance (11)
 
 - agent-artifact-quality-gates — NEW
 - automation-change-risk-gating — NEW
@@ -474,6 +510,9 @@ Updated: 2026-10-16. The unified bundle contains 425 distinct skills.
 - skill-trigger-routing-evaluation — NEW
 - skill-usage-feedback-triage — NEW
 - third-party-skill-provenance-audit — NEW
+
+- agent-output-evidence-traceability — NEW
+
 
 ### UI, art, audio & assets (7)
 

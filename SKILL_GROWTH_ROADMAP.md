@@ -1,60 +1,49 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-16  
-**Verified branch inventory:** 425 distinct skills (299 authored + 126 retained/imported)  
+**Current draft inventory:** 450 distinct skills (324 authored + 126 retained/imported)  
 **Long-term planning target:** 2,500 distinct skills  
-**Next checkpoint:** 450 distinct skills (+25)  
-**Intermediate milestone:** 500 by 2026-12-31, subject to quality gates
+**Remaining to long-term target:** 2,050  
+**Current milestone:** +25 skills from 425 to 450 on `feat/skills-expansion-450-2026`  
+**Intermediate milestone:** 500 by 2026-12-31, subject to the quality gates below
 
-The 2,500 figure is a planning ceiling and long-term target, not a reason to publish filler or a promise that all skills will be completed by a fixed date. Count canonical skill identities only: aliases, generated bundle copies, alternate paths, and duplicates do not increase the total. The canonical inventory is `SKILL_LIBRARY_CATALOG.json`; `SKILL_LIBRARY_CATALOG.md` is its human-readable companion.
+The 2,500 figure is a long-term planning ceiling, not a commitment to ship low-value entries or to finish the entire expansion by a fixed date. Count canonical skill identities only: aliases, generated bundle copies, alternate paths, and duplicates do not increase the total. The canonical inventory is `SKILL_LIBRARY_CATALOG.json`; `SKILL_LIBRARY_CATALOG.md` is its human-readable companion.
 
 ## Milestone sequence
 
-| Checkpoint | Target total | Operating rule |
+| Checkpoint | Target total | Status / operating rule |
 |---|---:|---|
-| Current | 425 | 25-skill branch is represented by Draft PR #6; review and validate before merging |
-| Next | 450 | Add 25 distinct skills after comparing candidate scope against the current catalog |
-| Intermediate | 475 | Add the next validated batch of 25 |
-| 2026-12-31 | 500 | Target for the initial expansion cycle; only count skills that pass quality and packaging checks |
-| Scale-up | 525–1,000 | Continue in batches of 25; re-evaluate category balance at each 100-skill interval |
-| Extended scale | 1,025–1,500 | Keep adding based on demonstrated workflow gaps; retire or consolidate weak/overlapping entries |
-| Long-range scale | 1,525–2,000 | Review discovery quality, maintenance burden, provenance, and package size at every 100-skill interval |
-| Final planned range | 2,025–2,500 | Continue only while new skills add distinct value; the cap may be revisited based on actual use and quality results |
+| Prior milestone | 425 | Draft PR #6 contains the 425-skill baseline; sync script and end-to-end Claude Code discovery are still unverified locally |
+| Current draft | 450 | Adds 25 distinct API/data, security/release, MCP/agent and runtime/game-engine workflows; review this branch before merging |
+| Next checkpoint | 475 | Add 25 only after checking names and neighboring scopes against the 450 catalog |
+| Intermediate | 500 | Target for 2026-12-31 if every batch passes the quality and packaging gates |
+| Scale-up | 525–1,000 | Continue in batches of 25; re-evaluate category balance and actual usage every 100 skills |
+| Extended scale | 1,025–1,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
+| Long-range scale | 1,525–2,000 | Review discoverability, maintenance burden, provenance and package size at every 100-skill interval |
+| Final planned range | 2,025–2,500 | Continue only while new skills add distinct value; revisit the ceiling using adoption and quality evidence |
 
-No future milestone should be considered complete based solely on a catalog counter. Each batch must pass duplicate checks, source/bundle parity checks, frontmatter and workflow review, catalog reconciliation, and a diff review. If the quality bar cannot be met for a full batch, ship fewer skills and document the gap rather than inventing near-duplicates.
-
-## Domain strategy for growth
-
-Use the existing inventory and issue reports to identify gaps before every batch. Potential areas for investigation include:
-
-- API contracts, data migrations, database operations, tenant isolation, auth/session behavior, and observable failure handling.
-- Agent execution safety, tool permission boundaries, MCP governance, plugin lifecycle and discovery, workflow evaluations, and evidence traceability.
-- Engine/runtime concurrency, resource lifetime, determinism, simulation scale, world persistence, network protocols, asset pipelines, and reproducible builds.
-- Release verification, dependency and artifact provenance, security regression tests, rollback drills, and incident evidence.
-- Minecraft/modpack reproducibility and operations where the new scope is clearly distinct from the current diagnostics skills.
-
-These are candidate areas, not a quota. Compare each proposed skill with existing entries by task, trigger, inputs, outputs, failure modes, and supported tools. Prefer consolidation when two entries differ only by wording or minor variants.
+A catalog counter alone does not complete a milestone. Each batch must pass exact-name and semantic-overlap review, source/bundle parity, frontmatter and workflow review, catalog reconciliation, manifest consistency, and diff review. If fewer than 25 useful skills are ready, ship fewer and document the gap rather than inventing near-duplicates.
 
 ## Quality gate for every skill
 
-1. **Unique scope:** state the specific task and the neighboring tasks it does not replace.
-2. **Useful trigger:** frontmatter has a unique name and an actionable description saying when to use the skill.
-3. **Runnable workflow:** provide concrete ordered steps, expected inputs, and a required deliverable.
-4. **Verification:** include acceptance checks, edge cases, negative cases, and recovery guidance.
-5. **Boundaries:** explain assumptions, external dependencies, destructive-action controls, and when to stop or ask for review.
-6. **Routing tests:** include positive and negative trigger examples and check for overlap with existing skills.
-7. **Provenance:** preserve attribution, source information, and license notices where relevant; do not treat redistribution review as complete unless actually completed.
-8. **Distribution parity:** canonical source and packaged copy must match; the sync check must pass in a local clean checkout before reporting it as passed.
-9. **Catalog integrity:** JSON and Markdown totals, categories, source paths, manifests, README counts, and versions must reconcile.
-10. **Reviewable change:** work on a feature branch and use a Draft PR; never push directly to `main`.
+1. **Unique scope:** state the task and neighboring tasks it does not replace.
+2. **Useful trigger:** valid frontmatter, unique name, and actionable usage description.
+3. **Runnable workflow:** concrete steps, expected inputs, and a required deliverable.
+4. **Verification:** acceptance checks, edge cases, negative cases, and recovery guidance.
+5. **Boundaries:** assumptions, external dependencies, destructive-action controls, and stop conditions.
+6. **Routing tests:** positive and negative examples; check adjacent skills for overlap.
+7. **Provenance:** preserve attribution and source/license notices where relevant; redistribution review must not be claimed complete without evidence.
+8. **Distribution parity:** source and generated/plugin copy must match byte-for-byte; a local sync check is reported only if actually run.
+9. **Catalog integrity:** JSON/Markdown totals, category sums, source paths, manifests, README counts and versions must reconcile.
+10. **Reviewable change:** use a feature branch and Draft PR; never write directly to `main`.
 
 ## Operating cycle
 
-Discover a real gap; define the trigger and boundary; author the canonical skill; run exact and semantic duplicate checks; add the generated/plugin copy; update the catalog and documentation; inspect the diff; run available local checks; report passed, failed, and unverified validations separately; then request review.
+Discover a real gap; define trigger, inputs, boundary and outputs; author the canonical source; check exact and semantic duplicates; add the package copy; update catalogs and version metadata; inspect the diff; run available local checks; report passed, failed and unverified items separately; then request review.
 
 ## Known validation limits
 
-- Local clean-checkout execution of `node tools/sync-skill-bundles.mjs --write` and `--check` must be reported only after actually observing the command output.
-- Claude Code installation/discovery must not be described as verified until exercised end-to-end.
+- A clean-checkout run of `node tools/sync-skill-bundles.mjs --write` and `--check` is unverified until actual command output is observed.
+- Claude Code plugin installation/discovery has not been verified end-to-end in this workflow.
 - Third-party provenance and redistribution-license review remains pending; do not claim that distribution is cleared.
 - Do not merge PRs, rewrite shared history, force-push, or change repository visibility without explicit authorization.
