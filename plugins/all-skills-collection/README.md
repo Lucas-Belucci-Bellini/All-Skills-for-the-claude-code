@@ -1,6 +1,6 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **400 distinct skills**, with authored workflows across runtime observability, scheduler deadlines/fairness, bounded background work, backend/API design, Rust concurrency, multiplayer determinism, NPC/civilization simulation, secure agent orchestration, Minecraft operations, save recovery, asset integrity and reproducible diagnostics. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
+A generated plugin containing **425 distinct skills**, with authored workflows across runtime integration/fault testing, queue and memory observability, scheduler robustness, backend/API design, Rust build/lifecycle contracts, multiplayer determinism, NPC/civilization simulation, release evidence, Minecraft operations, save recovery and asset integrity. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
