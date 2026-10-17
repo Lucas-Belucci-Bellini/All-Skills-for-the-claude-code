@@ -1,10 +1,10 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-16  
-**Current draft inventory:** 1,300 distinct skills (1,174 authored + 126 retained/imported)  
+**Current draft inventory:** 1,150 distinct skills (1,024 authored + 126 retained/imported)  
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 1,200  
-**Current milestone:** +150 skills from 1,150 to 1,300 on `feat/skills-expansion-1300-from-1150-2026`  
+**Remaining to long-term target:** 1,350  
+**Current milestone:** +150 skills from 1,000 to 1,150 on `feat/skills-expansion-1150-from-1000-2026`  
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
 The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -23,9 +23,8 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 850 | 850 | Adds 50 OSIRIS, 75 AERIS-10/PLFM_RADAR, and 125 Flipper Zero firmware engineering skills; install/discovery and broad semantic review remain pending |
 | 1,000 | 1,000 | Adds 50 Supabase/PostgreSQL, 50 Vercel AI SDK/agent reliability, and 50 OpenSSF Scorecard/supply-chain workflows; clean install/discovery and broader semantic review remain pending |
 | 1,150 | 1,150 | Adds 50 Playwright E2E, 50 OpenTelemetry Collector, and 50 Temporal TypeScript durable-workflow skills; clean install/discovery and broader semantic review remain pending |
-| 1,300 | 1,300 | Adds 50 Kubernetes operations/controller, 50 Docker Buildx/BuildKit, and 50 OpenFeature flag lifecycle/experimentation workflows; clean install/discovery and broader semantic review remain pending |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
-| Scale-up | 1,325–1,500 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
+| Scale-up | 1,175–1,500 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 1,525–2,000 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
 | Long-range scale | 2,025–2,500 | Review discoverability, maintenance burden, provenance and package size every 100 skills |
 | Beyond target | Reassessment | Reassess adoption and maintenance burden before expansion beyond 2,500 |
