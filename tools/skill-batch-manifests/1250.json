@@ -1,0 +1,511 @@
+{
+  "schema_version": 1,
+  "batch_size": 100,
+  "milestone_total": 1250,
+  "long_term_target": 2500,
+  "authored_count": 1124,
+  "retained_count": 126,
+  "plugin_version": "2.1.12",
+  "skills": [
+    {
+      "name": "atm10-attribute-modifier-stacking-audit",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-attribute-modifier-stacking-audit/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-automated-farm-tick-load",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-automated-farm-tick-load/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-automation-recipe-loop-interaction",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-automation-recipe-loop-interaction/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-backup-restore-drill",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-backup-restore-drill/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-biome-feature-injection-conflict",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-biome-feature-injection-conflict/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-chunk-corruption-scope-assessment",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-chunk-corruption-scope-assessment/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-chunk-generation-stutter-analysis",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-chunk-generation-stutter-analysis/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-client-server-mod-parity-audit",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-client-server-mod-parity-audit/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-client-world-join-failure",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-client-world-join-failure/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-config-migration-compatibility",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-config-migration-compatibility/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-config-scope-client-server-check",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-config-scope-client-server-check/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-config-syntax-regression",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-config-syntax-regression/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-crash-loop-recovery",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-crash-loop-recovery/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-crash-report-evidence-triage",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-crash-report-evidence-triage/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-datapack-priority-conflict",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-datapack-priority-conflict/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-datapack-recipe-load-validation",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-datapack-recipe-load-validation/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-dedicated-server-startup-failure",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-dedicated-server-startup-failure/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-dimension-transition-crash",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-dimension-transition-crash/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-dimension-worldgen-overlap",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-dimension-worldgen-overlap/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-duplicate-jar-detection",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-duplicate-jar-detection/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-enchantment-loot-interaction",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-enchantment-loot-interaction/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-entity-ai-behavior-interference",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-entity-ai-behavior-interference/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-entity-buildup-performance-audit",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-entity-buildup-performance-audit/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-entity-tick-crash-triage",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-entity-tick-crash-triage/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-event-handler-double-processing",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-event-handler-double-processing/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-fluid-transfer-compatibility",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-fluid-transfer-compatibility/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-freeze-vs-crash-classification",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-freeze-vs-crash-classification/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-gc-pause-correlator",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-gc-pause-correlator/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-graphics-driver-vs-mod-diagnosis",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-graphics-driver-vs-mod-diagnosis/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-inventory-slot-compatibility",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-inventory-slot-compatibility/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-issue-report-evidence-package",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-issue-report-evidence-package/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-item-handler-capability-conflict",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-item-handler-capability-conflict/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-java-architecture-runtime-check",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-java-architecture-runtime-check/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-java-memory-gc-triage",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-java-memory-gc-triage/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-jvm-argument-baseline-review",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-jvm-argument-baseline-review/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-launcher-exit-code-context-analysis",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-launcher-exit-code-context-analysis/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-launcher-instance-integrity",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-launcher-instance-integrity/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-log-timeline-correlation",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-log-timeline-correlation/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-loot-table-override-audit",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-loot-table-override-audit/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-machine-energy-network-interoperability",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-machine-energy-network-interoperability/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-minimal-modset-binary-search",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-minimal-modset-binary-search/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-missing-dependency-detection",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-missing-dependency-detection/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mixin-conflict-isolation",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mixin-conflict-isolation/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-advancement-trigger-failure",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-advancement-trigger-failure/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-api-contract-regression",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-api-contract-regression/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-background-thread-exception",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-background-thread-exception/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-block-entity-persistence-bug",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-block-entity-persistence-bug/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-client-server-state-divergence",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-client-server-state-divergence/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-configuration-value-ignored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-configuration-value-ignored/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-crafting-duplication-reproduction",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-crafting-duplication-reproduction/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-crash-on-specific-item-use",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-crash-on-specific-item-use/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-duplicate-item-generation-bug",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-duplicate-item-generation-bug/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-entity-ai-freeze",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-entity-ai-freeze/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-illegal-state-transition-audit",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-illegal-state-transition-audit/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-item-loss-during-transfer",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-item-loss-during-transfer/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-keybind-handler-bug",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-keybind-handler-bug/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-known-issue-and-fix-verification",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-known-issue-and-fix-verification/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-list-fingerprint-capture",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-list-fingerprint-capture/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-loader-version-compatibility-audit",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-loader-version-compatibility-audit/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-machine-stalled-processing",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-machine-stalled-processing/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-memory-leak-growth-triage",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-memory-leak-growth-triage/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-nbt-component-roundtrip-validation",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-nbt-component-roundtrip-validation/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-null-pointer-exception-triage",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-null-pointer-exception-triage/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-player-data-reset-regression",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-player-data-reset-regression/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-random-drop-regression-validation",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-random-drop-regression-validation/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-recipe-reload-stale-state",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-recipe-reload-stale-state/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-recipe-result-mismatch",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-recipe-result-mismatch/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-release-regression-analysis",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-release-regression-analysis/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-rendering-artifact-reproduction",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-rendering-artifact-reproduction/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-update-regression-bisect",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-update-regression-bisect/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-mod-world-migration-failure",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-mod-world-migration-failure/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-modpack-reproducible-test-instance",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-modpack-reproducible-test-instance/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-modpack-update-diff-audit",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-modpack-update-diff-audit/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-network-packet-channel-collision",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-network-packet-channel-collision/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-oom-heap-dump-assessment",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-oom-heap-dump-assessment/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-performance-mod-interaction-audit",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-performance-mod-interaction-audit/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-player-capability-serialization-conflict",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-player-capability-serialization-conflict/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-portal-dimension-travel-conflict",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-portal-dimension-travel-conflict/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-post-fix-regression-suite",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-post-fix-regression-suite/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-recipe-namespace-overlap",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-recipe-namespace-overlap/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-recipe-registration-failure",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-recipe-registration-failure/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-registry-id-collision-investigation",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-registry-id-collision-investigation/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-registry-missing-content-recovery",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-registry-missing-content-recovery/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-renderer-shader-mod-conflict",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-renderer-shader-mod-conflict/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-rendering-fps-regression",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-rendering-fps-regression/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-resource-pack-shader-crash-triage",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-resource-pack-shader-crash-triage/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-safe-mod-addition-protocol",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-safe-mod-addition-protocol/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-safe-mod-removal-protocol",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-safe-mod-removal-protocol/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-save-write-lag-diagnosis",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-save-write-lag-diagnosis/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-server-network-latency-triage",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-server-network-latency-triage/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-server-tps-mspt-profiling",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-server-tps-mspt-profiling/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-startup-phase-checkpoint",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-startup-phase-checkpoint/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-storage-autocrafting-interaction",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-storage-autocrafting-interaction/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-storage-io-stutter-investigation",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-storage-io-stutter-investigation/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-structure-generation-duplication",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-structure-generation-duplication/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-tag-membership-conflict",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-tag-membership-conflict/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-world-save-recovery-preflight",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-world-save-recovery-preflight/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-worldgen-crash-reproduction",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-worldgen-crash-reproduction/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-worldgen-memory-pressure",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-worldgen-memory-pressure/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    },
+    {
+      "name": "atm10-wrong-loader-artifact-detection",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/atm10-wrong-loader-artifact-detection/SKILL.md",
+      "category": "Minecraft & modpack engineering"
+    }
+  ]
+}
