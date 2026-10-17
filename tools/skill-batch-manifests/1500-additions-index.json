@@ -653,6 +653,181 @@
       "origin": "new-authored",
       "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-exploit-regression-matrix/SKILL.md",
       "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-variant-identity-bypass",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-variant-identity-bypass/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-duplicate-recipe-provenance-check",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-duplicate-recipe-provenance-check/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-container-fill-state-arbitrage",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-container-fill-state-arbitrage/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-alternative-recipe-cost-collapse",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-alternative-recipe-cost-collapse/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-free-catalyst-cycle-check",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-free-catalyst-cycle-check/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-time-windowed-resource-farm-test",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-time-windowed-resource-farm-test/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-creative-command-contamination-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-creative-command-contamination-audit/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-server-client-value-parity",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-server-client-value-parity/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-automation-side-effect-regression",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-automation-side-effect-regression/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-exploit-risk-priority-matrix",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-exploit-risk-priority-matrix/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-config-merge-diff-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-config-merge-diff-review/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-export-syntax-parse-test",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-export-syntax-parse-test/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-runtime-sample-lookup-smoke",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-runtime-sample-lookup-smoke/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-config-update-impact-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-config-update-impact-audit/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-reviewed-proposed-diff",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-reviewed-proposed-diff/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-missing-coverage-regression",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-missing-coverage-regression/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-ignored-item-reason-register",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-ignored-item-reason-register/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-config-backup-rollback-drill",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-config-backup-rollback-drill/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-version-upgrade-item-delta",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-version-upgrade-item-delta/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-release-manifest-integrity",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-release-manifest-integrity/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-playtest-balance-observation",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-playtest-balance-observation/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-sample-item-validation-plan",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-sample-item-validation-plan/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-loader-compatibility-gate",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-loader-compatibility-gate/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-final-coverage-report",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-final-coverage-report/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-balance-change-approval-record",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-balance-change-approval-record/SKILL.md",
+      "subdomain": "audit-validation"
     }
   ]
 }
