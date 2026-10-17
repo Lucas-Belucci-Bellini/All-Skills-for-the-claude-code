@@ -1,0 +1,47 @@
+name: Skill sync validation
+
+on:
+  push:
+    branches:
+      - fix/skill-sync-target-2500-2026
+      - feat/skills-expansion-525-from-sync-fix-2026
+      - feat/skills-expansion-550-from-525-2026
+      - feat/skills-expansion-600-from-550-2026
+      - feat/skills-expansion-850-from-600-2026
+      - feat/skills-expansion-1000-from-850-2026
+      - feat/skills-expansion-1150-from-1000-2026
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check script syntax
+        run: node --check tools/sync-skill-bundles.mjs
+
+      - name: Generate bundle and verify idempotence
+        shell: bash
+        run: |
+          set -euo pipefail
+          node tools/sync-skill-bundles.mjs --write
+          git diff --binary > "$RUNNER_TEMP/first-write.diff"
+          node tools/sync-skill-bundles.mjs --write
+          git diff --binary > "$RUNNER_TEMP/second-write.diff"
+          cmp "$RUNNER_TEMP/first-write.diff" "$RUNNER_TEMP/second-write.diff"
+          git diff --check
+          node tools/sync-skill-bundles.mjs --check
+
+      - name: Validate current milestone structure and source/bundle parity
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1150.json

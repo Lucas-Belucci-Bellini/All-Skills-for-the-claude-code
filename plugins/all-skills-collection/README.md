@@ -1,6 +1,6 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **400 distinct skills**, with authored workflows across runtime observability, scheduler deadlines/fairness, bounded background work, backend/API design, Rust concurrency, multiplayer determinism, NPC/civilization simulation, secure agent orchestration, Minecraft operations, save recovery, asset integrity and reproducible diagnostics. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
+A generated plugin containing **1150 distinct skills**, with authored workflows across software reliability, geospatial intelligence, AERIS-10 radar/embedded testing, Flipper Zero firmware, live public-data pipelines, realtime agents, and privacy-aware device engineering. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
@@ -10,7 +10,7 @@ In Claude Code, add this repository as a marketplace and install all-skills-coll
 
 - Full inventory: SKILL_LIBRARY_CATALOG.md
 - Machine-readable inventory: SKILL_LIBRARY_CATALOG.json
-- Roadmap to 500 by December 31, 2026: SKILL_GROWTH_ROADMAP.md
+- Long-term roadmap to 2,500 distinct skills (500 is the 2026 intermediate milestone): SKILL_GROWTH_ROADMAP.md
 - Canonical authored sources: curated-skill-sources/README.md
 
 ## Refresh after new skills

@@ -17,6 +17,7 @@ const readmePath = path.join(pluginRoot, "README.md");
 const skillCatalogPath = path.join(root, "SKILL_LIBRARY_CATALOG.json");
 const skillCatalogMarkdownPath = path.join(root, "SKILL_LIBRARY_CATALOG.md");
 const growthRoadmapPath = path.join(root, "SKILL_GROWTH_ROADMAP.md");
+const LONG_TERM_TARGET = 2500;
 const skipDirs = new Set([".git", "node_modules", ".next", "coverage", "dist", "vendor"]);
 const generated = ["plugins/all-skills-collection/", "plugins/skill-library-maintainer/"];
 const slash = (v) => v.split(path.sep).join("/");
@@ -147,6 +148,23 @@ function diff(expected, actual) {
 }
 
 const CURATED_CATEGORY_LABELS = {
+  "developer-cli-tooling": "Developer environment & CLI tooling",
+  "documentation-knowledge-systems": "Documentation & technical knowledge systems",
+  "supabase-database-engineering": "Supabase & PostgreSQL platform engineering",
+  "ai-sdk-agent-reliability": "Vercel AI SDK & agent reliability",
+  "secure-software-supply-chain": "OpenSSF Scorecard & software supply chain",
+  "playwright-e2e-engineering": "Playwright end-to-end testing",
+  "opentelemetry-collector-engineering": "OpenTelemetry Collector observability",
+  "temporal-durable-workflows": "Temporal durable workflow engineering",
+  "osiris-intelligence-platform": "OSIRIS intelligence platform engineering",
+  "aeris-radar-engineering": "AERIS-10 radar and embedded-systems engineering",
+  "flipperzero-firmware-engineering": "Flipper Zero firmware and hardware engineering",
+  "geospatial-visualization": "Geospatial visualization & map UX",
+  "live-public-data-systems": "Live public-data ingestion & reliability",
+  "realtime-voice-agents": "Realtime voice agents & multimodal control",
+  "scene-navigation-sharing": "Scene navigation, sharing & replay",
+  "public-data-ethics": "Public-data provenance, privacy & ethics",
+  "accessibility-inclusive-ux": "Accessibility & inclusive UX",
   "engine-runtime": "Engine architecture & runtime",
   "simulation-world": "Simulation, NPCs & world history",
   "networked-games": "Networked games & determinism",
@@ -195,8 +213,8 @@ async function buildSkillCatalog(expected, previous) {
     schema_version: 1,
     updated_at: updatedAt,
     unique_skills: names.length,
-    target: 500,
-    remaining: Math.max(0, 500 - names.length),
+    target: LONG_TERM_TARGET,
+    remaining: Math.max(0, LONG_TERM_TARGET - names.length),
     source_policy: "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
     skills,
   };
@@ -221,8 +239,8 @@ function renderSkillCatalogMarkdown(data) {
     "- Existing/imported skills retained: **" + imported + "**",
     "- Original curated skills: **" + authored + "**",
     "- Current total: **" + data.unique_skills + "**",
-    "- Target by 2026-12-31: **" + data.target + "**",
-    "- Remaining: **" + data.remaining + "**",
+    "- Long-term planning target: **" + data.target.toLocaleString("en-US") + " distinct skills**; 500 remains the intermediate milestone for 2026-12-31",
+    "- Remaining to long-term target: **" + data.remaining.toLocaleString("en-US") + "**",
     "",
     "## Categories",
     "",
@@ -239,12 +257,16 @@ function renderSkillCatalogMarkdown(data) {
     "",
   ].join("\n");
 }
-function updateRoadmapCount(content, total) {
-  const line = "Current unique count: " + total + "; remaining to target: " + Math.max(0, 500 - total) + ".";
-  if (/Current unique count: \d+; remaining to target: \d+\./.test(content)) {
-    return content.replace(/Current unique count: \d+; remaining to target: \d+\./, line);
-  }
-  return content.replace(/^(#.*\n)/, "$1\n" + line + "\n");
+function updateRoadmapCount(content, total, authored, retained) {
+  const remaining = Math.max(0, LONG_TERM_TARGET - total);
+  let next = content;
+  const inventoryLine = "**Current draft inventory:** " + total.toLocaleString("en-US") + " distinct skills (" + authored.toLocaleString("en-US") + " authored + " + retained.toLocaleString("en-US") + " retained/imported)";
+  const remainingLine = "**Remaining to long-term target:** " + remaining.toLocaleString("en-US");
+  if (!/^\*\*Current draft inventory:\*\*.*$/m.test(next)) throw new Error("Roadmap is missing the current draft inventory line.");
+  if (!/^\*\*Remaining to long-term target:\*\*.*$/m.test(next)) throw new Error("Roadmap is missing the long-term remaining line.");
+  next = next.replace(/^\*\*Current draft inventory:\*\*.*$/m, inventoryLine);
+  next = next.replace(/^\*\*Remaining to long-term target:\*\*.*$/m, remainingLine);
+  return next;
 }
 
 function bump(version) {
@@ -306,13 +328,19 @@ async function main() {
     const currentLibraryCatalog = JSON.parse(await fs.readFile(skillCatalogPath, "utf8"));
     const expectedLibraryCatalog = await buildSkillCatalog(expected, currentLibraryCatalog);
     if (currentLibraryCatalog.unique_skills !== skillCount) changes.push("SKILL_LIBRARY_CATALOG.json count should be " + skillCount);
+    if (currentLibraryCatalog.target !== LONG_TERM_TARGET) changes.push("SKILL_LIBRARY_CATALOG.json target should be " + LONG_TERM_TARGET);
+    if (currentLibraryCatalog.remaining !== Math.max(0, LONG_TERM_TARGET - skillCount)) changes.push("SKILL_LIBRARY_CATALOG.json remaining count is stale");
     if (JSON.stringify(currentLibraryCatalog.skills) !== JSON.stringify(expectedLibraryCatalog.skills)) changes.push("SKILL_LIBRARY_CATALOG.json skill inventory/categories are stale");
     const currentCatalogMarkdown = (await fs.readFile(skillCatalogMarkdownPath, "utf8")).replace(/^Updated: \d{4}-\d{2}-\d{2}\./m, "Updated: <DATE>.");
     const expectedCatalogMarkdown = renderSkillCatalogMarkdown(expectedLibraryCatalog).replace(/^Updated: \d{4}-\d{2}-\d{2}\./m, "Updated: <DATE>.");
     if (currentCatalogMarkdown !== expectedCatalogMarkdown) changes.push("SKILL_LIBRARY_CATALOG.md is stale");
     const roadmap = await fs.readFile(growthRoadmapPath, "utf8");
-    const expectedRoadmapLine = "Current unique count: " + skillCount + "; remaining to target: " + Math.max(0, 500 - skillCount) + ".";
-    if (!roadmap.includes(expectedRoadmapLine)) changes.push("SKILL_GROWTH_ROADMAP.md count should be updated to " + skillCount);
+    const expectedAuthored = expectedLibraryCatalog.skills.filter((s) => s.origin === "new-authored").length;
+    const expectedRetained = expectedLibraryCatalog.skills.filter((s) => s.origin === "existing").length;
+    const expectedInventoryLine = "**Current draft inventory:** " + skillCount.toLocaleString("en-US") + " distinct skills (" + expectedAuthored.toLocaleString("en-US") + " authored + " + expectedRetained.toLocaleString("en-US") + " retained/imported)";
+    const expectedRemainingLine = "**Remaining to long-term target:** " + Math.max(0, LONG_TERM_TARGET - skillCount).toLocaleString("en-US");
+    if (!roadmap.includes(expectedInventoryLine)) changes.push("SKILL_GROWTH_ROADMAP.md inventory count should be updated to " + skillCount);
+    if (!roadmap.includes(expectedRemainingLine)) changes.push("SKILL_GROWTH_ROADMAP.md remaining count should be updated");
     if (changes.length) {
       console.log(changes.slice(0, 100).join("\n"));
       console.error("FAILED: " + changes.length + " discrepancy(s).");
@@ -342,7 +370,9 @@ async function main() {
   await writeAtomic(skillCatalogPath, JSON.stringify(libraryCatalog, null, 2) + "\n");
   await writeAtomic(skillCatalogMarkdownPath, renderSkillCatalogMarkdown(libraryCatalog));
   const roadmap = await fs.readFile(growthRoadmapPath, "utf8");
-  await writeAtomic(growthRoadmapPath, updateRoadmapCount(roadmap, skillCount));
+  const authoredCount = libraryCatalog.skills.filter((s) => s.origin === "new-authored").length;
+  const retainedCount = libraryCatalog.skills.filter((s) => s.origin === "existing").length;
+  await writeAtomic(growthRoadmapPath, updateRoadmapCount(roadmap, skillCount, authoredCount, retainedCount));
   console.log("Wrote " + skillCount + " distinct skills (" + expected.size + " files), plugin version " + nextVersion + ".");
 }
 main().catch((error) => { console.error("sync-skill-bundles: " + (error.stack || String(error))); process.exitCode = 1; });

@@ -1,20 +1,110 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
+Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **274**
-- Current total: **400**
-- Target by 2026-12-31: **500**
-- Remaining: **100**
+- Original curated skills: **1,024**
+- Current total: **1,150**
+- Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
+- Remaining to long-term target: **1,350**
 
 ## Categories
 
-### Agent workflows, Claude Code & MCP (27)
+### Accessibility & inclusive UX (8)
+
+- accessible-data-table-navigation-audit — NEW
+- accessible-focus-return-contract — NEW
+- accessible-form-error-association-audit — NEW
+- accessible-live-region-announcement-testing — NEW
+- bidirectional-text-layout-regression — NEW
+- keyboard-shortcut-conflict-inventory — NEW
+- reduced-motion-interaction-equivalence — NEW
+- zoom-reflow-overflow-audit — NEW
+
+### AERIS-10 radar and embedded-systems engineering (75)
+
+- radar-adc-channel-map-consistency — NEW
+- radar-antenna-simulated-measurement-parity — NEW
+- radar-array-element-coordinate-contract — NEW
+- radar-baseband-decimation-alias-rejection — NEW
+- radar-bom-footprint-source-consistency — NEW
+- radar-build-artifact-quarantine-policy — NEW
+- radar-calibration-record-provenance — NEW
+- radar-cfar-threshold-synthetic-noise-validation — NEW
+- radar-chirp-frequency-table-integrity — NEW
+- radar-cic-filter-growth-and-rounding — NEW
+- radar-clock-reference-tree-consistency — NEW
+- radar-command-acknowledgment-timeout — NEW
+- radar-cross-layer-invariant-test-plan — NEW
+- radar-design-file-cad-tool-version-audit — NEW
+- radar-dma-capture-length-contract — NEW
+- radar-docs-cross-layer-traceability — NEW
+- radar-doppler-fft-axis-contract — NEW
+- radar-fan-control-hysteresis-validation — NEW
+- radar-fir-coefficient-quantization — NEW
+- radar-firmware-version-skew-matrix — NEW
+- radar-fpga-buffer-overrun-check — NEW
+- radar-fpga-clock-domain-boundary-audit — NEW
+- radar-fpga-cosim-reference-alignment — NEW
+- radar-fpga-fixed-point-range-proof — NEW
+- radar-fpga-interface-version-compatibility — NEW
+- radar-fpga-resource-budget-review — NEW
+- radar-frequency-synth-config-review — NEW
+- radar-gerber-generation-provenance — NEW
+- radar-gps-imu-stale-data-interlock — NEW
+- radar-gui-map-coordinate-frame-audit — NEW
+- radar-hal-null-failure-behavior — NEW
+- radar-hardware-source-license-compliance — NEW
+- radar-hardware-version-variant-separation — NEW
+- radar-i2c-address-collision-audit — NEW
+- radar-idq-calibration-sanity-check — NEW
+- radar-iq-component-normalization — NEW
+- radar-lfm-waveform-shape-validation — NEW
+- radar-live-data-vs-synthetic-fixture-labeling — NEW
+- radar-logging-no-sensitive-data-contract — NEW
+- radar-matched-filter-latency-alignment — NEW
+- radar-mcu-host-unit-test-shims — NEW
+- radar-mti-stationary-baseline-regression — NEW
+- radar-multisegment-waveform-state-contract — NEW
+- radar-pcb-impedance-note-traceability — NEW
+- radar-peripheral-initialization-order — NEW
+- radar-power-amplifier-thermal-envelope — NEW
+- radar-pulse-compression-reference-fixtures — NEW
+- radar-python-config-versioning — NEW
+- radar-python-gui-offline-fixtures — NEW
+- radar-rail-emergency-stop-ordering — NEW
+- radar-raw-capture-clipping-detection — NEW
+- radar-reconstruction-filter-response — NEW
+- radar-replay-csv-schema-validation — NEW
+- radar-rf-emissions-compliance-preflight — NEW
+- radar-rf-switch-state-safety — NEW
+- radar-rtl-opcode-source-of-truth — NEW
+- radar-rtl-reset-default-contract — NEW
+- radar-safe-rf-lab-test-conditions — NEW
+- radar-sample-width-signedness-audit — NEW
+- radar-schematic-netlist-consistency — NEW
+- radar-signal-processing-units-and-db-audit — NEW
+- radar-simulator-vs-hardware-claim-boundary — NEW
+- radar-spi-chip-select-transaction-contract — NEW
+- radar-stepper-motion-limit-contract — NEW
+- radar-stm32-power-up-state-machine — NEW
+- radar-stream-ready-valid-invariant — NEW
+- radar-synthesis-constraint-coverage — NEW
+- radar-synthetic-detection-fixture-governance — NEW
+- radar-system-health-state-model — NEW
+- radar-testbench-mid-operation-reset — NEW
+- radar-thermal-watchdog-response-tests — NEW
+- radar-timing-closure-evidence — NEW
+- radar-uart-and-gps-parser-boundary-tests — NEW
+- radar-vg-dac-range-and-limit-validation — NEW
+- radar-waveguide-geometry-parametric-validation — NEW
+
+### Agent workflows, Claude Code & MCP (28)
 
 - agent-development
+- agent-workspace-isolation — NEW
 - build-mcp-app
 - build-mcp-server
 - build-mcpb
@@ -42,7 +132,7 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - skill-development
 - writing-rules
 
-### Claude Code setup & MCP (14)
+### Claude Code setup & MCP (20)
 
 - agent-human-approval-gates — NEW
 - agent-memory-write-policy — NEW
@@ -53,13 +143,43 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - agent-tool-output-schema-validation — NEW
 - claude-code-hook-safety-review — NEW
 - claude-code-mcp-setup — NEW
+- claude-code-session-permission-sanity-check — NEW
+- claude-plugin-upgrade-rollback-validation — NEW
+- mcp-auth-scope-minimization — NEW
+- mcp-oauth-token-refresh-boundary-tests — NEW
+- mcp-side-effect-risk-classification — NEW
 - mcp-tool-permission-audit — NEW
+- plugin-marketplace-discovery-smoke-test — NEW
 - plugin-package-compatibility-test — NEW
 - prompt-injection-boundary-testing — NEW
 - repository-instruction-conflict-resolution — NEW
 - tool-call-budget-policy — NEW
 
-### Engine architecture & runtime (84)
+### Developer environment & CLI tooling (10)
+
+- cli-config-precedence-resolution — NEW
+- cli-dry-run-side-effect-parity — NEW
+- cli-exit-code-contract-testing — NEW
+- cli-signal-cancellation-process-tree — NEW
+- cli-stdout-stderr-channel-contract — NEW
+- cli-temp-artifact-cleanup-invariants — NEW
+- cli-working-directory-independence — NEW
+- local-dev-environment-preflight-doctor — NEW
+- reproducible-toolchain-bootstrap — NEW
+- shell-command-path-quoting-audit — NEW
+
+### Documentation & technical knowledge systems (8)
+
+- api-example-schema-conformance — NEW
+- architecture-documentation-code-drift-audit — NEW
+- configuration-reference-coverage-audit — NEW
+- decision-log-supersession-integrity — NEW
+- documentation-version-compatibility-matrix — NEW
+- requirements-to-acceptance-traceability — NEW
+- runbook-command-risk-review — NEW
+- technical-example-executability-audit — NEW
+
+### Engine architecture & runtime (100)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -71,6 +191,7 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - engine-asset-hot-reload — NEW
 - engine-asset-streaming-budget — NEW
 - engine-background-io-batching — NEW
+- engine-background-queue-observability — NEW
 - engine-background-task-cancellation — NEW
 - engine-cache-locality-analysis — NEW
 - engine-collision-layer-contracts — NEW
@@ -81,6 +202,8 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - engine-fixed-timestep-simulation — NEW
 - engine-frame-pacing-jitter — NEW
 - engine-frame-time-budget — NEW
+- engine-frame-time-distribution — NEW
+- engine-hot-path-allocation-budget — NEW
 - engine-input-action-mapping — NEW
 - engine-job-coalescing-policy — NEW
 - engine-job-system-backpressure — NEW
@@ -92,10 +215,14 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - engine-plugin-shutdown-contract — NEW
 - engine-render-feature-matrix — NEW
 - engine-render-resource-lifetime — NEW
+- engine-resource-budget-overcommit-detection — NEW
 - engine-resource-hot-reload-atomicity — NEW
+- engine-resource-residency-budget — NEW
 - engine-runtime-config-drift-audit — NEW
 - engine-runtime-degradation-state — NEW
 - engine-runtime-event-tracing — NEW
+- engine-runtime-fault-injection-matrix — NEW
+- engine-runtime-stall-classification — NEW
 - engine-runtime-telemetry-taxonomy — NEW
 - engine-scheduler-deadline-budget — NEW
 - engine-shutdown-deadline-budget — NEW
@@ -103,11 +230,14 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - engine-startup-dependency-graph — NEW
 - engine-startup-phase-observability — NEW
 - engine-subsystem-lifecycle-order — NEW
+- engine-subsystem-readiness-contract-test — NEW
 - engine-task-priority-inheritance — NEW
 - engine-telemetry-cardinality-budget — NEW
 - engine-thread-pool-saturation — NEW
 - engine-tick-phase-order-audit — NEW
 - engine-work-stealing-fairness — NEW
+- engine-worker-capacity-sizing — NEW
+- engine-workload-profile-catalog — NEW
 - engine-world-origin-rebasing — NEW
 - game-mod-api-versioning — NEW
 - gpu-readback-stall-audit — NEW
@@ -127,6 +257,7 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - render-target-format-capability — NEW
 - renderer-frame-capture-triage — NEW
 - rendering-abstraction-design — NEW
+- resource-shutdown-use-after-close — NEW
 - rust-data-oriented-ecs-design — NEW
 - rust-game-loop-architecture — NEW
 - rust-unsafe-boundary-audit — NEW
@@ -136,17 +267,150 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - shader-variant-budget — NEW
 - visibility-culling-correctness — NEW
 - voxel-chunk-lifecycle — NEW
+- voxel-chunk-work-amplification-audit — NEW
 - voxel-meshing-optimization — NEW
 - voxel-meshing-seam-validation — NEW
 - voxel-neighbor-dependency-invalidation — NEW
 - voxel-seed-reproducibility — NEW
+- wasm-host-capability-restriction — NEW
+- wasm-memory-growth-budget — NEW
+- wasm-plugin-host-call-budget — NEW
 - world-chunk-lifecycle-invariants — NEW
 - world-chunk-streaming-state-machine — NEW
 - world-coordinate-overflow-audit — NEW
+- worldgen-coordinate-hash-stability — NEW
 - worldgen-deterministic-seed-contract — NEW
 - worldgen-feature-overlap-validation — NEW
 
-### Game content & save systems (28)
+### Flipper Zero firmware and hardware engineering (125)
+
+- flipper-adc-measurement-unit-contract — NEW
+- flipper-app-accessibility-key-contrast — NEW
+- flipper-app-asset-bundle-path-validation — NEW
+- flipper-app-back-navigation-invariant — NEW
+- flipper-app-crash-repro-test-minimization — NEW
+- flipper-app-foreground-background-transition — NEW
+- flipper-app-manifest-dependency-contract — NEW
+- flipper-app-menu-registration-integrity — NEW
+- flipper-app-scene-transition-table — NEW
+- flipper-app-settings-migration — NEW
+- flipper-app-startup-rollback — NEW
+- flipper-battery-telemetry-range-validation — NEW
+- flipper-ble-pairing-state-machine — NEW
+- flipper-ble-reconnect-stale-session — NEW
+- flipper-bootloader-firmware-integrity-preflight — NEW
+- flipper-brownout-recovery-state-contract — NEW
+- flipper-bt-profile-version-matrix — NEW
+- flipper-build-cache-staleness-audit — NEW
+- flipper-build-config-reproducibility — NEW
+- flipper-build-failure-triage-taxonomy — NEW
+- flipper-ci-test-shard-determinism — NEW
+- flipper-ci-workflow-dependency-contract — NEW
+- flipper-cli-input-quoting-and-length-guard — NEW
+- flipper-compact-build-compatibility — NEW
+- flipper-devboard-serial-debug-guardrails — NEW
+- flipper-dma-alignment-and-cache-policy — NEW
+- flipper-documentation-api-drift-audit — NEW
+- flipper-expansion-module-api-compatibility — NEW
+- flipper-exported-config-secret-redaction — NEW
+- flipper-fbt-target-selection-contract — NEW
+- flipper-file-format-versioning-contract — NEW
+- flipper-file-parser-fuzz-fixture-plan — NEW
+- flipper-firmware-artifact-manifest — NEW
+- flipper-firmware-update-version-skew-audit — NEW
+- flipper-freertos-stack-budget-validation — NEW
+- flipper-furi-cancellation-and-unwind — NEW
+- flipper-furi-cli-command-concurrency — NEW
+- flipper-furi-event-loop-owner-thread — NEW
+- flipper-furi-heap-allocation-audit — NEW
+- flipper-furi-logger-rate-budget — NEW
+- flipper-furi-message-queue-overflow-policy — NEW
+- flipper-furi-mutex-lock-order-review — NEW
+- flipper-furi-notification-resource-lifetime — NEW
+- flipper-furi-panic-error-path-contract — NEW
+- flipper-furi-queue-shutdown-drain — NEW
+- flipper-furi-record-service-ownership — NEW
+- flipper-furi-stream-buffer-bounds — NEW
+- flipper-furi-thread-lifecycle-contract — NEW
+- flipper-furi-timer-callback-lifetime — NEW
+- flipper-generated-asset-provenance — NEW
+- flipper-gpio-mode-transition-validation — NEW
+- flipper-gpio-pin-ownership-audit — NEW
+- flipper-gui-draw-callback-budget — NEW
+- flipper-gui-input-event-order — NEW
+- flipper-gui-view-lifecycle-cleanup — NEW
+- flipper-gui-widget-model-view-separation — NEW
+- flipper-hal-fault-injection-with-mocks — NEW
+- flipper-hardware-bench-current-limit-checklist — NEW
+- flipper-hardware-revision-pin-map-matrix — NEW
+- flipper-hid-event-permission-boundary — NEW
+- flipper-hid-lab-demo-safety-review — NEW
+- flipper-host-tool-version-preflight — NEW
+- flipper-i2c-bus-arbitration-timeout — NEW
+- flipper-i2c-register-endianness-contract — NEW
+- flipper-ibutton-file-format-validation — NEW
+- flipper-ibutton-read-write-state-safety — NEW
+- flipper-infrared-command-file-validation — NEW
+- flipper-infrared-library-attribution-check — NEW
+- flipper-input-parser-fuzz-corpus-maintenance — NEW
+- flipper-interrupt-context-api-safety — NEW
+- flipper-issue-to-regression-test-traceability — NEW
+- flipper-js-app-runtime-lifecycle — NEW
+- flipper-js-event-loop-backpressure — NEW
+- flipper-js-gpio-authorization-and-bounds — NEW
+- flipper-js-gui-binding-leak-audit — NEW
+- flipper-js-heap-pressure-and-script-budget — NEW
+- flipper-js-module-registration-contract — NEW
+- flipper-js-package-api-version-matrix — NEW
+- flipper-js-sdk-example-executability — NEW
+- flipper-js-serial-transport-framing-tests — NEW
+- flipper-js-storage-path-restrictions — NEW
+- flipper-lfrfid-file-parser-invariants — NEW
+- flipper-lfrfid-operations-consent-policy — NEW
+- flipper-license-and-third-party-notice-check — NEW
+- flipper-linker-size-budget-regression — NEW
+- flipper-localization-resource-completeness — NEW
+- flipper-low-power-state-transition — NEW
+- flipper-nfc-file-format-roundtrip — NEW
+- flipper-nfc-protocol-parser-malformed-input — NEW
+- flipper-nfc-reader-authorization-boundary — NEW
+- flipper-nfc-secret-material-redaction — NEW
+- flipper-ota-update-rollback-resilience — NEW
+- flipper-pwm-timer-channel-conflict — NEW
+- flipper-radio-emulation-lab-only-check — NEW
+- flipper-release-notes-source-traceability — NEW
+- flipper-release-version-metadata-sync — NEW
+- flipper-rpc-client-authentication-boundary — NEW
+- flipper-rpc-message-schema-compatibility — NEW
+- flipper-scons-environment-isolation — NEW
+- flipper-sd-card-removal-race — NEW
+- flipper-security-update-impact-matrix — NEW
+- flipper-shutdown-resource-ordering — NEW
+- flipper-spi-dma-buffer-lifetime — NEW
+- flipper-spi-transaction-boundary-test — NEW
+- flipper-static-analysis-warning-triage — NEW
+- flipper-storage-atomic-save-and-recovery — NEW
+- flipper-storage-migration-backup-policy — NEW
+- flipper-storage-path-sandbox-validation — NEW
+- flipper-subghz-file-parser-conformance — NEW
+- flipper-subghz-protocol-metadata-boundary — NEW
+- flipper-subghz-region-and-frequency-config-guard — NEW
+- flipper-subghz-transmit-consent-interlock — NEW
+- flipper-submodule-check-integrity — NEW
+- flipper-tar-heatshrink-decompression-bounds — NEW
+- flipper-target-board-variant-coverage — NEW
+- flipper-temperature-threshold-hysteresis — NEW
+- flipper-third-party-dependency-license-audit — NEW
+- flipper-translation-resource-schema-check — NEW
+- flipper-transport-frame-size-and-integrity — NEW
+- flipper-uart-protocol-framing-qa — NEW
+- flipper-uart-ring-buffer-overflow — NEW
+- flipper-unit-test-boundary-mocks — NEW
+- flipper-usb-descriptor-regression — NEW
+- flipper-usb-host-compatibility-fixtures — NEW
+- flipper-usb-rpc-transport-timeout — NEW
+
+### Game content & save systems (30)
 
 - animation-event-timing-audit — NEW
 - animation-state-machine-audit — NEW
@@ -155,6 +419,7 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - asset-dependency-cycle-detection — NEW
 - asset-import-cache-key-audit — NEW
 - asset-import-validation — NEW
+- asset-load-cancellation-race-audit — NEW
 - asset-pipeline-incremental-build-validation — NEW
 - audio-mix-loudness-budget — NEW
 - dialogue-branch-continuity-audit — NEW
@@ -172,6 +437,7 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - texture-mipmap-import-validation — NEW
 - tutorial-onboarding-progression-audit — NEW
 - ui-state-transition-invariant-testing — NEW
+- voxel-chunk-edit-undo-consistency — NEW
 - world-content-pipeline — NEW
 - world-region-serialization-contract — NEW
 - worldgen-biome-distribution-analysis — NEW
@@ -207,10 +473,36 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - unreal-game-dev
 - verifying-turn-based-games
 
+### Geospatial visualization & map UX (10)
+
+- geoviz-3d-terrain-provider-fallback-validation — NEW
+- geoviz-camera-ground-clearance-invariants — NEW
+- geoviz-camera-state-restoration-contract — NEW
+- geoviz-coordinate-input-normalization — NEW
+- geoviz-geocoder-fallback-chain-audit — NEW
+- geoviz-globe-render-budget-profiling — NEW
+- geoviz-map-layer-visibility-state-contract — NEW
+- geoviz-map-source-attribution-completeness — NEW
+- geoviz-viewport-selection-context-integrity — NEW
+- geoviz-world-overlay-label-budget — NEW
+
 ### Hardware & embedded devices (2)
 
 - cardputer-buddy
 - m5-onboard
+
+### Live public-data ingestion & reliability (10)
+
+- livefeed-data-fallback-provenance-labeling — NEW
+- livefeed-entity-deduplication-window — NEW
+- livefeed-feed-schema-drift-detection — NEW
+- livefeed-polling-backoff-budget — NEW
+- livefeed-provider-adapter-contract — NEW
+- livefeed-provider-quota-circuit-breaker — NEW
+- livefeed-runtime-source-health-dashboard — NEW
+- livefeed-source-timestamp-normalization — NEW
+- livefeed-stale-data-status-propagation — NEW
+- livefeed-websocket-reconnect-state-machine — NEW
 
 ### Mathematics (3)
 
@@ -227,85 +519,405 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - telegram-access
 - telegram-configure
 
-### Minecraft & modpack engineering (18)
+### Minecraft & modpack engineering (30)
 
+- minecraft-client-optional-mod-handshake-validation — NEW
 - minecraft-client-server-parity-check — NEW
+- minecraft-crash-signature-version-index — NEW
 - minecraft-datapack-validation — NEW
+- minecraft-instance-path-portability-audit — NEW
 - minecraft-jvm-gc-diagnostics — NEW
+- minecraft-mod-optional-dependency-boundary-audit — NEW
+- minecraft-modpack-clean-install-smoke-test — NEW
+- minecraft-modpack-config-origin-traceability — NEW
 - minecraft-modpack-repro-issue-bundle — NEW
 - minecraft-server-backup-restore-drill — NEW
+- minecraft-server-command-permission-boundary-audit — NEW
 - minecraft-server-performance-change-benchmark — NEW
 - minecraft-server-tick-profiling — NEW
+- minecraft-server-update-preflight-gate — NEW
 - minecraft-startup-dependency-resolution — NEW
 - minecraft-world-migration-readiness — NEW
+- minecraft-world-save-latency-audit — NEW
 - mod-loader-compatibility-matrix — NEW
 - modded-minecraft-crash-triage — NEW
+- modpack-client-startup-phase-profiler — NEW
 - modpack-config-diff-review — NEW
 - modpack-config-schema-drift — NEW
+- modpack-config-secret-leak-audit — NEW
 - modpack-dependency-triage — NEW
 - modpack-launch-environment-audit — NEW
 - modpack-release-manifest-audit — NEW
 - modpack-reproducibility-snapshot — NEW
 - modpack-server-capacity-planning — NEW
+- modpack-server-rolling-restart-readiness — NEW
 
-### Networked games & determinism (11)
+### Networked games & determinism (16)
 
+- multiplayer-client-prediction-divergence-triage — NEW
 - multiplayer-determinism-testing — NEW
+- multiplayer-entity-despawn-ordering — NEW
 - multiplayer-entity-replication-prioritization — NEW
 - multiplayer-latency-compensation-validation — NEW
+- multiplayer-message-ordering-fault-injection — NEW
+- multiplayer-reconnect-command-deduplication — NEW
 - multiplayer-reconnect-state-resync — NEW
 - multiplayer-state-sync — NEW
 - netcode-lag-compensation-validation — NEW
 - network-authoritative-state-reconciliation — NEW
 - network-packet-budget-analysis — NEW
+- network-packet-fragmentation-boundary-testing — NEW
 - network-protocol-versioning — NEW
 - replication-interest-management — NEW
 - rollback-netcode-state-coverage — NEW
 
-### Release, tests & repository quality (44)
+### OpenSSF Scorecard & software supply chain (50)
 
+- scorecard-api-data-license-boundary — NEW
+- scorecard-change-over-change-diff — NEW
+- scorecard-check-coverage-matrix — NEW
+- scorecard-critical-finding-triage — NEW
+- scorecard-false-positive-expiry — NEW
+- scorecard-release-gate-exemption — NEW
+- scorecard-result-provenance-label — NEW
+- scorecard-score-threshold-policy — NEW
+- scorecard-weekly-baseline-drift — NEW
+- supply-chain-action-sha-pinning — NEW
+- supply-chain-advisory-feed-staleness — NEW
+- supply-chain-artifact-retention-policy — NEW
+- supply-chain-attestation-subject-digest — NEW
+- supply-chain-build-reproducibility-evidence — NEW
+- supply-chain-build-runner-image-pinning — NEW
+- supply-chain-cache-poisoning-review — NEW
+- supply-chain-codeowners-coverage — NEW
+- supply-chain-commit-signature-verification — NEW
+- supply-chain-container-base-image-digest — NEW
+- supply-chain-container-rootless-policy — NEW
+- supply-chain-dependency-confusion-boundary — NEW
+- supply-chain-dependency-update-pr-validation — NEW
+- supply-chain-fuzzing-regression-triage — NEW
+- supply-chain-image-signature-verification — NEW
+- supply-chain-license-policy-exception — NEW
+- supply-chain-lockfile-drift-audit — NEW
+- supply-chain-package-maintainer-change — NEW
+- supply-chain-package-publish-dry-run — NEW
+- supply-chain-protected-branch-preflight — NEW
+- supply-chain-provenance-attestation-check — NEW
+- supply-chain-provenance-branch-match — NEW
+- supply-chain-registry-auth-scope — NEW
+- supply-chain-release-approval-evidence — NEW
+- supply-chain-release-artifact-hash — NEW
+- supply-chain-release-tag-signature-check — NEW
+- supply-chain-reusable-workflow-pin — NEW
+- supply-chain-runner-isolation — NEW
+- supply-chain-sbom-component-inventory — NEW
+- supply-chain-sbom-diff-review — NEW
+- supply-chain-secret-exposure-review — NEW
+- supply-chain-secret-scan-exception-expiry — NEW
+- supply-chain-security-metadata-required — NEW
+- supply-chain-security-policy-drift — NEW
+- supply-chain-submodule-commit-provenance — NEW
+- supply-chain-transitive-risk-reachability — NEW
+- supply-chain-typosquat-suspicion-triage — NEW
+- supply-chain-untrusted-pr-trigger-boundary — NEW
+- supply-chain-vulnerability-exploitability-triage — NEW
+- supply-chain-vulnerability-sla-aging — NEW
+- supply-chain-workflow-permission-minimum — NEW
+
+### OpenTelemetry Collector observability (50)
+
+- otel-attribute-cardinality-budget — NEW
+- otel-auth-extension-boundary — NEW
+- otel-collector-config-schema-validation — NEW
+- otel-collector-health-check-semantic — NEW
+- otel-collector-heap-profile-regression — NEW
+- otel-collector-memory-limiter-order — NEW
+- otel-collector-queue-capacity-budget — NEW
+- otel-collector-self-observability-budget — NEW
+- otel-collector-shutdown-drain-budget — NEW
+- otel-collector-startup-config-validation — NEW
+- otel-collector-version-skew-matrix — NEW
+- otel-config-reload-atomicity — NEW
+- otel-config-rollout-canary-plan — NEW
+- otel-config-secret-reference-audit — NEW
+- otel-connector-cycle-detection — NEW
+- otel-exemplar-retention-contract — NEW
+- otel-exporter-ack-loss-recovery — NEW
+- otel-exporter-fanout-backpressure — NEW
+- otel-exporter-retry-expiry — NEW
+- otel-exporter-timeout-vs-retry — NEW
+- otel-failed-export-dead-letter-policy — NEW
+- otel-filelog-offset-recovery — NEW
+- otel-filelog-rotation-gap-detection — NEW
+- otel-head-sampling-consistency — NEW
+- otel-histogram-boundary-compatibility — NEW
+- otel-http-grpc-endpoint-parity — NEW
+- otel-instrumentation-duplicate-detection — NEW
+- otel-k8s-attribute-cardinality-filter — NEW
+- otel-log-body-size-limits — NEW
+- otel-log-severity-normalization — NEW
+- otel-metric-name-unit-contract — NEW
+- otel-metric-series-explosion-test — NEW
+- otel-multi-pipeline-isolation — NEW
+- otel-observability-signal-cost-allocation — NEW
+- otel-otlp-ingest-payload-limit — NEW
+- otel-otlp-protocol-compatibility — NEW
+- otel-pipeline-load-test-profile — NEW
+- otel-processor-ordering-contract — NEW
+- otel-receiver-pipeline-ownership — NEW
+- otel-resource-attribute-normalization — NEW
+- otel-resource-detection-precedence — NEW
+- otel-semconv-version-transition — NEW
+- otel-span-link-retention-audit — NEW
+- otel-span-redaction-policy — NEW
+- otel-tail-sampling-memory-budget — NEW
+- otel-telemetry-drop-reason-reporting — NEW
+- otel-tenant-routing-attribute-integrity — NEW
+- otel-tls-mtls-rotation-drill — NEW
+- otel-trace-context-baggage-boundary — NEW
+- otel-trace-id-validation-policy — NEW
+
+### OSIRIS intelligence platform engineering (50)
+
+- osiris-active-fire-feed-provenance — NEW
+- osiris-agent-evidence-vs-narrative-contract — NEW
+- osiris-api-response-size-guard — NEW
+- osiris-camera-snapshot-stream-honesty — NEW
+- osiris-cctv-export-region-geojson-contract — NEW
+- osiris-cctv-frame-proxy-cache-and-headers — NEW
+- osiris-cctv-region-adapter-fixtures — NEW
+- osiris-conflict-zone-report-sensitivity — NEW
+- osiris-crypto-observation-source-provenance — NEW
+- osiris-cve-feed-schema-and-severity-audit — NEW
+- osiris-cyber-event-dedup-source-lineage — NEW
+- osiris-dns-whois-parser-boundaries — NEW
+- osiris-docker-env-and-port-hardening — NEW
+- osiris-earthquake-feed-freshness — NEW
+- osiris-env-secret-boundary-audit — NEW
+- osiris-flight-feed-adapter-contract — NEW
+- osiris-forecast-calibration-backtest — NEW
+- osiris-forecast-scenario-assumption-boundary — NEW
+- osiris-forecast-source-citation-completeness — NEW
+- osiris-geo-query-privacy-minimization — NEW
+- osiris-global-news-rss-source-attribution — NEW
+- osiris-live-layer-demand-fetch-contract — NEW
+- osiris-llm-provider-key-client-boundary — NEW
+- osiris-llm-user-document-injection-isolation — NEW
+- osiris-map-entity-budget-regression — NEW
+- osiris-map-source-region-fallback — NEW
+- osiris-map-style-and-state-restoration — NEW
+- osiris-maritime-feed-source-identity — NEW
+- osiris-mcp-prediction-run-isolation — NEW
+- osiris-mcp-tool-permission-boundary — NEW
+- osiris-nextjs-api-route-contract-validation — NEW
+- osiris-offline-vs-live-test-separation — NEW
+- osiris-oi-run-repro-manifest — NEW
+- osiris-open-redirect-and-url-fetch-guard — NEW
+- osiris-provider-error-taxonomy — NEW
+- osiris-public-cctv-inventory-conformance — NEW
+- osiris-sanctions-match-false-positive-review — NEW
+- osiris-scanner-authorized-scope-gate — NEW
+- osiris-scanner-fingerprint-evidence-bounds — NEW
+- osiris-scanner-port-result-minimization — NEW
+- osiris-scanner-rate-budget-audit — NEW
+- osiris-scanner-target-allowlist-contract — NEW
+- osiris-server-side-token-redaction — NEW
+- osiris-sse-disconnect-cleanup — NEW
+- osiris-sse-run-event-ordering — NEW
+- osiris-stale-cache-preservation — NEW
+- osiris-static-intel-expiry-review — NEW
+- osiris-telegram-public-channel-limit-review — NEW
+- osiris-threat-feed-confidence-labels — NEW
+- osiris-weather-hazard-normalization — NEW
+
+### Playwright end-to-end testing (50)
+
+- playwright-accessibility-snapshot-diff — NEW
+- playwright-api-context-session-parity — NEW
+- playwright-auth-state-expiry — NEW
+- playwright-browser-context-isolation — NEW
+- playwright-browser-version-lockstep — NEW
+- playwright-cache-cold-warm-comparison — NEW
+- playwright-ci-browser-dependency-cache — NEW
+- playwright-clock-freeze-test-design — NEW
+- playwright-color-scheme-snapshot — NEW
+- playwright-console-error-budget — NEW
+- playwright-container-font-parity — NEW
+- playwright-dialog-handler-ownership — NEW
+- playwright-download-path-assertion — NEW
+- playwright-filechooser-retry-safety — NEW
+- playwright-fixture-scope-audit — NEW
+- playwright-flaky-test-quarantine-policy — NEW
+- playwright-focus-restoration-regression — NEW
+- playwright-frame-locator-ownership — NEW
+- playwright-global-setup-cleanup — NEW
+- playwright-keyboard-navigation-contract — NEW
+- playwright-locale-timezone-invariance — NEW
+- playwright-mobile-viewport-matrix — NEW
+- playwright-multitenant-browser-isolation — NEW
+- playwright-network-route-determinism — NEW
+- playwright-new-tab-race-reproduction — NEW
+- playwright-pageerror-classification — NEW
+- playwright-parallel-db-fixture-locking — NEW
+- playwright-popup-window-lifecycle — NEW
+- playwright-project-config-contract — NEW
+- playwright-randomized-seed-recording — NEW
+- playwright-react-hydration-readiness — NEW
+- playwright-reduced-motion-state — NEW
+- playwright-request-failure-triage — NEW
+- playwright-response-contract-fixtures — NEW
+- playwright-retry-artifact-preservation — NEW
+- playwright-screenshot-mask-policy — NEW
+- playwright-service-worker-state-control — NEW
+- playwright-shadow-dom-boundary — NEW
+- playwright-shard-order-independence — NEW
+- playwright-storage-state-secret-free — NEW
+- playwright-test-data-unique-namespace — NEW
+- playwright-test-impact-selection — NEW
+- playwright-test-timeout-layering — NEW
+- playwright-trace-retention-sanitization — NEW
+- playwright-upload-validation-matrix — NEW
+- playwright-video-evidence-budget — NEW
+- playwright-visual-baseline-governance — NEW
+- playwright-webfont-layout-stability — NEW
+- playwright-websocket-close-diagnostics — NEW
+- playwright-worker-resource-contention — NEW
+
+### Public-data provenance, privacy & ethics (10)
+
+- geo-alpr-location-only-data-guardrail — NEW
+- geo-privacy-location-precision-budget — NEW
+- geo-track-data-privacy-safe-export — NEW
+- geospatial-incident-data-ethical-use-gate — NEW
+- public-camera-privacy-display-policy — NEW
+- public-data-attribution-license-boundary — NEW
+- public-data-confidence-and-estimate-labeling — NEW
+- public-data-source-terms-matrix — NEW
+- public-feed-retention-minimization — NEW
+- sensitive-location-aggregation-threshold — NEW
+
+### Realtime voice agents & multimodal control (10)
+
+- voice-agent-ephemeral-credential-boundary — NEW
+- voice-agent-microphone-lifecycle-cleanup — NEW
+- voice-agent-pointer-context-snapshot — NEW
+- voice-agent-result-referent-stability — NEW
+- voice-agent-session-cost-metering — NEW
+- voice-agent-speech-action-schema-contract — NEW
+- voice-agent-speech-latency-span-analysis — NEW
+- voice-agent-tool-call-confirmation-gates — NEW
+- voice-agent-transcript-locale-regression — NEW
+- voice-agent-turn-cancellation-races — NEW
+
+### Release, tests & repository quality (109)
+
+- alert-noise-budget-audit — NEW
 - api-backward-compatibility-review — NEW
+- api-bulk-operation-partial-failure-contract — NEW
+- api-conditional-request-contract — NEW
+- api-content-negotiation-contract — NEW
 - api-contract-regression-testing — NEW
 - api-error-boundary-observability — NEW
+- api-generated-client-drift-audit — NEW
 - api-pagination-contract — NEW
+- api-response-size-budget-contract — NEW
+- api-version-sunset-planning — NEW
+- api-webhook-delivery-invariants — NEW
+- artifact-signature-verification — NEW
+- async-job-state-retention-contract — NEW
+- auth-refresh-token-replay-boundaries — NEW
 - authorization-matrix-tests — NEW
 - background-job-retry-design — NEW
+- batch-window-watermark-validation — NEW
 - build-cache-ci-optimization — NEW
+- build-cache-poisoning-resilience — NEW
 - cache-invalidation-contract — NEW
+- chaos-experiment-safety-gate — NEW
+- ci-environment-parity-audit — NEW
+- circuit-breaker-recovery-probe — NEW
+- client-retry-after-window-contract — NEW
+- container-image-reproducibility-audit — NEW
+- contract-test-provider-verification — NEW
+- cross-service-deadline-propagation-audit — NEW
+- data-export-consistent-snapshot-validation — NEW
+- data-retention-deletion-verification — NEW
+- database-backfill-resumability — NEW
+- database-connection-pool-saturation — NEW
+- database-constraint-race-regression — NEW
+- database-lock-wait-triage — NEW
 - database-migration-rollback-drill — NEW
 - database-migration-safety — NEW
+- database-online-index-migration-validation — NEW
+- database-replica-lag-read-routing — NEW
+- dependency-lockfile-drift-classification — NEW
 - dependency-supply-chain-verification — NEW
 - dependency-update-risk-assessment — NEW
+- deployment-canary-health-window — NEW
+- deployment-config-version-skew-audit — NEW
+- distributed-cache-namespace-isolation — NEW
+- distributed-lease-fencing-token-audit — NEW
 - distributed-outbox-inbox — NEW
+- distributed-saga-compensation-testing — NEW
+- event-consumer-offset-recovery — NEW
 - event-driven-architecture-tracing — NEW
 - event-schema-evolution — NEW
+- feature-flag-expiry-enforcement — NEW
 - flaky-test-isolation — NEW
 - form-validation-contract — NEW
 - frontend-accessibility-smoke-test — NEW
 - frontend-loading-empty-error-contracts — NEW
 - frontend-route-auth-guard-audit — NEW
 - frontend-server-state-cache — NEW
+- github-actions-token-permission-audit — NEW
+- graceful-degradation-fallback-verification — NEW
+- graphql-query-cost-budget — NEW
 - idempotency-key-design — NEW
 - incident-postmortem-evidence — NEW
 - log-redaction-pii-audit — NEW
+- log-schema-evolution-validation — NEW
+- multi-region-failover-readiness-test — NEW
 - multi-tenant-data-boundary — NEW
 - oauth-oidc-flow-audit — NEW
+- object-storage-download-integrity — NEW
+- object-storage-upload-integrity — NEW
 - optimistic-ui-rollback — NEW
+- patch-field-presence-semantics-contract — NEW
 - postgres-index-design — NEW
 - postgresql-query-plan-regression — NEW
+- postgresql-transaction-isolation-audit — NEW
+- queue-consumer-rebalance-drain-safety — NEW
+- queue-dead-letter-replay-safety — NEW
+- queue-drain-shutdown-deadline-validation — NEW
+- queue-poison-message-quarantine — NEW
 - rate-limit-policy-design — NEW
+- redis-cache-stampede-control — NEW
+- release-artifact-quarantine-gate — NEW
+- release-candidate-evidence-manifest — NEW
+- release-evidence-retention-policy — NEW
+- release-rollback-readiness-drill — NEW
 - repository-architecture-map — NEW
 - reproducible-build-artifact-provenance — NEW
+- retry-amplification-storm-audit — NEW
 - runtime-build-fingerprint-contract — NEW
 - runtime-crash-symbolication-audit — NEW
 - runtime-diagnostic-bundle-reproducibility — NEW
 - runtime-health-signal-contract — NEW
+- runtime-integration-test-harness — NEW
 - runtime-log-redaction-boundary — NEW
+- runtime-observability-smoke-test — NEW
 - runtime-regression-bisect-workflow — NEW
+- search-index-rebuild-parity — NEW
+- secrets-rotation-exercise — NEW
 - secrets-scan-remediation — NEW
+- service-timeout-budget-matrix — NEW
+- signed-url-scope-expiry-audit — NEW
+- slo-burn-rate-window-analysis — NEW
 - ssrf-boundary-review — NEW
 - supabase-rls-policy-audit — NEW
+- tenant-quota-enforcement-tests — NEW
+- test-fixture-data-sensitivity-audit — NEW
 - threat-model-data-flow — NEW
+- trace-context-propagation-contract — NEW
 - typescript-api-error-contract-design — NEW
 - web-performance-budget-audit — NEW
 
@@ -366,11 +978,12 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (31)
+### Rust & platform engineering (39)
 
 - native-wasm-behavior-parity — NEW
 - rust-allocator-contention-analysis — NEW
 - rust-allocator-memory-profiling — NEW
+- rust-api-error-compatibility-fixtures — NEW
 - rust-api-error-taxonomy — NEW
 - rust-api-semver-audit — NEW
 - rust-async-backpressure-budget — NEW
@@ -380,6 +993,7 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - rust-binary-size-budget — NEW
 - rust-borrow-scope-performance — NEW
 - rust-bounded-worker-queue — NEW
+- rust-build-script-reproducibility-audit — NEW
 - rust-cache-line-sharing-audit — NEW
 - rust-channel-backpressure — NEW
 - rust-channel-shutdown-drain — NEW
@@ -387,20 +1001,39 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - rust-crate-boundary-audit — NEW
 - rust-crate-feature-budget — NEW
 - rust-crate-public-api-surface — NEW
+- rust-crate-publish-dry-run-audit — NEW
 - rust-cross-compilation-validation — NEW
+- rust-error-path-observability-contract — NEW
+- rust-feature-configuration-smoke-matrix — NEW
 - rust-ffi-resource-ownership — NEW
 - rust-lock-contention-profile — NEW
 - rust-lock-order-deadlock-audit — NEW
+- rust-msrv-compatibility-gate — NEW
+- rust-panic-boundary-observability — NEW
 - rust-perf-regression-thresholds — NEW
 - rust-proc-macro-diagnostics — NEW
 - rust-profile-guided-optimization — NEW
+- rust-service-startup-shutdown-test — NEW
 - rust-shared-state-lock-elimination — NEW
 - rust-task-cancellation-propagation — NEW
 - rust-test-fixture-isolation — NEW
 - rust-workspace-feature-matrix — NEW
 - wasm-native-performance-comparison — NEW
 
-### Simulation, NPCs & world history (34)
+### Scene navigation, sharing & replay (10)
+
+- scene-bundle-import-preview-sandbox — NEW
+- scene-capture-deterministic-reproducibility — NEW
+- scene-deeplink-live-target-expiry — NEW
+- scene-director-camera-tour-validation — NEW
+- scene-navigation-generation-cancellation — NEW
+- scene-replay-data-pack-manifest — NEW
+- scene-restoration-subscription-cleanup — NEW
+- scene-save-version-migration — NEW
+- scene-share-url-state-roundtrip — NEW
+- scene-state-unknown-field-preservation — NEW
+
+### Simulation, NPCs & world history (40)
 
 - civilization-migration-validation — NEW
 - civilization-production-throughput-audit — NEW
@@ -425,10 +1058,16 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - procedural-civilization-simulation — NEW
 - simulation-agent-wakeup-sleep-contract — NEW
 - simulation-event-ordering-contract — NEW
+- simulation-event-queue-overflow-policy — NEW
+- simulation-long-run-memory-stability — NEW
 - simulation-multirate-update-policy — NEW
+- simulation-population-scale-benchmark — NEW
+- simulation-region-load-shedding — NEW
 - simulation-replay-state-diff — NEW
+- simulation-rng-stream-isolation — NEW
 - simulation-scheduler-fairness-audit — NEW
 - simulation-soak-test-design — NEW
+- simulation-state-migration-validation — NEW
 - simulation-tick-backlog-recovery — NEW
 - simulation-time-dilation-contract — NEW
 - simulation-world-invariant-checkpointing — NEW
@@ -437,18 +1076,127 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - world-history-event-sourcing — NEW
 - world-simulation-save-snapshot — NEW
 
-### Skill library governance (10)
+### Skill library governance (13)
 
 - agent-artifact-quality-gates — NEW
+- agent-output-evidence-traceability — NEW
 - automation-change-risk-gating — NEW
+- license-notice-redistribution-audit — NEW
 - skill-catalog-taxonomy-consistency — NEW
 - skill-deduplication-and-consolidation — NEW
 - skill-documentation-example-audit — NEW
+- skill-frontmatter-schema-compatibility-audit — NEW
 - skill-quality-evaluation — NEW
 - skill-trigger-regression-suite — NEW
 - skill-trigger-routing-evaluation — NEW
 - skill-usage-feedback-triage — NEW
 - third-party-skill-provenance-audit — NEW
+
+### Supabase & PostgreSQL platform engineering (50)
+
+- supabase-audit-event-retention-policy — NEW
+- supabase-auth-email-provider-failure-drill — NEW
+- supabase-auth-jwt-claim-contract — NEW
+- supabase-auth-session-revocation-check — NEW
+- supabase-backup-restore-drill-evidence — NEW
+- supabase-backup-retention-policy — NEW
+- supabase-database-alert-threshold-contract — NEW
+- supabase-database-maintenance-window-plan — NEW
+- supabase-database-secret-rotation — NEW
+- supabase-database-webhook-retry-contract — NEW
+- supabase-edge-function-cors-allowlist — NEW
+- supabase-edge-function-idempotency-contract — NEW
+- supabase-edge-function-request-size-limit — NEW
+- supabase-edge-function-secret-redaction — NEW
+- supabase-edge-function-timeout-budget — NEW
+- supabase-extension-compatibility-matrix — NEW
+- supabase-generated-types-schema-drift — NEW
+- supabase-graphql-schema-exposure-audit — NEW
+- supabase-incident-reproduction-bundle — NEW
+- supabase-local-production-parity — NEW
+- supabase-migration-backfill-checkpointing — NEW
+- supabase-migration-expand-contract-plan — NEW
+- supabase-migration-lock-duration-budget — NEW
+- supabase-migration-reversible-down-path — NEW
+- supabase-pgvector-recall-validation — NEW
+- supabase-point-in-time-recovery-acceptance — NEW
+- supabase-postgres-connection-pool-budget — NEW
+- supabase-postgres-deadlock-reproduction — NEW
+- supabase-postgres-index-usage-review — NEW
+- supabase-postgres-log-pii-scrubbing — NEW
+- supabase-postgres-query-plan-regression — NEW
+- supabase-postgres-statement-timeout-matrix — NEW
+- supabase-postgres-supavisor-mode-compatibility — NEW
+- supabase-postgres-transaction-isolation-contract — NEW
+- supabase-postgrest-relationship-ambiguity — NEW
+- supabase-realtime-channel-cleanup — NEW
+- supabase-realtime-event-ordering-contract — NEW
+- supabase-realtime-presence-expiry — NEW
+- supabase-realtime-subscription-auth-refresh — NEW
+- supabase-replica-lag-stale-read-policy — NEW
+- supabase-rls-policy-coverage-matrix — NEW
+- supabase-rls-query-plan-performance — NEW
+- supabase-rls-role-escalation-test — NEW
+- supabase-rls-tenant-isolation-negative-cases — NEW
+- supabase-schema-drift-environment-parity — NEW
+- supabase-seed-fixture-determinism — NEW
+- supabase-storage-object-ownership-policy — NEW
+- supabase-storage-orphan-reconciliation — NEW
+- supabase-storage-signed-url-expiry — NEW
+- supabase-storage-upload-mime-boundary — NEW
+
+### Temporal durable workflow engineering (50)
+
+- temporal-activity-dependency-wait-graph — NEW
+- temporal-activity-failure-injection — NEW
+- temporal-activity-heartbeat-cost-control — NEW
+- temporal-activity-idempotency-contract — NEW
+- temporal-activity-result-payload-budget — NEW
+- temporal-activity-timeout-hierarchy — NEW
+- temporal-cancellation-propagation — NEW
+- temporal-child-workflow-parent-close-policy — NEW
+- temporal-client-connection-recovery — NEW
+- temporal-compensation-saga-order — NEW
+- temporal-continue-as-new-threshold — NEW
+- temporal-cron-to-schedule-migration — NEW
+- temporal-data-converter-compatibility — NEW
+- temporal-deployment-version-routing — NEW
+- temporal-duplicate-signal-idempotency — NEW
+- temporal-encryption-at-rest-payload-audit — NEW
+- temporal-external-call-outbox-contract — NEW
+- temporal-heartbeat-resume-contract — NEW
+- temporal-interceptor-observability — NEW
+- temporal-metrics-cardinality-control — NEW
+- temporal-namespace-retention-preflight — NEW
+- temporal-operator-visibility-query-limit — NEW
+- temporal-patch-removal-safety — NEW
+- temporal-payload-codec-key-rotation — NEW
+- temporal-query-read-only-boundary — NEW
+- temporal-retry-policy-budget — NEW
+- temporal-schedule-missed-run-recovery — NEW
+- temporal-schedule-overlap-policy — NEW
+- temporal-search-attribute-schema — NEW
+- temporal-server-sdk-version-skew — NEW
+- temporal-signal-handler-ordering — NEW
+- temporal-stale-workflow-owner-triage — NEW
+- temporal-sticky-cache-pressure — NEW
+- temporal-task-queue-backlog-alerting — NEW
+- temporal-task-timeout-vs-start-timeout — NEW
+- temporal-test-environment-time-skipping — NEW
+- temporal-update-validator-contract — NEW
+- temporal-worker-build-artifact-compatibility — NEW
+- temporal-worker-concurrency-capacity — NEW
+- temporal-worker-identity-permission-audit — NEW
+- temporal-worker-shutdown-drain — NEW
+- temporal-worker-task-queue-routing — NEW
+- temporal-workflow-determinism-linter — NEW
+- temporal-workflow-external-event-correlation — NEW
+- temporal-workflow-history-growth-audit — NEW
+- temporal-workflow-input-schema-versioning — NEW
+- temporal-workflow-recovery-runbook — NEW
+- temporal-workflow-replay-regression — NEW
+- temporal-workflow-test-fixture-isolation — NEW
+- temporal-workflow-versioning-marker — NEW
 
 ### UI, art, audio & assets (7)
 
@@ -460,3 +1208,64 @@ Updated: 2026-10-16. The unified bundle contains 400 distinct skills.
 - generating-dot-assets
 - styling-web-game-typography
 
+### Vercel AI SDK & agent reliability (50)
+
+- ai-sdk-agent-duplicate-call-detection — NEW
+- ai-sdk-agent-max-step-limit — NEW
+- ai-sdk-agent-memory-expiration — NEW
+- ai-sdk-audio-transcript-confidence — NEW
+- ai-sdk-background-job-cancellation — NEW
+- ai-sdk-browser-tool-domain-allowlist — NEW
+- ai-sdk-cancelled-stream-resource-cleanup — NEW
+- ai-sdk-concurrency-limit — NEW
+- ai-sdk-context-window-budget — NEW
+- ai-sdk-conversation-truncation-policy — NEW
+- ai-sdk-cost-attribution-by-tool — NEW
+- ai-sdk-evaluation-deterministic-mocks — NEW
+- ai-sdk-evaluation-golden-set-versioning — NEW
+- ai-sdk-evaluation-provider-variance — NEW
+- ai-sdk-evaluation-regression-thresholds — NEW
+- ai-sdk-evaluation-rubric-contract — NEW
+- ai-sdk-grounding-citation-check — NEW
+- ai-sdk-human-approval-gate — NEW
+- ai-sdk-image-reference-retention — NEW
+- ai-sdk-json-repair-observability — NEW
+- ai-sdk-message-serialization-roundtrip — NEW
+- ai-sdk-model-fallback-compatibility — NEW
+- ai-sdk-multimodal-input-size-guard — NEW
+- ai-sdk-multistep-stop-conditions — NEW
+- ai-sdk-output-schema-validation — NEW
+- ai-sdk-production-shadow-evaluation — NEW
+- ai-sdk-prompt-injection-test-matrix — NEW
+- ai-sdk-prompt-version-rollback — NEW
+- ai-sdk-provider-capability-matrix — NEW
+- ai-sdk-provider-error-normalization — NEW
+- ai-sdk-provider-key-isolation — NEW
+- ai-sdk-rag-source-provenance — NEW
+- ai-sdk-rate-limit-backpressure — NEW
+- ai-sdk-retrieval-freshness-contract — NEW
+- ai-sdk-retry-budget-and-backoff — NEW
+- ai-sdk-sensitive-data-log-filter — NEW
+- ai-sdk-stream-reconnect-policy — NEW
+- ai-sdk-stream-ui-state-machine — NEW
+- ai-sdk-streamtext-cancel-handling — NEW
+- ai-sdk-structured-output-nullability — NEW
+- ai-sdk-token-budget-envelope — NEW
+- ai-sdk-tool-authorization-boundary — NEW
+- ai-sdk-tool-idempotency-contract — NEW
+- ai-sdk-tool-input-schema-guard — NEW
+- ai-sdk-tool-output-size-contract — NEW
+- ai-sdk-tool-result-validation — NEW
+- ai-sdk-tool-timeout-fallback — NEW
+- ai-sdk-tracing-span-cardinality — NEW
+- ai-sdk-untrusted-tool-result-delimiting — NEW
+- ai-sdk-user-session-scope — NEW
+
+## Source-of-truth rules
+
+- Each distinct skill is identified by its entrypoint and complete skill-local subtree, not merely by its name.
+- Original skill source locations are preserved when bundled; new authored sources are organized under curated-skill-sources by category.
+- The all-skills-collection plugin is generated output. Do not add new source skills only inside that generated directory.
+- Keep third-party provenance, licenses, attribution, and required notices. A repository-level license does not automatically relicense imported content.
+- Do not count placeholders, repeated aliases, or near-duplicates as additional skills.
+- Regenerate and validate using the repository sync script before completing a skills batch.

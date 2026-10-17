@@ -1,7 +1,7 @@
 {
   "name": "all-skills-collection",
-  "version": "2.1.0",
-  "description": "A generated, unified collection of 400 distinct skills with skill-local supporting files.",
+  "version": "2.1.11",
+  "description": "A generated, unified collection of 1150 distinct skills with skill-local supporting files.",
   "author": {
     "name": "Lucas-Belucci-Bellini"
   },
@@ -16,6 +16,32 @@
     "engine-architecture",
     "simulation",
     "mcp-setup",
-    "documentation"
+    "documentation",
+    "geospatial",
+    "live-data",
+    "realtime-voice",
+    "scene-sharing",
+    "public-data",
+    "privacy",
+    "osiris",
+    "aeris-10",
+    "radar",
+    "fpga",
+    "flipperzero",
+    "firmware",
+    "embedded-systems",
+    "supabase",
+    "postgresql",
+    "ai-sdk",
+    "agent-evaluation",
+    "openssf-scorecard",
+    "software-supply-chain",
+    "sbom",
+    "playwright",
+    "e2e-testing",
+    "opentelemetry",
+    "observability",
+    "temporal",
+    "durable-workflows"
   ]
 }
