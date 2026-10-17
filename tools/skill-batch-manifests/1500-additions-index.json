@@ -1528,6 +1528,181 @@
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/agent-skill-dependency-cycle-analysis/SKILL.md",
       "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "skill-registry-audit-event-schema",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-registry-audit-event-schema/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-access-pattern-privacy",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-registry-access-pattern-privacy/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-tenant-separation-tests",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-tenant-separation-tests/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-secret-redaction-tests",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-secret-redaction-tests/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-api-key-rotation-procedure",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-api-key-rotation-procedure/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-data-retention-policy",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-registry-data-retention-policy/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-incident-response-runbook",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-incident-response-runbook/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-endpoint-healthcheck",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-endpoint-healthcheck/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-dependency-supply-chain-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-broker-dependency-supply-chain-audit/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-signature-verification",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-signature-verification/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-tls-certificate-rotation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-tls-certificate-rotation/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-origin-policy-review",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-origin-policy-review/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-update-rollout-percentage-gate",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-rollout-percentage-gate/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-update-circuit-breaker",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-circuit-breaker/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-update-observability-slo",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-observability-slo/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-update-rate-budget-policy",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-rate-budget-policy/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-backup-restore-test",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-backup-restore-test/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-disaster-recovery-objective",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-disaster-recovery-objective/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-content-integrity-sweep",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-content-integrity-sweep/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-audit-log-tamper-resistance",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-audit-log-tamper-resistance/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-privacy-minimization",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-privacy-minimization/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-tenant-quota-enforcement",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-tenant-quota-enforcement/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-failure-injection-plan",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-failure-injection-plan/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-service-dependency-health",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-service-dependency-health/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-maintenance-window-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-maintenance-window-contract/SKILL.md",
+      "subdomain": "broker-security-operations"
     }
   ]
 }
