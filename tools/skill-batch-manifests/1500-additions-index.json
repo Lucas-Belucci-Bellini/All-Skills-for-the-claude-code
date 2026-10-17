@@ -303,6 +303,181 @@
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-output-quantity-normalizer/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-recipe-alternative-normalization",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-alternative-normalization/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-crafting-remainder-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-crafting-remainder-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-compression-chain-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-compression-chain-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-smelting-cooking-chain-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-smelting-cooking-chain-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-machine-yield-ratio-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-machine-yield-ratio-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-ore-yield-normalization",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-ore-yield-normalization/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-tag-family-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-tag-family-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-custom-item-namespace-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-custom-item-namespace-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-zero-value-sentinel-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-zero-value-sentinel-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-outlier-bound-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-outlier-bound-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-unresolved-registry-path-diagnostics",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-unresolved-registry-path-diagnostics/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-candidate-confidence-record",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-candidate-confidence-record/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-config-schema-version-check",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-config-schema-version-check/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-value-source-confidence-matrix",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-value-source-confidence-matrix/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-acquisition-route-census",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-acquisition-route-census/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-progression-band-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-progression-band-policy/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-progression-curve-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-progression-curve-audit/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-exploration-versus-conversion-tradeoff",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-exploration-versus-conversion-tradeoff/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-automation-throughput-impact",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-automation-throughput-impact/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-renewable-loop-balance-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-renewable-loop-balance-review/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-boss-preparation-progression-cost",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-boss-preparation-progression-cost/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-dimension-milestone-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-dimension-milestone-review/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-tech-magic-parity-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-tech-magic-parity-review/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-craft-time-risk-cost-model",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-craft-time-risk-cost-model/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-multiplayer-economy-profile",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-multiplayer-economy-profile/SKILL.md",
+      "subdomain": "progression-economy"
     }
   ]
 }
