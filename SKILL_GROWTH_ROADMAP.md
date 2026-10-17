@@ -1,10 +1,10 @@
 # Roadmap to 2,500 distinct skills
 
-**Baseline date:** 2026-10-16  
-**Current draft inventory:** 1,150 distinct skills (1,024 authored + 126 retained/imported)  
+**Baseline date:** 2026-10-17
+**Current draft inventory:** 1,250 distinct skills (1,124 authored + 126 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 1,350  
-**Current milestone:** +150 skills from 1,000 to 1,150 on `feat/skills-expansion-1150-from-1000-2026`  
+**Remaining to long-term target:** 1,250
+**Current milestone:** +100 skills from 1,150 to 1,250 on `feat/skills-expansion-1250-atm10-troubleshooting-2026`
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
 The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -23,6 +23,7 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 850 | 850 | Adds 50 OSIRIS, 75 AERIS-10/PLFM_RADAR, and 125 Flipper Zero firmware engineering skills; install/discovery and broad semantic review remain pending |
 | 1,000 | 1,000 | Adds 50 Supabase/PostgreSQL, 50 Vercel AI SDK/agent reliability, and 50 OpenSSF Scorecard/supply-chain workflows; clean install/discovery and broader semantic review remain pending |
 | 1,150 | 1,150 | Adds 50 Playwright E2E, 50 OpenTelemetry Collector, and 50 Temporal TypeScript durable-workflow skills; clean install/discovery and broader semantic review remain pending |
+| 1,250 | 1,250 | Draft ATM10 troubleshooting batch: 50 general diagnosis, 25 cross-mod conflicts, and 25 individual-mod bug investigations; plugin/catalog and CI validation required before review |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 1,175–1,500 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 1,525–2,000 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
