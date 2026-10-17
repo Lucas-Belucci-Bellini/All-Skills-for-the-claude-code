@@ -69,6 +69,36 @@
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/skill-change-ci-validation-gates/SKILL.md"
+    },
+    {
+      "name": "skill-release-rollback-readiness",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-release-rollback-readiness/SKILL.md"
+    },
+    {
+      "name": "agent-skill-feedback-sanitization",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-feedback-sanitization/SKILL.md"
+    },
+    {
+      "name": "cross-agent-integration-conformance-tests",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/cross-agent-integration-conformance-tests/SKILL.md"
+    },
+    {
+      "name": "skill-broker-request-idempotency",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-request-idempotency/SKILL.md"
+    },
+    {
+      "name": "agent-skill-context-budgeting",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-context-budgeting/SKILL.md"
     }
   ]
 }
