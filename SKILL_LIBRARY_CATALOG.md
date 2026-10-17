@@ -1,19 +1,44 @@
 # Skill Library Catalog
 
-Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
+Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **1374**
-- Current total: **1500**
+- Original curated skills: **1624**
+- Current total: **1750**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,000**
+- Remaining to long-term target: **750**
 
 ## Categories
 
-### Accessibility & inclusive UX (8)
+### Accessibility & inclusive UX (33)
 
+- a11y-accessible-name-computation-audit — NEW
+- a11y-authentication-time-limit-extension-audit — NEW
+- a11y-color-information-redundancy-check — NEW
+- a11y-combobox-aria-activedescendant-stability — NEW
+- a11y-dialog-focus-trap-nesting-test — NEW
+- a11y-error-message-associated-control-mapping — NEW
+- a11y-focus-visibility-under-sticky-header — NEW
+- a11y-form-validation-summary-navigation — NEW
+- a11y-grid-navigation-roving-tabindex — NEW
+- a11y-high-contrast-theme-rendering-test — NEW
+- a11y-keyboard-only-critical-flow-audit — NEW
+- a11y-live-region-content-priority-policy — NEW
+- a11y-menu-keyboard-dismissal-contract — NEW
+- a11y-modal-return-focus-after-route-change — NEW
+- a11y-motion-trigger-pause-control-audit — NEW
+- a11y-nonvisual-data-visualization-alternative — NEW
+- a11y-reduced-motion-preference-propagation — NEW
+- a11y-required-field-meaningful-identification — NEW
+- a11y-route-change-announcement-policy — NEW
+- a11y-screen-reader-dynamic-list-update-test — NEW
+- a11y-screen-reader-status-message-rate-limit — NEW
+- a11y-table-header-scope-audit — NEW
+- a11y-touch-target-spacing-regression — NEW
+- a11y-validation-language-localization-check — NEW
+- a11y-zoom-200-percent-task-completion — NEW
 - accessible-data-table-navigation-audit — NEW
 - accessible-focus-return-contract — NEW
 - accessible-form-error-association-audit — NEW
@@ -247,18 +272,43 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - reproducible-toolchain-bootstrap — NEW
 - shell-command-path-quoting-audit — NEW
 
-### Documentation & technical knowledge systems (8)
+### Documentation & technical knowledge systems (33)
 
 - api-example-schema-conformance — NEW
 - architecture-documentation-code-drift-audit — NEW
 - configuration-reference-coverage-audit — NEW
 - decision-log-supersession-integrity — NEW
+- docs-adr-implementation-drift-detection — NEW
+- docs-api-example-compilation-smoke-test — NEW
+- docs-architecture-decision-supersession-links — NEW
+- docs-breaking-change-migration-path-audit — NEW
+- docs-code-sample-dependency-version-sync — NEW
+- docs-command-output-fixture-refresh — NEW
+- docs-configuration-reference-generated-drift-audit — NEW
+- docs-docstring-public-api-coverage-gate — NEW
+- docs-documentation-locale-parity-check — NEW
+- docs-incident-runbook-drill-record — NEW
+- docs-internal-link-fragment-validation — NEW
+- docs-knowledge-graph-orphan-node-audit — NEW
+- docs-link-health-allowlist-and-exception-policy — NEW
+- docs-onboarding-first-success-time-validation — NEW
+- docs-operational-warning-severity-taxonomy — NEW
+- docs-platform-specific-instruction-separation — NEW
+- docs-procedure-owner-and-review-date-contract — NEW
+- docs-release-note-claim-evidence-check — NEW
+- docs-runbook-command-version-pinning — NEW
+- docs-runbook-precondition-and-rollback-contract — NEW
+- docs-screenshot-staleness-detection — NEW
+- docs-secret-safe-log-example-audit — NEW
+- docs-troubleshooting-decision-tree-evidence-map — NEW
+- docs-troubleshooting-false-positive-catalog — NEW
+- docs-versioned-docsite-source-map — NEW
 - documentation-version-compatibility-matrix — NEW
 - requirements-to-acceptance-traceability — NEW
 - runbook-command-risk-review — NEW
 - technical-example-executability-audit — NEW
 
-### Engine architecture & runtime (100)
+### Engine architecture & runtime (150)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -268,33 +318,61 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - engine-allocator-tracking — NEW
 - engine-architecture-adr — NEW
 - engine-asset-hot-reload — NEW
+- engine-asset-import-cache-invalidation — NEW
+- engine-asset-path-case-sensitivity-audit — NEW
 - engine-asset-streaming-budget — NEW
+- engine-async-resource-ownership-transfer — NEW
 - engine-background-io-batching — NEW
 - engine-background-queue-observability — NEW
 - engine-background-task-cancellation — NEW
 - engine-cache-locality-analysis — NEW
 - engine-collision-layer-contracts — NEW
+- engine-command-buffer-conflict-resolution — NEW
+- engine-command-line-override-validation — NEW
+- engine-component-removal-during-iteration — NEW
+- engine-configuration-layer-precedence — NEW
+- engine-crash-minidump-symbolication — NEW
 - engine-crash-recovery-state — NEW
 - engine-debug-draw-observability — NEW
 - engine-deferred-work-staleness-budget — NEW
 - engine-dependency-wait-graph — NEW
+- engine-deterministic-replay-input-capture — NEW
+- engine-entity-handle-generation-safety — NEW
+- engine-event-reentrancy-guard — NEW
+- engine-event-subscriber-lifetime — NEW
 - engine-fixed-timestep-simulation — NEW
 - engine-frame-pacing-jitter — NEW
 - engine-frame-time-budget — NEW
 - engine-frame-time-distribution — NEW
+- engine-gameplay-command-queue-ordering — NEW
+- engine-gpu-device-loss-recovery — NEW
 - engine-hot-path-allocation-budget — NEW
+- engine-hot-reload-state-preservation — NEW
 - engine-input-action-mapping — NEW
+- engine-job-cancellation-propagation — NEW
 - engine-job-coalescing-policy — NEW
+- engine-job-result-staleness-rejection — NEW
 - engine-job-system-backpressure — NEW
+- engine-material-pipeline-compatibility — NEW
 - engine-memory-budget-profiling — NEW
 - engine-memory-fragmentation-audit — NEW
 - engine-memory-pressure-response — NEW
+- engine-mod-api-semver-compatibility — NEW
 - engine-performance-benchmarking — NEW
+- engine-player-state-roundtrip-contract — NEW
 - engine-plugin-boundaries — NEW
+- engine-plugin-failure-isolation — NEW
 - engine-plugin-shutdown-contract — NEW
+- engine-plugin-version-capability-negotiation — NEW
+- engine-procedural-generation-boundary-testing — NEW
 - engine-render-feature-matrix — NEW
 - engine-render-resource-lifetime — NEW
+- engine-render-state-leak-detection — NEW
+- engine-render-target-resize-atomicity — NEW
+- engine-render-upload-thread-boundary — NEW
 - engine-resource-budget-overcommit-detection — NEW
+- engine-resource-descriptor-validation — NEW
+- engine-resource-handle-stale-reference-detection — NEW
 - engine-resource-hot-reload-atomicity — NEW
 - engine-resource-residency-budget — NEW
 - engine-runtime-config-drift-audit — NEW
@@ -303,21 +381,43 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - engine-runtime-fault-injection-matrix — NEW
 - engine-runtime-stall-classification — NEW
 - engine-runtime-telemetry-taxonomy — NEW
+- engine-save-checkpoint-compaction — NEW
+- engine-save-corruption-recovery-map — NEW
+- engine-save-delta-chain-depth — NEW
+- engine-save-format-forward-compatibility — NEW
+- engine-save-schema-migration-preflight — NEW
+- engine-save-transaction-atomicity — NEW
+- engine-scene-load-unload-idempotency — NEW
+- engine-scene-transition-rollback — NEW
 - engine-scheduler-deadline-budget — NEW
+- engine-script-boundary-permission-audit — NEW
+- engine-script-time-budget-enforcement — NEW
+- engine-shader-reflection-layout-contract — NEW
 - engine-shutdown-deadline-budget — NEW
+- engine-simulation-fixed-clock-catchup-limit — NEW
+- engine-simulation-pause-resume-invariant — NEW
+- engine-simulation-step-replay-determinism — NEW
+- engine-sound-event-lifetime-audit — NEW
 - engine-span-correlation-validation — NEW
+- engine-spatial-index-invalidation — NEW
 - engine-startup-dependency-graph — NEW
 - engine-startup-phase-observability — NEW
+- engine-state-machine-illegal-transition-testing — NEW
+- engine-state-recovery-after-partial-load — NEW
 - engine-subsystem-lifecycle-order — NEW
 - engine-subsystem-readiness-contract-test — NEW
 - engine-task-priority-inheritance — NEW
 - engine-telemetry-cardinality-budget — NEW
+- engine-thread-affinity-assertion-audit — NEW
 - engine-thread-pool-saturation — NEW
 - engine-tick-phase-order-audit — NEW
+- engine-voxel-edit-transaction-rollback — NEW
+- engine-voxel-mesh-cache-versioning — NEW
 - engine-work-stealing-fairness — NEW
 - engine-worker-capacity-sizing — NEW
 - engine-workload-profile-catalog — NEW
 - engine-world-origin-rebasing — NEW
+- engine-world-state-replay-boundary — NEW
 - game-mod-api-versioning — NEW
 - gpu-readback-stall-audit — NEW
 - gpu-resource-lifetime-audit — NEW
@@ -1088,7 +1188,7 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - voice-agent-transcript-locale-regression — NEW
 - voice-agent-turn-cancellation-races — NEW
 
-### Release, tests & repository quality (109)
+### Release, tests & repository quality (159)
 
 - alert-noise-budget-audit — NEW
 - api-backward-compatibility-review — NEW
@@ -1170,10 +1270,60 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - queue-poison-message-quarantine — NEW
 - rate-limit-policy-design — NEW
 - redis-cache-stampede-control — NEW
+- release-api-deprecation-window-check — NEW
+- release-artifact-checksum-attestation — NEW
 - release-artifact-quarantine-gate — NEW
+- release-break-glass-approval-evidence — NEW
+- release-build-cache-poisoning-test — NEW
+- release-build-provenance-subject-mapping — NEW
+- release-canary-success-gate — NEW
 - release-candidate-evidence-manifest — NEW
+- release-candidate-install-from-artifact-test — NEW
+- release-chaos-test-safety-limit — NEW
+- release-clean-room-build-reproducibility — NEW
+- release-clock-frozen-test-invariant — NEW
+- release-container-image-digest-promotion — NEW
+- release-contract-test-version-pin — NEW
+- release-cpu-profile-baseline-comparison — NEW
+- release-db-migration-release-coupling — NEW
+- release-dependency-lock-drift-explainer — NEW
+- release-deployment-config-drift-preflight — NEW
+- release-emergency-hotfix-acceptance-gate — NEW
 - release-evidence-retention-policy — NEW
+- release-failure-log-redaction-contract — NEW
+- release-fault-injection-recovery-scorecard — NEW
+- release-github-permission-minimization — NEW
+- release-incident-reproducibility-checklist — NEW
+- release-load-test-data-safety — NEW
+- release-memory-leak-soak-test — NEW
+- release-multi-architecture-manifest-audit — NEW
+- release-network-condition-test-matrix — NEW
+- release-package-file-allowlist — NEW
+- release-performance-budget-regression-gate — NEW
+- release-pipeline-credential-scope-audit — NEW
+- release-postmortem-action-verification — NEW
+- release-progressive-rollout-stop-condition — NEW
+- release-required-status-check-drift-audit — NEW
+- release-rollback-data-compatibility-audit — NEW
 - release-rollback-readiness-drill — NEW
+- release-rollback-readiness-evidence-bundle — NEW
+- release-sbom-license-coverage-reconciliation — NEW
+- release-secret-scan-baseline-expiration — NEW
+- release-signing-key-expiry-drill — NEW
+- release-synthetic-test-data-privacy-audit — NEW
+- release-tag-signature-verification — NEW
+- release-test-artifact-retention-contract — NEW
+- release-test-selection-risk-coverage — NEW
+- release-timezone-independent-test-fixtures — NEW
+- release-version-bump-compatibility-matrix — NEW
+- release-vulnerability-exception-expiry-check — NEW
+- repo-bot-permission-expiration — NEW
+- repo-branch-staleness-policy — NEW
+- repo-codeowners-coverage-audit — NEW
+- repo-generated-file-diff-hygiene — NEW
+- repo-license-notice-bundle-audit — NEW
+- repo-monorepo-affected-target-calculation — NEW
+- repo-submodule-pin-consistency — NEW
 - repository-architecture-map — NEW
 - reproducible-build-artifact-provenance — NEW
 - retry-amplification-storm-audit — NEW
@@ -1257,46 +1407,96 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (39)
+### Rust & platform engineering (89)
 
 - native-wasm-behavior-parity — NEW
+- rust-allocation-hotspot-benchmark — NEW
 - rust-allocator-contention-analysis — NEW
 - rust-allocator-memory-profiling — NEW
 - rust-api-error-compatibility-fixtures — NEW
 - rust-api-error-taxonomy — NEW
 - rust-api-semver-audit — NEW
 - rust-async-backpressure-budget — NEW
+- rust-async-cancellation-drop-audit — NEW
 - rust-async-cancellation-safety — NEW
 - rust-async-runtime-diagnostics — NEW
+- rust-async-task-leak-detection — NEW
 - rust-async-task-supervision — NEW
+- rust-atomic-ordering-justification — NEW
+- rust-binary-protocol-length-prefix-validation — NEW
 - rust-binary-size-budget — NEW
 - rust-borrow-scope-performance — NEW
 - rust-bounded-worker-queue — NEW
+- rust-build-script-environment-capture — NEW
 - rust-build-script-reproducibility-audit — NEW
 - rust-cache-line-sharing-audit — NEW
 - rust-channel-backpressure — NEW
 - rust-channel-shutdown-drain — NEW
+- rust-channel-shutdown-protocol — NEW
+- rust-cli-exit-code-contract — NEW
+- rust-cli-signal-shutdown-handling — NEW
+- rust-cli-subcommand-compatibility — NEW
+- rust-clippy-rustdoc-warning-budget — NEW
+- rust-clone-cost-regression-benchmark — NEW
 - rust-concurrency-test-scenario-design — NEW
+- rust-config-deserialization-hardening — NEW
 - rust-crate-boundary-audit — NEW
 - rust-crate-feature-budget — NEW
 - rust-crate-public-api-surface — NEW
 - rust-crate-publish-dry-run-audit — NEW
 - rust-cross-compilation-validation — NEW
+- rust-data-race-sanitizer-profile — NEW
+- rust-directory-walk-symlink-boundary — NEW
+- rust-env-variable-precedence-audit — NEW
+- rust-error-context-chain-contract — NEW
 - rust-error-path-observability-contract — NEW
+- rust-error-taxonomy-stability-audit — NEW
 - rust-feature-configuration-smoke-matrix — NEW
+- rust-feature-flag-compilation-matrix — NEW
+- rust-ffi-buffer-ownership-contract — NEW
+- rust-ffi-panic-boundary-protection — NEW
 - rust-ffi-resource-ownership — NEW
+- rust-file-lock-stale-owner-recovery — NEW
+- rust-fuzz-corpus-minimization — NEW
+- rust-http-client-connection-pool-budget — NEW
+- rust-http-idempotency-key-propagation — NEW
+- rust-http-response-body-size-limit — NEW
+- rust-iterator-fusion-optimization-proof — NEW
 - rust-lock-contention-profile — NEW
+- rust-lock-order-deadlock-analysis — NEW
 - rust-lock-order-deadlock-audit — NEW
+- rust-loom-concurrency-model-test — NEW
+- rust-miri-unsafe-code-gate — NEW
 - rust-msrv-compatibility-gate — NEW
 - rust-panic-boundary-observability — NEW
+- rust-path-traversal-resistant-file-write — NEW
 - rust-perf-regression-thresholds — NEW
 - rust-proc-macro-diagnostics — NEW
+- rust-proc-macro-input-validation — NEW
+- rust-process-child-timeout-contract — NEW
+- rust-process-stdout-stderr-drain — NEW
 - rust-profile-guided-optimization — NEW
+- rust-progress-output-non-tty-fallback — NEW
+- rust-property-test-shrinking-triage — NEW
+- rust-release-symbol-and-debug-info-policy — NEW
+- rust-reproducible-cargo-lockfile-policy — NEW
+- rust-retryable-error-classification — NEW
+- rust-serialization-version-compatibility — NEW
 - rust-service-startup-shutdown-test — NEW
 - rust-shared-state-lock-elimination — NEW
+- rust-shared-state-poison-recovery — NEW
+- rust-socket-backpressure-contract — NEW
+- rust-stdout-stderr-machine-readability — NEW
+- rust-target-triple-cross-build-validation — NEW
 - rust-task-cancellation-propagation — NEW
+- rust-temp-file-atomic-replace — NEW
 - rust-test-fixture-isolation — NEW
+- rust-test-fixture-tempdir-isolation — NEW
+- rust-tls-error-diagnostics-redaction — NEW
+- rust-unsafe-block-invariant-inventory — NEW
+- rust-workspace-dependency-boundary-audit — NEW
 - rust-workspace-feature-matrix — NEW
+- rust-zero-copy-lifetime-proof — NEW
 - wasm-native-performance-comparison — NEW
 
 ### Scene navigation, sharing & replay (10)
@@ -1442,11 +1642,14 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - skill-version-pinning-and-upgrade-contract — NEW
 - third-party-skill-provenance-audit — NEW
 
-### Supabase & PostgreSQL platform engineering (50)
+### Supabase & PostgreSQL platform engineering (75)
 
 - supabase-audit-event-retention-policy — NEW
+- supabase-auth-email-change-verification — NEW
 - supabase-auth-email-provider-failure-drill — NEW
+- supabase-auth-invite-expiry-and-replay — NEW
 - supabase-auth-jwt-claim-contract — NEW
+- supabase-auth-multi-tenant-membership-authorization — NEW
 - supabase-auth-session-revocation-check — NEW
 - supabase-backup-restore-drill-evidence — NEW
 - supabase-backup-retention-policy — NEW
@@ -1454,26 +1657,36 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - supabase-database-maintenance-window-plan — NEW
 - supabase-database-secret-rotation — NEW
 - supabase-database-webhook-retry-contract — NEW
+- supabase-db-restore-cross-environment-sanitization — NEW
+- supabase-edge-function-cold-start-budget — NEW
 - supabase-edge-function-cors-allowlist — NEW
 - supabase-edge-function-idempotency-contract — NEW
 - supabase-edge-function-request-size-limit — NEW
+- supabase-edge-function-rolling-deploy-compatibility — NEW
 - supabase-edge-function-secret-redaction — NEW
+- supabase-edge-function-structured-error-contract — NEW
 - supabase-edge-function-timeout-budget — NEW
 - supabase-extension-compatibility-matrix — NEW
 - supabase-generated-types-schema-drift — NEW
 - supabase-graphql-schema-exposure-audit — NEW
+- supabase-immutable-audit-log-chain — NEW
 - supabase-incident-reproduction-bundle — NEW
+- supabase-index-concurrent-build-migration — NEW
 - supabase-local-production-parity — NEW
 - supabase-migration-backfill-checkpointing — NEW
 - supabase-migration-expand-contract-plan — NEW
 - supabase-migration-lock-duration-budget — NEW
 - supabase-migration-reversible-down-path — NEW
+- supabase-pg-cron-job-overlap-prevention — NEW
+- supabase-pg-stat-statements-query-baseline — NEW
 - supabase-pgvector-recall-validation — NEW
 - supabase-point-in-time-recovery-acceptance — NEW
 - supabase-postgres-connection-pool-budget — NEW
 - supabase-postgres-deadlock-reproduction — NEW
 - supabase-postgres-index-usage-review — NEW
+- supabase-postgres-lock-wait-incident-playbook — NEW
 - supabase-postgres-log-pii-scrubbing — NEW
+- supabase-postgres-pooler-transaction-mode-limitations — NEW
 - supabase-postgres-query-plan-regression — NEW
 - supabase-postgres-statement-timeout-matrix — NEW
 - supabase-postgres-supavisor-mode-compatibility — NEW
@@ -1482,18 +1695,30 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - supabase-realtime-channel-cleanup — NEW
 - supabase-realtime-event-ordering-contract — NEW
 - supabase-realtime-presence-expiry — NEW
+- supabase-realtime-private-channel-acl-audit — NEW
+- supabase-realtime-reconnect-gap-reconciliation — NEW
 - supabase-realtime-subscription-auth-refresh — NEW
+- supabase-refresh-token-reuse-response — NEW
 - supabase-replica-lag-stale-read-policy — NEW
+- supabase-rls-function-search-path-hardening — NEW
 - supabase-rls-policy-coverage-matrix — NEW
+- supabase-rls-policy-test-fixture-generator — NEW
 - supabase-rls-query-plan-performance — NEW
 - supabase-rls-role-escalation-test — NEW
+- supabase-rls-service-role-separation-test — NEW
 - supabase-rls-tenant-isolation-negative-cases — NEW
+- supabase-rls-view-security-invoker-audit — NEW
 - supabase-schema-drift-environment-parity — NEW
 - supabase-seed-fixture-determinism — NEW
+- supabase-session-cross-device-revocation — NEW
+- supabase-storage-bulk-delete-recovery — NEW
+- supabase-storage-download-authority-test — NEW
 - supabase-storage-object-ownership-policy — NEW
 - supabase-storage-orphan-reconciliation — NEW
 - supabase-storage-signed-url-expiry — NEW
 - supabase-storage-upload-mime-boundary — NEW
+- supabase-tenant-deletion-cascade-impact — NEW
+- supabase-tenant-key-composite-foreign-key-audit — NEW
 
 ### Temporal durable workflow engineering (50)
 
@@ -1558,11 +1783,18 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - generating-dot-assets
 - styling-web-game-typography
 
-### Vercel AI SDK & agent reliability (50)
+### Vercel AI SDK & agent reliability (75)
 
 - ai-sdk-agent-duplicate-call-detection — NEW
+- ai-sdk-agent-evaluation-adversarial-scenarios — NEW
+- ai-sdk-agent-loop-cost-ceiling — NEW
+- ai-sdk-agent-loop-non-progress-stop — NEW
 - ai-sdk-agent-max-step-limit — NEW
+- ai-sdk-agent-memory-conflict-resolution — NEW
+- ai-sdk-agent-memory-cross-tenant-isolation — NEW
 - ai-sdk-agent-memory-expiration — NEW
+- ai-sdk-agent-session-resume-checkpoint — NEW
+- ai-sdk-agent-tool-timeout-propagation — NEW
 - ai-sdk-audio-transcript-confidence — NEW
 - ai-sdk-background-job-cancellation — NEW
 - ai-sdk-browser-tool-domain-allowlist — NEW
@@ -1573,6 +1805,8 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - ai-sdk-cost-attribution-by-tool — NEW
 - ai-sdk-evaluation-deterministic-mocks — NEW
 - ai-sdk-evaluation-golden-set-versioning — NEW
+- ai-sdk-evaluation-human-annotation-calibration — NEW
+- ai-sdk-evaluation-judge-model-blinding — NEW
 - ai-sdk-evaluation-provider-variance — NEW
 - ai-sdk-evaluation-regression-thresholds — NEW
 - ai-sdk-evaluation-rubric-contract — NEW
@@ -1582,29 +1816,45 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - ai-sdk-json-repair-observability — NEW
 - ai-sdk-message-serialization-roundtrip — NEW
 - ai-sdk-model-fallback-compatibility — NEW
+- ai-sdk-model-routing-capability-constraints — NEW
+- ai-sdk-multi-agent-handoff-schema — NEW
+- ai-sdk-multimodal-content-policy-gate — NEW
 - ai-sdk-multimodal-input-size-guard — NEW
 - ai-sdk-multistep-stop-conditions — NEW
+- ai-sdk-observation-versus-inference-labeling — NEW
 - ai-sdk-output-schema-validation — NEW
 - ai-sdk-production-shadow-evaluation — NEW
 - ai-sdk-prompt-injection-test-matrix — NEW
 - ai-sdk-prompt-version-rollback — NEW
 - ai-sdk-provider-capability-matrix — NEW
 - ai-sdk-provider-error-normalization — NEW
+- ai-sdk-provider-failover-sticky-session-policy — NEW
 - ai-sdk-provider-key-isolation — NEW
+- ai-sdk-rag-access-control-filter-order — NEW
+- ai-sdk-rag-chunk-metadata-consistency — NEW
 - ai-sdk-rag-source-provenance — NEW
 - ai-sdk-rate-limit-backpressure — NEW
+- ai-sdk-retrieval-document-deletion-propagation — NEW
 - ai-sdk-retrieval-freshness-contract — NEW
 - ai-sdk-retry-budget-and-backoff — NEW
 - ai-sdk-sensitive-data-log-filter — NEW
+- ai-sdk-source-citation-span-validation — NEW
+- ai-sdk-stream-abort-signal-propagation — NEW
+- ai-sdk-stream-part-order-contract — NEW
+- ai-sdk-stream-partial-ui-reconciliation — NEW
 - ai-sdk-stream-reconnect-policy — NEW
 - ai-sdk-stream-ui-state-machine — NEW
 - ai-sdk-streamtext-cancel-handling — NEW
 - ai-sdk-structured-output-nullability — NEW
 - ai-sdk-token-budget-envelope — NEW
 - ai-sdk-tool-authorization-boundary — NEW
+- ai-sdk-tool-budget-reservation-and-refund — NEW
+- ai-sdk-tool-call-approval-replay-defense — NEW
 - ai-sdk-tool-idempotency-contract — NEW
 - ai-sdk-tool-input-schema-guard — NEW
+- ai-sdk-tool-name-schema-migration — NEW
 - ai-sdk-tool-output-size-contract — NEW
+- ai-sdk-tool-result-untrusted-data-boundary — NEW
 - ai-sdk-tool-result-validation — NEW
 - ai-sdk-tool-timeout-fallback — NEW
 - ai-sdk-tracing-span-cardinality — NEW

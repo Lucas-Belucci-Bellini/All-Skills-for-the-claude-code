@@ -11,6 +11,7 @@ on:
       - feat/skills-expansion-1000-from-850-2026
       - feat/skills-expansion-1150-from-1000-2026
       - feat/skills-expansion-1500-projete-cross-agent-2026
+      - feat/skills-expansion-1750-cross-domain-2026
   workflow_dispatch:
 
 permissions:
@@ -45,4 +46,4 @@ jobs:
           node tools/sync-skill-bundles.mjs --check
 
       - name: Validate current milestone structure and source/bundle parity
-        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1500.json
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1750.json
