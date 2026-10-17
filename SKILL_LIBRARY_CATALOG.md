@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
+Updated: 2026-10-17. The unified bundle contains 1175 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **1,024**
-- Current total: **1,150**
+- Original curated skills: **1049**
+- Current total: **1175**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,350**
+- Remaining to long-term target: **1,325**
 
 ## Categories
 
@@ -132,11 +132,14 @@ Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 - skill-development
 - writing-rules
 
-### Claude Code setup & MCP (20)
+### Claude Code setup & MCP (30)
 
+- agent-capability-matrix-audit — NEW
 - agent-human-approval-gates — NEW
 - agent-memory-write-policy — NEW
 - agent-plan-vs-execution-verification — NEW
+- agent-skill-context-budgeting — NEW
+- agent-skill-request-contract — NEW
 - agent-state-checkpointing — NEW
 - agent-task-decomposition — NEW
 - agent-task-handoff-contract — NEW
@@ -145,6 +148,8 @@ Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 - claude-code-mcp-setup — NEW
 - claude-code-session-permission-sanity-check — NEW
 - claude-plugin-upgrade-rollback-validation — NEW
+- cross-agent-integration-conformance-tests — NEW
+- cross-agent-skill-adapter-contract — NEW
 - mcp-auth-scope-minimization — NEW
 - mcp-oauth-token-refresh-boundary-tests — NEW
 - mcp-side-effect-risk-classification — NEW
@@ -153,6 +158,11 @@ Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 - plugin-package-compatibility-test — NEW
 - prompt-injection-boundary-testing — NEW
 - repository-instruction-conflict-resolution — NEW
+- skill-broker-authentication-rate-limits — NEW
+- skill-broker-load-shedding — NEW
+- skill-broker-offline-fallback-contract — NEW
+- skill-broker-request-idempotency — NEW
+- skill-distribution-permission-segregation — NEW
 - tool-call-budget-policy — NEW
 
 ### Developer environment & CLI tooling (10)
@@ -1076,20 +1086,35 @@ Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 - world-history-event-sourcing — NEW
 - world-simulation-save-snapshot — NEW
 
-### Skill library governance (13)
+### Skill library governance (28)
 
 - agent-artifact-quality-gates — NEW
 - agent-output-evidence-traceability — NEW
+- agent-skill-feedback-sanitization — NEW
+- automated-skill-gap-intake — NEW
+- automated-skill-proposal-generation — NEW
 - automation-change-risk-gating — NEW
+- cross-agent-skill-format-portability-audit — NEW
 - license-notice-redistribution-audit — NEW
+- multi-agent-skill-release-manifest — NEW
+- provider-specific-skill-rendering — NEW
+- skill-cache-coherence-audit — NEW
 - skill-catalog-taxonomy-consistency — NEW
+- skill-change-ci-validation-gates — NEW
+- skill-compatibility-deprecation-propagation — NEW
 - skill-deduplication-and-consolidation — NEW
 - skill-documentation-example-audit — NEW
 - skill-frontmatter-schema-compatibility-audit — NEW
+- skill-provenance-snapshot-verification — NEW
 - skill-quality-evaluation — NEW
+- skill-registry-schema-migration — NEW
+- skill-release-rollback-readiness — NEW
 - skill-trigger-regression-suite — NEW
 - skill-trigger-routing-evaluation — NEW
+- skill-update-adoption-observability — NEW
+- skill-update-policy-risk-classification — NEW
 - skill-usage-feedback-triage — NEW
+- skill-version-pinning-and-upgrade-contract — NEW
 - third-party-skill-provenance-audit — NEW
 
 ### Supabase & PostgreSQL platform engineering (50)
