@@ -828,6 +828,181 @@
       "origin": "new-authored",
       "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-balance-change-approval-record/SKILL.md",
       "subdomain": "audit-validation"
+    },
+    {
+      "name": "skill-broker-request-validation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-request-validation/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-content-digest-verification",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-content-digest-verification/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-registry-index-rebuild",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-registry-index-rebuild/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-exact-id-resolution",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-exact-id-resolution/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-semantic-retrieval-fallback",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-semantic-retrieval-fallback/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-query-context-minimization",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-query-context-minimization/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-dependency-closure-resolution",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-dependency-closure-resolution/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-result-ranking-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-broker-result-ranking-audit/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-version-negotiation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-version-negotiation/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-capability-filtering",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-capability-filtering/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-package-integrity-check",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-package-integrity-check/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-payload-size-budget",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-payload-size-budget/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-paginated-result-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-paginated-result-contract/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-stale-index-detection",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-stale-index-detection/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-public-private-scope-enforcement",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-public-private-scope-enforcement/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-search-fallback-matrix",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-search-fallback-matrix/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-request-timeout-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-request-timeout-contract/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-error-envelope-standard",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-error-envelope-standard/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-observability-correlation-id",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-observability-correlation-id/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-readonly-safe-defaults",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-readonly-safe-defaults/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-mcp-tool-description-discovery",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-mcp-tool-description-discovery/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-http-transport-security-review",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-http-transport-security-review/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "agent-tooling",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-broker-client-capability-advertisement/agent-tooling/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-local-registry-import",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-local-registry-import/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-metadata-filter-pipeline",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-metadata-filter-pipeline/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
     }
   ]
 }
