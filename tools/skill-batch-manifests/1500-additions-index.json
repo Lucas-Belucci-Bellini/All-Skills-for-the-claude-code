@@ -129,6 +129,30 @@
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/skill-compatibility-deprecation-propagation/SKILL.md"
+    },
+    {
+      "name": "skill-provenance-snapshot-verification",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-provenance-snapshot-verification/SKILL.md"
+    },
+    {
+      "name": "skill-broker-load-shedding",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-load-shedding/SKILL.md"
+    },
+    {
+      "name": "skill-update-policy-risk-classification",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-policy-risk-classification/SKILL.md"
+    },
+    {
+      "name": "multi-agent-skill-release-manifest",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/multi-agent-skill-release-manifest/SKILL.md"
     }
   ]
 }
