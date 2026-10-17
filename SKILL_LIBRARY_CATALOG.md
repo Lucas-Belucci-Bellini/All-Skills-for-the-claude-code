@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
+Updated: 2026-10-17. The unified bundle contains 1250 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **1,024**
-- Current total: **1,150**
+- Original curated skills: **1124**
+- Current total: **1250**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,350**
+- Remaining to long-term target: **1,250**
 
 ## Categories
 
@@ -519,8 +519,108 @@ Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 - telegram-access
 - telegram-configure
 
-### Minecraft & modpack engineering (30)
+### Minecraft & modpack engineering (130)
 
+- atm10-attribute-modifier-stacking-audit — NEW
+- atm10-automated-farm-tick-load — NEW
+- atm10-automation-recipe-loop-interaction — NEW
+- atm10-backup-restore-drill — NEW
+- atm10-biome-feature-injection-conflict — NEW
+- atm10-chunk-corruption-scope-assessment — NEW
+- atm10-chunk-generation-stutter-analysis — NEW
+- atm10-client-server-mod-parity-audit — NEW
+- atm10-client-world-join-failure — NEW
+- atm10-config-migration-compatibility — NEW
+- atm10-config-scope-client-server-check — NEW
+- atm10-config-syntax-regression — NEW
+- atm10-crash-loop-recovery — NEW
+- atm10-crash-report-evidence-triage — NEW
+- atm10-datapack-priority-conflict — NEW
+- atm10-datapack-recipe-load-validation — NEW
+- atm10-dedicated-server-startup-failure — NEW
+- atm10-dimension-transition-crash — NEW
+- atm10-dimension-worldgen-overlap — NEW
+- atm10-duplicate-jar-detection — NEW
+- atm10-enchantment-loot-interaction — NEW
+- atm10-entity-ai-behavior-interference — NEW
+- atm10-entity-buildup-performance-audit — NEW
+- atm10-entity-tick-crash-triage — NEW
+- atm10-event-handler-double-processing — NEW
+- atm10-fluid-transfer-compatibility — NEW
+- atm10-freeze-vs-crash-classification — NEW
+- atm10-gc-pause-correlator — NEW
+- atm10-graphics-driver-vs-mod-diagnosis — NEW
+- atm10-inventory-slot-compatibility — NEW
+- atm10-issue-report-evidence-package — NEW
+- atm10-item-handler-capability-conflict — NEW
+- atm10-java-architecture-runtime-check — NEW
+- atm10-java-memory-gc-triage — NEW
+- atm10-jvm-argument-baseline-review — NEW
+- atm10-launcher-exit-code-context-analysis — NEW
+- atm10-launcher-instance-integrity — NEW
+- atm10-log-timeline-correlation — NEW
+- atm10-loot-table-override-audit — NEW
+- atm10-machine-energy-network-interoperability — NEW
+- atm10-minimal-modset-binary-search — NEW
+- atm10-missing-dependency-detection — NEW
+- atm10-mixin-conflict-isolation — NEW
+- atm10-mod-advancement-trigger-failure — NEW
+- atm10-mod-api-contract-regression — NEW
+- atm10-mod-background-thread-exception — NEW
+- atm10-mod-block-entity-persistence-bug — NEW
+- atm10-mod-client-server-state-divergence — NEW
+- atm10-mod-configuration-value-ignored — NEW
+- atm10-mod-crafting-duplication-reproduction — NEW
+- atm10-mod-crash-on-specific-item-use — NEW
+- atm10-mod-duplicate-item-generation-bug — NEW
+- atm10-mod-entity-ai-freeze — NEW
+- atm10-mod-illegal-state-transition-audit — NEW
+- atm10-mod-item-loss-during-transfer — NEW
+- atm10-mod-keybind-handler-bug — NEW
+- atm10-mod-known-issue-and-fix-verification — NEW
+- atm10-mod-list-fingerprint-capture — NEW
+- atm10-mod-loader-version-compatibility-audit — NEW
+- atm10-mod-machine-stalled-processing — NEW
+- atm10-mod-memory-leak-growth-triage — NEW
+- atm10-mod-nbt-component-roundtrip-validation — NEW
+- atm10-mod-null-pointer-exception-triage — NEW
+- atm10-mod-player-data-reset-regression — NEW
+- atm10-mod-random-drop-regression-validation — NEW
+- atm10-mod-recipe-reload-stale-state — NEW
+- atm10-mod-recipe-result-mismatch — NEW
+- atm10-mod-release-regression-analysis — NEW
+- atm10-mod-rendering-artifact-reproduction — NEW
+- atm10-mod-update-regression-bisect — NEW
+- atm10-mod-world-migration-failure — NEW
+- atm10-modpack-reproducible-test-instance — NEW
+- atm10-modpack-update-diff-audit — NEW
+- atm10-network-packet-channel-collision — NEW
+- atm10-oom-heap-dump-assessment — NEW
+- atm10-performance-mod-interaction-audit — NEW
+- atm10-player-capability-serialization-conflict — NEW
+- atm10-portal-dimension-travel-conflict — NEW
+- atm10-post-fix-regression-suite — NEW
+- atm10-recipe-namespace-overlap — NEW
+- atm10-recipe-registration-failure — NEW
+- atm10-registry-id-collision-investigation — NEW
+- atm10-registry-missing-content-recovery — NEW
+- atm10-renderer-shader-mod-conflict — NEW
+- atm10-rendering-fps-regression — NEW
+- atm10-resource-pack-shader-crash-triage — NEW
+- atm10-safe-mod-addition-protocol — NEW
+- atm10-safe-mod-removal-protocol — NEW
+- atm10-save-write-lag-diagnosis — NEW
+- atm10-server-network-latency-triage — NEW
+- atm10-server-tps-mspt-profiling — NEW
+- atm10-startup-phase-checkpoint — NEW
+- atm10-storage-autocrafting-interaction — NEW
+- atm10-storage-io-stutter-investigation — NEW
+- atm10-structure-generation-duplication — NEW
+- atm10-tag-membership-conflict — NEW
+- atm10-world-save-recovery-preflight — NEW
+- atm10-worldgen-crash-reproduction — NEW
+- atm10-worldgen-memory-pressure — NEW
+- atm10-wrong-loader-artifact-detection — NEW
 - minecraft-client-optional-mod-handshake-validation — NEW
 - minecraft-client-server-parity-check — NEW
 - minecraft-crash-signature-version-index — NEW
