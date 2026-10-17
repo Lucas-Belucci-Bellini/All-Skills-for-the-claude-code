@@ -1353,6 +1353,181 @@
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/agent-adapter-compatibility-regression-fixtures/SKILL.md",
       "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-skill-search-query-rewrite",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-search-query-rewrite/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-candidate-relevance-evaluation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-candidate-relevance-evaluation/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-selection-confidence-threshold",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-selection-confidence-threshold/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-topk-budget-optimization",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-topk-budget-optimization/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-negative-trigger-regression",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-negative-trigger-regression/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-overlap-resolution-policy",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-overlap-resolution-policy/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-contradiction-detection",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-contradiction-detection/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-dependency-closure-check",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-dependency-closure-check/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-dynamic-reference-loading",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-dynamic-reference-loading/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-context-compression-safety",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-context-compression-safety/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-selection-explanation-record",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-selection-explanation-record/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-cache-tenant-isolation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-cache-tenant-isolation/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-cache-ttl-policy",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-cache-ttl-policy/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-local-cache-integrity",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-local-cache-integrity/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-offline-age-disclosure",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-offline-age-disclosure/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-revocation-cache-flush",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-revocation-cache-flush/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-metadata-ranking-weight-calibration",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-metadata-ranking-weight-calibration/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-retrieval-eval-dataset",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-retrieval-eval-dataset/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-retrieval-recall-measurement",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-retrieval-recall-measurement/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-retrieval-precision-measurement",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-retrieval-precision-measurement/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-routing-drift-detection",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-routing-drift-detection/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-candidate-pairwise-ranking",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-candidate-pairwise-ranking/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-context-use-per-task-budget",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-context-use-per-task-budget/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-skill-composition-conflict-test",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-skill-composition-conflict-test/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-dependency-cycle-analysis",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-dependency-cycle-analysis/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
     }
   ]
 }
