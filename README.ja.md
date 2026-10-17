@@ -142,3 +142,10 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 - `tools/tests/test-plugin-bundles.sh`: composition、生成 artifact、決定的な skill hash、不正または危険な入力の拒否を検証する。
 - `python3 tools/plugin-bundles/published.py --write|--check`: composition と canonical skill から、追跡対象の7つの plugin root と Codex、Codex API key、Claude catalog を再生成または検証する。stale payload、root の不足・過剰、path escape、identity / version drift を拒否する。
 - `python3 tools/plugin-bundles/package.py --output <new-dir>`: 全7構成をZIP化して展開後も検証し、checksum と結果レポートを生成する。公式 validator の指定方法は公開ガイドを参照。
+
+
+## 統合スキルライブラリ
+
+作業ブランチ `feat/skills-expansion-1500-projete-cross-agent-2026` は、ATM10 のトラブルシューティングを含む 1,250 件の作業用ベースに、ProjectE/EMC のワークフロー 100 件と、複数 AI エージェント・Broker・Adapter・コンテキスト管理・自動更新のワークフロー 150 件を追加する計画で、カタログを 1,500 件に更新するドラフトである。これは main へのマージ済みを意味せず、すべての AI への接続やゲーム内の EMC バランス検証が完了したという意味でもない。
+
+検証、同期、互換性確認、ライセンス/出典レビューは別途必要である。詳細は [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39) を参照。

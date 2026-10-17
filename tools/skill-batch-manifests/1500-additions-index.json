@@ -158,151 +158,176 @@
       "name": "projecte-emc-registry-snapshot",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-registry-snapshot/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-registry-snapshot/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-item-coverage-ledger",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-coverage-ledger/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-coverage-ledger/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-missing-item-triage",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-missing-item-triage/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-missing-item-triage/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-material-equivalence-map",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-material-equivalence-map/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-material-equivalence-map/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-processing-chain-invariant",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-processing-chain-invariant/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-processing-chain-invariant/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-ingot-nugget-block-coherence",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-ingot-nugget-block-coherence/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-ingot-nugget-block-coherence/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-gem-fragment-value-policy",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-gem-fragment-value-policy/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-gem-fragment-value-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-byproduct-allocation",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-byproduct-allocation/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-byproduct-allocation/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-recipe-graph-value-derivation",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-graph-value-derivation/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-graph-value-derivation/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-renewable-finite-classification",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-renewable-finite-classification/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-renewable-finite-classification/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-dimension-gate-classification",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-dimension-gate-classification/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-dimension-gate-classification/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-biome-gated-resource-review",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-biome-gated-resource-review/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-biome-gated-resource-review/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-progression-item-lock-policy",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-progression-item-lock-policy/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-progression-item-lock-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-tool-durability-policy",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-tool-durability-policy/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-tool-durability-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-enchantment-charge-state-audit",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-enchantment-charge-state-audit/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-enchantment-charge-state-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-fluid-container-integrity",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-fluid-container-integrity/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-fluid-container-integrity/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-nbt-component-state-classification",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-nbt-component-state-classification/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-nbt-component-state-classification/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-inventory-container-content-audit",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-inventory-container-content-audit/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-inventory-container-content-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-machine-component-tiering",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-machine-component-tiering/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-machine-component-tiering/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-magic-artifact-tiering",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-magic-artifact-tiering/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-magic-artifact-tiering/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-boss-drop-value-review",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-boss-drop-value-review/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-boss-drop-value-review/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-quest-reward-protection-audit",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-quest-reward-protection-audit/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-quest-reward-protection-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-item-variant-coverage",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-variant-coverage/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-variant-coverage/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-item-alias-collision-audit",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-alias-collision-audit/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-alias-collision-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-recipe-output-quantity-normalizer",
       "category": "Minecraft & modpack engineering",
       "origin": "new-authored",
-      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-output-quantity-normalizer/SKILL.md"
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-output-quantity-normalizer/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
     },
     {
       "name": "projecte-emc-recipe-alternative-normalization",
