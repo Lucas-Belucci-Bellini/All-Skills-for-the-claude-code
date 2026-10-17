@@ -1003,6 +1003,181 @@
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/skill-broker-client-capability-advertisement/SKILL.md",
       "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-auto-gap-triage-dedup",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-gap-triage-dedup/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-change-proposal-boundary",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-change-proposal-boundary/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-diff-size-and-scope-gate",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-diff-size-and-scope-gate/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-generated-frontmatter-validation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-generated-frontmatter-validation/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-reference-link-integrity",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-reference-link-integrity/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-script-static-analysis",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-script-static-analysis/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-secrets-scan",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-secrets-scan/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-instruction-injection-scan",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-instruction-injection-scan/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-semantic-overlap-review",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-semantic-overlap-review/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-policy-lint",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-policy-lint/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-review-request-package",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-review-request-package/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-release-candidate-quarantine",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-release-candidate-quarantine/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-publish-readiness",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-publish-readiness/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-canary-update-rollout",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-canary-update-rollout/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-revoke-bad-version",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-revoke-bad-version/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-changelog-semantic-diff",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-changelog-semantic-diff/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-update-approval-record",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-update-approval-record/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-priority-from-gap-frequency",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-priority-from-gap-frequency/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-test-run-evidence-pack",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-test-run-evidence-pack/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-skill-dependency-lock",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-skill-dependency-lock/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-retention-and-deprecation-review",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-retention-and-deprecation-review/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-version-bump-policy",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-version-bump-policy/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-change-no-op-detection",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-change-no-op-detection/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-generated-copy-integrity",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-generated-copy-integrity/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-maintainer-review-prompt",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-maintainer-review-prompt/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
     }
   ]
 }
