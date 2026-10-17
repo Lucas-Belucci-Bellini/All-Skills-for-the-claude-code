@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
+Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **874**
-- Current total: **1,000**
+- Original curated skills: **1,024**
+- Current total: **1,150**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,500**
+- Remaining to long-term target: **1,350**
 
 ## Categories
 
@@ -624,6 +624,59 @@ Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
 - supply-chain-vulnerability-sla-aging — NEW
 - supply-chain-workflow-permission-minimum — NEW
 
+### OpenTelemetry Collector observability (50)
+
+- otel-attribute-cardinality-budget — NEW
+- otel-auth-extension-boundary — NEW
+- otel-collector-config-schema-validation — NEW
+- otel-collector-health-check-semantic — NEW
+- otel-collector-heap-profile-regression — NEW
+- otel-collector-memory-limiter-order — NEW
+- otel-collector-queue-capacity-budget — NEW
+- otel-collector-self-observability-budget — NEW
+- otel-collector-shutdown-drain-budget — NEW
+- otel-collector-startup-config-validation — NEW
+- otel-collector-version-skew-matrix — NEW
+- otel-config-reload-atomicity — NEW
+- otel-config-rollout-canary-plan — NEW
+- otel-config-secret-reference-audit — NEW
+- otel-connector-cycle-detection — NEW
+- otel-exemplar-retention-contract — NEW
+- otel-exporter-ack-loss-recovery — NEW
+- otel-exporter-fanout-backpressure — NEW
+- otel-exporter-retry-expiry — NEW
+- otel-exporter-timeout-vs-retry — NEW
+- otel-failed-export-dead-letter-policy — NEW
+- otel-filelog-offset-recovery — NEW
+- otel-filelog-rotation-gap-detection — NEW
+- otel-head-sampling-consistency — NEW
+- otel-histogram-boundary-compatibility — NEW
+- otel-http-grpc-endpoint-parity — NEW
+- otel-instrumentation-duplicate-detection — NEW
+- otel-k8s-attribute-cardinality-filter — NEW
+- otel-log-body-size-limits — NEW
+- otel-log-severity-normalization — NEW
+- otel-metric-name-unit-contract — NEW
+- otel-metric-series-explosion-test — NEW
+- otel-multi-pipeline-isolation — NEW
+- otel-observability-signal-cost-allocation — NEW
+- otel-otlp-ingest-payload-limit — NEW
+- otel-otlp-protocol-compatibility — NEW
+- otel-pipeline-load-test-profile — NEW
+- otel-processor-ordering-contract — NEW
+- otel-receiver-pipeline-ownership — NEW
+- otel-resource-attribute-normalization — NEW
+- otel-resource-detection-precedence — NEW
+- otel-semconv-version-transition — NEW
+- otel-span-link-retention-audit — NEW
+- otel-span-redaction-policy — NEW
+- otel-tail-sampling-memory-budget — NEW
+- otel-telemetry-drop-reason-reporting — NEW
+- otel-tenant-routing-attribute-integrity — NEW
+- otel-tls-mtls-rotation-drill — NEW
+- otel-trace-context-baggage-boundary — NEW
+- otel-trace-id-validation-policy — NEW
+
 ### OSIRIS intelligence platform engineering (50)
 
 - osiris-active-fire-feed-provenance — NEW
@@ -676,6 +729,59 @@ Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
 - osiris-telegram-public-channel-limit-review — NEW
 - osiris-threat-feed-confidence-labels — NEW
 - osiris-weather-hazard-normalization — NEW
+
+### Playwright end-to-end testing (50)
+
+- playwright-accessibility-snapshot-diff — NEW
+- playwright-api-context-session-parity — NEW
+- playwright-auth-state-expiry — NEW
+- playwright-browser-context-isolation — NEW
+- playwright-browser-version-lockstep — NEW
+- playwright-cache-cold-warm-comparison — NEW
+- playwright-ci-browser-dependency-cache — NEW
+- playwright-clock-freeze-test-design — NEW
+- playwright-color-scheme-snapshot — NEW
+- playwright-console-error-budget — NEW
+- playwright-container-font-parity — NEW
+- playwright-dialog-handler-ownership — NEW
+- playwright-download-path-assertion — NEW
+- playwright-filechooser-retry-safety — NEW
+- playwright-fixture-scope-audit — NEW
+- playwright-flaky-test-quarantine-policy — NEW
+- playwright-focus-restoration-regression — NEW
+- playwright-frame-locator-ownership — NEW
+- playwright-global-setup-cleanup — NEW
+- playwright-keyboard-navigation-contract — NEW
+- playwright-locale-timezone-invariance — NEW
+- playwright-mobile-viewport-matrix — NEW
+- playwright-multitenant-browser-isolation — NEW
+- playwright-network-route-determinism — NEW
+- playwright-new-tab-race-reproduction — NEW
+- playwright-pageerror-classification — NEW
+- playwright-parallel-db-fixture-locking — NEW
+- playwright-popup-window-lifecycle — NEW
+- playwright-project-config-contract — NEW
+- playwright-randomized-seed-recording — NEW
+- playwright-react-hydration-readiness — NEW
+- playwright-reduced-motion-state — NEW
+- playwright-request-failure-triage — NEW
+- playwright-response-contract-fixtures — NEW
+- playwright-retry-artifact-preservation — NEW
+- playwright-screenshot-mask-policy — NEW
+- playwright-service-worker-state-control — NEW
+- playwright-shadow-dom-boundary — NEW
+- playwright-shard-order-independence — NEW
+- playwright-storage-state-secret-free — NEW
+- playwright-test-data-unique-namespace — NEW
+- playwright-test-impact-selection — NEW
+- playwright-test-timeout-layering — NEW
+- playwright-trace-retention-sanitization — NEW
+- playwright-upload-validation-matrix — NEW
+- playwright-video-evidence-budget — NEW
+- playwright-visual-baseline-governance — NEW
+- playwright-webfont-layout-stability — NEW
+- playwright-websocket-close-diagnostics — NEW
+- playwright-worker-resource-contention — NEW
 
 ### Public-data provenance, privacy & ethics (10)
 
@@ -1038,6 +1144,59 @@ Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
 - supabase-storage-orphan-reconciliation — NEW
 - supabase-storage-signed-url-expiry — NEW
 - supabase-storage-upload-mime-boundary — NEW
+
+### Temporal durable workflow engineering (50)
+
+- temporal-activity-dependency-wait-graph — NEW
+- temporal-activity-failure-injection — NEW
+- temporal-activity-heartbeat-cost-control — NEW
+- temporal-activity-idempotency-contract — NEW
+- temporal-activity-result-payload-budget — NEW
+- temporal-activity-timeout-hierarchy — NEW
+- temporal-cancellation-propagation — NEW
+- temporal-child-workflow-parent-close-policy — NEW
+- temporal-client-connection-recovery — NEW
+- temporal-compensation-saga-order — NEW
+- temporal-continue-as-new-threshold — NEW
+- temporal-cron-to-schedule-migration — NEW
+- temporal-data-converter-compatibility — NEW
+- temporal-deployment-version-routing — NEW
+- temporal-duplicate-signal-idempotency — NEW
+- temporal-encryption-at-rest-payload-audit — NEW
+- temporal-external-call-outbox-contract — NEW
+- temporal-heartbeat-resume-contract — NEW
+- temporal-interceptor-observability — NEW
+- temporal-metrics-cardinality-control — NEW
+- temporal-namespace-retention-preflight — NEW
+- temporal-operator-visibility-query-limit — NEW
+- temporal-patch-removal-safety — NEW
+- temporal-payload-codec-key-rotation — NEW
+- temporal-query-read-only-boundary — NEW
+- temporal-retry-policy-budget — NEW
+- temporal-schedule-missed-run-recovery — NEW
+- temporal-schedule-overlap-policy — NEW
+- temporal-search-attribute-schema — NEW
+- temporal-server-sdk-version-skew — NEW
+- temporal-signal-handler-ordering — NEW
+- temporal-stale-workflow-owner-triage — NEW
+- temporal-sticky-cache-pressure — NEW
+- temporal-task-queue-backlog-alerting — NEW
+- temporal-task-timeout-vs-start-timeout — NEW
+- temporal-test-environment-time-skipping — NEW
+- temporal-update-validator-contract — NEW
+- temporal-worker-build-artifact-compatibility — NEW
+- temporal-worker-concurrency-capacity — NEW
+- temporal-worker-identity-permission-audit — NEW
+- temporal-worker-shutdown-drain — NEW
+- temporal-worker-task-queue-routing — NEW
+- temporal-workflow-determinism-linter — NEW
+- temporal-workflow-external-event-correlation — NEW
+- temporal-workflow-history-growth-audit — NEW
+- temporal-workflow-input-schema-versioning — NEW
+- temporal-workflow-recovery-runbook — NEW
+- temporal-workflow-replay-regression — NEW
+- temporal-workflow-test-fixture-isolation — NEW
+- temporal-workflow-versioning-marker — NEW
 
 ### UI, art, audio & assets (7)
 

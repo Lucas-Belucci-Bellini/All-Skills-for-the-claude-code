@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-16",
-  "unique_skills": 1000,
+  "unique_skills": 1150,
   "target": 2500,
-  "remaining": 1500,
+  "remaining": 1350,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -3355,6 +3355,306 @@
       "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-workflow-permission-minimum/SKILL.md"
     },
     {
+      "name": "otel-attribute-cardinality-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-attribute-cardinality-budget/SKILL.md"
+    },
+    {
+      "name": "otel-auth-extension-boundary",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-auth-extension-boundary/SKILL.md"
+    },
+    {
+      "name": "otel-collector-config-schema-validation",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-config-schema-validation/SKILL.md"
+    },
+    {
+      "name": "otel-collector-health-check-semantic",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-health-check-semantic/SKILL.md"
+    },
+    {
+      "name": "otel-collector-heap-profile-regression",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-heap-profile-regression/SKILL.md"
+    },
+    {
+      "name": "otel-collector-memory-limiter-order",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-memory-limiter-order/SKILL.md"
+    },
+    {
+      "name": "otel-collector-queue-capacity-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-queue-capacity-budget/SKILL.md"
+    },
+    {
+      "name": "otel-collector-self-observability-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-self-observability-budget/SKILL.md"
+    },
+    {
+      "name": "otel-collector-shutdown-drain-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-shutdown-drain-budget/SKILL.md"
+    },
+    {
+      "name": "otel-collector-startup-config-validation",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-startup-config-validation/SKILL.md"
+    },
+    {
+      "name": "otel-collector-version-skew-matrix",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-version-skew-matrix/SKILL.md"
+    },
+    {
+      "name": "otel-config-reload-atomicity",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-config-reload-atomicity/SKILL.md"
+    },
+    {
+      "name": "otel-config-rollout-canary-plan",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-config-rollout-canary-plan/SKILL.md"
+    },
+    {
+      "name": "otel-config-secret-reference-audit",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-config-secret-reference-audit/SKILL.md"
+    },
+    {
+      "name": "otel-connector-cycle-detection",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-connector-cycle-detection/SKILL.md"
+    },
+    {
+      "name": "otel-exemplar-retention-contract",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exemplar-retention-contract/SKILL.md"
+    },
+    {
+      "name": "otel-exporter-ack-loss-recovery",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exporter-ack-loss-recovery/SKILL.md"
+    },
+    {
+      "name": "otel-exporter-fanout-backpressure",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exporter-fanout-backpressure/SKILL.md"
+    },
+    {
+      "name": "otel-exporter-retry-expiry",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exporter-retry-expiry/SKILL.md"
+    },
+    {
+      "name": "otel-exporter-timeout-vs-retry",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exporter-timeout-vs-retry/SKILL.md"
+    },
+    {
+      "name": "otel-failed-export-dead-letter-policy",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-failed-export-dead-letter-policy/SKILL.md"
+    },
+    {
+      "name": "otel-filelog-offset-recovery",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-filelog-offset-recovery/SKILL.md"
+    },
+    {
+      "name": "otel-filelog-rotation-gap-detection",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-filelog-rotation-gap-detection/SKILL.md"
+    },
+    {
+      "name": "otel-head-sampling-consistency",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-head-sampling-consistency/SKILL.md"
+    },
+    {
+      "name": "otel-histogram-boundary-compatibility",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-histogram-boundary-compatibility/SKILL.md"
+    },
+    {
+      "name": "otel-http-grpc-endpoint-parity",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-http-grpc-endpoint-parity/SKILL.md"
+    },
+    {
+      "name": "otel-instrumentation-duplicate-detection",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-instrumentation-duplicate-detection/SKILL.md"
+    },
+    {
+      "name": "otel-k8s-attribute-cardinality-filter",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-k8s-attribute-cardinality-filter/SKILL.md"
+    },
+    {
+      "name": "otel-log-body-size-limits",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-log-body-size-limits/SKILL.md"
+    },
+    {
+      "name": "otel-log-severity-normalization",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-log-severity-normalization/SKILL.md"
+    },
+    {
+      "name": "otel-metric-name-unit-contract",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-metric-name-unit-contract/SKILL.md"
+    },
+    {
+      "name": "otel-metric-series-explosion-test",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-metric-series-explosion-test/SKILL.md"
+    },
+    {
+      "name": "otel-multi-pipeline-isolation",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-multi-pipeline-isolation/SKILL.md"
+    },
+    {
+      "name": "otel-observability-signal-cost-allocation",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-observability-signal-cost-allocation/SKILL.md"
+    },
+    {
+      "name": "otel-otlp-ingest-payload-limit",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-otlp-ingest-payload-limit/SKILL.md"
+    },
+    {
+      "name": "otel-otlp-protocol-compatibility",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-otlp-protocol-compatibility/SKILL.md"
+    },
+    {
+      "name": "otel-pipeline-load-test-profile",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-pipeline-load-test-profile/SKILL.md"
+    },
+    {
+      "name": "otel-processor-ordering-contract",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-processor-ordering-contract/SKILL.md"
+    },
+    {
+      "name": "otel-receiver-pipeline-ownership",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-receiver-pipeline-ownership/SKILL.md"
+    },
+    {
+      "name": "otel-resource-attribute-normalization",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-resource-attribute-normalization/SKILL.md"
+    },
+    {
+      "name": "otel-resource-detection-precedence",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-resource-detection-precedence/SKILL.md"
+    },
+    {
+      "name": "otel-semconv-version-transition",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-semconv-version-transition/SKILL.md"
+    },
+    {
+      "name": "otel-span-link-retention-audit",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-span-link-retention-audit/SKILL.md"
+    },
+    {
+      "name": "otel-span-redaction-policy",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-span-redaction-policy/SKILL.md"
+    },
+    {
+      "name": "otel-tail-sampling-memory-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-tail-sampling-memory-budget/SKILL.md"
+    },
+    {
+      "name": "otel-telemetry-drop-reason-reporting",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-telemetry-drop-reason-reporting/SKILL.md"
+    },
+    {
+      "name": "otel-tenant-routing-attribute-integrity",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-tenant-routing-attribute-integrity/SKILL.md"
+    },
+    {
+      "name": "otel-tls-mtls-rotation-drill",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-tls-mtls-rotation-drill/SKILL.md"
+    },
+    {
+      "name": "otel-trace-context-baggage-boundary",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-trace-context-baggage-boundary/SKILL.md"
+    },
+    {
+      "name": "otel-trace-id-validation-policy",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-trace-id-validation-policy/SKILL.md"
+    },
+    {
       "name": "osiris-active-fire-feed-provenance",
       "category": "OSIRIS intelligence platform engineering",
       "origin": "new-authored",
@@ -3653,6 +3953,306 @@
       "category": "OSIRIS intelligence platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-weather-hazard-normalization/SKILL.md"
+    },
+    {
+      "name": "playwright-accessibility-snapshot-diff",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-accessibility-snapshot-diff/SKILL.md"
+    },
+    {
+      "name": "playwright-api-context-session-parity",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-api-context-session-parity/SKILL.md"
+    },
+    {
+      "name": "playwright-auth-state-expiry",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-auth-state-expiry/SKILL.md"
+    },
+    {
+      "name": "playwright-browser-context-isolation",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-browser-context-isolation/SKILL.md"
+    },
+    {
+      "name": "playwright-browser-version-lockstep",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-browser-version-lockstep/SKILL.md"
+    },
+    {
+      "name": "playwright-cache-cold-warm-comparison",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-cache-cold-warm-comparison/SKILL.md"
+    },
+    {
+      "name": "playwright-ci-browser-dependency-cache",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-ci-browser-dependency-cache/SKILL.md"
+    },
+    {
+      "name": "playwright-clock-freeze-test-design",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-clock-freeze-test-design/SKILL.md"
+    },
+    {
+      "name": "playwright-color-scheme-snapshot",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-color-scheme-snapshot/SKILL.md"
+    },
+    {
+      "name": "playwright-console-error-budget",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-console-error-budget/SKILL.md"
+    },
+    {
+      "name": "playwright-container-font-parity",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-container-font-parity/SKILL.md"
+    },
+    {
+      "name": "playwright-dialog-handler-ownership",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-dialog-handler-ownership/SKILL.md"
+    },
+    {
+      "name": "playwright-download-path-assertion",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-download-path-assertion/SKILL.md"
+    },
+    {
+      "name": "playwright-filechooser-retry-safety",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-filechooser-retry-safety/SKILL.md"
+    },
+    {
+      "name": "playwright-fixture-scope-audit",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-fixture-scope-audit/SKILL.md"
+    },
+    {
+      "name": "playwright-flaky-test-quarantine-policy",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-flaky-test-quarantine-policy/SKILL.md"
+    },
+    {
+      "name": "playwright-focus-restoration-regression",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-focus-restoration-regression/SKILL.md"
+    },
+    {
+      "name": "playwright-frame-locator-ownership",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-frame-locator-ownership/SKILL.md"
+    },
+    {
+      "name": "playwright-global-setup-cleanup",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-global-setup-cleanup/SKILL.md"
+    },
+    {
+      "name": "playwright-keyboard-navigation-contract",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-keyboard-navigation-contract/SKILL.md"
+    },
+    {
+      "name": "playwright-locale-timezone-invariance",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-locale-timezone-invariance/SKILL.md"
+    },
+    {
+      "name": "playwright-mobile-viewport-matrix",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-mobile-viewport-matrix/SKILL.md"
+    },
+    {
+      "name": "playwright-multitenant-browser-isolation",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-multitenant-browser-isolation/SKILL.md"
+    },
+    {
+      "name": "playwright-network-route-determinism",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-network-route-determinism/SKILL.md"
+    },
+    {
+      "name": "playwright-new-tab-race-reproduction",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-new-tab-race-reproduction/SKILL.md"
+    },
+    {
+      "name": "playwright-pageerror-classification",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-pageerror-classification/SKILL.md"
+    },
+    {
+      "name": "playwright-parallel-db-fixture-locking",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-parallel-db-fixture-locking/SKILL.md"
+    },
+    {
+      "name": "playwright-popup-window-lifecycle",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-popup-window-lifecycle/SKILL.md"
+    },
+    {
+      "name": "playwright-project-config-contract",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-project-config-contract/SKILL.md"
+    },
+    {
+      "name": "playwright-randomized-seed-recording",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-randomized-seed-recording/SKILL.md"
+    },
+    {
+      "name": "playwright-react-hydration-readiness",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-react-hydration-readiness/SKILL.md"
+    },
+    {
+      "name": "playwright-reduced-motion-state",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-reduced-motion-state/SKILL.md"
+    },
+    {
+      "name": "playwright-request-failure-triage",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-request-failure-triage/SKILL.md"
+    },
+    {
+      "name": "playwright-response-contract-fixtures",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-response-contract-fixtures/SKILL.md"
+    },
+    {
+      "name": "playwright-retry-artifact-preservation",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-retry-artifact-preservation/SKILL.md"
+    },
+    {
+      "name": "playwright-screenshot-mask-policy",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-screenshot-mask-policy/SKILL.md"
+    },
+    {
+      "name": "playwright-service-worker-state-control",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-service-worker-state-control/SKILL.md"
+    },
+    {
+      "name": "playwright-shadow-dom-boundary",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-shadow-dom-boundary/SKILL.md"
+    },
+    {
+      "name": "playwright-shard-order-independence",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-shard-order-independence/SKILL.md"
+    },
+    {
+      "name": "playwright-storage-state-secret-free",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-storage-state-secret-free/SKILL.md"
+    },
+    {
+      "name": "playwright-test-data-unique-namespace",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-test-data-unique-namespace/SKILL.md"
+    },
+    {
+      "name": "playwright-test-impact-selection",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-test-impact-selection/SKILL.md"
+    },
+    {
+      "name": "playwright-test-timeout-layering",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-test-timeout-layering/SKILL.md"
+    },
+    {
+      "name": "playwright-trace-retention-sanitization",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-trace-retention-sanitization/SKILL.md"
+    },
+    {
+      "name": "playwright-upload-validation-matrix",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-upload-validation-matrix/SKILL.md"
+    },
+    {
+      "name": "playwright-video-evidence-budget",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-video-evidence-budget/SKILL.md"
+    },
+    {
+      "name": "playwright-visual-baseline-governance",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-visual-baseline-governance/SKILL.md"
+    },
+    {
+      "name": "playwright-webfont-layout-stability",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-webfont-layout-stability/SKILL.md"
+    },
+    {
+      "name": "playwright-websocket-close-diagnostics",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-websocket-close-diagnostics/SKILL.md"
+    },
+    {
+      "name": "playwright-worker-resource-contention",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-worker-resource-contention/SKILL.md"
     },
     {
       "name": "geo-alpr-location-only-data-guardrail",
@@ -5663,6 +6263,306 @@
       "category": "Supabase & PostgreSQL platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/supabase-database-engineering/supabase-storage-upload-mime-boundary/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-dependency-wait-graph",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-dependency-wait-graph/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-failure-injection",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-failure-injection/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-heartbeat-cost-control",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-heartbeat-cost-control/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-idempotency-contract",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-idempotency-contract/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-result-payload-budget",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-result-payload-budget/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-timeout-hierarchy",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-timeout-hierarchy/SKILL.md"
+    },
+    {
+      "name": "temporal-cancellation-propagation",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-cancellation-propagation/SKILL.md"
+    },
+    {
+      "name": "temporal-child-workflow-parent-close-policy",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-child-workflow-parent-close-policy/SKILL.md"
+    },
+    {
+      "name": "temporal-client-connection-recovery",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-client-connection-recovery/SKILL.md"
+    },
+    {
+      "name": "temporal-compensation-saga-order",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-compensation-saga-order/SKILL.md"
+    },
+    {
+      "name": "temporal-continue-as-new-threshold",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-continue-as-new-threshold/SKILL.md"
+    },
+    {
+      "name": "temporal-cron-to-schedule-migration",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-cron-to-schedule-migration/SKILL.md"
+    },
+    {
+      "name": "temporal-data-converter-compatibility",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-data-converter-compatibility/SKILL.md"
+    },
+    {
+      "name": "temporal-deployment-version-routing",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-deployment-version-routing/SKILL.md"
+    },
+    {
+      "name": "temporal-duplicate-signal-idempotency",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-duplicate-signal-idempotency/SKILL.md"
+    },
+    {
+      "name": "temporal-encryption-at-rest-payload-audit",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-encryption-at-rest-payload-audit/SKILL.md"
+    },
+    {
+      "name": "temporal-external-call-outbox-contract",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-external-call-outbox-contract/SKILL.md"
+    },
+    {
+      "name": "temporal-heartbeat-resume-contract",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-heartbeat-resume-contract/SKILL.md"
+    },
+    {
+      "name": "temporal-interceptor-observability",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-interceptor-observability/SKILL.md"
+    },
+    {
+      "name": "temporal-metrics-cardinality-control",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-metrics-cardinality-control/SKILL.md"
+    },
+    {
+      "name": "temporal-namespace-retention-preflight",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-namespace-retention-preflight/SKILL.md"
+    },
+    {
+      "name": "temporal-operator-visibility-query-limit",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-operator-visibility-query-limit/SKILL.md"
+    },
+    {
+      "name": "temporal-patch-removal-safety",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-patch-removal-safety/SKILL.md"
+    },
+    {
+      "name": "temporal-payload-codec-key-rotation",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-payload-codec-key-rotation/SKILL.md"
+    },
+    {
+      "name": "temporal-query-read-only-boundary",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-query-read-only-boundary/SKILL.md"
+    },
+    {
+      "name": "temporal-retry-policy-budget",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-retry-policy-budget/SKILL.md"
+    },
+    {
+      "name": "temporal-schedule-missed-run-recovery",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-schedule-missed-run-recovery/SKILL.md"
+    },
+    {
+      "name": "temporal-schedule-overlap-policy",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-schedule-overlap-policy/SKILL.md"
+    },
+    {
+      "name": "temporal-search-attribute-schema",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-search-attribute-schema/SKILL.md"
+    },
+    {
+      "name": "temporal-server-sdk-version-skew",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-server-sdk-version-skew/SKILL.md"
+    },
+    {
+      "name": "temporal-signal-handler-ordering",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-signal-handler-ordering/SKILL.md"
+    },
+    {
+      "name": "temporal-stale-workflow-owner-triage",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-stale-workflow-owner-triage/SKILL.md"
+    },
+    {
+      "name": "temporal-sticky-cache-pressure",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-sticky-cache-pressure/SKILL.md"
+    },
+    {
+      "name": "temporal-task-queue-backlog-alerting",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-task-queue-backlog-alerting/SKILL.md"
+    },
+    {
+      "name": "temporal-task-timeout-vs-start-timeout",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-task-timeout-vs-start-timeout/SKILL.md"
+    },
+    {
+      "name": "temporal-test-environment-time-skipping",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-test-environment-time-skipping/SKILL.md"
+    },
+    {
+      "name": "temporal-update-validator-contract",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-update-validator-contract/SKILL.md"
+    },
+    {
+      "name": "temporal-worker-build-artifact-compatibility",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-worker-build-artifact-compatibility/SKILL.md"
+    },
+    {
+      "name": "temporal-worker-concurrency-capacity",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-worker-concurrency-capacity/SKILL.md"
+    },
+    {
+      "name": "temporal-worker-identity-permission-audit",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-worker-identity-permission-audit/SKILL.md"
+    },
+    {
+      "name": "temporal-worker-shutdown-drain",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-worker-shutdown-drain/SKILL.md"
+    },
+    {
+      "name": "temporal-worker-task-queue-routing",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-worker-task-queue-routing/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-determinism-linter",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-determinism-linter/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-external-event-correlation",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-external-event-correlation/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-history-growth-audit",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-history-growth-audit/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-input-schema-versioning",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-input-schema-versioning/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-recovery-runbook",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-recovery-runbook/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-replay-regression",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-replay-regression/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-test-fixture-isolation",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-test-fixture-isolation/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-versioning-marker",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-versioning-marker/SKILL.md"
     },
     {
       "name": "building-era-authentic-game-audio",
