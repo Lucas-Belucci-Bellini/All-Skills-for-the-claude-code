@@ -99,6 +99,36 @@
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/agent-skill-context-budgeting/SKILL.md"
+    },
+    {
+      "name": "skill-registry-schema-migration",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-registry-schema-migration/SKILL.md"
+    },
+    {
+      "name": "provider-specific-skill-rendering",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/provider-specific-skill-rendering/SKILL.md"
+    },
+    {
+      "name": "skill-distribution-permission-segregation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-distribution-permission-segregation/SKILL.md"
+    },
+    {
+      "name": "skill-update-adoption-observability",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-adoption-observability/SKILL.md"
+    },
+    {
+      "name": "skill-compatibility-deprecation-propagation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-compatibility-deprecation-propagation/SKILL.md"
     }
   ]
 }
