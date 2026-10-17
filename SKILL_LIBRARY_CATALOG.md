@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
+Updated: 2026-10-17. The unified bundle contains 1,300 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **874**
-- Current total: **1,000**
+- Original curated skills: **1,174**
+- Current total: **1,300**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,500**
+- Remaining to long-term target: **1,200**
 
 ## Categories
 
@@ -167,6 +167,59 @@ Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
 - local-dev-environment-preflight-doctor — NEW
 - reproducible-toolchain-bootstrap — NEW
 - shell-command-path-quoting-audit — NEW
+
+### Docker Buildx and BuildKit engineering (50)
+
+- buildkit-attestation-verification-gate — NEW
+- buildkit-cache-key-content-addressing — NEW
+- buildkit-cache-trust-boundary — NEW
+- buildkit-entitlement-minimality — NEW
+- buildkit-provenance-mode-policy — NEW
+- buildkit-reproducible-artifact-evidence — NEW
+- buildkit-secret-mount-nonpersistence — NEW
+- buildkit-ssh-forwarding-scope — NEW
+- buildx-cache-poisoning-hardening — NEW
+- buildx-cache-stale-layer-reproduction — NEW
+- buildx-ci-platform-smoke-matrix — NEW
+- buildx-cross-compile-toolchain-pin — NEW
+- buildx-emulation-vs-native-build-parity — NEW
+- buildx-inline-cache-metadata-check — NEW
+- buildx-multi-platform-manifest-parity — NEW
+- buildx-network-entitlement-review — NEW
+- buildx-output-type-delivery-contract — NEW
+- buildx-parallel-build-resource-budget — NEW
+- buildx-platform-specific-dependency-audit — NEW
+- buildx-qemu-version-compatibility — NEW
+- buildx-registry-mirror-consistency — NEW
+- buildx-registry-push-dry-run — NEW
+- buildx-remote-cache-auth-isolation — NEW
+- container-build-failure-log-triage — NEW
+- container-capability-drop-matrix — NEW
+- container-entrypoint-signal-forwarding — NEW
+- container-filesystem-write-surface — NEW
+- container-healthcheck-contract — NEW
+- container-readonly-rootfs-compatibility — NEW
+- container-stop-timeout-budget — NEW
+- container-user-namespace-compatibility — NEW
+- docker-build-arg-secret-leak-audit — NEW
+- dockerfile-apt-repository-pinning — NEW
+- dockerfile-base-image-refresh-policy — NEW
+- dockerfile-build-context-size-budget — NEW
+- dockerfile-build-environment-locale — NEW
+- dockerfile-build-runtime-secret-separation — NEW
+- dockerfile-copy-ignore-boundary — NEW
+- dockerfile-minimal-runtime-dependency-audit — NEW
+- dockerfile-multi-stage-artifact-copy — NEW
+- dockerfile-native-library-runtime-parity — NEW
+- dockerfile-nonroot-runtime-contract — NEW
+- dockerfile-package-manager-cache-cleanup — NEW
+- dockerfile-reproducible-timestamp-control — NEW
+- dockerfile-stage-dependency-minimization — NEW
+- oci-image-label-provenance-contract — NEW
+- oci-index-platform-coverage — NEW
+- oci-layer-size-regression-budget — NEW
+- oci-manifest-digest-verification — NEW
+- oci-sbom-attestation-subject-parity — NEW
 
 ### Documentation & technical knowledge systems (8)
 
@@ -491,6 +544,59 @@ Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
 - cardputer-buddy
 - m5-onboard
 
+### Kubernetes operations and controller engineering (50)
+
+- k8s-admission-webhook-timeout-failure-policy — NEW
+- k8s-api-deprecation-migration-gate — NEW
+- k8s-autoscaler-scale-down-stability — NEW
+- k8s-cert-manager-renewal-readiness — NEW
+- k8s-cluster-cost-allocation-labels — NEW
+- k8s-cluster-upgrade-skew-matrix — NEW
+- k8s-configmap-rollout-trigger — NEW
+- k8s-controller-finalizer-cleanup — NEW
+- k8s-controller-reconcile-idempotency — NEW
+- k8s-controller-status-condition-contract — NEW
+- k8s-controller-workqueue-backoff — NEW
+- k8s-crd-version-conversion-contract — NEW
+- k8s-dns-failure-domain-diagnostics — NEW
+- k8s-egress-dns-allowlist — NEW
+- k8s-etcd-backup-restore-evidence — NEW
+- k8s-event-retention-incident-correlation — NEW
+- k8s-gateway-api-route-ownership — NEW
+- k8s-hpa-metric-freshness — NEW
+- k8s-ingress-route-tls-consistency — NEW
+- k8s-limitrange-defaulting-impact — NEW
+- k8s-liveness-probe-deadlock-avoidance — NEW
+- k8s-multi-tenant-namespace-boundary — NEW
+- k8s-mutating-webhook-idempotency — NEW
+- k8s-namespace-quota-headroom — NEW
+- k8s-network-policy-default-deny — NEW
+- k8s-node-drain-workload-protection — NEW
+- k8s-operator-leader-election — NEW
+- k8s-persistent-volume-restore-validation — NEW
+- k8s-pod-disruption-budget-review — NEW
+- k8s-pod-security-admission-review — NEW
+- k8s-prestop-grace-period-budget — NEW
+- k8s-priority-class-safety — NEW
+- k8s-progress-deadline-diagnostics — NEW
+- k8s-rbac-role-escalation-audit — NEW
+- k8s-readiness-gate-external-dependency — NEW
+- k8s-readiness-probe-budget — NEW
+- k8s-resource-request-limit-consistency — NEW
+- k8s-rollout-max-surge-availability — NEW
+- k8s-rollout-max-unavailable-capacity — NEW
+- k8s-secret-volume-rotation — NEW
+- k8s-service-account-token-automount — NEW
+- k8s-service-selector-endpoint-parity — NEW
+- k8s-startup-probe-rollout-guard — NEW
+- k8s-statefulset-ordered-rollout-readiness — NEW
+- k8s-termination-drain-order — NEW
+- k8s-topology-spread-failure-domain — NEW
+- k8s-validating-webhook-dry-run — NEW
+- k8s-volume-expansion-preflight — NEW
+- k8s-vpa-hpa-conflict-detection — NEW
+- k8s-workload-identity-binding — NEW
+
 ### Live public-data ingestion & reliability (10)
 
 - livefeed-data-fallback-provenance-labeling — NEW
@@ -571,6 +677,59 @@ Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
 - replication-interest-management — NEW
 - rollback-netcode-state-coverage — NEW
 
+### OpenFeature flag lifecycle and experimentation (50)
+
+- openfeature-accessibility-flag-regression — NEW
+- openfeature-cache-invalidation-propagation — NEW
+- openfeature-canary-to-full-rollout-gate — NEW
+- openfeature-client-server-evaluation-parity — NEW
+- openfeature-default-value-type-safety — NEW
+- openfeature-deprecated-flag-reference-scan — NEW
+- openfeature-domain-provider-routing — NEW
+- openfeature-evaluation-context-merge-order — NEW
+- openfeature-evaluation-context-pii-minimization — NEW
+- openfeature-evaluation-reason-telemetry — NEW
+- openfeature-event-listener-cleanup — NEW
+- openfeature-experiment-guardrail-metrics — NEW
+- openfeature-experiment-novelty-effect-warning — NEW
+- openfeature-experiment-peeking-policy — NEW
+- openfeature-experiment-sample-ratio-mismatch — NEW
+- openfeature-experiment-stop-rule-contract — NEW
+- openfeature-exposure-before-outcome-order — NEW
+- openfeature-exposure-event-deduplication — NEW
+- openfeature-flag-audit-log-integrity — NEW
+- openfeature-flag-cache-ttl-budget — NEW
+- openfeature-flag-cleanup-dependency-graph — NEW
+- openfeature-flag-config-drift-detection — NEW
+- openfeature-flag-config-signature-validation — NEW
+- openfeature-flag-evaluation-latency-budget — NEW
+- openfeature-flag-expiry-owner-contract — NEW
+- openfeature-flag-key-namespacing — NEW
+- openfeature-flag-metadata-schema — NEW
+- openfeature-flag-type-migration-plan — NEW
+- openfeature-high-cardinality-context-guard — NEW
+- openfeature-hook-side-effect-budget — NEW
+- openfeature-hooks-ordering-contract — NEW
+- openfeature-kill-switch-availability — NEW
+- openfeature-missing-flag-safe-default — NEW
+- openfeature-offline-evaluation-policy — NEW
+- openfeature-permanent-flag-retirement — NEW
+- openfeature-progressive-rollout-math — NEW
+- openfeature-provider-error-code-mapping — NEW
+- openfeature-provider-failover-consistency — NEW
+- openfeature-provider-readiness-health-gate — NEW
+- openfeature-provider-ready-state — NEW
+- openfeature-provider-secret-isolation — NEW
+- openfeature-provider-shutdown-contract — NEW
+- openfeature-randomization-seed-reproducibility — NEW
+- openfeature-rollback-trigger-observability — NEW
+- openfeature-rollout-cohort-stability — NEW
+- openfeature-sdk-version-compatibility — NEW
+- openfeature-stale-provider-data-detection — NEW
+- openfeature-sticky-assignment-cookie-scope — NEW
+- openfeature-transaction-context-propagation — NEW
+- openfeature-user-segment-leakage-test — NEW
+
 ### OpenSSF Scorecard & software supply chain (50)
 
 - scorecard-api-data-license-boundary — NEW
@@ -624,6 +783,59 @@ Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
 - supply-chain-vulnerability-sla-aging — NEW
 - supply-chain-workflow-permission-minimum — NEW
 
+### OpenTelemetry Collector observability (50)
+
+- otel-attribute-cardinality-budget — NEW
+- otel-auth-extension-boundary — NEW
+- otel-collector-config-schema-validation — NEW
+- otel-collector-health-check-semantic — NEW
+- otel-collector-heap-profile-regression — NEW
+- otel-collector-memory-limiter-order — NEW
+- otel-collector-queue-capacity-budget — NEW
+- otel-collector-self-observability-budget — NEW
+- otel-collector-shutdown-drain-budget — NEW
+- otel-collector-startup-config-validation — NEW
+- otel-collector-version-skew-matrix — NEW
+- otel-config-reload-atomicity — NEW
+- otel-config-rollout-canary-plan — NEW
+- otel-config-secret-reference-audit — NEW
+- otel-connector-cycle-detection — NEW
+- otel-exemplar-retention-contract — NEW
+- otel-exporter-ack-loss-recovery — NEW
+- otel-exporter-fanout-backpressure — NEW
+- otel-exporter-retry-expiry — NEW
+- otel-exporter-timeout-vs-retry — NEW
+- otel-failed-export-dead-letter-policy — NEW
+- otel-filelog-offset-recovery — NEW
+- otel-filelog-rotation-gap-detection — NEW
+- otel-head-sampling-consistency — NEW
+- otel-histogram-boundary-compatibility — NEW
+- otel-http-grpc-endpoint-parity — NEW
+- otel-instrumentation-duplicate-detection — NEW
+- otel-k8s-attribute-cardinality-filter — NEW
+- otel-log-body-size-limits — NEW
+- otel-log-severity-normalization — NEW
+- otel-metric-name-unit-contract — NEW
+- otel-metric-series-explosion-test — NEW
+- otel-multi-pipeline-isolation — NEW
+- otel-observability-signal-cost-allocation — NEW
+- otel-otlp-ingest-payload-limit — NEW
+- otel-otlp-protocol-compatibility — NEW
+- otel-pipeline-load-test-profile — NEW
+- otel-processor-ordering-contract — NEW
+- otel-receiver-pipeline-ownership — NEW
+- otel-resource-attribute-normalization — NEW
+- otel-resource-detection-precedence — NEW
+- otel-semconv-version-transition — NEW
+- otel-span-link-retention-audit — NEW
+- otel-span-redaction-policy — NEW
+- otel-tail-sampling-memory-budget — NEW
+- otel-telemetry-drop-reason-reporting — NEW
+- otel-tenant-routing-attribute-integrity — NEW
+- otel-tls-mtls-rotation-drill — NEW
+- otel-trace-context-baggage-boundary — NEW
+- otel-trace-id-validation-policy — NEW
+
 ### OSIRIS intelligence platform engineering (50)
 
 - osiris-active-fire-feed-provenance — NEW
@@ -676,6 +888,59 @@ Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
 - osiris-telegram-public-channel-limit-review — NEW
 - osiris-threat-feed-confidence-labels — NEW
 - osiris-weather-hazard-normalization — NEW
+
+### Playwright end-to-end testing (50)
+
+- playwright-accessibility-snapshot-diff — NEW
+- playwright-api-context-session-parity — NEW
+- playwright-auth-state-expiry — NEW
+- playwright-browser-context-isolation — NEW
+- playwright-browser-version-lockstep — NEW
+- playwright-cache-cold-warm-comparison — NEW
+- playwright-ci-browser-dependency-cache — NEW
+- playwright-clock-freeze-test-design — NEW
+- playwright-color-scheme-snapshot — NEW
+- playwright-console-error-budget — NEW
+- playwright-container-font-parity — NEW
+- playwright-dialog-handler-ownership — NEW
+- playwright-download-path-assertion — NEW
+- playwright-filechooser-retry-safety — NEW
+- playwright-fixture-scope-audit — NEW
+- playwright-flaky-test-quarantine-policy — NEW
+- playwright-focus-restoration-regression — NEW
+- playwright-frame-locator-ownership — NEW
+- playwright-global-setup-cleanup — NEW
+- playwright-keyboard-navigation-contract — NEW
+- playwright-locale-timezone-invariance — NEW
+- playwright-mobile-viewport-matrix — NEW
+- playwright-multitenant-browser-isolation — NEW
+- playwright-network-route-determinism — NEW
+- playwright-new-tab-race-reproduction — NEW
+- playwright-pageerror-classification — NEW
+- playwright-parallel-db-fixture-locking — NEW
+- playwright-popup-window-lifecycle — NEW
+- playwright-project-config-contract — NEW
+- playwright-randomized-seed-recording — NEW
+- playwright-react-hydration-readiness — NEW
+- playwright-reduced-motion-state — NEW
+- playwright-request-failure-triage — NEW
+- playwright-response-contract-fixtures — NEW
+- playwright-retry-artifact-preservation — NEW
+- playwright-screenshot-mask-policy — NEW
+- playwright-service-worker-state-control — NEW
+- playwright-shadow-dom-boundary — NEW
+- playwright-shard-order-independence — NEW
+- playwright-storage-state-secret-free — NEW
+- playwright-test-data-unique-namespace — NEW
+- playwright-test-impact-selection — NEW
+- playwright-test-timeout-layering — NEW
+- playwright-trace-retention-sanitization — NEW
+- playwright-upload-validation-matrix — NEW
+- playwright-video-evidence-budget — NEW
+- playwright-visual-baseline-governance — NEW
+- playwright-webfont-layout-stability — NEW
+- playwright-websocket-close-diagnostics — NEW
+- playwright-worker-resource-contention — NEW
 
 ### Public-data provenance, privacy & ethics (10)
 
@@ -1038,6 +1303,59 @@ Updated: 2026-10-16. The unified bundle contains 1,000 distinct skills.
 - supabase-storage-orphan-reconciliation — NEW
 - supabase-storage-signed-url-expiry — NEW
 - supabase-storage-upload-mime-boundary — NEW
+
+### Temporal durable workflow engineering (50)
+
+- temporal-activity-dependency-wait-graph — NEW
+- temporal-activity-failure-injection — NEW
+- temporal-activity-heartbeat-cost-control — NEW
+- temporal-activity-idempotency-contract — NEW
+- temporal-activity-result-payload-budget — NEW
+- temporal-activity-timeout-hierarchy — NEW
+- temporal-cancellation-propagation — NEW
+- temporal-child-workflow-parent-close-policy — NEW
+- temporal-client-connection-recovery — NEW
+- temporal-compensation-saga-order — NEW
+- temporal-continue-as-new-threshold — NEW
+- temporal-cron-to-schedule-migration — NEW
+- temporal-data-converter-compatibility — NEW
+- temporal-deployment-version-routing — NEW
+- temporal-duplicate-signal-idempotency — NEW
+- temporal-encryption-at-rest-payload-audit — NEW
+- temporal-external-call-outbox-contract — NEW
+- temporal-heartbeat-resume-contract — NEW
+- temporal-interceptor-observability — NEW
+- temporal-metrics-cardinality-control — NEW
+- temporal-namespace-retention-preflight — NEW
+- temporal-operator-visibility-query-limit — NEW
+- temporal-patch-removal-safety — NEW
+- temporal-payload-codec-key-rotation — NEW
+- temporal-query-read-only-boundary — NEW
+- temporal-retry-policy-budget — NEW
+- temporal-schedule-missed-run-recovery — NEW
+- temporal-schedule-overlap-policy — NEW
+- temporal-search-attribute-schema — NEW
+- temporal-server-sdk-version-skew — NEW
+- temporal-signal-handler-ordering — NEW
+- temporal-stale-workflow-owner-triage — NEW
+- temporal-sticky-cache-pressure — NEW
+- temporal-task-queue-backlog-alerting — NEW
+- temporal-task-timeout-vs-start-timeout — NEW
+- temporal-test-environment-time-skipping — NEW
+- temporal-update-validator-contract — NEW
+- temporal-worker-build-artifact-compatibility — NEW
+- temporal-worker-concurrency-capacity — NEW
+- temporal-worker-identity-permission-audit — NEW
+- temporal-worker-shutdown-drain — NEW
+- temporal-worker-task-queue-routing — NEW
+- temporal-workflow-determinism-linter — NEW
+- temporal-workflow-external-event-correlation — NEW
+- temporal-workflow-history-growth-audit — NEW
+- temporal-workflow-input-schema-versioning — NEW
+- temporal-workflow-recovery-runbook — NEW
+- temporal-workflow-replay-regression — NEW
+- temporal-workflow-test-fixture-isolation — NEW
+- temporal-workflow-versioning-marker — NEW
 
 ### UI, art, audio & assets (7)
 
