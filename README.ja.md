@@ -146,6 +146,6 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 
 ## 統合スキルライブラリ
 
-作業ブランチ `feat/skills-expansion-1750-cross-domain-2026` は、1,500 件の ProjectE/複数エージェント用ドラフトを基に、engine/runtime 50 件、Rust/platform 50 件、release/test/repository 50 件、Supabase/PostgreSQL・Vercel AI SDK・accessibility・technical documentation を各 25 件追加して、1,750 件のドラフトカタログを作成する。これは main へのマージ、CI 成功、実環境の動作確認、アクセシビリティ適合、またはライセンス確認済みを意味しない。同期・バリデーション・CI・意味的重複・来歴のレビューは未完了。
+作業ブランチ `feat/skills-expansion-2000-simulation-worlds-2026` は、1,750 件のクロスドメイン用ドラフトを基に、simulation/NPC/world history 50 件、game content/save systems 50 件、networked games/determinism 50 件、geospatial UX・live public data・public-data provenance/privacy・OpenTelemetry Collector を各 25 件追加し、2,000 件のドラフトカタログを作成する。これは main へのマージ、CI 成功、実ゲームやデータプロバイダーの動作確認、ライセンス審査済みを意味しない。同期・検証・意味的重複・来歴の確認は未完了。
 
 検証、同期、互換性確認、ライセンス/出典レビューは別途必要である。詳細は [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39) を参照。

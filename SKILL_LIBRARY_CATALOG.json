@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-17",
-  "unique_skills": 1750,
+  "unique_skills": 2000,
   "target": 2500,
-  "remaining": 750,
+  "remaining": 500,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -3385,6 +3385,132 @@
       "source_path": "curated-skill-sources/game-content-pipelines/audio-mix-loudness-budget/SKILL.md"
     },
     {
+      "name": "content-addressed-asset-gc-safety",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-addressed-asset-gc-safety/SKILL.md"
+    },
+    {
+      "name": "content-animation-skeleton-remap-validation",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-animation-skeleton-remap-validation/SKILL.md"
+    },
+    {
+      "name": "content-asset-import-profile-version-pin",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-asset-import-profile-version-pin/SKILL.md"
+    },
+    {
+      "name": "content-asset-license-metadata-audit",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-asset-license-metadata-audit/SKILL.md"
+    },
+    {
+      "name": "content-audio-bank-version-compatibility",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-audio-bank-version-compatibility/SKILL.md"
+    },
+    {
+      "name": "content-build-deterministic-package-order",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-build-deterministic-package-order/SKILL.md"
+    },
+    {
+      "name": "content-crafting-recipe-content-id-stability",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-crafting-recipe-content-id-stability/SKILL.md"
+    },
+    {
+      "name": "content-dlc-dependency-cycle-check",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-dlc-dependency-cycle-check/SKILL.md"
+    },
+    {
+      "name": "content-editor-generated-file-determinism",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-editor-generated-file-determinism/SKILL.md"
+    },
+    {
+      "name": "content-hotfix-asset-override-rollback",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-hotfix-asset-override-rollback/SKILL.md"
+    },
+    {
+      "name": "content-item-metadata-schema-versioning",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-item-metadata-schema-versioning/SKILL.md"
+    },
+    {
+      "name": "content-large-world-streaming-asset-budget",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-large-world-streaming-asset-budget/SKILL.md"
+    },
+    {
+      "name": "content-localization-fallback-coverage",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-localization-fallback-coverage/SKILL.md"
+    },
+    {
+      "name": "content-missing-locale-key-budget",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-missing-locale-key-budget/SKILL.md"
+    },
+    {
+      "name": "content-mod-package-namespacing",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-mod-package-namespacing/SKILL.md"
+    },
+    {
+      "name": "content-object-pool-reset-contract",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-object-pool-reset-contract/SKILL.md"
+    },
+    {
+      "name": "content-pipeline-source-artifact-lineage",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-pipeline-source-artifact-lineage/SKILL.md"
+    },
+    {
+      "name": "content-procedural-seed-metadata-capture",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-procedural-seed-metadata-capture/SKILL.md"
+    },
+    {
+      "name": "content-quest-graph-unreachable-node-audit",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-quest-graph-unreachable-node-audit/SKILL.md"
+    },
+    {
+      "name": "content-scripted-event-dependency-cycle",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-scripted-event-dependency-cycle/SKILL.md"
+    },
+    {
+      "name": "content-texture-atlas-overflow-check",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/content-texture-atlas-overflow-check/SKILL.md"
+    },
+    {
       "name": "dialogue-branch-continuity-audit",
       "category": "Game content & save systems",
       "origin": "new-authored",
@@ -3451,10 +3577,184 @@
       "source_path": "curated-skill-sources/game-content-pipelines/procedural-world-golden-test/SKILL.md"
     },
     {
+      "name": "save-asset-bundle-missing-dependency-report",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-asset-bundle-missing-dependency-report/SKILL.md"
+    },
+    {
+      "name": "save-asset-reference-gc-protection",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-asset-reference-gc-protection/SKILL.md"
+    },
+    {
+      "name": "save-atomic-metadata-index-update",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-atomic-metadata-index-update/SKILL.md"
+    },
+    {
+      "name": "save-backup-restore-cross-version-test",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-backup-restore-cross-version-test/SKILL.md"
+    },
+    {
+      "name": "save-checksum-manifest-validation",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-checksum-manifest-validation/SKILL.md"
+    },
+    {
+      "name": "save-chunk-coordinate-range-validation",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-chunk-coordinate-range-validation/SKILL.md"
+    },
+    {
+      "name": "save-cloud-sync-conflict-resolution",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-cloud-sync-conflict-resolution/SKILL.md"
+    },
+    {
+      "name": "save-content-id-stable-alias-registry",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-content-id-stable-alias-registry/SKILL.md"
+    },
+    {
+      "name": "save-corrupt-chunk-quarantine-recovery",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-corrupt-chunk-quarantine-recovery/SKILL.md"
+    },
+    {
+      "name": "save-cross-platform-path-case-normalization",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-cross-platform-path-case-normalization/SKILL.md"
+    },
+    {
+      "name": "save-disk-full-safe-shutdown",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-disk-full-safe-shutdown/SKILL.md"
+    },
+    {
+      "name": "save-dlc-entitlement-loss-behavior",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-dlc-entitlement-loss-behavior/SKILL.md"
+    },
+    {
+      "name": "save-downgrade-refusal-reason-report",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-downgrade-refusal-reason-report/SKILL.md"
+    },
+    {
+      "name": "save-entity-component-schema-version-map",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-entity-component-schema-version-map/SKILL.md"
+    },
+    {
       "name": "save-format-compatibility-fixtures",
       "category": "Game content & save systems",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/game-content-pipelines/save-format-compatibility-fixtures/SKILL.md"
+    },
+    {
+      "name": "save-forward-compatible-unknown-field-preservation",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-forward-compatible-unknown-field-preservation/SKILL.md"
+    },
+    {
+      "name": "save-incremental-snapshot-consistency",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-incremental-snapshot-consistency/SKILL.md"
+    },
+    {
+      "name": "save-migration-fixture-generation",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-migration-fixture-generation/SKILL.md"
+    },
+    {
+      "name": "save-migration-progress-checkpoint",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-migration-progress-checkpoint/SKILL.md"
+    },
+    {
+      "name": "save-missing-mod-content-placeholder-policy",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-missing-mod-content-placeholder-policy/SKILL.md"
+    },
+    {
+      "name": "save-modpack-instance-fingerprint",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-modpack-instance-fingerprint/SKILL.md"
+    },
+    {
+      "name": "save-pending-write-flush-shutdown",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-pending-write-flush-shutdown/SKILL.md"
+    },
+    {
+      "name": "save-player-world-state-cross-reference",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-player-world-state-cross-reference/SKILL.md"
+    },
+    {
+      "name": "save-schema-upgrade-idempotency",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-schema-upgrade-idempotency/SKILL.md"
+    },
+    {
+      "name": "save-slot-lock-contention-recovery",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-slot-lock-contention-recovery/SKILL.md"
+    },
+    {
+      "name": "save-snapshot-age-retention-policy",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-snapshot-age-retention-policy/SKILL.md"
+    },
+    {
+      "name": "save-streaming-content-manifest-closure",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-streaming-content-manifest-closure/SKILL.md"
+    },
+    {
+      "name": "save-user-generated-content-quarantine",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-user-generated-content-quarantine/SKILL.md"
+    },
+    {
+      "name": "save-versioned-component-defaults",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-versioned-component-defaults/SKILL.md"
+    },
+    {
+      "name": "save-world-region-partial-load-recovery",
+      "category": "Game content & save systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/game-content-pipelines/save-world-region-partial-load-recovery/SKILL.md"
     },
     {
       "name": "texture-mipmap-import-validation",
@@ -3673,6 +3973,18 @@
       "source_path": "curated-skill-sources/geospatial-visualization/geoviz-3d-terrain-provider-fallback-validation/SKILL.md"
     },
     {
+      "name": "geoviz-accessible-map-alternative-table-parity",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-accessible-map-alternative-table-parity/SKILL.md"
+    },
+    {
+      "name": "geoviz-antimeridian-wraparound",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-antimeridian-wraparound/SKILL.md"
+    },
+    {
       "name": "geoviz-camera-ground-clearance-invariants",
       "category": "Geospatial visualization & map UX",
       "origin": "new-authored",
@@ -3685,10 +3997,40 @@
       "source_path": "curated-skill-sources/geospatial-visualization/geoviz-camera-state-restoration-contract/SKILL.md"
     },
     {
+      "name": "geoviz-cluster-expansion-selection-retention",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-cluster-expansion-selection-retention/SKILL.md"
+    },
+    {
+      "name": "geoviz-coordinate-axis-order-interop",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-coordinate-axis-order-interop/SKILL.md"
+    },
+    {
       "name": "geoviz-coordinate-input-normalization",
       "category": "Geospatial visualization & map UX",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/geospatial-visualization/geoviz-coordinate-input-normalization/SKILL.md"
+    },
+    {
+      "name": "geoviz-coordinate-reference-system-switch-validation",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-coordinate-reference-system-switch-validation/SKILL.md"
+    },
+    {
+      "name": "geoviz-feature-identity-stability-across-refresh",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-feature-identity-stability-across-refresh/SKILL.md"
+    },
+    {
+      "name": "geoviz-geocoder-confidence-threshold-policy",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-geocoder-confidence-threshold-policy/SKILL.md"
     },
     {
       "name": "geoviz-geocoder-fallback-chain-audit",
@@ -3697,10 +4039,28 @@
       "source_path": "curated-skill-sources/geospatial-visualization/geoviz-geocoder-fallback-chain-audit/SKILL.md"
     },
     {
+      "name": "geoviz-geojson-invalid-feature-quarantine",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-geojson-invalid-feature-quarantine/SKILL.md"
+    },
+    {
       "name": "geoviz-globe-render-budget-profiling",
       "category": "Geospatial visualization & map UX",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/geospatial-visualization/geoviz-globe-render-budget-profiling/SKILL.md"
+    },
+    {
+      "name": "geoviz-large-feature-geometry-simplification",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-large-feature-geometry-simplification/SKILL.md"
+    },
+    {
+      "name": "geoviz-map-export-sensitive-layer-redaction",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-map-export-sensitive-layer-redaction/SKILL.md"
     },
     {
       "name": "geoviz-map-layer-visibility-state-contract",
@@ -3709,10 +4069,100 @@
       "source_path": "curated-skill-sources/geospatial-visualization/geoviz-map-layer-visibility-state-contract/SKILL.md"
     },
     {
+      "name": "geoviz-map-layer-z-order-contract",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-map-layer-z-order-contract/SKILL.md"
+    },
+    {
+      "name": "geoviz-map-loading-empty-error-state-contract",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-map-loading-empty-error-state-contract/SKILL.md"
+    },
+    {
+      "name": "geoviz-map-query-cancellation-stale-result-guard",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-map-query-cancellation-stale-result-guard/SKILL.md"
+    },
+    {
+      "name": "geoviz-map-scale-denominator-consistency",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-map-scale-denominator-consistency/SKILL.md"
+    },
+    {
       "name": "geoviz-map-source-attribution-completeness",
       "category": "Geospatial visualization & map UX",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/geospatial-visualization/geoviz-map-source-attribution-completeness/SKILL.md"
+    },
+    {
+      "name": "geoviz-marker-overlap-selection-determinism",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-marker-overlap-selection-determinism/SKILL.md"
+    },
+    {
+      "name": "geoviz-polar-projection-distortion-warning",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-polar-projection-distortion-warning/SKILL.md"
+    },
+    {
+      "name": "geoviz-projection-transition-animation-safety",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-projection-transition-animation-safety/SKILL.md"
+    },
+    {
+      "name": "geoviz-raster-tile-attribution-preservation",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-raster-tile-attribution-preservation/SKILL.md"
+    },
+    {
+      "name": "geoviz-route-geometry-snap-tolerance",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-route-geometry-snap-tolerance/SKILL.md"
+    },
+    {
+      "name": "geoviz-spatial-index-version-compatibility",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-spatial-index-version-compatibility/SKILL.md"
+    },
+    {
+      "name": "geoviz-spatial-join-null-geometry-audit",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-spatial-join-null-geometry-audit/SKILL.md"
+    },
+    {
+      "name": "geoviz-spatial-selection-boundary-inclusion",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-spatial-selection-boundary-inclusion/SKILL.md"
+    },
+    {
+      "name": "geoviz-time-slider-data-availability-contract",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-time-slider-data-availability-contract/SKILL.md"
+    },
+    {
+      "name": "geoviz-vector-tile-cache-invalidation",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-vector-tile-cache-invalidation/SKILL.md"
+    },
+    {
+      "name": "geoviz-viewport-filter-query-parity",
+      "category": "Geospatial visualization & map UX",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/geospatial-visualization/geoviz-viewport-filter-query-parity/SKILL.md"
     },
     {
       "name": "geoviz-viewport-selection-context-integrity",
@@ -3739,10 +4189,46 @@
       "source_path": null
     },
     {
+      "name": "livefeed-api-key-rotation-no-downtime",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-api-key-rotation-no-downtime/SKILL.md"
+    },
+    {
+      "name": "livefeed-cache-stale-while-revalidate-policy",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-cache-stale-while-revalidate-policy/SKILL.md"
+    },
+    {
+      "name": "livefeed-cursor-checkpoint-atomicity",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-cursor-checkpoint-atomicity/SKILL.md"
+    },
+    {
       "name": "livefeed-data-fallback-provenance-labeling",
       "category": "Live public-data ingestion & reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/live-public-data-systems/livefeed-data-fallback-provenance-labeling/SKILL.md"
+    },
+    {
+      "name": "livefeed-data-quality-quarantine-thresholds",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-data-quality-quarantine-thresholds/SKILL.md"
+    },
+    {
+      "name": "livefeed-dead-letter-triage-classification",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-dead-letter-triage-classification/SKILL.md"
+    },
+    {
+      "name": "livefeed-deduplication-key-schema-evolution",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-deduplication-key-schema-evolution/SKILL.md"
     },
     {
       "name": "livefeed-entity-deduplication-window",
@@ -3751,10 +4237,70 @@
       "source_path": "curated-skill-sources/live-public-data-systems/livefeed-entity-deduplication-window/SKILL.md"
     },
     {
+      "name": "livefeed-entity-merge-conflict-audit",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-entity-merge-conflict-audit/SKILL.md"
+    },
+    {
+      "name": "livefeed-event-time-vs-ingestion-time-contract",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-event-time-vs-ingestion-time-contract/SKILL.md"
+    },
+    {
+      "name": "livefeed-feed-contract-change-canary",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-feed-contract-change-canary/SKILL.md"
+    },
+    {
       "name": "livefeed-feed-schema-drift-detection",
       "category": "Live public-data ingestion & reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/live-public-data-systems/livefeed-feed-schema-drift-detection/SKILL.md"
+    },
+    {
+      "name": "livefeed-freshness-slo-breach-attribution",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-freshness-slo-breach-attribution/SKILL.md"
+    },
+    {
+      "name": "livefeed-idempotent-event-upsert-contract",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-idempotent-event-upsert-contract/SKILL.md"
+    },
+    {
+      "name": "livefeed-incremental-sync-deletion-tombstones",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-incremental-sync-deletion-tombstones/SKILL.md"
+    },
+    {
+      "name": "livefeed-out-of-order-event-reconciliation",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-out-of-order-event-reconciliation/SKILL.md"
+    },
+    {
+      "name": "livefeed-pagination-token-expiry-recovery",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-pagination-token-expiry-recovery/SKILL.md"
+    },
+    {
+      "name": "livefeed-partial-response-field-preservation",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-partial-response-field-preservation/SKILL.md"
+    },
+    {
+      "name": "livefeed-payload-size-budget-and-truncation",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-payload-size-budget-and-truncation/SKILL.md"
     },
     {
       "name": "livefeed-polling-backoff-budget",
@@ -3769,16 +4315,58 @@
       "source_path": "curated-skill-sources/live-public-data-systems/livefeed-provider-adapter-contract/SKILL.md"
     },
     {
+      "name": "livefeed-provider-circuit-breaker-half-open-test",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-provider-circuit-breaker-half-open-test/SKILL.md"
+    },
+    {
+      "name": "livefeed-provider-clock-skew-detection",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-provider-clock-skew-detection/SKILL.md"
+    },
+    {
       "name": "livefeed-provider-quota-circuit-breaker",
       "category": "Live public-data ingestion & reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/live-public-data-systems/livefeed-provider-quota-circuit-breaker/SKILL.md"
     },
     {
+      "name": "livefeed-provider-revision-ordering-policy",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-provider-revision-ordering-policy/SKILL.md"
+    },
+    {
+      "name": "livefeed-provider-schema-compatibility-window",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-provider-schema-compatibility-window/SKILL.md"
+    },
+    {
+      "name": "livefeed-rate-limit-budget-sharing",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-rate-limit-budget-sharing/SKILL.md"
+    },
+    {
       "name": "livefeed-runtime-source-health-dashboard",
       "category": "Live public-data ingestion & reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/live-public-data-systems/livefeed-runtime-source-health-dashboard/SKILL.md"
+    },
+    {
+      "name": "livefeed-source-backfill-bounded-replay",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-source-backfill-bounded-replay/SKILL.md"
+    },
+    {
+      "name": "livefeed-source-outage-vs-empty-result",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-source-outage-vs-empty-result/SKILL.md"
     },
     {
       "name": "livefeed-source-timestamp-normalization",
@@ -3791,6 +4379,18 @@
       "category": "Live public-data ingestion & reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/live-public-data-systems/livefeed-stale-data-status-propagation/SKILL.md"
+    },
+    {
+      "name": "livefeed-synthetic-vs-live-fixture-isolation",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-synthetic-vs-live-fixture-isolation/SKILL.md"
+    },
+    {
+      "name": "livefeed-watermark-late-event-policy",
+      "category": "Live public-data ingestion & reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/live-public-data-systems/livefeed-watermark-late-event-policy/SKILL.md"
     },
     {
       "name": "livefeed-websocket-reconnect-state-machine",
@@ -5287,10 +5887,310 @@
       "source_path": "curated-skill-sources/networked-games/multiplayer-state-sync/SKILL.md"
     },
     {
+      "name": "netcode-anti-replay-window-validation",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-anti-replay-window-validation/SKILL.md"
+    },
+    {
+      "name": "netcode-authenticated-player-identity-binding",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-authenticated-player-identity-binding/SKILL.md"
+    },
+    {
+      "name": "netcode-client-clock-drift-estimation",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-client-clock-drift-estimation/SKILL.md"
+    },
+    {
+      "name": "netcode-client-command-rate-limit",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-client-command-rate-limit/SKILL.md"
+    },
+    {
+      "name": "netcode-component-authority-matrix",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-component-authority-matrix/SKILL.md"
+    },
+    {
+      "name": "netcode-connection-flood-load-shedding",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-connection-flood-load-shedding/SKILL.md"
+    },
+    {
+      "name": "netcode-cross-region-rollback-limit",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-cross-region-rollback-limit/SKILL.md"
+    },
+    {
+      "name": "netcode-ddos-backpressure-protection",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-ddos-backpressure-protection/SKILL.md"
+    },
+    {
+      "name": "netcode-deterministic-physics-timestep-contract",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-deterministic-physics-timestep-contract/SKILL.md"
+    },
+    {
+      "name": "netcode-disconnect-grace-period-policy",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-disconnect-grace-period-policy/SKILL.md"
+    },
+    {
+      "name": "netcode-duplicate-command-side-effect-guard",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-duplicate-command-side-effect-guard/SKILL.md"
+    },
+    {
+      "name": "netcode-encrypted-session-key-rotation",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-encrypted-session-key-rotation/SKILL.md"
+    },
+    {
+      "name": "netcode-entity-id-reuse-generation-check",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-entity-id-reuse-generation-check/SKILL.md"
+    },
+    {
+      "name": "netcode-feature-capability-negotiation",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-feature-capability-negotiation/SKILL.md"
+    },
+    {
+      "name": "netcode-floating-point-divergence-triage",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-floating-point-divergence-triage/SKILL.md"
+    },
+    {
+      "name": "netcode-host-migration-state-hash",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-host-migration-state-hash/SKILL.md"
+    },
+    {
+      "name": "netcode-idempotent-command-result-cache",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-idempotent-command-result-cache/SKILL.md"
+    },
+    {
+      "name": "netcode-input-buffer-latency-adaptation",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-input-buffer-latency-adaptation/SKILL.md"
+    },
+    {
+      "name": "netcode-interest-management-boundary-tests",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-interest-management-boundary-tests/SKILL.md"
+    },
+    {
+      "name": "netcode-inventory-action-authority-check",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-inventory-action-authority-check/SKILL.md"
+    },
+    {
+      "name": "netcode-jitter-buffer-capacity",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-jitter-buffer-capacity/SKILL.md"
+    },
+    {
       "name": "netcode-lag-compensation-validation",
       "category": "Networked games & determinism",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/networked-games/netcode-lag-compensation-validation/SKILL.md"
+    },
+    {
+      "name": "netcode-late-join-world-state-snapshot",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-late-join-world-state-snapshot/SKILL.md"
+    },
+    {
+      "name": "netcode-lobby-ready-state-race",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-lobby-ready-state-race/SKILL.md"
+    },
+    {
+      "name": "netcode-matchmaking-region-affinity",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-matchmaking-region-affinity/SKILL.md"
+    },
+    {
+      "name": "netcode-network-simulation-fault-matrix",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-network-simulation-fault-matrix/SKILL.md"
+    },
+    {
+      "name": "netcode-out-of-order-fragment-reassembly",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-out-of-order-fragment-reassembly/SKILL.md"
+    },
+    {
+      "name": "netcode-oversized-packet-rejection",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-oversized-packet-rejection/SKILL.md"
+    },
+    {
+      "name": "netcode-packet-parser-fuzz-regression",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-packet-parser-fuzz-regression/SKILL.md"
+    },
+    {
+      "name": "netcode-packet-sequence-wraparound",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-packet-sequence-wraparound/SKILL.md"
+    },
+    {
+      "name": "netcode-partial-reconnect-state-repair",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-partial-reconnect-state-repair/SKILL.md"
+    },
+    {
+      "name": "netcode-prediction-correction-smoothing-budget",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-prediction-correction-smoothing-budget/SKILL.md"
+    },
+    {
+      "name": "netcode-protocol-field-default-compatibility",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-protocol-field-default-compatibility/SKILL.md"
+    },
+    {
+      "name": "netcode-reconnect-session-expiry",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-reconnect-session-expiry/SKILL.md"
+    },
+    {
+      "name": "netcode-region-handoff-state-transfer",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-region-handoff-state-transfer/SKILL.md"
+    },
+    {
+      "name": "netcode-replay-capture-integrity",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-replay-capture-integrity/SKILL.md"
+    },
+    {
+      "name": "netcode-replay-version-compatibility",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-replay-version-compatibility/SKILL.md"
+    },
+    {
+      "name": "netcode-replication-priority-starvation",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-replication-priority-starvation/SKILL.md"
+    },
+    {
+      "name": "netcode-rng-stream-authority-isolation",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-rng-stream-authority-isolation/SKILL.md"
+    },
+    {
+      "name": "netcode-rollback-ring-buffer-capacity",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-rollback-ring-buffer-capacity/SKILL.md"
+    },
+    {
+      "name": "netcode-rollback-side-effect-deferral",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-rollback-side-effect-deferral/SKILL.md"
+    },
+    {
+      "name": "netcode-server-authority-transfer",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-server-authority-transfer/SKILL.md"
+    },
+    {
+      "name": "netcode-server-side-movement-validation",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-server-side-movement-validation/SKILL.md"
+    },
+    {
+      "name": "netcode-session-close-resource-cleanup",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-session-close-resource-cleanup/SKILL.md"
+    },
+    {
+      "name": "netcode-session-ticket-expiry",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-session-ticket-expiry/SKILL.md"
+    },
+    {
+      "name": "netcode-snapshot-baseline-resynchronization",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-snapshot-baseline-resynchronization/SKILL.md"
+    },
+    {
+      "name": "netcode-spatial-replication-budget",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-spatial-replication-budget/SKILL.md"
+    },
+    {
+      "name": "netcode-spawn-despawn-atomicity",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-spawn-despawn-atomicity/SKILL.md"
+    },
+    {
+      "name": "netcode-speedhack-anomaly-evidence",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-speedhack-anomaly-evidence/SKILL.md"
+    },
+    {
+      "name": "netcode-state-snapshot-delta-chain-limit",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-state-snapshot-delta-chain-limit/SKILL.md"
+    },
+    {
+      "name": "netcode-tick-rate-negotiation",
+      "category": "Networked games & determinism",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/networked-games/netcode-tick-rate-negotiation/SKILL.md"
     },
     {
       "name": "network-authoritative-state-reconciliation",
@@ -5629,6 +6529,12 @@
       "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-workflow-permission-minimum/SKILL.md"
     },
     {
+      "name": "otel-alert-signal-lag-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-alert-signal-lag-budget/SKILL.md"
+    },
+    {
       "name": "otel-attribute-cardinality-budget",
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
@@ -5639,6 +6545,18 @@
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-auth-extension-boundary/SKILL.md"
+    },
+    {
+      "name": "otel-batch-processor-loss-under-backpressure",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-batch-processor-loss-under-backpressure/SKILL.md"
+    },
+    {
+      "name": "otel-collector-build-distribution-compatibility",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-build-distribution-compatibility/SKILL.md"
     },
     {
       "name": "otel-collector-config-schema-validation",
@@ -5663,6 +6581,12 @@
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-memory-limiter-order/SKILL.md"
+    },
+    {
+      "name": "otel-collector-pipeline-config-reload-shadow-test",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-pipeline-config-reload-shadow-test/SKILL.md"
     },
     {
       "name": "otel-collector-queue-capacity-budget",
@@ -5725,10 +6649,22 @@
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exemplar-retention-contract/SKILL.md"
     },
     {
+      "name": "otel-exponential-histogram-downconversion-loss",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exponential-histogram-downconversion-loss/SKILL.md"
+    },
+    {
       "name": "otel-exporter-ack-loss-recovery",
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exporter-ack-loss-recovery/SKILL.md"
+    },
+    {
+      "name": "otel-exporter-failover-deduplication",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exporter-failover-deduplication/SKILL.md"
     },
     {
       "name": "otel-exporter-fanout-backpressure",
@@ -5749,10 +6685,22 @@
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exporter-timeout-vs-retry/SKILL.md"
     },
     {
+      "name": "otel-extension-dependency-order-contract",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-extension-dependency-order-contract/SKILL.md"
+    },
+    {
       "name": "otel-failed-export-dead-letter-policy",
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-failed-export-dead-letter-policy/SKILL.md"
+    },
+    {
+      "name": "otel-filelog-checkpoint-permission-audit",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-filelog-checkpoint-permission-audit/SKILL.md"
     },
     {
       "name": "otel-filelog-offset-recovery",
@@ -5765,6 +6713,12 @@
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-filelog-rotation-gap-detection/SKILL.md"
+    },
+    {
+      "name": "otel-filter-processor-drop-reason-metrics",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-filter-processor-drop-reason-metrics/SKILL.md"
     },
     {
       "name": "otel-head-sampling-consistency",
@@ -5803,10 +6757,28 @@
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-log-body-size-limits/SKILL.md"
     },
     {
+      "name": "otel-log-event-timestamp-normalization",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-log-event-timestamp-normalization/SKILL.md"
+    },
+    {
       "name": "otel-log-severity-normalization",
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-log-severity-normalization/SKILL.md"
+    },
+    {
+      "name": "otel-memory-limiter-spike-recovery",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-memory-limiter-spike-recovery/SKILL.md"
+    },
+    {
+      "name": "otel-metric-label-allowlist-enforcement",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-metric-label-allowlist-enforcement/SKILL.md"
     },
     {
       "name": "otel-metric-name-unit-contract",
@@ -5819,6 +6791,18 @@
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-metric-series-explosion-test/SKILL.md"
+    },
+    {
+      "name": "otel-metric-temporality-conversion-audit",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-metric-temporality-conversion-audit/SKILL.md"
+    },
+    {
+      "name": "otel-multi-exporter-partial-success-accounting",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-multi-exporter-partial-success-accounting/SKILL.md"
     },
     {
       "name": "otel-multi-pipeline-isolation",
@@ -5845,10 +6829,28 @@
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-otlp-protocol-compatibility/SKILL.md"
     },
     {
+      "name": "otel-pipeline-config-secret-leak-scanning",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-pipeline-config-secret-leak-scanning/SKILL.md"
+    },
+    {
       "name": "otel-pipeline-load-test-profile",
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-pipeline-load-test-profile/SKILL.md"
+    },
+    {
+      "name": "otel-pipeline-replay-fixture-determinism",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-pipeline-replay-fixture-determinism/SKILL.md"
+    },
+    {
+      "name": "otel-processor-cardinality-change-impact",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-processor-cardinality-change-impact/SKILL.md"
     },
     {
       "name": "otel-processor-ordering-contract",
@@ -5857,16 +6859,34 @@
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-processor-ordering-contract/SKILL.md"
     },
     {
+      "name": "otel-queue-persistence-corruption-drill",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-queue-persistence-corruption-drill/SKILL.md"
+    },
+    {
       "name": "otel-receiver-pipeline-ownership",
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-receiver-pipeline-ownership/SKILL.md"
     },
     {
+      "name": "otel-receiver-shutdown-graceful-drain",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-receiver-shutdown-graceful-drain/SKILL.md"
+    },
+    {
       "name": "otel-resource-attribute-normalization",
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-resource-attribute-normalization/SKILL.md"
+    },
+    {
+      "name": "otel-resource-attribute-trust-boundary",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-resource-attribute-trust-boundary/SKILL.md"
     },
     {
       "name": "otel-resource-detection-precedence",
@@ -5887,10 +6907,22 @@
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-span-link-retention-audit/SKILL.md"
     },
     {
+      "name": "otel-span-link-volume-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-span-link-volume-budget/SKILL.md"
+    },
+    {
       "name": "otel-span-redaction-policy",
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-span-redaction-policy/SKILL.md"
+    },
+    {
+      "name": "otel-span-status-error-mapping-consistency",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-span-status-error-mapping-consistency/SKILL.md"
     },
     {
       "name": "otel-tail-sampling-memory-budget",
@@ -5899,16 +6931,34 @@
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-tail-sampling-memory-budget/SKILL.md"
     },
     {
+      "name": "otel-tail-sampling-policy-change-test",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-tail-sampling-policy-change-test/SKILL.md"
+    },
+    {
       "name": "otel-telemetry-drop-reason-reporting",
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-telemetry-drop-reason-reporting/SKILL.md"
     },
     {
+      "name": "otel-telemetry-schema-migration-parity",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-telemetry-schema-migration-parity/SKILL.md"
+    },
+    {
       "name": "otel-tenant-routing-attribute-integrity",
       "category": "OpenTelemetry Collector observability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-tenant-routing-attribute-integrity/SKILL.md"
+    },
+    {
+      "name": "otel-tenant-routing-fallback-deny",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-tenant-routing-fallback-deny/SKILL.md"
     },
     {
       "name": "otel-tls-mtls-rotation-drill",
@@ -6559,10 +7609,28 @@
       "source_path": "curated-skill-sources/public-data-ethics/public-camera-privacy-display-policy/SKILL.md"
     },
     {
+      "name": "public-data-aggregated-count-small-cell-suppression",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-aggregated-count-small-cell-suppression/SKILL.md"
+    },
+    {
       "name": "public-data-attribution-license-boundary",
       "category": "Public-data provenance, privacy & ethics",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/public-data-ethics/public-data-attribution-license-boundary/SKILL.md"
+    },
+    {
+      "name": "public-data-claim-to-source-citation-linkage",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-claim-to-source-citation-linkage/SKILL.md"
+    },
+    {
+      "name": "public-data-collection-purpose-limitation",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-collection-purpose-limitation/SKILL.md"
     },
     {
       "name": "public-data-confidence-and-estimate-labeling",
@@ -6571,10 +7639,142 @@
       "source_path": "curated-skill-sources/public-data-ethics/public-data-confidence-and-estimate-labeling/SKILL.md"
     },
     {
+      "name": "public-data-confidence-calibration-display",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-confidence-calibration-display/SKILL.md"
+    },
+    {
+      "name": "public-data-correction-request-handling",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-correction-request-handling/SKILL.md"
+    },
+    {
+      "name": "public-data-demographic-proxy-risk-assessment",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-demographic-proxy-risk-assessment/SKILL.md"
+    },
+    {
+      "name": "public-data-derived-dataset-lineage",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-derived-dataset-lineage/SKILL.md"
+    },
+    {
+      "name": "public-data-disagreement-preservation",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-disagreement-preservation/SKILL.md"
+    },
+    {
+      "name": "public-data-license-obligation-change-monitor",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-license-obligation-change-monitor/SKILL.md"
+    },
+    {
+      "name": "public-data-location-temporal-coarsening",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-location-temporal-coarsening/SKILL.md"
+    },
+    {
+      "name": "public-data-model-inference-disclosure",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-model-inference-disclosure/SKILL.md"
+    },
+    {
+      "name": "public-data-open-license-attribution-generator",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-open-license-attribution-generator/SKILL.md"
+    },
+    {
+      "name": "public-data-provenance-chain-integrity",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-provenance-chain-integrity/SKILL.md"
+    },
+    {
+      "name": "public-data-public-camera-retention-boundary",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-public-camera-retention-boundary/SKILL.md"
+    },
+    {
+      "name": "public-data-republish-redistribution-boundary",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-republish-redistribution-boundary/SKILL.md"
+    },
+    {
+      "name": "public-data-retention-expiry-enforcement",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-retention-expiry-enforcement/SKILL.md"
+    },
+    {
+      "name": "public-data-robots-terms-and-contract-review",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-robots-terms-and-contract-review/SKILL.md"
+    },
+    {
+      "name": "public-data-sampling-bias-review",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-sampling-bias-review/SKILL.md"
+    },
+    {
+      "name": "public-data-sensitive-attribute-suppression",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-sensitive-attribute-suppression/SKILL.md"
+    },
+    {
+      "name": "public-data-source-outage-fallback-label",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-source-outage-fallback-label/SKILL.md"
+    },
+    {
+      "name": "public-data-source-quality-comparison-policy",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-source-quality-comparison-policy/SKILL.md"
+    },
+    {
       "name": "public-data-source-terms-matrix",
       "category": "Public-data provenance, privacy & ethics",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/public-data-ethics/public-data-source-terms-matrix/SKILL.md"
+    },
+    {
+      "name": "public-data-stale-source-warning-propagation",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-stale-source-warning-propagation/SKILL.md"
+    },
+    {
+      "name": "public-data-subject-reidentification-risk-review",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-subject-reidentification-risk-review/SKILL.md"
+    },
+    {
+      "name": "public-data-takedown-and-cache-purge",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-takedown-and-cache-purge/SKILL.md"
+    },
+    {
+      "name": "public-data-uncertainty-range-visualization",
+      "category": "Public-data provenance, privacy & ethics",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/public-data-ethics/public-data-uncertainty-range-visualization/SKILL.md"
     },
     {
       "name": "public-feed-retention-minimization",
@@ -8521,6 +9721,42 @@
       "source_path": "curated-skill-sources/scene-navigation-sharing/scene-state-unknown-field-preservation/SKILL.md"
     },
     {
+      "name": "civilization-cultural-drift-measurement",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-cultural-drift-measurement/SKILL.md"
+    },
+    {
+      "name": "civilization-demographic-cohort-invariants",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-demographic-cohort-invariants/SKILL.md"
+    },
+    {
+      "name": "civilization-event-conflict-resolution",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-event-conflict-resolution/SKILL.md"
+    },
+    {
+      "name": "civilization-faction-relationship-transitivity-audit",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-faction-relationship-transitivity-audit/SKILL.md"
+    },
+    {
+      "name": "civilization-governance-transition-state-machine",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-governance-transition-state-machine/SKILL.md"
+    },
+    {
+      "name": "civilization-history-causal-link-validation",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-history-causal-link-validation/SKILL.md"
+    },
+    {
       "name": "civilization-migration-validation",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
@@ -8533,16 +9769,64 @@
       "source_path": "curated-skill-sources/simulation-world/civilization-production-throughput-audit/SKILL.md"
     },
     {
+      "name": "civilization-resource-depletion-recovery-policy",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-resource-depletion-recovery-policy/SKILL.md"
+    },
+    {
       "name": "civilization-resource-reservation",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/civilization-resource-reservation/SKILL.md"
     },
     {
+      "name": "civilization-settlement-growth-capacity-model",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-settlement-growth-capacity-model/SKILL.md"
+    },
+    {
+      "name": "civilization-technology-diffusion-gate",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-technology-diffusion-gate/SKILL.md"
+    },
+    {
+      "name": "civilization-trade-route-risk-model",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/civilization-trade-route-risk-model/SKILL.md"
+    },
+    {
       "name": "ecology-feedback-loop-validation",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/ecology-feedback-loop-validation/SKILL.md"
+    },
+    {
+      "name": "economy-agent-bankruptcy-recovery-rules",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/economy-agent-bankruptcy-recovery-rules/SKILL.md"
+    },
+    {
+      "name": "economy-inflation-sink-source-attribution",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/economy-inflation-sink-source-attribution/SKILL.md"
+    },
+    {
+      "name": "economy-inventory-reservation-expiry",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/economy-inventory-reservation-expiry/SKILL.md"
+    },
+    {
+      "name": "economy-market-clearing-convergence-test",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/economy-market-clearing-convergence-test/SKILL.md"
     },
     {
       "name": "economy-market-price-stability",
@@ -8581,6 +9865,12 @@
       "source_path": "curated-skill-sources/simulation-world/large-population-simulation-lod/SKILL.md"
     },
     {
+      "name": "npc-action-cost-utility-normalization",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-action-cost-utility-normalization/SKILL.md"
+    },
+    {
       "name": "npc-action-precondition-validation",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
@@ -8593,16 +9883,94 @@
       "source_path": "curated-skill-sources/simulation-world/npc-agent-decision-budget/SKILL.md"
     },
     {
+      "name": "npc-agent-lifecycle-leak-detection",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-agent-lifecycle-leak-detection/SKILL.md"
+    },
+    {
+      "name": "npc-behavior-tree-interrupt-priority",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-behavior-tree-interrupt-priority/SKILL.md"
+    },
+    {
+      "name": "npc-belief-state-evidence-decay",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-belief-state-evidence-decay/SKILL.md"
+    },
+    {
+      "name": "npc-crowd-avoidance-determinism",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-crowd-avoidance-determinism/SKILL.md"
+    },
+    {
+      "name": "npc-decision-explanation-trace",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-decision-explanation-trace/SKILL.md"
+    },
+    {
+      "name": "npc-dialogue-context-grounding-audit",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-dialogue-context-grounding-audit/SKILL.md"
+    },
+    {
+      "name": "npc-dialogue-fact-vs-inference-separation",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-dialogue-fact-vs-inference-separation/SKILL.md"
+    },
+    {
       "name": "npc-goal-lifecycle",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/npc-goal-lifecycle/SKILL.md"
     },
     {
+      "name": "npc-group-coordination-deadlock-break",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-group-coordination-deadlock-break/SKILL.md"
+    },
+    {
+      "name": "npc-job-role-capability-matching",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-job-role-capability-matching/SKILL.md"
+    },
+    {
+      "name": "npc-knowledge-provenance-labeling",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-knowledge-provenance-labeling/SKILL.md"
+    },
+    {
+      "name": "npc-memory-conflicting-source-resolution",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-memory-conflicting-source-resolution/SKILL.md"
+    },
+    {
+      "name": "npc-memory-episodic-compaction",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-memory-episodic-compaction/SKILL.md"
+    },
+    {
       "name": "npc-memory-knowledge-model",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/npc-memory-knowledge-model/SKILL.md"
+    },
+    {
+      "name": "npc-memory-privacy-boundary",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-memory-privacy-boundary/SKILL.md"
     },
     {
       "name": "npc-memory-retention-policy",
@@ -8617,10 +9985,40 @@
       "source_path": "curated-skill-sources/simulation-world/npc-memory-retrieval-budget/SKILL.md"
     },
     {
+      "name": "npc-multi-agent-resource-contention",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-multi-agent-resource-contention/SKILL.md"
+    },
+    {
+      "name": "npc-navigation-goal-replan-throttle",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-navigation-goal-replan-throttle/SKILL.md"
+    },
+    {
+      "name": "npc-path-cost-dynamic-hazard-contract",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-path-cost-dynamic-hazard-contract/SKILL.md"
+    },
+    {
       "name": "npc-pathfinding-budget-policy",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/npc-pathfinding-budget-policy/SKILL.md"
+    },
+    {
+      "name": "npc-perception-budget-foveated-sampling",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-perception-budget-foveated-sampling/SKILL.md"
+    },
+    {
+      "name": "npc-planning-horizon-adaptive-budget",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-planning-horizon-adaptive-budget/SKILL.md"
     },
     {
       "name": "npc-schedule-constraint-validation",
@@ -8629,16 +10027,76 @@
       "source_path": "curated-skill-sources/simulation-world/npc-schedule-constraint-validation/SKILL.md"
     },
     {
+      "name": "npc-senses-line-of-sight-occlusion-check",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-senses-line-of-sight-occlusion-check/SKILL.md"
+    },
+    {
+      "name": "npc-sensory-event-deduplication",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-sensory-event-deduplication/SKILL.md"
+    },
+    {
+      "name": "npc-simulation-deterministic-seed-isolation",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-simulation-deterministic-seed-isolation/SKILL.md"
+    },
+    {
       "name": "npc-simulation-lod-policy",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/npc-simulation-lod-policy/SKILL.md"
     },
     {
+      "name": "npc-skill-progression-learning-curve",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-skill-progression-learning-curve/SKILL.md"
+    },
+    {
+      "name": "npc-sleep-wake-accuracy-bound",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-sleep-wake-accuracy-bound/SKILL.md"
+    },
+    {
+      "name": "npc-social-relationship-delta-contract",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-social-relationship-delta-contract/SKILL.md"
+    },
+    {
+      "name": "npc-state-checkpoint-resume",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-state-checkpoint-resume/SKILL.md"
+    },
+    {
       "name": "npc-state-machine-design",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/npc-state-machine-design/SKILL.md"
+    },
+    {
+      "name": "npc-threat-assessment-confidence-calibration",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-threat-assessment-confidence-calibration/SKILL.md"
+    },
+    {
+      "name": "npc-utility-ai-contextual-goal-hysteresis",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-utility-ai-contextual-goal-hysteresis/SKILL.md"
+    },
+    {
+      "name": "npc-world-knowledge-staleness-policy",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/npc-world-knowledge-staleness-policy/SKILL.md"
     },
     {
       "name": "procedural-civilization-simulation",
@@ -8651,6 +10109,12 @@
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/simulation-agent-wakeup-sleep-contract/SKILL.md"
+    },
+    {
+      "name": "simulation-deterministic-parallel-partitioning",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-deterministic-parallel-partitioning/SKILL.md"
     },
     {
       "name": "simulation-event-ordering-contract",
@@ -8713,6 +10177,12 @@
       "source_path": "curated-skill-sources/simulation-world/simulation-soak-test-design/SKILL.md"
     },
     {
+      "name": "simulation-spatial-neighbor-query-capacity",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/simulation-spatial-neighbor-query-capacity/SKILL.md"
+    },
+    {
       "name": "simulation-state-migration-validation",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
@@ -8749,10 +10219,40 @@
       "source_path": "curated-skill-sources/simulation-world/utility-ai-score-calibration/SKILL.md"
     },
     {
+      "name": "world-history-causal-graph-cycle-detection",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/world-history-causal-graph-cycle-detection/SKILL.md"
+    },
+    {
+      "name": "world-history-event-identity-deduplication",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/world-history-event-identity-deduplication/SKILL.md"
+    },
+    {
       "name": "world-history-event-sourcing",
       "category": "Simulation, NPCs & world history",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/simulation-world/world-history-event-sourcing/SKILL.md"
+    },
+    {
+      "name": "world-history-retcon-impact-propagation",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/world-history-retcon-impact-propagation/SKILL.md"
+    },
+    {
+      "name": "world-history-timeline-consistency-check",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/world-history-timeline-consistency-check/SKILL.md"
+    },
+    {
+      "name": "world-history-uncertainty-and-rumor-labeling",
+      "category": "Simulation, NPCs & world history",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/simulation-world/world-history-uncertainty-and-rumor-labeling/SKILL.md"
     },
     {
       "name": "world-simulation-save-snapshot",

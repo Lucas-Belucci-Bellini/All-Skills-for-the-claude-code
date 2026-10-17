@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
+Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **1624**
-- Current total: **1750**
+- Original curated skills: **1874**
+- Current total: **2000**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **750**
+- Remaining to long-term target: **500**
 
 ## Categories
 
@@ -589,7 +589,7 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - flipper-usb-host-compatibility-fixtures — NEW
 - flipper-usb-rpc-transport-timeout — NEW
 
-### Game content & save systems (30)
+### Game content & save systems (80)
 
 - animation-event-timing-audit — NEW
 - animation-state-machine-audit — NEW
@@ -601,6 +601,27 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - asset-load-cancellation-race-audit — NEW
 - asset-pipeline-incremental-build-validation — NEW
 - audio-mix-loudness-budget — NEW
+- content-addressed-asset-gc-safety — NEW
+- content-animation-skeleton-remap-validation — NEW
+- content-asset-import-profile-version-pin — NEW
+- content-asset-license-metadata-audit — NEW
+- content-audio-bank-version-compatibility — NEW
+- content-build-deterministic-package-order — NEW
+- content-crafting-recipe-content-id-stability — NEW
+- content-dlc-dependency-cycle-check — NEW
+- content-editor-generated-file-determinism — NEW
+- content-hotfix-asset-override-rollback — NEW
+- content-item-metadata-schema-versioning — NEW
+- content-large-world-streaming-asset-budget — NEW
+- content-localization-fallback-coverage — NEW
+- content-missing-locale-key-budget — NEW
+- content-mod-package-namespacing — NEW
+- content-object-pool-reset-contract — NEW
+- content-pipeline-source-artifact-lineage — NEW
+- content-procedural-seed-metadata-capture — NEW
+- content-quest-graph-unreachable-node-audit — NEW
+- content-scripted-event-dependency-cycle — NEW
+- content-texture-atlas-overflow-check — NEW
 - dialogue-branch-continuity-audit — NEW
 - game-save-fault-injection — NEW
 - game-save-recovery-testing — NEW
@@ -612,7 +633,36 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - procedural-content-regression-testing — NEW
 - procedural-level-pacing-validation — NEW
 - procedural-world-golden-test — NEW
+- save-asset-bundle-missing-dependency-report — NEW
+- save-asset-reference-gc-protection — NEW
+- save-atomic-metadata-index-update — NEW
+- save-backup-restore-cross-version-test — NEW
+- save-checksum-manifest-validation — NEW
+- save-chunk-coordinate-range-validation — NEW
+- save-cloud-sync-conflict-resolution — NEW
+- save-content-id-stable-alias-registry — NEW
+- save-corrupt-chunk-quarantine-recovery — NEW
+- save-cross-platform-path-case-normalization — NEW
+- save-disk-full-safe-shutdown — NEW
+- save-dlc-entitlement-loss-behavior — NEW
+- save-downgrade-refusal-reason-report — NEW
+- save-entity-component-schema-version-map — NEW
 - save-format-compatibility-fixtures — NEW
+- save-forward-compatible-unknown-field-preservation — NEW
+- save-incremental-snapshot-consistency — NEW
+- save-migration-fixture-generation — NEW
+- save-migration-progress-checkpoint — NEW
+- save-missing-mod-content-placeholder-policy — NEW
+- save-modpack-instance-fingerprint — NEW
+- save-pending-write-flush-shutdown — NEW
+- save-player-world-state-cross-reference — NEW
+- save-schema-upgrade-idempotency — NEW
+- save-slot-lock-contention-recovery — NEW
+- save-snapshot-age-retention-policy — NEW
+- save-streaming-content-manifest-closure — NEW
+- save-user-generated-content-quarantine — NEW
+- save-versioned-component-defaults — NEW
+- save-world-region-partial-load-recovery — NEW
 - texture-mipmap-import-validation — NEW
 - tutorial-onboarding-progression-audit — NEW
 - ui-state-transition-invariant-testing — NEW
@@ -652,16 +702,41 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - unreal-game-dev
 - verifying-turn-based-games
 
-### Geospatial visualization & map UX (10)
+### Geospatial visualization & map UX (35)
 
 - geoviz-3d-terrain-provider-fallback-validation — NEW
+- geoviz-accessible-map-alternative-table-parity — NEW
+- geoviz-antimeridian-wraparound — NEW
 - geoviz-camera-ground-clearance-invariants — NEW
 - geoviz-camera-state-restoration-contract — NEW
+- geoviz-cluster-expansion-selection-retention — NEW
+- geoviz-coordinate-axis-order-interop — NEW
 - geoviz-coordinate-input-normalization — NEW
+- geoviz-coordinate-reference-system-switch-validation — NEW
+- geoviz-feature-identity-stability-across-refresh — NEW
+- geoviz-geocoder-confidence-threshold-policy — NEW
 - geoviz-geocoder-fallback-chain-audit — NEW
+- geoviz-geojson-invalid-feature-quarantine — NEW
 - geoviz-globe-render-budget-profiling — NEW
+- geoviz-large-feature-geometry-simplification — NEW
+- geoviz-map-export-sensitive-layer-redaction — NEW
 - geoviz-map-layer-visibility-state-contract — NEW
+- geoviz-map-layer-z-order-contract — NEW
+- geoviz-map-loading-empty-error-state-contract — NEW
+- geoviz-map-query-cancellation-stale-result-guard — NEW
+- geoviz-map-scale-denominator-consistency — NEW
 - geoviz-map-source-attribution-completeness — NEW
+- geoviz-marker-overlap-selection-determinism — NEW
+- geoviz-polar-projection-distortion-warning — NEW
+- geoviz-projection-transition-animation-safety — NEW
+- geoviz-raster-tile-attribution-preservation — NEW
+- geoviz-route-geometry-snap-tolerance — NEW
+- geoviz-spatial-index-version-compatibility — NEW
+- geoviz-spatial-join-null-geometry-audit — NEW
+- geoviz-spatial-selection-boundary-inclusion — NEW
+- geoviz-time-slider-data-availability-contract — NEW
+- geoviz-vector-tile-cache-invalidation — NEW
+- geoviz-viewport-filter-query-parity — NEW
 - geoviz-viewport-selection-context-integrity — NEW
 - geoviz-world-overlay-label-budget — NEW
 
@@ -670,17 +745,42 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - cardputer-buddy
 - m5-onboard
 
-### Live public-data ingestion & reliability (10)
+### Live public-data ingestion & reliability (35)
 
+- livefeed-api-key-rotation-no-downtime — NEW
+- livefeed-cache-stale-while-revalidate-policy — NEW
+- livefeed-cursor-checkpoint-atomicity — NEW
 - livefeed-data-fallback-provenance-labeling — NEW
+- livefeed-data-quality-quarantine-thresholds — NEW
+- livefeed-dead-letter-triage-classification — NEW
+- livefeed-deduplication-key-schema-evolution — NEW
 - livefeed-entity-deduplication-window — NEW
+- livefeed-entity-merge-conflict-audit — NEW
+- livefeed-event-time-vs-ingestion-time-contract — NEW
+- livefeed-feed-contract-change-canary — NEW
 - livefeed-feed-schema-drift-detection — NEW
+- livefeed-freshness-slo-breach-attribution — NEW
+- livefeed-idempotent-event-upsert-contract — NEW
+- livefeed-incremental-sync-deletion-tombstones — NEW
+- livefeed-out-of-order-event-reconciliation — NEW
+- livefeed-pagination-token-expiry-recovery — NEW
+- livefeed-partial-response-field-preservation — NEW
+- livefeed-payload-size-budget-and-truncation — NEW
 - livefeed-polling-backoff-budget — NEW
 - livefeed-provider-adapter-contract — NEW
+- livefeed-provider-circuit-breaker-half-open-test — NEW
+- livefeed-provider-clock-skew-detection — NEW
 - livefeed-provider-quota-circuit-breaker — NEW
+- livefeed-provider-revision-ordering-policy — NEW
+- livefeed-provider-schema-compatibility-window — NEW
+- livefeed-rate-limit-budget-sharing — NEW
 - livefeed-runtime-source-health-dashboard — NEW
+- livefeed-source-backfill-bounded-replay — NEW
+- livefeed-source-outage-vs-empty-result — NEW
 - livefeed-source-timestamp-normalization — NEW
 - livefeed-stale-data-status-propagation — NEW
+- livefeed-synthetic-vs-live-fixture-isolation — NEW
+- livefeed-watermark-late-event-policy — NEW
 - livefeed-websocket-reconnect-state-machine — NEW
 
 ### Mathematics (3)
@@ -931,7 +1031,7 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - projecte-emc-version-upgrade-item-delta — NEW
 - projecte-emc-zero-value-sentinel-audit — NEW
 
-### Networked games & determinism (16)
+### Networked games & determinism (66)
 
 - multiplayer-client-prediction-divergence-triage — NEW
 - multiplayer-determinism-testing — NEW
@@ -942,7 +1042,57 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - multiplayer-reconnect-command-deduplication — NEW
 - multiplayer-reconnect-state-resync — NEW
 - multiplayer-state-sync — NEW
+- netcode-anti-replay-window-validation — NEW
+- netcode-authenticated-player-identity-binding — NEW
+- netcode-client-clock-drift-estimation — NEW
+- netcode-client-command-rate-limit — NEW
+- netcode-component-authority-matrix — NEW
+- netcode-connection-flood-load-shedding — NEW
+- netcode-cross-region-rollback-limit — NEW
+- netcode-ddos-backpressure-protection — NEW
+- netcode-deterministic-physics-timestep-contract — NEW
+- netcode-disconnect-grace-period-policy — NEW
+- netcode-duplicate-command-side-effect-guard — NEW
+- netcode-encrypted-session-key-rotation — NEW
+- netcode-entity-id-reuse-generation-check — NEW
+- netcode-feature-capability-negotiation — NEW
+- netcode-floating-point-divergence-triage — NEW
+- netcode-host-migration-state-hash — NEW
+- netcode-idempotent-command-result-cache — NEW
+- netcode-input-buffer-latency-adaptation — NEW
+- netcode-interest-management-boundary-tests — NEW
+- netcode-inventory-action-authority-check — NEW
+- netcode-jitter-buffer-capacity — NEW
 - netcode-lag-compensation-validation — NEW
+- netcode-late-join-world-state-snapshot — NEW
+- netcode-lobby-ready-state-race — NEW
+- netcode-matchmaking-region-affinity — NEW
+- netcode-network-simulation-fault-matrix — NEW
+- netcode-out-of-order-fragment-reassembly — NEW
+- netcode-oversized-packet-rejection — NEW
+- netcode-packet-parser-fuzz-regression — NEW
+- netcode-packet-sequence-wraparound — NEW
+- netcode-partial-reconnect-state-repair — NEW
+- netcode-prediction-correction-smoothing-budget — NEW
+- netcode-protocol-field-default-compatibility — NEW
+- netcode-reconnect-session-expiry — NEW
+- netcode-region-handoff-state-transfer — NEW
+- netcode-replay-capture-integrity — NEW
+- netcode-replay-version-compatibility — NEW
+- netcode-replication-priority-starvation — NEW
+- netcode-rng-stream-authority-isolation — NEW
+- netcode-rollback-ring-buffer-capacity — NEW
+- netcode-rollback-side-effect-deferral — NEW
+- netcode-server-authority-transfer — NEW
+- netcode-server-side-movement-validation — NEW
+- netcode-session-close-resource-cleanup — NEW
+- netcode-session-ticket-expiry — NEW
+- netcode-snapshot-baseline-resynchronization — NEW
+- netcode-spatial-replication-budget — NEW
+- netcode-spawn-despawn-atomicity — NEW
+- netcode-speedhack-anomaly-evidence — NEW
+- netcode-state-snapshot-delta-chain-limit — NEW
+- netcode-tick-rate-negotiation — NEW
 - network-authoritative-state-reconciliation — NEW
 - network-packet-budget-analysis — NEW
 - network-packet-fragmentation-boundary-testing — NEW
@@ -1003,14 +1153,18 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - supply-chain-vulnerability-sla-aging — NEW
 - supply-chain-workflow-permission-minimum — NEW
 
-### OpenTelemetry Collector observability (50)
+### OpenTelemetry Collector observability (75)
 
+- otel-alert-signal-lag-budget — NEW
 - otel-attribute-cardinality-budget — NEW
 - otel-auth-extension-boundary — NEW
+- otel-batch-processor-loss-under-backpressure — NEW
+- otel-collector-build-distribution-compatibility — NEW
 - otel-collector-config-schema-validation — NEW
 - otel-collector-health-check-semantic — NEW
 - otel-collector-heap-profile-regression — NEW
 - otel-collector-memory-limiter-order — NEW
+- otel-collector-pipeline-config-reload-shadow-test — NEW
 - otel-collector-queue-capacity-budget — NEW
 - otel-collector-self-observability-budget — NEW
 - otel-collector-shutdown-drain-budget — NEW
@@ -1021,37 +1175,58 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - otel-config-secret-reference-audit — NEW
 - otel-connector-cycle-detection — NEW
 - otel-exemplar-retention-contract — NEW
+- otel-exponential-histogram-downconversion-loss — NEW
 - otel-exporter-ack-loss-recovery — NEW
+- otel-exporter-failover-deduplication — NEW
 - otel-exporter-fanout-backpressure — NEW
 - otel-exporter-retry-expiry — NEW
 - otel-exporter-timeout-vs-retry — NEW
+- otel-extension-dependency-order-contract — NEW
 - otel-failed-export-dead-letter-policy — NEW
+- otel-filelog-checkpoint-permission-audit — NEW
 - otel-filelog-offset-recovery — NEW
 - otel-filelog-rotation-gap-detection — NEW
+- otel-filter-processor-drop-reason-metrics — NEW
 - otel-head-sampling-consistency — NEW
 - otel-histogram-boundary-compatibility — NEW
 - otel-http-grpc-endpoint-parity — NEW
 - otel-instrumentation-duplicate-detection — NEW
 - otel-k8s-attribute-cardinality-filter — NEW
 - otel-log-body-size-limits — NEW
+- otel-log-event-timestamp-normalization — NEW
 - otel-log-severity-normalization — NEW
+- otel-memory-limiter-spike-recovery — NEW
+- otel-metric-label-allowlist-enforcement — NEW
 - otel-metric-name-unit-contract — NEW
 - otel-metric-series-explosion-test — NEW
+- otel-metric-temporality-conversion-audit — NEW
+- otel-multi-exporter-partial-success-accounting — NEW
 - otel-multi-pipeline-isolation — NEW
 - otel-observability-signal-cost-allocation — NEW
 - otel-otlp-ingest-payload-limit — NEW
 - otel-otlp-protocol-compatibility — NEW
+- otel-pipeline-config-secret-leak-scanning — NEW
 - otel-pipeline-load-test-profile — NEW
+- otel-pipeline-replay-fixture-determinism — NEW
+- otel-processor-cardinality-change-impact — NEW
 - otel-processor-ordering-contract — NEW
+- otel-queue-persistence-corruption-drill — NEW
 - otel-receiver-pipeline-ownership — NEW
+- otel-receiver-shutdown-graceful-drain — NEW
 - otel-resource-attribute-normalization — NEW
+- otel-resource-attribute-trust-boundary — NEW
 - otel-resource-detection-precedence — NEW
 - otel-semconv-version-transition — NEW
 - otel-span-link-retention-audit — NEW
+- otel-span-link-volume-budget — NEW
 - otel-span-redaction-policy — NEW
+- otel-span-status-error-mapping-consistency — NEW
 - otel-tail-sampling-memory-budget — NEW
+- otel-tail-sampling-policy-change-test — NEW
 - otel-telemetry-drop-reason-reporting — NEW
+- otel-telemetry-schema-migration-parity — NEW
 - otel-tenant-routing-attribute-integrity — NEW
+- otel-tenant-routing-fallback-deny — NEW
 - otel-tls-mtls-rotation-drill — NEW
 - otel-trace-context-baggage-boundary — NEW
 - otel-trace-id-validation-policy — NEW
@@ -1162,16 +1337,41 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - playwright-websocket-close-diagnostics — NEW
 - playwright-worker-resource-contention — NEW
 
-### Public-data provenance, privacy & ethics (10)
+### Public-data provenance, privacy & ethics (35)
 
 - geo-alpr-location-only-data-guardrail — NEW
 - geo-privacy-location-precision-budget — NEW
 - geo-track-data-privacy-safe-export — NEW
 - geospatial-incident-data-ethical-use-gate — NEW
 - public-camera-privacy-display-policy — NEW
+- public-data-aggregated-count-small-cell-suppression — NEW
 - public-data-attribution-license-boundary — NEW
+- public-data-claim-to-source-citation-linkage — NEW
+- public-data-collection-purpose-limitation — NEW
 - public-data-confidence-and-estimate-labeling — NEW
+- public-data-confidence-calibration-display — NEW
+- public-data-correction-request-handling — NEW
+- public-data-demographic-proxy-risk-assessment — NEW
+- public-data-derived-dataset-lineage — NEW
+- public-data-disagreement-preservation — NEW
+- public-data-license-obligation-change-monitor — NEW
+- public-data-location-temporal-coarsening — NEW
+- public-data-model-inference-disclosure — NEW
+- public-data-open-license-attribution-generator — NEW
+- public-data-provenance-chain-integrity — NEW
+- public-data-public-camera-retention-boundary — NEW
+- public-data-republish-redistribution-boundary — NEW
+- public-data-retention-expiry-enforcement — NEW
+- public-data-robots-terms-and-contract-review — NEW
+- public-data-sampling-bias-review — NEW
+- public-data-sensitive-attribute-suppression — NEW
+- public-data-source-outage-fallback-label — NEW
+- public-data-source-quality-comparison-policy — NEW
 - public-data-source-terms-matrix — NEW
+- public-data-stale-source-warning-propagation — NEW
+- public-data-subject-reidentification-risk-review — NEW
+- public-data-takedown-and-cache-purge — NEW
+- public-data-uncertainty-range-visualization — NEW
 - public-feed-retention-minimization — NEW
 - sensitive-location-aggregation-threshold — NEW
 
@@ -1512,30 +1712,74 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - scene-share-url-state-roundtrip — NEW
 - scene-state-unknown-field-preservation — NEW
 
-### Simulation, NPCs & world history (40)
+### Simulation, NPCs & world history (90)
 
+- civilization-cultural-drift-measurement — NEW
+- civilization-demographic-cohort-invariants — NEW
+- civilization-event-conflict-resolution — NEW
+- civilization-faction-relationship-transitivity-audit — NEW
+- civilization-governance-transition-state-machine — NEW
+- civilization-history-causal-link-validation — NEW
 - civilization-migration-validation — NEW
 - civilization-production-throughput-audit — NEW
+- civilization-resource-depletion-recovery-policy — NEW
 - civilization-resource-reservation — NEW
+- civilization-settlement-growth-capacity-model — NEW
+- civilization-technology-diffusion-gate — NEW
+- civilization-trade-route-risk-model — NEW
 - ecology-feedback-loop-validation — NEW
+- economy-agent-bankruptcy-recovery-rules — NEW
+- economy-inflation-sink-source-attribution — NEW
+- economy-inventory-reservation-expiry — NEW
+- economy-market-clearing-convergence-test — NEW
 - economy-market-price-stability — NEW
 - economy-production-sink-invariants — NEW
 - economy-simulation-balancing — NEW
 - emergent-behavior-test-design — NEW
 - game-ai-decision-architecture — NEW
 - large-population-simulation-lod — NEW
+- npc-action-cost-utility-normalization — NEW
 - npc-action-precondition-validation — NEW
 - npc-agent-decision-budget — NEW
+- npc-agent-lifecycle-leak-detection — NEW
+- npc-behavior-tree-interrupt-priority — NEW
+- npc-belief-state-evidence-decay — NEW
+- npc-crowd-avoidance-determinism — NEW
+- npc-decision-explanation-trace — NEW
+- npc-dialogue-context-grounding-audit — NEW
+- npc-dialogue-fact-vs-inference-separation — NEW
 - npc-goal-lifecycle — NEW
+- npc-group-coordination-deadlock-break — NEW
+- npc-job-role-capability-matching — NEW
+- npc-knowledge-provenance-labeling — NEW
+- npc-memory-conflicting-source-resolution — NEW
+- npc-memory-episodic-compaction — NEW
 - npc-memory-knowledge-model — NEW
+- npc-memory-privacy-boundary — NEW
 - npc-memory-retention-policy — NEW
 - npc-memory-retrieval-budget — NEW
+- npc-multi-agent-resource-contention — NEW
+- npc-navigation-goal-replan-throttle — NEW
+- npc-path-cost-dynamic-hazard-contract — NEW
 - npc-pathfinding-budget-policy — NEW
+- npc-perception-budget-foveated-sampling — NEW
+- npc-planning-horizon-adaptive-budget — NEW
 - npc-schedule-constraint-validation — NEW
+- npc-senses-line-of-sight-occlusion-check — NEW
+- npc-sensory-event-deduplication — NEW
+- npc-simulation-deterministic-seed-isolation — NEW
 - npc-simulation-lod-policy — NEW
+- npc-skill-progression-learning-curve — NEW
+- npc-sleep-wake-accuracy-bound — NEW
+- npc-social-relationship-delta-contract — NEW
+- npc-state-checkpoint-resume — NEW
 - npc-state-machine-design — NEW
+- npc-threat-assessment-confidence-calibration — NEW
+- npc-utility-ai-contextual-goal-hysteresis — NEW
+- npc-world-knowledge-staleness-policy — NEW
 - procedural-civilization-simulation — NEW
 - simulation-agent-wakeup-sleep-contract — NEW
+- simulation-deterministic-parallel-partitioning — NEW
 - simulation-event-ordering-contract — NEW
 - simulation-event-queue-overflow-policy — NEW
 - simulation-long-run-memory-stability — NEW
@@ -1546,13 +1790,19 @@ Updated: 2026-10-17. The unified bundle contains 1750 distinct skills.
 - simulation-rng-stream-isolation — NEW
 - simulation-scheduler-fairness-audit — NEW
 - simulation-soak-test-design — NEW
+- simulation-spatial-neighbor-query-capacity — NEW
 - simulation-state-migration-validation — NEW
 - simulation-tick-backlog-recovery — NEW
 - simulation-time-dilation-contract — NEW
 - simulation-world-invariant-checkpointing — NEW
 - social-rumor-propagation-model — NEW
 - utility-ai-score-calibration — NEW
+- world-history-causal-graph-cycle-detection — NEW
+- world-history-event-identity-deduplication — NEW
 - world-history-event-sourcing — NEW
+- world-history-retcon-impact-propagation — NEW
+- world-history-timeline-consistency-check — NEW
+- world-history-uncertainty-and-rumor-labeling — NEW
 - world-simulation-save-snapshot — NEW
 
 ### Skill library governance (84)
