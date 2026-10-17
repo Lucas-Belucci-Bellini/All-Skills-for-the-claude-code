@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-16",
-  "unique_skills": 850,
+  "updated_at": "2026-10-17",
+  "unique_skills": 1300,
   "target": 2500,
-  "remaining": 1650,
+  "remaining": 1200,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -851,6 +851,306 @@
       "category": "Developer environment & CLI tooling",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/developer-cli-tooling/shell-command-path-quoting-audit/SKILL.md"
+    },
+    {
+      "name": "buildkit-attestation-verification-gate",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildkit-attestation-verification-gate/SKILL.md"
+    },
+    {
+      "name": "buildkit-cache-key-content-addressing",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildkit-cache-key-content-addressing/SKILL.md"
+    },
+    {
+      "name": "buildkit-cache-trust-boundary",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildkit-cache-trust-boundary/SKILL.md"
+    },
+    {
+      "name": "buildkit-entitlement-minimality",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildkit-entitlement-minimality/SKILL.md"
+    },
+    {
+      "name": "buildkit-provenance-mode-policy",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildkit-provenance-mode-policy/SKILL.md"
+    },
+    {
+      "name": "buildkit-reproducible-artifact-evidence",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildkit-reproducible-artifact-evidence/SKILL.md"
+    },
+    {
+      "name": "buildkit-secret-mount-nonpersistence",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildkit-secret-mount-nonpersistence/SKILL.md"
+    },
+    {
+      "name": "buildkit-ssh-forwarding-scope",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildkit-ssh-forwarding-scope/SKILL.md"
+    },
+    {
+      "name": "buildx-cache-poisoning-hardening",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-cache-poisoning-hardening/SKILL.md"
+    },
+    {
+      "name": "buildx-cache-stale-layer-reproduction",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-cache-stale-layer-reproduction/SKILL.md"
+    },
+    {
+      "name": "buildx-ci-platform-smoke-matrix",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-ci-platform-smoke-matrix/SKILL.md"
+    },
+    {
+      "name": "buildx-cross-compile-toolchain-pin",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-cross-compile-toolchain-pin/SKILL.md"
+    },
+    {
+      "name": "buildx-emulation-vs-native-build-parity",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-emulation-vs-native-build-parity/SKILL.md"
+    },
+    {
+      "name": "buildx-inline-cache-metadata-check",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-inline-cache-metadata-check/SKILL.md"
+    },
+    {
+      "name": "buildx-multi-platform-manifest-parity",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-multi-platform-manifest-parity/SKILL.md"
+    },
+    {
+      "name": "buildx-network-entitlement-review",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-network-entitlement-review/SKILL.md"
+    },
+    {
+      "name": "buildx-output-type-delivery-contract",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-output-type-delivery-contract/SKILL.md"
+    },
+    {
+      "name": "buildx-parallel-build-resource-budget",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-parallel-build-resource-budget/SKILL.md"
+    },
+    {
+      "name": "buildx-platform-specific-dependency-audit",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-platform-specific-dependency-audit/SKILL.md"
+    },
+    {
+      "name": "buildx-qemu-version-compatibility",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-qemu-version-compatibility/SKILL.md"
+    },
+    {
+      "name": "buildx-registry-mirror-consistency",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-registry-mirror-consistency/SKILL.md"
+    },
+    {
+      "name": "buildx-registry-push-dry-run",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-registry-push-dry-run/SKILL.md"
+    },
+    {
+      "name": "buildx-remote-cache-auth-isolation",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/buildx-remote-cache-auth-isolation/SKILL.md"
+    },
+    {
+      "name": "container-build-failure-log-triage",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/container-build-failure-log-triage/SKILL.md"
+    },
+    {
+      "name": "container-capability-drop-matrix",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/container-capability-drop-matrix/SKILL.md"
+    },
+    {
+      "name": "container-entrypoint-signal-forwarding",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/container-entrypoint-signal-forwarding/SKILL.md"
+    },
+    {
+      "name": "container-filesystem-write-surface",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/container-filesystem-write-surface/SKILL.md"
+    },
+    {
+      "name": "container-healthcheck-contract",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/container-healthcheck-contract/SKILL.md"
+    },
+    {
+      "name": "container-readonly-rootfs-compatibility",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/container-readonly-rootfs-compatibility/SKILL.md"
+    },
+    {
+      "name": "container-stop-timeout-budget",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/container-stop-timeout-budget/SKILL.md"
+    },
+    {
+      "name": "container-user-namespace-compatibility",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/container-user-namespace-compatibility/SKILL.md"
+    },
+    {
+      "name": "docker-build-arg-secret-leak-audit",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/docker-build-arg-secret-leak-audit/SKILL.md"
+    },
+    {
+      "name": "dockerfile-apt-repository-pinning",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-apt-repository-pinning/SKILL.md"
+    },
+    {
+      "name": "dockerfile-base-image-refresh-policy",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-base-image-refresh-policy/SKILL.md"
+    },
+    {
+      "name": "dockerfile-build-context-size-budget",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-build-context-size-budget/SKILL.md"
+    },
+    {
+      "name": "dockerfile-build-environment-locale",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-build-environment-locale/SKILL.md"
+    },
+    {
+      "name": "dockerfile-build-runtime-secret-separation",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-build-runtime-secret-separation/SKILL.md"
+    },
+    {
+      "name": "dockerfile-copy-ignore-boundary",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-copy-ignore-boundary/SKILL.md"
+    },
+    {
+      "name": "dockerfile-minimal-runtime-dependency-audit",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-minimal-runtime-dependency-audit/SKILL.md"
+    },
+    {
+      "name": "dockerfile-multi-stage-artifact-copy",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-multi-stage-artifact-copy/SKILL.md"
+    },
+    {
+      "name": "dockerfile-native-library-runtime-parity",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-native-library-runtime-parity/SKILL.md"
+    },
+    {
+      "name": "dockerfile-nonroot-runtime-contract",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-nonroot-runtime-contract/SKILL.md"
+    },
+    {
+      "name": "dockerfile-package-manager-cache-cleanup",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-package-manager-cache-cleanup/SKILL.md"
+    },
+    {
+      "name": "dockerfile-reproducible-timestamp-control",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-reproducible-timestamp-control/SKILL.md"
+    },
+    {
+      "name": "dockerfile-stage-dependency-minimization",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/dockerfile-stage-dependency-minimization/SKILL.md"
+    },
+    {
+      "name": "oci-image-label-provenance-contract",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/oci-image-label-provenance-contract/SKILL.md"
+    },
+    {
+      "name": "oci-index-platform-coverage",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/oci-index-platform-coverage/SKILL.md"
+    },
+    {
+      "name": "oci-layer-size-regression-budget",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/oci-layer-size-regression-budget/SKILL.md"
+    },
+    {
+      "name": "oci-manifest-digest-verification",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/oci-manifest-digest-verification/SKILL.md"
+    },
+    {
+      "name": "oci-sbom-attestation-subject-parity",
+      "category": "Docker Buildx and BuildKit engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/docker-buildkit-engineering/oci-sbom-attestation-subject-parity/SKILL.md"
     },
     {
       "name": "api-example-schema-conformance",
@@ -2665,6 +2965,306 @@
       "source_path": null
     },
     {
+      "name": "k8s-admission-webhook-timeout-failure-policy",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-admission-webhook-timeout-failure-policy/SKILL.md"
+    },
+    {
+      "name": "k8s-api-deprecation-migration-gate",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-api-deprecation-migration-gate/SKILL.md"
+    },
+    {
+      "name": "k8s-autoscaler-scale-down-stability",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-autoscaler-scale-down-stability/SKILL.md"
+    },
+    {
+      "name": "k8s-cert-manager-renewal-readiness",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-cert-manager-renewal-readiness/SKILL.md"
+    },
+    {
+      "name": "k8s-cluster-cost-allocation-labels",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-cluster-cost-allocation-labels/SKILL.md"
+    },
+    {
+      "name": "k8s-cluster-upgrade-skew-matrix",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-cluster-upgrade-skew-matrix/SKILL.md"
+    },
+    {
+      "name": "k8s-configmap-rollout-trigger",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-configmap-rollout-trigger/SKILL.md"
+    },
+    {
+      "name": "k8s-controller-finalizer-cleanup",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-controller-finalizer-cleanup/SKILL.md"
+    },
+    {
+      "name": "k8s-controller-reconcile-idempotency",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-controller-reconcile-idempotency/SKILL.md"
+    },
+    {
+      "name": "k8s-controller-status-condition-contract",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-controller-status-condition-contract/SKILL.md"
+    },
+    {
+      "name": "k8s-controller-workqueue-backoff",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-controller-workqueue-backoff/SKILL.md"
+    },
+    {
+      "name": "k8s-crd-version-conversion-contract",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-crd-version-conversion-contract/SKILL.md"
+    },
+    {
+      "name": "k8s-dns-failure-domain-diagnostics",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-dns-failure-domain-diagnostics/SKILL.md"
+    },
+    {
+      "name": "k8s-egress-dns-allowlist",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-egress-dns-allowlist/SKILL.md"
+    },
+    {
+      "name": "k8s-etcd-backup-restore-evidence",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-etcd-backup-restore-evidence/SKILL.md"
+    },
+    {
+      "name": "k8s-event-retention-incident-correlation",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-event-retention-incident-correlation/SKILL.md"
+    },
+    {
+      "name": "k8s-gateway-api-route-ownership",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-gateway-api-route-ownership/SKILL.md"
+    },
+    {
+      "name": "k8s-hpa-metric-freshness",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-hpa-metric-freshness/SKILL.md"
+    },
+    {
+      "name": "k8s-ingress-route-tls-consistency",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-ingress-route-tls-consistency/SKILL.md"
+    },
+    {
+      "name": "k8s-limitrange-defaulting-impact",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-limitrange-defaulting-impact/SKILL.md"
+    },
+    {
+      "name": "k8s-liveness-probe-deadlock-avoidance",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-liveness-probe-deadlock-avoidance/SKILL.md"
+    },
+    {
+      "name": "k8s-multi-tenant-namespace-boundary",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-multi-tenant-namespace-boundary/SKILL.md"
+    },
+    {
+      "name": "k8s-mutating-webhook-idempotency",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-mutating-webhook-idempotency/SKILL.md"
+    },
+    {
+      "name": "k8s-namespace-quota-headroom",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-namespace-quota-headroom/SKILL.md"
+    },
+    {
+      "name": "k8s-network-policy-default-deny",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-network-policy-default-deny/SKILL.md"
+    },
+    {
+      "name": "k8s-node-drain-workload-protection",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-node-drain-workload-protection/SKILL.md"
+    },
+    {
+      "name": "k8s-operator-leader-election",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-operator-leader-election/SKILL.md"
+    },
+    {
+      "name": "k8s-persistent-volume-restore-validation",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-persistent-volume-restore-validation/SKILL.md"
+    },
+    {
+      "name": "k8s-pod-disruption-budget-review",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-pod-disruption-budget-review/SKILL.md"
+    },
+    {
+      "name": "k8s-pod-security-admission-review",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-pod-security-admission-review/SKILL.md"
+    },
+    {
+      "name": "k8s-prestop-grace-period-budget",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-prestop-grace-period-budget/SKILL.md"
+    },
+    {
+      "name": "k8s-priority-class-safety",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-priority-class-safety/SKILL.md"
+    },
+    {
+      "name": "k8s-progress-deadline-diagnostics",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-progress-deadline-diagnostics/SKILL.md"
+    },
+    {
+      "name": "k8s-rbac-role-escalation-audit",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-rbac-role-escalation-audit/SKILL.md"
+    },
+    {
+      "name": "k8s-readiness-gate-external-dependency",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-readiness-gate-external-dependency/SKILL.md"
+    },
+    {
+      "name": "k8s-readiness-probe-budget",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-readiness-probe-budget/SKILL.md"
+    },
+    {
+      "name": "k8s-resource-request-limit-consistency",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-resource-request-limit-consistency/SKILL.md"
+    },
+    {
+      "name": "k8s-rollout-max-surge-availability",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-rollout-max-surge-availability/SKILL.md"
+    },
+    {
+      "name": "k8s-rollout-max-unavailable-capacity",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-rollout-max-unavailable-capacity/SKILL.md"
+    },
+    {
+      "name": "k8s-secret-volume-rotation",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-secret-volume-rotation/SKILL.md"
+    },
+    {
+      "name": "k8s-service-account-token-automount",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-service-account-token-automount/SKILL.md"
+    },
+    {
+      "name": "k8s-service-selector-endpoint-parity",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-service-selector-endpoint-parity/SKILL.md"
+    },
+    {
+      "name": "k8s-startup-probe-rollout-guard",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-startup-probe-rollout-guard/SKILL.md"
+    },
+    {
+      "name": "k8s-statefulset-ordered-rollout-readiness",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-statefulset-ordered-rollout-readiness/SKILL.md"
+    },
+    {
+      "name": "k8s-termination-drain-order",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-termination-drain-order/SKILL.md"
+    },
+    {
+      "name": "k8s-topology-spread-failure-domain",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-topology-spread-failure-domain/SKILL.md"
+    },
+    {
+      "name": "k8s-validating-webhook-dry-run",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-validating-webhook-dry-run/SKILL.md"
+    },
+    {
+      "name": "k8s-volume-expansion-preflight",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-volume-expansion-preflight/SKILL.md"
+    },
+    {
+      "name": "k8s-vpa-hpa-conflict-detection",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-vpa-hpa-conflict-detection/SKILL.md"
+    },
+    {
+      "name": "k8s-workload-identity-binding",
+      "category": "Kubernetes operations and controller engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/kubernetes-operational-engineering/k8s-workload-identity-binding/SKILL.md"
+    },
+    {
       "name": "livefeed-data-fallback-provenance-labeling",
       "category": "Live public-data ingestion & reliability",
       "origin": "new-authored",
@@ -3055,6 +3655,906 @@
       "source_path": "curated-skill-sources/networked-games/rollback-netcode-state-coverage/SKILL.md"
     },
     {
+      "name": "openfeature-accessibility-flag-regression",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-accessibility-flag-regression/SKILL.md"
+    },
+    {
+      "name": "openfeature-cache-invalidation-propagation",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-cache-invalidation-propagation/SKILL.md"
+    },
+    {
+      "name": "openfeature-canary-to-full-rollout-gate",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-canary-to-full-rollout-gate/SKILL.md"
+    },
+    {
+      "name": "openfeature-client-server-evaluation-parity",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-client-server-evaluation-parity/SKILL.md"
+    },
+    {
+      "name": "openfeature-default-value-type-safety",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-default-value-type-safety/SKILL.md"
+    },
+    {
+      "name": "openfeature-deprecated-flag-reference-scan",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-deprecated-flag-reference-scan/SKILL.md"
+    },
+    {
+      "name": "openfeature-domain-provider-routing",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-domain-provider-routing/SKILL.md"
+    },
+    {
+      "name": "openfeature-evaluation-context-merge-order",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-evaluation-context-merge-order/SKILL.md"
+    },
+    {
+      "name": "openfeature-evaluation-context-pii-minimization",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-evaluation-context-pii-minimization/SKILL.md"
+    },
+    {
+      "name": "openfeature-evaluation-reason-telemetry",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-evaluation-reason-telemetry/SKILL.md"
+    },
+    {
+      "name": "openfeature-event-listener-cleanup",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-event-listener-cleanup/SKILL.md"
+    },
+    {
+      "name": "openfeature-experiment-guardrail-metrics",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-experiment-guardrail-metrics/SKILL.md"
+    },
+    {
+      "name": "openfeature-experiment-novelty-effect-warning",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-experiment-novelty-effect-warning/SKILL.md"
+    },
+    {
+      "name": "openfeature-experiment-peeking-policy",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-experiment-peeking-policy/SKILL.md"
+    },
+    {
+      "name": "openfeature-experiment-sample-ratio-mismatch",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-experiment-sample-ratio-mismatch/SKILL.md"
+    },
+    {
+      "name": "openfeature-experiment-stop-rule-contract",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-experiment-stop-rule-contract/SKILL.md"
+    },
+    {
+      "name": "openfeature-exposure-before-outcome-order",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-exposure-before-outcome-order/SKILL.md"
+    },
+    {
+      "name": "openfeature-exposure-event-deduplication",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-exposure-event-deduplication/SKILL.md"
+    },
+    {
+      "name": "openfeature-flag-audit-log-integrity",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-flag-audit-log-integrity/SKILL.md"
+    },
+    {
+      "name": "openfeature-flag-cache-ttl-budget",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-flag-cache-ttl-budget/SKILL.md"
+    },
+    {
+      "name": "openfeature-flag-cleanup-dependency-graph",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-flag-cleanup-dependency-graph/SKILL.md"
+    },
+    {
+      "name": "openfeature-flag-config-drift-detection",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-flag-config-drift-detection/SKILL.md"
+    },
+    {
+      "name": "openfeature-flag-config-signature-validation",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-flag-config-signature-validation/SKILL.md"
+    },
+    {
+      "name": "openfeature-flag-evaluation-latency-budget",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-flag-evaluation-latency-budget/SKILL.md"
+    },
+    {
+      "name": "openfeature-flag-expiry-owner-contract",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-flag-expiry-owner-contract/SKILL.md"
+    },
+    {
+      "name": "openfeature-flag-key-namespacing",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-flag-key-namespacing/SKILL.md"
+    },
+    {
+      "name": "openfeature-flag-metadata-schema",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-flag-metadata-schema/SKILL.md"
+    },
+    {
+      "name": "openfeature-flag-type-migration-plan",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-flag-type-migration-plan/SKILL.md"
+    },
+    {
+      "name": "openfeature-high-cardinality-context-guard",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-high-cardinality-context-guard/SKILL.md"
+    },
+    {
+      "name": "openfeature-hook-side-effect-budget",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-hook-side-effect-budget/SKILL.md"
+    },
+    {
+      "name": "openfeature-hooks-ordering-contract",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-hooks-ordering-contract/SKILL.md"
+    },
+    {
+      "name": "openfeature-kill-switch-availability",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-kill-switch-availability/SKILL.md"
+    },
+    {
+      "name": "openfeature-missing-flag-safe-default",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-missing-flag-safe-default/SKILL.md"
+    },
+    {
+      "name": "openfeature-offline-evaluation-policy",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-offline-evaluation-policy/SKILL.md"
+    },
+    {
+      "name": "openfeature-permanent-flag-retirement",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-permanent-flag-retirement/SKILL.md"
+    },
+    {
+      "name": "openfeature-progressive-rollout-math",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-progressive-rollout-math/SKILL.md"
+    },
+    {
+      "name": "openfeature-provider-error-code-mapping",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-provider-error-code-mapping/SKILL.md"
+    },
+    {
+      "name": "openfeature-provider-failover-consistency",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-provider-failover-consistency/SKILL.md"
+    },
+    {
+      "name": "openfeature-provider-readiness-health-gate",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-provider-readiness-health-gate/SKILL.md"
+    },
+    {
+      "name": "openfeature-provider-ready-state",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-provider-ready-state/SKILL.md"
+    },
+    {
+      "name": "openfeature-provider-secret-isolation",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-provider-secret-isolation/SKILL.md"
+    },
+    {
+      "name": "openfeature-provider-shutdown-contract",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-provider-shutdown-contract/SKILL.md"
+    },
+    {
+      "name": "openfeature-randomization-seed-reproducibility",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-randomization-seed-reproducibility/SKILL.md"
+    },
+    {
+      "name": "openfeature-rollback-trigger-observability",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-rollback-trigger-observability/SKILL.md"
+    },
+    {
+      "name": "openfeature-rollout-cohort-stability",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-rollout-cohort-stability/SKILL.md"
+    },
+    {
+      "name": "openfeature-sdk-version-compatibility",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-sdk-version-compatibility/SKILL.md"
+    },
+    {
+      "name": "openfeature-stale-provider-data-detection",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-stale-provider-data-detection/SKILL.md"
+    },
+    {
+      "name": "openfeature-sticky-assignment-cookie-scope",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-sticky-assignment-cookie-scope/SKILL.md"
+    },
+    {
+      "name": "openfeature-transaction-context-propagation",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-transaction-context-propagation/SKILL.md"
+    },
+    {
+      "name": "openfeature-user-segment-leakage-test",
+      "category": "OpenFeature flag lifecycle and experimentation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/openfeature-flag-governance/openfeature-user-segment-leakage-test/SKILL.md"
+    },
+    {
+      "name": "scorecard-api-data-license-boundary",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-api-data-license-boundary/SKILL.md"
+    },
+    {
+      "name": "scorecard-change-over-change-diff",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-change-over-change-diff/SKILL.md"
+    },
+    {
+      "name": "scorecard-check-coverage-matrix",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-check-coverage-matrix/SKILL.md"
+    },
+    {
+      "name": "scorecard-critical-finding-triage",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-critical-finding-triage/SKILL.md"
+    },
+    {
+      "name": "scorecard-false-positive-expiry",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-false-positive-expiry/SKILL.md"
+    },
+    {
+      "name": "scorecard-release-gate-exemption",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-release-gate-exemption/SKILL.md"
+    },
+    {
+      "name": "scorecard-result-provenance-label",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-result-provenance-label/SKILL.md"
+    },
+    {
+      "name": "scorecard-score-threshold-policy",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-score-threshold-policy/SKILL.md"
+    },
+    {
+      "name": "scorecard-weekly-baseline-drift",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/scorecard-weekly-baseline-drift/SKILL.md"
+    },
+    {
+      "name": "supply-chain-action-sha-pinning",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-action-sha-pinning/SKILL.md"
+    },
+    {
+      "name": "supply-chain-advisory-feed-staleness",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-advisory-feed-staleness/SKILL.md"
+    },
+    {
+      "name": "supply-chain-artifact-retention-policy",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-artifact-retention-policy/SKILL.md"
+    },
+    {
+      "name": "supply-chain-attestation-subject-digest",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-attestation-subject-digest/SKILL.md"
+    },
+    {
+      "name": "supply-chain-build-reproducibility-evidence",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-build-reproducibility-evidence/SKILL.md"
+    },
+    {
+      "name": "supply-chain-build-runner-image-pinning",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-build-runner-image-pinning/SKILL.md"
+    },
+    {
+      "name": "supply-chain-cache-poisoning-review",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-cache-poisoning-review/SKILL.md"
+    },
+    {
+      "name": "supply-chain-codeowners-coverage",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-codeowners-coverage/SKILL.md"
+    },
+    {
+      "name": "supply-chain-commit-signature-verification",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-commit-signature-verification/SKILL.md"
+    },
+    {
+      "name": "supply-chain-container-base-image-digest",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-container-base-image-digest/SKILL.md"
+    },
+    {
+      "name": "supply-chain-container-rootless-policy",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-container-rootless-policy/SKILL.md"
+    },
+    {
+      "name": "supply-chain-dependency-confusion-boundary",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-dependency-confusion-boundary/SKILL.md"
+    },
+    {
+      "name": "supply-chain-dependency-update-pr-validation",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-dependency-update-pr-validation/SKILL.md"
+    },
+    {
+      "name": "supply-chain-fuzzing-regression-triage",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-fuzzing-regression-triage/SKILL.md"
+    },
+    {
+      "name": "supply-chain-image-signature-verification",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-image-signature-verification/SKILL.md"
+    },
+    {
+      "name": "supply-chain-license-policy-exception",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-license-policy-exception/SKILL.md"
+    },
+    {
+      "name": "supply-chain-lockfile-drift-audit",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-lockfile-drift-audit/SKILL.md"
+    },
+    {
+      "name": "supply-chain-package-maintainer-change",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-package-maintainer-change/SKILL.md"
+    },
+    {
+      "name": "supply-chain-package-publish-dry-run",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-package-publish-dry-run/SKILL.md"
+    },
+    {
+      "name": "supply-chain-protected-branch-preflight",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-protected-branch-preflight/SKILL.md"
+    },
+    {
+      "name": "supply-chain-provenance-attestation-check",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-provenance-attestation-check/SKILL.md"
+    },
+    {
+      "name": "supply-chain-provenance-branch-match",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-provenance-branch-match/SKILL.md"
+    },
+    {
+      "name": "supply-chain-registry-auth-scope",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-registry-auth-scope/SKILL.md"
+    },
+    {
+      "name": "supply-chain-release-approval-evidence",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-release-approval-evidence/SKILL.md"
+    },
+    {
+      "name": "supply-chain-release-artifact-hash",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-release-artifact-hash/SKILL.md"
+    },
+    {
+      "name": "supply-chain-release-tag-signature-check",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-release-tag-signature-check/SKILL.md"
+    },
+    {
+      "name": "supply-chain-reusable-workflow-pin",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-reusable-workflow-pin/SKILL.md"
+    },
+    {
+      "name": "supply-chain-runner-isolation",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-runner-isolation/SKILL.md"
+    },
+    {
+      "name": "supply-chain-sbom-component-inventory",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-sbom-component-inventory/SKILL.md"
+    },
+    {
+      "name": "supply-chain-sbom-diff-review",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-sbom-diff-review/SKILL.md"
+    },
+    {
+      "name": "supply-chain-secret-exposure-review",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-secret-exposure-review/SKILL.md"
+    },
+    {
+      "name": "supply-chain-secret-scan-exception-expiry",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-secret-scan-exception-expiry/SKILL.md"
+    },
+    {
+      "name": "supply-chain-security-metadata-required",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-security-metadata-required/SKILL.md"
+    },
+    {
+      "name": "supply-chain-security-policy-drift",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-security-policy-drift/SKILL.md"
+    },
+    {
+      "name": "supply-chain-submodule-commit-provenance",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-submodule-commit-provenance/SKILL.md"
+    },
+    {
+      "name": "supply-chain-transitive-risk-reachability",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-transitive-risk-reachability/SKILL.md"
+    },
+    {
+      "name": "supply-chain-typosquat-suspicion-triage",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-typosquat-suspicion-triage/SKILL.md"
+    },
+    {
+      "name": "supply-chain-untrusted-pr-trigger-boundary",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-untrusted-pr-trigger-boundary/SKILL.md"
+    },
+    {
+      "name": "supply-chain-vulnerability-exploitability-triage",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-vulnerability-exploitability-triage/SKILL.md"
+    },
+    {
+      "name": "supply-chain-vulnerability-sla-aging",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-vulnerability-sla-aging/SKILL.md"
+    },
+    {
+      "name": "supply-chain-workflow-permission-minimum",
+      "category": "OpenSSF Scorecard & software supply chain",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/secure-software-supply-chain/supply-chain-workflow-permission-minimum/SKILL.md"
+    },
+    {
+      "name": "otel-attribute-cardinality-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-attribute-cardinality-budget/SKILL.md"
+    },
+    {
+      "name": "otel-auth-extension-boundary",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-auth-extension-boundary/SKILL.md"
+    },
+    {
+      "name": "otel-collector-config-schema-validation",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-config-schema-validation/SKILL.md"
+    },
+    {
+      "name": "otel-collector-health-check-semantic",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-health-check-semantic/SKILL.md"
+    },
+    {
+      "name": "otel-collector-heap-profile-regression",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-heap-profile-regression/SKILL.md"
+    },
+    {
+      "name": "otel-collector-memory-limiter-order",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-memory-limiter-order/SKILL.md"
+    },
+    {
+      "name": "otel-collector-queue-capacity-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-queue-capacity-budget/SKILL.md"
+    },
+    {
+      "name": "otel-collector-self-observability-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-self-observability-budget/SKILL.md"
+    },
+    {
+      "name": "otel-collector-shutdown-drain-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-shutdown-drain-budget/SKILL.md"
+    },
+    {
+      "name": "otel-collector-startup-config-validation",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-startup-config-validation/SKILL.md"
+    },
+    {
+      "name": "otel-collector-version-skew-matrix",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-collector-version-skew-matrix/SKILL.md"
+    },
+    {
+      "name": "otel-config-reload-atomicity",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-config-reload-atomicity/SKILL.md"
+    },
+    {
+      "name": "otel-config-rollout-canary-plan",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-config-rollout-canary-plan/SKILL.md"
+    },
+    {
+      "name": "otel-config-secret-reference-audit",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-config-secret-reference-audit/SKILL.md"
+    },
+    {
+      "name": "otel-connector-cycle-detection",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-connector-cycle-detection/SKILL.md"
+    },
+    {
+      "name": "otel-exemplar-retention-contract",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exemplar-retention-contract/SKILL.md"
+    },
+    {
+      "name": "otel-exporter-ack-loss-recovery",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exporter-ack-loss-recovery/SKILL.md"
+    },
+    {
+      "name": "otel-exporter-fanout-backpressure",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exporter-fanout-backpressure/SKILL.md"
+    },
+    {
+      "name": "otel-exporter-retry-expiry",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exporter-retry-expiry/SKILL.md"
+    },
+    {
+      "name": "otel-exporter-timeout-vs-retry",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-exporter-timeout-vs-retry/SKILL.md"
+    },
+    {
+      "name": "otel-failed-export-dead-letter-policy",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-failed-export-dead-letter-policy/SKILL.md"
+    },
+    {
+      "name": "otel-filelog-offset-recovery",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-filelog-offset-recovery/SKILL.md"
+    },
+    {
+      "name": "otel-filelog-rotation-gap-detection",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-filelog-rotation-gap-detection/SKILL.md"
+    },
+    {
+      "name": "otel-head-sampling-consistency",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-head-sampling-consistency/SKILL.md"
+    },
+    {
+      "name": "otel-histogram-boundary-compatibility",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-histogram-boundary-compatibility/SKILL.md"
+    },
+    {
+      "name": "otel-http-grpc-endpoint-parity",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-http-grpc-endpoint-parity/SKILL.md"
+    },
+    {
+      "name": "otel-instrumentation-duplicate-detection",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-instrumentation-duplicate-detection/SKILL.md"
+    },
+    {
+      "name": "otel-k8s-attribute-cardinality-filter",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-k8s-attribute-cardinality-filter/SKILL.md"
+    },
+    {
+      "name": "otel-log-body-size-limits",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-log-body-size-limits/SKILL.md"
+    },
+    {
+      "name": "otel-log-severity-normalization",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-log-severity-normalization/SKILL.md"
+    },
+    {
+      "name": "otel-metric-name-unit-contract",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-metric-name-unit-contract/SKILL.md"
+    },
+    {
+      "name": "otel-metric-series-explosion-test",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-metric-series-explosion-test/SKILL.md"
+    },
+    {
+      "name": "otel-multi-pipeline-isolation",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-multi-pipeline-isolation/SKILL.md"
+    },
+    {
+      "name": "otel-observability-signal-cost-allocation",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-observability-signal-cost-allocation/SKILL.md"
+    },
+    {
+      "name": "otel-otlp-ingest-payload-limit",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-otlp-ingest-payload-limit/SKILL.md"
+    },
+    {
+      "name": "otel-otlp-protocol-compatibility",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-otlp-protocol-compatibility/SKILL.md"
+    },
+    {
+      "name": "otel-pipeline-load-test-profile",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-pipeline-load-test-profile/SKILL.md"
+    },
+    {
+      "name": "otel-processor-ordering-contract",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-processor-ordering-contract/SKILL.md"
+    },
+    {
+      "name": "otel-receiver-pipeline-ownership",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-receiver-pipeline-ownership/SKILL.md"
+    },
+    {
+      "name": "otel-resource-attribute-normalization",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-resource-attribute-normalization/SKILL.md"
+    },
+    {
+      "name": "otel-resource-detection-precedence",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-resource-detection-precedence/SKILL.md"
+    },
+    {
+      "name": "otel-semconv-version-transition",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-semconv-version-transition/SKILL.md"
+    },
+    {
+      "name": "otel-span-link-retention-audit",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-span-link-retention-audit/SKILL.md"
+    },
+    {
+      "name": "otel-span-redaction-policy",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-span-redaction-policy/SKILL.md"
+    },
+    {
+      "name": "otel-tail-sampling-memory-budget",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-tail-sampling-memory-budget/SKILL.md"
+    },
+    {
+      "name": "otel-telemetry-drop-reason-reporting",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-telemetry-drop-reason-reporting/SKILL.md"
+    },
+    {
+      "name": "otel-tenant-routing-attribute-integrity",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-tenant-routing-attribute-integrity/SKILL.md"
+    },
+    {
+      "name": "otel-tls-mtls-rotation-drill",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-tls-mtls-rotation-drill/SKILL.md"
+    },
+    {
+      "name": "otel-trace-context-baggage-boundary",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-trace-context-baggage-boundary/SKILL.md"
+    },
+    {
+      "name": "otel-trace-id-validation-policy",
+      "category": "OpenTelemetry Collector observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/opentelemetry-collector-engineering/otel-trace-id-validation-policy/SKILL.md"
+    },
+    {
       "name": "osiris-active-fire-feed-provenance",
       "category": "OSIRIS intelligence platform engineering",
       "origin": "new-authored",
@@ -3353,6 +4853,306 @@
       "category": "OSIRIS intelligence platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/osiris-intelligence-platform/osiris-weather-hazard-normalization/SKILL.md"
+    },
+    {
+      "name": "playwright-accessibility-snapshot-diff",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-accessibility-snapshot-diff/SKILL.md"
+    },
+    {
+      "name": "playwright-api-context-session-parity",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-api-context-session-parity/SKILL.md"
+    },
+    {
+      "name": "playwright-auth-state-expiry",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-auth-state-expiry/SKILL.md"
+    },
+    {
+      "name": "playwright-browser-context-isolation",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-browser-context-isolation/SKILL.md"
+    },
+    {
+      "name": "playwright-browser-version-lockstep",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-browser-version-lockstep/SKILL.md"
+    },
+    {
+      "name": "playwright-cache-cold-warm-comparison",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-cache-cold-warm-comparison/SKILL.md"
+    },
+    {
+      "name": "playwright-ci-browser-dependency-cache",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-ci-browser-dependency-cache/SKILL.md"
+    },
+    {
+      "name": "playwright-clock-freeze-test-design",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-clock-freeze-test-design/SKILL.md"
+    },
+    {
+      "name": "playwright-color-scheme-snapshot",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-color-scheme-snapshot/SKILL.md"
+    },
+    {
+      "name": "playwright-console-error-budget",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-console-error-budget/SKILL.md"
+    },
+    {
+      "name": "playwright-container-font-parity",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-container-font-parity/SKILL.md"
+    },
+    {
+      "name": "playwright-dialog-handler-ownership",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-dialog-handler-ownership/SKILL.md"
+    },
+    {
+      "name": "playwright-download-path-assertion",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-download-path-assertion/SKILL.md"
+    },
+    {
+      "name": "playwright-filechooser-retry-safety",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-filechooser-retry-safety/SKILL.md"
+    },
+    {
+      "name": "playwright-fixture-scope-audit",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-fixture-scope-audit/SKILL.md"
+    },
+    {
+      "name": "playwright-flaky-test-quarantine-policy",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-flaky-test-quarantine-policy/SKILL.md"
+    },
+    {
+      "name": "playwright-focus-restoration-regression",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-focus-restoration-regression/SKILL.md"
+    },
+    {
+      "name": "playwright-frame-locator-ownership",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-frame-locator-ownership/SKILL.md"
+    },
+    {
+      "name": "playwright-global-setup-cleanup",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-global-setup-cleanup/SKILL.md"
+    },
+    {
+      "name": "playwright-keyboard-navigation-contract",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-keyboard-navigation-contract/SKILL.md"
+    },
+    {
+      "name": "playwright-locale-timezone-invariance",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-locale-timezone-invariance/SKILL.md"
+    },
+    {
+      "name": "playwright-mobile-viewport-matrix",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-mobile-viewport-matrix/SKILL.md"
+    },
+    {
+      "name": "playwright-multitenant-browser-isolation",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-multitenant-browser-isolation/SKILL.md"
+    },
+    {
+      "name": "playwright-network-route-determinism",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-network-route-determinism/SKILL.md"
+    },
+    {
+      "name": "playwright-new-tab-race-reproduction",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-new-tab-race-reproduction/SKILL.md"
+    },
+    {
+      "name": "playwright-pageerror-classification",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-pageerror-classification/SKILL.md"
+    },
+    {
+      "name": "playwright-parallel-db-fixture-locking",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-parallel-db-fixture-locking/SKILL.md"
+    },
+    {
+      "name": "playwright-popup-window-lifecycle",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-popup-window-lifecycle/SKILL.md"
+    },
+    {
+      "name": "playwright-project-config-contract",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-project-config-contract/SKILL.md"
+    },
+    {
+      "name": "playwright-randomized-seed-recording",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-randomized-seed-recording/SKILL.md"
+    },
+    {
+      "name": "playwright-react-hydration-readiness",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-react-hydration-readiness/SKILL.md"
+    },
+    {
+      "name": "playwright-reduced-motion-state",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-reduced-motion-state/SKILL.md"
+    },
+    {
+      "name": "playwright-request-failure-triage",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-request-failure-triage/SKILL.md"
+    },
+    {
+      "name": "playwright-response-contract-fixtures",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-response-contract-fixtures/SKILL.md"
+    },
+    {
+      "name": "playwright-retry-artifact-preservation",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-retry-artifact-preservation/SKILL.md"
+    },
+    {
+      "name": "playwright-screenshot-mask-policy",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-screenshot-mask-policy/SKILL.md"
+    },
+    {
+      "name": "playwright-service-worker-state-control",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-service-worker-state-control/SKILL.md"
+    },
+    {
+      "name": "playwright-shadow-dom-boundary",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-shadow-dom-boundary/SKILL.md"
+    },
+    {
+      "name": "playwright-shard-order-independence",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-shard-order-independence/SKILL.md"
+    },
+    {
+      "name": "playwright-storage-state-secret-free",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-storage-state-secret-free/SKILL.md"
+    },
+    {
+      "name": "playwright-test-data-unique-namespace",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-test-data-unique-namespace/SKILL.md"
+    },
+    {
+      "name": "playwright-test-impact-selection",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-test-impact-selection/SKILL.md"
+    },
+    {
+      "name": "playwright-test-timeout-layering",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-test-timeout-layering/SKILL.md"
+    },
+    {
+      "name": "playwright-trace-retention-sanitization",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-trace-retention-sanitization/SKILL.md"
+    },
+    {
+      "name": "playwright-upload-validation-matrix",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-upload-validation-matrix/SKILL.md"
+    },
+    {
+      "name": "playwright-video-evidence-budget",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-video-evidence-budget/SKILL.md"
+    },
+    {
+      "name": "playwright-visual-baseline-governance",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-visual-baseline-governance/SKILL.md"
+    },
+    {
+      "name": "playwright-webfont-layout-stability",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-webfont-layout-stability/SKILL.md"
+    },
+    {
+      "name": "playwright-websocket-close-diagnostics",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-websocket-close-diagnostics/SKILL.md"
+    },
+    {
+      "name": "playwright-worker-resource-contention",
+      "category": "Playwright end-to-end testing",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-worker-resource-contention/SKILL.md"
     },
     {
       "name": "geo-alpr-location-only-data-guardrail",
@@ -5065,6 +6865,606 @@
       "source_path": "curated-skill-sources/skill-library-governance/third-party-skill-provenance-audit/SKILL.md"
     },
     {
+      "name": "supabase-audit-event-retention-policy",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-audit-event-retention-policy/SKILL.md"
+    },
+    {
+      "name": "supabase-auth-email-provider-failure-drill",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-auth-email-provider-failure-drill/SKILL.md"
+    },
+    {
+      "name": "supabase-auth-jwt-claim-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-auth-jwt-claim-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-auth-session-revocation-check",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-auth-session-revocation-check/SKILL.md"
+    },
+    {
+      "name": "supabase-backup-restore-drill-evidence",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-backup-restore-drill-evidence/SKILL.md"
+    },
+    {
+      "name": "supabase-backup-retention-policy",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-backup-retention-policy/SKILL.md"
+    },
+    {
+      "name": "supabase-database-alert-threshold-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-database-alert-threshold-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-database-maintenance-window-plan",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-database-maintenance-window-plan/SKILL.md"
+    },
+    {
+      "name": "supabase-database-secret-rotation",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-database-secret-rotation/SKILL.md"
+    },
+    {
+      "name": "supabase-database-webhook-retry-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-database-webhook-retry-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-edge-function-cors-allowlist",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-cors-allowlist/SKILL.md"
+    },
+    {
+      "name": "supabase-edge-function-idempotency-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-idempotency-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-edge-function-request-size-limit",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-request-size-limit/SKILL.md"
+    },
+    {
+      "name": "supabase-edge-function-secret-redaction",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-secret-redaction/SKILL.md"
+    },
+    {
+      "name": "supabase-edge-function-timeout-budget",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-timeout-budget/SKILL.md"
+    },
+    {
+      "name": "supabase-extension-compatibility-matrix",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-extension-compatibility-matrix/SKILL.md"
+    },
+    {
+      "name": "supabase-generated-types-schema-drift",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-generated-types-schema-drift/SKILL.md"
+    },
+    {
+      "name": "supabase-graphql-schema-exposure-audit",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-graphql-schema-exposure-audit/SKILL.md"
+    },
+    {
+      "name": "supabase-incident-reproduction-bundle",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-incident-reproduction-bundle/SKILL.md"
+    },
+    {
+      "name": "supabase-local-production-parity",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-local-production-parity/SKILL.md"
+    },
+    {
+      "name": "supabase-migration-backfill-checkpointing",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-migration-backfill-checkpointing/SKILL.md"
+    },
+    {
+      "name": "supabase-migration-expand-contract-plan",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-migration-expand-contract-plan/SKILL.md"
+    },
+    {
+      "name": "supabase-migration-lock-duration-budget",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-migration-lock-duration-budget/SKILL.md"
+    },
+    {
+      "name": "supabase-migration-reversible-down-path",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-migration-reversible-down-path/SKILL.md"
+    },
+    {
+      "name": "supabase-pgvector-recall-validation",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-pgvector-recall-validation/SKILL.md"
+    },
+    {
+      "name": "supabase-point-in-time-recovery-acceptance",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-point-in-time-recovery-acceptance/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-connection-pool-budget",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-connection-pool-budget/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-deadlock-reproduction",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-deadlock-reproduction/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-index-usage-review",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-index-usage-review/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-log-pii-scrubbing",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-log-pii-scrubbing/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-query-plan-regression",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-query-plan-regression/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-statement-timeout-matrix",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-statement-timeout-matrix/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-supavisor-mode-compatibility",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-supavisor-mode-compatibility/SKILL.md"
+    },
+    {
+      "name": "supabase-postgres-transaction-isolation-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-transaction-isolation-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-postgrest-relationship-ambiguity",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgrest-relationship-ambiguity/SKILL.md"
+    },
+    {
+      "name": "supabase-realtime-channel-cleanup",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-realtime-channel-cleanup/SKILL.md"
+    },
+    {
+      "name": "supabase-realtime-event-ordering-contract",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-realtime-event-ordering-contract/SKILL.md"
+    },
+    {
+      "name": "supabase-realtime-presence-expiry",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-realtime-presence-expiry/SKILL.md"
+    },
+    {
+      "name": "supabase-realtime-subscription-auth-refresh",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-realtime-subscription-auth-refresh/SKILL.md"
+    },
+    {
+      "name": "supabase-replica-lag-stale-read-policy",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-replica-lag-stale-read-policy/SKILL.md"
+    },
+    {
+      "name": "supabase-rls-policy-coverage-matrix",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-policy-coverage-matrix/SKILL.md"
+    },
+    {
+      "name": "supabase-rls-query-plan-performance",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-query-plan-performance/SKILL.md"
+    },
+    {
+      "name": "supabase-rls-role-escalation-test",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-role-escalation-test/SKILL.md"
+    },
+    {
+      "name": "supabase-rls-tenant-isolation-negative-cases",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-tenant-isolation-negative-cases/SKILL.md"
+    },
+    {
+      "name": "supabase-schema-drift-environment-parity",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-schema-drift-environment-parity/SKILL.md"
+    },
+    {
+      "name": "supabase-seed-fixture-determinism",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-seed-fixture-determinism/SKILL.md"
+    },
+    {
+      "name": "supabase-storage-object-ownership-policy",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-storage-object-ownership-policy/SKILL.md"
+    },
+    {
+      "name": "supabase-storage-orphan-reconciliation",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-storage-orphan-reconciliation/SKILL.md"
+    },
+    {
+      "name": "supabase-storage-signed-url-expiry",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-storage-signed-url-expiry/SKILL.md"
+    },
+    {
+      "name": "supabase-storage-upload-mime-boundary",
+      "category": "Supabase & PostgreSQL platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-storage-upload-mime-boundary/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-dependency-wait-graph",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-dependency-wait-graph/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-failure-injection",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-failure-injection/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-heartbeat-cost-control",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-heartbeat-cost-control/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-idempotency-contract",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-idempotency-contract/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-result-payload-budget",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-result-payload-budget/SKILL.md"
+    },
+    {
+      "name": "temporal-activity-timeout-hierarchy",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-activity-timeout-hierarchy/SKILL.md"
+    },
+    {
+      "name": "temporal-cancellation-propagation",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-cancellation-propagation/SKILL.md"
+    },
+    {
+      "name": "temporal-child-workflow-parent-close-policy",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-child-workflow-parent-close-policy/SKILL.md"
+    },
+    {
+      "name": "temporal-client-connection-recovery",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-client-connection-recovery/SKILL.md"
+    },
+    {
+      "name": "temporal-compensation-saga-order",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-compensation-saga-order/SKILL.md"
+    },
+    {
+      "name": "temporal-continue-as-new-threshold",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-continue-as-new-threshold/SKILL.md"
+    },
+    {
+      "name": "temporal-cron-to-schedule-migration",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-cron-to-schedule-migration/SKILL.md"
+    },
+    {
+      "name": "temporal-data-converter-compatibility",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-data-converter-compatibility/SKILL.md"
+    },
+    {
+      "name": "temporal-deployment-version-routing",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-deployment-version-routing/SKILL.md"
+    },
+    {
+      "name": "temporal-duplicate-signal-idempotency",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-duplicate-signal-idempotency/SKILL.md"
+    },
+    {
+      "name": "temporal-encryption-at-rest-payload-audit",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-encryption-at-rest-payload-audit/SKILL.md"
+    },
+    {
+      "name": "temporal-external-call-outbox-contract",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-external-call-outbox-contract/SKILL.md"
+    },
+    {
+      "name": "temporal-heartbeat-resume-contract",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-heartbeat-resume-contract/SKILL.md"
+    },
+    {
+      "name": "temporal-interceptor-observability",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-interceptor-observability/SKILL.md"
+    },
+    {
+      "name": "temporal-metrics-cardinality-control",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-metrics-cardinality-control/SKILL.md"
+    },
+    {
+      "name": "temporal-namespace-retention-preflight",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-namespace-retention-preflight/SKILL.md"
+    },
+    {
+      "name": "temporal-operator-visibility-query-limit",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-operator-visibility-query-limit/SKILL.md"
+    },
+    {
+      "name": "temporal-patch-removal-safety",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-patch-removal-safety/SKILL.md"
+    },
+    {
+      "name": "temporal-payload-codec-key-rotation",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-payload-codec-key-rotation/SKILL.md"
+    },
+    {
+      "name": "temporal-query-read-only-boundary",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-query-read-only-boundary/SKILL.md"
+    },
+    {
+      "name": "temporal-retry-policy-budget",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-retry-policy-budget/SKILL.md"
+    },
+    {
+      "name": "temporal-schedule-missed-run-recovery",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-schedule-missed-run-recovery/SKILL.md"
+    },
+    {
+      "name": "temporal-schedule-overlap-policy",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-schedule-overlap-policy/SKILL.md"
+    },
+    {
+      "name": "temporal-search-attribute-schema",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-search-attribute-schema/SKILL.md"
+    },
+    {
+      "name": "temporal-server-sdk-version-skew",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-server-sdk-version-skew/SKILL.md"
+    },
+    {
+      "name": "temporal-signal-handler-ordering",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-signal-handler-ordering/SKILL.md"
+    },
+    {
+      "name": "temporal-stale-workflow-owner-triage",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-stale-workflow-owner-triage/SKILL.md"
+    },
+    {
+      "name": "temporal-sticky-cache-pressure",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-sticky-cache-pressure/SKILL.md"
+    },
+    {
+      "name": "temporal-task-queue-backlog-alerting",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-task-queue-backlog-alerting/SKILL.md"
+    },
+    {
+      "name": "temporal-task-timeout-vs-start-timeout",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-task-timeout-vs-start-timeout/SKILL.md"
+    },
+    {
+      "name": "temporal-test-environment-time-skipping",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-test-environment-time-skipping/SKILL.md"
+    },
+    {
+      "name": "temporal-update-validator-contract",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-update-validator-contract/SKILL.md"
+    },
+    {
+      "name": "temporal-worker-build-artifact-compatibility",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-worker-build-artifact-compatibility/SKILL.md"
+    },
+    {
+      "name": "temporal-worker-concurrency-capacity",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-worker-concurrency-capacity/SKILL.md"
+    },
+    {
+      "name": "temporal-worker-identity-permission-audit",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-worker-identity-permission-audit/SKILL.md"
+    },
+    {
+      "name": "temporal-worker-shutdown-drain",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-worker-shutdown-drain/SKILL.md"
+    },
+    {
+      "name": "temporal-worker-task-queue-routing",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-worker-task-queue-routing/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-determinism-linter",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-determinism-linter/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-external-event-correlation",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-external-event-correlation/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-history-growth-audit",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-history-growth-audit/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-input-schema-versioning",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-input-schema-versioning/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-recovery-runbook",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-recovery-runbook/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-replay-regression",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-replay-regression/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-test-fixture-isolation",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-test-fixture-isolation/SKILL.md"
+    },
+    {
+      "name": "temporal-workflow-versioning-marker",
+      "category": "Temporal durable workflow engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-versioning-marker/SKILL.md"
+    },
+    {
       "name": "building-era-authentic-game-audio",
       "category": "UI, art, audio & assets",
       "origin": "existing",
@@ -5105,6 +7505,306 @@
       "category": "UI, art, audio & assets",
       "origin": "existing",
       "source_path": null
+    },
+    {
+      "name": "ai-sdk-agent-duplicate-call-detection",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-duplicate-call-detection/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-agent-max-step-limit",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-max-step-limit/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-agent-memory-expiration",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-memory-expiration/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-audio-transcript-confidence",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-audio-transcript-confidence/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-background-job-cancellation",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-background-job-cancellation/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-browser-tool-domain-allowlist",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-browser-tool-domain-allowlist/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-cancelled-stream-resource-cleanup",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-cancelled-stream-resource-cleanup/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-concurrency-limit",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-concurrency-limit/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-context-window-budget",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-context-window-budget/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-conversation-truncation-policy",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-conversation-truncation-policy/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-cost-attribution-by-tool",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-cost-attribution-by-tool/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-evaluation-deterministic-mocks",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-deterministic-mocks/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-evaluation-golden-set-versioning",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-golden-set-versioning/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-evaluation-provider-variance",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-provider-variance/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-evaluation-regression-thresholds",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-regression-thresholds/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-evaluation-rubric-contract",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-rubric-contract/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-grounding-citation-check",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-grounding-citation-check/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-human-approval-gate",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-human-approval-gate/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-image-reference-retention",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-image-reference-retention/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-json-repair-observability",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-json-repair-observability/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-message-serialization-roundtrip",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-message-serialization-roundtrip/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-model-fallback-compatibility",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-model-fallback-compatibility/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-multimodal-input-size-guard",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-multimodal-input-size-guard/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-multistep-stop-conditions",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-multistep-stop-conditions/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-output-schema-validation",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-output-schema-validation/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-production-shadow-evaluation",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-production-shadow-evaluation/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-prompt-injection-test-matrix",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-prompt-injection-test-matrix/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-prompt-version-rollback",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-prompt-version-rollback/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-provider-capability-matrix",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-provider-capability-matrix/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-provider-error-normalization",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-provider-error-normalization/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-provider-key-isolation",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-provider-key-isolation/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-rag-source-provenance",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-rag-source-provenance/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-rate-limit-backpressure",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-rate-limit-backpressure/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-retrieval-freshness-contract",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-retrieval-freshness-contract/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-retry-budget-and-backoff",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-retry-budget-and-backoff/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-sensitive-data-log-filter",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-sensitive-data-log-filter/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-stream-reconnect-policy",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-stream-reconnect-policy/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-stream-ui-state-machine",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-stream-ui-state-machine/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-streamtext-cancel-handling",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-streamtext-cancel-handling/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-structured-output-nullability",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-structured-output-nullability/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-token-budget-envelope",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-token-budget-envelope/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-authorization-boundary",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-authorization-boundary/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-idempotency-contract",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-idempotency-contract/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-input-schema-guard",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-input-schema-guard/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-output-size-contract",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-output-size-contract/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-result-validation",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-result-validation/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tool-timeout-fallback",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-timeout-fallback/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-tracing-span-cardinality",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tracing-span-cardinality/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-untrusted-tool-result-delimiting",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-untrusted-tool-result-delimiting/SKILL.md"
+    },
+    {
+      "name": "ai-sdk-user-session-scope",
+      "category": "Vercel AI SDK & agent reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
     }
   ]
 }
