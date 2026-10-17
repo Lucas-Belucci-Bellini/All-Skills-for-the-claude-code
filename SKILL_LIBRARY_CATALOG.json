@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-16",
-  "unique_skills": 1150,
+  "updated_at": "2026-10-17",
+  "unique_skills": 1175,
   "target": 2500,
-  "remaining": 1350,
+  "remaining": 1325,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -673,6 +673,12 @@
       "source_path": null
     },
     {
+      "name": "agent-capability-matrix-audit",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-capability-matrix-audit/SKILL.md"
+    },
+    {
       "name": "agent-human-approval-gates",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
@@ -689,6 +695,18 @@
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/agent-plan-vs-execution-verification/SKILL.md"
+    },
+    {
+      "name": "agent-skill-context-budgeting",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-context-budgeting/SKILL.md"
+    },
+    {
+      "name": "agent-skill-request-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-request-contract/SKILL.md"
     },
     {
       "name": "agent-state-checkpointing",
@@ -739,6 +757,18 @@
       "source_path": "curated-skill-sources/agent-tooling/claude-plugin-upgrade-rollback-validation/SKILL.md"
     },
     {
+      "name": "cross-agent-integration-conformance-tests",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/cross-agent-integration-conformance-tests/SKILL.md"
+    },
+    {
+      "name": "cross-agent-skill-adapter-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/cross-agent-skill-adapter-contract/SKILL.md"
+    },
+    {
       "name": "mcp-auth-scope-minimization",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
@@ -785,6 +815,36 @@
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/repository-instruction-conflict-resolution/SKILL.md"
+    },
+    {
+      "name": "skill-broker-authentication-rate-limits",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-authentication-rate-limits/SKILL.md"
+    },
+    {
+      "name": "skill-broker-load-shedding",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-load-shedding/SKILL.md"
+    },
+    {
+      "name": "skill-broker-offline-fallback-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-offline-fallback-contract/SKILL.md"
+    },
+    {
+      "name": "skill-broker-request-idempotency",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-request-idempotency/SKILL.md"
+    },
+    {
+      "name": "skill-distribution-permission-segregation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-distribution-permission-segregation/SKILL.md"
     },
     {
       "name": "tool-call-budget-policy",
@@ -5899,10 +5959,34 @@
       "source_path": "curated-skill-sources/skill-library-governance/agent-output-evidence-traceability/SKILL.md"
     },
     {
+      "name": "agent-skill-feedback-sanitization",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-feedback-sanitization/SKILL.md"
+    },
+    {
+      "name": "automated-skill-gap-intake",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/automated-skill-gap-intake/SKILL.md"
+    },
+    {
+      "name": "automated-skill-proposal-generation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/automated-skill-proposal-generation/SKILL.md"
+    },
+    {
       "name": "automation-change-risk-gating",
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/automation-change-risk-gating/SKILL.md"
+    },
+    {
+      "name": "cross-agent-skill-format-portability-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/cross-agent-skill-format-portability-audit/SKILL.md"
     },
     {
       "name": "license-notice-redistribution-audit",
@@ -5911,10 +5995,40 @@
       "source_path": "curated-skill-sources/skill-library-governance/license-notice-redistribution-audit/SKILL.md"
     },
     {
+      "name": "multi-agent-skill-release-manifest",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/multi-agent-skill-release-manifest/SKILL.md"
+    },
+    {
+      "name": "provider-specific-skill-rendering",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/provider-specific-skill-rendering/SKILL.md"
+    },
+    {
+      "name": "skill-cache-coherence-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-cache-coherence-audit/SKILL.md"
+    },
+    {
       "name": "skill-catalog-taxonomy-consistency",
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/skill-catalog-taxonomy-consistency/SKILL.md"
+    },
+    {
+      "name": "skill-change-ci-validation-gates",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-change-ci-validation-gates/SKILL.md"
+    },
+    {
+      "name": "skill-compatibility-deprecation-propagation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-compatibility-deprecation-propagation/SKILL.md"
     },
     {
       "name": "skill-deduplication-and-consolidation",
@@ -5935,10 +6049,28 @@
       "source_path": "curated-skill-sources/skill-library-governance/skill-frontmatter-schema-compatibility-audit/SKILL.md"
     },
     {
+      "name": "skill-provenance-snapshot-verification",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-provenance-snapshot-verification/SKILL.md"
+    },
+    {
       "name": "skill-quality-evaluation",
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/skill-quality-evaluation/SKILL.md"
+    },
+    {
+      "name": "skill-registry-schema-migration",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-registry-schema-migration/SKILL.md"
+    },
+    {
+      "name": "skill-release-rollback-readiness",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-release-rollback-readiness/SKILL.md"
     },
     {
       "name": "skill-trigger-regression-suite",
@@ -5953,10 +6085,28 @@
       "source_path": "curated-skill-sources/skill-library-governance/skill-trigger-routing-evaluation/SKILL.md"
     },
     {
+      "name": "skill-update-adoption-observability",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-adoption-observability/SKILL.md"
+    },
+    {
+      "name": "skill-update-policy-risk-classification",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-policy-risk-classification/SKILL.md"
+    },
+    {
       "name": "skill-usage-feedback-triage",
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/skill-usage-feedback-triage/SKILL.md"
+    },
+    {
+      "name": "skill-version-pinning-and-upgrade-contract",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-version-pinning-and-upgrade-contract/SKILL.md"
     },
     {
       "name": "third-party-skill-provenance-audit",
