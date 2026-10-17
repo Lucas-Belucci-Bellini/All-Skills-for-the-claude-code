@@ -1,0 +1,1733 @@
+{
+  "schema_version": 1,
+  "base_total": 1250,
+  "milestone_total": 1500,
+  "target": 2500,
+  "skills": [
+    {
+      "name": "agent-skill-request-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-request-contract/SKILL.md"
+    },
+    {
+      "name": "cross-agent-skill-adapter-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/cross-agent-skill-adapter-contract/SKILL.md"
+    },
+    {
+      "name": "agent-capability-matrix-audit",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-capability-matrix-audit/SKILL.md"
+    },
+    {
+      "name": "cross-agent-skill-format-portability-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/cross-agent-skill-format-portability-audit/SKILL.md"
+    },
+    {
+      "name": "skill-version-pinning-and-upgrade-contract",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-version-pinning-and-upgrade-contract/SKILL.md"
+    },
+    {
+      "name": "skill-cache-coherence-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-cache-coherence-audit/SKILL.md"
+    },
+    {
+      "name": "skill-broker-authentication-rate-limits",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-authentication-rate-limits/SKILL.md"
+    },
+    {
+      "name": "skill-broker-offline-fallback-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-offline-fallback-contract/SKILL.md"
+    },
+    {
+      "name": "automated-skill-gap-intake",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/automated-skill-gap-intake/SKILL.md"
+    },
+    {
+      "name": "automated-skill-proposal-generation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/automated-skill-proposal-generation/SKILL.md"
+    },
+    {
+      "name": "skill-change-ci-validation-gates",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-change-ci-validation-gates/SKILL.md"
+    },
+    {
+      "name": "skill-release-rollback-readiness",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-release-rollback-readiness/SKILL.md"
+    },
+    {
+      "name": "agent-skill-feedback-sanitization",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-feedback-sanitization/SKILL.md"
+    },
+    {
+      "name": "cross-agent-integration-conformance-tests",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/cross-agent-integration-conformance-tests/SKILL.md"
+    },
+    {
+      "name": "skill-broker-request-idempotency",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-request-idempotency/SKILL.md"
+    },
+    {
+      "name": "agent-skill-context-budgeting",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-context-budgeting/SKILL.md"
+    },
+    {
+      "name": "skill-registry-schema-migration",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-registry-schema-migration/SKILL.md"
+    },
+    {
+      "name": "provider-specific-skill-rendering",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/provider-specific-skill-rendering/SKILL.md"
+    },
+    {
+      "name": "skill-distribution-permission-segregation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-distribution-permission-segregation/SKILL.md"
+    },
+    {
+      "name": "skill-update-adoption-observability",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-adoption-observability/SKILL.md"
+    },
+    {
+      "name": "skill-compatibility-deprecation-propagation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-compatibility-deprecation-propagation/SKILL.md"
+    },
+    {
+      "name": "skill-provenance-snapshot-verification",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-provenance-snapshot-verification/SKILL.md"
+    },
+    {
+      "name": "skill-broker-load-shedding",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-load-shedding/SKILL.md"
+    },
+    {
+      "name": "skill-update-policy-risk-classification",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-policy-risk-classification/SKILL.md"
+    },
+    {
+      "name": "multi-agent-skill-release-manifest",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/multi-agent-skill-release-manifest/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-registry-snapshot",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-registry-snapshot/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-item-coverage-ledger",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-coverage-ledger/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-missing-item-triage",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-missing-item-triage/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-material-equivalence-map",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-material-equivalence-map/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-processing-chain-invariant",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-processing-chain-invariant/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-ingot-nugget-block-coherence",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-ingot-nugget-block-coherence/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-gem-fragment-value-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-gem-fragment-value-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-byproduct-allocation",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-byproduct-allocation/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-recipe-graph-value-derivation",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-graph-value-derivation/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-renewable-finite-classification",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-renewable-finite-classification/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-dimension-gate-classification",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-dimension-gate-classification/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-biome-gated-resource-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-biome-gated-resource-review/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-progression-item-lock-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-progression-item-lock-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-tool-durability-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-tool-durability-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-enchantment-charge-state-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-enchantment-charge-state-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-fluid-container-integrity",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-fluid-container-integrity/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-nbt-component-state-classification",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-nbt-component-state-classification/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-inventory-container-content-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-inventory-container-content-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-machine-component-tiering",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-machine-component-tiering/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-magic-artifact-tiering",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-magic-artifact-tiering/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-boss-drop-value-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-boss-drop-value-review/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-quest-reward-protection-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-quest-reward-protection-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-item-variant-coverage",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-variant-coverage/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-item-alias-collision-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-alias-collision-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-recipe-output-quantity-normalizer",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-output-quantity-normalizer/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-recipe-alternative-normalization",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-alternative-normalization/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-crafting-remainder-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-crafting-remainder-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-compression-chain-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-compression-chain-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-smelting-cooking-chain-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-smelting-cooking-chain-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-machine-yield-ratio-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-machine-yield-ratio-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-ore-yield-normalization",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-ore-yield-normalization/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-tag-family-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-tag-family-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-custom-item-namespace-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-custom-item-namespace-policy/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-zero-value-sentinel-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-zero-value-sentinel-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-outlier-bound-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-outlier-bound-audit/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-unresolved-registry-path-diagnostics",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-unresolved-registry-path-diagnostics/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-candidate-confidence-record",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-candidate-confidence-record/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-config-schema-version-check",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-config-schema-version-check/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-value-source-confidence-matrix",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-value-source-confidence-matrix/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-acquisition-route-census",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-acquisition-route-census/SKILL.md",
+      "subdomain": "emc-inventory-assignment"
+    },
+    {
+      "name": "projecte-emc-progression-band-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-progression-band-policy/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-progression-curve-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-progression-curve-audit/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-exploration-versus-conversion-tradeoff",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-exploration-versus-conversion-tradeoff/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-automation-throughput-impact",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-automation-throughput-impact/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-renewable-loop-balance-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-renewable-loop-balance-review/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-boss-preparation-progression-cost",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-boss-preparation-progression-cost/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-dimension-milestone-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-dimension-milestone-review/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-tech-magic-parity-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-tech-magic-parity-review/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-craft-time-risk-cost-model",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-craft-time-risk-cost-model/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-multiplayer-economy-profile",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-multiplayer-economy-profile/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-early-game-scarcity-check",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-early-game-scarcity-check/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-exploration-milestone-preservation",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-exploration-milestone-preservation/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-combat-reward-economy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-combat-reward-economy/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-farming-crop-value-balance",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-farming-crop-value-balance/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-mining-throughput-balance",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-mining-throughput-balance/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-dimension-entry-cost-balance",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-dimension-entry-cost-balance/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-tech-tree-bypass-check",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-tech-tree-bypass-check/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-magic-ritual-bypass-check",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-magic-ritual-bypass-check/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-endgame-material-inflation",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-endgame-material-inflation/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-value-distribution-curve",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-value-distribution-curve/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-resource-sink-faucet-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-resource-sink-faucet-audit/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-item-availability-phase-matrix",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-availability-phase-matrix/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-playstyle-difficulty-profile",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-playstyle-difficulty-profile/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-automation-unlock-protection",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-automation-unlock-protection/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-progression-acceptance-scenarios",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-progression-acceptance-scenarios/SKILL.md",
+      "subdomain": "progression-economy"
+    },
+    {
+      "name": "projecte-emc-recipe-cycle-detection",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-cycle-detection/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-reversible-conversion-gain-scan",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-reversible-conversion-gain-scan/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-renewable-to-gated-resource-path",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-renewable-to-gated-resource-path/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-duplicate-output-signal-check",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-duplicate-output-signal-check/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-state-reset-value-laundering-test",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-state-reset-value-laundering-test/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-storage-pipe-network-loop-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-storage-pipe-network-loop-audit/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-processing-byproduct-cascade-test",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-processing-byproduct-cascade-test/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-cross-mod-conversion-arbitrage",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-cross-mod-conversion-arbitrage/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-crafting-remainder-loop-check",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-crafting-remainder-loop-check/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-exploit-regression-matrix",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-exploit-regression-matrix/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-variant-identity-bypass",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-variant-identity-bypass/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-duplicate-recipe-provenance-check",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-duplicate-recipe-provenance-check/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-container-fill-state-arbitrage",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-container-fill-state-arbitrage/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-alternative-recipe-cost-collapse",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-alternative-recipe-cost-collapse/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-free-catalyst-cycle-check",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-free-catalyst-cycle-check/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-time-windowed-resource-farm-test",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-time-windowed-resource-farm-test/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-creative-command-contamination-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-creative-command-contamination-audit/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-server-client-value-parity",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-server-client-value-parity/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-automation-side-effect-regression",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-automation-side-effect-regression/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-exploit-risk-priority-matrix",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-exploit-risk-priority-matrix/SKILL.md",
+      "subdomain": "exploits-integration"
+    },
+    {
+      "name": "projecte-emc-config-merge-diff-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-config-merge-diff-review/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-export-syntax-parse-test",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-export-syntax-parse-test/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-runtime-sample-lookup-smoke",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-runtime-sample-lookup-smoke/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-config-update-impact-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-config-update-impact-audit/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-reviewed-proposed-diff",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-reviewed-proposed-diff/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-missing-coverage-regression",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-missing-coverage-regression/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-ignored-item-reason-register",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-ignored-item-reason-register/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-config-backup-rollback-drill",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-config-backup-rollback-drill/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-version-upgrade-item-delta",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-version-upgrade-item-delta/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-release-manifest-integrity",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-release-manifest-integrity/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-playtest-balance-observation",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-playtest-balance-observation/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-sample-item-validation-plan",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-sample-item-validation-plan/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-loader-compatibility-gate",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-loader-compatibility-gate/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-final-coverage-report",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-final-coverage-report/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "projecte-emc-balance-change-approval-record",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-balance-change-approval-record/SKILL.md",
+      "subdomain": "audit-validation"
+    },
+    {
+      "name": "skill-broker-request-validation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-request-validation/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-content-digest-verification",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-content-digest-verification/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-registry-index-rebuild",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-registry-index-rebuild/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-exact-id-resolution",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-exact-id-resolution/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-semantic-retrieval-fallback",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-semantic-retrieval-fallback/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-query-context-minimization",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-query-context-minimization/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-dependency-closure-resolution",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-dependency-closure-resolution/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-result-ranking-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-broker-result-ranking-audit/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-version-negotiation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-version-negotiation/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-capability-filtering",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-capability-filtering/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-package-integrity-check",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-package-integrity-check/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-payload-size-budget",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-payload-size-budget/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-paginated-result-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-paginated-result-contract/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-stale-index-detection",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-stale-index-detection/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-public-private-scope-enforcement",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-public-private-scope-enforcement/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-search-fallback-matrix",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-search-fallback-matrix/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-request-timeout-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-request-timeout-contract/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-error-envelope-standard",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-error-envelope-standard/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-observability-correlation-id",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-observability-correlation-id/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-readonly-safe-defaults",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-readonly-safe-defaults/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-mcp-tool-description-discovery",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-mcp-tool-description-discovery/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-http-transport-security-review",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-http-transport-security-review/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-local-registry-import",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-local-registry-import/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-metadata-filter-pipeline",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-metadata-filter-pipeline/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-client-capability-advertisement",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-client-capability-advertisement/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-auto-gap-triage-dedup",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-gap-triage-dedup/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-change-proposal-boundary",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-change-proposal-boundary/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-diff-size-and-scope-gate",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-diff-size-and-scope-gate/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-generated-frontmatter-validation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-generated-frontmatter-validation/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-reference-link-integrity",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-reference-link-integrity/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-script-static-analysis",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-script-static-analysis/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-secrets-scan",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-secrets-scan/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-instruction-injection-scan",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-instruction-injection-scan/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-semantic-overlap-review",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-semantic-overlap-review/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-policy-lint",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-policy-lint/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-review-request-package",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-review-request-package/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-release-candidate-quarantine",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-release-candidate-quarantine/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-publish-readiness",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-publish-readiness/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-canary-update-rollout",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-canary-update-rollout/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-revoke-bad-version",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-revoke-bad-version/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-changelog-semantic-diff",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-changelog-semantic-diff/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-update-approval-record",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-update-approval-record/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-priority-from-gap-frequency",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-priority-from-gap-frequency/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-test-run-evidence-pack",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-test-run-evidence-pack/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-skill-dependency-lock",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-skill-dependency-lock/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-retention-and-deprecation-review",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-retention-and-deprecation-review/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-version-bump-policy",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-version-bump-policy/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-change-no-op-detection",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-change-no-op-detection/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-generated-copy-integrity",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-generated-copy-integrity/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "skill-auto-maintainer-review-prompt",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-auto-maintainer-review-prompt/SKILL.md",
+      "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "agent-adapter-claude-code-marketplace-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-claude-code-marketplace-contract/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-codex-plugin-import-validation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-codex-plugin-import-validation/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-chatgpt-mcp-connection-preflight",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-chatgpt-mcp-connection-preflight/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-mcp-capability-probe",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-mcp-capability-probe/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-authn-capability-discovery",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-authn-capability-discovery/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-write-approval-gate",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-write-approval-gate/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-resource-link-resolution",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-resource-link-resolution/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-skill-frontmatter-mapping",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-adapter-skill-frontmatter-mapping/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-unsupported-feature-report",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-unsupported-feature-report/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-path-separator-portability",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-adapter-path-separator-portability/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-hidden-file-packaging",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-adapter-hidden-file-packaging/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-skill-local-reference-packaging",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-adapter-skill-local-reference-packaging/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-agent-version-fingerprint",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-agent-version-fingerprint/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-environment-readiness-check",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-environment-readiness-check/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-connector-timeout-retry",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-connector-timeout-retry/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-request-schema-negotiation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-request-schema-negotiation/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-partial-feature-fallback",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-partial-feature-fallback/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-private-repo-access-test",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-private-repo-access-test/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-refresh-token-boundary",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-refresh-token-boundary/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-tool-permission-mapping",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-tool-permission-mapping/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-client-cache-installation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-client-cache-installation/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-install-uninstall-parity",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-install-uninstall-parity/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-connection-health-check",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-connection-health-check/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-cross-provider-metadata-parity",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-adapter-cross-provider-metadata-parity/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-compatibility-regression-fixtures",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-compatibility-regression-fixtures/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-skill-search-query-rewrite",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-search-query-rewrite/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-candidate-relevance-evaluation",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-candidate-relevance-evaluation/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-selection-confidence-threshold",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-selection-confidence-threshold/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-topk-budget-optimization",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-topk-budget-optimization/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-negative-trigger-regression",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-negative-trigger-regression/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-overlap-resolution-policy",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-overlap-resolution-policy/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-contradiction-detection",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-contradiction-detection/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-dependency-closure-check",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-dependency-closure-check/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-dynamic-reference-loading",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-dynamic-reference-loading/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-context-compression-safety",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-context-compression-safety/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-selection-explanation-record",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-selection-explanation-record/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-cache-tenant-isolation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-cache-tenant-isolation/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-cache-ttl-policy",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-cache-ttl-policy/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-local-cache-integrity",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-local-cache-integrity/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-offline-age-disclosure",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-offline-age-disclosure/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-revocation-cache-flush",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-revocation-cache-flush/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-metadata-ranking-weight-calibration",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-metadata-ranking-weight-calibration/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-retrieval-eval-dataset",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-retrieval-eval-dataset/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-retrieval-recall-measurement",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-retrieval-recall-measurement/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-retrieval-precision-measurement",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-retrieval-precision-measurement/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-routing-drift-detection",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-routing-drift-detection/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-candidate-pairwise-ranking",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-candidate-pairwise-ranking/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-context-use-per-task-budget",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-context-use-per-task-budget/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-skill-composition-conflict-test",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-skill-composition-conflict-test/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "agent-skill-dependency-cycle-analysis",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-skill-dependency-cycle-analysis/SKILL.md",
+      "subdomain": "skill-routing-context-selection"
+    },
+    {
+      "name": "skill-registry-audit-event-schema",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-registry-audit-event-schema/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-access-pattern-privacy",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-registry-access-pattern-privacy/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-tenant-separation-tests",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-tenant-separation-tests/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-secret-redaction-tests",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-secret-redaction-tests/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-api-key-rotation-procedure",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-api-key-rotation-procedure/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-data-retention-policy",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-registry-data-retention-policy/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-incident-response-runbook",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-incident-response-runbook/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-endpoint-healthcheck",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-endpoint-healthcheck/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-dependency-supply-chain-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-broker-dependency-supply-chain-audit/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-signature-verification",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-signature-verification/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-tls-certificate-rotation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-tls-certificate-rotation/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-origin-policy-review",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-origin-policy-review/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-update-rollout-percentage-gate",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-rollout-percentage-gate/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-update-circuit-breaker",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-circuit-breaker/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-update-observability-slo",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-observability-slo/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-update-rate-budget-policy",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-update-rate-budget-policy/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-backup-restore-test",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-backup-restore-test/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-disaster-recovery-objective",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-disaster-recovery-objective/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-content-integrity-sweep",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-content-integrity-sweep/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-audit-log-tamper-resistance",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-audit-log-tamper-resistance/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-privacy-minimization",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-privacy-minimization/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-tenant-quota-enforcement",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-tenant-quota-enforcement/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-failure-injection-plan",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-failure-injection-plan/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-broker-service-dependency-health",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-service-dependency-health/SKILL.md",
+      "subdomain": "broker-security-operations"
+    },
+    {
+      "name": "skill-registry-maintenance-window-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-registry-maintenance-window-contract/SKILL.md",
+      "subdomain": "broker-security-operations"
+    }
+  ]
+}

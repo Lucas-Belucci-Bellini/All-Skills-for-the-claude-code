@@ -1,7 +1,7 @@
 {
   "name": "all-skills-collection",
-  "version": "2.1.11",
-  "description": "A generated, unified collection of 1150 distinct skills with skill-local supporting files.",
+  "version": "2.1.13",
+  "description": "A generated, unified collection of 1500 distinct skills with skill-local supporting files.",
   "author": {
     "name": "Lucas-Belucci-Bellini"
   },
@@ -42,6 +42,12 @@
     "opentelemetry",
     "observability",
     "temporal",
-    "durable-workflows"
+    "durable-workflows",
+    "projecte",
+    "emc-balance",
+    "cross-agent-skills",
+    "skill-broker",
+    "agent-adapters",
+    "skill-lifecycle"
   ]
 }

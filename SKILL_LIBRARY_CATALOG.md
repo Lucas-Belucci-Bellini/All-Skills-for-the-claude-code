@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
+Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **1,024**
-- Current total: **1,150**
+- Original curated skills: **1374**
+- Current total: **1500**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,350**
+- Remaining to long-term target: **1,000**
 
 ## Categories
 
@@ -132,11 +132,42 @@ Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 - skill-development
 - writing-rules
 
-### Claude Code setup & MCP (20)
+### Claude Code setup & MCP (99)
 
+- agent-adapter-agent-version-fingerprint — NEW
+- agent-adapter-authn-capability-discovery — NEW
+- agent-adapter-chatgpt-mcp-connection-preflight — NEW
+- agent-adapter-claude-code-marketplace-contract — NEW
+- agent-adapter-client-cache-installation — NEW
+- agent-adapter-codex-plugin-import-validation — NEW
+- agent-adapter-compatibility-regression-fixtures — NEW
+- agent-adapter-connection-health-check — NEW
+- agent-adapter-connector-timeout-retry — NEW
+- agent-adapter-environment-readiness-check — NEW
+- agent-adapter-install-uninstall-parity — NEW
+- agent-adapter-mcp-capability-probe — NEW
+- agent-adapter-partial-feature-fallback — NEW
+- agent-adapter-private-repo-access-test — NEW
+- agent-adapter-refresh-token-boundary — NEW
+- agent-adapter-request-schema-negotiation — NEW
+- agent-adapter-resource-link-resolution — NEW
+- agent-adapter-tool-permission-mapping — NEW
+- agent-adapter-unsupported-feature-report — NEW
+- agent-adapter-write-approval-gate — NEW
+- agent-capability-matrix-audit — NEW
 - agent-human-approval-gates — NEW
 - agent-memory-write-policy — NEW
 - agent-plan-vs-execution-verification — NEW
+- agent-skill-cache-tenant-isolation — NEW
+- agent-skill-cache-ttl-policy — NEW
+- agent-skill-context-budgeting — NEW
+- agent-skill-context-compression-safety — NEW
+- agent-skill-context-use-per-task-budget — NEW
+- agent-skill-dynamic-reference-loading — NEW
+- agent-skill-local-cache-integrity — NEW
+- agent-skill-offline-age-disclosure — NEW
+- agent-skill-request-contract — NEW
+- agent-skill-revocation-cache-flush — NEW
 - agent-state-checkpointing — NEW
 - agent-task-decomposition — NEW
 - agent-task-handoff-contract — NEW
@@ -145,6 +176,8 @@ Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 - claude-code-mcp-setup — NEW
 - claude-code-session-permission-sanity-check — NEW
 - claude-plugin-upgrade-rollback-validation — NEW
+- cross-agent-integration-conformance-tests — NEW
+- cross-agent-skill-adapter-contract — NEW
 - mcp-auth-scope-minimization — NEW
 - mcp-oauth-token-refresh-boundary-tests — NEW
 - mcp-side-effect-risk-classification — NEW
@@ -153,6 +186,52 @@ Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 - plugin-package-compatibility-test — NEW
 - prompt-injection-boundary-testing — NEW
 - repository-instruction-conflict-resolution — NEW
+- skill-broker-api-key-rotation-procedure — NEW
+- skill-broker-audit-log-tamper-resistance — NEW
+- skill-broker-authentication-rate-limits — NEW
+- skill-broker-capability-filtering — NEW
+- skill-broker-client-capability-advertisement — NEW
+- skill-broker-content-digest-verification — NEW
+- skill-broker-dependency-closure-resolution — NEW
+- skill-broker-endpoint-healthcheck — NEW
+- skill-broker-error-envelope-standard — NEW
+- skill-broker-exact-id-resolution — NEW
+- skill-broker-failure-injection-plan — NEW
+- skill-broker-http-transport-security-review — NEW
+- skill-broker-load-shedding — NEW
+- skill-broker-local-registry-import — NEW
+- skill-broker-mcp-tool-description-discovery — NEW
+- skill-broker-metadata-filter-pipeline — NEW
+- skill-broker-observability-correlation-id — NEW
+- skill-broker-offline-fallback-contract — NEW
+- skill-broker-origin-policy-review — NEW
+- skill-broker-package-integrity-check — NEW
+- skill-broker-paginated-result-contract — NEW
+- skill-broker-payload-size-budget — NEW
+- skill-broker-privacy-minimization — NEW
+- skill-broker-public-private-scope-enforcement — NEW
+- skill-broker-query-context-minimization — NEW
+- skill-broker-readonly-safe-defaults — NEW
+- skill-broker-registry-index-rebuild — NEW
+- skill-broker-request-idempotency — NEW
+- skill-broker-request-timeout-contract — NEW
+- skill-broker-request-validation — NEW
+- skill-broker-search-fallback-matrix — NEW
+- skill-broker-secret-redaction-tests — NEW
+- skill-broker-semantic-retrieval-fallback — NEW
+- skill-broker-service-dependency-health — NEW
+- skill-broker-signature-verification — NEW
+- skill-broker-stale-index-detection — NEW
+- skill-broker-tenant-quota-enforcement — NEW
+- skill-broker-tls-certificate-rotation — NEW
+- skill-broker-version-negotiation — NEW
+- skill-distribution-permission-segregation — NEW
+- skill-registry-backup-restore-test — NEW
+- skill-registry-content-integrity-sweep — NEW
+- skill-registry-disaster-recovery-objective — NEW
+- skill-registry-incident-response-runbook — NEW
+- skill-registry-maintenance-window-contract — NEW
+- skill-registry-tenant-separation-tests — NEW
 - tool-call-budget-policy — NEW
 
 ### Developer environment & CLI tooling (10)
@@ -519,8 +598,108 @@ Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 - telegram-access
 - telegram-configure
 
-### Minecraft & modpack engineering (30)
+### Minecraft & modpack engineering (230)
 
+- atm10-attribute-modifier-stacking-audit — NEW
+- atm10-automated-farm-tick-load — NEW
+- atm10-automation-recipe-loop-interaction — NEW
+- atm10-backup-restore-drill — NEW
+- atm10-biome-feature-injection-conflict — NEW
+- atm10-chunk-corruption-scope-assessment — NEW
+- atm10-chunk-generation-stutter-analysis — NEW
+- atm10-client-server-mod-parity-audit — NEW
+- atm10-client-world-join-failure — NEW
+- atm10-config-migration-compatibility — NEW
+- atm10-config-scope-client-server-check — NEW
+- atm10-config-syntax-regression — NEW
+- atm10-crash-loop-recovery — NEW
+- atm10-crash-report-evidence-triage — NEW
+- atm10-datapack-priority-conflict — NEW
+- atm10-datapack-recipe-load-validation — NEW
+- atm10-dedicated-server-startup-failure — NEW
+- atm10-dimension-transition-crash — NEW
+- atm10-dimension-worldgen-overlap — NEW
+- atm10-duplicate-jar-detection — NEW
+- atm10-enchantment-loot-interaction — NEW
+- atm10-entity-ai-behavior-interference — NEW
+- atm10-entity-buildup-performance-audit — NEW
+- atm10-entity-tick-crash-triage — NEW
+- atm10-event-handler-double-processing — NEW
+- atm10-fluid-transfer-compatibility — NEW
+- atm10-freeze-vs-crash-classification — NEW
+- atm10-gc-pause-correlator — NEW
+- atm10-graphics-driver-vs-mod-diagnosis — NEW
+- atm10-inventory-slot-compatibility — NEW
+- atm10-issue-report-evidence-package — NEW
+- atm10-item-handler-capability-conflict — NEW
+- atm10-java-architecture-runtime-check — NEW
+- atm10-java-memory-gc-triage — NEW
+- atm10-jvm-argument-baseline-review — NEW
+- atm10-launcher-exit-code-context-analysis — NEW
+- atm10-launcher-instance-integrity — NEW
+- atm10-log-timeline-correlation — NEW
+- atm10-loot-table-override-audit — NEW
+- atm10-machine-energy-network-interoperability — NEW
+- atm10-minimal-modset-binary-search — NEW
+- atm10-missing-dependency-detection — NEW
+- atm10-mixin-conflict-isolation — NEW
+- atm10-mod-advancement-trigger-failure — NEW
+- atm10-mod-api-contract-regression — NEW
+- atm10-mod-background-thread-exception — NEW
+- atm10-mod-block-entity-persistence-bug — NEW
+- atm10-mod-client-server-state-divergence — NEW
+- atm10-mod-configuration-value-ignored — NEW
+- atm10-mod-crafting-duplication-reproduction — NEW
+- atm10-mod-crash-on-specific-item-use — NEW
+- atm10-mod-duplicate-item-generation-bug — NEW
+- atm10-mod-entity-ai-freeze — NEW
+- atm10-mod-illegal-state-transition-audit — NEW
+- atm10-mod-item-loss-during-transfer — NEW
+- atm10-mod-keybind-handler-bug — NEW
+- atm10-mod-known-issue-and-fix-verification — NEW
+- atm10-mod-list-fingerprint-capture — NEW
+- atm10-mod-loader-version-compatibility-audit — NEW
+- atm10-mod-machine-stalled-processing — NEW
+- atm10-mod-memory-leak-growth-triage — NEW
+- atm10-mod-nbt-component-roundtrip-validation — NEW
+- atm10-mod-null-pointer-exception-triage — NEW
+- atm10-mod-player-data-reset-regression — NEW
+- atm10-mod-random-drop-regression-validation — NEW
+- atm10-mod-recipe-reload-stale-state — NEW
+- atm10-mod-recipe-result-mismatch — NEW
+- atm10-mod-release-regression-analysis — NEW
+- atm10-mod-rendering-artifact-reproduction — NEW
+- atm10-mod-update-regression-bisect — NEW
+- atm10-mod-world-migration-failure — NEW
+- atm10-modpack-reproducible-test-instance — NEW
+- atm10-modpack-update-diff-audit — NEW
+- atm10-network-packet-channel-collision — NEW
+- atm10-oom-heap-dump-assessment — NEW
+- atm10-performance-mod-interaction-audit — NEW
+- atm10-player-capability-serialization-conflict — NEW
+- atm10-portal-dimension-travel-conflict — NEW
+- atm10-post-fix-regression-suite — NEW
+- atm10-recipe-namespace-overlap — NEW
+- atm10-recipe-registration-failure — NEW
+- atm10-registry-id-collision-investigation — NEW
+- atm10-registry-missing-content-recovery — NEW
+- atm10-renderer-shader-mod-conflict — NEW
+- atm10-rendering-fps-regression — NEW
+- atm10-resource-pack-shader-crash-triage — NEW
+- atm10-safe-mod-addition-protocol — NEW
+- atm10-safe-mod-removal-protocol — NEW
+- atm10-save-write-lag-diagnosis — NEW
+- atm10-server-network-latency-triage — NEW
+- atm10-server-tps-mspt-profiling — NEW
+- atm10-startup-phase-checkpoint — NEW
+- atm10-storage-autocrafting-interaction — NEW
+- atm10-storage-io-stutter-investigation — NEW
+- atm10-structure-generation-duplication — NEW
+- atm10-tag-membership-conflict — NEW
+- atm10-world-save-recovery-preflight — NEW
+- atm10-worldgen-crash-reproduction — NEW
+- atm10-worldgen-memory-pressure — NEW
+- atm10-wrong-loader-artifact-detection — NEW
 - minecraft-client-optional-mod-handshake-validation — NEW
 - minecraft-client-server-parity-check — NEW
 - minecraft-crash-signature-version-index — NEW
@@ -551,6 +730,106 @@ Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 - modpack-reproducibility-snapshot — NEW
 - modpack-server-capacity-planning — NEW
 - modpack-server-rolling-restart-readiness — NEW
+- projecte-emc-acquisition-route-census — NEW
+- projecte-emc-alternative-recipe-cost-collapse — NEW
+- projecte-emc-automation-side-effect-regression — NEW
+- projecte-emc-automation-throughput-impact — NEW
+- projecte-emc-automation-unlock-protection — NEW
+- projecte-emc-balance-change-approval-record — NEW
+- projecte-emc-biome-gated-resource-review — NEW
+- projecte-emc-boss-drop-value-review — NEW
+- projecte-emc-boss-preparation-progression-cost — NEW
+- projecte-emc-byproduct-allocation — NEW
+- projecte-emc-candidate-confidence-record — NEW
+- projecte-emc-combat-reward-economy — NEW
+- projecte-emc-compression-chain-audit — NEW
+- projecte-emc-config-backup-rollback-drill — NEW
+- projecte-emc-config-merge-diff-review — NEW
+- projecte-emc-config-schema-version-check — NEW
+- projecte-emc-config-update-impact-audit — NEW
+- projecte-emc-container-fill-state-arbitrage — NEW
+- projecte-emc-craft-time-risk-cost-model — NEW
+- projecte-emc-crafting-remainder-loop-check — NEW
+- projecte-emc-crafting-remainder-policy — NEW
+- projecte-emc-creative-command-contamination-audit — NEW
+- projecte-emc-cross-mod-conversion-arbitrage — NEW
+- projecte-emc-custom-item-namespace-policy — NEW
+- projecte-emc-dimension-entry-cost-balance — NEW
+- projecte-emc-dimension-gate-classification — NEW
+- projecte-emc-dimension-milestone-review — NEW
+- projecte-emc-duplicate-output-signal-check — NEW
+- projecte-emc-duplicate-recipe-provenance-check — NEW
+- projecte-emc-early-game-scarcity-check — NEW
+- projecte-emc-enchantment-charge-state-audit — NEW
+- projecte-emc-endgame-material-inflation — NEW
+- projecte-emc-exploit-regression-matrix — NEW
+- projecte-emc-exploit-risk-priority-matrix — NEW
+- projecte-emc-exploration-milestone-preservation — NEW
+- projecte-emc-exploration-versus-conversion-tradeoff — NEW
+- projecte-emc-export-syntax-parse-test — NEW
+- projecte-emc-farming-crop-value-balance — NEW
+- projecte-emc-final-coverage-report — NEW
+- projecte-emc-fluid-container-integrity — NEW
+- projecte-emc-free-catalyst-cycle-check — NEW
+- projecte-emc-gem-fragment-value-policy — NEW
+- projecte-emc-ignored-item-reason-register — NEW
+- projecte-emc-ingot-nugget-block-coherence — NEW
+- projecte-emc-inventory-container-content-audit — NEW
+- projecte-emc-item-alias-collision-audit — NEW
+- projecte-emc-item-availability-phase-matrix — NEW
+- projecte-emc-item-coverage-ledger — NEW
+- projecte-emc-item-variant-coverage — NEW
+- projecte-emc-loader-compatibility-gate — NEW
+- projecte-emc-machine-component-tiering — NEW
+- projecte-emc-machine-yield-ratio-audit — NEW
+- projecte-emc-magic-artifact-tiering — NEW
+- projecte-emc-magic-ritual-bypass-check — NEW
+- projecte-emc-material-equivalence-map — NEW
+- projecte-emc-mining-throughput-balance — NEW
+- projecte-emc-missing-coverage-regression — NEW
+- projecte-emc-missing-item-triage — NEW
+- projecte-emc-multiplayer-economy-profile — NEW
+- projecte-emc-nbt-component-state-classification — NEW
+- projecte-emc-ore-yield-normalization — NEW
+- projecte-emc-outlier-bound-audit — NEW
+- projecte-emc-playstyle-difficulty-profile — NEW
+- projecte-emc-playtest-balance-observation — NEW
+- projecte-emc-processing-byproduct-cascade-test — NEW
+- projecte-emc-processing-chain-invariant — NEW
+- projecte-emc-progression-acceptance-scenarios — NEW
+- projecte-emc-progression-band-policy — NEW
+- projecte-emc-progression-curve-audit — NEW
+- projecte-emc-progression-item-lock-policy — NEW
+- projecte-emc-quest-reward-protection-audit — NEW
+- projecte-emc-recipe-alternative-normalization — NEW
+- projecte-emc-recipe-cycle-detection — NEW
+- projecte-emc-recipe-graph-value-derivation — NEW
+- projecte-emc-recipe-output-quantity-normalizer — NEW
+- projecte-emc-registry-snapshot — NEW
+- projecte-emc-release-manifest-integrity — NEW
+- projecte-emc-renewable-finite-classification — NEW
+- projecte-emc-renewable-loop-balance-review — NEW
+- projecte-emc-renewable-to-gated-resource-path — NEW
+- projecte-emc-resource-sink-faucet-audit — NEW
+- projecte-emc-reversible-conversion-gain-scan — NEW
+- projecte-emc-reviewed-proposed-diff — NEW
+- projecte-emc-runtime-sample-lookup-smoke — NEW
+- projecte-emc-sample-item-validation-plan — NEW
+- projecte-emc-server-client-value-parity — NEW
+- projecte-emc-smelting-cooking-chain-audit — NEW
+- projecte-emc-state-reset-value-laundering-test — NEW
+- projecte-emc-storage-pipe-network-loop-audit — NEW
+- projecte-emc-tag-family-policy — NEW
+- projecte-emc-tech-magic-parity-review — NEW
+- projecte-emc-tech-tree-bypass-check — NEW
+- projecte-emc-time-windowed-resource-farm-test — NEW
+- projecte-emc-tool-durability-policy — NEW
+- projecte-emc-unresolved-registry-path-diagnostics — NEW
+- projecte-emc-value-distribution-curve — NEW
+- projecte-emc-value-source-confidence-matrix — NEW
+- projecte-emc-variant-identity-bypass — NEW
+- projecte-emc-version-upgrade-item-delta — NEW
+- projecte-emc-zero-value-sentinel-audit — NEW
 
 ### Networked games & determinism (16)
 
@@ -1076,20 +1355,91 @@ Updated: 2026-10-16. The unified bundle contains 1,150 distinct skills.
 - world-history-event-sourcing — NEW
 - world-simulation-save-snapshot — NEW
 
-### Skill library governance (13)
+### Skill library governance (84)
 
+- agent-adapter-cross-provider-metadata-parity — NEW
+- agent-adapter-hidden-file-packaging — NEW
+- agent-adapter-path-separator-portability — NEW
+- agent-adapter-skill-frontmatter-mapping — NEW
+- agent-adapter-skill-local-reference-packaging — NEW
 - agent-artifact-quality-gates — NEW
 - agent-output-evidence-traceability — NEW
+- agent-skill-candidate-pairwise-ranking — NEW
+- agent-skill-candidate-relevance-evaluation — NEW
+- agent-skill-contradiction-detection — NEW
+- agent-skill-dependency-closure-check — NEW
+- agent-skill-dependency-cycle-analysis — NEW
+- agent-skill-feedback-sanitization — NEW
+- agent-skill-metadata-ranking-weight-calibration — NEW
+- agent-skill-negative-trigger-regression — NEW
+- agent-skill-overlap-resolution-policy — NEW
+- agent-skill-retrieval-eval-dataset — NEW
+- agent-skill-retrieval-precision-measurement — NEW
+- agent-skill-retrieval-recall-measurement — NEW
+- agent-skill-routing-drift-detection — NEW
+- agent-skill-search-query-rewrite — NEW
+- agent-skill-selection-confidence-threshold — NEW
+- agent-skill-selection-explanation-record — NEW
+- agent-skill-skill-composition-conflict-test — NEW
+- agent-skill-topk-budget-optimization — NEW
+- automated-skill-gap-intake — NEW
+- automated-skill-proposal-generation — NEW
 - automation-change-risk-gating — NEW
+- cross-agent-skill-format-portability-audit — NEW
 - license-notice-redistribution-audit — NEW
+- multi-agent-skill-release-manifest — NEW
+- provider-specific-skill-rendering — NEW
+- skill-auto-canary-update-rollout — NEW
+- skill-auto-change-no-op-detection — NEW
+- skill-auto-change-proposal-boundary — NEW
+- skill-auto-changelog-semantic-diff — NEW
+- skill-auto-diff-size-and-scope-gate — NEW
+- skill-auto-gap-triage-dedup — NEW
+- skill-auto-generated-copy-integrity — NEW
+- skill-auto-generated-frontmatter-validation — NEW
+- skill-auto-instruction-injection-scan — NEW
+- skill-auto-maintainer-review-prompt — NEW
+- skill-auto-policy-lint — NEW
+- skill-auto-priority-from-gap-frequency — NEW
+- skill-auto-publish-readiness — NEW
+- skill-auto-reference-link-integrity — NEW
+- skill-auto-release-candidate-quarantine — NEW
+- skill-auto-retention-and-deprecation-review — NEW
+- skill-auto-review-request-package — NEW
+- skill-auto-revoke-bad-version — NEW
+- skill-auto-script-static-analysis — NEW
+- skill-auto-secrets-scan — NEW
+- skill-auto-semantic-overlap-review — NEW
+- skill-auto-skill-dependency-lock — NEW
+- skill-auto-test-run-evidence-pack — NEW
+- skill-auto-update-approval-record — NEW
+- skill-auto-version-bump-policy — NEW
+- skill-broker-dependency-supply-chain-audit — NEW
+- skill-broker-result-ranking-audit — NEW
+- skill-cache-coherence-audit — NEW
 - skill-catalog-taxonomy-consistency — NEW
+- skill-change-ci-validation-gates — NEW
+- skill-compatibility-deprecation-propagation — NEW
 - skill-deduplication-and-consolidation — NEW
 - skill-documentation-example-audit — NEW
 - skill-frontmatter-schema-compatibility-audit — NEW
+- skill-provenance-snapshot-verification — NEW
 - skill-quality-evaluation — NEW
+- skill-registry-access-pattern-privacy — NEW
+- skill-registry-audit-event-schema — NEW
+- skill-registry-data-retention-policy — NEW
+- skill-registry-schema-migration — NEW
+- skill-release-rollback-readiness — NEW
 - skill-trigger-regression-suite — NEW
 - skill-trigger-routing-evaluation — NEW
+- skill-update-adoption-observability — NEW
+- skill-update-circuit-breaker — NEW
+- skill-update-observability-slo — NEW
+- skill-update-policy-risk-classification — NEW
+- skill-update-rate-budget-policy — NEW
+- skill-update-rollout-percentage-gate — NEW
 - skill-usage-feedback-triage — NEW
+- skill-version-pinning-and-upgrade-contract — NEW
 - third-party-skill-provenance-audit — NEW
 
 ### Supabase & PostgreSQL platform engineering (50)
