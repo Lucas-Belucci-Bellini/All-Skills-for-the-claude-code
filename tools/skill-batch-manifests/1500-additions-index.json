@@ -153,6 +153,156 @@
       "category": "Skill library governance",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/multi-agent-skill-release-manifest/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-registry-snapshot",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-registry-snapshot/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-item-coverage-ledger",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-coverage-ledger/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-missing-item-triage",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-missing-item-triage/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-material-equivalence-map",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-material-equivalence-map/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-processing-chain-invariant",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-processing-chain-invariant/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-ingot-nugget-block-coherence",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-ingot-nugget-block-coherence/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-gem-fragment-value-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-gem-fragment-value-policy/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-byproduct-allocation",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-byproduct-allocation/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-recipe-graph-value-derivation",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-graph-value-derivation/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-renewable-finite-classification",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-renewable-finite-classification/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-dimension-gate-classification",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-dimension-gate-classification/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-biome-gated-resource-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-biome-gated-resource-review/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-progression-item-lock-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-progression-item-lock-policy/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-tool-durability-policy",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-tool-durability-policy/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-enchantment-charge-state-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-enchantment-charge-state-audit/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-fluid-container-integrity",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-fluid-container-integrity/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-nbt-component-state-classification",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-nbt-component-state-classification/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-inventory-container-content-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-inventory-container-content-audit/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-machine-component-tiering",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-machine-component-tiering/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-magic-artifact-tiering",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-magic-artifact-tiering/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-boss-drop-value-review",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-boss-drop-value-review/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-quest-reward-protection-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-quest-reward-protection-audit/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-item-variant-coverage",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-variant-coverage/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-item-alias-collision-audit",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-item-alias-collision-audit/SKILL.md"
+    },
+    {
+      "name": "projecte-emc-recipe-output-quantity-normalizer",
+      "category": "Minecraft & modpack engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/minecraft-modded-environments/projecte-emc-recipe-output-quantity-normalizer/SKILL.md"
     }
   ]
 }
