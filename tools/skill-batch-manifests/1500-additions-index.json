@@ -984,13 +984,6 @@
       "subdomain": "broker-retrieval-contracts"
     },
     {
-      "name": "agent-tooling",
-      "category": "Skill library governance",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/skill-broker-client-capability-advertisement/agent-tooling/SKILL.md",
-      "subdomain": "broker-retrieval-contracts"
-    },
-    {
       "name": "skill-broker-local-registry-import",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
@@ -1002,6 +995,13 @@
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/skill-broker-metadata-filter-pipeline/SKILL.md",
+      "subdomain": "broker-retrieval-contracts"
+    },
+    {
+      "name": "skill-broker-client-capability-advertisement",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/skill-broker-client-capability-advertisement/SKILL.md",
       "subdomain": "broker-retrieval-contracts"
     }
   ]
