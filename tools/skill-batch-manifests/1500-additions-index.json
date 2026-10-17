@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "base_total": 1250,
+  "milestone_total": 1500,
+  "target": 2500,
+  "skills": [
+    {
+      "name": "agent-skill-request-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-skill-request-contract/SKILL.md"
+    },
+    {
+      "name": "cross-agent-skill-adapter-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/cross-agent-skill-adapter-contract/SKILL.md"
+    },
+    {
+      "name": "agent-capability-matrix-audit",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-capability-matrix-audit/SKILL.md"
+    },
+    {
+      "name": "cross-agent-skill-format-portability-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/cross-agent-skill-format-portability-audit/SKILL.md"
+    },
+    {
+      "name": "skill-version-pinning-and-upgrade-contract",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-version-pinning-and-upgrade-contract/SKILL.md"
+    },
+    {
+      "name": "skill-cache-coherence-audit",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/skill-cache-coherence-audit/SKILL.md"
+    }
+  ]
+}
