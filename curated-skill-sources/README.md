@@ -1,13 +1,13 @@
 # Curated Skill Sources
 
-Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The 1,150-skill draft contains **1,024 original skills** and 126 retained/imported entries.
+Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The 1,250-skill draft contains **1,124 original skills** and 126 retained/imported entries.
 
 - `agent-tooling/`: Claude Code setup, MCP configuration, permissions, connection checks, and troubleshooting.
 - `developer-cli-tooling/`: CLI behavior contracts, portable environments, and deterministic command workflows.
 - `documentation-knowledge-systems/`: documentation correctness, traceability, examples, and operational runbooks.
 - `engine-runtime/`: engine architecture, resource lifecycle, rendering, deterministic simulation, and performance.
 - `simulation-world/`: NPC state, memory, economies, civilization, and event history.
-- `minecraft-modded-environments/`: mod dependencies, crash triage, server capacity, and reproducible pack snapshots.
+- `minecraft-modded-environments/`: 50 general modpack diagnostic workflows, 25 cross-mod interaction investigations, and 25 individual-mod bug investigations for modified Minecraft packs.
 - `release-testing-operations/`: artifact provenance, API/database contracts, event flows, architecture maps, and CI optimization.
 - `skill-library-governance/`: quality, trigger routing, deduplication, provenance, and automation risk.
 - `geospatial-visualization/`, `live-public-data-systems/`, `realtime-voice-agents/`, `scene-navigation-sharing/`, `public-data-ethics/`: the 600 milestone's globe, feed reliability, realtime voice, scene-sharing, and privacy workflows.
