@@ -142,3 +142,10 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 - `tools/tests/test-plugin-bundles.sh`: composition、生成 artifact、決定的な skill hash、不正または危険な入力の拒否を検証する。
 - `python3 tools/plugin-bundles/published.py --write|--check`: composition と canonical skill から、追跡対象の7つの plugin root と Codex、Codex API key、Claude catalog を再生成または検証する。stale payload、root の不足・過剰、path escape、identity / version drift を拒否する。
 - `python3 tools/plugin-bundles/package.py --output <new-dir>`: 全7構成をZIP化して展開後も検証し、checksum と結果レポートを生成する。公式 validator の指定方法は公開ガイドを参照。
+
+
+## 統合スキルライブラリ
+
+このリポジトリには、1,175 件の異なるスキルを含む統合ライブラリもある。正規ソースは `curated-skill-sources/` に置き、Claude Code 向け配布パッケージはそのソースから生成する。新しいスキル群のカタログ、検証マニフェスト、配布ファイルは同じ変更ブランチで更新し、同期スクリプトで検証する。
+
+Claude Code、Codex、ChatGPT など複数の AI から利用できるよう、共通カタログ、ブローカー、各プラットフォーム用アダプターを段階的に整備する計画がある。すべてのプラットフォームでの利用可能性はまだ保証されておらず、それぞれの接続方法、アクセス権限、互換性を個別にテストする必要がある。詳細は [multi-agent access issue #43](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/43) を参照。
