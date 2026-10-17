@@ -1178,6 +1178,181 @@
       "origin": "new-authored",
       "source_path": "curated-skill-sources/skill-library-governance/skill-auto-maintainer-review-prompt/SKILL.md",
       "subdomain": "automated-skill-lifecycle"
+    },
+    {
+      "name": "agent-adapter-claude-code-marketplace-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-claude-code-marketplace-contract/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-codex-plugin-import-validation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-codex-plugin-import-validation/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-chatgpt-mcp-connection-preflight",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-chatgpt-mcp-connection-preflight/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-mcp-capability-probe",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-mcp-capability-probe/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-authn-capability-discovery",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-authn-capability-discovery/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-write-approval-gate",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-write-approval-gate/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-resource-link-resolution",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-resource-link-resolution/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-skill-frontmatter-mapping",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-adapter-skill-frontmatter-mapping/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-unsupported-feature-report",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-unsupported-feature-report/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-path-separator-portability",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-adapter-path-separator-portability/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-hidden-file-packaging",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-adapter-hidden-file-packaging/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-skill-local-reference-packaging",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-adapter-skill-local-reference-packaging/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-agent-version-fingerprint",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-agent-version-fingerprint/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-environment-readiness-check",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-environment-readiness-check/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-connector-timeout-retry",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-connector-timeout-retry/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-request-schema-negotiation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-request-schema-negotiation/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-partial-feature-fallback",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-partial-feature-fallback/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-private-repo-access-test",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-private-repo-access-test/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-refresh-token-boundary",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-refresh-token-boundary/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-tool-permission-mapping",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-tool-permission-mapping/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-client-cache-installation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-client-cache-installation/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-install-uninstall-parity",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-install-uninstall-parity/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-connection-health-check",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-connection-health-check/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-cross-provider-metadata-parity",
+      "category": "Skill library governance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/skill-library-governance/agent-adapter-cross-provider-metadata-parity/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
+    },
+    {
+      "name": "agent-adapter-compatibility-regression-fixtures",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-adapter-compatibility-regression-fixtures/SKILL.md",
+      "subdomain": "provider-adapter-compatibility"
     }
   ]
 }
