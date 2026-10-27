@@ -31,8 +31,8 @@
     {
       "name": "artifact-analysis-workbench",
       "source": "./plugins/artifact-analysis-workbench",
-      "description": "Evidence-led specialist agents and reusable workflows for lawful analysis of software packages, binaries, firmware, network captures, and runtime artifacts.",
-      "version": "0.1.0",
+      "description": "Repository-to-skill synthesis: source inventory, capability mining, provenance, semantic deduplication, routing evaluation, and release gates.",
+      "version": "0.2.0",
       "category": "development"
     }
   ]

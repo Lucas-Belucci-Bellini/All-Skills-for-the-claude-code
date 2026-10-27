@@ -1,7 +1,7 @@
 # Strategy: 25,000 canonical skills and a 150-role agent architecture
 
 **Status:** strategic proposal plus a small, reviewable first implementation on a Draft PR branch.
-**Baseline:** 1,525 distinct skills in the existing All Skills Collection plugin. This branch proposes a separate workbench with 15 original workflow skills and 10 concrete subagent definitions. If accepted, the proposed portfolio would contain 1,540 canonical skill identities across those two plugins; the existing collection count remains 1,525.
+**Observed sync baseline:** the repository's current source-to-bundle generator reports 1,540 distinct skills in the All Skills Collection on this branch. This branch adds 15 candidate workflows in a separate plugin and defines 10 initial agent prompts. The 15 candidates are excluded from any aggregate unique-skill claim until cross-plugin semantic review decides whether each one is distinct from existing skills.
 **Targets, not completion claims:** 25,000 useful, distinct skills; a catalog of 150 scoped agent roles. The 150-role table is a design inventory, not a statement that all 150 agent prompts already exist or have been runtime-tested.
 
 ## Vision
@@ -50,8 +50,8 @@ The allocations below sum to exactly 25,000 canonical, useful workflows. They ar
 
 | Stage | Skill target across portfolio | Agent target | Gate |
 |---|---:|---:|---|
-| 0 — governance and inventory | Existing 1,525 baseline | 10 initial implementations; 150-role plan | Define canonical IDs, scope rules, provenance, and validators |
-| 1 — capability proof | 1,540 proposed with this branch | 10 defined agents | Plugin metadata checks; unique skill IDs; CI; Draft PR review |
+| 0 — governance and inventory | Existing sync baseline: 1,540 | 10 initial implementations; 150-role plan | Define canonical IDs, scope rules, provenance, and validators |
+| 1 — capability proof | 1,540 collection baseline plus 15 candidates pending semantic review | 10 defined agents | Plugin metadata checks; semantic duplicate decisions; CI; Draft PR review |
 | 2 — breadth pilot | 2,500 | 20–30 implemented definitions | Sample at least 3 domains; semantic review; validate actual Claude Code loading |
 | 3 — operational library | 5,000 | 40–60 | Routing evaluation, retirement process, dependency map |
 | 4 — broad coverage | 10,000 | 75–100 | Batch review and usage signals every 100 skills; package-size and discoverability checks |
@@ -71,7 +71,7 @@ The companion document REA_INSPIRED_AGENT_REGISTRY_150.md gives each planned rol
 
 ## First implementation in this branch
 
-The independent artifact-analysis-workbench plugin includes 10 specialized agents and 15 original skills covering authorization scope, evidence hashing, web surfaces, JavaScript/Electron packages, native binary triage, managed runtime analysis, firmware inventory, mobile package permissions, network capture timelines, runtime comparisons, databases/container formats, GPU/model artifact metadata, differential validation, MCP readiness, and evidence-backed reports.
+The independent artifact-analysis-workbench plugin includes 10 specialist agents and 15 candidate workflow skills focused on the source-to-skill creation process: repository inventory, provenance/license review, capability mapping, workflow mining, acceptance criteria, API contract extraction, documentation evidence, fixture validation, canonical scope design, semantic deduplication, trigger testing, batch planning, original skill authoring, routing evaluation, and release gates. This is deliberately distinct from the 54 REA/reverse-engineering skills already listed in the existing catalog. The 15 new candidates still require semantic review against meta-skills and library-maintenance workflows before being included in any portfolio-wide unique count.
 
 This is a deliberately small pilot—not a 25,000-skill implementation. No production REA MCP server is included. No live target was analyzed by this repository change. A successful structural CI check would prove only that files and policy assertions pass, not that Claude Code actually invokes each agent correctly.
 

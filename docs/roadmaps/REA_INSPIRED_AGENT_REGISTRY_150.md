@@ -4,20 +4,20 @@
 
 Each role has a single primary responsibility. All roles default to read-only investigation; editing or command execution is an explicit exception requiring a narrowly justified scope. No role can expand authorization or bypass the host's own permissions.
 
-## 1. Evidence, scope, and provenance
+## 1. Repository-to-skill synthesis pipeline
 
 | # | Agent slug | Responsibility | Default access |
 |---:|---|---|---|
-| 1 | scope-gatekeeper | Confirms written authorization, target identity, boundaries, and stop conditions. | Read-only |
-| 2 | evidence-ledger-curator | Maintains a source-linked ledger of observations, tools, timestamps, and confidence. | Read-only |
-| 3 | artifact-hash-verifier | Checks cryptographic hashes and verifies byte identity without modifying evidence. | Read-only |
-| 4 | chain-of-custody-reviewer | Audits artifact transfers, storage locations, and custody gaps. | Read-only |
-| 5 | third-party-license-auditor | Identifies license files and separates project rights from third-party terms. | Read-only |
-| 6 | claim-calibration-reviewer | Matches every conclusion to evidence strength and records uncertainty. | Read-only |
-| 7 | assumptions-register-maintainer | Tracks assumptions, alternatives, and falsifying observations. | Read-only |
-| 8 | analysis-stop-condition-reviewer | Checks stop conditions and prevents out-of-scope probing. | Read-only |
-| 9 | finding-confidence-rater | Applies a consistent confidence rubric to individual findings. | Read-only |
-| 10 | final-report-auditor | Checks traceability, caveats, redactions, and reproducibility. | Read-only |
+| 1 | repository-capability-architect | Maps source-backed capabilities into a reviewable plan for original skills. | Read-only |
+| 2 | upstream-provenance-auditor | Audits source revisions, licenses, notices, and reuse blockers. | Read-only |
+| 3 | repository-structure-miner | Maps packages, interfaces, examples, tests, and extension points. | Read-only |
+| 4 | workflow-evidence-miner | Mines repeatable input-to-output workflows from source and examples. | Read-only |
+| 5 | acceptance-criteria-miner | Converts tests/issues/docs into falsifiable acceptance criteria. | Read-only |
+| 6 | api-contract-extractor | Extracts public API/CLI/config contracts with source evidence. | Read-only |
+| 7 | skill-scope-designer | Defines a unique skill's intent, triggers, prerequisites, and exclusions. | Read-only |
+| 8 | semantic-dedup-reviewer | Compares candidate skill intent and outputs against the canonical library. | Read-only |
+| 9 | skill-batch-evaluation-engineer | Designs quality and routing evaluations for candidate batches. | Read-only |
+| 10 | skill-release-gatekeeper | Reconciles provenance, duplicates, validation, and human release gates. | Read-only |
 
 ## 2. Web and browser applications
 
@@ -231,7 +231,7 @@ Each role has a single primary responsibility. All roles default to read-only in
 
 ## Implementation order
 
-- **Wave A — first 10 (implemented in this branch):** artifact-analysis-architect, evidence-provenance-auditor, web-application-analyst, javascript-electron-analyst, native-binary-analyst, firmware-embedded-analyst, mobile-package-analyst, network-capture-analyst, runtime-behavior-reviewer, and reconstruction-test-engineer.
+- **Wave A — first 10 (implemented in this branch):** repository-capability-architect, upstream-provenance-auditor, repository-structure-miner, workflow-evidence-miner, acceptance-criteria-miner, api-contract-extractor, skill-scope-designer, semantic-dedup-reviewer, skill-batch-evaluation-engineer, and skill-release-gatekeeper.
 - **Wave B — evidence and safety:** implement the first 10 roles of the Evidence and scope group and the Authorized security group only after the initial plugin has passed runtime and permission review.
 - **Wave C — platform-specialist clusters:** implement in groups of five to ten, with at least one representative artifact/fixture and regression case per group.
 - **Wave D — scale to all 150:** only after a routing evaluation demonstrates that each new agent has a distinct call pattern and does not reduce selection precision.
