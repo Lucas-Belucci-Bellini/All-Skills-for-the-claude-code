@@ -32,3 +32,8 @@ The 850 milestone is original workflow writing informed by repository structure 
 3. Include a specific trigger, actionable workflow, clear deliverable, validation, edge cases, and guardrails.
 4. Add local references only when they contain reusable material needed by that skill.
 5. Update the catalog and roadmap; check exact and semantic duplicates; regenerate and verify the plugin.
+
+
+## Repository-to-skill synthesis
+
+New canonical source workflows for this pilot live under `curated-skill-sources/repository-to-skill-synthesis/`. Keep plugin mirrors byte-identical and regenerate the central bundle using `node tools/sync-skill-bundles.mjs --write`.

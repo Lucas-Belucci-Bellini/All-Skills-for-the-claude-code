@@ -25,7 +25,7 @@ for (const file of agentFiles) {
   const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(source);
   assert.ok(match, file + ": missing or invalid frontmatter block");
   const front = match[1], body = match[2];
-  const field = (key) => front.split(/\r?\n/).find((line) => line.startsWith(key + ":"))?.slice(key.length + 1).trim();
+  const field = (key) => front.split(String.fromCharCode(10)).find((line) => line.startsWith(key + ":"))?.slice(key.length + 1).trim();
   const name = field("name"), description = field("description"), model = field("model"), effort = field("effort");
   const maxTurns = Number(field("maxTurns")), toolsRaw = field("tools");
   assert.ok(name && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(name), file + ": invalid name");
@@ -47,4 +47,33 @@ for (const file of agentFiles) {
 for (const expected of ["orchestration-architect","orchestration-test-engineer","orchestration-runtime-reviewer","agent-security-auditor","orchestration-incident-triager","agent-evaluation-designer"]) assert.ok(names.has(expected), "expected agent missing: " + expected);
 const readme = await read("plugins/agent-orchestration-workbench/README.md");
 for (const name of names) assert.ok(readme.includes(name), "README does not document " + name);
-console.log("PASS: plugin metadata, marketplace registration, and " + names.size + " agent definitions validated.");
+
+const commandDir = path.join(root, "plugins/agent-orchestration-workbench/commands");
+const commandFiles = (await fs.readdir(commandDir)).filter((file) => file.endsWith(".md")).sort();
+assert.deepEqual(commandFiles, ["incident-review.md", "orchestration-plan.md", "release-gate.md", "verification.md"], "unexpected command inventory");
+const commandAgents = new Set([
+  "agent-orchestration-workbench:orchestration-architect",
+  "agent-orchestration-workbench:orchestration-test-engineer",
+  "agent-orchestration-workbench:orchestration-runtime-reviewer",
+  "agent-orchestration-workbench:agent-security-auditor",
+  "agent-orchestration-workbench:orchestration-incident-triager",
+  "agent-orchestration-workbench:agent-evaluation-designer",
+]);
+for (const file of commandFiles) {
+  const source = await fs.readFile(path.join(commandDir, file), "utf8");
+  const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(source);
+  assert.ok(match, file + ": missing or invalid frontmatter");
+  const front = match[1], body = match[2];
+  assert.match(front, /^description: ".{50,}"$/m, file + ": description missing or too short");
+  assert.match(front, /^argument-hint: \[.+$/m, file + ": argument-hint missing or malformed");
+  assert.ok(body.includes("$ARGUMENTS"), file + ": command arguments are not consumed");
+  for (const heading of ["## Workflow", "## Required output", "## Safety boundaries"]) assert.ok(body.includes(heading), file + ": missing " + heading);
+  assert.match(body, /Do not merge|Never.*merge/i, file + ": missing merge boundary");
+  const referenced = [...body.matchAll(/\x60(agent-orchestration-workbench:[a-z0-9-]+)\x60/g)].map((m) => m[1]);
+  assert.ok(referenced.length > 0, file + ": does not invoke a specialized agent");
+  for (const name of referenced) assert.ok(commandAgents.has(name), file + ": unknown agent " + name);
+}
+const pluginReadme = await read("plugins/agent-orchestration-workbench/README.md");
+for (const file of commandFiles) assert.ok(pluginReadme.includes(file.slice(0, -3)), "README does not document command " + file);
+console.log("PASS: plugin metadata, marketplace registration, " + names.size + " agents, and " + commandFiles.length + " workflow commands validated.");
+
