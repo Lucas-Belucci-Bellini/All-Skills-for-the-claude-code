@@ -13,6 +13,19 @@ A Claude Code plugin with six specialized subagents for designing, testing, revi
 
 After installation, invoke an agent by its scoped name, for example `agent-orchestration-workbench:orchestration-architect`, or let Claude Code select a specialist when appropriate.
 
+## Workflow commands
+
+These four slash commands coordinate the specialist agents and request evidence-backed results:
+
+| Command | Purpose |
+|---|---|
+| `/agent-orchestration-workbench:orchestration-plan` | Planning-only architecture and evaluation plan |
+| `/agent-orchestration-workbench:verification` | Tests followed by independent runtime and security review |
+| `/agent-orchestration-workbench:incident-review` | Read-only incident timeline and failure analysis |
+| `/agent-orchestration-workbench:release-gate` | Evidence matrix and go/no-go recommendation for human review |
+
+Pass the task scope after the command. These commands are coordination instructions, not a guarantee that a subagent was invoked or that a check ran. The parent session must disclose unavailable agents, skipped checks, and missing evidence.
+
 ## Suggested sequence
 
 1. Use the architect to define behavior and failure boundaries.

@@ -13,6 +13,7 @@ on:
       - feat/skills-expansion-1500-projete-cross-agent-2026
       - feat/skills-expansion-1525-agent-orchestration-2026
       - feat/agent-orchestration-workbench-2026
+      - feat/orchestration-workflow-commands-2026
   workflow_dispatch:
 
 permissions:
