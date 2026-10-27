@@ -12,6 +12,7 @@ on:
       - feat/skills-expansion-1150-from-1000-2026
       - feat/skills-expansion-1500-projete-cross-agent-2026
       - feat/skills-expansion-1525-agent-orchestration-2026
+      - feat/agent-orchestration-workbench-2026
   workflow_dispatch:
 
 permissions:
@@ -47,3 +48,6 @@ jobs:
 
       - name: Validate current milestone structure and source/bundle parity
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1525.json
+
+      - name: Validate agent orchestration plugin
+        run: node tools/validate-agent-plugin.mjs
