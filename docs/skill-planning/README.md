@@ -9,6 +9,8 @@
 - [Template de plano por Issue/domínio](DOMAIN-PLAN-TEMPLATE.md) — formato usado para registrar cada candidata antes de criar seu `SKILL.md`.
 - [Issue #25 — ATM10 troubleshooting](domains/issue-25-atm10-troubleshooting.md) — reconciliação de 100 slugs já presentes em `main`; mapeamento 50/25/25 e validação comportamental pendentes.
 - [Issue #26 — ProjectE / EMC](domains/issue-26-projecte-emc.md) — reconciliação de 100 slugs já presentes em `main`; validação de configuração real, cobertura e gameplay pendentes.
+- [Issue #48 — Blender: 250 temas](domains/issue-48-blender.md) — 250 tópicos transcritos como candidatas, com slugs provisórios e revisão semântica pendente.
+- [Issue #50 — Texturas NEXORA: meta 1.000](domains/issue-50-nexora-textures.md) — escopo e fases registrados; candidatos nominais serão definidos após auditoria.
 
 ## Convenção para os próximos planos
 

@@ -205,3 +205,6 @@ Estas PRs precisam ser revisadas como uma fila distinta das Issues; algumas repr
 | [#26 — ProjectE / EMC](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/26) | [Plano e inventário](domains/issue-26-projecte-emc.md) | 100/100 slugs no catálogo, fontes e bundle de `main`; hashes de fonte/bundle correspondem | Revalidar grupos 40/25/20/15, esquema/versionamento real, inventário de itens, exploits e playtest |
 
 Estas reconciliações descrevem o snapshot de `main`; não declaram as Issues concluídas. Não recriar as 200 skills nem fechar Issues/PRs até que suas pendências e os critérios originais estejam verificados.
+
+| [#48 — Blender](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/48) | [Plano de 250 temas](domains/issue-48-blender.md) | 250 tópicos da Issue transcritos e slugs provisórios comparados por nome exato | Revisão semântica, fronteiras, criação/testes e licenças |
+| [#50 — Texturas NEXORA](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/50) | [Plano de escopo 1.000](domains/issue-50-nexora-textures.md) | 10 áreas e fases registradas da Issue | Auditoria de lacunas e lista nominal de candidatas em lotes pequenos |
