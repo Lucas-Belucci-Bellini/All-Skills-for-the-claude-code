@@ -25,6 +25,7 @@ for (const file of agentFiles) {
   const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(source);
   assert.ok(match, file + ": missing or invalid frontmatter block");
   const front = match[1], body = match[2];
+  const field = (key) => front.split(String.fromCharCode(10)).find((line) => line.startsWith(key + ":"))?.slice(key.length + 1).trim();
   const name = field("name"), description = field("description"), model = field("model"), effort = field("effort");
   const maxTurns = Number(field("maxTurns")), toolsRaw = field("tools");
   assert.ok(name && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(name), file + ": invalid name");
@@ -63,7 +64,6 @@ for (const file of commandFiles) {
   const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(source);
   assert.ok(match, file + ": missing or invalid frontmatter");
   const front = match[1], body = match[2];
-  const field = (key) => front.split(/\\r?\\n/).find((line) => line.startsWith(key + ":"))?.slice(key.length + 1).trim();
   assert.match(front, /^description: ".{50,}"$/m, file + ": description missing or too short");
   assert.match(front, /^argument-hint: \[.+$/m, file + ": argument-hint missing or malformed");
   assert.ok(body.includes("$ARGUMENTS"), file + ": command arguments are not consumed");
