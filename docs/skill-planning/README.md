@@ -6,7 +6,9 @@
 
 - [Plano de organização do repositório](REPOSITORY-ORGANIZATION-PLAN.md) — baseline observado, conflitos documentais e sequência recomendada.
 - [Registro de Issues e PRs](PLANNED-SKILLS-ISSUE-REGISTER.md) — fila existente de planejamento e execução, com links para as Issues originais.
-- [Template de plano por Issue/domínio](DOMAIN-PLAN-TEMPLATE.md) — formato usado para listar cada skill candidata antes de criar seu `SKILL.md`.
+- [Template de plano por Issue/domínio](DOMAIN-PLAN-TEMPLATE.md) — formato usado para registrar cada candidata antes de criar seu `SKILL.md`.
+- [Issue #25 — ATM10 troubleshooting](domains/issue-25-atm10-troubleshooting.md) — reconciliação de 100 slugs já presentes em `main`; mapeamento 50/25/25 e validação comportamental pendentes.
+- [Issue #26 — ProjectE / EMC](domains/issue-26-projecte-emc.md) — reconciliação de 100 slugs já presentes em `main`; validação de configuração real, cobertura e gameplay pendentes.
 
 ## Convenção para os próximos planos
 
@@ -40,3 +42,7 @@ Esse documento conterá a lista nominal de candidatas da Issue, com identificado
 5. Converter o backlog gradualmente, usando as Issues existentes como fila. Não gerar centenas de Issues novas para representar cada candidata.
 6. Trabalhar em branches revisáveis e PRs pequenos. Não alterar `main`, fazer merge ou reescrever histórico sem autorização explícita.
 7. Fechar cada Issue somente quando seus critérios de aceitação tiverem evidências verificáveis.
+
+## Primeiras reconciliações concluídas
+
+A auditoria inicial encontrou os arquivos de fonte e bundle das 100 skills da Issue #25 e das 100 skills da Issue #26 em `main`. Os 200 pares têm hashes iguais no snapshot remoto. Isso não substitui testes locais, revisão semântica, proveniência/licenças ou teste no Claude Code; os dois planos permanecem abertos para validação.

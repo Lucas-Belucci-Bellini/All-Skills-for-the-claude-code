@@ -196,3 +196,12 @@ Estas PRs precisam ser revisadas como uma fila distinta das Issues; algumas repr
 3. Criar ou atualizar um documento específico em `docs/skill-planning/domains/`, usando `DOMAIN-PLAN-TEMPLATE.md`.
 4. Listar skills candidatas individualmente em Markdown, com identificador provisório e estado `PLANNED`; só depois auditar sobreposição com o catálogo.
 5. Atualizar a Issue com o link para o documento e evidências; fechá-la somente quando seus critérios reais de aceitação estiverem concluídos.
+
+## Documentos de domínio iniciados em 2026-10-27
+
+| Issue | Plano Markdown | Evidência inicial | Pendências principais |
+|---:|---|---|---|
+| [#25 — ATM10 troubleshooting](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/25) | [Plano e inventário](domains/issue-25-atm10-troubleshooting.md) | 100/100 slugs no catálogo, fontes e bundle de `main`; hashes de fonte/bundle correspondem | Mapear 50/25/25; revisar conteúdo, sync, validação de comportamento, licenças e runtime |
+| [#26 — ProjectE / EMC](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/26) | [Plano e inventário](domains/issue-26-projecte-emc.md) | 100/100 slugs no catálogo, fontes e bundle de `main`; hashes de fonte/bundle correspondem | Revalidar grupos 40/25/20/15, esquema/versionamento real, inventário de itens, exploits e playtest |
+
+Estas reconciliações descrevem o snapshot de `main`; não declaram as Issues concluídas. Não recriar as 200 skills nem fechar Issues/PRs até que suas pendências e os critérios originais estejam verificados.
