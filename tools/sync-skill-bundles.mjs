@@ -17,7 +17,7 @@ const readmePath = path.join(pluginRoot, "README.md");
 const skillCatalogPath = path.join(root, "SKILL_LIBRARY_CATALOG.json");
 const skillCatalogMarkdownPath = path.join(root, "SKILL_LIBRARY_CATALOG.md");
 const growthRoadmapPath = path.join(root, "SKILL_GROWTH_ROADMAP.md");
-const LONG_TERM_TARGET = 2500;
+const LONG_TERM_TARGET = 25000;
 const skipDirs = new Set([".git", "node_modules", ".next", "coverage", "dist", "vendor"]);
 const generated = ["plugins/all-skills-collection/", "plugins/skill-library-maintainer/"];
 const slash = (v) => v.split(path.sep).join("/");

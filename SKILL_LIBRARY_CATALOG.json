@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-27",
-  "unique_skills": 1525,
-  "target": 2500,
-  "remaining": 975,
+  "unique_skills": 1540,
+  "target": 25000,
+  "remaining": 23460,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -1415,6 +1415,96 @@
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/tool-call-budget-policy/SKILL.md"
+    },
+    {
+      "name": "api-contract-to-skill-spec",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/api-contract-to-skill-spec/SKILL.md"
+    },
+    {
+      "name": "canonical-skill-scope-designer",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/canonical-skill-scope-designer/SKILL.md"
+    },
+    {
+      "name": "documentation-evidence-index",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/documentation-evidence-index/SKILL.md"
+    },
+    {
+      "name": "issue-and-acceptance-criteria-mining",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/issue-and-acceptance-criteria-mining/SKILL.md"
+    },
+    {
+      "name": "original-skill-authoring-from-evidence",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/original-skill-authoring-from-evidence/SKILL.md"
+    },
+    {
+      "name": "project-workflow-mining",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/project-workflow-mining/SKILL.md"
+    },
+    {
+      "name": "repository-capability-map",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/repository-capability-map/SKILL.md"
+    },
+    {
+      "name": "repository-source-inventory",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/repository-source-inventory/SKILL.md"
+    },
+    {
+      "name": "repository-to-skill-batch-planner",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/repository-to-skill-batch-planner/SKILL.md"
+    },
+    {
+      "name": "semantic-skill-dedup-review",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/semantic-skill-dedup-review/SKILL.md"
+    },
+    {
+      "name": "skill-release-provenance-gate",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/skill-release-provenance-gate/SKILL.md"
+    },
+    {
+      "name": "skill-routing-evaluation",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/skill-routing-evaluation/SKILL.md"
+    },
+    {
+      "name": "skill-trigger-and-negative-case-design",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/skill-trigger-and-negative-case-design/SKILL.md"
+    },
+    {
+      "name": "test-fixture-to-skill-validation",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/test-fixture-to-skill-validation/SKILL.md"
+    },
+    {
+      "name": "upstream-license-provenance-gate",
+      "category": "Curated: repository-to-skill-synthesis",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/repository-to-skill-synthesis/upstream-license-provenance-gate/SKILL.md"
     },
     {
       "name": "cli-config-precedence-resolution",

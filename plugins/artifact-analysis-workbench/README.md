@@ -1,61 +1,53 @@
 # Artifact Analysis Workbench
 
-**Purpose:** accept a source repository, map what it actually does, and author original, testable skills based on demonstrated workflows. REA is a reference for analysis capability areas, not a source to copy wholesale. The workbench is independent and is not affiliated with or endorsed by REA's maintainers.
+This plugin turns a source repository into a structured, reviewable backlog of original skills. It is informed by public capability areas in [REA](https://github.com/morluto/rea), but is independent and does not bundle REA's implementation, skill text, screenshots, or reference documents.
 
-## Included specialist agents
+## Ten read-only specialist agents
 
-| Agent | Responsibility | Access |
-|---|---|---|
-| `repository-capability-architect` | Maps a source repository into bounded capability areas and proposes a reviewable plan for original, evidence-backed skills. | Read-only |
-| `upstream-provenance-auditor` | Audits source repository license, notices, generated files, dependencies, and reuse risks before new skills are drafted. | Read-only |
-| `repository-structure-miner` | Builds an evidence-linked map of repository layout, entry points, packages, data schemas, tests, and extension points. | Read-only |
-| `workflow-evidence-miner` | Finds real user workflows and repeatable engineering tasks from source, examples, tests, docs, and repository history. | Read-only |
-| `acceptance-criteria-miner` | Converts repository tests, documented behavior, and issue acceptance criteria into falsifiable acceptance checks for candidate skills. | Read-only |
-| `api-contract-extractor` | Extracts documented or tested API/CLI/config contracts into skill-ready requirements without inventing undocumented guarantees. | Read-only |
-| `skill-scope-designer` | Defines one clear, non-overlapping skill purpose, trigger, exclusions, prerequisites, and expected artifact from repository evidence. | Read-only |
-| `semantic-dedup-reviewer` | Checks proposed skills against existing catalogue entries for duplicated intent, workflow, inputs, triggers, and deliverables. | Read-only |
-| `skill-batch-evaluation-engineer` | Designs repeatable quality and routing evaluations for a proposed skill batch before release. | Read-only |
-| `skill-release-gatekeeper` | Reviews a skill batch for provenance, deduplication, structure, safety, routing evidence, package synchronization, and human approval. | Read-only |
+- **`repository-capability-architect`** — Maps source-backed capabilities into a reviewable plan.
+- **`upstream-provenance-auditor`** — Audits source revisions, licenses, notices, and reuse blockers.
+- **`repository-structure-miner`** — Maps packages, interfaces, examples, tests, and extension points.
+- **`workflow-evidence-miner`** — Mines repeatable user workflows from source and examples.
+- **`acceptance-criteria-miner`** — Converts tests and requirements into falsifiable checks.
+- **`api-contract-extractor`** — Extracts API/CLI/config contracts with source evidence.
+- **`skill-scope-designer`** — Defines distinct skill intent, triggers, prerequisites, and exclusions.
+- **`semantic-dedup-reviewer`** — Compares candidates semantically against the canonical catalog.
+- **`skill-batch-evaluation-engineer`** — Designs quality and routing evaluations for candidate batches.
+- **`skill-release-gatekeeper`** — Reconciles provenance, duplicates, validations, and human release gates.
 
-## Included workflow skills
+## Fifteen repository-to-skill workflow skills
 
-| Skill | Main purpose |
-|---|---|
-| `repository-source-inventory` | You have a repository URL or local checkout and need to understand what is actually present before drafting skills. |
-| `upstream-license-provenance-gate` | A candidate skill is based on a third-party repository, codebase, API, docs, examples, generated reference, or contributed patch. |
-| `repository-capability-map` | You need a reliable view of what workflows a repository can support and which evidence justifies each capability. |
-| `project-workflow-mining` | You want useful skills based on how people actually use a repository, not a count inflated by renaming existing steps. |
-| `issue-and-acceptance-criteria-mining` | Candidate skills need grounded success conditions rather than vague instructions such as 'make it work'. |
-| `api-contract-to-skill-spec` | A repository exposes APIs, configuration, a CLI, data schemas, or extension points that workflows should use correctly. |
-| `documentation-evidence-index` | The repository has many docs, references, examples, or changing APIs and skill authors need reliable sources to cite. |
-| `test-fixture-to-skill-validation` | A skill claims that a task works in a particular way and there are tests, examples, schemas, or safe fixtures to support it. |
-| `canonical-skill-scope-designer` | A workflow candidate is promising but may overlap an existing skill or be too broad to execute reliably. |
-| `semantic-skill-dedup-review` | You need to prevent a large centralized collection from accumulating duplicates that look different only by name or phrasing. |
-| `skill-trigger-and-negative-case-design` | A skill has a draft description but selection quality and overlap with nearby skills are not yet measured. |
-| `repository-to-skill-batch-planner` | You need to turn a large source repository into a small, reviewable batch instead of generating hundreds of speculative files. |
-| `original-skill-authoring-from-evidence` | A candidate has passed the scope, source-evidence, provenance, and initial duplicate gates and is ready for a draft skill file. |
-| `skill-routing-evaluation` | A skill batch passed structural checks but needs evidence that users can discover the correct workflow. |
-| `skill-release-provenance-gate` | A batch is drafted and must be checked before merging or publishing into a centralized library. |
+- **`repository-source-inventory`** — Understand what is actually present before drafting skills from a repository.
+- **`upstream-license-provenance-gate`** — Check reuse/provenance before a candidate uses third-party code, docs, examples, or imported skills.
+- **`repository-capability-map`** — Identify which user workflows a repository actually supports and what evidence justifies each capability.
+- **`project-workflow-mining`** — Create skills based on how people use a repository rather than count-inflating file-by-file wrappers.
+- **`issue-and-acceptance-criteria-mining`** — Replace vague skill success conditions with grounded, observable checks.
+- **`api-contract-to-skill-spec`** — Ensure repository-derived skills use documented/tested API or CLI interfaces correctly.
+- **`documentation-evidence-index`** — Help skill authors find the smallest reliable source for each task and claim.
+- **`test-fixture-to-skill-validation`** — Validate a skill against available tests, examples, schemas, or safe fixtures.
+- **`canonical-skill-scope-designer`** — A candidate looks useful but may overlap an existing skill or be too broad to execute reliably.
+- **`semantic-skill-dedup-review`** — Prevent a central library from accumulating skills that differ only by name or phrasing.
+- **`skill-trigger-and-negative-case-design`** — Skill descriptions exist but selection quality and overlap with adjacent workflows have not been measured.
+- **`repository-to-skill-batch-planner`** — Turn a large repository into a small, reviewable batch instead of generating speculative files at scale.
+- **`original-skill-authoring-from-evidence`** — A candidate passed the source, provenance, scope, and initial duplicate gates and is ready for a SKILL.md draft.
+- **`skill-routing-evaluation`** — A candidate batch passed structural checks but still needs discoverability evidence.
+- **`skill-release-provenance-gate`** — A skill batch is drafted and must be checked before merge or distribution.
 
-## Recommended end-to-end flow
+## Recommended flow
 
-1. `repository-source-inventory` selects and records an immutable source revision.
-2. `upstream-license-provenance-gate` identifies applicable licenses and blockers before reuse.
-3. `repository-capability-map` plus `project-workflow-mining` build a source-backed capability and task map.
-4. `issue-and-acceptance-criteria-mining`, `api-contract-to-skill-spec`, and `documentation-evidence-index` extract concrete checks and source references.
-5. `canonical-skill-scope-designer` proposes a unique intent; `semantic-skill-dedup-review` compares against existing canonical entries.
-6. `repository-to-skill-batch-planner` selects a small candidate set and `original-skill-authoring-from-evidence` drafts the new skills.
-7. `test-fixture-to-skill-validation` and `skill-routing-evaluation` prepare quality evidence.
-8. `skill-release-provenance-gate` reconciles provenance, duplicates, generated artifacts, CI, and human approval.
+1. Inventory a pinned source revision and record license/provenance.
+2. Map demonstrated capabilities and mine repeatable workflows from tests, examples, docs, and interfaces.
+3. Extract acceptance criteria, API/config contracts, and authoritative evidence links.
+4. Define canonical scope and compare each candidate against the existing catalog semantically.
+5. Plan a small batch, author original SKILL.md files, and keep curated source/plugin/bundle copies byte-identical.
+6. Evaluate positive and negative routing, reconcile counts and manifests, and open a Draft PR for human review.
 
-## Validation
+## Quality and limitations
 
-Run `node tools/validate-artifact-analysis-workbench.mjs` from the repository root. With a supported local Claude Code installation, also run `claude plugin validate ./plugins/artifact-analysis-workbench` and manually invoke representative agents/skills.
+The sync generator performs exact subtree de-duplication. The 1,540 count in this branch is a generated canonical-identity count, not proof that every semantic overlap has been reviewed. The existing catalog contains 54 REA/reverse-engineering skills; this batch focuses on creating skills *from repositories* instead of duplicating generic binary/firmware/mobile/network analysis workflows.
 
-The repository validator is structural: it checks inventory, frontmatter, read-only agent tools, the 150-role registry, and the 25,000-skill budget. It does not prove semantic quality, correct routing, or runtime installation.
+Agent prompts are read-only. They do not implement an analysis engine, install REA, perform a full source audit automatically, or certify licensing. Structural CI does not prove semantic uniqueness, routing quality, or Claude Code runtime loading.
 
-## Provenance
+## Provenance and safe use
 
-The skill and agent prompts in this initial workbench are written for this repository. They do not vendor REA's implementation, its skills, screenshots, or reference documentation. REA's public README links to its MIT license, but a license review remains necessary for any future material reuse, especially where nested third-party assets have different terms.
-
-This branch is a Draft PR. The separate workbench's 15 candidate skills are **not yet added to the global unique count** until cross-plugin semantic review confirms their boundaries against the existing catalog. Structural counts must never substitute for deduplication.
+The prompts/workflows are written for this repository. Review exact upstream revisions and nested third-party notices before any future material reuse. Use only repositories/artifacts you are authorized to inspect. No agent may merge, publish, change visibility, or expand target scope without approval.
