@@ -7,6 +7,8 @@
 **Current milestone:** +25 skills from 1,500 to 1,525 on `feat/skills-expansion-1525-agent-orchestration-2026`
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
+> **Strategic target supersession (2026-10-27):** the 2,500-skill ceiling below is a historical planning milestone for the original collection. The proposed portfolio-wide destination is now 25,000 canonical skills with a 150-role specialist-agent architecture. See [the new strategy](docs/roadmaps/REA_INSPIRED_25000_SKILLS_150_AGENTS.md). This does not change the current inventory count, and the new target is not a claim that 25,000 skills have been created.
+
 The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
 
 ## Milestone sequence
