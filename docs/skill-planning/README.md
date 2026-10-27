@@ -5,6 +5,7 @@
 ## Documentos
 
 - [Plano de organização do repositório](REPOSITORY-ORGANIZATION-PLAN.md) — baseline observado, conflitos documentais e sequência recomendada.
+- [Fluxo de dados e ADR-0001 da fonte canônica](SKILL-DATA-FLOW-AND-ADR-0001.md) — diagrama proposto, divergência entre diretórios e critérios antes de aprovar qualquer migração.
 - [Registro de Issues e PRs](PLANNED-SKILLS-ISSUE-REGISTER.md) — fila existente de planejamento e execução, com links para as Issues originais.
 - [Template de plano por Issue/domínio](DOMAIN-PLAN-TEMPLATE.md) — formato usado para registrar cada candidata antes de criar seu `SKILL.md`.
 - [Issue #25 — ATM10 troubleshooting](domains/issue-25-atm10-troubleshooting.md) — reconciliação de 100 slugs já presentes em `main`; mapeamento 50/25/25 e validação comportamental pendentes.
