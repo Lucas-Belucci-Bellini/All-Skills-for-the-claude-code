@@ -1,0 +1,20 @@
+{
+  "name": "artifact-analysis-workbench",
+  "version": "0.1.0",
+  "description": "Independent, evidence-led subagents and reusable skills for lawful software and artifact analysis.",
+  "author": {
+    "name": "Lucas-Belucci-Bellini"
+  },
+  "license": "See repository license and source-specific notices",
+  "keywords": [
+    "reverse-engineering",
+    "artifact-analysis",
+    "evidence",
+    "static-analysis",
+    "firmware",
+    "network-captures",
+    "agents",
+    "skills",
+    "mcp"
+  ]
+}

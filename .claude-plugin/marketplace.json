@@ -27,6 +27,13 @@
       "description": "Specialized subagents for multi-agent architecture, deterministic testing, reliability review, security audit, incident triage, and evaluation design.",
       "version": "0.1.0",
       "category": "development"
+    },
+    {
+      "name": "artifact-analysis-workbench",
+      "source": "./plugins/artifact-analysis-workbench",
+      "description": "Evidence-led specialist agents and reusable workflows for lawful analysis of software packages, binaries, firmware, network captures, and runtime artifacts.",
+      "version": "0.1.0",
+      "category": "development"
     }
   ]
 }
