@@ -61,7 +61,7 @@ const commandAgents = new Set([
 ]);
 for (const file of commandFiles) {
   const source = await fs.readFile(path.join(commandDir, file), "utf8");
-  const match = /^---\\r?\\n([\\s\\S]*?)\\r?\\n---\\r?\\n([\\s\\S]*)$/.exec(source);
+  const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(source);
   assert.ok(match, file + ": missing or invalid frontmatter");
   const front = match[1], body = match[2];
   const field = (key) => front.split(/\\r?\\n/).find((line) => line.startsWith(key + ":"))?.slice(key.length + 1).trim();
@@ -76,6 +76,6 @@ for (const file of commandFiles) {
   for (const name of referenced) assert.ok(commandAgents.has(name), file + ": unknown agent " + name);
 }
 const pluginReadme = await read("plugins/agent-orchestration-workbench/README.md");
-for (const file of commandFiles) assert.ok(pluginReadme.includes(file.replace(/\\.md$/, "")), "README does not document command " + file);
+for (const file of commandFiles) assert.ok(pluginReadme.includes(file.replace(/\.md$/, "")), "README does not document command " + file);
 console.log("PASS: plugin metadata, marketplace registration, " + names.size + " agents, and " + commandFiles.length + " workflow commands validated.");
 
