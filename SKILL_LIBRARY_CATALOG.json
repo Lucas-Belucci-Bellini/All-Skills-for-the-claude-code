@@ -4,7 +4,6 @@
   "unique_skills": 1540,
   "target": 25000,
   "remaining": 23460,
-  "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
       "name": "accessible-data-table-navigation-audit",
