@@ -14,6 +14,7 @@ on:
       - feat/skills-expansion-1525-agent-orchestration-2026
       - feat/agent-orchestration-workbench-2026
       - feat/orchestration-workflow-commands-2026
+      - feat/rea-inspired-150-agents-25k-skills-2026
   workflow_dispatch:
 
 permissions:
@@ -47,8 +48,16 @@ jobs:
           git diff --check
           node tools/sync-skill-bundles.mjs --check
 
-      - name: Validate current milestone structure and source/bundle parity
+      - name: Validate historical 1,525 milestone on prior branches
+        if: github.ref_name != 'feat/rea-inspired-150-agents-25k-skills-2026' && github.ref_name != 'main'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1525.json
+
+      - name: Validate 1,540-skill source and bundle parity
+        if: github.ref_name == 'feat/rea-inspired-150-agents-25k-skills-2026' || github.ref_name == 'main'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1540.json
 
       - name: Validate agent orchestration plugin
         run: node tools/validate-agent-plugin.mjs
+
+      - name: Validate artifact analysis workbench
+        run: node tools/validate-artifact-analysis-workbench.mjs

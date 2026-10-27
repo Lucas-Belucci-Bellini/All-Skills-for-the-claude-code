@@ -1,6 +1,6 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **1525 distinct skills**, with authored workflows across software reliability, geospatial intelligence, AERIS-10 radar/embedded testing, Flipper Zero firmware, live public-data pipelines, realtime agents, privacy-aware device engineering, and multi-agent orchestration runtime controls. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
+A generated plugin containing **1540 distinct skills**, with authored workflows across software reliability, geospatial intelligence, AERIS-10 radar/embedded testing, Flipper Zero firmware, live public-data pipelines, realtime agents, privacy-aware device engineering, and multi-agent orchestration runtime controls. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
@@ -10,7 +10,7 @@ In Claude Code, add this repository as a marketplace and install all-skills-coll
 
 - Full inventory: SKILL_LIBRARY_CATALOG.md
 - Machine-readable inventory: SKILL_LIBRARY_CATALOG.json
-- Long-term roadmap to 2,500 distinct skills (500 is the 2026 intermediate milestone): SKILL_GROWTH_ROADMAP.md
+- Portfolio roadmap to 25,000 canonical skills; 2,500 remains an intermediate checkpoint: SKILL_GROWTH_ROADMAP.md
 - Canonical authored sources: curated-skill-sources/README.md
 
 ## Refresh after new skills
@@ -24,7 +24,7 @@ The sync script removes identical skill subtrees from the output, namespaces rea
 
 ## Agent orchestration runtime batch (1,525 draft)
 
-The 1,525 draft adds 25 workflow skills for state transitions, fan-out reconciliation, delegation graph bounds, independent review context, compensating actions, deadline allocation, shared-state conflicts, subtask readiness, quorum decisions, liveness, and execution evidence. These are portable procedures and review gates, not an implementation of a production agent orchestration service.
+The 1,525 milestone was a historical draft that added 25 orchestration workflows; the current draft has 1,540 generated canonical entries after the repository-to-skill synthesis batch for state transitions, fan-out reconciliation, delegation graph bounds, independent review context, compensating actions, deadline allocation, shared-state conflicts, subtask readiness, quorum decisions, liveness, and execution evidence. These are portable procedures and review gates, not an implementation of a production agent orchestration service.
 
 ## Limits and provenance
 

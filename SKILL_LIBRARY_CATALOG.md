@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-27. The unified bundle contains 1525 distinct skills.
+Updated: 2026-10-27. The unified bundle contains 1540 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **1399**
-- Current total: **1525**
-- Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **975**
+- Original curated skills: **1414**
+- Current total: **1540**
+- Long-term planning target: **25,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
+- Remaining to long-term target: **23,460**
 
 ## Categories
 
@@ -258,6 +258,24 @@ Updated: 2026-10-27. The unified bundle contains 1525 distinct skills.
 - skill-registry-maintenance-window-contract — NEW
 - skill-registry-tenant-separation-tests — NEW
 - tool-call-budget-policy — NEW
+
+### Curated: repository-to-skill-synthesis (15)
+
+- api-contract-to-skill-spec — NEW
+- canonical-skill-scope-designer — NEW
+- documentation-evidence-index — NEW
+- issue-and-acceptance-criteria-mining — NEW
+- original-skill-authoring-from-evidence — NEW
+- project-workflow-mining — NEW
+- repository-capability-map — NEW
+- repository-source-inventory — NEW
+- repository-to-skill-batch-planner — NEW
+- semantic-skill-dedup-review — NEW
+- skill-release-provenance-gate — NEW
+- skill-routing-evaluation — NEW
+- skill-trigger-and-negative-case-design — NEW
+- test-fixture-to-skill-validation — NEW
+- upstream-license-provenance-gate — NEW
 
 ### Developer environment & CLI tooling (10)
 

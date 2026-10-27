@@ -1,13 +1,15 @@
-# Roadmap to 2,500 distinct skills
+# Roadmap to 25,000 canonical distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 1,525 distinct skills (1,399 authored + 126 retained/imported)
-**Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 975
+**Current draft inventory:** 1,540 distinct skills (1,414 authored + 126 retained/imported)
+**Long-term planning target:** 25,000 distinct skills
+**Remaining to long-term target:** 23,460
 **Current milestone:** +25 skills from 1,500 to 1,525 on `feat/skills-expansion-1525-agent-orchestration-2026`
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
-The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
+> **Strategic target supersession (2026-10-27):** the 2,500-skill ceiling below is a historical planning milestone for the original collection. The proposed portfolio-wide destination is now 25,000 canonical skills with a 150-role specialist-agent architecture. See [the new strategy](docs/roadmaps/REA_INSPIRED_25000_SKILLS_150_AGENTS.md). The source-sync inventory and the long-range target are separate figures; the target does not mean 25,000 skills already exist.
+
+The 2,500 figure is now an intermediate checkpoint inside the portfolio-wide 25,000-skill strategy, not the ultimate ceiling. Never treat a count as a quota: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
 
 ## Milestone sequence
 
@@ -26,11 +28,12 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 1,250 | 1,250 | Draft ATM10 troubleshooting batch: 50 general diagnosis, 25 cross-mod conflicts, and 25 individual-mod bug investigations; plugin/catalog and CI validation required before review |
 | 1500 | 1500 | Draft stack adds 100 ProjectE EMC workflow skills (40/25/20/15) and 150 multi-agent skill infrastructure/lifecycle skills; runtime, sync, CI and editorial review remain pending |
 | 1525 | 1525 | Adds 25 agent orchestration runtime workflows for state transitions, fan-out reconciliation, delegation guards, independent review, compensation, deadlines, shared-state conflicts, readiness, quorum, liveness, and execution evidence; structural, CI, runtime and provenance review remain required |
+| 1540 | 1540 | Adds 15 repository-to-skill synthesis workflows with curated sources and identical plugin/bundle copies; semantic review and runtime validation remain required |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 1,525–1,750 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 1,525–2,000 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
-| Long-range scale | 2,025–2,500 | Review discoverability, maintenance burden, provenance and package size every 100 skills |
-| Beyond target | Reassessment | Reassess adoption and maintenance burden before expansion beyond 2,500 |
+| Intermediate scale | 2,025–2,500 | Review discoverability, maintenance burden, provenance and package size every 100 skills |
+| Long-range scale | 5,000–25,000 | Advance only through reviewed batches, semantic quality gates, and maintenance-health checks |
 
 A catalog counter alone does not complete a milestone. Each batch requires exact-name and semantic-overlap review, source/bundle parity, frontmatter/workflow checks, catalog reconciliation, manifest consistency, and diff review. If fewer than the planned batch size of useful skills are ready, ship fewer rather than inventing near-duplicates.
 
