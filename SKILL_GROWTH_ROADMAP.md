@@ -1,10 +1,10 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 1,500 distinct skills (1,374 authored + 126 retained/imported)
+**Current draft inventory:** 1,525 distinct skills (1,399 authored + 126 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 1,000
-**Current milestone:** +250 skills from 1,250 to 1,500 on `feat/skills-expansion-1500-projete-cross-agent-2026`
+**Remaining to long-term target:** 975
+**Current milestone:** +25 skills from 1,500 to 1,525 on `feat/skills-expansion-1525-agent-orchestration-2026`
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
 The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -25,6 +25,7 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 1,150 | 1,150 | Adds 50 Playwright E2E, 50 OpenTelemetry Collector, and 50 Temporal TypeScript durable-workflow skills; clean install/discovery and broader semantic review remain pending |
 | 1,250 | 1,250 | Draft ATM10 troubleshooting batch: 50 general diagnosis, 25 cross-mod conflicts, and 25 individual-mod bug investigations; plugin/catalog and CI validation required before review |
 | 1500 | 1500 | Draft stack adds 100 ProjectE EMC workflow skills (40/25/20/15) and 150 multi-agent skill infrastructure/lifecycle skills; runtime, sync, CI and editorial review remain pending |
+| 1525 | 1525 | Adds 25 agent orchestration runtime workflows for state transitions, fan-out reconciliation, delegation guards, independent review, compensation, deadlines, shared-state conflicts, readiness, quorum, liveness, and execution evidence; structural, CI, runtime and provenance review remain required |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 1,525–1,750 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 1,525–2,000 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -70,3 +71,16 @@ This stacked branch adds 250 distinct authored skill workflows on top of the 1,2
 - [ ] Finish repository-wide provenance/license review before publishing the combined third-party distribution.
 
 This branch is intended to be reviewed as a stacked change with base `feat/skills-expansion-1250-atm10-troubleshooting-2026`. No PR or merge was created by this update.
+
+
+## 1,525 milestone — Agent orchestration runtime controls
+
+This batch adds 25 original workflow skills under `curated-skill-sources/agent-tooling/` and matching generated entrypoints in the unified plugin. Its focus is runtime coordination of delegated work rather than another registry, broker, adapter, cache, or skill-lifecycle batch.
+
+- [ ] Run `node tools/sync-skill-bundles.mjs --write` and `--check` in a clean checkout.
+- [ ] Run `node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1525.json` and `git diff --check`.
+- [ ] Review semantic overlap and trigger quality; inspect GitHub Actions results.
+- [ ] Test representative concurrency, delayed-callback, partial-failure, and recovery fixtures.
+- [ ] Complete repository-wide third-party provenance and license review before publishing the combined distribution.
+
+These skill documents define procedures and acceptance checks; they do not implement a production orchestrator, enforce runtime permissions by themselves, or connect external providers. This stacked branch targets `feat/skills-expansion-1500-projete-cross-agent-2026` and does not modify `main`.

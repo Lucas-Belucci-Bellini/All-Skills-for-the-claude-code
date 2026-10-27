@@ -1,6 +1,6 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **1500 distinct skills**, with authored workflows across software reliability, geospatial intelligence, AERIS-10 radar/embedded testing, Flipper Zero firmware, live public-data pipelines, realtime agents, and privacy-aware device engineering. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
+A generated plugin containing **1525 distinct skills**, with authored workflows across software reliability, geospatial intelligence, AERIS-10 radar/embedded testing, Flipper Zero firmware, live public-data pipelines, realtime agents, privacy-aware device engineering, and multi-agent orchestration runtime controls. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
@@ -21,6 +21,10 @@ From the repository root run the commands below, review the diff, and open a pul
     node tools/sync-skill-bundles.mjs --check
 
 The sync script removes identical skill subtrees from the output, namespaces real naming collisions, preserves executable modes, updates the bundle version/catalog and refuses an empty collection. It does not merge or publish.
+
+## Agent orchestration runtime batch (1,525 draft)
+
+The 1,525 draft adds 25 workflow skills for state transitions, fan-out reconciliation, delegation graph bounds, independent review context, compensating actions, deadline allocation, shared-state conflicts, subtask readiness, quorum decisions, liveness, and execution evidence. These are portable procedures and review gates, not an implementation of a production agent orchestration service.
 
 ## Limits and provenance
 

@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17",
-  "unique_skills": 1500,
+  "updated_at": "2026-10-27",
+  "unique_skills": 1525,
   "target": 2500,
-  "remaining": 1000,
+  "remaining": 975,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -673,6 +673,12 @@
       "source_path": null
     },
     {
+      "name": "agent-action-prepare-commit-guard",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-action-prepare-commit-guard/SKILL.md"
+    },
+    {
       "name": "agent-adapter-agent-version-fingerprint",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
@@ -793,10 +799,64 @@
       "source_path": "curated-skill-sources/agent-tooling/agent-adapter-write-approval-gate/SKILL.md"
     },
     {
+      "name": "agent-cancellation-vs-failure-taxonomy",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-cancellation-vs-failure-taxonomy/SKILL.md"
+    },
+    {
       "name": "agent-capability-matrix-audit",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/agent-capability-matrix-audit/SKILL.md"
+    },
+    {
+      "name": "agent-compensation-evidence-verification",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-compensation-evidence-verification/SKILL.md"
+    },
+    {
+      "name": "agent-concurrent-task-ownership-arbitration",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-concurrent-task-ownership-arbitration/SKILL.md"
+    },
+    {
+      "name": "agent-context-snapshot-freshness-gate",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-context-snapshot-freshness-gate/SKILL.md"
+    },
+    {
+      "name": "agent-cross-agent-claim-adjudication",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-cross-agent-claim-adjudication/SKILL.md"
+    },
+    {
+      "name": "agent-delegation-capability-least-privilege",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-delegation-capability-least-privilege/SKILL.md"
+    },
+    {
+      "name": "agent-delegation-depth-cycle-guard",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-delegation-depth-cycle-guard/SKILL.md"
+    },
+    {
+      "name": "agent-escalation-on-uncertainty-policy",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-escalation-on-uncertainty-policy/SKILL.md"
+    },
+    {
+      "name": "agent-fanout-result-reconciliation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-fanout-result-reconciliation/SKILL.md"
     },
     {
       "name": "agent-human-approval-gates",
@@ -805,16 +865,88 @@
       "source_path": "curated-skill-sources/agent-tooling/agent-human-approval-gates/SKILL.md"
     },
     {
+      "name": "agent-independent-review-context-isolation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-independent-review-context-isolation/SKILL.md"
+    },
+    {
       "name": "agent-memory-write-policy",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/agent-memory-write-policy/SKILL.md"
     },
     {
+      "name": "agent-orchestration-event-correlation-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-orchestration-event-correlation-contract/SKILL.md"
+    },
+    {
+      "name": "agent-output-artifact-finalization-atomicity",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-output-artifact-finalization-atomicity/SKILL.md"
+    },
+    {
+      "name": "agent-partial-failure-scope-classification",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-partial-failure-scope-classification/SKILL.md"
+    },
+    {
       "name": "agent-plan-vs-execution-verification",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/agent-plan-vs-execution-verification/SKILL.md"
+    },
+    {
+      "name": "agent-progress-signal-liveness-audit",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-progress-signal-liveness-audit/SKILL.md"
+    },
+    {
+      "name": "agent-result-quorum-decision-policy",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-result-quorum-decision-policy/SKILL.md"
+    },
+    {
+      "name": "agent-run-cost-attribution-record",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-run-cost-attribution-record/SKILL.md"
+    },
+    {
+      "name": "agent-run-deadline-budget-allocation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-run-deadline-budget-allocation/SKILL.md"
+    },
+    {
+      "name": "agent-run-pause-resume-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-run-pause-resume-contract/SKILL.md"
+    },
+    {
+      "name": "agent-run-replay-safety-harness",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-run-replay-safety-harness/SKILL.md"
+    },
+    {
+      "name": "agent-run-state-transition-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-run-state-transition-contract/SKILL.md"
+    },
+    {
+      "name": "agent-shared-state-version-conflict-resolution",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-shared-state-version-conflict-resolution/SKILL.md"
     },
     {
       "name": "agent-skill-cache-tenant-isolation",
@@ -883,6 +1015,12 @@
       "source_path": "curated-skill-sources/agent-tooling/agent-state-checkpointing/SKILL.md"
     },
     {
+      "name": "agent-subtask-readiness-contract",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-subtask-readiness-contract/SKILL.md"
+    },
+    {
       "name": "agent-task-decomposition",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
@@ -895,10 +1033,22 @@
       "source_path": "curated-skill-sources/agent-tooling/agent-task-handoff-contract/SKILL.md"
     },
     {
+      "name": "agent-terminal-status-reconciliation",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-terminal-status-reconciliation/SKILL.md"
+    },
+    {
       "name": "agent-tool-output-schema-validation",
       "category": "Claude Code setup & MCP",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/agent-tooling/agent-tool-output-schema-validation/SKILL.md"
+    },
+    {
+      "name": "agent-workflow-compensation-boundary",
+      "category": "Claude Code setup & MCP",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/agent-tooling/agent-workflow-compensation-boundary/SKILL.md"
     },
     {
       "name": "claude-code-hook-safety-review",

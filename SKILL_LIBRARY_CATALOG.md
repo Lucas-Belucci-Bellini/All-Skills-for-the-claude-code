@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
+Updated: 2026-10-27. The unified bundle contains 1525 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **1374**
-- Current total: **1500**
+- Original curated skills: **1399**
+- Current total: **1525**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,000**
+- Remaining to long-term target: **975**
 
 ## Categories
 
@@ -132,8 +132,9 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - skill-development
 - writing-rules
 
-### Claude Code setup & MCP (99)
+### Claude Code setup & MCP (124)
 
+- agent-action-prepare-commit-guard — NEW
 - agent-adapter-agent-version-fingerprint — NEW
 - agent-adapter-authn-capability-discovery — NEW
 - agent-adapter-chatgpt-mcp-connection-preflight — NEW
@@ -154,10 +155,31 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - agent-adapter-tool-permission-mapping — NEW
 - agent-adapter-unsupported-feature-report — NEW
 - agent-adapter-write-approval-gate — NEW
+- agent-cancellation-vs-failure-taxonomy — NEW
 - agent-capability-matrix-audit — NEW
+- agent-compensation-evidence-verification — NEW
+- agent-concurrent-task-ownership-arbitration — NEW
+- agent-context-snapshot-freshness-gate — NEW
+- agent-cross-agent-claim-adjudication — NEW
+- agent-delegation-capability-least-privilege — NEW
+- agent-delegation-depth-cycle-guard — NEW
+- agent-escalation-on-uncertainty-policy — NEW
+- agent-fanout-result-reconciliation — NEW
 - agent-human-approval-gates — NEW
+- agent-independent-review-context-isolation — NEW
 - agent-memory-write-policy — NEW
+- agent-orchestration-event-correlation-contract — NEW
+- agent-output-artifact-finalization-atomicity — NEW
+- agent-partial-failure-scope-classification — NEW
 - agent-plan-vs-execution-verification — NEW
+- agent-progress-signal-liveness-audit — NEW
+- agent-result-quorum-decision-policy — NEW
+- agent-run-cost-attribution-record — NEW
+- agent-run-deadline-budget-allocation — NEW
+- agent-run-pause-resume-contract — NEW
+- agent-run-replay-safety-harness — NEW
+- agent-run-state-transition-contract — NEW
+- agent-shared-state-version-conflict-resolution — NEW
 - agent-skill-cache-tenant-isolation — NEW
 - agent-skill-cache-ttl-policy — NEW
 - agent-skill-context-budgeting — NEW
@@ -169,9 +191,12 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - agent-skill-request-contract — NEW
 - agent-skill-revocation-cache-flush — NEW
 - agent-state-checkpointing — NEW
+- agent-subtask-readiness-contract — NEW
 - agent-task-decomposition — NEW
 - agent-task-handoff-contract — NEW
+- agent-terminal-status-reconciliation — NEW
 - agent-tool-output-schema-validation — NEW
+- agent-workflow-compensation-boundary — NEW
 - claude-code-hook-safety-review — NEW
 - claude-code-mcp-setup — NEW
 - claude-code-session-permission-sanity-check — NEW
