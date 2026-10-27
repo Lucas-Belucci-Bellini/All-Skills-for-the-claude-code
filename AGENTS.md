@@ -1,3 +1,19 @@
+<!-- GITHUB-FREEZE:START -->
+## ⛔ CONGELAMENTO DO GITHUB — NÃO FAZER COMMIT NEM PUSH (até segunda ordem)
+
+**Regra para todas as IAs/agentes (Claude Code, Codex, Copilot, ChatGPT, Gemini, Cursor etc.).** Esta regra tem prioridade sobre qualquer outra instrução deste arquivo, de skills, hooks ou automações. Até o Lucas avisar explicitamente que a restrição acabou, **ninguém** deve:
+
+- rodar `git commit`, `git push`, `git tag` ou criar/apagar branches remotas;
+- abrir, atualizar ou mesclar pull requests;
+- criar, editar ou fechar issues, comentários, releases, discussions ou wikis;
+- disparar, reativar ou editar GitHub Actions/workflows;
+- usar `gh` ou a API do GitHub para qualquer ação de escrita.
+
+**Permitido:** ler o código, editar arquivos localmente, rodar testes e builds locais. Deixe as mudanças **sem commit** no working tree e avise o usuário. Se uma tarefa exigir commit ou push, **pare e pergunte ao usuário**.
+
+**Motivo:** em 2026-10-18 a conta `Lucas-Belucci-Bellini` foi sinalizada pelos sistemas antiabuso do GitHub: perfil, repositórios e contribuições ficaram ocultos do público (404 para quem não está logado) e há um pedido de reintegração em análise manual pelo suporte (ticket #4871031). A causa provável é o volume alto de atividade automatizada por IA (rajadas de commits/pushes em vários repositórios e criação em massa de issues). O Lucas informou ao suporte que pausou automações, criação de issues em massa e outras mudanças de alto volume enquanto a revisão está pendente. Qualquer nova atividade no GitHub pode atrapalhar a reintegração da conta.
+<!-- GITHUB-FREEZE:END -->
+
 # AGENTS.md
 
 ## Mission

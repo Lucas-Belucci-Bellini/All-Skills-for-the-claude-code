@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
+Updated: 2026-10-19. The unified bundle contains 1499 distinct skills.
 
 ## Inventory summary
 
-- Existing/imported skills retained: **126**
+- Existing/imported skills retained: **125**
 - Original curated skills: **1374**
-- Current total: **1500**
+- Current total: **1499**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **1,000**
+- Remaining to long-term target: **1,001**
 
 ## Categories
 
@@ -101,15 +101,13 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - radar-vg-dac-range-and-limit-validation — NEW
 - radar-waveguide-geometry-parametric-validation — NEW
 
-### Agent workflows, Claude Code & MCP (28)
+### Agent workflows, Claude Code & MCP (26)
 
 - agent-development
-- agent-workspace-isolation — NEW
 - build-mcp-app
 - build-mcp-server
 - build-mcpb
 - claude-automation-recommender
-- claude-security
 - command-development
 - critiquing-own-response
 - dispatching-agent-work
@@ -132,7 +130,7 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - skill-development
 - writing-rules
 
-### Claude Code setup & MCP (99)
+### Claude Code setup & MCP (100)
 
 - agent-adapter-agent-version-fingerprint — NEW
 - agent-adapter-authn-capability-discovery — NEW
@@ -172,6 +170,7 @@ Updated: 2026-10-17. The unified bundle contains 1500 distinct skills.
 - agent-task-decomposition — NEW
 - agent-task-handoff-contract — NEW
 - agent-tool-output-schema-validation — NEW
+- agent-workspace-isolation — NEW
 - claude-code-hook-safety-review — NEW
 - claude-code-mcp-setup — NEW
 - claude-code-session-permission-sanity-check — NEW

@@ -20,6 +20,10 @@ const growthRoadmapPath = path.join(root, "SKILL_GROWTH_ROADMAP.md");
 const LONG_TERM_TARGET = 2500;
 const skipDirs = new Set([".git", "node_modules", ".next", "coverage", "dist", "vendor"]);
 const generated = ["plugins/all-skills-collection/", "plugins/skill-library-maintainer/"];
+// Sources whose license forbids redistribution; never scan or bundle them, even if re-imported.
+const excludedSources = [
+  { prefix: "claude-security/", reason: "proprietary Anthropic license; redistribution is not permitted" },
+];
 const slash = (v) => v.split(path.sep).join("/");
 const rel = (a, b) => slash(path.relative(a, b));
 const hash = (v) => createHash("sha256").update(v).digest("hex");
@@ -56,6 +60,7 @@ async function listFiles(base, includeGenerated = false) {
       const absolute = path.join(dir, ent.name);
       const relative = rel(base, absolute);
       if (!includeGenerated && generated.some((p) => relative === p.slice(0, -1) || relative.startsWith(p))) continue;
+      if (!includeGenerated && excludedSources.some((e) => relative === e.prefix.slice(0, -1) || relative.startsWith(e.prefix))) continue;
       if (ent.isDirectory()) await visit(absolute);
       else if (ent.isFile()) result.push(relative);
     }

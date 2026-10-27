@@ -1,9 +1,9 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 1,500 distinct skills (1,374 authored + 126 retained/imported)
+**Current draft inventory:** 1,499 distinct skills (1,374 authored + 125 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 1,000
+**Remaining to long-term target:** 1,001
 **Current milestone:** +250 skills from 1,250 to 1,500 on `feat/skills-expansion-1500-projete-cross-agent-2026`
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
