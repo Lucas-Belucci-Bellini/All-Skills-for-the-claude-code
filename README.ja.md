@@ -14,6 +14,10 @@
 - 各 `SKILL.md` をその機能の標準手順とする。
 - リポジトリ管理ルールは `AGENTS.md` に従う。
 
+## 統合スキルライブラリ（別管理）
+
+この README のゲーム開発向けローカルスキル一覧とは別に、`curated-skill-sources/` を原本とする統合ライブラリも管理する。2026-10-27 時点の 1,525 件は、移植済みエントリを含むドラフト在庫数であり、すべてのスキルの実行時動作やライセンス審査が確認済みという意味ではない。生成された配布コピーを直接編集せず、原本を更新した後に同期・検証する。
+
 ## プラグイン配布
 
 Codex と Claude Code 向けに、7つのリポジトリ配布プラグインを用意している。バージョン付きの導入可能なルートとカタログは、このリポジトリの canonical skill と composition から生成される。GitHub 配布と OpenAI / Anthropic の curated directory への申請は別の操作である。再生成、検証、versioning、公開境界は [maintainer guide](PLUGIN_RELEASE.md) を参照。

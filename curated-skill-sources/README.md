@@ -1,8 +1,8 @@
 # Curated Skill Sources
 
-Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The 1,250-skill draft contains **1,124 original skills** and 126 retained/imported entries.
+Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The current 1,525-skill draft contains **1,399 original skills** and 126 retained/imported entries.
 
-- `agent-tooling/`: agent request contracts, provider adapters, Skill Broker access, MCP configuration, permissions, connection checks, and troubleshooting.
+- `agent-tooling/`: agent request contracts, provider adapters, Skill Broker access, MCP configuration, permissions, connection checks, orchestration state, fan-out reconciliation, delegation guards, and recovery workflows.
 - `developer-cli-tooling/`: CLI behavior contracts, portable environments, and deterministic command workflows.
 - `documentation-knowledge-systems/`: documentation correctness, traceability, examples, and operational runbooks.
 - `engine-runtime/`: engine architecture, resource lifecycle, rendering, deterministic simulation, and performance.
