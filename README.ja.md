@@ -167,3 +167,12 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 - [secure-coding-practices](.agents/skills/secure-coding-practices/SKILL.md) — 入力、認証、データ、ファイル、ネットワーク境界で安全な既定値を適用する。
 - [systematic-code-review](.agents/skills/systematic-code-review/SKILL.md) — 差分を根拠に重大な不具合を確認し、実行可能な指摘をまとめる。
 - [designing-stable-api-contracts](.agents/skills/designing-stable-api-contracts/SKILL.md) — 予測可能で安全、かつ進化可能なサービスインターフェースを定義する。
+
+- [solid-design-principles](.agents/skills/solid-design-principles/SKILL.md) — 実際の変更要件に合わせて SOLID 原則を適用する。
+- [modular-software-architecture](.agents/skills/modular-software-architecture/SKILL.md) — 凝集度の高いモジュール、所有権、依存関係を定義する。
+- [dependency-injection-patterns](.agents/skills/dependency-injection-patterns/SKILL.md) — 依存関係とリソースのライフサイクルを明示的に構成する。
+- [relational-database-schema-design](.agents/skills/relational-database-schema-design/SKILL.md) — データ要件に基づいて関係、制約、インデックスを設計する。
+- [safe-database-migrations](.agents/skills/safe-database-migrations/SKILL.md) — 互換性と復旧計画を備えてスキーマとデータを変更する。
+- [sql-query-performance](.agents/skills/sql-query-performance/SKILL.md) — 実行計画と測定結果に基づいてクエリを最適化する。
+- [async-concurrency-patterns](.agents/skills/async-concurrency-patterns/SKILL.md) — 非同期処理の上限、キャンセル、再試行、エラーを定義する。
+- [race-condition-detection](.agents/skills/race-condition-detection/SKILL.md) — 共有状態を分析し、競合する実行順序を検証する。
