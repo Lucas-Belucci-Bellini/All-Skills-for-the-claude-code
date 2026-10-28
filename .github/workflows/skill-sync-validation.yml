@@ -15,6 +15,9 @@ on:
       - feat/agent-orchestration-workbench-2026
       - feat/orchestration-workflow-commands-2026
       - feat/rea-inspired-150-agents-25k-skills-2026
+      - fix/1540-skill-sync-validation-routing-2026
+      - feat/repository-skill-candidate-gate-2026
+      - feat/repository-evidence-manifest-2026
   workflow_dispatch:
 
 permissions:
@@ -34,7 +37,20 @@ jobs:
           node-version: 22
 
       - name: Check script syntax
-        run: node --check tools/sync-skill-bundles.mjs
+        run: |
+          node --check tools/sync-skill-bundles.mjs
+          node --check tools/validate-repository-skill-candidate.mjs
+          node --check tools/inventory-repository.mjs
+          node --check tools/build-repository-evidence-manifest.mjs
+
+      - name: Self-test repository-to-skill candidate gate
+        run: node tools/validate-repository-skill-candidate.mjs --self-test
+
+      - name: Self-test offline repository inventory
+        run: node tools/inventory-repository.mjs --self-test
+
+      - name: Self-test pinned repository evidence manifest
+        run: node tools/build-repository-evidence-manifest.mjs --self-test
 
       - name: Generate bundle and verify idempotence
         shell: bash
@@ -48,12 +64,12 @@ jobs:
           git diff --check
           node tools/sync-skill-bundles.mjs --check
 
-      - name: Validate historical 1,525 milestone on prior branches
-        if: github.ref_name != 'feat/rea-inspired-150-agents-25k-skills-2026' && github.ref_name != 'main'
+      - name: Validate historical 1,525 milestone on historical branches
+        if: github.ref_name == 'fix/skill-sync-target-2500-2026' || github.ref_name == 'feat/skills-expansion-525-from-sync-fix-2026' || github.ref_name == 'feat/skills-expansion-550-from-525-2026' || github.ref_name == 'feat/skills-expansion-600-from-550-2026' || github.ref_name == 'feat/skills-expansion-850-from-600-2026' || github.ref_name == 'feat/skills-expansion-1000-from-850-2026' || github.ref_name == 'feat/skills-expansion-1150-from-1000-2026' || github.ref_name == 'feat/skills-expansion-1500-projete-cross-agent-2026' || github.ref_name == 'feat/skills-expansion-1525-agent-orchestration-2026' || github.ref_name == 'feat/agent-orchestration-workbench-2026'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1525.json
 
       - name: Validate 1,540-skill source and bundle parity
-        if: github.ref_name == 'feat/rea-inspired-150-agents-25k-skills-2026' || github.ref_name == 'main'
+        if: github.ref_name == 'feat/rea-inspired-150-agents-25k-skills-2026' || github.ref_name == 'feat/orchestration-workflow-commands-2026' || github.ref_name == 'fix/1540-skill-sync-validation-routing-2026' || github.ref_name == 'feat/repository-skill-candidate-gate-2026' || github.ref_name == 'feat/repository-evidence-manifest-2026'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1540.json
 
       - name: Validate agent orchestration plugin
