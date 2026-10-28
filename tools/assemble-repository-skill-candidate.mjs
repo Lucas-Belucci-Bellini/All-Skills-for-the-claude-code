@@ -25,7 +25,7 @@ export function assembleCandidate(spec, manifest, inventory) {
   need(manifest.schema_version === 1 && manifest.manifest_type === "repository-evidence-pointers", "unsupported evidence manifest schema/type");
   need(inventory.schema_version === 1 && inventory.inventory_type === "structural-only", "unsupported inventory schema/type");
   need(isObject(manifest.repository), "manifest.repository is missing");
-  need(Array.isArray(manifest.claims), "manifest.claims must be an array");
+  need(Array.isArray(manifest.evidence), "manifest.evidence must be an array");
   need(Array.isArray(inventory.files), "inventory.files must be an array");
   const source = spec.source;
   need(isObject(source), "spec.source must be an object");
@@ -36,7 +36,7 @@ export function assembleCandidate(spec, manifest, inventory) {
   }
   const inventoryByPath = new Map(inventory.files.filter(isObject).map((f) => [f.path, f]));
   const claimsById = new Map();
-  for (const claim of manifest.claims) {
+  for (const claim of manifest.evidence) {
     if (!isObject(claim) || !nonEmpty(claim.id)) continue;
     if (claimsById.has(claim.id)) errors.push("evidence manifest contains duplicate claim id: " + claim.id);
     claimsById.set(claim.id, claim);
