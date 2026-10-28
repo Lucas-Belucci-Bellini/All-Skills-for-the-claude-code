@@ -173,3 +173,9 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 - [`designing-game-combat-resolution`](.agents/skills/designing-game-combat-resolution/SKILL.md) — 命中・ダメージの解決順序、無敵・ガードの優先順位、対象ごとの命中回数、回帰テストを定義する。
 - [`validating-game-movement-feel`](.agents/skills/validating-game-movement-feel/SKILL.md) — 加速、停止、衝突、フレーム時間の変動、カメラ挙動を再現可能なテストに変換する。
 - [`testing-procedural-gameplay-encounters`](.agents/skills/testing-procedural-gameplay-encounters/SKILL.md) — 生成された遭遇の到達可能性、公平性、ペース、再現性、seedベースの回帰テストを検証する。
+
+### 第4バッチ：クエスト依存関係、ナラティブ翻訳、マルチプレイヤーセッション
+
+- [`designing-quest-objective-dependencies`](.agents/skills/designing-quest-objective-dependencies/SKILL.md) — ミッションの前提条件、任意分岐、失敗経路、完了条件をテスト可能なグラフとしてモデル化する。
+- [`validating-game-narrative-localization`](.agents/skills/validating-game-narrative-localization/SKILL.md) — ナラティブの文脈、プレースホルダー、会話分岐、ロケール網羅性、UIの文字切れを検証する。
+- [`validating-multiplayer-session-lifecycle`](.agents/skills/validating-multiplayer-session-lifecycle/SKILL.md) — ロビー、参加・退出、ホスト切断、再接続、移行、リソース解放の状態遷移をテストする。
