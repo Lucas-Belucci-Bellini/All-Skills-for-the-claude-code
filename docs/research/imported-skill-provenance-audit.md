@@ -7,8 +7,8 @@ This report tracks the 161 catalog entries with `origin: existing`. The generate
 ## Findings
 
 - Catalog entries marked `existing`: **161**.
-- Entries with at least one non-bundle candidate `SKILL.md`: **155**.
-- Entries with no non-bundle candidate source found: **6**.
+- Entries with at least one non-bundle candidate `SKILL.md`: **161**.
+- Entries with no non-bundle candidate source found: **0**.
 - Names with multiple candidate source paths: **6**.
 - All rows remain **Pending** until a reviewer confirms upstream URL/revision, author/copyright, applicable license, required notices/attribution, and redistribution compatibility.
 
@@ -19,7 +19,7 @@ This report tracks the 161 catalog entries with `origin: existing`. The generate
 3. Confirm the source license permits redistribution and any modifications/aggregation made here.
 4. Preserve required copyright, attribution, NOTICE, and license text.
 5. Record reviewer, evidence URL/revision, decision, and any remediation before changing status from Pending.
-6. For bundle-only entries or duplicate candidate paths, identify the intended canonical source and document why alternate copies are retained or excluded.
+6. For namespaced bundle entries or duplicate candidate paths, identify the intended canonical source and document why alternate copies are retained or excluded.
 
 The repository's plugin README already says to keep the repository private until third-party provenance and redistribution terms have been reviewed. Keep that restriction in place until this audit and any other third-party material have been cleared.
 
@@ -58,8 +58,8 @@ The repository's plugin README already says to keep the repository private until
 | `designing-stable-api-contracts` | .agents/skills/designing-stable-api-contracts/SKILL.md | LICENSE | Pending |
 | `developing-with-crisp-game-lib` | web-mini-game-kit/skills/developing-with-crisp-game-lib/SKILL.md | web-mini-game-kit/LICENSE | Pending |
 | `directing-game-visuals` | one-button-game-builder/skills/directing-game-visuals/SKILL.md | one-button-game-builder/LICENSE | Pending |
-| `discord-access` | No non-bundle SKILL.md found | LICENSE (repo root; applicability unverified) | Pending |
-| `discord-configure` | No non-bundle SKILL.md found | LICENSE (repo root; applicability unverified) | Pending |
+| `discord-access` | external_plugins/discord/skills/access/SKILL.md | external_plugins/discord/LICENSE | Pending |
+| `discord-configure` | external_plugins/discord/skills/configure/SKILL.md | external_plugins/discord/LICENSE | Pending |
 | `dispatching-agent-work` | agent-workflow-engineering/skills/dispatching-agent-work/SKILL.md | agent-workflow-engineering/LICENSE | Pending |
 | `evaluating-gameplay-balance` | one-button-game-builder/skills/evaluating-gameplay-balance/SKILL.md | one-button-game-builder/LICENSE | Pending |
 | `example-command` | example-plugin/skills/example-command/SKILL.md | example-plugin/LICENSE | Pending |
@@ -77,8 +77,8 @@ The repository's plugin README already says to keep the repository private until
 | `git-branching-and-change-management` | .agents/skills/git-branching-and-change-management/SKILL.md | LICENSE | Pending |
 | `godot-game-dev` | plugins/godot/skills/godot-game-dev/SKILL.md | LICENSE | Pending |
 | `hook-development` | plugin-dev/skills/hook-development/SKILL.md | plugin-dev/LICENSE | Pending |
-| `imessage-access` | No non-bundle SKILL.md found | LICENSE (repo root; applicability unverified) | Pending |
-| `imessage-configure` | No non-bundle SKILL.md found | LICENSE (repo root; applicability unverified) | Pending |
+| `imessage-access` | external_plugins/imessage/skills/access/SKILL.md | external_plugins/imessage/LICENSE | Pending |
+| `imessage-configure` | external_plugins/imessage/skills/configure/SKILL.md | external_plugins/imessage/LICENSE | Pending |
 | `implementing-game-ai-state-machines` | .agents/skills/implementing-game-ai-state-machines/SKILL.md | LICENSE | Pending |
 | `implementing-gameplay-invariants` | gameplay-debugging-toolkit/skills/implementing-gameplay-invariants/SKILL.md<br>one-button-game-builder/skills/implementing-gameplay-invariants/SKILL.md | gameplay-debugging-toolkit/LICENSE<br>one-button-game-builder/LICENSE | Pending |
 | `implementing-incremental-code-changes` | .agents/skills/implementing-incremental-code-changes/SKILL.md | LICENSE | Pending |
@@ -175,8 +175,8 @@ The repository's plugin README already says to keep the repository private until
 | `structuring-gameplay-playtests` | .agents/skills/structuring-gameplay-playtests/SKILL.md | LICENSE | Pending |
 | `styling-web-game-typography` | web-mini-game-kit/skills/styling-web-game-typography/SKILL.md | web-mini-game-kit/LICENSE | Pending |
 | `systematic-code-review` | .agents/skills/systematic-code-review/SKILL.md | LICENSE | Pending |
-| `telegram-access` | No non-bundle SKILL.md found | LICENSE (repo root; applicability unverified) | Pending |
-| `telegram-configure` | No non-bundle SKILL.md found | LICENSE (repo root; applicability unverified) | Pending |
+| `telegram-access` | external_plugins/telegram/skills/access/SKILL.md | external_plugins/telegram/LICENSE | Pending |
+| `telegram-configure` | external_plugins/telegram/skills/configure/SKILL.md | external_plugins/telegram/LICENSE | Pending |
 | `testing-procedural-gameplay-encounters` | .agents/skills/testing-procedural-gameplay-encounters/SKILL.md | LICENSE | Pending |
 | `unit-testing-strategy` | .agents/skills/unit-testing-strategy/SKILL.md | LICENSE | Pending |
 | `unity-game-dev` | plugins/unity/skills/unity-game-dev/SKILL.md | LICENSE | Pending |
@@ -199,6 +199,6 @@ The imported row for `claude-security` remains Pending.
 
 ## Content-path parity check
 
-A Git-tree SHA comparison found that all **155** imported entries with a non-bundle candidate `SKILL.md` have a byte-identical plugin bundle copy. The six names with multiple candidate paths also have matching hashes across all their candidate copies. The remaining six entries are bundle-only and still need their original source/revision identified. This verifies local copy parity, **not** upstream authorship or redistribution permission.
+A Git-tree SHA comparison found candidate source paths for all **161** imported entries. For 155 entries, the source path matches the bundle name directly; the six channel skills are namespaced during bundling (`access`/`configure` become `discord-*`, `imessage-*`, and `telegram-*`) and their bundle copies differ only in the frontmatter `name`. The six names with multiple candidate paths have matching hashes across all candidate copies. This verifies local copy parity, **not** upstream authorship or redistribution permission.
 
 **Baseline note:** `claude-security` is already present in the repository's current `main` branch and is marked `origin: existing`; this consolidation PR does not introduce that skill or its license. The finding is a pre-existing repository-level restriction that must be resolved before any public redistribution of the combined plugin. Keep the distinction between a private internal merge and publishing/distributing the package explicit in the final decision.
