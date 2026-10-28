@@ -134,3 +134,9 @@ These are a small first batch; they do not replace the existing game-design, pro
 - [`designing-game-combat-resolution`](.agents/skills/designing-game-combat-resolution/SKILL.md) — define deterministic hit/damage resolution, immunity and blocking precedence, per-target hit rules, and combat regression tests.
 - [`validating-game-movement-feel`](.agents/skills/validating-game-movement-feel/SKILL.md) — turn movement-control complaints into repeatable tests for acceleration, stopping, collisions, frame-time variation, and camera behavior.
 - [`testing-procedural-gameplay-encounters`](.agents/skills/testing-procedural-gameplay-encounters/SKILL.md) — validate generated encounters for reachability, fairness, pacing, reproducibility, and seed-based regression coverage.
+
+### Fourth batch: quest graphs, narrative localization, and multiplayer sessions
+
+- [`designing-quest-objective-dependencies`](.agents/skills/designing-quest-objective-dependencies/SKILL.md) — model mission prerequisites, optional branches, failure routes, and completion conditions as a testable graph.
+- [`validating-game-narrative-localization`](.agents/skills/validating-game-narrative-localization/SKILL.md) — validate narrative context, placeholders, dialogue branches, locale coverage, and UI text fit.
+- [`validating-multiplayer-session-lifecycle`](.agents/skills/validating-multiplayer-session-lifecycle/SKILL.md) — test lobby, join/leave, host loss, reconnect, migration, and cleanup transitions.
