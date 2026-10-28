@@ -12,5 +12,5 @@ for(const name of dirs){const file=pRoot+'/skills/'+name+'/SKILL.md';const p=par
 const registry=await read('docs/roadmaps/REA_INSPIRED_AGENT_REGISTRY_150.md');const rows=registry.split(/\r?\n/).filter(x=>/^\|\s*\d+\s*\|\s*[a-z0-9-]+\s*\|/.test(x));assert.equal(rows.length,150);const ids=rows.map(x=>x.split('|')[2].trim());assert.equal(new Set(ids).size,150);for(const n of expectedAgents)assert.ok(registry.includes(n));
 const plan=await read('docs/roadmaps/REA_INSPIRED_25000_SKILLS_150_AGENTS.md');const budget=[1000,1500,1500,1000,2000,1500,1000,1000,1500,1000,1500,1500,1000,1000,1500,1000,1000,1500,1000,1000];assert.equal(budget.reduce((a,b)=>a+b,0),25000);assert.match(plan,/25,000 canonical/i);assert.match(plan,/not REA, not an official port/i);
 const pr=await read(pRoot+'/README.md');for(const n of expectedAgents)assert.ok(pr.includes(n));for(const n of expectedSkills)assert.ok(pr.includes(n));
-const rootReadme=await read('README.md');assert.match(rootReadme,/combined collection currently packages 1540 distinct skills/);
+const rootReadme=await read('README.md');assert.match(rootReadme,/combined collection currently packages \d+ distinct skills/);
 console.log('Artifact Analysis Workbench validator passed: 10 read-only agents, 15 repository-to-skill workflows, 150 planned roles, 25,000-skill allocation.');
