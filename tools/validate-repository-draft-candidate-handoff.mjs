@@ -107,4 +107,6 @@ function selfTest() {
   console.log("Draft candidate handoff self-test passed (eligible handoff, insufficient evidence, missing kind, TODO, unsafe path, and approval guardrails).");
 }
 
-main().catch((error) => { console.error(error.message); process.exitCode = 1; });
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => { console.error(error.message); process.exitCode = 1; });
+}
