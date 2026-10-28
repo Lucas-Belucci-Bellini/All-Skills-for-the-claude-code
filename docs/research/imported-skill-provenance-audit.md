@@ -226,3 +226,5 @@ Compared all **35** `SKILL.md` files across the six `abagames/agentic-gamedev-sk
 - `one-button-game-builder/skills/refining-game-prototypes/references/play-input.md`
 
 The canonical source and generated bundle copies were updated together. The local `one-button-game-builder/LICENSE` is MIT, matching the upstream package's license family. This resolves the content drift found in those two skills, but the broader imported-source audit and the separate proprietary `claude-security` restriction remain open.
+
+**REA license distinction:** the upstream `morluto/rea` repository currently has an MIT `LICENSE`. That license clearly applies to the REA repository's software/documentation under its terms; it should not automatically be assumed to license the separately authored 50 companion skill files in `REA-50-Skills-Claude-Code`. The companion pack has a `NOTICE.txt` but no package-local `LICENSE`; confirm the intended license for those instruction files and preserve the notice before distribution.
