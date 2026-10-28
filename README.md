@@ -144,3 +144,12 @@ These reusable workflows complement the engine and game-development skills:
 - [sql-query-performance](.agents/skills/sql-query-performance/SKILL.md) — diagnose query plans and benchmark optimizations with evidence.
 - [async-concurrency-patterns](.agents/skills/async-concurrency-patterns/SKILL.md) — bound async work and define cancellation, retries, and failures.
 - [race-condition-detection](.agents/skills/race-condition-detection/SKILL.md) — reason about shared state and test unsafe interleavings.
+
+- [git-branching-and-change-management](.agents/skills/git-branching-and-change-management/SKILL.md) — isolate changes, keep commits reviewable, and integrate deliberately.
+- [resolving-merge-conflicts-safely](.agents/skills/resolving-merge-conflicts-safely/SKILL.md) — resolve conflicts by preserving intent and validating behavior.
+- [continuous-integration-pipeline-design](.agents/skills/continuous-integration-pipeline-design/SKILL.md) — build trustworthy CI checks with least-privilege permissions.
+- [static-analysis-and-linting](.agents/skills/static-analysis-and-linting/SKILL.md) — configure consistent static checks and manage warning baselines.
+- [release-versioning-and-changelog](.agents/skills/release-versioning-and-changelog/SKILL.md) — prepare traceable releases and useful changelogs.
+- [application-observability](.agents/skills/application-observability/SKILL.md) — instrument logs, metrics, traces, alerts, and health signals.
+- [reliable-error-handling](.agents/skills/reliable-error-handling/SKILL.md) — define error contracts, bounded retries, and safe recovery.
+- [configuration-and-secret-management](.agents/skills/configuration-and-secret-management/SKILL.md) — validate configuration and protect secrets across environments.
