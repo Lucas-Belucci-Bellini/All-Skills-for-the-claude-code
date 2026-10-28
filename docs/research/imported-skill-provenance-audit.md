@@ -188,3 +188,11 @@ The repository's plugin README already says to keep the repository private until
 | `validating-multiplayer-session-lifecycle` | .agents/skills/validating-multiplayer-session-lifecycle/SKILL.md | LICENSE | Pending |
 | `verifying-turn-based-games` | gameplay-debugging-toolkit/skills/verifying-turn-based-games/SKILL.md | gameplay-debugging-toolkit/LICENSE | Pending |
 | `writing-rules` | hookify/skills/writing-rules/SKILL.md | hookify/LICENSE | Pending |
+
+## High-priority finding requiring a decision
+
+The local `claude-security/LICENSE` states that the plugin is proprietary to Anthropic and grants a limited, revocable, non-transferable and **non-sublicensable** license for internal use solely with Claude Code or other Anthropic products/services. The same directory contains a third-party `NOTICE.md`.
+
+This is not an automatic legal determination about every use, but it is a **distribution blocker until reviewed**: do not publish or redistribute the combined plugin with this component unless the applicable terms clearly permit the intended use or written authorization is obtained. A reviewer should decide whether to exclude this component from the generated bundle, keep the package private and limited to permitted internal use, or obtain permission. Preserve its license and notice during any decision; do not replace them with the repository-wide Apache license.
+
+The imported row for `claude-security` remains Pending.
