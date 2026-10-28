@@ -1,10 +1,10 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 1,500 distinct skills (1,374 authored + 126 retained/imported)
+**Current draft inventory:** 2,085 distinct skills (1,924 authored + 161 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 1,000
-**Current milestone:** +250 skills from 1,250 to 1,500 on `feat/skills-expansion-1500-projete-cross-agent-2026`
+**Remaining to long-term target:** 415
+**Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,085-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
 The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -25,9 +25,12 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 1,150 | 1,150 | Adds 50 Playwright E2E, 50 OpenTelemetry Collector, and 50 Temporal TypeScript durable-workflow skills; clean install/discovery and broader semantic review remain pending |
 | 1,250 | 1,250 | Draft ATM10 troubleshooting batch: 50 general diagnosis, 25 cross-mod conflicts, and 25 individual-mod bug investigations; plugin/catalog and CI validation required before review |
 | 1500 | 1500 | Draft stack adds 100 ProjectE EMC workflow skills (40/25/20/15) and 150 multi-agent skill infrastructure/lifecycle skills; runtime, sync, CI and editorial review remain pending |
+| 1750 | 1750 | Draft stack adds 50 Engine architecture/runtime, 50 Rust/platform, 50 release/repository quality, and 25 each Supabase/PostgreSQL, Vercel AI SDK, accessibility, and technical documentation skills; semantic review, sync, CI and provenance checks remain pending |
+| 2000 | 2000 | Draft stack adds 50 simulation/NPC/world-history, 50 game content/save systems, 50 networked-games/determinism, and 25 each geospatial UX, live public-data reliability, provenance/privacy/ethics and OpenTelemetry Collector observability; sync, CI, semantic review and provenance checks remain pending |
+| 2085 | 2085 | Adds 25 agent-tooling skills for orchestration state, delegation safety, reconciliation and lifecycle reliability; generated catalogs are committed and structural CI passes; provenance/licensing and real Claude Code install/discovery remain pending |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
-| Scale-up | 1,525–1,750 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
-| Extended scale | 1,525–2,000 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
+| Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
+| Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
 | Long-range scale | 2,025–2,500 | Review discoverability, maintenance burden, provenance and package size every 100 skills |
 | Beyond target | Reassessment | Reassess adoption and maintenance burden before expansion beyond 2,500 |
 
@@ -70,3 +73,31 @@ This stacked branch adds 250 distinct authored skill workflows on top of the 1,2
 - [ ] Finish repository-wide provenance/license review before publishing the combined third-party distribution.
 
 This branch is intended to be reviewed as a stacked change with base `feat/skills-expansion-1250-atm10-troubleshooting-2026`. No PR or merge was created by this update.
+
+
+## 1,750 milestone — cross-domain engineering workflows
+
+This stacked branch adds 250 authored workflows on top of the 1,500-skill draft: 50 engine architecture/runtime, 50 Rust/platform engineering, 50 release/testing/repository quality, and 25 each for Supabase/PostgreSQL, Vercel AI SDK/agent reliability, accessibility, and technical documentation. This distribution follows the existing catalog gap review rather than expanding the already large Minecraft category again. The inventory is still a draft; no runtime, production, provider or accessibility conformance claim is implied.
+
+- [ ] Run `node tools/sync-skill-bundles.mjs --write` and `--check` in a clean checkout.
+- [ ] Run `node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1750.json`.
+- [ ] Review exact-name and semantic overlap, scope triggers, source/bundle parity, and generated diffs.
+- [ ] Inspect GitHub Actions results and run `git diff --check`; do not mark CI passed until a result is available.
+- [ ] Review provenance, redistribution terms, and source references before publication.
+- [ ] For skills involving engine/runtime, database, agents or accessibility, test against the target project/toolchain and report untested environments honestly.
+
+Base branch: `feat/skills-expansion-1500-projete-cross-agent-2026`. PR creation and merge remain maintainer-controlled.
+
+
+## 2,000 milestone — simulation, worlds, network and trustworthy data
+
+This branch adds 250 authored workflows on top of the 1,750-skill draft: simulation/NPCs/world history (50), game content and save systems (50), networked games/determinism (50), and 25 each for geospatial UX, live public-data reliability, public-data provenance/privacy/ethics, and OpenTelemetry Collector observability. The emphasis is on reproducibility, migration safety, authoritative boundaries, source attribution, and measurable failure handling. This is an inventory draft, not evidence that a game engine, public feed, multiplayer service or Collector is running successfully.
+
+- [ ] Run `node tools/sync-skill-bundles.mjs --write` and `--check` in a clean checkout.
+- [ ] Run `node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2000.json`.
+- [ ] Review exact/semantic overlaps and verify the source and plugin copies are byte-identical.
+- [ ] Inspect GitHub Actions results and run `git diff --check`.
+- [ ] Review provenance, upstream terms and redistribution/license obligations.
+- [ ] Test representative workflows against actual engine/save versions, netcode test harnesses, providers and Collector configurations where applicable.
+
+Base branch: `feat/skills-expansion-1750-cross-domain-2026`. PR creation and merge remain maintainer-controlled.

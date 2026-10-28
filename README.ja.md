@@ -1,4 +1,6 @@
 # Agentic Gamedev Skills
+> 注: このファイルは agentic-gamedev-skills サブコレクションの日本語READMEです。リポジトリ全体の説明ではありません。全体概要は [README.md](README.md) を参照してください。このリポジトリは独立したコミュニティ管理のコレクションであり、Anthropic 公式ではありません。
+
 
 [English](README.md) | 日本語
 
@@ -146,6 +148,6 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 
 ## 統合スキルライブラリ
 
-作業ブランチ `feat/skills-expansion-1500-projete-cross-agent-2026` は、ATM10 のトラブルシューティングを含む 1,250 件の作業用ベースに、ProjectE/EMC のワークフロー 100 件と、複数 AI エージェント・Broker・Adapter・コンテキスト管理・自動更新のワークフロー 150 件を追加する計画で、カタログを 1,500 件に更新するドラフトである。これは main へのマージ済みを意味せず、すべての AI への接続やゲーム内の EMC バランス検証が完了したという意味でもない。
+`feat/skills-expansion-2000-simulation-worlds-2026` は過去のソース・マイルストーンであり、現在の統合ブランチではない。現在の統合作業は [PR #169](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/pull/169) と `feat/all-skills-consolidated-2026` で管理している。生成カタログは 2,085 件（独自作成 1,924 + 既存/取り込み 161）で、2,500 件の計画目標まで 415 件残っている。構造検証の CI は成功しているが、PR #169 は Draft のままで、取り込み元・ライセンスの確認と Claude Code での実際の検証/インストール確認が未完了である。これは main へのマージや公開配布の承認を意味しない。詳細は [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39) を参照。
 
 検証、同期、互換性確認、ライセンス/出典レビューは別途必要である。詳細は [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39) を参照。

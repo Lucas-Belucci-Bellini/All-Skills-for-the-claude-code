@@ -1,0 +1,1261 @@
+{
+  "schema_version": 1,
+  "batch_size": 250,
+  "milestone_total": 1750,
+  "long_term_target": 2500,
+  "authored_count": 1624,
+  "retained_count": 126,
+  "plugin_version": "2.1.14",
+  "skills": [
+    {
+      "name": "engine-save-schema-migration-preflight",
+      "source_path": "curated-skill-sources/engine-runtime/engine-save-schema-migration-preflight/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-save-transaction-atomicity",
+      "source_path": "curated-skill-sources/engine-runtime/engine-save-transaction-atomicity/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-save-corruption-recovery-map",
+      "source_path": "curated-skill-sources/engine-runtime/engine-save-corruption-recovery-map/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-save-checkpoint-compaction",
+      "source_path": "curated-skill-sources/engine-runtime/engine-save-checkpoint-compaction/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-save-delta-chain-depth",
+      "source_path": "curated-skill-sources/engine-runtime/engine-save-delta-chain-depth/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-player-state-roundtrip-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-player-state-roundtrip-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-world-state-replay-boundary",
+      "source_path": "curated-skill-sources/engine-runtime/engine-world-state-replay-boundary/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-entity-handle-generation-safety",
+      "source_path": "curated-skill-sources/engine-runtime/engine-entity-handle-generation-safety/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-component-removal-during-iteration",
+      "source_path": "curated-skill-sources/engine-runtime/engine-component-removal-during-iteration/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-simulation-pause-resume-invariant",
+      "source_path": "curated-skill-sources/engine-runtime/engine-simulation-pause-resume-invariant/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-simulation-step-replay-determinism",
+      "source_path": "curated-skill-sources/engine-runtime/engine-simulation-step-replay-determinism/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-simulation-fixed-clock-catchup-limit",
+      "source_path": "curated-skill-sources/engine-runtime/engine-simulation-fixed-clock-catchup-limit/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-gameplay-command-queue-ordering",
+      "source_path": "curated-skill-sources/engine-runtime/engine-gameplay-command-queue-ordering/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-command-buffer-conflict-resolution",
+      "source_path": "curated-skill-sources/engine-runtime/engine-command-buffer-conflict-resolution/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-event-subscriber-lifetime",
+      "source_path": "curated-skill-sources/engine-runtime/engine-event-subscriber-lifetime/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-event-reentrancy-guard",
+      "source_path": "curated-skill-sources/engine-runtime/engine-event-reentrancy-guard/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-state-machine-illegal-transition-testing",
+      "source_path": "curated-skill-sources/engine-runtime/engine-state-machine-illegal-transition-testing/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-state-recovery-after-partial-load",
+      "source_path": "curated-skill-sources/engine-runtime/engine-state-recovery-after-partial-load/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-thread-affinity-assertion-audit",
+      "source_path": "curated-skill-sources/engine-runtime/engine-thread-affinity-assertion-audit/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-job-cancellation-propagation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-job-cancellation-propagation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-job-result-staleness-rejection",
+      "source_path": "curated-skill-sources/engine-runtime/engine-job-result-staleness-rejection/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-async-resource-ownership-transfer",
+      "source_path": "curated-skill-sources/engine-runtime/engine-async-resource-ownership-transfer/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-render-upload-thread-boundary",
+      "source_path": "curated-skill-sources/engine-runtime/engine-render-upload-thread-boundary/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-gpu-device-loss-recovery",
+      "source_path": "curated-skill-sources/engine-runtime/engine-gpu-device-loss-recovery/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-render-target-resize-atomicity",
+      "source_path": "curated-skill-sources/engine-runtime/engine-render-target-resize-atomicity/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-render-state-leak-detection",
+      "source_path": "curated-skill-sources/engine-runtime/engine-render-state-leak-detection/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-material-pipeline-compatibility",
+      "source_path": "curated-skill-sources/engine-runtime/engine-material-pipeline-compatibility/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-shader-reflection-layout-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-shader-reflection-layout-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-asset-import-cache-invalidation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-import-cache-invalidation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-asset-path-case-sensitivity-audit",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-path-case-sensitivity-audit/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-resource-handle-stale-reference-detection",
+      "source_path": "curated-skill-sources/engine-runtime/engine-resource-handle-stale-reference-detection/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-resource-descriptor-validation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-resource-descriptor-validation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scene-load-unload-idempotency",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scene-load-unload-idempotency/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scene-transition-rollback",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scene-transition-rollback/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-plugin-version-capability-negotiation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-plugin-version-capability-negotiation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-plugin-failure-isolation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-plugin-failure-isolation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-mod-api-semver-compatibility",
+      "source_path": "curated-skill-sources/engine-runtime/engine-mod-api-semver-compatibility/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-script-boundary-permission-audit",
+      "source_path": "curated-skill-sources/engine-runtime/engine-script-boundary-permission-audit/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-script-time-budget-enforcement",
+      "source_path": "curated-skill-sources/engine-runtime/engine-script-time-budget-enforcement/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-hot-reload-state-preservation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-hot-reload-state-preservation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-save-format-forward-compatibility",
+      "source_path": "curated-skill-sources/engine-runtime/engine-save-format-forward-compatibility/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-configuration-layer-precedence",
+      "source_path": "curated-skill-sources/engine-runtime/engine-configuration-layer-precedence/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-command-line-override-validation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-command-line-override-validation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-crash-minidump-symbolication",
+      "source_path": "curated-skill-sources/engine-runtime/engine-crash-minidump-symbolication/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-deterministic-replay-input-capture",
+      "source_path": "curated-skill-sources/engine-runtime/engine-deterministic-replay-input-capture/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-procedural-generation-boundary-testing",
+      "source_path": "curated-skill-sources/engine-runtime/engine-procedural-generation-boundary-testing/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-edit-transaction-rollback",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-edit-transaction-rollback/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-mesh-cache-versioning",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-mesh-cache-versioning/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-spatial-index-invalidation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-spatial-index-invalidation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-sound-event-lifetime-audit",
+      "source_path": "curated-skill-sources/engine-runtime/engine-sound-event-lifetime-audit/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "rust-unsafe-block-invariant-inventory",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-unsafe-block-invariant-inventory/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-ffi-buffer-ownership-contract",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-ffi-buffer-ownership-contract/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-ffi-panic-boundary-protection",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-ffi-panic-boundary-protection/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-async-cancellation-drop-audit",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-async-cancellation-drop-audit/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-async-task-leak-detection",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-async-task-leak-detection/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-channel-shutdown-protocol",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-channel-shutdown-protocol/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-lock-order-deadlock-analysis",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-lock-order-deadlock-analysis/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-shared-state-poison-recovery",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-shared-state-poison-recovery/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-atomic-ordering-justification",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-atomic-ordering-justification/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-data-race-sanitizer-profile",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-data-race-sanitizer-profile/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-error-context-chain-contract",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-error-context-chain-contract/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-error-taxonomy-stability-audit",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-error-taxonomy-stability-audit/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-retryable-error-classification",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-retryable-error-classification/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-config-deserialization-hardening",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-config-deserialization-hardening/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-env-variable-precedence-audit",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-env-variable-precedence-audit/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-cli-exit-code-contract",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-cli-exit-code-contract/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-cli-signal-shutdown-handling",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-cli-signal-shutdown-handling/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-cli-subcommand-compatibility",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-cli-subcommand-compatibility/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-stdout-stderr-machine-readability",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-stdout-stderr-machine-readability/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-progress-output-non-tty-fallback",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-progress-output-non-tty-fallback/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-path-traversal-resistant-file-write",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-path-traversal-resistant-file-write/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-temp-file-atomic-replace",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-temp-file-atomic-replace/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-directory-walk-symlink-boundary",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-directory-walk-symlink-boundary/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-file-lock-stale-owner-recovery",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-file-lock-stale-owner-recovery/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-process-child-timeout-contract",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-process-child-timeout-contract/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-process-stdout-stderr-drain",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-process-stdout-stderr-drain/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-socket-backpressure-contract",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-socket-backpressure-contract/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-http-client-connection-pool-budget",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-http-client-connection-pool-budget/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-http-response-body-size-limit",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-http-response-body-size-limit/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-http-idempotency-key-propagation",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-http-idempotency-key-propagation/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-tls-error-diagnostics-redaction",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-tls-error-diagnostics-redaction/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-serialization-version-compatibility",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-serialization-version-compatibility/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-binary-protocol-length-prefix-validation",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-binary-protocol-length-prefix-validation/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-zero-copy-lifetime-proof",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-zero-copy-lifetime-proof/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-allocation-hotspot-benchmark",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-allocation-hotspot-benchmark/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-clone-cost-regression-benchmark",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-clone-cost-regression-benchmark/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-iterator-fusion-optimization-proof",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-iterator-fusion-optimization-proof/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-feature-flag-compilation-matrix",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-feature-flag-compilation-matrix/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-target-triple-cross-build-validation",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-target-triple-cross-build-validation/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-reproducible-cargo-lockfile-policy",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-reproducible-cargo-lockfile-policy/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-workspace-dependency-boundary-audit",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-workspace-dependency-boundary-audit/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-build-script-environment-capture",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-build-script-environment-capture/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-proc-macro-input-validation",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-proc-macro-input-validation/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-test-fixture-tempdir-isolation",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-test-fixture-tempdir-isolation/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-property-test-shrinking-triage",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-property-test-shrinking-triage/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-fuzz-corpus-minimization",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-fuzz-corpus-minimization/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-loom-concurrency-model-test",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-loom-concurrency-model-test/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-miri-unsafe-code-gate",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-miri-unsafe-code-gate/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-clippy-rustdoc-warning-budget",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-clippy-rustdoc-warning-budget/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-release-symbol-and-debug-info-policy",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-release-symbol-and-debug-info-policy/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "release-artifact-checksum-attestation",
+      "source_path": "curated-skill-sources/release-testing-operations/release-artifact-checksum-attestation/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-build-provenance-subject-mapping",
+      "source_path": "curated-skill-sources/release-testing-operations/release-build-provenance-subject-mapping/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-sbom-license-coverage-reconciliation",
+      "source_path": "curated-skill-sources/release-testing-operations/release-sbom-license-coverage-reconciliation/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-dependency-lock-drift-explainer",
+      "source_path": "curated-skill-sources/release-testing-operations/release-dependency-lock-drift-explainer/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-tag-signature-verification",
+      "source_path": "curated-skill-sources/release-testing-operations/release-tag-signature-verification/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-version-bump-compatibility-matrix",
+      "source_path": "curated-skill-sources/release-testing-operations/release-version-bump-compatibility-matrix/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-candidate-install-from-artifact-test",
+      "source_path": "curated-skill-sources/release-testing-operations/release-candidate-install-from-artifact-test/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-clean-room-build-reproducibility",
+      "source_path": "curated-skill-sources/release-testing-operations/release-clean-room-build-reproducibility/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-package-file-allowlist",
+      "source_path": "curated-skill-sources/release-testing-operations/release-package-file-allowlist/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-secret-scan-baseline-expiration",
+      "source_path": "curated-skill-sources/release-testing-operations/release-secret-scan-baseline-expiration/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-vulnerability-exception-expiry-check",
+      "source_path": "curated-skill-sources/release-testing-operations/release-vulnerability-exception-expiry-check/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-container-image-digest-promotion",
+      "source_path": "curated-skill-sources/release-testing-operations/release-container-image-digest-promotion/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-multi-architecture-manifest-audit",
+      "source_path": "curated-skill-sources/release-testing-operations/release-multi-architecture-manifest-audit/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-deployment-config-drift-preflight",
+      "source_path": "curated-skill-sources/release-testing-operations/release-deployment-config-drift-preflight/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-canary-success-gate",
+      "source_path": "curated-skill-sources/release-testing-operations/release-canary-success-gate/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-progressive-rollout-stop-condition",
+      "source_path": "curated-skill-sources/release-testing-operations/release-progressive-rollout-stop-condition/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-rollback-data-compatibility-audit",
+      "source_path": "curated-skill-sources/release-testing-operations/release-rollback-data-compatibility-audit/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-db-migration-release-coupling",
+      "source_path": "curated-skill-sources/release-testing-operations/release-db-migration-release-coupling/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-api-deprecation-window-check",
+      "source_path": "curated-skill-sources/release-testing-operations/release-api-deprecation-window-check/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-break-glass-approval-evidence",
+      "source_path": "curated-skill-sources/release-testing-operations/release-break-glass-approval-evidence/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-signing-key-expiry-drill",
+      "source_path": "curated-skill-sources/release-testing-operations/release-signing-key-expiry-drill/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-build-cache-poisoning-test",
+      "source_path": "curated-skill-sources/release-testing-operations/release-build-cache-poisoning-test/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-pipeline-credential-scope-audit",
+      "source_path": "curated-skill-sources/release-testing-operations/release-pipeline-credential-scope-audit/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-github-permission-minimization",
+      "source_path": "curated-skill-sources/release-testing-operations/release-github-permission-minimization/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-required-status-check-drift-audit",
+      "source_path": "curated-skill-sources/release-testing-operations/release-required-status-check-drift-audit/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-test-selection-risk-coverage",
+      "source_path": "curated-skill-sources/release-testing-operations/release-test-selection-risk-coverage/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-contract-test-version-pin",
+      "source_path": "curated-skill-sources/release-testing-operations/release-contract-test-version-pin/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-timezone-independent-test-fixtures",
+      "source_path": "curated-skill-sources/release-testing-operations/release-timezone-independent-test-fixtures/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-clock-frozen-test-invariant",
+      "source_path": "curated-skill-sources/release-testing-operations/release-clock-frozen-test-invariant/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-fault-injection-recovery-scorecard",
+      "source_path": "curated-skill-sources/release-testing-operations/release-fault-injection-recovery-scorecard/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-chaos-test-safety-limit",
+      "source_path": "curated-skill-sources/release-testing-operations/release-chaos-test-safety-limit/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-performance-budget-regression-gate",
+      "source_path": "curated-skill-sources/release-testing-operations/release-performance-budget-regression-gate/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-memory-leak-soak-test",
+      "source_path": "curated-skill-sources/release-testing-operations/release-memory-leak-soak-test/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-cpu-profile-baseline-comparison",
+      "source_path": "curated-skill-sources/release-testing-operations/release-cpu-profile-baseline-comparison/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-network-condition-test-matrix",
+      "source_path": "curated-skill-sources/release-testing-operations/release-network-condition-test-matrix/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-load-test-data-safety",
+      "source_path": "curated-skill-sources/release-testing-operations/release-load-test-data-safety/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-synthetic-test-data-privacy-audit",
+      "source_path": "curated-skill-sources/release-testing-operations/release-synthetic-test-data-privacy-audit/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-test-artifact-retention-contract",
+      "source_path": "curated-skill-sources/release-testing-operations/release-test-artifact-retention-contract/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-failure-log-redaction-contract",
+      "source_path": "curated-skill-sources/release-testing-operations/release-failure-log-redaction-contract/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-incident-reproducibility-checklist",
+      "source_path": "curated-skill-sources/release-testing-operations/release-incident-reproducibility-checklist/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-postmortem-action-verification",
+      "source_path": "curated-skill-sources/release-testing-operations/release-postmortem-action-verification/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-emergency-hotfix-acceptance-gate",
+      "source_path": "curated-skill-sources/release-testing-operations/release-emergency-hotfix-acceptance-gate/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "release-rollback-readiness-evidence-bundle",
+      "source_path": "curated-skill-sources/release-testing-operations/release-rollback-readiness-evidence-bundle/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "repo-monorepo-affected-target-calculation",
+      "source_path": "curated-skill-sources/release-testing-operations/repo-monorepo-affected-target-calculation/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "repo-generated-file-diff-hygiene",
+      "source_path": "curated-skill-sources/release-testing-operations/repo-generated-file-diff-hygiene/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "repo-codeowners-coverage-audit",
+      "source_path": "curated-skill-sources/release-testing-operations/repo-codeowners-coverage-audit/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "repo-branch-staleness-policy",
+      "source_path": "curated-skill-sources/release-testing-operations/repo-branch-staleness-policy/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "repo-bot-permission-expiration",
+      "source_path": "curated-skill-sources/release-testing-operations/repo-bot-permission-expiration/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "repo-submodule-pin-consistency",
+      "source_path": "curated-skill-sources/release-testing-operations/repo-submodule-pin-consistency/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "repo-license-notice-bundle-audit",
+      "source_path": "curated-skill-sources/release-testing-operations/repo-license-notice-bundle-audit/SKILL.md",
+      "category": "Release, tests & repository quality"
+    },
+    {
+      "name": "supabase-rls-service-role-separation-test",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-service-role-separation-test/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-auth-multi-tenant-membership-authorization",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-auth-multi-tenant-membership-authorization/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-auth-invite-expiry-and-replay",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-auth-invite-expiry-and-replay/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-auth-email-change-verification",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-auth-email-change-verification/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-refresh-token-reuse-response",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-refresh-token-reuse-response/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-session-cross-device-revocation",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-session-cross-device-revocation/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-rls-view-security-invoker-audit",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-view-security-invoker-audit/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-rls-function-search-path-hardening",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-function-search-path-hardening/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-rls-policy-test-fixture-generator",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-rls-policy-test-fixture-generator/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-tenant-key-composite-foreign-key-audit",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-tenant-key-composite-foreign-key-audit/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-tenant-deletion-cascade-impact",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-tenant-deletion-cascade-impact/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-pg-cron-job-overlap-prevention",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-pg-cron-job-overlap-prevention/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-edge-function-rolling-deploy-compatibility",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-rolling-deploy-compatibility/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-edge-function-structured-error-contract",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-structured-error-contract/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-edge-function-cold-start-budget",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-edge-function-cold-start-budget/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-postgres-pooler-transaction-mode-limitations",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-pooler-transaction-mode-limitations/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-postgres-lock-wait-incident-playbook",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-postgres-lock-wait-incident-playbook/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-pg-stat-statements-query-baseline",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-pg-stat-statements-query-baseline/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-index-concurrent-build-migration",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-index-concurrent-build-migration/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-immutable-audit-log-chain",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-immutable-audit-log-chain/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-storage-download-authority-test",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-storage-download-authority-test/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-storage-bulk-delete-recovery",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-storage-bulk-delete-recovery/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-realtime-private-channel-acl-audit",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-realtime-private-channel-acl-audit/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-realtime-reconnect-gap-reconciliation",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-realtime-reconnect-gap-reconciliation/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "supabase-db-restore-cross-environment-sanitization",
+      "source_path": "curated-skill-sources/supabase-database-engineering/supabase-db-restore-cross-environment-sanitization/SKILL.md",
+      "category": "Supabase & PostgreSQL platform engineering"
+    },
+    {
+      "name": "ai-sdk-multi-agent-handoff-schema",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-multi-agent-handoff-schema/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-agent-tool-timeout-propagation",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-tool-timeout-propagation/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-tool-call-approval-replay-defense",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-call-approval-replay-defense/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-tool-result-untrusted-data-boundary",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-result-untrusted-data-boundary/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-agent-loop-cost-ceiling",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-loop-cost-ceiling/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-agent-loop-non-progress-stop",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-loop-non-progress-stop/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-stream-part-order-contract",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-stream-part-order-contract/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-stream-abort-signal-propagation",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-stream-abort-signal-propagation/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-stream-partial-ui-reconciliation",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-stream-partial-ui-reconciliation/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-provider-failover-sticky-session-policy",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-provider-failover-sticky-session-policy/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-model-routing-capability-constraints",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-model-routing-capability-constraints/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-tool-name-schema-migration",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-name-schema-migration/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-agent-evaluation-adversarial-scenarios",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-evaluation-adversarial-scenarios/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-evaluation-human-annotation-calibration",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-human-annotation-calibration/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-evaluation-judge-model-blinding",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-evaluation-judge-model-blinding/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-retrieval-document-deletion-propagation",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-retrieval-document-deletion-propagation/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-rag-chunk-metadata-consistency",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-rag-chunk-metadata-consistency/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-rag-access-control-filter-order",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-rag-access-control-filter-order/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-agent-memory-cross-tenant-isolation",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-memory-cross-tenant-isolation/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-agent-memory-conflict-resolution",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-memory-conflict-resolution/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-observation-versus-inference-labeling",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-observation-versus-inference-labeling/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-source-citation-span-validation",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-source-citation-span-validation/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-multimodal-content-policy-gate",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-multimodal-content-policy-gate/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-tool-budget-reservation-and-refund",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-tool-budget-reservation-and-refund/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "ai-sdk-agent-session-resume-checkpoint",
+      "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-agent-session-resume-checkpoint/SKILL.md",
+      "category": "Vercel AI SDK & agent reliability"
+    },
+    {
+      "name": "a11y-dialog-focus-trap-nesting-test",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-dialog-focus-trap-nesting-test/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-modal-return-focus-after-route-change",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-modal-return-focus-after-route-change/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-keyboard-only-critical-flow-audit",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-keyboard-only-critical-flow-audit/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-screen-reader-status-message-rate-limit",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-screen-reader-status-message-rate-limit/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-live-region-content-priority-policy",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-live-region-content-priority-policy/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-form-validation-summary-navigation",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-form-validation-summary-navigation/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-required-field-meaningful-identification",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-required-field-meaningful-identification/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-error-message-associated-control-mapping",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-error-message-associated-control-mapping/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-table-header-scope-audit",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-table-header-scope-audit/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-grid-navigation-roving-tabindex",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-grid-navigation-roving-tabindex/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-combobox-aria-activedescendant-stability",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-combobox-aria-activedescendant-stability/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-menu-keyboard-dismissal-contract",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-menu-keyboard-dismissal-contract/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-route-change-announcement-policy",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-route-change-announcement-policy/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-focus-visibility-under-sticky-header",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-focus-visibility-under-sticky-header/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-color-information-redundancy-check",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-color-information-redundancy-check/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-high-contrast-theme-rendering-test",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-high-contrast-theme-rendering-test/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-touch-target-spacing-regression",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-touch-target-spacing-regression/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-zoom-200-percent-task-completion",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-zoom-200-percent-task-completion/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-reduced-motion-preference-propagation",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-reduced-motion-preference-propagation/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-motion-trigger-pause-control-audit",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-motion-trigger-pause-control-audit/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-validation-language-localization-check",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-validation-language-localization-check/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-screen-reader-dynamic-list-update-test",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-screen-reader-dynamic-list-update-test/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-accessible-name-computation-audit",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-accessible-name-computation-audit/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-nonvisual-data-visualization-alternative",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-nonvisual-data-visualization-alternative/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "a11y-authentication-time-limit-extension-audit",
+      "source_path": "curated-skill-sources/accessibility-inclusive-ux/a11y-authentication-time-limit-extension-audit/SKILL.md",
+      "category": "Accessibility & inclusive UX"
+    },
+    {
+      "name": "docs-runbook-command-version-pinning",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-runbook-command-version-pinning/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-runbook-precondition-and-rollback-contract",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-runbook-precondition-and-rollback-contract/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-troubleshooting-decision-tree-evidence-map",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-troubleshooting-decision-tree-evidence-map/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-architecture-decision-supersession-links",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-architecture-decision-supersession-links/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-api-example-compilation-smoke-test",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-api-example-compilation-smoke-test/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-code-sample-dependency-version-sync",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-code-sample-dependency-version-sync/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-configuration-reference-generated-drift-audit",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-configuration-reference-generated-drift-audit/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-docstring-public-api-coverage-gate",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-docstring-public-api-coverage-gate/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-onboarding-first-success-time-validation",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-onboarding-first-success-time-validation/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-platform-specific-instruction-separation",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-platform-specific-instruction-separation/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-screenshot-staleness-detection",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-screenshot-staleness-detection/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-link-health-allowlist-and-exception-policy",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-link-health-allowlist-and-exception-policy/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-breaking-change-migration-path-audit",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-breaking-change-migration-path-audit/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-internal-link-fragment-validation",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-internal-link-fragment-validation/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-release-note-claim-evidence-check",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-release-note-claim-evidence-check/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-operational-warning-severity-taxonomy",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-operational-warning-severity-taxonomy/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-secret-safe-log-example-audit",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-secret-safe-log-example-audit/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-procedure-owner-and-review-date-contract",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-procedure-owner-and-review-date-contract/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-knowledge-graph-orphan-node-audit",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-knowledge-graph-orphan-node-audit/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-adr-implementation-drift-detection",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-adr-implementation-drift-detection/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-incident-runbook-drill-record",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-incident-runbook-drill-record/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-troubleshooting-false-positive-catalog",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-troubleshooting-false-positive-catalog/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-versioned-docsite-source-map",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-versioned-docsite-source-map/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-command-output-fixture-refresh",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-command-output-fixture-refresh/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    },
+    {
+      "name": "docs-documentation-locale-parity-check",
+      "source_path": "curated-skill-sources/documentation-knowledge-systems/docs-documentation-locale-parity-check/SKILL.md",
+      "category": "Documentation & technical knowledge systems"
+    }
+  ]
+}

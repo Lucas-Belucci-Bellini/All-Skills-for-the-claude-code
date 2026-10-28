@@ -1,31 +1,41 @@
-# Claude Code Plugins Directory
+# All Skills for Claude Code — Community Collection
 
-A curated directory of high-quality plugins for Claude Code.
+This is an independent, community-maintained collection of Claude Code skills and plugins. It is **not affiliated with or endorsed by Anthropic**. The generated aggregate plugin currently packages 2,085 distinct skills (1,924 authored + 161 retained/imported), and component provenance and license terms vary.
 
-> **⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information.
+> **Distribution warning:** this repository is currently public, and the imported-skill provenance/licensing audit is not complete. In particular, `claude-security` carries a restrictive, non-sublicensable license. Do not publish or redistribute the combined plugin until the applicable terms are reviewed and the repository owner has resolved the visibility/distribution decision. See [the imported-skill provenance audit](docs/research/imported-skill-provenance-audit.md).
 
-## Structure
+## Repository structure
 
-- **`/plugins`** - Internal plugins developed and maintained by Anthropic
-- **`/external_plugins`** - Third-party plugins from partners and the community
+- `curated-skill-sources/` — canonical source files for newly authored skills.
+- `plugins/all-skills-collection/` — generated aggregate plugin; do not edit its skill copies by hand.
+- `plugins/` — plugin packages in this collection, including imported and community-maintained components. Check each component's README, LICENSE, and NOTICE.
+- `external_plugins/` — upstream plugin sources and supporting files; their own license and provenance notices remain applicable.
+- `roadmap/skill-batches/` — planning folders for future skill batches; these folders are not counted as completed skills.
 
-## Installation
+## Validate and test locally
 
-Plugins can be installed directly from this marketplace via Claude Code's plugin system.
+From a clone of this repository, with a current Claude Code CLI:
 
-To install, run `/plugin install {plugin-name}@claude-plugins-official`
+```bash
+claude plugin validate . --strict
+claude plugin validate ./plugins/all-skills-collection --strict
+```
 
-or browse for the plugin in `/plugin > Discover`
+For a disposable local installation test, add this checkout as a marketplace and install the aggregate plugin:
+
+```text
+/plugin marketplace add /absolute/path/to/All-Skills-for-the-claude-code
+/plugin install all-skills-collection@all-skills-for-the-claude-code
+```
+
+The installation/discovery smoke test is documented in [docs/research/plugin-install-smoke-test.md](docs/research/plugin-install-smoke-test.md). Passing repository CI does not substitute for running the real Claude Code validator and installation test.
 
 ## Contributing
 
-### Internal Plugins
-
-Internal plugins are developed by Anthropic team members. See `/plugins/example-plugin` for a reference implementation.
-
-### External Plugins
-
-Third-party partners can submit plugins for inclusion in the marketplace. External plugins must meet quality and security standards for approval. To submit a new plugin, use the [plugin directory submission form](https://clau.de/plugin-directory-submission).
+- Add new authored skills under `curated-skill-sources/`; do not hand-edit the generated plugin copies.
+- Run `node tools/sync-skill-bundles.mjs --write`, inspect the diff, then run `node tools/sync-skill-bundles.mjs --check`.
+- Validate the active batch with its manifest and keep changes on a feature branch with a pull request.
+- For imported components, record the upstream repository/revision, preserve required LICENSE/NOTICE/attribution, and verify redistribution terms before adding or publishing them.
 
 ## Plugin Structure
 
@@ -107,6 +117,6 @@ This repository also maintains a unified Claude Code plugin that gathers distinc
 
 After adding a new skill batch, run `node tools/sync-skill-bundles.mjs --write`, review the diff, then validate with `node tools/sync-skill-bundles.mjs --check`. Updates should go through a feature branch and pull request. Keep this repository private until all source license and provenance terms have been reviewed.
 
-The combined collection currently packages 1500 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the long-term plan to reach 2,500 distinct skills (with 500 as the 2026 intermediate milestone). See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
+The combined collection currently packages 2085 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the long-term plan to reach 2,500 distinct skills (with 500 as the 2026 intermediate milestone). See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
 
-The current working milestone `feat/skills-expansion-1500-projete-cross-agent-2026` contains a draft inventory of 1,500 distinct skills on top of the ATM10 troubleshooting stack: 100 ProjectE/EMC workflows and 150 multi-agent, broker, adapter, context, and automatic skill-lifecycle workflows. This is a branch-level draft, not a claim that the changes are merged to `main` or that broker/provider runtime integration has been completed. See [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39), [ProjectE issue #26](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/26), and [multi-agent issue #43](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/43).
+The `feat/skills-expansion-2000-simulation-worlds-2026` branch is a historical source milestone, not the current consolidation head. The current consolidation is tracked by [PR #169](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/pull/169) on `feat/all-skills-consolidated-2026`: the generated catalog lists 2,085 distinct skills (1,924 authored + 161 retained/imported), with 415 remaining to the 2,500 planning target. Structural CI is green, but PR #169 remains Draft while imported-skill provenance/licensing and real Claude Code install/discovery checks are pending. This status is not approval to merge or publicly distribute the package. See [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39).

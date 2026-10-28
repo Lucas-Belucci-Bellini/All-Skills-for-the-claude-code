@@ -1,6 +1,6 @@
 # Curated Skill Sources
 
-Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The 1,250-skill draft contains **1,124 original skills** and 126 retained/imported entries.
+Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The 2,000-skill draft contains **1,874 original skills** and 126 retained/imported entries. The current expansion adds workflows for simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, privacy/provenance and OpenTelemetry; it remains a draft branch until its validation and review gates pass.
 
 - `agent-tooling/`: agent request contracts, provider adapters, Skill Broker access, MCP configuration, permissions, connection checks, and troubleshooting.
 - `developer-cli-tooling/`: CLI behavior contracts, portable environments, and deterministic command workflows.

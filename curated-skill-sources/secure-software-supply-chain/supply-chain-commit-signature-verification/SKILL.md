@@ -1,47 +1,46 @@
 ---
 name: supply-chain-commit-signature-verification
-description: "Validate supply chain commit signature verification, including boundary cases, evidence capture, and safe failure handling."
+description: Verify cryptographic signatures on Git commits against the repository's trusted signer policy, including signer identity, key validity, and protected-branch enforcement.
 ---
 
 # Supply Chain Commit Signature Verification
 
 ## Purpose
 
-Make supply chain commit signature verification explicit, testable, and auditable instead of relying on undocumented assumptions. Establish the intended invariant, identify the affected boundary, and produce evidence another engineer can reproduce.
+Establish whether a specific Git commit is signed and whether the signing identity is trusted under the repository's policy. Focus on commit objects, signer identity, key trust/revocation, and enforcement at merge time—not signatures on built container images or release artifacts.
 
 ## Required inputs
 
-CI workflow files, dependency manifests and lockfiles, build metadata, artifact digests, and security scan evidence. Focus this review on supply chain commit signature verification and record applicable runtime, version, identity, and ownership constraints.
+Repository URL and target commit SHA; branch protection or ruleset policy; accepted signature mechanisms (for example SSH or GPG); trusted signer identities or allowed principals; key rotation/revocation rules; and sanitized verification output.
 
 ## Workflow
 
-1. Locate the authoritative implementation, configuration, data contract, owner, and version boundary for supply chain commit signature verification; distinguish local assumptions from platform guarantees.
-2. Write the acceptance invariant and the conditions that make it false. Record the expected result, permitted actors, resource boundaries, and failure budget before changing anything.
-3. Build a minimal reproducible fixture covering a compliant build, a deliberately noncompliant fixture, and an unavailable or stale evidence source. Keep test data synthetic or sanitized, and make event ordering and expected results explicit.
-4. Run supported automated tests and static checks. When execution is unavailable, document the exact command/assertion to run and mark it pending rather than claiming it passed.
-5. Compare observed evidence against the invariant using revision-pinned scan reports, workflow permissions, component inventories, artifact digests, and attestation results. Separate confirmed failures, likely causes, false positives, and missing evidence.
-6. Propose the smallest corrective change, add a regression test, and document the impact, recovery/rollback path, owner, and any time-bounded exception.
-7. Re-run relevant checks and produce the required output with pass/fail/pending status, evidence references, and residual risks.
+1. Pin the repository and full commit SHA. Identify whether policy requires every commit, only commits reaching protected branches, or a specific set of trusted maintainers/bots to sign.
+2. Verify the commit object with the repository's supported Git signature-verification tooling. Record the exact command, verifier version, signature type, signer identity, and verification status.
+3. Resolve the signer to the approved identity source. Check key fingerprint/principal, validity period, revocation state, account association where applicable, and whether the identity is permitted to contribute to this repository.
+4. Test negative fixtures: unsigned commit, malformed signature, signature from an untrusted key, expired or revoked key, and a valid signature from an unauthorized identity. Each must fail for the expected policy reason.
+5. Inspect repository rulesets and merge settings to confirm the policy is enforced at the intended boundary. A green local verification is insufficient if unsigned commits can still enter the protected branch through another path.
+6. Verify behavior for merge commits, rebases, squash merges, automation accounts, and key rotation according to the repository's actual workflow. Record any workflow that changes commit identity or creates new commit objects.
+7. Produce an evidence record keyed by commit SHA, with signer identity, trust decision, policy rule, verification output, and remediation for any noncompliant commit.
 
 ## Validation checklist
 
-- [ ] The authoritative source, environment, owner, and relevant version are identified.
-- [ ] Expected behavior and a concrete failure condition for supply chain commit signature verification are documented.
-- [ ] Positive, negative, and boundary/failure cases are reproducible without unnecessary production access.
-- [ ] Assertions distinguish a pass from a skipped, flaky, stale, or unavailable check.
-- [ ] Diagnostics are useful and sanitized; secrets and unrelated user data are excluded.
-- [ ] Any remediation has a regression check and recovery/rollback or exception-expiry plan.
-- [ ] The report names evidence, unresolved questions, and the next accountable action.
+- [ ] The tested commit is identified by a full immutable SHA.
+- [ ] Signature validity and signer authorization are evaluated separately.
+- [ ] Trusted fingerprints/principals and revocation/rotation rules are current.
+- [ ] Unsigned, malformed, untrusted, expired/revoked, and unauthorized signer cases are rejected.
+- [ ] Branch/ruleset enforcement is verified independently of local verification.
+- [ ] Merge and automation behavior matches the documented policy.
 
 ## Required output
 
-Produce a supply-chain evidence report with severity, affected revision/artifact, verification references, owner, and bounded remediation. Include a concise decision marked PASS, FAIL, or PENDING; exact evidence paths or command output references; observed versus expected behavior; and an owner/date for unresolved issues.
+A commit-signature decision record with commit SHA, signature mechanism, signer identity, trust-policy source, verifier/version, pass/fail/pending result, evidence links, and any required remediation.
 
 ## Boundaries and failure handling
 
-Do not treat a scanner score as security certification. Do not publish artifacts, delete dependencies, weaken branch protection, or change credentials automatically. Record evidence age and exception expiry. If scanner data is stale or incomplete, mark the control unknown; do not convert missing evidence into a passing score.
+Do not treat a platform's generic “verified” badge as a complete authorization decision without checking the applicable trust policy. Never publish private key material. If signer identity or revocation status cannot be established, classify the result as indeterminate and block policy-sensitive release decisions.
 
 ## Trigger examples
 
-- **Positive:** A release or dependency review needs current evidence about an identified software supply-chain control.
-- **Negative:** One aggregate score is being presented as proof that a repository or release is risk-free.
+- **Positive:** A protected branch must reject commits signed by unknown or revoked identities, and the team needs reproducible evidence.
+- **Negative:** A request needs to verify a signature or attestation attached to an OCI image digest rather than a Git commit object.

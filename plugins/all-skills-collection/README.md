@@ -1,6 +1,6 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **1500 distinct skills**, with authored workflows across software reliability, geospatial intelligence, AERIS-10 radar/embedded testing, Flipper Zero firmware, live public-data pipelines, realtime agents, and privacy-aware device engineering. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
+A generated plugin containing **2085 distinct skills**, with authored workflows across simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, provenance/privacy, telemetry observability, engine/runtime engineering, Rust/platform systems, release quality, databases, agent reliability, accessibility and technical documentation. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
