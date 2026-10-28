@@ -149,3 +149,33 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 作業ブランチ `feat/skills-expansion-1500-projete-cross-agent-2026` は、ATM10 のトラブルシューティングを含む 1,250 件の作業用ベースに、ProjectE/EMC のワークフロー 100 件と、複数 AI エージェント・Broker・Adapter・コンテキスト管理・自動更新のワークフロー 150 件を追加する計画で、カタログを 1,500 件に更新するドラフトである。これは main へのマージ済みを意味せず、すべての AI への接続やゲーム内の EMC バランス検証が完了したという意味でもない。
 
 検証、同期、互換性確認、ライセンス/出典レビューは別途必要である。詳細は [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39) を参照。
+
+
+## 追加されたゲーム開発スキル
+
+ブランチ `feat/game-development-foundations-2026-10` では、次の3つのスキルを `.agents/skills/` に追加した。
+
+- [`validating-game-core-loops`](.agents/skills/validating-game-core-loops/SKILL.md) — 中心となる操作とフィードバックのループが、理解可能で意味のある選択を生むか検証する。
+- [`scoping-playable-prototypes`](.agents/skills/scoping-playable-prototypes/SKILL.md) — 失敗時のリスクが高い設計仮説を一つ選び、最小のプレイ可能な試作に絞る。
+- [`structuring-gameplay-playtests`](.agents/skills/structuring-gameplay-playtests/SKILL.md) — 誘導を避けたプレイテストを設計し、観察結果を検証可能な変更につなげる。
+
+これは小規模な初回バッチであり、既存のゲーム設計、プロトタイプ改善、ゲームプレイ検証スキルを置き換えるものではない。
+
+
+### 第2バッチ：進行、NPC AI、経済システム
+
+- [`designing-game-progression`](.agents/skills/designing-game-progression/SKILL.md) — マイルストーン、メカニクスの学習、報酬、ペース配分、失敗からの復帰を設計する。
+- [`implementing-game-ai-state-machines`](.agents/skills/implementing-game-ai-state-machines/SKILL.md) — NPCの状態、遷移条件、中断ルール、遷移テストを明示的に実装する。
+- [`validating-game-economy-loops`](.agents/skills/validating-game-economy-loops/SKILL.md) — 資源の流入と消費、支配的戦略、裁定取引の悪用、進行不能を分析する。
+
+### 第3バッチ：戦闘、移動、プロシージャルな遭遇
+
+- [`designing-game-combat-resolution`](.agents/skills/designing-game-combat-resolution/SKILL.md) — 命中・ダメージの解決順序、無敵・ガードの優先順位、対象ごとの命中回数、回帰テストを定義する。
+- [`validating-game-movement-feel`](.agents/skills/validating-game-movement-feel/SKILL.md) — 加速、停止、衝突、フレーム時間の変動、カメラ挙動を再現可能なテストに変換する。
+- [`testing-procedural-gameplay-encounters`](.agents/skills/testing-procedural-gameplay-encounters/SKILL.md) — 生成された遭遇の到達可能性、公平性、ペース、再現性、seedベースの回帰テストを検証する。
+
+### 第4バッチ：クエスト依存関係、ナラティブ翻訳、マルチプレイヤーセッション
+
+- [`designing-quest-objective-dependencies`](.agents/skills/designing-quest-objective-dependencies/SKILL.md) — ミッションの前提条件、任意分岐、失敗経路、完了条件をテスト可能なグラフとしてモデル化する。
+- [`validating-game-narrative-localization`](.agents/skills/validating-game-narrative-localization/SKILL.md) — ナラティブの文脈、プレースホルダー、会話分岐、ロケール網羅性、UIの文字切れを検証する。
+- [`validating-multiplayer-session-lifecycle`](.agents/skills/validating-multiplayer-session-lifecycle/SKILL.md) — ロビー、参加・退出、ホスト切断、再接続、移行、リソース解放の状態遷移をテストする。

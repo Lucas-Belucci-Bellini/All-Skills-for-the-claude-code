@@ -110,3 +110,33 @@ After adding a new skill batch, run `node tools/sync-skill-bundles.mjs --write`,
 The combined collection currently packages 1500 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the long-term plan to reach 2,500 distinct skills (with 500 as the 2026 intermediate milestone). See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
 
 The current working milestone `feat/skills-expansion-1500-projete-cross-agent-2026` contains a draft inventory of 1,500 distinct skills on top of the ATM10 troubleshooting stack: 100 ProjectE/EMC workflows and 150 multi-agent, broker, adapter, context, and automatic skill-lifecycle workflows. This is a branch-level draft, not a claim that the changes are merged to `main` or that broker/provider runtime integration has been completed. See [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39), [ProjectE issue #26](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/26), and [multi-agent issue #43](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/43).
+
+
+## New game-development skills
+
+The branch `feat/game-development-foundations-2026-10` adds three focused workflows under `.agents/skills/`:
+
+- [`validating-game-core-loops`](.agents/skills/validating-game-core-loops/SKILL.md) — test whether the central action/feedback loop creates understandable, meaningful decisions.
+- [`scoping-playable-prototypes`](.agents/skills/scoping-playable-prototypes/SKILL.md) — scope a minimal prototype around one high-risk design assumption.
+- [`structuring-gameplay-playtests`](.agents/skills/structuring-gameplay-playtests/SKILL.md) — run neutral, evidence-driven playtests and turn observations into testable changes.
+
+These are a small first batch; they do not replace the existing game-design, prototype-refinement, or gameplay-verification skills.
+
+
+### Second batch: progression, NPC AI, and economy
+
+- [`designing-game-progression`](.agents/skills/designing-game-progression/SKILL.md) — map milestones, mechanic learning, rewards, pacing, and recovery paths.
+- [`implementing-game-ai-state-machines`](.agents/skills/implementing-game-ai-state-machines/SKILL.md) — implement explicit NPC states, transition guards, interruption rules, and transition tests.
+- [`validating-game-economy-loops`](.agents/skills/validating-game-economy-loops/SKILL.md) — analyze resource sources/sinks, dominant strategies, arbitrage exploits, and progression soft-locks.
+
+### Third batch: combat, movement, and procedural encounters
+
+- [`designing-game-combat-resolution`](.agents/skills/designing-game-combat-resolution/SKILL.md) — define deterministic hit/damage resolution, immunity and blocking precedence, per-target hit rules, and combat regression tests.
+- [`validating-game-movement-feel`](.agents/skills/validating-game-movement-feel/SKILL.md) — turn movement-control complaints into repeatable tests for acceleration, stopping, collisions, frame-time variation, and camera behavior.
+- [`testing-procedural-gameplay-encounters`](.agents/skills/testing-procedural-gameplay-encounters/SKILL.md) — validate generated encounters for reachability, fairness, pacing, reproducibility, and seed-based regression coverage.
+
+### Fourth batch: quest graphs, narrative localization, and multiplayer sessions
+
+- [`designing-quest-objective-dependencies`](.agents/skills/designing-quest-objective-dependencies/SKILL.md) — model mission prerequisites, optional branches, failure routes, and completion conditions as a testable graph.
+- [`validating-game-narrative-localization`](.agents/skills/validating-game-narrative-localization/SKILL.md) — validate narrative context, placeholders, dialogue branches, locale coverage, and UI text fit.
+- [`validating-multiplayer-session-lifecycle`](.agents/skills/validating-multiplayer-session-lifecycle/SKILL.md) — test lobby, join/leave, host loss, reconnect, migration, and cleanup transitions.
