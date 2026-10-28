@@ -17,6 +17,7 @@ on:
       - feat/rea-inspired-150-agents-25k-skills-2026
       - fix/1540-skill-sync-validation-routing-2026
       - feat/repository-skill-candidate-gate-2026
+      - feat/repository-evidence-manifest-2026
   workflow_dispatch:
 
 permissions:
@@ -40,12 +41,16 @@ jobs:
           node --check tools/sync-skill-bundles.mjs
           node --check tools/validate-repository-skill-candidate.mjs
           node --check tools/inventory-repository.mjs
+          node --check tools/build-repository-evidence-manifest.mjs
 
       - name: Self-test repository-to-skill candidate gate
         run: node tools/validate-repository-skill-candidate.mjs --self-test
 
       - name: Self-test offline repository inventory
         run: node tools/inventory-repository.mjs --self-test
+
+      - name: Self-test pinned repository evidence manifest
+        run: node tools/build-repository-evidence-manifest.mjs --self-test
 
       - name: Generate bundle and verify idempotence
         shell: bash
