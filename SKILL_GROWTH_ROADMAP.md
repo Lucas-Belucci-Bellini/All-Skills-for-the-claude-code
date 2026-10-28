@@ -1,9 +1,9 @@
 # Roadmap to 25,000 canonical distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 1,540 distinct skills (1,414 authored + 126 retained/imported)
+**Current draft inventory:** 1,545 distinct skills (1,419 authored + 126 retained/imported)
 **Long-term planning target:** 25,000 distinct skills
-**Remaining to long-term target:** 23,460
+**Remaining to long-term target:** 23,455
 **Current milestone:** +25 skills from 1,500 to 1,525 on `feat/skills-expansion-1525-agent-orchestration-2026`
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
@@ -87,3 +87,8 @@ This batch adds 25 original workflow skills under `curated-skill-sources/agent-t
 - [ ] Complete repository-wide third-party provenance and license review before publishing the combined distribution.
 
 These skill documents define procedures and acceptance checks; they do not implement a production orchestrator, enforce runtime permissions by themselves, or connect external providers. This stacked branch targets `feat/skills-expansion-1500-projete-cross-agent-2026` and does not modify `main`.
+
+
+## 1,545 milestone — Engine creation and platform correctness
+
+Adds five original engine-creation workflows: render-graph hazard analysis, plugin ABI compatibility, deterministic replay debugging, platform capability matrices, and save-format migration. Source and bundle mirrors are included. Catalog/manifest updates are draft branch changes; sync CI, semantic overlap review, and runtime discovery remain to be observed.
