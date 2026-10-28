@@ -21,7 +21,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate-sync:
@@ -53,3 +53,20 @@ jobs:
 
       - name: Validate current milestone structure and source/bundle parity
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2085.json
+
+      # Keep generated catalogs and bundle metadata versioned on the feature branch.
+      # Pull-request runs validate only; only trusted pushes to the feature branch commit generated outputs.
+      - name: Commit generated synchronization outputs
+        if: github.event_name == 'push' && github.ref == 'refs/heads/feat/all-skills-consolidated-2026'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Generated outputs already synchronized; no commit needed."
+            exit 0
+          fi
+          git commit -m "chore: sync generated skill catalogs and bundles"
+          git push origin "HEAD:feat/all-skills-consolidated-2026"
