@@ -66,6 +66,11 @@ export async function buildEvidenceManifest(rootPath, input, generatedAt = new D
     }
     need(stat.isFile() && !stat.isSymbolicLink(), prefix + ".path must point to a regular non-symlink file");
     if (!stat.isFile() || stat.isSymbolicLink()) continue;
+    const realFile = await fs.realpath(absolute);
+    if (realFile !== root && !realFile.startsWith(root + path.sep)) {
+      errors.push(prefix + ".path resolves outside the repository root through a symlink");
+      continue;
+    }
     need(stat.size <= 2_000_000, prefix + ".path exceeds the 2 MB evidence-file limit");
     if (stat.size > 2_000_000) continue;
 
