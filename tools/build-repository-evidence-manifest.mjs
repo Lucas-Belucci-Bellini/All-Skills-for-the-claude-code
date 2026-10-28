@@ -157,7 +157,7 @@ async function selfTest() {
       /cannot contain dot traversal segments/
     );
     await assert.rejects(
-      () => buildEvidenceManifest(tmp, { ...input, claims: [{ ...input.claims[0], end_line: 99 }] }),
+      () => buildEvidenceManifest(tmp, { ...input, claims: [{ ...input.claims[0], end_line: 5 }] }),
       /exceeds file line count/
     );
     const outside = await fs.mkdtemp(path.join(os.tmpdir(), "repo-evidence-outside-"));
