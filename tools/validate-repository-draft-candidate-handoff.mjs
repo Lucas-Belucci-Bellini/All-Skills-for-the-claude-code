@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import assert from "node:assert/strict";
+import { pathToFileURL } from "node:url";
 import { readFile, writeFile } from "node:fs/promises";
 import { preflightDraftForCandidate } from "./preflight-repository-skill-draft-for-candidate.mjs";
 
