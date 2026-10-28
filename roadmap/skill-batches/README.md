@@ -29,3 +29,7 @@ Esta árvore organiza o trabalho futuro sem contar arquivos de planejamento como
 4. Executar o gerador oficial, validador do manifesto e CI.
 5. Revisar as diferenças geradas, duplicatas semânticas e procedência.
 6. Marcar como concluído apenas após evidência verificável; não fazer merge em `main` sem autorização explícita.
+
+## Sincronização do catálogo
+
+A branch de consolidação agora executa o gerador oficial e, após validação bem-sucedida em um evento `push` da própria branch, commita os artefatos gerados. O workflow em eventos de pull request valida sem fazer commits. Isso mantém os catálogos versionados; não substitui a auditoria semântica, de procedência/licenças nem a revisão final do PR.
