@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
+Updated: 2026-10-28. The unified bundle contains 2185 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **161**
-- Original curated skills: **1924**
-- Current total: **2085**
+- Original curated skills: **2024**
+- Current total: **2185**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **415**
+- Remaining to long-term target: **315**
 
 ## Categories
 
@@ -357,7 +357,7 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - runbook-command-risk-review — NEW
 - technical-example-executability-audit — NEW
 
-### Engine architecture & runtime (160)
+### Engine architecture & runtime (260)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -2213,3 +2213,107 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - Keep third-party provenance, licenses, attribution, and required notices. A repository-level license does not automatically relicense imported content.
 - Do not count placeholders, repeated aliases, or near-duplicates as additional skills.
 - Regenerate and validate using the repository sync script before completing a skills batch.
+
+
+## Engine creation expansion — 100 skills added on 2026-10-28
+
+- engine-animation-skeleton-retarget-contract — NEW
+- engine-animation-root-motion-authority — NEW
+- engine-animation-event-idempotency — NEW
+- engine-animation-pose-cache-invalidation — NEW
+- engine-animation-additive-space-validation — NEW
+- engine-animation-state-transition-coverage — NEW
+- engine-animation-compression-error-budget — NEW
+- engine-skeletal-lod-deformation-parity — NEW
+- engine-animation-notify-authority-boundary — NEW
+- engine-animation-retarget-versioning — NEW
+- engine-physics-contact-manifold-stability — NEW
+- engine-physics-ccd-threshold-calibration — NEW
+- engine-physics-joint-breakage-recovery — NEW
+- engine-physics-trigger-overlap-deduplication — NEW
+- engine-physics-origin-shift-invariants — NEW
+- engine-physics-deterministic-query-order — NEW
+- engine-physics-shape-cooking-cache — NEW
+- engine-physics-sleep-wake-transition-audit — NEW
+- engine-physics-material-combination-contract — NEW
+- engine-physics-query-filter-versioning — NEW
+- engine-renderer-color-pipeline-contract — NEW
+- engine-renderer-temporal-history-validity — NEW
+- engine-renderer-motion-vector-convention — NEW
+- engine-renderer-depth-reconstruction-audit — NEW
+- engine-renderer-bindless-resource-fallback — NEW
+- engine-renderer-shader-permutation-pruning — NEW
+- engine-renderer-gpu-timestamp-query-pooling — NEW
+- engine-renderer-residency-feedback-loop — NEW
+- engine-renderer-multiqueue-dependency-audit — NEW
+- engine-renderer-device-capability-cache — NEW
+- engine-renderer-pipeline-cache-corruption-recovery — NEW
+- engine-renderer-swapchain-recreation-atomicity — NEW
+- engine-renderer-hdr-metadata-validation — NEW
+- engine-renderer-framegraph-alias-lifetime-proof — NEW
+- engine-renderer-descriptor-pool-exhaustion — NEW
+- engine-editor-command-undo-atomicity — NEW
+- engine-editor-multiselection-transform-consistency — NEW
+- engine-editor-gizmo-coordinate-space-contract — NEW
+- engine-editor-asset-import-transaction — NEW
+- engine-editor-playmode-isolation — NEW
+- engine-editor-dirty-state-propagation — NEW
+- engine-editor-dock-layout-recovery — NEW
+- engine-editor-asset-reference-rename — NEW
+- engine-editor-automation-command-contract — NEW
+- engine-editor-selection-stability — NEW
+- engine-scripting-vm-gc-pause-budget — NEW
+- engine-scripting-hot-reload-state-migration — NEW
+- engine-scripting-api-capability-sandbox — NEW
+- engine-scripting-exception-containment — NEW
+- engine-scripting-deterministic-number-policy — NEW
+- engine-scripting-module-unload-safety — NEW
+- engine-scripting-reflection-schema-stability — NEW
+- engine-scripting-async-task-lifetime — NEW
+- engine-scripting-mod-api-deprecation — NEW
+- engine-scripting-debugger-pause-consistency — NEW
+- engine-audio-voice-stealing-policy — NEW
+- engine-audio-spatialization-coordinate-contract — NEW
+- engine-audio-occlusion-update-budget — NEW
+- engine-audio-streaming-seek-accuracy — NEW
+- engine-audio-device-switch-recovery — NEW
+- engine-audio-dsp-graph-cycle-detection — NEW
+- engine-audio-mix-snapshot-transition — NEW
+- engine-audio-loudness-peak-validation — NEW
+- engine-audio-reverb-zone-boundary — NEW
+- engine-audio-latency-loopback-calibration — NEW
+- engine-network-session-join-rollback — NEW
+- engine-network-message-schema-evolution — NEW
+- engine-network-backpressure-per-peer — NEW
+- engine-network-interest-management-stability — NEW
+- engine-network-reconnect-state-reconciliation — NEW
+- engine-network-packet-budget-contract — NEW
+- engine-network-clock-offset-estimation — NEW
+- engine-network-snapshot-delta-baseline — NEW
+- engine-network-prediction-correction-smoothing — NEW
+- engine-network-entity-id-reuse-window — NEW
+- engine-worldgen-coordinate-overflow-proof — NEW
+- engine-worldgen-generation-order-independence — NEW
+- engine-worldgen-structure-claim-ownership — NEW
+- engine-worldgen-feature-density-budget — NEW
+- engine-worldgen-cross-version-seed-compatibility — NEW
+- engine-worldgen-biome-boundary-continuity — NEW
+- engine-worldgen-decoration-idempotency — NEW
+- engine-worldgen-density-function-unit-contract — NEW
+- engine-worldgen-parallel-rng-isolation — NEW
+- engine-voxel-meshing-face-ownership — NEW
+- engine-voxel-greedy-mesh-material-boundary — NEW
+- engine-voxel-light-propagation-invalidation — NEW
+- engine-voxel-transparency-sort-policy — NEW
+- engine-voxel-mesh-incremental-rebuild-budget — NEW
+- engine-voxel-chunk-save-version-contract — NEW
+- engine-voxel-mesh-lod-transition-continuity — NEW
+- engine-voxel-fluid-surface-reconstruction — NEW
+- engine-voxel-block-entity-lifecycle — NEW
+- engine-voxel-region-lock-granularity — NEW
+- engine-asset-dependency-cycle-diagnostics — NEW
+- engine-asset-variant-selection-determinism — NEW
+- engine-asset-package-delta-integrity — NEW
+- engine-asset-memory-mapped-lifetime — NEW
+- engine-asset-remote-cache-integrity — NEW
+- engine-asset-bundle-boundary-analysis — NEW
