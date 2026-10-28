@@ -146,6 +146,6 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 
 ## 統合スキルライブラリ
 
-作業ブランチ `feat/skills-expansion-2000-simulation-worlds-2026` は、1,750 件のクロスドメイン用ドラフトを基に、simulation/NPC/world history 50 件、game content/save systems 50 件、networked games/determinism 50 件、geospatial UX・live public data・public-data provenance/privacy・OpenTelemetry Collector を各 25 件追加し、2,000 件のドラフトカタログを作成する。これは main へのマージ、CI 成功、実ゲームやデータプロバイダーの動作確認、ライセンス審査済みを意味しない。同期・検証・意味的重複・来歴の確認は未完了。
+`feat/skills-expansion-2000-simulation-worlds-2026` は過去のソース・マイルストーンであり、現在の統合ブランチではない。現在の統合作業は [PR #169](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/pull/169) と `feat/all-skills-consolidated-2026` で管理している。生成カタログは 2,085 件（独自作成 1,924 + 既存/取り込み 161）で、2,500 件の計画目標まで 415 件残っている。構造検証の CI は成功しているが、PR #169 は Draft のままで、取り込み元・ライセンスの確認と Claude Code での実際の検証/インストール確認が未完了である。これは main へのマージや公開配布の承認を意味しない。詳細は [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39) を参照。
 
 検証、同期、互換性確認、ライセンス/出典レビューは別途必要である。詳細は [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39) を参照。

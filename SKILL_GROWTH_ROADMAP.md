@@ -4,7 +4,7 @@
 **Current draft inventory:** 2,085 distinct skills (1,924 authored + 161 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
 **Remaining to long-term target:** 415
-**Current milestone:** +250 skills from 1,750 to 2,000 on `feat/skills-expansion-2000-simulation-worlds-2026` (issue #47; draft branch only)
+**Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,085-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
 The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
