@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import assert from "node:assert/strict";
+import { pathToFileURL } from "node:url";
 import { readFile, writeFile } from "node:fs/promises";
 import { validateDraftCandidateHandoff } from "./validate-repository-draft-candidate-handoff.mjs";
 
@@ -128,4 +129,6 @@ function selfTest() {
   console.log("Candidate assembly preparation self-test passed (hold decision, claim mapping, blocked handoff, license and duplicate uncertainty).");
 }
 
-main().catch((error) => { console.error(error.message); process.exitCode = 1; });
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => { console.error(error.message); process.exitCode = 1; });
+}
