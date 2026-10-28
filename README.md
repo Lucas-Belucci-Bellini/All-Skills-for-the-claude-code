@@ -135,3 +135,12 @@ These reusable workflows complement the engine and game-development skills:
 - [secure-coding-practices](.agents/skills/secure-coding-practices/SKILL.md) — apply safer defaults at input, identity, data, filesystem, and network boundaries.
 - [systematic-code-review](.agents/skills/systematic-code-review/SKILL.md) — review diffs for consequential defects with evidence and actionable findings.
 - [designing-stable-api-contracts](.agents/skills/designing-stable-api-contracts/SKILL.md) — specify predictable, secure, and evolvable service interfaces.
+
+- [solid-design-principles](.agents/skills/solid-design-principles/SKILL.md) — apply SOLID pragmatically to real change pressures.
+- [modular-software-architecture](.agents/skills/modular-software-architecture/SKILL.md) — define cohesive modules, explicit ownership, and dependency rules.
+- [dependency-injection-patterns](.agents/skills/dependency-injection-patterns/SKILL.md) — wire dependencies and resource lifetimes explicitly.
+- [relational-database-schema-design](.agents/skills/relational-database-schema-design/SKILL.md) — model relationships, constraints, and indexes from data requirements.
+- [safe-database-migrations](.agents/skills/safe-database-migrations/SKILL.md) — roll out schema and data changes with compatibility and recovery plans.
+- [sql-query-performance](.agents/skills/sql-query-performance/SKILL.md) — diagnose query plans and benchmark optimizations with evidence.
+- [async-concurrency-patterns](.agents/skills/async-concurrency-patterns/SKILL.md) — bound async work and define cancellation, retries, and failures.
+- [race-condition-detection](.agents/skills/race-condition-detection/SKILL.md) — reason about shared state and test unsafe interleavings.
