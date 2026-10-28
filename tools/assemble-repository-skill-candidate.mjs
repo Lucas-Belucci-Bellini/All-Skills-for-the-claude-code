@@ -107,7 +107,7 @@ async function selfTest() {
     decision: "ready-for-human-review",
     review_notes: "Fixture only."
   };
-  const manifest = { schema_version: 1, manifest_type: "repository-evidence-pointers", repository: { url: "https://github.com/example/project", revision: "a".repeat(40), inspected_at: "2026-10-27T00:00:00.000Z" }, claims: [
+  const manifest = { schema_version: 1, manifest_type: "repository-evidence-pointers", repository: { url: "https://github.com/example/project", revision: "a".repeat(40), inspected_at: "2026-10-27T00:00:00.000Z" }, evidence: [
     { id: "cli-docs", claim: "CLI flags are documented", source_ref: "docs/cli.md", kind: "documentation", start_line: 1, end_line: 2, file_sha256: "b".repeat(64), review_status: "needs-human-inspection" },
     { id: "cli-test", claim: "CLI output is tested", source_ref: "tests/cli.test.js", kind: "test", start_line: 1, end_line: 2, file_sha256: "c".repeat(64), review_status: "needs-human-inspection" }
   ] };
