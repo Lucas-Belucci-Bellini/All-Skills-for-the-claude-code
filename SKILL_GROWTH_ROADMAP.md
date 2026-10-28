@@ -110,3 +110,28 @@ Base branch: `feat/skills-expansion-1750-cross-domain-2026`. PR creation and mer
 - Canonical source path: `curated-skill-sources/engine-runtime/`; generated plugin copies use `plugins/all-skills-collection/skills/`.
 - Inventory after this batch: 2,185 distinct skills (2,024 original + 161 retained/imported); 315 remain to the 2,500 target.
 - The consolidation branch and PR remain unmerged pending CI/review and explicit approval.
+
+
+## Remaining 315 skills — NEXORA and large-scale software engineering scope
+
+**Scope decision (2026-10-28):** the remaining 315 skills toward the 2,500-skill milestone are reserved for code engineering workflows purpose-built for NEXORA and reusable on similarly large, long-lived projects. Avoid generic coding filler and duplicate existing skills. Skills should be implementation-oriented, testable, version-aware, and explicit about failure modes, compatibility, observability, and migration safety. NEXORA-specific workflows may assume a Rust-first voxel engine only where the task actually applies; shared workflows must remain reusable across other large projects.
+
+| Planned area | Skills | Focus |
+|---|---:|---|
+| Rust engine architecture and runtime | 45 | crate boundaries, ECS/system scheduling, ownership/lifetimes, async runtime, plugin ABI, feature flags, API stability |
+| Voxel world, chunks, persistence and world generation | 45 | chunk lifecycle, streaming, save recovery, region files, deterministic generation, LOD, large-coordinate safety |
+| Rendering, GPU and performance engineering | 45 | renderer architecture, resource lifetime, frame pacing, shader compilation, GPU/CPU profiling, memory budgets |
+| Assets, textures, materials and mod pipeline | 45 | import/build pipelines, content hashes, texture atlases, material schemas, mod compatibility, provenance and hot reload |
+| Simulation, AI/NPCs and gameplay systems | 45 | authoritative simulation, behavior trees/state machines, deterministic ticks, navigation, perception, scripting boundaries |
+| Networking, security and data integrity | 45 | replication, protocol versioning, anti-corruption boundaries, authentication/authorization, untrusted mod isolation, save validation |
+| Developer tooling, testing, CI and release engineering | 45 | property/fuzz tests, regression fixtures, benchmarks, crash diagnostics, migration gates, reproducible builds, release/rollback |
+| **Total** | **315** | **2,500-skill target** |
+
+### Acceptance criteria for this final 315-skill tranche
+
+- Every skill has a distinct name, clear trigger conditions, required inputs, ordered workflow, validation steps, failure handling and expected outputs.
+- Include Rust-specific guidance where applicable, but do not assume NEXORA code or infrastructure exists unless verified in the repository.
+- Include practical tests or measurable acceptance criteria; prefer reproducible commands and fixtures over vague advice.
+- Keep canonical source and plugin copy byte-identical; update the catalog and manifest in the same change set.
+- Check exact and semantic duplicates against the current inventory before adding a batch.
+- Validate each batch with the repository's sync/validation scripts and GitHub Actions. Keep all work on a feature branch; do not merge into `main` without explicit approval.
