@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "batch_size": 5,
+  "milestone_total": 1550,
+  "long_term_target": 25000,
+  "authored_count": 1424,
+  "retained_count": 126,
+  "plugin_version": "2.1.17",
+  "skills": [
+    {
+      "name": "engine-ecs-query-plan-audit",
+      "source_path": "curated-skill-sources/engine-runtime/engine-ecs-query-plan-audit/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-editor-undo-redo-transaction",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-undo-redo-transaction/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scene-graph-transform-invariants",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scene-graph-transform-invariants/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-audio-mixer-latency-budget",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-mixer-latency-budget/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-input-device-hotplug-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-input-device-hotplug-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    }
+  ]
+}

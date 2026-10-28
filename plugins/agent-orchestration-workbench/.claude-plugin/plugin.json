@@ -1,0 +1,19 @@
+{
+  "name": "agent-orchestration-workbench",
+  "version": "0.1.0",
+  "description": "Specialized Claude Code subagents for planning, testing, reviewing, and diagnosing multi-agent workflows.",
+  "author": {
+    "name": "Lucas-Belucci-Bellini"
+  },
+  "license": "See repository LICENSE and individual source notices",
+  "keywords": [
+    "agents",
+    "orchestration",
+    "multi-agent",
+    "testing",
+    "reliability",
+    "security",
+    "incident-response",
+    "evaluation"
+  ]
+}
