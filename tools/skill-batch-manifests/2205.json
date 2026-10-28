@@ -10,52 +10,52 @@
     {
       "name": "voxel-chunk-streaming-budget",
       "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-streaming-budget/SKILL.md",
-      "category": "Rust & platform engineering"
+      "category": "Curated: voxel-world-engineering"
     },
     {
       "name": "voxel-world-coordinate-safety",
       "source_path": "curated-skill-sources/voxel-world-engineering/voxel-world-coordinate-safety/SKILL.md",
-      "category": "Rust & platform engineering"
+      "category": "Curated: voxel-world-engineering"
     },
     {
       "name": "voxel-region-save-transaction",
       "source_path": "curated-skill-sources/voxel-world-engineering/voxel-region-save-transaction/SKILL.md",
-      "category": "Rust & platform engineering"
+      "category": "Curated: voxel-world-engineering"
     },
     {
       "name": "voxel-chunk-dirty-state-contract",
       "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-dirty-state-contract/SKILL.md",
-      "category": "Rust & platform engineering"
+      "category": "Curated: voxel-world-engineering"
     },
     {
       "name": "voxel-neighbor-boundary-meshing",
       "source_path": "curated-skill-sources/voxel-world-engineering/voxel-neighbor-boundary-meshing/SKILL.md",
-      "category": "Rust & platform engineering"
+      "category": "Curated: voxel-world-engineering"
     },
     {
       "name": "voxel-worldgen-seed-determinism",
       "source_path": "curated-skill-sources/voxel-world-engineering/voxel-worldgen-seed-determinism/SKILL.md",
-      "category": "Rust & platform engineering"
+      "category": "Curated: voxel-world-engineering"
     },
     {
       "name": "voxel-chunk-eviction-safety",
       "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-eviction-safety/SKILL.md",
-      "category": "Rust & platform engineering"
+      "category": "Curated: voxel-world-engineering"
     },
     {
       "name": "voxel-save-format-versioning",
       "source_path": "curated-skill-sources/voxel-world-engineering/voxel-save-format-versioning/SKILL.md",
-      "category": "Rust & platform engineering"
+      "category": "Curated: voxel-world-engineering"
     },
     {
       "name": "voxel-worldgen-property-tests",
       "source_path": "curated-skill-sources/voxel-world-engineering/voxel-worldgen-property-tests/SKILL.md",
-      "category": "Rust & platform engineering"
+      "category": "Curated: voxel-world-engineering"
     },
     {
       "name": "voxel-chunk-job-deduplication",
       "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-job-deduplication/SKILL.md",
-      "category": "Rust & platform engineering"
+      "category": "Curated: voxel-world-engineering"
     }
   ]
 }

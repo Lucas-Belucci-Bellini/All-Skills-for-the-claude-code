@@ -1901,17 +1901,8 @@ Updated: 2026-10-28. The unified bundle contains 2205 distinct skills.
 - rust-workspace-dependency-boundary-audit — NEW
 - rust-workspace-feature-matrix — NEW
 - rust-zero-copy-lifetime-proof — NEW
-- voxel-chunk-dirty-state-contract — NEW
-- voxel-chunk-eviction-safety — NEW
-- voxel-chunk-job-deduplication — NEW
-- voxel-chunk-streaming-budget — NEW
-- voxel-neighbor-boundary-meshing — NEW
-- voxel-region-save-transaction — NEW
-- voxel-save-format-versioning — NEW
-- voxel-world-coordinate-safety — NEW
-- voxel-worldgen-property-tests — NEW
-- voxel-worldgen-seed-determinism — NEW
 - wasm-native-performance-comparison — NEW
+
 
 ### Scene navigation, sharing & replay (10)
 
@@ -2333,3 +2324,16 @@ Updated: 2026-10-28. The unified bundle contains 2205 distinct skills.
 - Keep third-party provenance, licenses, attribution, and required notices. A repository-level license does not automatically relicense imported content.
 - Do not count placeholders, repeated aliases, or near-duplicates as additional skills.
 - Regenerate and validate using the repository sync script before completing a skills batch.
+
+### Curated: voxel-world-engineering (10)
+
+- voxel-chunk-streaming-budget — NEW
+- voxel-world-coordinate-safety — NEW
+- voxel-region-save-transaction — NEW
+- voxel-chunk-dirty-state-contract — NEW
+- voxel-neighbor-boundary-meshing — NEW
+- voxel-worldgen-seed-determinism — NEW
+- voxel-chunk-eviction-safety — NEW
+- voxel-save-format-versioning — NEW
+- voxel-worldgen-property-tests — NEW
+- voxel-chunk-job-deduplication — NEW
