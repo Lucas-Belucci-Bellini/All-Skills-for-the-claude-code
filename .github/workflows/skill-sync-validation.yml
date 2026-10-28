@@ -13,6 +13,11 @@ on:
       - feat/skills-expansion-1500-projete-cross-agent-2026
       - feat/skills-expansion-1750-cross-domain-2026
       - feat/skills-expansion-2000-simulation-worlds-2026
+      - feat/all-skills-consolidated-2026
+  pull_request:
+    branches:
+      - main
+      - feat/all-skills-consolidated-2026
   workflow_dispatch:
 
 permissions:
