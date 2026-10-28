@@ -1,31 +1,41 @@
-# Claude Code Plugins Directory
+# All Skills for Claude Code — Community Collection
 
-A curated directory of high-quality plugins for Claude Code.
+This is an independent, community-maintained collection of Claude Code skills and plugins. It is **not affiliated with or endorsed by Anthropic**. The generated aggregate plugin currently packages 2,085 distinct skills (1,924 authored + 161 retained/imported), and component provenance and license terms vary.
 
-> **⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information.
+> **Distribution warning:** this repository is currently public, and the imported-skill provenance/licensing audit is not complete. In particular, `claude-security` carries a restrictive, non-sublicensable license. Do not publish or redistribute the combined plugin until the applicable terms are reviewed and the repository owner has resolved the visibility/distribution decision. See [the imported-skill provenance audit](docs/research/imported-skill-provenance-audit.md).
 
-## Structure
+## Repository structure
 
-- **`/plugins`** - Internal plugins developed and maintained by Anthropic
-- **`/external_plugins`** - Third-party plugins from partners and the community
+- `curated-skill-sources/` — canonical source files for newly authored skills.
+- `plugins/all-skills-collection/` — generated aggregate plugin; do not edit its skill copies by hand.
+- `plugins/` — plugin packages in this collection, including imported and community-maintained components. Check each component's README, LICENSE, and NOTICE.
+- `external_plugins/` — upstream plugin sources and supporting files; their own license and provenance notices remain applicable.
+- `roadmap/skill-batches/` — planning folders for future skill batches; these folders are not counted as completed skills.
 
-## Installation
+## Validate and test locally
 
-Plugins can be installed directly from this marketplace via Claude Code's plugin system.
+From a clone of this repository, with a current Claude Code CLI:
 
-To install, run `/plugin install {plugin-name}@claude-plugins-official`
+```bash
+claude plugin validate . --strict
+claude plugin validate ./plugins/all-skills-collection --strict
+```
 
-or browse for the plugin in `/plugin > Discover`
+For a disposable local installation test, add this checkout as a marketplace and install the aggregate plugin:
+
+```text
+/plugin marketplace add /absolute/path/to/All-Skills-for-the-claude-code
+/plugin install all-skills-collection@all-skills-for-the-claude-code
+```
+
+The installation/discovery smoke test is documented in [docs/research/plugin-install-smoke-test.md](docs/research/plugin-install-smoke-test.md). Passing repository CI does not substitute for running the real Claude Code validator and installation test.
 
 ## Contributing
 
-### Internal Plugins
-
-Internal plugins are developed by Anthropic team members. See `/plugins/example-plugin` for a reference implementation.
-
-### External Plugins
-
-Third-party partners can submit plugins for inclusion in the marketplace. External plugins must meet quality and security standards for approval. To submit a new plugin, use the [plugin directory submission form](https://clau.de/plugin-directory-submission).
+- Add new authored skills under `curated-skill-sources/`; do not hand-edit the generated plugin copies.
+- Run `node tools/sync-skill-bundles.mjs --write`, inspect the diff, then run `node tools/sync-skill-bundles.mjs --check`.
+- Validate the active batch with its manifest and keep changes on a feature branch with a pull request.
+- For imported components, record the upstream repository/revision, preserve required LICENSE/NOTICE/attribution, and verify redistribution terms before adding or publishing them.
 
 ## Plugin Structure
 

@@ -1,4 +1,6 @@
 # Agentic Gamedev Skills
+> 注: このファイルは agentic-gamedev-skills サブコレクションの日本語READMEです。リポジトリ全体の説明ではありません。全体概要は [README.md](README.md) を参照してください。このリポジトリは独立したコミュニティ管理のコレクションであり、Anthropic 公式ではありません。
+
 
 [English](README.md) | 日本語
 
