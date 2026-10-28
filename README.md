@@ -121,3 +121,10 @@ The branch `feat/game-development-foundations-2026-10` adds three focused workfl
 - [`structuring-gameplay-playtests`](.agents/skills/structuring-gameplay-playtests/SKILL.md) — run neutral, evidence-driven playtests and turn observations into testable changes.
 
 These are a small first batch; they do not replace the existing game-design, prototype-refinement, or gameplay-verification skills.
+
+
+### Second batch: progression, NPC AI, and economy
+
+- [`designing-game-progression`](.agents/skills/designing-game-progression/SKILL.md) — map milestones, mechanic learning, rewards, pacing, and recovery paths.
+- [`implementing-game-ai-state-machines`](.agents/skills/implementing-game-ai-state-machines/SKILL.md) — implement explicit NPC states, transition guards, interruption rules, and transition tests.
+- [`validating-game-economy-loops`](.agents/skills/validating-game-economy-loops/SKILL.md) — analyze resource sources/sinks, dominant strategies, arbitrage exploits, and progression soft-locks.
