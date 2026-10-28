@@ -125,7 +125,7 @@ function selfTest() {
   const unknownLicense = fixture(); unknownLicense.skill.license_review.status = "unknown";
   assert.throws(() => prepareCandidateAssemblySpec(unknownLicense), /handoff blocked/);
   const unknownDuplicate = fixture(); unknownDuplicate.skill.semantic_duplicate_review = "TODO";
-  assert.equal(prepareCandidateAssemblySpec(unknownDuplicate).candidate_spec.deduplication.semantic_review, "not-run");
+  assert.throws(() => prepareCandidateAssemblySpec(unknownDuplicate), /handoff blocked/);
   console.log("Candidate assembly preparation self-test passed (hold decision, claim mapping, blocked handoff, license and duplicate uncertainty).");
 }
 
