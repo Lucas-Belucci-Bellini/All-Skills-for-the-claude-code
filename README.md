@@ -130,3 +130,8 @@ These reusable workflows complement the engine and game-development skills:
 - [implementing-incremental-code-changes](.agents/skills/implementing-incremental-code-changes/SKILL.md) — deliver small, reviewable changes with explicit scope and proportionate verification.
 - [debugging-with-minimal-reproduction](.agents/skills/debugging-with-minimal-reproduction/SKILL.md) — isolate defects using reproducible evidence and falsifiable hypotheses.
 - [refactoring-with-characterization-tests](.agents/skills/refactoring-with-characterization-tests/SKILL.md) — improve internal structure while protecting observable behavior.
+
+- [unit-testing-strategy](.agents/skills/unit-testing-strategy/SKILL.md) — design deterministic tests around observable behavior and meaningful edge cases.
+- [secure-coding-practices](.agents/skills/secure-coding-practices/SKILL.md) — apply safer defaults at input, identity, data, filesystem, and network boundaries.
+- [systematic-code-review](.agents/skills/systematic-code-review/SKILL.md) — review diffs for consequential defects with evidence and actionable findings.
+- [designing-stable-api-contracts](.agents/skills/designing-stable-api-contracts/SKILL.md) — specify predictable, secure, and evolvable service interfaces.
