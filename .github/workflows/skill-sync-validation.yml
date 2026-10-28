@@ -23,6 +23,7 @@ on:
       - feat/repository-skill-spec-scaffolder-2026
       - feat/repository-skill-spec-validation-2026
       - feat/engine-creation-skills-batch-2026
+      - feat/engine-creation-skills-batch-1550-2026
   workflow_dispatch:
 
 permissions:
@@ -100,6 +101,10 @@ jobs:
       - name: Validate 1,545 engine skill batch
         if: github.ref_name == 'feat/engine-creation-skills-batch-2026'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1545.json
+
+      - name: Validate 1,550 engine creation batch
+        if: github.ref_name == 'feat/engine-creation-skills-batch-1550-2026'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1550.json
 
       - name: Validate agent orchestration plugin
         run: node tools/validate-agent-plugin.mjs
