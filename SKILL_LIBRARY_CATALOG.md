@@ -2214,7 +2214,7 @@ Updated: 2026-10-28. The unified bundle contains 2110 distinct skills.
 - Do not count placeholders, repeated aliases, or near-duplicates as additional skills.
 - Regenerate and validate using the repository sync script before completing a skills batch.
 
-### Texture & material authoring (25)
+### Curated: texture-material-pipeline (25)
 
 - tex-pbr-material-channel-audit — NEW
 - tex-albedo-color-space-validation — NEW
