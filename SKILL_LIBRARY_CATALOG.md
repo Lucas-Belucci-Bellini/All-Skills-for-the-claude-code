@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-17. The catalog contains 1509 distinct skills; generated bundles remain pending synchronization and validation.
+Updated: 2026-10-17. The catalog contains 1512 distinct skills; generated bundles remain pending synchronization and validation.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **1383**
-- Current total: **1509**
+- Original curated skills: **1386**
+- Current total: **1512**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **991**
+- Remaining to long-term target: **988**
 
 ## Categories
 
@@ -522,7 +522,7 @@ Updated: 2026-10-17. The catalog contains 1509 distinct skills; generated bundle
 - worldgen-biome-distribution-analysis — NEW
 - worldgen-distribution-drift-detection — NEW
 
-### Game design, engines & gameplay QA (36)
+### Game design, engines & gameplay QA (39)
 
 - adversarially-validating-game-repairs
 - arcadifying-mini-games
@@ -560,6 +560,9 @@ Updated: 2026-10-17. The catalog contains 1509 distinct skills; generated bundle
 - designing-game-combat-resolution
 - testing-procedural-gameplay-encounters
 - validating-game-movement-feel
+- designing-quest-objective-dependencies
+- validating-game-narrative-localization
+- validating-multiplayer-session-lifecycle
 
 ### Geospatial visualization & map UX (10)
 
