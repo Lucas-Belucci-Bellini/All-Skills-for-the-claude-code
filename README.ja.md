@@ -149,3 +149,14 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 作業ブランチ `feat/skills-expansion-1500-projete-cross-agent-2026` は、ATM10 のトラブルシューティングを含む 1,250 件の作業用ベースに、ProjectE/EMC のワークフロー 100 件と、複数 AI エージェント・Broker・Adapter・コンテキスト管理・自動更新のワークフロー 150 件を追加する計画で、カタログを 1,500 件に更新するドラフトである。これは main へのマージ済みを意味せず、すべての AI への接続やゲーム内の EMC バランス検証が完了したという意味でもない。
 
 検証、同期、互換性確認、ライセンス/出典レビューは別途必要である。詳細は [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39) を参照。
+
+
+## 追加されたゲーム開発スキル
+
+ブランチ `feat/game-development-foundations-2026-10` では、次の3つのスキルを `.agents/skills/` に追加した。
+
+- [`validating-game-core-loops`](.agents/skills/validating-game-core-loops/SKILL.md) — 中心となる操作とフィードバックのループが、理解可能で意味のある選択を生むか検証する。
+- [`scoping-playable-prototypes`](.agents/skills/scoping-playable-prototypes/SKILL.md) — 失敗時のリスクが高い設計仮説を一つ選び、最小のプレイ可能な試作に絞る。
+- [`structuring-gameplay-playtests`](.agents/skills/structuring-gameplay-playtests/SKILL.md) — 誘導を避けたプレイテストを設計し、観察結果を検証可能な変更につなげる。
+
+これは小規模な初回バッチであり、既存のゲーム設計、プロトタイプ改善、ゲームプレイ検証スキルを置き換えるものではない。
