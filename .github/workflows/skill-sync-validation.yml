@@ -39,9 +39,13 @@ jobs:
         run: |
           node --check tools/sync-skill-bundles.mjs
           node --check tools/validate-repository-skill-candidate.mjs
+          node --check tools/inventory-repository.mjs
 
       - name: Self-test repository-to-skill candidate gate
         run: node tools/validate-repository-skill-candidate.mjs --self-test
+
+      - name: Self-test offline repository inventory
+        run: node tools/inventory-repository.mjs --self-test
 
       - name: Generate bundle and verify idempotence
         shell: bash
