@@ -2,7 +2,7 @@
 
 **Status: OPEN — do not treat this file as a license approval.**
 
-This report tracks the 161 catalog entries with `origin: existing`. The generated catalog intentionally has no `source_path` for these records, so paths below are candidate repository copies discovered by matching skill directory names in the current Git tree. A matching local path or a nearby `LICENSE`/ `NOTICE` file does **not** prove the upstream origin, copyright holder, or that redistribution in the combined plugin is permitted.
+This report tracks the 161 catalog entries with `origin: existing`. The generated catalog intentionally has no `source_path` for these records, so paths below are candidate repository copies discovered by matching skill directory names and, for six channel skills, their explicit bundle namespace mapping in the current Git tree. A matching local path or a nearby `LICENSE`/ `NOTICE` file does **not** prove the upstream origin, copyright holder, or that redistribution in the combined plugin is permitted.
 
 ## Findings
 
