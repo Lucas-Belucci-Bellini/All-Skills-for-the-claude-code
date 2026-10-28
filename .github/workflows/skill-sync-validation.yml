@@ -14,6 +14,7 @@ on:
       - feat/skills-expansion-1750-cross-domain-2026
       - feat/skills-expansion-2000-simulation-worlds-2026
       - feat/all-skills-consolidated-2026
+      - feat/texture-skills-batch-2026-10
   pull_request:
     branches:
       - main
@@ -52,4 +53,4 @@ jobs:
           node tools/sync-skill-bundles.mjs --check
 
       - name: Validate current milestone structure and source/bundle parity
-        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2085.json
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2110.json

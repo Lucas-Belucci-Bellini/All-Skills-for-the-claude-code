@@ -1,9 +1,9 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,085 distinct skills (1,924 authored + 161 retained/imported)
+**Current draft inventory:** 2,110 distinct skills (1,949 authored + 161 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 415
+**Remaining to long-term target:** 390
 **Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,085-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
@@ -12,11 +12,12 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 ## Milestone sequence
 
 | Checkpoint | Target total | Status / operating rule |
+| 2110 | 2110 | Texture/material batch added on `feat/texture-skills-batch-2026-10`; review and CI pending |
 |---|---:|---|
 | 425 | 425 | Draft PR #6 against `main`; clean local sync and end-to-end discovery remain unverified |
 | 450 | 450 | Draft PR #9 depends on PR #6; Git-tree parity was checked for its 25 source/bundle pairs |
 | 475 | 475 | Draft PR #10 depends on PR #9; catalog and source/bundle parity were checked |
-| Current draft | 500 | Adds 25 distinct release/data, queue/cache, plugin governance, runtime, network, and Minecraft update workflows |
+| Current draft | 500 | Reached in draft inventory; pending review and merge of the PR chain |
 | 525 | 525 | Draft batch stacked on sync-script fix; automated sync checks pass; Claude Code runtime, provenance and semantic audits remain pending |
 | 550 | 550 | Draft batch stacked on 525; CI validates sync and the 25 new skills; Claude Code runtime and license/overlap audits remain pending |
 | 600 | 600 | Adds 50 original geospatial, public-feed reliability, realtime voice, scene-sharing, and privacy/provenance workflows; full runtime discovery, upstream-use and broader semantic review remain pending |
@@ -101,3 +102,11 @@ This branch adds 250 authored workflows on top of the 1,750-skill draft: simulat
 - [ ] Test representative workflows against actual engine/save versions, netcode test harnesses, providers and Collector configurations where applicable.
 
 Base branch: `feat/skills-expansion-1750-cross-domain-2026`. PR creation and merge remain maintainer-controlled.
+
+
+## Texture & material authoring batch — 2026-10-28
+
+- Added 25 original, domain-specific texture skills under `curated-skill-sources/texture-material-pipeline/`.
+- Coverage: PBR channels, color spaces, tangent-space normals, tileability, voxel atlases, pixel-art palettes, texel density, mipmapping, compression budgets, Blender baking, UV padding, alpha fringes, terrain/biome transitions, import presets, licensing/provenance and NEXORA voxel integration.
+- Batch is additive and does not change `main`; generated plugin parity and automated validation must pass before merge.
+- Current inventory after this batch: 2,110 declared unique skills; 390 remain to the 2,500 target.

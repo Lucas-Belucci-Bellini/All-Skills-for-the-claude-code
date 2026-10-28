@@ -1,11 +1,12 @@
 # Curated Skill Sources
 
-Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The 2,000-skill draft contains **1,874 original skills** and 126 retained/imported entries. The current expansion adds workflows for simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, privacy/provenance and OpenTelemetry; it remains a draft branch until its validation and review gates pass.
+Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The consolidated catalog contains **2,110 declared distinct skills** (1,949 original skills and 161 retained/imported entries). The texture/material batch adds 25 original workflows for PBR validation, UVs, atlases, baking, compression, terrain transitions, provenance and NEXORA integration.
 
 - `agent-tooling/`: agent request contracts, provider adapters, Skill Broker access, MCP configuration, permissions, connection checks, and troubleshooting.
 - `developer-cli-tooling/`: CLI behavior contracts, portable environments, and deterministic command workflows.
 - `documentation-knowledge-systems/`: documentation correctness, traceability, examples, and operational runbooks.
 - `engine-runtime/`: engine architecture, resource lifecycle, rendering, deterministic simulation, and performance.
+- `texture-material-pipeline/`: PBR channel audits, color-space validation, tangent-space normals, atlas and UV padding, tileability, mipmaps, compression, Blender baking, terrain blending, import presets, asset provenance and NEXORA voxel integration.
 - `simulation-world/`: NPC state, memory, economies, civilization, and event history.
 - `minecraft-modded-environments/`: 50 general modpack diagnostic workflows, 25 cross-mod interaction investigations, and 25 individual-mod bug investigations for modified Minecraft packs.
 - `release-testing-operations/`: artifact provenance, API/database contracts, event flows, architecture maps, and CI optimization.

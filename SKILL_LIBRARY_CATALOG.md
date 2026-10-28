@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
+Updated: 2026-10-28. The unified bundle contains 2110 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **161**
-- Original curated skills: **1924**
-- Current total: **2085**
+- Original curated skills: **1949**
+- Current total: **2110**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **415**
+- Remaining to long-term target: **390**
 
 ## Categories
 
@@ -2213,3 +2213,31 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - Keep third-party provenance, licenses, attribution, and required notices. A repository-level license does not automatically relicense imported content.
 - Do not count placeholders, repeated aliases, or near-duplicates as additional skills.
 - Regenerate and validate using the repository sync script before completing a skills batch.
+
+### Texture & material authoring (25)
+
+- tex-pbr-material-channel-audit — NEW
+- tex-albedo-color-space-validation — NEW
+- tex-normal-map-tangent-space-validation — NEW
+- tex-roughness-metallic-range-validation — NEW
+- tex-seamless-tileability-review — NEW
+- tex-triplanar-projection-artifact-diagnosis — NEW
+- tex-voxel-atlas-padding-validation — NEW
+- tex-pixel-art-palette-budget-audit — NEW
+- tex-texel-density-consistency-audit — NEW
+- tex-mipmap-shimmering-diagnosis — NEW
+- tex-texture-compression-budget-planning — NEW
+- tex-material-variant-naming-contract — NEW
+- tex-procedural-noise-scale-calibration — NEW
+- tex-blender-bake-cage-validation — NEW
+- tex-uv-island-padding-validation — NEW
+- tex-alpha-cutout-fringe-diagnosis — NEW
+- tex-height-to-normal-conversion-review — NEW
+- tex-world-space-material-blending — NEW
+- tex-distance-field-texture-validation — NEW
+- tex-biome-material-transition-audit — NEW
+- tex-atlas-sprite-bleed-test — NEW
+- tex-ambient-occlusion-map-consistency — NEW
+- tex-material-import-preset-validation — NEW
+- tex-texture-license-provenance-audit — NEW
+- tex-nexora-voxel-material-integration — NEW
