@@ -121,3 +121,12 @@ The agents are permission-scoped: five are read-only, while only the test engine
 ## Artifact Analysis Workbench
 
 An independent plugin proposes 10 scoped specialist agents and 15 original evidence-led workflows informed by public reverse-engineering capability areas in REA. It is not REA and does not bundle REA code or skill text. See the roadmap at docs/roadmaps/REA_INSPIRED_25000_SKILLS_150_AGENTS.md; review the Draft PR and CI before treating the plugin as available.
+
+
+## General coding skills
+
+These reusable workflows complement the engine and game-development skills:
+
+- [implementing-incremental-code-changes](.agents/skills/implementing-incremental-code-changes/SKILL.md) — deliver small, reviewable changes with explicit scope and proportionate verification.
+- [debugging-with-minimal-reproduction](.agents/skills/debugging-with-minimal-reproduction/SKILL.md) — isolate defects using reproducible evidence and falsifiable hypotheses.
+- [refactoring-with-characterization-tests](.agents/skills/refactoring-with-characterization-tests/SKILL.md) — improve internal structure while protecting observable behavior.
