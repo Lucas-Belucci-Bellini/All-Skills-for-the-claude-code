@@ -18,15 +18,15 @@ export function classifyFile(relativePath) {
   const p = relativePath.replaceAll("\\", "/");
   const base = path.posix.basename(p).toLowerCase();
   const ext = path.posix.extname(p).toLowerCase();
-  if (/^(license|licence)(\\.|$)/i.test(base) || /^copying(\\.|$)/i.test(base) || /^notice(\\.|$)/i.test(base)) return "license-or-notice";
-  if (/^readme(\\.|$)/i.test(base)) return "readme";
-  if (/^contributing(\\.|$)/i.test(base) || /^code_of_conduct(\\.|$)/i.test(base) || /^security(\\.|$)/i.test(base)) return "governance-doc";
-  if (p.startsWith(".github/workflows/") && /\\.(yml|yaml)$/i.test(base)) return "ci-workflow";
-  if (/(^|\\/)(test|tests|__tests__|spec|specs)(\\/|$)/i.test(p) || /\\.(test|spec)\\.[^.]+$/i.test(base)) return "test";
-  if (/(^|\\/)(docs?|documentation)(\\/|$)/i.test(p) || /\\.(md|mdx|rst|adoc)$/i.test(ext)) return "documentation";
-  if (/^(package\\.json|pnpm-workspace\\.yaml|cargo\\.toml|pyproject\\.toml|go\\.mod|pom\\.xml|build\\.gradle(\\.kts)?|composer\\.json|gemfile)$/i.test(base)) return "package-manifest";
-  if (/^(tsconfig[^/]*\\.json|vite\\.config\\.[^.]+|webpack\\.config\\.[^.]+|eslint\\.config\\.[^.]+|\.eslintrc[^/]*|rust-toolchain(\\.toml)?|makefile|justfile)$/i.test(base)) return "tooling-config";
-  if (/\\.(rs|ts|tsx|js|jsx|mjs|cjs|py|java|kt|kts|go|rb|php|cs|cpp|c|h|hpp|swift|scala|sh|ps1)$/i.test(ext)) return "source-code";
+  if (/^(license|licence)(\.|$)/i.test(base) || /^copying(\.|$)/i.test(base) || /^notice(\.|$)/i.test(base)) return "license-or-notice";
+  if (/^readme(\.|$)/i.test(base)) return "readme";
+  if (/^contributing(\.|$)/i.test(base) || /^code_of_conduct(\.|$)/i.test(base) || /^security(\.|$)/i.test(base)) return "governance-doc";
+  if (p.startsWith(".github/workflows/") && /\.(yml|yaml)$/i.test(base)) return "ci-workflow";
+  if (/(^|\/)(test|tests|__tests__|spec|specs)(\/|$)/i.test(p) || /\.(test|spec)\.[^.]+$/i.test(base)) return "test";
+  if (/(^|\/)(docs?|documentation)(\/|$)/i.test(p) || /\.(md|mdx|rst|adoc)$/i.test(ext)) return "documentation";
+  if (/^(package\.json|pnpm-workspace\.yaml|cargo\.toml|pyproject\.toml|go\.mod|pom\.xml|build\.gradle(\.kts)?|composer\.json|gemfile)$/i.test(base)) return "package-manifest";
+  if (/^(tsconfig[^/]*\.json|vite\.config\.[^.]+|webpack\.config\.[^.]+|eslint\.config\.[^.]+|\.eslintrc[^/]*|rust-toolchain(\.toml)?|makefile|justfile)$/i.test(base)) return "tooling-config";
+  if (/\.(rs|ts|tsx|js|jsx|mjs|cjs|py|java|kt|kts|go|rb|php|cs|cpp|c|h|hpp|swift|scala|sh|ps1)$/i.test(ext)) return "source-code";
   return "other";
 }
 
