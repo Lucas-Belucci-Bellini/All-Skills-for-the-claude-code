@@ -196,3 +196,7 @@ The local `claude-security/LICENSE` states that the plugin is proprietary to Ant
 This is not an automatic legal determination about every use, but it is a **distribution blocker until reviewed**: do not publish or redistribute the combined plugin with this component unless the applicable terms clearly permit the intended use or written authorization is obtained. A reviewer should decide whether to exclude this component from the generated bundle, keep the package private and limited to permitted internal use, or obtain permission. Preserve its license and notice during any decision; do not replace them with the repository-wide Apache license.
 
 The imported row for `claude-security` remains Pending.
+
+## Content-path parity check
+
+A Git-tree SHA comparison found that all **155** imported entries with a non-bundle candidate `SKILL.md` have a byte-identical plugin bundle copy. The six names with multiple candidate paths also have matching hashes across all their candidate copies. The remaining six entries are bundle-only and still need their original source/revision identified. This verifies local copy parity, **not** upstream authorship or redistribution permission.
