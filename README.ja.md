@@ -160,3 +160,10 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 - [`structuring-gameplay-playtests`](.agents/skills/structuring-gameplay-playtests/SKILL.md) — 誘導を避けたプレイテストを設計し、観察結果を検証可能な変更につなげる。
 
 これは小規模な初回バッチであり、既存のゲーム設計、プロトタイプ改善、ゲームプレイ検証スキルを置き換えるものではない。
+
+
+### 第2バッチ：進行、NPC AI、経済システム
+
+- [`designing-game-progression`](.agents/skills/designing-game-progression/SKILL.md) — マイルストーン、メカニクスの学習、報酬、ペース配分、失敗からの復帰を設計する。
+- [`implementing-game-ai-state-machines`](.agents/skills/implementing-game-ai-state-machines/SKILL.md) — NPCの状態、遷移条件、中断ルール、遷移テストを明示的に実装する。
+- [`validating-game-economy-loops`](.agents/skills/validating-game-economy-loops/SKILL.md) — 資源の流入と消費、支配的戦略、裁定取引の悪用、進行不能を分析する。
