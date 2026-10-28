@@ -116,4 +116,6 @@ function selfTest() {
   console.log("Draft-to-candidate preflight self-test passed (complete draft, TODO/evidence/path/duplicate rejection, and no-promotion guardrails).");
 }
 
-main().catch((error) => { console.error(error.message); process.exitCode = 1; });
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => { console.error(error.message); process.exitCode = 1; });
+}
