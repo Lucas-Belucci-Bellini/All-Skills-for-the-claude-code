@@ -11,8 +11,21 @@ on:
       - feat/skills-expansion-1000-from-850-2026
       - feat/skills-expansion-1150-from-1000-2026
       - feat/skills-expansion-1500-projete-cross-agent-2026
-      - feat/skills-expansion-1750-cross-domain-2026
-      - feat/skills-expansion-2000-simulation-worlds-2026
+      - feat/skills-expansion-1525-agent-orchestration-2026
+      - feat/agent-orchestration-workbench-2026
+      - feat/orchestration-workflow-commands-2026
+      - feat/rea-inspired-150-agents-25k-skills-2026
+      - fix/1540-skill-sync-validation-routing-2026
+      - feat/repository-skill-candidate-gate-2026
+      - feat/repository-evidence-manifest-2026
+      - feat/repository-candidate-assembly-2026
+      - feat/repository-review-batches-2026
+      - feat/repository-skill-spec-scaffolder-2026
+      - feat/repository-skill-spec-validation-2026
+      - feat/repository-draft-spec-preflight-2026
+      - feat/repository-draft-candidate-handoff-2026
+      - feat/repository-draft-candidate-preparation-2026
+      - feat/repository-candidate-preassembly-audit-2026
       - feat/all-skills-consolidated-2026
   pull_request:
     branches:
@@ -37,7 +50,56 @@ jobs:
           node-version: 22
 
       - name: Check script syntax
-        run: node --check tools/sync-skill-bundles.mjs
+        run: |
+          node --check tools/sync-skill-bundles.mjs
+          node --check tools/validate-repository-skill-candidate.mjs
+          node --check tools/inventory-repository.mjs
+          node --check tools/build-repository-evidence-manifest.mjs
+          node --check tools/assemble-repository-skill-candidate.mjs
+          node --check tools/plan-repository-skill-review-batches.mjs
+          node --check tools/discover-repository-skill-opportunities.mjs
+          node --check tools/scaffold-repository-skill-spec.mjs
+          node --check tools/validate-repository-skill-draft-spec.mjs
+          node --check tools/preflight-repository-skill-draft-for-candidate.mjs
+          node --check tools/validate-repository-draft-candidate-handoff.mjs
+          node --check tools/prepare-repository-draft-candidate-spec.mjs
+          node --check tools/audit-repository-candidate-preassembly.mjs
+
+      - name: Self-test repository-to-skill candidate gate
+        run: node tools/validate-repository-skill-candidate.mjs --self-test
+
+      - name: Self-test offline repository inventory
+        run: node tools/inventory-repository.mjs --self-test
+
+      - name: Self-test pinned repository evidence manifest
+        run: node tools/build-repository-evidence-manifest.mjs --self-test
+
+      - name: Self-test evidence-backed candidate assembly
+        run: node tools/assemble-repository-skill-candidate.mjs --self-test
+
+      - name: Self-test evidence-backed skill review batch planner
+        run: node tools/plan-repository-skill-review-batches.mjs --self-test
+
+      - name: Self-test repository skill opportunity discovery
+        run: node tools/discover-repository-skill-opportunities.mjs --self-test
+
+      - name: Self-test repository skill draft specification scaffolder
+        run: node tools/scaffold-repository-skill-spec.mjs --self-test
+
+      - name: Self-test repository skill draft specification validator
+        run: node tools/validate-repository-skill-draft-spec.mjs --self-test
+
+      - name: Self-test draft-to-candidate preflight
+        run: node tools/preflight-repository-skill-draft-for-candidate.mjs --self-test
+
+      - name: Self-test evidence-aware draft candidate handoff
+        run: node tools/validate-repository-draft-candidate-handoff.mjs --self-test
+
+      - name: Self-test draft candidate assembly preparation
+        run: node tools/prepare-repository-draft-candidate-spec.mjs --self-test
+
+      - name: Self-test repository candidate preassembly audit
+        run: node tools/audit-repository-candidate-preassembly.mjs --self-test
 
       - name: Generate bundle and verify idempotence
         shell: bash
@@ -51,5 +113,20 @@ jobs:
           git diff --check
           node tools/sync-skill-bundles.mjs --check
 
-      - name: Validate current milestone structure and source/bundle parity
+      - name: Validate historical 1,525 milestone on historical branches
+        if: github.ref_name == 'fix/skill-sync-target-2500-2026' || github.ref_name == 'feat/skills-expansion-525-from-sync-fix-2026' || github.ref_name == 'feat/skills-expansion-550-from-525-2026' || github.ref_name == 'feat/skills-expansion-600-from-550-2026' || github.ref_name == 'feat/skills-expansion-850-from-600-2026' || github.ref_name == 'feat/skills-expansion-1000-from-850-2026' || github.ref_name == 'feat/skills-expansion-1150-from-1000-2026' || github.ref_name == 'feat/skills-expansion-1500-projete-cross-agent-2026' || github.ref_name == 'feat/skills-expansion-1525-agent-orchestration-2026' || github.ref_name == 'feat/agent-orchestration-workbench-2026'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1525.json
+
+      - name: Validate 1,540-skill source and bundle parity
+        if: github.ref_name == 'feat/rea-inspired-150-agents-25k-skills-2026' || github.ref_name == 'feat/orchestration-workflow-commands-2026' || github.ref_name == 'fix/1540-skill-sync-validation-routing-2026' || github.ref_name == 'feat/repository-skill-candidate-gate-2026' || github.ref_name == 'feat/repository-evidence-manifest-2026' || github.ref_name == 'feat/repository-candidate-assembly-2026' || github.ref_name == 'feat/repository-review-batches-2026' || github.ref_name == 'feat/repository-skill-spec-scaffolder-2026' || github.ref_name == 'feat/repository-skill-spec-validation-2026' || github.ref_name == 'feat/repository-draft-spec-preflight-2026' || github.ref_name == 'feat/repository-draft-candidate-handoff-2026' || github.ref_name == 'feat/repository-draft-candidate-preparation-2026'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1540.json
+
+      - name: Validate agent orchestration plugin
+        run: node tools/validate-agent-plugin.mjs
+
+      - name: Validate artifact analysis workbench
+        run: node tools/validate-artifact-analysis-workbench.mjs
+
+      - name: Validate current consolidated 2,085-skill source and bundle parity
+        if: github.ref_name == 'feat/all-skills-consolidated-2026' || github.head_ref == 'feat/all-skills-consolidated-2026' || github.base_ref == 'feat/all-skills-consolidated-2026'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2085.json
