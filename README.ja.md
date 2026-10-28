@@ -167,3 +167,9 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 - [`designing-game-progression`](.agents/skills/designing-game-progression/SKILL.md) — マイルストーン、メカニクスの学習、報酬、ペース配分、失敗からの復帰を設計する。
 - [`implementing-game-ai-state-machines`](.agents/skills/implementing-game-ai-state-machines/SKILL.md) — NPCの状態、遷移条件、中断ルール、遷移テストを明示的に実装する。
 - [`validating-game-economy-loops`](.agents/skills/validating-game-economy-loops/SKILL.md) — 資源の流入と消費、支配的戦略、裁定取引の悪用、進行不能を分析する。
+
+### 第3バッチ：戦闘、移動、プロシージャルな遭遇
+
+- [`designing-game-combat-resolution`](.agents/skills/designing-game-combat-resolution/SKILL.md) — 命中・ダメージの解決順序、無敵・ガードの優先順位、対象ごとの命中回数、回帰テストを定義する。
+- [`validating-game-movement-feel`](.agents/skills/validating-game-movement-feel/SKILL.md) — 加速、停止、衝突、フレーム時間の変動、カメラ挙動を再現可能なテストに変換する。
+- [`testing-procedural-gameplay-encounters`](.agents/skills/testing-procedural-gameplay-encounters/SKILL.md) — 生成された遭遇の到達可能性、公平性、ペース、再現性、seedベースの回帰テストを検証する。
