@@ -28,7 +28,7 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 1750 | 1750 | Draft stack adds 50 Engine architecture/runtime, 50 Rust/platform, 50 release/repository quality, and 25 each Supabase/PostgreSQL, Vercel AI SDK, accessibility, and technical documentation skills; semantic review, sync, CI and provenance checks remain pending |
 | 2000 | 2000 | Draft stack adds 50 simulation/NPC/world-history, 50 game content/save systems, 50 networked-games/determinism, and 25 each geospatial UX, live public-data reliability, provenance/privacy/ethics and OpenTelemetry Collector observability; sync, CI, semantic review and provenance checks remain pending |
 | 2085 | 2085 | Historical consolidated inventory before the engine creation expansion | 
-| 2185 | 2185 | Adds 100 engine creation skills across animation, physics, rendering, editor tooling, scripting, audio, networking, deterministic world generation, voxel systems and asset pipelines; CI and review required |
+| 2185 | 2185 | Historical engine-creation batch: 100 skills across animation, physics, rendering, editor tooling, scripting, audio, networking, deterministic world generation, voxel systems and asset pipelines |\n| 2195 | 2195 | Adds 10 NEXORA-scale Rust engineering workflows; validation and review required |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
