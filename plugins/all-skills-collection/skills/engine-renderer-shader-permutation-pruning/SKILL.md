@@ -5,6 +5,10 @@ description: "Define and validate the invariants, lifecycle behavior, compatibil
 
 # Renderer Shader Permutation Pruning
 
+## Purpose
+
+Define and validate the invariants, lifecycle behavior, compatibility rules and regression coverage for renderer shader permutation pruning.
+
 ## Goal
 
 Define and validate the invariants, lifecycle behavior, compatibility rules and regression coverage for renderer shader permutation pruning.
@@ -13,7 +17,7 @@ Define and validate the invariants, lifecycle behavior, compatibility rules and 
 
 Use when renderer shader permutation pruning must be implemented, audited, debugged or made reliable across supported engine configurations.
 
-## Inputs to inspect
+## Required inputs
 
 Inspect implementation, owning subsystem interfaces, configuration and version metadata, relevant logs or traces, target platforms, and existing regression fixtures. Identify the source of truth before proposing a change.
 
@@ -41,3 +45,8 @@ An evidence-backed assessment of **Renderer Shader Permutation Pruning**, the re
 ## Boundaries and failure handling
 
 Do not apply broad refactors or destructive migrations without a baseline and rollback path. Do not claim tests, benchmarks or runtime checks passed unless their outputs were observed. If repository evidence is incomplete, state exactly what is missing and avoid presenting an assumption as verified fact.
+
+## Trigger examples
+
+- **Positive:** The engine task involves renderer shader permutation pruning and needs validation of lifecycle, compatibility or correctness.
+- **Negative:** The request is unrelated to engine implementation or asks for unsupported claims without repository evidence.

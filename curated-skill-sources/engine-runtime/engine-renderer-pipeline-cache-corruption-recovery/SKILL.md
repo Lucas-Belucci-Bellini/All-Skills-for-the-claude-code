@@ -5,6 +5,10 @@ description: "Define and validate the invariants, lifecycle behavior, compatibil
 
 # Pipeline Cache Corruption Recovery
 
+## Purpose
+
+Define and validate the invariants, lifecycle behavior, compatibility rules and regression coverage for pipeline cache corruption recovery.
+
 ## Goal
 
 Define and validate the invariants, lifecycle behavior, compatibility rules and regression coverage for pipeline cache corruption recovery.
@@ -13,7 +17,7 @@ Define and validate the invariants, lifecycle behavior, compatibility rules and 
 
 Use when pipeline cache corruption recovery must be implemented, audited, debugged or made reliable across supported engine configurations.
 
-## Inputs to inspect
+## Required inputs
 
 Inspect implementation, owning subsystem interfaces, configuration and version metadata, relevant logs or traces, target platforms, and existing regression fixtures. Identify the source of truth before proposing a change.
 
@@ -41,3 +45,8 @@ An evidence-backed assessment of **Pipeline Cache Corruption Recovery**, the rel
 ## Boundaries and failure handling
 
 Do not apply broad refactors or destructive migrations without a baseline and rollback path. Do not claim tests, benchmarks or runtime checks passed unless their outputs were observed. If repository evidence is incomplete, state exactly what is missing and avoid presenting an assumption as verified fact.
+
+## Trigger examples
+
+- **Positive:** The engine task involves pipeline cache corruption recovery and needs validation of lifecycle, compatibility or correctness.
+- **Negative:** The request is unrelated to engine implementation or asks for unsupported claims without repository evidence.

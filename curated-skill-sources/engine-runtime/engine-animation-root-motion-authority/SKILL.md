@@ -5,6 +5,10 @@ description: "Define and validate the invariants, lifecycle behavior, compatibil
 
 # Animation Root-Motion Authority
 
+## Purpose
+
+Define and validate the invariants, lifecycle behavior, compatibility rules and regression coverage for animation root-motion authority.
+
 ## Goal
 
 Define and validate the invariants, lifecycle behavior, compatibility rules and regression coverage for animation root-motion authority.
@@ -13,7 +17,7 @@ Define and validate the invariants, lifecycle behavior, compatibility rules and 
 
 Use when animation root-motion authority must be implemented, audited, debugged or made reliable across supported engine configurations.
 
-## Inputs to inspect
+## Required inputs
 
 Inspect implementation, owning subsystem interfaces, configuration and version metadata, relevant logs or traces, target platforms, and existing regression fixtures. Identify the source of truth before proposing a change.
 
@@ -41,3 +45,8 @@ An evidence-backed assessment of **Animation Root-Motion Authority**, the releva
 ## Boundaries and failure handling
 
 Do not apply broad refactors or destructive migrations without a baseline and rollback path. Do not claim tests, benchmarks or runtime checks passed unless their outputs were observed. If repository evidence is incomplete, state exactly what is missing and avoid presenting an assumption as verified fact.
+
+## Trigger examples
+
+- **Positive:** The engine task involves animation root-motion authority and needs validation of lifecycle, compatibility or correctness.
+- **Negative:** The request is unrelated to engine implementation or asks for unsupported claims without repository evidence.
