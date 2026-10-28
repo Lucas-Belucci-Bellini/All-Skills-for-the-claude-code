@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "batch_size": 25,
+  "milestone_total": 2110,
+  "long_term_target": 2500,
+  "authored_count": 1949,
+  "retained_count": 161,
+  "plugin_version": "2.1.19",
+  "skills": [
+    {
+      "name": "tex-pbr-material-channel-audit",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-pbr-material-channel-audit/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-albedo-color-space-validation",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-albedo-color-space-validation/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-normal-map-tangent-space-validation",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-normal-map-tangent-space-validation/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-roughness-metallic-range-validation",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-roughness-metallic-range-validation/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-seamless-tileability-review",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-seamless-tileability-review/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-triplanar-projection-artifact-diagnosis",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-triplanar-projection-artifact-diagnosis/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-voxel-atlas-padding-validation",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-voxel-atlas-padding-validation/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-pixel-art-palette-budget-audit",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-pixel-art-palette-budget-audit/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-texel-density-consistency-audit",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-texel-density-consistency-audit/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-mipmap-shimmering-diagnosis",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-mipmap-shimmering-diagnosis/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-texture-compression-budget-planning",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-texture-compression-budget-planning/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-material-variant-naming-contract",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-material-variant-naming-contract/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-procedural-noise-scale-calibration",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-procedural-noise-scale-calibration/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-blender-bake-cage-validation",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-blender-bake-cage-validation/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-uv-island-padding-validation",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-uv-island-padding-validation/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-alpha-cutout-fringe-diagnosis",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-alpha-cutout-fringe-diagnosis/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-height-to-normal-conversion-review",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-height-to-normal-conversion-review/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-world-space-material-blending",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-world-space-material-blending/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-distance-field-texture-validation",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-distance-field-texture-validation/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-biome-material-transition-audit",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-biome-material-transition-audit/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-atlas-sprite-bleed-test",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-atlas-sprite-bleed-test/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-ambient-occlusion-map-consistency",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-ambient-occlusion-map-consistency/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-material-import-preset-validation",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-material-import-preset-validation/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-texture-license-provenance-audit",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-texture-license-provenance-audit/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    },
+    {
+      "name": "tex-nexora-voxel-material-integration",
+      "source_path": "curated-skill-sources/texture-material-pipeline/tex-nexora-voxel-material-integration/SKILL.md",
+      "category": "Curated: texture-material-pipeline"
+    }
+  ]
+}
