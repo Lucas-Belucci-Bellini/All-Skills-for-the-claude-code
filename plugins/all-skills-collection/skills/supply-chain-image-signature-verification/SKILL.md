@@ -1,47 +1,46 @@
 ---
 name: supply-chain-image-signature-verification
-description: "Validate supply chain image signature verification, including boundary cases, evidence capture, and safe failure handling."
+description: Verify signatures and identity claims for OCI container images by immutable digest before deployment, including registry trust, signer identity, and attestation policy.
 ---
 
 # Supply Chain Image Signature Verification
 
 ## Purpose
 
-Make supply chain image signature verification explicit, testable, and auditable instead of relying on undocumented assumptions. Establish the intended invariant, identify the affected boundary, and produce evidence another engineer can reproduce.
+Determine whether an OCI image digest has a valid signature from an approved builder or publisher and whether its identity claims satisfy deployment policy. Focus on image manifests, registry references, signatures, and attestations—not the cryptographic signature attached to a Git commit.
 
 ## Required inputs
 
-CI workflow files, dependency manifests and lockfiles, build metadata, artifact digests, and security scan evidence. Focus this review on supply chain image signature verification and record applicable runtime, version, identity, and ownership constraints.
+Registry and image reference; immutable image digest; expected publisher or workload identity; signature-verification tool and version; trust roots and policy configuration; required provenance/SBOM attestations; and the deployment gate where verification must occur.
 
 ## Workflow
 
-1. Locate the authoritative implementation, configuration, data contract, owner, and version boundary for supply chain image signature verification; distinguish local assumptions from platform guarantees.
-2. Write the acceptance invariant and the conditions that make it false. Record the expected result, permitted actors, resource boundaries, and failure budget before changing anything.
-3. Build a minimal reproducible fixture covering a compliant build, a deliberately noncompliant fixture, and an unavailable or stale evidence source. Keep test data synthetic or sanitized, and make event ordering and expected results explicit.
-4. Run supported automated tests and static checks. When execution is unavailable, document the exact command/assertion to run and mark it pending rather than claiming it passed.
-5. Compare observed evidence against the invariant using revision-pinned scan reports, workflow permissions, component inventories, artifact digests, and attestation results. Separate confirmed failures, likely causes, false positives, and missing evidence.
-6. Propose the smallest corrective change, add a regression test, and document the impact, recovery/rollback path, owner, and any time-bounded exception.
-7. Re-run relevant checks and produce the required output with pass/fail/pending status, evidence references, and residual risks.
+1. Resolve the candidate image tag to an immutable registry digest and record registry, repository, digest, platform/manifests, and retrieval time. Do not base the final decision on a mutable tag alone.
+2. Identify the accepted signing system and trusted identity policy. Pin the expected issuer, certificate identity or key fingerprint, repository/workflow constraints, and permitted builder identities.
+3. Verify the signature against the exact digest using the organization's supported tooling. Record the tool/version, policy file revision, verification command, and complete sanitized result.
+4. Test negative fixtures: unsigned digest, signature for a different digest, untrusted signer, mismatched issuer/identity, expired or revoked trust material, and missing required attestation. Ensure each fails closed.
+5. Validate required provenance or SBOM attestations independently from the image signature. Confirm the attestation subject matches the same digest and the source/build claims satisfy policy.
+6. Exercise the deployment gate using the same digest that will be deployed. Confirm a tag update between verification and deployment cannot substitute a different image, and verify behavior when the registry or verification service is unavailable.
+7. Produce an admission decision with the digest, signer identity, attestation findings, policy revision, verification evidence, and explicit pass/fail/pending status.
 
 ## Validation checklist
 
-- [ ] The authoritative source, environment, owner, and relevant version are identified.
-- [ ] Expected behavior and a concrete failure condition for supply chain image signature verification are documented.
-- [ ] Positive, negative, and boundary/failure cases are reproducible without unnecessary production access.
-- [ ] Assertions distinguish a pass from a skipped, flaky, stale, or unavailable check.
-- [ ] Diagnostics are useful and sanitized; secrets and unrelated user data are excluded.
-- [ ] Any remediation has a regression check and recovery/rollback or exception-expiry plan.
-- [ ] The report names evidence, unresolved questions, and the next accountable action.
+- [ ] Verification is bound to an immutable OCI digest, not only a mutable tag.
+- [ ] Signature validity and signer/issuer authorization are checked separately.
+- [ ] Wrong-digest, unsigned, untrusted-identity, and missing-attestation fixtures fail closed.
+- [ ] Required provenance/SBOM attestations refer to the exact verified digest.
+- [ ] The deployment gate verifies the same digest that will actually run.
+- [ ] Registry or verifier outages do not silently bypass mandatory verification.
 
 ## Required output
 
-Produce a supply-chain evidence report with severity, affected revision/artifact, verification references, owner, and bounded remediation. Include a concise decision marked PASS, FAIL, or PENDING; exact evidence paths or command output references; observed versus expected behavior; and an owner/date for unresolved issues.
+An image admission record with registry, image digest, signer identity, trust-policy revision, attestation status, verifier/version, evidence links, pass/fail/pending result, and deployment decision.
 
 ## Boundaries and failure handling
 
-Do not treat a scanner score as security certification. Do not publish artifacts, delete dependencies, weaken branch protection, or change credentials automatically. Record evidence age and exception expiry. If scanner data is stale or incomplete, mark the control unknown; do not convert missing evidence into a passing score.
+Do not infer that an image is trustworthy because its source commit was signed. Do not allow a mutable tag or registry fallback to replace the verified digest. If the verification service is unavailable, follow the documented fail-closed or approved exception process and record the decision.
 
 ## Trigger examples
 
-- **Positive:** A release or dependency review needs current evidence about an identified software supply-chain control.
-- **Negative:** One aggregate score is being presented as proof that a repository or release is risk-free.
+- **Positive:** A deployment pipeline must prove that the exact OCI image digest was published by an approved builder and has the required provenance.
+- **Negative:** A request asks whether a Git commit itself has a valid signature, regardless of any built artifact.
