@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
+import { pathToFileURL } from "node:url";
 
 const isObject = (v) => v !== null && typeof v === "object" && !Array.isArray(v);
 const nonEmpty = (v) => typeof v === "string" && v.trim().length > 0;
@@ -134,4 +135,6 @@ function selfTest() {
   console.log("Draft spec validator self-test passed (required fields, TODO detection, evidence pointers, line bounds, duplicate IDs, and no-approval guardrails).");
 }
 
-main().catch((error) => { console.error(error.message); process.exitCode = 1; });
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => { console.error(error.message); process.exitCode = 1; });
+}
