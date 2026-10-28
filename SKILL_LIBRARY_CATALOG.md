@@ -551,6 +551,12 @@ Updated: 2026-10-17. The catalog contains 1509 distinct skills; generated bundle
 - unity-game-dev
 - unreal-game-dev
 - verifying-turn-based-games
+- designing-game-progression
+- implementing-game-ai-state-machines
+- scoping-playable-prototypes
+- structuring-gameplay-playtests
+- validating-game-core-loops
+- validating-game-economy-loops
 - designing-game-combat-resolution
 - testing-procedural-gameplay-encounters
 - validating-game-movement-feel
