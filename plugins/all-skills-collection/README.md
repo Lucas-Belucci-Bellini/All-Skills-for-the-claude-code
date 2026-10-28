@@ -1,6 +1,6 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **1545 distinct skills**, with authored workflows across software reliability, geospatial intelligence, AERIS-10 radar/embedded testing, Flipper Zero firmware, live public-data pipelines, realtime agents, privacy-aware device engineering, and multi-agent orchestration runtime controls. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
+A generated plugin containing **1550 distinct skills**, with authored workflows across software reliability, geospatial intelligence, AERIS-10 radar/embedded testing, Flipper Zero firmware, live public-data pipelines, realtime agents, privacy-aware device engineering, and multi-agent orchestration runtime controls. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
@@ -34,3 +34,8 @@ This bundle includes skill entrypoints and skill-local files. It does not automa
 ## Engine creation workflows
 
 The current draft adds five engine-runtime skills for render-graph hazard analysis, plugin ABI compatibility, deterministic replay debugging, platform capability matrices, and save-format migration. Run the repository sync and batch validators before treating this milestone as verified.
+
+
+## Engine authoring and runtime workflows
+
+The 1,550 draft adds five skills for ECS query-plan audits, editor undo/redo transactions, scene-graph transform invariants, audio mixer latency budgets, and input-device hot-plug contracts. Run batch validation and plugin discovery checks before release.

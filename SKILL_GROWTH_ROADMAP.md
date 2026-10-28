@@ -1,10 +1,10 @@
 # Roadmap to 25,000 canonical distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 1,545 distinct skills (1,419 authored + 126 retained/imported)
+**Current draft inventory:** 1,550 distinct skills (1,424 authored + 126 retained/imported)
 **Long-term planning target:** 25,000 distinct skills
-**Remaining to long-term target:** 23,455
-**Current milestone:** +25 skills from 1,500 to 1,525 on `feat/skills-expansion-1525-agent-orchestration-2026`
+**Remaining to long-term target:** 23,450
+**Current milestone:** +5 engine-creation skills from 1,545 to 1,550 on `feat/engine-creation-skills-batch-1550-2026`
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
 > **Strategic target supersession (2026-10-27):** the 2,500-skill ceiling below is a historical planning milestone for the original collection. The proposed portfolio-wide destination is now 25,000 canonical skills with a 150-role specialist-agent architecture. See [the new strategy](docs/roadmaps/REA_INSPIRED_25000_SKILLS_150_AGENTS.md). The source-sync inventory and the long-range target are separate figures; the target does not mean 25,000 skills already exist.
@@ -29,6 +29,8 @@ The 2,500 figure is now an intermediate checkpoint inside the portfolio-wide 25,
 | 1500 | 1500 | Draft stack adds 100 ProjectE EMC workflow skills (40/25/20/15) and 150 multi-agent skill infrastructure/lifecycle skills; runtime, sync, CI and editorial review remain pending |
 | 1525 | 1525 | Adds 25 agent orchestration runtime workflows for state transitions, fan-out reconciliation, delegation guards, independent review, compensation, deadlines, shared-state conflicts, readiness, quorum, liveness, and execution evidence; structural, CI, runtime and provenance review remain required |
 | 1540 | 1540 | Adds 15 repository-to-skill synthesis workflows with curated sources and identical plugin/bundle copies; semantic review and runtime validation remain required |
+| 1545 | 1545 | Adds five engine workflows for render graph hazards, plugin ABI, deterministic replay, platform capability, and save migration; semantic review and CI remain required |
+| 1550 | 1550 | Adds five engine workflows for ECS query safety, editor undo/redo transactions, scene transform invariants, audio latency budgets, and input-device hot-plug; semantic review and CI remain required |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 1,525–1,750 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 1,525–2,000 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -92,3 +94,8 @@ These skill documents define procedures and acceptance checks; they do not imple
 ## 1,545 milestone — Engine creation and platform correctness
 
 Adds five original engine-creation workflows: render-graph hazard analysis, plugin ABI compatibility, deterministic replay debugging, platform capability matrices, and save-format migration. Source and bundle mirrors are included. Catalog/manifest updates are draft branch changes; sync CI, semantic overlap review, and runtime discovery remain to be observed.
+
+
+## 1,550 milestone — Engine authoring and runtime systems
+
+Adds five original workflows covering ECS query access, editor undo/redo transactions, scene-graph transform invariants, audio mixer latency, and input-device hot-plug behavior. The new branch is stacked on the 1,545 engine batch. Treat inventory counts as draft until validation, semantic review, plugin discovery, and CI are green.

@@ -1,11 +1,11 @@
 # Curated Skill Sources
 
-Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The current 1,525-skill draft contains **1,399 original skills** and 126 retained/imported entries.
+Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The current 1,550-skill draft contains **1,424 original skills** and 126 retained/imported entries.
 
 - `agent-tooling/`: agent request contracts, provider adapters, Skill Broker access, MCP configuration, permissions, connection checks, orchestration state, fan-out reconciliation, delegation guards, and recovery workflows.
 - `developer-cli-tooling/`: CLI behavior contracts, portable environments, and deterministic command workflows.
 - `documentation-knowledge-systems/`: documentation correctness, traceability, examples, and operational runbooks.
-- `engine-runtime/`: engine architecture, resource lifecycle, rendering, deterministic simulation, plugin ABI compatibility, platform capability matrices, save-format migration, and performance.
+- `engine-runtime/`: engine architecture, resource lifecycle, rendering, deterministic simulation, plugin ABI compatibility, platform capability matrices, save-format migration, ECS query safety, editor transactions, scene transforms, audio latency, input-device lifecycle, and performance.
 - `simulation-world/`: NPC state, memory, economies, civilization, and event history.
 - `minecraft-modded-environments/`: 50 general modpack diagnostic workflows, 25 cross-mod interaction investigations, and 25 individual-mod bug investigations for modified Minecraft packs.
 - `release-testing-operations/`: artifact provenance, API/database contracts, event flows, architecture maps, and CI optimization.
