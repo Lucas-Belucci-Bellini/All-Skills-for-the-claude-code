@@ -162,3 +162,8 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 - [implementing-incremental-code-changes](.agents/skills/implementing-incremental-code-changes/SKILL.md) — 変更範囲を明確にし、小さくレビュー可能な単位で実装・検証する。
 - [debugging-with-minimal-reproduction](.agents/skills/debugging-with-minimal-reproduction/SKILL.md) — 再現可能な証拠と検証可能な仮説を使って不具合を切り分ける。
 - [refactoring-with-characterization-tests](.agents/skills/refactoring-with-characterization-tests/SKILL.md) — 観測可能な動作を守りながら内部構造を改善する。
+
+- [unit-testing-strategy](.agents/skills/unit-testing-strategy/SKILL.md) — 観測可能な動作と重要な境界条件に基づき、決定的な単体テストを設計する。
+- [secure-coding-practices](.agents/skills/secure-coding-practices/SKILL.md) — 入力、認証、データ、ファイル、ネットワーク境界で安全な既定値を適用する。
+- [systematic-code-review](.agents/skills/systematic-code-review/SKILL.md) — 差分を根拠に重大な不具合を確認し、実行可能な指摘をまとめる。
+- [designing-stable-api-contracts](.agents/skills/designing-stable-api-contracts/SKILL.md) — 予測可能で安全、かつ進化可能なサービスインターフェースを定義する。
