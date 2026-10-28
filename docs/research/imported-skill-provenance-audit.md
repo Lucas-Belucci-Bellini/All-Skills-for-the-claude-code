@@ -200,3 +200,5 @@ The imported row for `claude-security` remains Pending.
 ## Content-path parity check
 
 A Git-tree SHA comparison found that all **155** imported entries with a non-bundle candidate `SKILL.md` have a byte-identical plugin bundle copy. The six names with multiple candidate paths also have matching hashes across all their candidate copies. The remaining six entries are bundle-only and still need their original source/revision identified. This verifies local copy parity, **not** upstream authorship or redistribution permission.
+
+**Baseline note:** `claude-security` is already present in the repository's current `main` branch and is marked `origin: existing`; this consolidation PR does not introduce that skill or its license. The finding is a pre-existing repository-level restriction that must be resolved before any public redistribution of the combined plugin. Keep the distinction between a private internal merge and publishing/distributing the package explicit in the final decision.
