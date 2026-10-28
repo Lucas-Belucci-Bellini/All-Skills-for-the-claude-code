@@ -1,9 +1,9 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,000 distinct skills (1,874 authored + 126 retained/imported)
+**Current draft inventory:** 2,085 distinct skills (1,924 authored + 161 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 500
+**Remaining to long-term target:** 415
 **Current milestone:** +250 skills from 1,750 to 2,000 on `feat/skills-expansion-2000-simulation-worlds-2026` (issue #47; draft branch only)
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
@@ -27,6 +27,7 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 1500 | 1500 | Draft stack adds 100 ProjectE EMC workflow skills (40/25/20/15) and 150 multi-agent skill infrastructure/lifecycle skills; runtime, sync, CI and editorial review remain pending |
 | 1750 | 1750 | Draft stack adds 50 Engine architecture/runtime, 50 Rust/platform, 50 release/repository quality, and 25 each Supabase/PostgreSQL, Vercel AI SDK, accessibility, and technical documentation skills; semantic review, sync, CI and provenance checks remain pending |
 | 2000 | 2000 | Draft stack adds 50 simulation/NPC/world-history, 50 game content/save systems, 50 networked-games/determinism, and 25 each geospatial UX, live public-data reliability, provenance/privacy/ethics and OpenTelemetry Collector observability; sync, CI, semantic review and provenance checks remain pending |
+| 2085 | 2085 | Adds 25 agent-tooling skills for orchestration state, delegation safety, reconciliation and lifecycle reliability; pending complete generated-artifact review |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
