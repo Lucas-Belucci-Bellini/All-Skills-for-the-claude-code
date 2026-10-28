@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27",
-  "unique_skills": 1540,
+  "updated_at": "2026-10-28",
+  "unique_skills": 1545,
   "target": 25000,
-  "remaining": 23460,
+  "remaining": 23455,
   "skills": [
     {
       "name": "accessible-data-table-navigation-audit",
@@ -2212,6 +2212,36 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/worldgen-feature-overlap-validation/SKILL.md"
+    },
+    {
+      "name": "engine-deterministic-replay-debugging",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-deterministic-replay-debugging/SKILL.md"
+    },
+    {
+      "name": "engine-platform-capability-matrix",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-platform-capability-matrix/SKILL.md"
+    },
+    {
+      "name": "engine-plugin-abi-compatibility",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-plugin-abi-compatibility/SKILL.md"
+    },
+    {
+      "name": "engine-render-graph-hazard-analysis",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-render-graph-hazard-analysis/SKILL.md"
+    },
+    {
+      "name": "engine-save-format-migration",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-save-format-migration/SKILL.md"
     },
     {
       "name": "flipper-adc-measurement-unit-contract",

@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-27. The unified bundle contains 1540 distinct skills.
+Updated: 2026-10-27. The unified bundle contains 1545 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **1414**
-- Current total: **1540**
+- Original curated skills: **1419**
+- Current total: **1545**
 - Long-term planning target: **25,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **23,460**
+- Remaining to long-term target: **23,455**
 
 ## Categories
 
@@ -301,7 +301,7 @@ Updated: 2026-10-27. The unified bundle contains 1540 distinct skills.
 - runbook-command-risk-review — NEW
 - technical-example-executability-audit — NEW
 
-### Engine architecture & runtime (100)
+### Engine architecture & runtime (105)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -321,6 +321,7 @@ Updated: 2026-10-27. The unified bundle contains 1540 distinct skills.
 - engine-debug-draw-observability — NEW
 - engine-deferred-work-staleness-budget — NEW
 - engine-dependency-wait-graph — NEW
+- engine-deterministic-replay-debugging — NEW
 - engine-fixed-timestep-simulation — NEW
 - engine-frame-pacing-jitter — NEW
 - engine-frame-time-budget — NEW
@@ -333,9 +334,12 @@ Updated: 2026-10-27. The unified bundle contains 1540 distinct skills.
 - engine-memory-fragmentation-audit — NEW
 - engine-memory-pressure-response — NEW
 - engine-performance-benchmarking — NEW
+- engine-platform-capability-matrix — NEW
+- engine-plugin-abi-compatibility — NEW
 - engine-plugin-boundaries — NEW
 - engine-plugin-shutdown-contract — NEW
 - engine-render-feature-matrix — NEW
+- engine-render-graph-hazard-analysis — NEW
 - engine-render-resource-lifetime — NEW
 - engine-resource-budget-overcommit-detection — NEW
 - engine-resource-hot-reload-atomicity — NEW
@@ -346,6 +350,7 @@ Updated: 2026-10-27. The unified bundle contains 1540 distinct skills.
 - engine-runtime-fault-injection-matrix — NEW
 - engine-runtime-stall-classification — NEW
 - engine-runtime-telemetry-taxonomy — NEW
+- engine-save-format-migration — NEW
 - engine-scheduler-deadline-budget — NEW
 - engine-shutdown-deadline-budget — NEW
 - engine-span-correlation-validation — NEW
@@ -403,7 +408,6 @@ Updated: 2026-10-27. The unified bundle contains 1540 distinct skills.
 - worldgen-coordinate-hash-stability — NEW
 - worldgen-deterministic-seed-contract — NEW
 - worldgen-feature-overlap-validation — NEW
-
 ### Flipper Zero firmware and hardware engineering (125)
 
 - flipper-adc-measurement-unit-contract — NEW

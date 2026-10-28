@@ -5,7 +5,7 @@ Original skills authored for this library are organized by domain below. Each sk
 - `agent-tooling/`: agent request contracts, provider adapters, Skill Broker access, MCP configuration, permissions, connection checks, orchestration state, fan-out reconciliation, delegation guards, and recovery workflows.
 - `developer-cli-tooling/`: CLI behavior contracts, portable environments, and deterministic command workflows.
 - `documentation-knowledge-systems/`: documentation correctness, traceability, examples, and operational runbooks.
-- `engine-runtime/`: engine architecture, resource lifecycle, rendering, deterministic simulation, and performance.
+- `engine-runtime/`: engine architecture, resource lifecycle, rendering, deterministic simulation, plugin ABI compatibility, platform capability matrices, save-format migration, and performance.
 - `simulation-world/`: NPC state, memory, economies, civilization, and event history.
 - `minecraft-modded-environments/`: 50 general modpack diagnostic workflows, 25 cross-mod interaction investigations, and 25 individual-mod bug investigations for modified Minecraft packs.
 - `release-testing-operations/`: artifact provenance, API/database contracts, event flows, architecture maps, and CI optimization.
