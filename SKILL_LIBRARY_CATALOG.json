@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-28",
-  "unique_skills": 2185,
+  "unique_skills": 2195,
   "target": 2500,
-  "remaining": 315,
+  "remaining": 305,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -10237,10 +10237,64 @@
       "source_path": null
     },
     {
+      "name": "async-task-cancellation-contract",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/async-task-cancellation-contract/SKILL.md"
+    },
+    {
+      "name": "ecs-system-order-determinism",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/ecs-system-order-determinism/SKILL.md"
+    },
+    {
+      "name": "engine-config-schema-migration",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-config-schema-migration/SKILL.md"
+    },
+    {
+      "name": "engine-plugin-api-version-gate",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-plugin-api-version-gate/SKILL.md"
+    },
+    {
+      "name": "engine-resource-lifetime-ledger",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-resource-lifetime-ledger/SKILL.md"
+    },
+    {
+      "name": "engine-runtime-budget-enforcement",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-runtime-budget-enforcement/SKILL.md"
+    },
+    {
+      "name": "engine-startup-shutdown-order-audit",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-startup-shutdown-order-audit/SKILL.md"
+    },
+    {
       "name": "native-wasm-behavior-parity",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/rust-platform-engineering/native-wasm-behavior-parity/SKILL.md"
+    },
+    {
+      "name": "nexora-crate-boundary-audit",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/nexora-crate-boundary-audit/SKILL.md"
+    },
+    {
+      "name": "plugin-capability-permission-manifest",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/plugin-capability-permission-manifest/SKILL.md"
     },
     {
       "name": "rust-allocation-hotspot-benchmark",
@@ -10499,6 +10553,12 @@
       "category": "Rust & platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-feature-flag-compilation-matrix/SKILL.md"
+    },
+    {
+      "name": "rust-feature-matrix-contract",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-feature-matrix-contract/SKILL.md"
     },
     {
       "name": "rust-ffi-buffer-ownership-contract",

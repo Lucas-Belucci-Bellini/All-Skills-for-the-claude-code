@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-28. The unified bundle contains 2185 distinct skills.
+Updated: 2026-10-28. The unified bundle contains 2195 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **161**
-- Original curated skills: **2024**
-- Current total: **2185**
+- Original curated skills: **2034**
+- Current total: **2195**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **315**
+- Remaining to long-term target: **305**
 
 ## Categories
 
@@ -1801,9 +1801,18 @@ Updated: 2026-10-28. The unified bundle contains 2185 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (89)
+### Rust & platform engineering (99)
 
+- async-task-cancellation-contract — NEW
+- ecs-system-order-determinism — NEW
+- engine-config-schema-migration — NEW
+- engine-plugin-api-version-gate — NEW
+- engine-resource-lifetime-ledger — NEW
+- engine-runtime-budget-enforcement — NEW
+- engine-startup-shutdown-order-audit — NEW
 - native-wasm-behavior-parity — NEW
+- nexora-crate-boundary-audit — NEW
+- plugin-capability-permission-manifest — NEW
 - rust-allocation-hotspot-benchmark — NEW
 - rust-allocator-contention-analysis — NEW
 - rust-allocator-memory-profiling — NEW
@@ -1847,6 +1856,7 @@ Updated: 2026-10-28. The unified bundle contains 2185 distinct skills.
 - rust-error-taxonomy-stability-audit — NEW
 - rust-feature-configuration-smoke-matrix — NEW
 - rust-feature-flag-compilation-matrix — NEW
+- rust-feature-matrix-contract — NEW
 - rust-ffi-buffer-ownership-contract — NEW
 - rust-ffi-panic-boundary-protection — NEW
 - rust-ffi-resource-ownership — NEW

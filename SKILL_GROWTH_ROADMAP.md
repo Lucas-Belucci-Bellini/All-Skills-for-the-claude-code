@@ -1,9 +1,9 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,185 distinct skills (2,024 authored + 161 retained/imported)
+**Current draft inventory:** 2,195 distinct skills (2,034 authored + 161 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 315
+**Remaining to long-term target:** 305
 **Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,185-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
@@ -135,3 +135,8 @@ Base branch: `feat/skills-expansion-1750-cross-domain-2026`. PR creation and mer
 - Keep canonical source and plugin copy byte-identical; update the catalog and manifest in the same change set.
 - Check exact and semantic duplicates against the current inventory before adding a batch.
 - Validate each batch with the repository's sync/validation scripts and GitHub Actions. Keep all work on a feature branch; do not merge into `main` without explicit approval.
+
+
+## Batch 2,195 — NEXORA-scale Rust architecture (2026-10-28)
+
+Added 10 implementation-oriented workflows for crate boundaries, feature matrices, ECS scheduling, plugin API compatibility and capabilities, lifecycle ordering, configuration migrations, runtime budgets, async cancellation, and resource lifetime tracking. They target NEXORA and similarly large Rust projects without assuming unverified infrastructure exists.

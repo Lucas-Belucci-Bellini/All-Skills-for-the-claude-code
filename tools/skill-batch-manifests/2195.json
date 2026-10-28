@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2195,
+  "long_term_target": 2500,
+  "authored_count": 2034,
+  "retained_count": 161,
+  "plugin_version": "2.1.20",
+  "skills": [
+    {
+      "name": "nexora-crate-boundary-audit",
+      "source_path": "curated-skill-sources/rust-platform-engineering/nexora-crate-boundary-audit/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "rust-feature-matrix-contract",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-feature-matrix-contract/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "ecs-system-order-determinism",
+      "source_path": "curated-skill-sources/rust-platform-engineering/ecs-system-order-determinism/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "engine-plugin-api-version-gate",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-plugin-api-version-gate/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "plugin-capability-permission-manifest",
+      "source_path": "curated-skill-sources/rust-platform-engineering/plugin-capability-permission-manifest/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "engine-startup-shutdown-order-audit",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-startup-shutdown-order-audit/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "engine-config-schema-migration",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-config-schema-migration/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "engine-runtime-budget-enforcement",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-runtime-budget-enforcement/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "async-task-cancellation-contract",
+      "source_path": "curated-skill-sources/rust-platform-engineering/async-task-cancellation-contract/SKILL.md",
+      "category": "Rust & platform engineering"
+    },
+    {
+      "name": "engine-resource-lifetime-ledger",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-resource-lifetime-ledger/SKILL.md",
+      "category": "Rust & platform engineering"
+    }
+  ]
+}
