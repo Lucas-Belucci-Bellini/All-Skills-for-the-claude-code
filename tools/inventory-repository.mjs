@@ -43,7 +43,7 @@ export async function inventoryRepository(rootPath, excludedOutput = null) {
       const relative = path.relative(root, absolute).split(path.sep).join("/");
       if (outputReal && path.resolve(absolute) === outputReal) continue;
       if (entry.isDirectory()) {
-        if (!SKIP_DIRS.has(entry.name) && !entry.name.startsWith(".") || entry.name === ".github") {
+        if (!SKIP_DIRS.has(entry.name)) {
           await visit(absolute);
         }
         continue;
@@ -125,7 +125,7 @@ async function main(args) {
   }
   try {
     const result = await inventoryRepository(root, output);
-    const json = JSON.stringify(result, null, 2) + "\\n";
+    const json = JSON.stringify(result, null, 2) + "\n";
     if (output) await fs.writeFile(path.resolve(output), json, "utf8");
     else process.stdout.write(json);
     console.error(`Inventory complete: ${result.summary.file_count} files, ${result.summary.total_bytes} bytes; structural metadata only.`);
