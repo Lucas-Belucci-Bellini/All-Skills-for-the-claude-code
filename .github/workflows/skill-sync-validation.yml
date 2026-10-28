@@ -25,6 +25,7 @@ on:
       - feat/repository-draft-spec-preflight-2026
       - feat/repository-draft-candidate-handoff-2026
       - feat/repository-draft-candidate-preparation-2026
+      - feat/repository-candidate-preassembly-audit-2026
   workflow_dispatch:
 
 permissions:
@@ -57,6 +58,7 @@ jobs:
           node --check tools/preflight-repository-skill-draft-for-candidate.mjs
           node --check tools/validate-repository-draft-candidate-handoff.mjs
           node --check tools/prepare-repository-draft-candidate-spec.mjs
+          node --check tools/audit-repository-candidate-preassembly.mjs
 
       - name: Self-test repository-to-skill candidate gate
         run: node tools/validate-repository-skill-candidate.mjs --self-test
@@ -90,6 +92,9 @@ jobs:
 
       - name: Self-test draft candidate assembly preparation
         run: node tools/prepare-repository-draft-candidate-spec.mjs --self-test
+
+      - name: Self-test repository candidate preassembly audit
+        run: node tools/audit-repository-candidate-preassembly.mjs --self-test
 
       - name: Generate bundle and verify idempotence
         shell: bash
