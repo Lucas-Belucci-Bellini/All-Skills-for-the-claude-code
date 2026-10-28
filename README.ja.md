@@ -176,3 +176,12 @@ GitHub 公開後、Claude Code では `abagames/agentic-gamedev-skills` を mark
 - [sql-query-performance](.agents/skills/sql-query-performance/SKILL.md) — 実行計画と測定結果に基づいてクエリを最適化する。
 - [async-concurrency-patterns](.agents/skills/async-concurrency-patterns/SKILL.md) — 非同期処理の上限、キャンセル、再試行、エラーを定義する。
 - [race-condition-detection](.agents/skills/race-condition-detection/SKILL.md) — 共有状態を分析し、競合する実行順序を検証する。
+
+- [git-branching-and-change-management](.agents/skills/git-branching-and-change-management/SKILL.md) — 変更を分離し、レビューしやすいコミットと安全な統合を行う。
+- [resolving-merge-conflicts-safely](.agents/skills/resolving-merge-conflicts-safely/SKILL.md) — 意図を保ちながら競合を解決し、動作を検証する。
+- [continuous-integration-pipeline-design](.agents/skills/continuous-integration-pipeline-design/SKILL.md) — 最小権限で信頼できる CI チェックを設計する。
+- [static-analysis-and-linting](.agents/skills/static-analysis-and-linting/SKILL.md) — 静的チェックを統一し、警告ベースラインを管理する。
+- [release-versioning-and-changelog](.agents/skills/release-versioning-and-changelog/SKILL.md) — 追跡可能なリリースと利用者向け変更履歴を準備する。
+- [application-observability](.agents/skills/application-observability/SKILL.md) — ログ、メトリクス、トレース、アラート、ヘルス信号を整備する。
+- [reliable-error-handling](.agents/skills/reliable-error-handling/SKILL.md) — エラー契約、安全な復旧、上限付き再試行を定義する。
+- [configuration-and-secret-management](.agents/skills/configuration-and-secret-management/SKILL.md) — 環境ごとの設定を検証し、シークレットを保護する。
