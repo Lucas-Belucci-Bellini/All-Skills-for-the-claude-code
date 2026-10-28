@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
+Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 
 ## Inventory summary
 
-- Existing/imported skills retained: **126**
-- Original curated skills: **1874**
-- Current total: **2000**
+- Existing/imported skills retained: **161**
+- Original curated skills: **1924**
+- Current total: **2085**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **500**
+- Remaining to long-term target: **415**
 
 ## Categories
 
@@ -126,10 +126,9 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - radar-vg-dac-range-and-limit-validation — NEW
 - radar-waveguide-geometry-parametric-validation — NEW
 
-### Agent workflows, Claude Code & MCP (28)
+### Agent workflows, Claude Code & MCP (27)
 
 - agent-development
-- agent-workspace-isolation — NEW
 - build-mcp-app
 - build-mcp-server
 - build-mcpb
@@ -157,8 +156,9 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - skill-development
 - writing-rules
 
-### Claude Code setup & MCP (99)
+### Claude Code setup & MCP (125)
 
+- agent-action-prepare-commit-guard — NEW
 - agent-adapter-agent-version-fingerprint — NEW
 - agent-adapter-authn-capability-discovery — NEW
 - agent-adapter-chatgpt-mcp-connection-preflight — NEW
@@ -179,10 +179,31 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - agent-adapter-tool-permission-mapping — NEW
 - agent-adapter-unsupported-feature-report — NEW
 - agent-adapter-write-approval-gate — NEW
+- agent-cancellation-vs-failure-taxonomy — NEW
 - agent-capability-matrix-audit — NEW
+- agent-compensation-evidence-verification — NEW
+- agent-concurrent-task-ownership-arbitration — NEW
+- agent-context-snapshot-freshness-gate — NEW
+- agent-cross-agent-claim-adjudication — NEW
+- agent-delegation-capability-least-privilege — NEW
+- agent-delegation-depth-cycle-guard — NEW
+- agent-escalation-on-uncertainty-policy — NEW
+- agent-fanout-result-reconciliation — NEW
 - agent-human-approval-gates — NEW
+- agent-independent-review-context-isolation — NEW
 - agent-memory-write-policy — NEW
+- agent-orchestration-event-correlation-contract — NEW
+- agent-output-artifact-finalization-atomicity — NEW
+- agent-partial-failure-scope-classification — NEW
 - agent-plan-vs-execution-verification — NEW
+- agent-progress-signal-liveness-audit — NEW
+- agent-result-quorum-decision-policy — NEW
+- agent-run-cost-attribution-record — NEW
+- agent-run-deadline-budget-allocation — NEW
+- agent-run-pause-resume-contract — NEW
+- agent-run-replay-safety-harness — NEW
+- agent-run-state-transition-contract — NEW
+- agent-shared-state-version-conflict-resolution — NEW
 - agent-skill-cache-tenant-isolation — NEW
 - agent-skill-cache-ttl-policy — NEW
 - agent-skill-context-budgeting — NEW
@@ -194,9 +215,13 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - agent-skill-request-contract — NEW
 - agent-skill-revocation-cache-flush — NEW
 - agent-state-checkpointing — NEW
+- agent-subtask-readiness-contract — NEW
 - agent-task-decomposition — NEW
 - agent-task-handoff-contract — NEW
+- agent-terminal-status-reconciliation — NEW
 - agent-tool-output-schema-validation — NEW
+- agent-workflow-compensation-boundary — NEW
+- agent-workspace-isolation — NEW
 - claude-code-hook-safety-review — NEW
 - claude-code-mcp-setup — NEW
 - claude-code-session-permission-sanity-check — NEW
@@ -259,6 +284,24 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - skill-registry-tenant-separation-tests — NEW
 - tool-call-budget-policy — NEW
 
+### Curated: repository-to-skill-synthesis (15)
+
+- api-contract-to-skill-spec — NEW
+- canonical-skill-scope-designer — NEW
+- documentation-evidence-index — NEW
+- issue-and-acceptance-criteria-mining — NEW
+- original-skill-authoring-from-evidence — NEW
+- project-workflow-mining — NEW
+- repository-capability-map — NEW
+- repository-source-inventory — NEW
+- repository-to-skill-batch-planner — NEW
+- semantic-skill-dedup-review — NEW
+- skill-release-provenance-gate — NEW
+- skill-routing-evaluation — NEW
+- skill-trigger-and-negative-case-design — NEW
+- test-fixture-to-skill-validation — NEW
+- upstream-license-provenance-gate — NEW
+
 ### Developer environment & CLI tooling (10)
 
 - cli-config-precedence-resolution — NEW
@@ -271,6 +314,12 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - local-dev-environment-preflight-doctor — NEW
 - reproducible-toolchain-bootstrap — NEW
 - shell-command-path-quoting-audit — NEW
+
+### Developer tooling, CI & security (3)
+
+- designing-stable-api-contracts
+- relational-database-schema-design
+- safe-database-migrations
 
 ### Documentation & technical knowledge systems (33)
 
@@ -308,7 +357,7 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - runbook-command-risk-review — NEW
 - technical-example-executability-audit — NEW
 
-### Engine architecture & runtime (150)
+### Engine architecture & runtime (160)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -322,6 +371,7 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - engine-asset-path-case-sensitivity-audit — NEW
 - engine-asset-streaming-budget — NEW
 - engine-async-resource-ownership-transfer — NEW
+- engine-audio-mixer-latency-budget — NEW
 - engine-background-io-batching — NEW
 - engine-background-queue-observability — NEW
 - engine-background-task-cancellation — NEW
@@ -336,7 +386,10 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - engine-debug-draw-observability — NEW
 - engine-deferred-work-staleness-budget — NEW
 - engine-dependency-wait-graph — NEW
+- engine-deterministic-replay-debugging — NEW
 - engine-deterministic-replay-input-capture — NEW
+- engine-ecs-query-plan-audit — NEW
+- engine-editor-undo-redo-transaction — NEW
 - engine-entity-handle-generation-safety — NEW
 - engine-event-reentrancy-guard — NEW
 - engine-event-subscriber-lifetime — NEW
@@ -349,6 +402,7 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - engine-hot-path-allocation-budget — NEW
 - engine-hot-reload-state-preservation — NEW
 - engine-input-action-mapping — NEW
+- engine-input-device-hotplug-contract — NEW
 - engine-job-cancellation-propagation — NEW
 - engine-job-coalescing-policy — NEW
 - engine-job-result-staleness-rejection — NEW
@@ -359,13 +413,16 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - engine-memory-pressure-response — NEW
 - engine-mod-api-semver-compatibility — NEW
 - engine-performance-benchmarking — NEW
+- engine-platform-capability-matrix — NEW
 - engine-player-state-roundtrip-contract — NEW
+- engine-plugin-abi-compatibility — NEW
 - engine-plugin-boundaries — NEW
 - engine-plugin-failure-isolation — NEW
 - engine-plugin-shutdown-contract — NEW
 - engine-plugin-version-capability-negotiation — NEW
 - engine-procedural-generation-boundary-testing — NEW
 - engine-render-feature-matrix — NEW
+- engine-render-graph-hazard-analysis — NEW
 - engine-render-resource-lifetime — NEW
 - engine-render-state-leak-detection — NEW
 - engine-render-target-resize-atomicity — NEW
@@ -385,8 +442,10 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - engine-save-corruption-recovery-map — NEW
 - engine-save-delta-chain-depth — NEW
 - engine-save-format-forward-compatibility — NEW
+- engine-save-format-migration — NEW
 - engine-save-schema-migration-preflight — NEW
 - engine-save-transaction-atomicity — NEW
+- engine-scene-graph-transform-invariants — NEW
 - engine-scene-load-unload-idempotency — NEW
 - engine-scene-transition-rollback — NEW
 - engine-scheduler-deadline-budget — NEW
@@ -672,13 +731,15 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - worldgen-biome-distribution-analysis — NEW
 - worldgen-distribution-drift-detection — NEW
 
-### Game design, engines & gameplay QA (27)
+### Game design, engines & gameplay QA (37)
 
 - adversarially-validating-game-repairs
 - arcadifying-mini-games
 - auditing-game-screen-readability
 - auditing-gameplay-implementation-coverage
 - curating-game-concept-portfolio
+- designing-game-combat-resolution
+- designing-game-progression
 - designing-mini-games
 - designing-minimal-game-rules
 - developing-with-crisp-game-lib
@@ -688,6 +749,7 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - generating-retro-arcade-concepts
 - generating-semantic-game-mutants
 - godot-game-dev
+- implementing-game-ai-state-machines
 - implementing-gameplay-invariants
 - localizing-game-state-divergence
 - maximizing-game-feel
@@ -696,11 +758,43 @@ Updated: 2026-10-17. The unified bundle contains 2000 distinct skills.
 - refining-game-prototypes
 - running-headless-godot
 - scaffolding-godot-mini-games
+- scoping-playable-prototypes
 - smoke-testing-web-games
 - stress-testing-game-concepts
+- structuring-gameplay-playtests
+- testing-procedural-gameplay-encounters
 - unity-game-dev
 - unreal-game-dev
+- validating-game-core-loops
+- validating-game-economy-loops
+- validating-game-movement-feel
+- validating-game-narrative-localization
 - verifying-turn-based-games
+
+### General utilities & productivity (22)
+
+- application-observability
+- async-concurrency-patterns
+- configuration-and-secret-management
+- continuous-integration-pipeline-design
+- debugging-with-minimal-reproduction
+- dependency-injection-patterns
+- designing-quest-objective-dependencies
+- git-branching-and-change-management
+- implementing-incremental-code-changes
+- modular-software-architecture
+- race-condition-detection
+- refactoring-with-characterization-tests
+- release-versioning-and-changelog
+- reliable-error-handling
+- resolving-merge-conflicts-safely
+- secure-coding-practices
+- solid-design-principles
+- sql-query-performance
+- static-analysis-and-linting
+- systematic-code-review
+- unit-testing-strategy
+- validating-multiplayer-session-lifecycle
 
 ### Geospatial visualization & map UX (35)
 
