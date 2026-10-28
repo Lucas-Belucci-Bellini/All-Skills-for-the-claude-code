@@ -216,3 +216,13 @@ A Git-tree SHA comparison found candidate source paths for all **161** imported 
 - **REA companion pack:** `REA-50-Skills-Claude-Code/NOTICE.txt` and `README-PT-BR.md` identify `https://github.com/morluto/rea` as the upstream REA project and explicitly say the 50 companion skills are community-authored, not official or endorsed. The notice does not itself grant a license to the REA engine, and the package does not currently declare an explicit license for the 50 companion instruction files; confirm their intended license before distribution.
 - **REA agent skills pack:** two parallel directories contain the same four skill names and matching copies. Their README points to `https://github.com/Lucas-Belucci-Bellini/rea`; no nested `LICENSE` file was found in either copy. Confirm the canonical directory and intended license, then remove or document the duplicate only with an approved change.
 - **Remaining local skills:** the `.agents/skills` source family and any other retained entries still need a clear author/upstream record and applicable license decision. Do not infer that the repository root license automatically overrides a third-party notice.
+
+## Full content comparison for agentic gamedev source family
+
+Compared all **35** `SKILL.md` files across the six `abagames/agentic-gamedev-skills` package directories with upstream `main` at `4ed8d751d08b5c1be14ccca02ce0b9a9bea60593`, normalizing only CRLF/LF line endings:
+- **33/35** files are content-identical after line-ending normalization.
+- Two files differ in content and require a human decision before treating the upstream version as the provenance baseline:
+  - `one-button-game-builder/skills/evaluating-gameplay-balance/SKILL.md`
+  - `one-button-game-builder/skills/refining-game-prototypes/SKILL.md`
+  
+These local differences may be intentional changes; they were not overwritten. Review the diff, decide whether to keep the local edits or sync to the upstream revision, and record the intended source/revision. The source/bundle copies inside this repository remain in sync.
