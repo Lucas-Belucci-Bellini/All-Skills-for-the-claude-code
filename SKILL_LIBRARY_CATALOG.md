@@ -1801,7 +1801,7 @@ Updated: 2026-10-28. The unified bundle contains 2205 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (109)
+### Rust & platform engineering (99)
 
 - async-task-cancellation-contract — NEW
 - ecs-system-order-determinism — NEW
