@@ -46,6 +46,7 @@ jobs:
           node --check tools/build-repository-evidence-manifest.mjs
           node --check tools/assemble-repository-skill-candidate.mjs
           node --check tools/plan-repository-skill-review-batches.mjs
+          node --check tools/discover-repository-skill-opportunities.mjs
 
       - name: Self-test repository-to-skill candidate gate
         run: node tools/validate-repository-skill-candidate.mjs --self-test
@@ -61,6 +62,9 @@ jobs:
 
       - name: Self-test evidence-backed skill review batch planner
         run: node tools/plan-repository-skill-review-batches.mjs --self-test
+
+      - name: Self-test repository skill opportunity discovery
+        run: node tools/discover-repository-skill-opportunities.mjs --self-test
 
       - name: Generate bundle and verify idempotence
         shell: bash
