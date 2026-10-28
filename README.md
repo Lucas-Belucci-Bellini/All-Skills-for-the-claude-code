@@ -128,3 +128,9 @@ These are a small first batch; they do not replace the existing game-design, pro
 - [`designing-game-progression`](.agents/skills/designing-game-progression/SKILL.md) — map milestones, mechanic learning, rewards, pacing, and recovery paths.
 - [`implementing-game-ai-state-machines`](.agents/skills/implementing-game-ai-state-machines/SKILL.md) — implement explicit NPC states, transition guards, interruption rules, and transition tests.
 - [`validating-game-economy-loops`](.agents/skills/validating-game-economy-loops/SKILL.md) — analyze resource sources/sinks, dominant strategies, arbitrage exploits, and progression soft-locks.
+
+### Third batch: combat, movement, and procedural encounters
+
+- [`designing-game-combat-resolution`](.agents/skills/designing-game-combat-resolution/SKILL.md) — define deterministic hit/damage resolution, immunity and blocking precedence, per-target hit rules, and combat regression tests.
+- [`validating-game-movement-feel`](.agents/skills/validating-game-movement-feel/SKILL.md) — turn movement-control complaints into repeatable tests for acceleration, stopping, collisions, frame-time variation, and camera behavior.
+- [`testing-procedural-gameplay-encounters`](.agents/skills/testing-procedural-gameplay-encounters/SKILL.md) — validate generated encounters for reachability, fairness, pacing, reproducibility, and seed-based regression coverage.
