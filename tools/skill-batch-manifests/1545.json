@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "batch_size": 5,
+  "milestone_total": 1545,
+  "long_term_target": 25000,
+  "authored_count": 1419,
+  "retained_count": 126,
+  "plugin_version": "2.1.16",
+  "skills": [
+    {
+      "name": "engine-deterministic-replay-debugging",
+      "source_path": "curated-skill-sources/engine-runtime/engine-deterministic-replay-debugging/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-platform-capability-matrix",
+      "source_path": "curated-skill-sources/engine-runtime/engine-platform-capability-matrix/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-plugin-abi-compatibility",
+      "source_path": "curated-skill-sources/engine-runtime/engine-plugin-abi-compatibility/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-render-graph-hazard-analysis",
+      "source_path": "curated-skill-sources/engine-runtime/engine-render-graph-hazard-analysis/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-save-format-migration",
+      "source_path": "curated-skill-sources/engine-runtime/engine-save-format-migration/SKILL.md",
+      "category": "Engine architecture & runtime"
+    }
+  ]
+}
