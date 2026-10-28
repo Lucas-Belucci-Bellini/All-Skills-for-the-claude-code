@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-27. The unified bundle contains 1545 distinct skills.
+Updated: 2026-10-28. The unified bundle contains 1550 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **126**
-- Original curated skills: **1419**
-- Current total: **1545**
+- Original curated skills: **1424**
+- Current total: **1550**
 - Long-term planning target: **25,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **23,455**
+- Remaining to long-term target: **23,450**
 
 ## Categories
 
@@ -301,7 +301,7 @@ Updated: 2026-10-27. The unified bundle contains 1545 distinct skills.
 - runbook-command-risk-review — NEW
 - technical-example-executability-audit — NEW
 
-### Engine architecture & runtime (105)
+### Engine architecture & runtime (110)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -312,6 +312,7 @@ Updated: 2026-10-27. The unified bundle contains 1545 distinct skills.
 - engine-architecture-adr — NEW
 - engine-asset-hot-reload — NEW
 - engine-asset-streaming-budget — NEW
+- engine-audio-mixer-latency-budget — NEW
 - engine-background-io-batching — NEW
 - engine-background-queue-observability — NEW
 - engine-background-task-cancellation — NEW
@@ -322,12 +323,15 @@ Updated: 2026-10-27. The unified bundle contains 1545 distinct skills.
 - engine-deferred-work-staleness-budget — NEW
 - engine-dependency-wait-graph — NEW
 - engine-deterministic-replay-debugging — NEW
+- engine-ecs-query-plan-audit — NEW
+- engine-editor-undo-redo-transaction — NEW
 - engine-fixed-timestep-simulation — NEW
 - engine-frame-pacing-jitter — NEW
 - engine-frame-time-budget — NEW
 - engine-frame-time-distribution — NEW
 - engine-hot-path-allocation-budget — NEW
 - engine-input-action-mapping — NEW
+- engine-input-device-hotplug-contract — NEW
 - engine-job-coalescing-policy — NEW
 - engine-job-system-backpressure — NEW
 - engine-memory-budget-profiling — NEW
@@ -351,6 +355,7 @@ Updated: 2026-10-27. The unified bundle contains 1545 distinct skills.
 - engine-runtime-stall-classification — NEW
 - engine-runtime-telemetry-taxonomy — NEW
 - engine-save-format-migration — NEW
+- engine-scene-graph-transform-invariants — NEW
 - engine-scheduler-deadline-budget — NEW
 - engine-shutdown-deadline-budget — NEW
 - engine-span-correlation-validation — NEW
