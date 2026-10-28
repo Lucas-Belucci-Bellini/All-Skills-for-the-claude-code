@@ -20,6 +20,7 @@ on:
       - feat/repository-evidence-manifest-2026
       - feat/repository-candidate-assembly-2026
       - feat/repository-review-batches-2026
+      - feat/repository-skill-spec-scaffolder-2026
   workflow_dispatch:
 
 permissions:
@@ -47,6 +48,7 @@ jobs:
           node --check tools/assemble-repository-skill-candidate.mjs
           node --check tools/plan-repository-skill-review-batches.mjs
           node --check tools/discover-repository-skill-opportunities.mjs
+          node --check tools/scaffold-repository-skill-spec.mjs
 
       - name: Self-test repository-to-skill candidate gate
         run: node tools/validate-repository-skill-candidate.mjs --self-test
@@ -66,6 +68,9 @@ jobs:
       - name: Self-test repository skill opportunity discovery
         run: node tools/discover-repository-skill-opportunities.mjs --self-test
 
+      - name: Self-test repository skill draft specification scaffolder
+        run: node tools/scaffold-repository-skill-spec.mjs --self-test
+
       - name: Generate bundle and verify idempotence
         shell: bash
         run: |
@@ -83,7 +88,7 @@ jobs:
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1525.json
 
       - name: Validate 1,540-skill source and bundle parity
-        if: github.ref_name == 'feat/rea-inspired-150-agents-25k-skills-2026' || github.ref_name == 'feat/orchestration-workflow-commands-2026' || github.ref_name == 'fix/1540-skill-sync-validation-routing-2026' || github.ref_name == 'feat/repository-skill-candidate-gate-2026' || github.ref_name == 'feat/repository-evidence-manifest-2026' || github.ref_name == 'feat/repository-candidate-assembly-2026' || github.ref_name == 'feat/repository-review-batches-2026'
+        if: github.ref_name == 'feat/rea-inspired-150-agents-25k-skills-2026' || github.ref_name == 'feat/orchestration-workflow-commands-2026' || github.ref_name == 'fix/1540-skill-sync-validation-routing-2026' || github.ref_name == 'feat/repository-skill-candidate-gate-2026' || github.ref_name == 'feat/repository-evidence-manifest-2026' || github.ref_name == 'feat/repository-candidate-assembly-2026' || github.ref_name == 'feat/repository-review-batches-2026' || github.ref_name == 'feat/repository-skill-spec-scaffolder-2026'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1540.json
 
       - name: Validate agent orchestration plugin
