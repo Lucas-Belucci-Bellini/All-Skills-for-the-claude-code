@@ -219,10 +219,10 @@ A Git-tree SHA comparison found candidate source paths for all **161** imported 
 
 ## Full content comparison for agentic gamedev source family
 
-Compared all **35** `SKILL.md` files across the six `abagames/agentic-gamedev-skills` package directories with upstream `main` at `4ed8d751d08b5c1be14ccca02ce0b9a9bea60593`, normalizing only CRLF/LF line endings:
-- **33/35** files are content-identical after line-ending normalization.
-- Two files differ in content and require a human decision before treating the upstream version as the provenance baseline:
-  - `one-button-game-builder/skills/evaluating-gameplay-balance/SKILL.md`
-  - `one-button-game-builder/skills/refining-game-prototypes/SKILL.md`
-  
-These local differences may be intentional changes; they were not overwritten. Review the diff, decide whether to keep the local edits or sync to the upstream revision, and record the intended source/revision. The source/bundle copies inside this repository remain in sync.
+Compared all **35** `SKILL.md` files across the six `abagames/agentic-gamedev-skills` package directories with upstream `main` at `4ed8d751d08b5c1be14ccca02ce0b9a9bea60593`, normalizing only CRLF/LF line endings. Thirty-three files were already content-identical. I refreshed the two stale local files from that exact upstream revision and copied the two supporting references they require:
+- `one-button-game-builder/skills/evaluating-gameplay-balance/SKILL.md`
+- `one-button-game-builder/skills/refining-game-prototypes/SKILL.md`
+- `one-button-game-builder/skills/refining-game-prototypes/references/blind-spot-checks.md`
+- `one-button-game-builder/skills/refining-game-prototypes/references/play-input.md`
+
+The canonical source and generated bundle copies were updated together. The local `one-button-game-builder/LICENSE` is MIT, matching the upstream package's license family. This resolves the content drift found in those two skills, but the broader imported-source audit and the separate proprietary `claude-security` restriction remain open.
