@@ -160,7 +160,19 @@ async function selfTest() {
       () => buildEvidenceManifest(tmp, { ...input, claims: [{ ...input.claims[0], end_line: 99 }] }),
       /exceeds file line count/
     );
-    console.log("Repository evidence manifest self-test passed (pinned SHA, path containment, line ranges, hashes, no excerpts).");
+    const outside = await fs.mkdtemp(path.join(os.tmpdir(), "repo-evidence-outside-"));
+    try {
+      await fs.mkdir(path.join(outside, "linked"));
+      await fs.writeFile(path.join(outside, "linked", "secret.js"), "outside root");
+      await fs.symlink(path.join(outside, "linked"), path.join(tmp, "external-link"));
+      await assert.rejects(
+        () => buildEvidenceManifest(tmp, { ...input, claims: [{ ...input.claims[0], path: "external-link/secret.js" }] }),
+        /resolves outside the repository root/
+      );
+    } finally {
+      await fs.rm(outside, { recursive: true, force: true });
+    }
+    console.log("Repository evidence manifest self-test passed (pinned SHA, path containment, symlink escape, line ranges, hashes, no excerpts).");
   } finally {
     await fs.rm(tmp, { recursive: true, force: true });
   }
