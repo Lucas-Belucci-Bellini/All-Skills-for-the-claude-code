@@ -52,4 +52,4 @@ jobs:
           node tools/sync-skill-bundles.mjs --check
 
       - name: Validate current milestone structure and source/bundle parity
-        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2000.json
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2085.json
