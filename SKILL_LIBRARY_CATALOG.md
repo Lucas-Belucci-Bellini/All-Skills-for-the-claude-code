@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-28. The unified bundle contains 2195 distinct skills.
+Updated: 2026-10-28. The unified bundle contains 2205 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **161**
-- Original curated skills: **2034**
-- Current total: **2195**
+- Original curated skills: **2044**
+- Current total: **2205**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **305**
+- Remaining to long-term target: **295**
 
 ## Categories
 
@@ -1801,7 +1801,7 @@ Updated: 2026-10-28. The unified bundle contains 2195 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (99)
+### Rust & platform engineering (109)
 
 - async-task-cancellation-contract — NEW
 - ecs-system-order-determinism — NEW
@@ -1901,6 +1901,16 @@ Updated: 2026-10-28. The unified bundle contains 2195 distinct skills.
 - rust-workspace-dependency-boundary-audit — NEW
 - rust-workspace-feature-matrix — NEW
 - rust-zero-copy-lifetime-proof — NEW
+- voxel-chunk-dirty-state-contract — NEW
+- voxel-chunk-eviction-safety — NEW
+- voxel-chunk-job-deduplication — NEW
+- voxel-chunk-streaming-budget — NEW
+- voxel-neighbor-boundary-meshing — NEW
+- voxel-region-save-transaction — NEW
+- voxel-save-format-versioning — NEW
+- voxel-world-coordinate-safety — NEW
+- voxel-worldgen-property-tests — NEW
+- voxel-worldgen-seed-determinism — NEW
 - wasm-native-performance-comparison — NEW
 
 ### Scene navigation, sharing & replay (10)

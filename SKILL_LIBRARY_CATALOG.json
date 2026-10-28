@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-28",
-  "unique_skills": 2195,
+  "unique_skills": 2205,
   "target": 2500,
-  "remaining": 305,
+  "remaining": 295,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -10823,6 +10823,66 @@
       "category": "Rust & platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-zero-copy-lifetime-proof/SKILL.md"
+    },
+    {
+      "name": "voxel-chunk-dirty-state-contract",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-dirty-state-contract/SKILL.md"
+    },
+    {
+      "name": "voxel-chunk-eviction-safety",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-eviction-safety/SKILL.md"
+    },
+    {
+      "name": "voxel-chunk-job-deduplication",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-job-deduplication/SKILL.md"
+    },
+    {
+      "name": "voxel-chunk-streaming-budget",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-streaming-budget/SKILL.md"
+    },
+    {
+      "name": "voxel-neighbor-boundary-meshing",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-neighbor-boundary-meshing/SKILL.md"
+    },
+    {
+      "name": "voxel-region-save-transaction",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-region-save-transaction/SKILL.md"
+    },
+    {
+      "name": "voxel-save-format-versioning",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-save-format-versioning/SKILL.md"
+    },
+    {
+      "name": "voxel-world-coordinate-safety",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-world-coordinate-safety/SKILL.md"
+    },
+    {
+      "name": "voxel-worldgen-property-tests",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-worldgen-property-tests/SKILL.md"
+    },
+    {
+      "name": "voxel-worldgen-seed-determinism",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-worldgen-seed-determinism/SKILL.md"
     },
     {
       "name": "wasm-native-performance-comparison",
