@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-29",
-  "unique_skills": 2326,
+  "unique_skills": 2336,
   "target": 2500,
-  "remaining": 174,
+  "remaining": 164,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -13961,6 +13961,66 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
+    },
+    {
+      "name": "nexora-memory-budget-attribution",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-memory-budget-attribution/SKILL.md"
+    },
+    {
+      "name": "nexora-allocation-hotpath-audit",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-allocation-hotpath-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-cache-eviction-policy",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-cache-eviction-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-memory-leak-lifecycle-test",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-memory-leak-lifecycle-test/SKILL.md"
+    },
+    {
+      "name": "nexora-lock-contention-profile",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-lock-contention-profile/SKILL.md"
+    },
+    {
+      "name": "nexora-worker-pool-saturation",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-worker-pool-saturation/SKILL.md"
+    },
+    {
+      "name": "nexora-task-priority-inversion-audit",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-task-priority-inversion-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-frame-allocation-budget",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-frame-allocation-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-gpu-memory-pressure-policy",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-gpu-memory-pressure-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-memory-budget-admission",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-memory-budget-admission/SKILL.md"
     }
   ]
 }

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2336,
+  "long_term_target": 2500,
+  "authored_count": 2175,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-memory-budget-attribution",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-memory-budget-attribution/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    },
+    {
+      "name": "nexora-allocation-hotpath-audit",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-allocation-hotpath-audit/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    },
+    {
+      "name": "nexora-cache-eviction-policy",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-cache-eviction-policy/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    },
+    {
+      "name": "nexora-memory-leak-lifecycle-test",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-memory-leak-lifecycle-test/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    },
+    {
+      "name": "nexora-lock-contention-profile",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-lock-contention-profile/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    },
+    {
+      "name": "nexora-worker-pool-saturation",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-worker-pool-saturation/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    },
+    {
+      "name": "nexora-task-priority-inversion-audit",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-task-priority-inversion-audit/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    },
+    {
+      "name": "nexora-frame-allocation-budget",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-frame-allocation-budget/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    },
+    {
+      "name": "nexora-gpu-memory-pressure-policy",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-gpu-memory-pressure-policy/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    },
+    {
+      "name": "nexora-memory-budget-admission",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-memory-budget-admission/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    }
+  ]
+}
