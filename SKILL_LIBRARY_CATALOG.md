@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-29. The unified bundle contains 2246 distinct skills.
+Updated: 2026-10-29. The unified bundle contains 2256 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **161**
-- Original curated skills: **2085**
-- Current total: **2246**
+- Original curated skills: **2095**
+- Current total: **2256**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **254**
+- Remaining to long-term target: **244**
 
 ## Categories
 
@@ -308,16 +308,19 @@ Updated: 2026-10-29. The unified bundle contains 2246 distinct skills.
 - nexora-simulation-render-snapshot-boundary — NEW
 - nexora-texture-streaming-priority — NEW
 
-### Curated: nexora-simulation-ai (20)
+### Curated: nexora-simulation-ai (30)
 
 - nexora-ai-agent-tick-budget — NEW
 - nexora-ai-perception-query-budget — NEW
 - nexora-authoritative-combat-resolution — NEW
+- nexora-chunk-simulation-activation — NEW
+- nexora-deterministic-event-ordering — NEW
 - nexora-entity-component-ownership-audit — NEW
 - nexora-entity-despawn-cascade — NEW
 - nexora-fluid-simulation-stability — NEW
 - nexora-gameplay-data-schema-validation — NEW
 - nexora-gameplay-event-idempotency — NEW
+- nexora-large-world-coordinate-contract — NEW
 - nexora-navmesh-invalidation-contract — NEW
 - nexora-network-message-size-contract — NEW
 - nexora-network-reconnect-state-machine — NEW
@@ -325,11 +328,18 @@ Updated: 2026-10-29. The unified bundle contains 2246 distinct skills.
 - nexora-npc-behavior-state-contract — NEW
 - nexora-npc-save-state-schema — NEW
 - nexora-pathfinding-open-set-safety — NEW
+- nexora-physics-contact-lifecycle — NEW
+- nexora-physics-fixed-step-stability — NEW
+- nexora-replay-divergence-minimizer — NEW
 - nexora-scripted-gameplay-budget — NEW
 - nexora-server-authority-validation — NEW
+- nexora-simulation-overload-degradation — NEW
 - nexora-weather-time-authority — NEW
 - nexora-world-edit-command-transaction — NEW
+- nexora-world-region-lock-order — NEW
 - nexora-world-simulation-fixed-timestep — NEW
+- nexora-world-state-hash-contract — NEW
+- nexora-worldgen-modifier-order — NEW
 
 ### Curated: repository-to-skill-synthesis (15)
 
