@@ -1693,6 +1693,66 @@
       "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-texture-streaming-priority/SKILL.md"
     },
     {
+      "name": "nexora-ai-agent-tick-budget",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-ai-agent-tick-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-perception-query-budget",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-ai-perception-query-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-authoritative-combat-resolution",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-authoritative-combat-resolution/SKILL.md"
+    },
+    {
+      "name": "nexora-entity-component-ownership-audit",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-entity-component-ownership-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-entity-despawn-cascade",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-entity-despawn-cascade/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-event-idempotency",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-gameplay-event-idempotency/SKILL.md"
+    },
+    {
+      "name": "nexora-navmesh-invalidation-contract",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-navmesh-invalidation-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-npc-behavior-state-contract",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-npc-behavior-state-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-pathfinding-open-set-safety",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-pathfinding-open-set-safety/SKILL.md"
+    },
+    {
+      "name": "nexora-world-simulation-fixed-timestep",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-world-simulation-fixed-timestep/SKILL.md"
+    },
+    {
       "name": "api-contract-to-skill-spec",
       "category": "Curated: repository-to-skill-synthesis",
       "origin": "new-authored",
@@ -13361,66 +13421,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-agent-tick-budget",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-ai-agent-tick-budget/SKILL.md"
-    },
-    {
-      "name": "nexora-npc-behavior-state-contract",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-npc-behavior-state-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-navmesh-invalidation-contract",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-navmesh-invalidation-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-perception-query-budget",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-ai-perception-query-budget/SKILL.md"
-    },
-    {
-      "name": "nexora-pathfinding-open-set-safety",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-pathfinding-open-set-safety/SKILL.md"
-    },
-    {
-      "name": "nexora-authoritative-combat-resolution",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-authoritative-combat-resolution/SKILL.md"
-    },
-    {
-      "name": "nexora-gameplay-event-idempotency",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-gameplay-event-idempotency/SKILL.md"
-    },
-    {
-      "name": "nexora-world-simulation-fixed-timestep",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-world-simulation-fixed-timestep/SKILL.md"
-    },
-    {
-      "name": "nexora-entity-component-ownership-audit",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-entity-component-ownership-audit/SKILL.md"
-    },
-    {
-      "name": "nexora-entity-despawn-cascade",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-entity-despawn-cascade/SKILL.md"
     }
   ]
 }
