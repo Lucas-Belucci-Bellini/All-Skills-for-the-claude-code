@@ -2053,6 +2053,66 @@
       "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-continuous-collision/SKILL.md"
     },
     {
+      "name": "nexora-crate-dependency-direction",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-crate-dependency-direction/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-async-cancellation-safety",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-async-cancellation-safety/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-error-context-chain",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-error-context-chain/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-feature-flag-coherence",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-feature-flag-coherence/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-lock-poison-recovery",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-lock-poison-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-public-api-stability",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-public-api-stability/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-resource-ownership-ledger",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-resource-ownership-ledger/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-trait-object-boundary",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-trait-object-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-unsafe-block-audit",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-unsafe-block-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-workspace-release-gate",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-workspace-release-gate/SKILL.md"
+    },
+    {
       "name": "nexora-ai-agent-tick-budget",
       "category": "Curated: nexora-simulation-ai",
       "origin": "new-authored",
@@ -14021,66 +14081,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-crate-dependency-direction",
-      "category": "Curated: nexora-rust-architecture",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-crate-dependency-direction/SKILL.md"
-    },
-    {
-      "name": "nexora-rust-public-api-stability",
-      "category": "Curated: nexora-rust-architecture",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-public-api-stability/SKILL.md"
-    },
-    {
-      "name": "nexora-rust-unsafe-block-audit",
-      "category": "Curated: nexora-rust-architecture",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-unsafe-block-audit/SKILL.md"
-    },
-    {
-      "name": "nexora-rust-feature-flag-coherence",
-      "category": "Curated: nexora-rust-architecture",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-feature-flag-coherence/SKILL.md"
-    },
-    {
-      "name": "nexora-rust-async-cancellation-safety",
-      "category": "Curated: nexora-rust-architecture",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-async-cancellation-safety/SKILL.md"
-    },
-    {
-      "name": "nexora-rust-lock-poison-recovery",
-      "category": "Curated: nexora-rust-architecture",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-lock-poison-recovery/SKILL.md"
-    },
-    {
-      "name": "nexora-rust-error-context-chain",
-      "category": "Curated: nexora-rust-architecture",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-error-context-chain/SKILL.md"
-    },
-    {
-      "name": "nexora-rust-resource-ownership-ledger",
-      "category": "Curated: nexora-rust-architecture",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-resource-ownership-ledger/SKILL.md"
-    },
-    {
-      "name": "nexora-rust-trait-object-boundary",
-      "category": "Curated: nexora-rust-architecture",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-trait-object-boundary/SKILL.md"
-    },
-    {
-      "name": "nexora-rust-workspace-release-gate",
-      "category": "Curated: nexora-rust-architecture",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-workspace-release-gate/SKILL.md"
     }
   ]
 }
