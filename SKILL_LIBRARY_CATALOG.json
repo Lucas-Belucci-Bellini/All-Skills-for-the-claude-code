@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-29",
-  "unique_skills": 2466,
+  "unique_skills": 2476,
   "target": 2500,
-  "remaining": 34,
+  "remaining": 24,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -14801,6 +14801,66 @@
       "category": "Curated: nexora-concurrency-safety",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-atomic-generation-swap-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-world-command-permission-recheck",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-command-permission-recheck/SKILL.md"
+    },
+    {
+      "name": "nexora-world-region-access-boundary",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-region-access-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-save-lock-and-recovery",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-save-lock-and-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-world-snapshot-consistency",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-snapshot-consistency/SKILL.md"
+    },
+    {
+      "name": "nexora-world-chunk-boundary-transaction",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-chunk-boundary-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-world-region-recovery-scan",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-region-recovery-scan/SKILL.md"
+    },
+    {
+      "name": "nexora-world-save-privacy-export",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-save-privacy-export/SKILL.md"
+    },
+    {
+      "name": "nexora-world-backup-retention-policy",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-backup-retention-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-world-migration-cross-mod-validation",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-migration-cross-mod-validation/SKILL.md"
+    },
+    {
+      "name": "nexora-world-integrity-audit-report",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-integrity-audit-report/SKILL.md"
     }
   ]
 }
