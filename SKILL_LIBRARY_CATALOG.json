@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-29",
-  "unique_skills": 2276,
+  "unique_skills": 2286,
   "target": 2500,
-  "remaining": 224,
+  "remaining": 214,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -13661,6 +13661,66 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
+    },
+    {
+      "name": "nexora-world-save-checksum-contract",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-world-save-checksum-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-save-write-ordering",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-save-write-ordering/SKILL.md"
+    },
+    {
+      "name": "nexora-save-recovery-generation-select",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-save-recovery-generation-select/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-permission-audit",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-mod-permission-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-untrusted-asset-parser-hardening",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-untrusted-asset-parser-hardening/SKILL.md"
+    },
+    {
+      "name": "nexora-crash-recovery-startup-gate",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-crash-recovery-startup-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-telemetry-cardinality-budget",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-telemetry-cardinality-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-diagnostic-log-redaction",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-diagnostic-log-redaction/SKILL.md"
+    },
+    {
+      "name": "nexora-plugin-failure-containment",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-plugin-failure-containment/SKILL.md"
+    },
+    {
+      "name": "nexora-release-artifact-reproducibility",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-release-artifact-reproducibility/SKILL.md"
     }
   ]
 }

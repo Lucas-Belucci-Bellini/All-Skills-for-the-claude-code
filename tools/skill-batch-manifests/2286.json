@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2286,
+  "long_term_target": 2500,
+  "authored_count": 2125,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-world-save-checksum-contract",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-world-save-checksum-contract/SKILL.md",
+      "category": "Curated: nexora-reliability"
+    },
+    {
+      "name": "nexora-save-write-ordering",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-save-write-ordering/SKILL.md",
+      "category": "Curated: nexora-reliability"
+    },
+    {
+      "name": "nexora-save-recovery-generation-select",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-save-recovery-generation-select/SKILL.md",
+      "category": "Curated: nexora-reliability"
+    },
+    {
+      "name": "nexora-mod-permission-audit",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-mod-permission-audit/SKILL.md",
+      "category": "Curated: nexora-reliability"
+    },
+    {
+      "name": "nexora-untrusted-asset-parser-hardening",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-untrusted-asset-parser-hardening/SKILL.md",
+      "category": "Curated: nexora-reliability"
+    },
+    {
+      "name": "nexora-crash-recovery-startup-gate",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-crash-recovery-startup-gate/SKILL.md",
+      "category": "Curated: nexora-reliability"
+    },
+    {
+      "name": "nexora-telemetry-cardinality-budget",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-telemetry-cardinality-budget/SKILL.md",
+      "category": "Curated: nexora-reliability"
+    },
+    {
+      "name": "nexora-diagnostic-log-redaction",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-diagnostic-log-redaction/SKILL.md",
+      "category": "Curated: nexora-reliability"
+    },
+    {
+      "name": "nexora-plugin-failure-containment",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-plugin-failure-containment/SKILL.md",
+      "category": "Curated: nexora-reliability"
+    },
+    {
+      "name": "nexora-release-artifact-reproducibility",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-release-artifact-reproducibility/SKILL.md",
+      "category": "Curated: nexora-reliability"
+    }
+  ]
+}
