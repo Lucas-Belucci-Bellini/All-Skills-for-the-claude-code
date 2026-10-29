@@ -1927,6 +1927,66 @@
       "source_path": "curated-skill-sources/nexora-reliability/nexora-world-save-checksum-contract/SKILL.md"
     },
     {
+      "name": "nexora-animation-lod-transition",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-animation-lod-transition/SKILL.md"
+    },
+    {
+      "name": "nexora-animation-pose-cache-invalidation",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-animation-pose-cache-invalidation/SKILL.md"
+    },
+    {
+      "name": "nexora-audio-device-loss-recovery",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-audio-device-loss-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-audio-spatialization-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-audio-spatialization-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-color-space-pipeline-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-color-space-pipeline-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-occlusion-query-latency-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-occlusion-query-latency-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-render-pass-state-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-pass-state-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-render-resolution-budget",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-resolution-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-render-target-resize-transaction",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-target-resize-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-temporal-history-invalidation",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-temporal-history-invalidation/SKILL.md"
+    },
+    {
       "name": "nexora-asset-content-addressing",
       "category": "Curated: nexora-runtime-reliability",
       "origin": "new-authored",
@@ -14141,66 +14201,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-render-pass-state-contract",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-pass-state-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-render-target-resize-transaction",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-target-resize-transaction/SKILL.md"
-    },
-    {
-      "name": "nexora-temporal-history-invalidation",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-temporal-history-invalidation/SKILL.md"
-    },
-    {
-      "name": "nexora-color-space-pipeline-contract",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-color-space-pipeline-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-render-resolution-budget",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-resolution-budget/SKILL.md"
-    },
-    {
-      "name": "nexora-occlusion-query-latency-contract",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-occlusion-query-latency-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-animation-pose-cache-invalidation",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-animation-pose-cache-invalidation/SKILL.md"
-    },
-    {
-      "name": "nexora-animation-lod-transition",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-animation-lod-transition/SKILL.md"
-    },
-    {
-      "name": "nexora-audio-device-loss-recovery",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-audio-device-loss-recovery/SKILL.md"
-    },
-    {
-      "name": "nexora-audio-spatialization-contract",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-audio-spatialization-contract/SKILL.md"
     }
   ]
 }

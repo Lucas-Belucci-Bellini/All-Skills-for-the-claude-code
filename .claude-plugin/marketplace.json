@@ -10,7 +10,7 @@
     {
       "name": "all-skills-collection",
       "source": "./plugins/all-skills-collection",
-      "description": "Install the unified collection of 2356 distinct skills with skill-local supporting files.",
+      "description": "Install the unified collection of 2366 distinct skills with skill-local supporting files.",
       "version": "2.1.21",
       "category": "development"
     },
