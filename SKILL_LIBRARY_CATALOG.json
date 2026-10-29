@@ -2053,6 +2053,66 @@
       "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-worldgen-modifier-order/SKILL.md"
     },
     {
+      "name": "nexora-api-compatibility-test-matrix",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-api-compatibility-test-matrix/SKILL.md"
+    },
+    {
+      "name": "nexora-ci-resource-budget",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-ci-resource-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-crash-repro-minimal-project",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-crash-repro-minimal-project/SKILL.md"
+    },
+    {
+      "name": "nexora-deterministic-regression-fixture",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-deterministic-regression-fixture/SKILL.md"
+    },
+    {
+      "name": "nexora-fuzz-parser-entrypoints",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-fuzz-parser-entrypoints/SKILL.md"
+    },
+    {
+      "name": "nexora-performance-benchmark-contract",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-performance-benchmark-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-property-test-world-invariants",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-property-test-world-invariants/SKILL.md"
+    },
+    {
+      "name": "nexora-static-analysis-gate",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-static-analysis-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-test-failure-classification",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-test-failure-classification/SKILL.md"
+    },
+    {
+      "name": "nexora-test-isolation-contract",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-test-isolation-contract/SKILL.md"
+    },
+    {
       "name": "api-contract-to-skill-spec",
       "category": "Curated: repository-to-skill-synthesis",
       "origin": "new-authored",
@@ -13721,66 +13781,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-property-test-world-invariants",
-      "category": "Curated: nexora-testing-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-property-test-world-invariants/SKILL.md"
-    },
-    {
-      "name": "nexora-fuzz-parser-entrypoints",
-      "category": "Curated: nexora-testing-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-fuzz-parser-entrypoints/SKILL.md"
-    },
-    {
-      "name": "nexora-deterministic-regression-fixture",
-      "category": "Curated: nexora-testing-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-deterministic-regression-fixture/SKILL.md"
-    },
-    {
-      "name": "nexora-performance-benchmark-contract",
-      "category": "Curated: nexora-testing-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-performance-benchmark-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-ci-resource-budget",
-      "category": "Curated: nexora-testing-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-ci-resource-budget/SKILL.md"
-    },
-    {
-      "name": "nexora-test-isolation-contract",
-      "category": "Curated: nexora-testing-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-test-isolation-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-crash-repro-minimal-project",
-      "category": "Curated: nexora-testing-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-crash-repro-minimal-project/SKILL.md"
-    },
-    {
-      "name": "nexora-static-analysis-gate",
-      "category": "Curated: nexora-testing-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-static-analysis-gate/SKILL.md"
-    },
-    {
-      "name": "nexora-api-compatibility-test-matrix",
-      "category": "Curated: nexora-testing-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-api-compatibility-test-matrix/SKILL.md"
-    },
-    {
-      "name": "nexora-test-failure-classification",
-      "category": "Curated: nexora-testing-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-test-failure-classification/SKILL.md"
     }
   ]
 }
