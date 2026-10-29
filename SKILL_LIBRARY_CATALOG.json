@@ -1567,6 +1567,66 @@
       "source_path": "curated-skill-sources/agent-tooling/tool-call-budget-policy/SKILL.md"
     },
     {
+      "name": "nexora-asset-budget-admission",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-asset-budget-admission/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-import-dependency-graph",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-asset-import-dependency-graph/SKILL.md"
+    },
+    {
+      "name": "nexora-content-provenance-manifest",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-content-provenance-manifest/SKILL.md"
+    },
+    {
+      "name": "nexora-content-registry-atomic-publication",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-content-registry-atomic-publication/SKILL.md"
+    },
+    {
+      "name": "nexora-hot-reload-generation-swap",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-hot-reload-generation-swap/SKILL.md"
+    },
+    {
+      "name": "nexora-material-schema-versioning",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-material-schema-versioning/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-api-compatibility-gate",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-mod-api-compatibility-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-dependency-resolution",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-mod-dependency-resolution/SKILL.md"
+    },
+    {
+      "name": "nexora-shader-reflection-contract",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-shader-reflection-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-texture-atlas-fragmentation",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-atlas-fragmentation/SKILL.md"
+    },
+    {
       "name": "nexora-asset-content-addressing",
       "category": "Curated: nexora-runtime-reliability",
       "origin": "new-authored",
@@ -13601,66 +13661,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-asset-import-dependency-graph",
-      "category": "Curated: nexora-content-pipeline",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-asset-import-dependency-graph/SKILL.md"
-    },
-    {
-      "name": "nexora-texture-atlas-fragmentation",
-      "category": "Curated: nexora-content-pipeline",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-atlas-fragmentation/SKILL.md"
-    },
-    {
-      "name": "nexora-material-schema-versioning",
-      "category": "Curated: nexora-content-pipeline",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-material-schema-versioning/SKILL.md"
-    },
-    {
-      "name": "nexora-hot-reload-generation-swap",
-      "category": "Curated: nexora-content-pipeline",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-hot-reload-generation-swap/SKILL.md"
-    },
-    {
-      "name": "nexora-content-provenance-manifest",
-      "category": "Curated: nexora-content-pipeline",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-content-provenance-manifest/SKILL.md"
-    },
-    {
-      "name": "nexora-mod-dependency-resolution",
-      "category": "Curated: nexora-content-pipeline",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-mod-dependency-resolution/SKILL.md"
-    },
-    {
-      "name": "nexora-mod-api-compatibility-gate",
-      "category": "Curated: nexora-content-pipeline",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-mod-api-compatibility-gate/SKILL.md"
-    },
-    {
-      "name": "nexora-content-registry-atomic-publication",
-      "category": "Curated: nexora-content-pipeline",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-content-registry-atomic-publication/SKILL.md"
-    },
-    {
-      "name": "nexora-asset-budget-admission",
-      "category": "Curated: nexora-content-pipeline",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-asset-budget-admission/SKILL.md"
-    },
-    {
-      "name": "nexora-shader-reflection-contract",
-      "category": "Curated: nexora-content-pipeline",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-shader-reflection-contract/SKILL.md"
     }
   ]
 }
