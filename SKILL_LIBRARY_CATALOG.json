@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28",
-  "unique_skills": 2085,
+  "updated_at": "2026-10-29",
+  "unique_skills": 2500,
   "target": 2500,
-  "remaining": 415,
+  "remaining": 0,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -1567,6 +1567,1776 @@
       "source_path": "curated-skill-sources/agent-tooling/tool-call-budget-policy/SKILL.md"
     },
     {
+      "name": "nexora-ai-action-validation-gate",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-action-validation-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-behavior-tree-bounded-tick",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-behavior-tree-bounded-tick/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-generated-content-validation",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-generated-content-validation/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-navigation-intent-contract",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-navigation-intent-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-npc-memory-retention",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-npc-memory-retention/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-observability-redaction",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-observability-redaction/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-planner-failure-classification",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planner-failure-classification/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-planner-world-snapshot",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planner-world-snapshot/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-planning-determinism-boundary",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planning-determinism-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-tool-budget-contract",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-tool-budget-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-animation-clip-time-contract",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-animation-clip-time-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-import-golden-tests",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-import-golden-tests/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-reference-cycle-audit",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-reference-cycle-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-streaming-corruption-recovery",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-streaming-corruption-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-content-load-order-independence",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-content-load-order-independence/SKILL.md"
+    },
+    {
+      "name": "nexora-mesh-lod-transition-contract",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-mesh-lod-transition-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-mesh-topology-validation",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-mesh-topology-validation/SKILL.md"
+    },
+    {
+      "name": "nexora-shader-compile-failure-recovery",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-shader-compile-failure-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-skeleton-skin-weight-normalization",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-skeleton-skin-weight-normalization/SKILL.md"
+    },
+    {
+      "name": "nexora-texture-format-fallback",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-texture-format-fallback/SKILL.md"
+    },
+    {
+      "name": "nexora-benchmark-baseline-refresh",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-benchmark-baseline-refresh/SKILL.md"
+    },
+    {
+      "name": "nexora-build-cache-trust-boundary",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-cache-trust-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-build-failure-minimizer",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-failure-minimizer/SKILL.md"
+    },
+    {
+      "name": "nexora-build-feature-provenance",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-feature-provenance/SKILL.md"
+    },
+    {
+      "name": "nexora-build-graph-incrementality",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-graph-incrementality/SKILL.md"
+    },
+    {
+      "name": "nexora-ci-change-impact-selection",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-ci-change-impact-selection/SKILL.md"
+    },
+    {
+      "name": "nexora-cross-target-compile-matrix",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-cross-target-compile-matrix/SKILL.md"
+    },
+    {
+      "name": "nexora-dependency-upgrade-impact",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-dependency-upgrade-impact/SKILL.md"
+    },
+    {
+      "name": "nexora-generated-code-determinism",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-generated-code-determinism/SKILL.md"
+    },
+    {
+      "name": "nexora-release-channel-policy",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-release-channel-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-async-queue-fairness",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-async-queue-fairness/SKILL.md"
+    },
+    {
+      "name": "nexora-async-singleflight-deduplication",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-async-singleflight-deduplication/SKILL.md"
+    },
+    {
+      "name": "nexora-atomic-generation-swap-contract",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-atomic-generation-swap-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-concurrent-world-read-contract",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-concurrent-world-read-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-entity-command-buffer-order",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-entity-command-buffer-order/SKILL.md"
+    },
+    {
+      "name": "nexora-event-handler-reentrancy",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-event-handler-reentrancy/SKILL.md"
+    },
+    {
+      "name": "nexora-job-result-publication-transaction",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-job-result-publication-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-resource-reservation-atomicity",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-resource-reservation-atomicity/SKILL.md"
+    },
+    {
+      "name": "nexora-shared-cache-concurrent-invalidation",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-shared-cache-concurrent-invalidation/SKILL.md"
+    },
+    {
+      "name": "nexora-shutdown-concurrent-request-idempotency",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-shutdown-concurrent-request-idempotency/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-budget-admission",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-asset-budget-admission/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-import-dependency-graph",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-asset-import-dependency-graph/SKILL.md"
+    },
+    {
+      "name": "nexora-content-provenance-manifest",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-content-provenance-manifest/SKILL.md"
+    },
+    {
+      "name": "nexora-content-registry-atomic-publication",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-content-registry-atomic-publication/SKILL.md"
+    },
+    {
+      "name": "nexora-hot-reload-generation-swap",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-hot-reload-generation-swap/SKILL.md"
+    },
+    {
+      "name": "nexora-material-schema-versioning",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-material-schema-versioning/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-api-compatibility-gate",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-mod-api-compatibility-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-dependency-resolution",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-mod-dependency-resolution/SKILL.md"
+    },
+    {
+      "name": "nexora-shader-reflection-contract",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-shader-reflection-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-texture-atlas-fragmentation",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-atlas-fragmentation/SKILL.md"
+    },
+    {
+      "name": "nexora-crafting-recipe-cycle-audit",
+      "category": "Curated: nexora-data-contracts",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-crafting-recipe-cycle-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-inventory-transaction-invariants",
+      "category": "Curated: nexora-data-contracts",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-inventory-transaction-invariants/SKILL.md"
+    },
+    {
+      "name": "nexora-item-stack-identity-contract",
+      "category": "Curated: nexora-data-contracts",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-item-stack-identity-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-event-subscription-lifecycle",
+      "category": "Curated: nexora-data-contracts",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-mod-event-subscription-lifecycle/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-hot-reload-state-migration",
+      "category": "Curated: nexora-data-contracts",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-mod-hot-reload-state-migration/SKILL.md"
+    },
+    {
+      "name": "nexora-save-forward-compatibility",
+      "category": "Curated: nexora-data-contracts",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-save-forward-compatibility/SKILL.md"
+    },
+    {
+      "name": "nexora-save-migration-rollback",
+      "category": "Curated: nexora-data-contracts",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-save-migration-rollback/SKILL.md"
+    },
+    {
+      "name": "nexora-world-edit-conflict-resolution",
+      "category": "Curated: nexora-data-contracts",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-world-edit-conflict-resolution/SKILL.md"
+    },
+    {
+      "name": "nexora-world-region-compaction",
+      "category": "Curated: nexora-data-contracts",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-world-region-compaction/SKILL.md"
+    },
+    {
+      "name": "nexora-world-region-index-integrity",
+      "category": "Curated: nexora-data-contracts",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-world-region-index-integrity/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-guid-migration",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-asset-guid-migration/SKILL.md"
+    },
+    {
+      "name": "nexora-config-migration-idempotency",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-config-migration-idempotency/SKILL.md"
+    },
+    {
+      "name": "nexora-content-diff-review",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-content-diff-review/SKILL.md"
+    },
+    {
+      "name": "nexora-content-registry-migration",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-content-registry-migration/SKILL.md"
+    },
+    {
+      "name": "nexora-data-migration-dry-run",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-data-migration-dry-run/SKILL.md"
+    },
+    {
+      "name": "nexora-entity-component-schema-migration",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-entity-component-schema-migration/SKILL.md"
+    },
+    {
+      "name": "nexora-migration-observability",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-migration-observability/SKILL.md"
+    },
+    {
+      "name": "nexora-network-schema-evolution",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-network-schema-evolution/SKILL.md"
+    },
+    {
+      "name": "nexora-save-compatibility-fixture-policy",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-save-compatibility-fixture-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-schema-deprecation-window",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-schema-deprecation-window/SKILL.md"
+    },
+    {
+      "name": "nexora-debug-overlay-budget",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-debug-overlay-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-asset-preview-isolation",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-asset-preview-isolation/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-background-job-cancellation",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-background-job-cancellation/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-command-validation",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-command-validation/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-docking-layout-migration",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-docking-layout-migration/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-save-dirty-state",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-save-dirty-state/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-selection-identity",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-selection-identity/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-undo-transaction",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-undo-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-live-inspector-snapshot-safety",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-live-inspector-snapshot-safety/SKILL.md"
+    },
+    {
+      "name": "nexora-tooling-project-repro-manifest",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-tooling-project-repro-manifest/SKILL.md"
+    },
+    {
+      "name": "nexora-2500-skill-milestone-acceptance",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-2500-skill-milestone-acceptance/SKILL.md"
+    },
+    {
+      "name": "nexora-alpha-tester-build-checklist",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-alpha-tester-build-checklist/SKILL.md"
+    },
+    {
+      "name": "nexora-clean-room-build-verification",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-clean-room-build-verification/SKILL.md"
+    },
+    {
+      "name": "nexora-critical-path-smoke-gate",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-critical-path-smoke-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-dependency-license-release-gate",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-dependency-license-release-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-engine-known-limitations-register",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-engine-known-limitations-register/SKILL.md"
+    },
+    {
+      "name": "nexora-engine-readiness-review",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-engine-readiness-review/SKILL.md"
+    },
+    {
+      "name": "nexora-feature-flag-retirement-report",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-feature-flag-retirement-report/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-compatibility-release-blocker",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-mod-compatibility-release-blocker/SKILL.md"
+    },
+    {
+      "name": "nexora-observability-privacy-release-gate",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-observability-privacy-release-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-release-evidence-bundle",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-release-evidence-bundle/SKILL.md"
+    },
+    {
+      "name": "nexora-resource-budget-release-blocker",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-resource-budget-release-blocker/SKILL.md"
+    },
+    {
+      "name": "nexora-roadmap-completion-evidence",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-roadmap-completion-evidence/SKILL.md"
+    },
+    {
+      "name": "nexora-world-data-loss-release-blocker",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-world-data-loss-release-blocker/SKILL.md"
+    },
+    {
+      "name": "nexora-network-backpressure-policy",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-backpressure-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-network-clock-drift-correction",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-clock-drift-correction/SKILL.md"
+    },
+    {
+      "name": "nexora-network-desync-triage",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-desync-triage/SKILL.md"
+    },
+    {
+      "name": "nexora-network-entity-generation-guard",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-entity-generation-guard/SKILL.md"
+    },
+    {
+      "name": "nexora-network-input-rate-limiter",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-input-rate-limiter/SKILL.md"
+    },
+    {
+      "name": "nexora-network-interest-boundary-test",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-interest-boundary-test/SKILL.md"
+    },
+    {
+      "name": "nexora-network-protocol-version-gate",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-protocol-version-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-network-reliable-event-order",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-reliable-event-order/SKILL.md"
+    },
+    {
+      "name": "nexora-network-session-epoch-rotation",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-session-epoch-rotation/SKILL.md"
+    },
+    {
+      "name": "nexora-replication-delta-baseline",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-replication-delta-baseline/SKILL.md"
+    },
+    {
+      "name": "nexora-engine-recovery-drill",
+      "category": "Curated: nexora-operations-hardening",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-engine-recovery-drill/SKILL.md"
+    },
+    {
+      "name": "nexora-engine-safe-mode-contract",
+      "category": "Curated: nexora-operations-hardening",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-engine-safe-mode-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-feature-fallback-regression-suite",
+      "category": "Curated: nexora-operations-hardening",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-feature-fallback-regression-suite/SKILL.md"
+    },
+    {
+      "name": "nexora-incident-timeline-correlation",
+      "category": "Curated: nexora-operations-hardening",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-incident-timeline-correlation/SKILL.md"
+    },
+    {
+      "name": "nexora-runtime-invariant-monitor",
+      "category": "Curated: nexora-operations-hardening",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-runtime-invariant-monitor/SKILL.md"
+    },
+    {
+      "name": "nexora-save-repair-plan-approval",
+      "category": "Curated: nexora-operations-hardening",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-save-repair-plan-approval/SKILL.md"
+    },
+    {
+      "name": "nexora-world-load-admission",
+      "category": "Curated: nexora-operations-hardening",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-world-load-admission/SKILL.md"
+    },
+    {
+      "name": "nexora-world-recovery-priority",
+      "category": "Curated: nexora-operations-hardening",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-world-recovery-priority/SKILL.md"
+    },
+    {
+      "name": "nexora-world-save-quiescence-barrier",
+      "category": "Curated: nexora-operations-hardening",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-world-save-quiescence-barrier/SKILL.md"
+    },
+    {
+      "name": "nexora-world-session-ownership",
+      "category": "Curated: nexora-operations-hardening",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-world-session-ownership/SKILL.md"
+    },
+    {
+      "name": "nexora-allocation-hotpath-audit",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-allocation-hotpath-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-cache-eviction-policy",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-cache-eviction-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-frame-allocation-budget",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-frame-allocation-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-gpu-memory-pressure-policy",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-gpu-memory-pressure-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-lock-contention-profile",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-lock-contention-profile/SKILL.md"
+    },
+    {
+      "name": "nexora-memory-budget-admission",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-memory-budget-admission/SKILL.md"
+    },
+    {
+      "name": "nexora-memory-budget-attribution",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-memory-budget-attribution/SKILL.md"
+    },
+    {
+      "name": "nexora-memory-leak-lifecycle-test",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-memory-leak-lifecycle-test/SKILL.md"
+    },
+    {
+      "name": "nexora-task-priority-inversion-audit",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-task-priority-inversion-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-worker-pool-saturation",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-worker-pool-saturation/SKILL.md"
+    },
+    {
+      "name": "nexora-platform-audio-capability-profile",
+      "category": "Curated: nexora-platform-compatibility",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-audio-capability-profile/SKILL.md"
+    },
+    {
+      "name": "nexora-platform-clock-contract",
+      "category": "Curated: nexora-platform-compatibility",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-clock-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-platform-file-locking-contract",
+      "category": "Curated: nexora-platform-compatibility",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-file-locking-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-platform-filesystem-durability",
+      "category": "Curated: nexora-platform-compatibility",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-filesystem-durability/SKILL.md"
+    },
+    {
+      "name": "nexora-platform-gpu-capability-profile",
+      "category": "Curated: nexora-platform-compatibility",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-gpu-capability-profile/SKILL.md"
+    },
+    {
+      "name": "nexora-platform-path-canonicalization",
+      "category": "Curated: nexora-platform-compatibility",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-path-canonicalization/SKILL.md"
+    },
+    {
+      "name": "nexora-platform-path-length-fallback",
+      "category": "Curated: nexora-platform-compatibility",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-path-length-fallback/SKILL.md"
+    },
+    {
+      "name": "nexora-platform-resource-limit-detection",
+      "category": "Curated: nexora-platform-compatibility",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-resource-limit-detection/SKILL.md"
+    },
+    {
+      "name": "nexora-platform-runtime-smoke-matrix",
+      "category": "Curated: nexora-platform-compatibility",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-runtime-smoke-matrix/SKILL.md"
+    },
+    {
+      "name": "nexora-platform-threading-capability",
+      "category": "Curated: nexora-platform-compatibility",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-threading-capability/SKILL.md"
+    },
+    {
+      "name": "nexora-config-defaults-drift-audit",
+      "category": "Curated: nexora-release-operations",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-config-defaults-drift-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-engine-upgrade-smoke-suite",
+      "category": "Curated: nexora-release-operations",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-engine-upgrade-smoke-suite/SKILL.md"
+    },
+    {
+      "name": "nexora-feature-flag-removal-gate",
+      "category": "Curated: nexora-release-operations",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-feature-flag-removal-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-compatibility-test-lab",
+      "category": "Curated: nexora-release-operations",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-mod-compatibility-test-lab/SKILL.md"
+    },
+    {
+      "name": "nexora-release-artifact-integrity-check",
+      "category": "Curated: nexora-release-operations",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-release-artifact-integrity-check/SKILL.md"
+    },
+    {
+      "name": "nexora-release-candidate-gate",
+      "category": "Curated: nexora-release-operations",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-release-candidate-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-release-notes-contract",
+      "category": "Curated: nexora-release-operations",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-release-notes-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-release-rollback-plan",
+      "category": "Curated: nexora-release-operations",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-release-rollback-plan/SKILL.md"
+    },
+    {
+      "name": "nexora-upgrade-preflight-report",
+      "category": "Curated: nexora-release-operations",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-upgrade-preflight-report/SKILL.md"
+    },
+    {
+      "name": "nexora-world-format-support-matrix",
+      "category": "Curated: nexora-release-operations",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-world-format-support-matrix/SKILL.md"
+    },
+    {
+      "name": "nexora-crash-recovery-startup-gate",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-crash-recovery-startup-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-diagnostic-log-redaction",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-diagnostic-log-redaction/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-permission-audit",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-mod-permission-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-plugin-failure-containment",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-plugin-failure-containment/SKILL.md"
+    },
+    {
+      "name": "nexora-release-artifact-reproducibility",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-release-artifact-reproducibility/SKILL.md"
+    },
+    {
+      "name": "nexora-save-recovery-generation-select",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-save-recovery-generation-select/SKILL.md"
+    },
+    {
+      "name": "nexora-save-write-ordering",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-save-write-ordering/SKILL.md"
+    },
+    {
+      "name": "nexora-telemetry-cardinality-budget",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-telemetry-cardinality-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-untrusted-asset-parser-hardening",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-untrusted-asset-parser-hardening/SKILL.md"
+    },
+    {
+      "name": "nexora-world-save-checksum-contract",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-world-save-checksum-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-animation-lod-transition",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-animation-lod-transition/SKILL.md"
+    },
+    {
+      "name": "nexora-animation-pose-cache-invalidation",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-animation-pose-cache-invalidation/SKILL.md"
+    },
+    {
+      "name": "nexora-audio-device-loss-recovery",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-audio-device-loss-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-audio-spatialization-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-audio-spatialization-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-color-space-pipeline-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-color-space-pipeline-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-occlusion-query-latency-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-occlusion-query-latency-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-render-pass-state-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-pass-state-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-render-resolution-budget",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-resolution-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-render-target-resize-transaction",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-target-resize-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-temporal-history-invalidation",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-temporal-history-invalidation/SKILL.md"
+    },
+    {
+      "name": "nexora-background-task-deadline-policy",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-background-task-deadline-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-crash-dump-version-contract",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-crash-dump-version-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-device-loss-state-machine",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-device-loss-state-machine/SKILL.md"
+    },
+    {
+      "name": "nexora-engine-shutdown-order-audit",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-engine-shutdown-order-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-restartable-background-task",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-restartable-background-task/SKILL.md"
+    },
+    {
+      "name": "nexora-runtime-feature-degradation",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-runtime-feature-degradation/SKILL.md"
+    },
+    {
+      "name": "nexora-runtime-health-check-contract",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-runtime-health-check-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-service-level-objectives-engine",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-service-level-objectives-engine/SKILL.md"
+    },
+    {
+      "name": "nexora-structured-diagnostic-event",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-structured-diagnostic-event/SKILL.md"
+    },
+    {
+      "name": "nexora-watchdog-deadlock-diagnostics",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-watchdog-deadlock-diagnostics/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-content-addressing",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-asset-content-addressing/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-import-failure-isolation",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-asset-import-failure-isolation/SKILL.md"
+    },
+    {
+      "name": "nexora-async-shutdown-barrier",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-async-shutdown-barrier/SKILL.md"
+    },
+    {
+      "name": "nexora-config-transactional-reload",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-config-transactional-reload/SKILL.md"
+    },
+    {
+      "name": "nexora-crash-report-redaction",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-crash-report-redaction/SKILL.md"
+    },
+    {
+      "name": "nexora-cross-platform-filesystem-contract",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-cross-platform-filesystem-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-deterministic-tick-input-log",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-deterministic-tick-input-log/SKILL.md"
+    },
+    {
+      "name": "nexora-engine-startup-phase-gates",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-engine-startup-phase-gates/SKILL.md"
+    },
+    {
+      "name": "nexora-frame-pacing-budget",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-frame-pacing-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-gpu-resource-retirement",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-gpu-resource-retirement/SKILL.md"
+    },
+    {
+      "name": "nexora-gpu-upload-backpressure",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-gpu-upload-backpressure/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-capability-boundary",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-mod-capability-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-content-conflict-resolution",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-mod-content-conflict-resolution/SKILL.md"
+    },
+    {
+      "name": "nexora-render-graph-dependency-audit",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-render-graph-dependency-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-resource-handle-generation",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-resource-handle-generation/SKILL.md"
+    },
+    {
+      "name": "nexora-runtime-budget-regression",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-runtime-budget-regression/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-error-boundary-design",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-rust-error-boundary-design/SKILL.md"
+    },
+    {
+      "name": "nexora-save-corruption-quarantine",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-save-corruption-quarantine/SKILL.md"
+    },
+    {
+      "name": "nexora-shader-cache-key-contract",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-shader-cache-key-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-simulation-render-snapshot-boundary",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-simulation-render-snapshot-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-texture-streaming-priority",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-texture-streaming-priority/SKILL.md"
+    },
+    {
+      "name": "nexora-animation-root-motion-authority",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-animation-root-motion-authority/SKILL.md"
+    },
+    {
+      "name": "nexora-animation-skeleton-version-contract",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-animation-skeleton-version-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-audio-clock-synchronization",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-audio-clock-synchronization/SKILL.md"
+    },
+    {
+      "name": "nexora-audio-voice-budget",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-audio-voice-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-camera-origin-rebasing",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-camera-origin-rebasing/SKILL.md"
+    },
+    {
+      "name": "nexora-collision-shape-cache-identity",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-collision-shape-cache-identity/SKILL.md"
+    },
+    {
+      "name": "nexora-constraint-solver-stability",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-constraint-solver-stability/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-tick-profiler",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-gameplay-tick-profiler/SKILL.md"
+    },
+    {
+      "name": "nexora-physics-broadphase-budget",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-broadphase-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-physics-continuous-collision",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-continuous-collision/SKILL.md"
+    },
+    {
+      "name": "nexora-crate-dependency-direction",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-crate-dependency-direction/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-async-cancellation-safety",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-async-cancellation-safety/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-error-context-chain",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-error-context-chain/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-feature-flag-coherence",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-feature-flag-coherence/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-lock-poison-recovery",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-lock-poison-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-public-api-stability",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-public-api-stability/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-resource-ownership-ledger",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-resource-ownership-ledger/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-trait-object-boundary",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-trait-object-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-unsafe-block-audit",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-unsafe-block-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-workspace-release-gate",
+      "category": "Curated: nexora-rust-architecture",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-rust-architecture/nexora-rust-workspace-release-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-command-permission-matrix",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-command-permission-matrix/SKILL.md"
+    },
+    {
+      "name": "nexora-filesystem-sandbox-boundary",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-filesystem-sandbox-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-resource-quota",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-mod-resource-quota/SKILL.md"
+    },
+    {
+      "name": "nexora-network-egress-policy",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-network-egress-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-plugin-api-capability-audit",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-plugin-api-capability-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-remote-console-authentication",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-remote-console-authentication/SKILL.md"
+    },
+    {
+      "name": "nexora-secret-redaction-config-contract",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-secret-redaction-config-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-secure-update-manifest",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-secure-update-manifest/SKILL.md"
+    },
+    {
+      "name": "nexora-security-regression-corpus",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-security-regression-corpus/SKILL.md"
+    },
+    {
+      "name": "nexora-world-save-authenticity-boundary",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-world-save-authenticity-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-agent-tick-budget",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-ai-agent-tick-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-perception-query-budget",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-ai-perception-query-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-authoritative-combat-resolution",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-authoritative-combat-resolution/SKILL.md"
+    },
+    {
+      "name": "nexora-chunk-simulation-activation",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-chunk-simulation-activation/SKILL.md"
+    },
+    {
+      "name": "nexora-deterministic-event-ordering",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-deterministic-event-ordering/SKILL.md"
+    },
+    {
+      "name": "nexora-entity-component-ownership-audit",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-entity-component-ownership-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-entity-despawn-cascade",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-entity-despawn-cascade/SKILL.md"
+    },
+    {
+      "name": "nexora-fluid-simulation-stability",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-fluid-simulation-stability/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-data-schema-validation",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-gameplay-data-schema-validation/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-event-idempotency",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-gameplay-event-idempotency/SKILL.md"
+    },
+    {
+      "name": "nexora-large-world-coordinate-contract",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-large-world-coordinate-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-navmesh-invalidation-contract",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-navmesh-invalidation-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-network-message-size-contract",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-network-message-size-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-network-reconnect-state-machine",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-network-reconnect-state-machine/SKILL.md"
+    },
+    {
+      "name": "nexora-network-replication-interest",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-network-replication-interest/SKILL.md"
+    },
+    {
+      "name": "nexora-npc-behavior-state-contract",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-npc-behavior-state-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-npc-save-state-schema",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-npc-save-state-schema/SKILL.md"
+    },
+    {
+      "name": "nexora-pathfinding-open-set-safety",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-pathfinding-open-set-safety/SKILL.md"
+    },
+    {
+      "name": "nexora-physics-contact-lifecycle",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-physics-contact-lifecycle/SKILL.md"
+    },
+    {
+      "name": "nexora-physics-fixed-step-stability",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-physics-fixed-step-stability/SKILL.md"
+    },
+    {
+      "name": "nexora-replay-divergence-minimizer",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-replay-divergence-minimizer/SKILL.md"
+    },
+    {
+      "name": "nexora-scripted-gameplay-budget",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-scripted-gameplay-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-server-authority-validation",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-server-authority-validation/SKILL.md"
+    },
+    {
+      "name": "nexora-simulation-overload-degradation",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-simulation-overload-degradation/SKILL.md"
+    },
+    {
+      "name": "nexora-weather-time-authority",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-weather-time-authority/SKILL.md"
+    },
+    {
+      "name": "nexora-world-edit-command-transaction",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-world-edit-command-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-world-region-lock-order",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-world-region-lock-order/SKILL.md"
+    },
+    {
+      "name": "nexora-world-simulation-fixed-timestep",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-world-simulation-fixed-timestep/SKILL.md"
+    },
+    {
+      "name": "nexora-world-state-hash-contract",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-world-state-hash-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-worldgen-modifier-order",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-worldgen-modifier-order/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-navigation-reference-tests",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-ai-navigation-reference-tests/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-navigation-stuck-recovery",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-ai-navigation-stuck-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-combat-hitbox-consistency",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-combat-hitbox-consistency/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-balance-scenario-harness",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-balance-scenario-harness/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-regression-scenario-catalog",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-regression-scenario-catalog/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-simulation-replay-contract",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-simulation-replay-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-state-transition-audit",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-state-transition-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-item-progression-reachability",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-item-progression-reachability/SKILL.md"
+    },
+    {
+      "name": "nexora-world-event-scheduler-determinism",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-world-event-scheduler-determinism/SKILL.md"
+    },
+    {
+      "name": "nexora-world-interaction-reachability",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-world-interaction-reachability/SKILL.md"
+    },
+    {
+      "name": "nexora-api-compatibility-test-matrix",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-api-compatibility-test-matrix/SKILL.md"
+    },
+    {
+      "name": "nexora-ci-resource-budget",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-ci-resource-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-crash-repro-minimal-project",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-crash-repro-minimal-project/SKILL.md"
+    },
+    {
+      "name": "nexora-deterministic-regression-fixture",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-deterministic-regression-fixture/SKILL.md"
+    },
+    {
+      "name": "nexora-fuzz-parser-entrypoints",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-fuzz-parser-entrypoints/SKILL.md"
+    },
+    {
+      "name": "nexora-performance-benchmark-contract",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-performance-benchmark-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-property-test-world-invariants",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-property-test-world-invariants/SKILL.md"
+    },
+    {
+      "name": "nexora-static-analysis-gate",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-static-analysis-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-test-failure-classification",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-test-failure-classification/SKILL.md"
+    },
+    {
+      "name": "nexora-test-isolation-contract",
+      "category": "Curated: nexora-testing-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-test-isolation-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-save-lock-and-recovery",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-save-lock-and-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-world-backup-retention-policy",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-backup-retention-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-world-chunk-boundary-transaction",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-chunk-boundary-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-world-command-permission-recheck",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-command-permission-recheck/SKILL.md"
+    },
+    {
+      "name": "nexora-world-integrity-audit-report",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-integrity-audit-report/SKILL.md"
+    },
+    {
+      "name": "nexora-world-migration-cross-mod-validation",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-migration-cross-mod-validation/SKILL.md"
+    },
+    {
+      "name": "nexora-world-region-access-boundary",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-region-access-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-world-region-recovery-scan",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-region-recovery-scan/SKILL.md"
+    },
+    {
+      "name": "nexora-world-save-privacy-export",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-save-privacy-export/SKILL.md"
+    },
+    {
+      "name": "nexora-world-snapshot-consistency",
+      "category": "Curated: nexora-world-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-snapshot-consistency/SKILL.md"
+    },
+    {
+      "name": "nexora-chunk-lighting-propagation-budget",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-chunk-lighting-propagation-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-chunk-mesh-version-gate",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-chunk-mesh-version-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-chunk-priority-fairness",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-chunk-priority-fairness/SKILL.md"
+    },
+    {
+      "name": "nexora-chunk-streaming-hysteresis",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-chunk-streaming-hysteresis/SKILL.md"
+    },
+    {
+      "name": "nexora-streaming-io-backpressure",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-streaming-io-backpressure/SKILL.md"
+    },
+    {
+      "name": "nexora-worldgen-crash-reproduction",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-crash-reproduction/SKILL.md"
+    },
+    {
+      "name": "nexora-worldgen-density-boundary",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-density-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-worldgen-feature-reservation",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-feature-reservation/SKILL.md"
+    },
+    {
+      "name": "nexora-worldgen-seed-compatibility",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-seed-compatibility/SKILL.md"
+    },
+    {
+      "name": "nexora-worldgen-stage-contract",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-stage-contract/SKILL.md"
+    },
+    {
       "name": "api-contract-to-skill-spec",
       "category": "Curated: repository-to-skill-synthesis",
       "origin": "new-authored",
@@ -1655,6 +3425,66 @@
       "category": "Curated: repository-to-skill-synthesis",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/repository-to-skill-synthesis/upstream-license-provenance-gate/SKILL.md"
+    },
+    {
+      "name": "voxel-chunk-dirty-state-contract",
+      "category": "Curated: voxel-world-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-dirty-state-contract/SKILL.md"
+    },
+    {
+      "name": "voxel-chunk-eviction-safety",
+      "category": "Curated: voxel-world-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-eviction-safety/SKILL.md"
+    },
+    {
+      "name": "voxel-chunk-job-deduplication",
+      "category": "Curated: voxel-world-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-job-deduplication/SKILL.md"
+    },
+    {
+      "name": "voxel-chunk-streaming-budget",
+      "category": "Curated: voxel-world-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-chunk-streaming-budget/SKILL.md"
+    },
+    {
+      "name": "voxel-neighbor-boundary-meshing",
+      "category": "Curated: voxel-world-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-neighbor-boundary-meshing/SKILL.md"
+    },
+    {
+      "name": "voxel-region-save-transaction",
+      "category": "Curated: voxel-world-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-region-save-transaction/SKILL.md"
+    },
+    {
+      "name": "voxel-save-format-versioning",
+      "category": "Curated: voxel-world-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-save-format-versioning/SKILL.md"
+    },
+    {
+      "name": "voxel-world-coordinate-safety",
+      "category": "Curated: voxel-world-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-world-coordinate-safety/SKILL.md"
+    },
+    {
+      "name": "voxel-worldgen-property-tests",
+      "category": "Curated: voxel-world-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-worldgen-property-tests/SKILL.md"
+    },
+    {
+      "name": "voxel-worldgen-seed-determinism",
+      "category": "Curated: voxel-world-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/voxel-worldgen-seed-determinism/SKILL.md"
     },
     {
       "name": "cli-config-precedence-resolution",
@@ -1969,10 +3799,76 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-allocator-tracking/SKILL.md"
     },
     {
+      "name": "engine-animation-additive-space-validation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-additive-space-validation/SKILL.md"
+    },
+    {
+      "name": "engine-animation-compression-error-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-compression-error-budget/SKILL.md"
+    },
+    {
+      "name": "engine-animation-event-idempotency",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-event-idempotency/SKILL.md"
+    },
+    {
+      "name": "engine-animation-notify-authority-boundary",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-notify-authority-boundary/SKILL.md"
+    },
+    {
+      "name": "engine-animation-pose-cache-invalidation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-pose-cache-invalidation/SKILL.md"
+    },
+    {
+      "name": "engine-animation-retarget-versioning",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-retarget-versioning/SKILL.md"
+    },
+    {
+      "name": "engine-animation-root-motion-authority",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-root-motion-authority/SKILL.md"
+    },
+    {
+      "name": "engine-animation-skeleton-retarget-contract",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-skeleton-retarget-contract/SKILL.md"
+    },
+    {
+      "name": "engine-animation-state-transition-coverage",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-state-transition-coverage/SKILL.md"
+    },
+    {
       "name": "engine-architecture-adr",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-architecture-adr/SKILL.md"
+    },
+    {
+      "name": "engine-asset-bundle-boundary-analysis",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-bundle-boundary-analysis/SKILL.md"
+    },
+    {
+      "name": "engine-asset-dependency-cycle-diagnostics",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-dependency-cycle-diagnostics/SKILL.md"
     },
     {
       "name": "engine-asset-hot-reload",
@@ -1987,10 +3883,28 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-asset-import-cache-invalidation/SKILL.md"
     },
     {
+      "name": "engine-asset-memory-mapped-lifetime",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-memory-mapped-lifetime/SKILL.md"
+    },
+    {
+      "name": "engine-asset-package-delta-integrity",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-package-delta-integrity/SKILL.md"
+    },
+    {
       "name": "engine-asset-path-case-sensitivity-audit",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-asset-path-case-sensitivity-audit/SKILL.md"
+    },
+    {
+      "name": "engine-asset-remote-cache-integrity",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-remote-cache-integrity/SKILL.md"
     },
     {
       "name": "engine-asset-streaming-budget",
@@ -1999,16 +3913,82 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-asset-streaming-budget/SKILL.md"
     },
     {
+      "name": "engine-asset-variant-selection-determinism",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-variant-selection-determinism/SKILL.md"
+    },
+    {
       "name": "engine-async-resource-ownership-transfer",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-async-resource-ownership-transfer/SKILL.md"
     },
     {
+      "name": "engine-audio-device-switch-recovery",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-device-switch-recovery/SKILL.md"
+    },
+    {
+      "name": "engine-audio-dsp-graph-cycle-detection",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-dsp-graph-cycle-detection/SKILL.md"
+    },
+    {
+      "name": "engine-audio-latency-loopback-calibration",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-latency-loopback-calibration/SKILL.md"
+    },
+    {
+      "name": "engine-audio-loudness-peak-validation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-loudness-peak-validation/SKILL.md"
+    },
+    {
+      "name": "engine-audio-mix-snapshot-transition",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-mix-snapshot-transition/SKILL.md"
+    },
+    {
       "name": "engine-audio-mixer-latency-budget",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-audio-mixer-latency-budget/SKILL.md"
+    },
+    {
+      "name": "engine-audio-occlusion-update-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-occlusion-update-budget/SKILL.md"
+    },
+    {
+      "name": "engine-audio-reverb-zone-boundary",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-reverb-zone-boundary/SKILL.md"
+    },
+    {
+      "name": "engine-audio-spatialization-coordinate-contract",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-spatialization-coordinate-contract/SKILL.md"
+    },
+    {
+      "name": "engine-audio-streaming-seek-accuracy",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-streaming-seek-accuracy/SKILL.md"
+    },
+    {
+      "name": "engine-audio-voice-stealing-policy",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-voice-stealing-policy/SKILL.md"
     },
     {
       "name": "engine-background-io-batching",
@@ -2111,6 +4091,66 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-ecs-query-plan-audit/SKILL.md"
+    },
+    {
+      "name": "engine-editor-asset-import-transaction",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-asset-import-transaction/SKILL.md"
+    },
+    {
+      "name": "engine-editor-asset-reference-rename",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-asset-reference-rename/SKILL.md"
+    },
+    {
+      "name": "engine-editor-automation-command-contract",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-automation-command-contract/SKILL.md"
+    },
+    {
+      "name": "engine-editor-command-undo-atomicity",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-command-undo-atomicity/SKILL.md"
+    },
+    {
+      "name": "engine-editor-dirty-state-propagation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-dirty-state-propagation/SKILL.md"
+    },
+    {
+      "name": "engine-editor-dock-layout-recovery",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-dock-layout-recovery/SKILL.md"
+    },
+    {
+      "name": "engine-editor-gizmo-coordinate-space-contract",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-gizmo-coordinate-space-contract/SKILL.md"
+    },
+    {
+      "name": "engine-editor-multiselection-transform-consistency",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-multiselection-transform-consistency/SKILL.md"
+    },
+    {
+      "name": "engine-editor-playmode-isolation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-playmode-isolation/SKILL.md"
+    },
+    {
+      "name": "engine-editor-selection-stability",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-selection-stability/SKILL.md"
     },
     {
       "name": "engine-editor-undo-redo-transaction",
@@ -2251,10 +4291,130 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-mod-api-semver-compatibility/SKILL.md"
     },
     {
+      "name": "engine-network-backpressure-per-peer",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-backpressure-per-peer/SKILL.md"
+    },
+    {
+      "name": "engine-network-clock-offset-estimation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-clock-offset-estimation/SKILL.md"
+    },
+    {
+      "name": "engine-network-entity-id-reuse-window",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-entity-id-reuse-window/SKILL.md"
+    },
+    {
+      "name": "engine-network-interest-management-stability",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-interest-management-stability/SKILL.md"
+    },
+    {
+      "name": "engine-network-message-schema-evolution",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-message-schema-evolution/SKILL.md"
+    },
+    {
+      "name": "engine-network-packet-budget-contract",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-packet-budget-contract/SKILL.md"
+    },
+    {
+      "name": "engine-network-prediction-correction-smoothing",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-prediction-correction-smoothing/SKILL.md"
+    },
+    {
+      "name": "engine-network-reconnect-state-reconciliation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-reconnect-state-reconciliation/SKILL.md"
+    },
+    {
+      "name": "engine-network-session-join-rollback",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-session-join-rollback/SKILL.md"
+    },
+    {
+      "name": "engine-network-snapshot-delta-baseline",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-snapshot-delta-baseline/SKILL.md"
+    },
+    {
       "name": "engine-performance-benchmarking",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-performance-benchmarking/SKILL.md"
+    },
+    {
+      "name": "engine-physics-ccd-threshold-calibration",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-ccd-threshold-calibration/SKILL.md"
+    },
+    {
+      "name": "engine-physics-contact-manifold-stability",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-contact-manifold-stability/SKILL.md"
+    },
+    {
+      "name": "engine-physics-deterministic-query-order",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-deterministic-query-order/SKILL.md"
+    },
+    {
+      "name": "engine-physics-joint-breakage-recovery",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-joint-breakage-recovery/SKILL.md"
+    },
+    {
+      "name": "engine-physics-material-combination-contract",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-material-combination-contract/SKILL.md"
+    },
+    {
+      "name": "engine-physics-origin-shift-invariants",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-origin-shift-invariants/SKILL.md"
+    },
+    {
+      "name": "engine-physics-query-filter-versioning",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-query-filter-versioning/SKILL.md"
+    },
+    {
+      "name": "engine-physics-shape-cooking-cache",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-shape-cooking-cache/SKILL.md"
+    },
+    {
+      "name": "engine-physics-sleep-wake-transition-audit",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-sleep-wake-transition-audit/SKILL.md"
+    },
+    {
+      "name": "engine-physics-trigger-overlap-deduplication",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-trigger-overlap-deduplication/SKILL.md"
     },
     {
       "name": "engine-platform-capability-matrix",
@@ -2339,6 +4499,96 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-render-upload-thread-boundary/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-bindless-resource-fallback",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-bindless-resource-fallback/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-color-pipeline-contract",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-color-pipeline-contract/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-depth-reconstruction-audit",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-depth-reconstruction-audit/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-descriptor-pool-exhaustion",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-descriptor-pool-exhaustion/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-device-capability-cache",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-device-capability-cache/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-framegraph-alias-lifetime-proof",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-framegraph-alias-lifetime-proof/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-gpu-timestamp-query-pooling",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-gpu-timestamp-query-pooling/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-hdr-metadata-validation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-hdr-metadata-validation/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-motion-vector-convention",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-motion-vector-convention/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-multiqueue-dependency-audit",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-multiqueue-dependency-audit/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-pipeline-cache-corruption-recovery",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-pipeline-cache-corruption-recovery/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-residency-feedback-loop",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-residency-feedback-loop/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-shader-permutation-pruning",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-shader-permutation-pruning/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-swapchain-recreation-atomicity",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-swapchain-recreation-atomicity/SKILL.md"
+    },
+    {
+      "name": "engine-renderer-temporal-history-validity",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-temporal-history-validity/SKILL.md"
     },
     {
       "name": "engine-resource-budget-overcommit-detection",
@@ -2485,6 +4735,66 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-script-time-budget-enforcement/SKILL.md"
     },
     {
+      "name": "engine-scripting-api-capability-sandbox",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-api-capability-sandbox/SKILL.md"
+    },
+    {
+      "name": "engine-scripting-async-task-lifetime",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-async-task-lifetime/SKILL.md"
+    },
+    {
+      "name": "engine-scripting-debugger-pause-consistency",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-debugger-pause-consistency/SKILL.md"
+    },
+    {
+      "name": "engine-scripting-deterministic-number-policy",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-deterministic-number-policy/SKILL.md"
+    },
+    {
+      "name": "engine-scripting-exception-containment",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-exception-containment/SKILL.md"
+    },
+    {
+      "name": "engine-scripting-hot-reload-state-migration",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-hot-reload-state-migration/SKILL.md"
+    },
+    {
+      "name": "engine-scripting-mod-api-deprecation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-mod-api-deprecation/SKILL.md"
+    },
+    {
+      "name": "engine-scripting-module-unload-safety",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-module-unload-safety/SKILL.md"
+    },
+    {
+      "name": "engine-scripting-reflection-schema-stability",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-reflection-schema-stability/SKILL.md"
+    },
+    {
+      "name": "engine-scripting-vm-gc-pause-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-vm-gc-pause-budget/SKILL.md"
+    },
+    {
       "name": "engine-shader-reflection-layout-contract",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
@@ -2513,6 +4823,12 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-simulation-step-replay-determinism/SKILL.md"
+    },
+    {
+      "name": "engine-skeletal-lod-deformation-parity",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-skeletal-lod-deformation-parity/SKILL.md"
     },
     {
       "name": "engine-sound-event-lifetime-audit",
@@ -2599,16 +4915,76 @@
       "source_path": "curated-skill-sources/engine-runtime/engine-tick-phase-order-audit/SKILL.md"
     },
     {
+      "name": "engine-voxel-block-entity-lifecycle",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-block-entity-lifecycle/SKILL.md"
+    },
+    {
+      "name": "engine-voxel-chunk-save-version-contract",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-chunk-save-version-contract/SKILL.md"
+    },
+    {
       "name": "engine-voxel-edit-transaction-rollback",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-voxel-edit-transaction-rollback/SKILL.md"
     },
     {
+      "name": "engine-voxel-fluid-surface-reconstruction",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-fluid-surface-reconstruction/SKILL.md"
+    },
+    {
+      "name": "engine-voxel-greedy-mesh-material-boundary",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-greedy-mesh-material-boundary/SKILL.md"
+    },
+    {
+      "name": "engine-voxel-light-propagation-invalidation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-light-propagation-invalidation/SKILL.md"
+    },
+    {
       "name": "engine-voxel-mesh-cache-versioning",
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-voxel-mesh-cache-versioning/SKILL.md"
+    },
+    {
+      "name": "engine-voxel-mesh-incremental-rebuild-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-mesh-incremental-rebuild-budget/SKILL.md"
+    },
+    {
+      "name": "engine-voxel-mesh-lod-transition-continuity",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-mesh-lod-transition-continuity/SKILL.md"
+    },
+    {
+      "name": "engine-voxel-meshing-face-ownership",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-meshing-face-ownership/SKILL.md"
+    },
+    {
+      "name": "engine-voxel-region-lock-granularity",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-region-lock-granularity/SKILL.md"
+    },
+    {
+      "name": "engine-voxel-transparency-sort-policy",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-transparency-sort-policy/SKILL.md"
     },
     {
       "name": "engine-work-stealing-fairness",
@@ -2639,6 +5015,60 @@
       "category": "Engine architecture & runtime",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/engine-runtime/engine-world-state-replay-boundary/SKILL.md"
+    },
+    {
+      "name": "engine-worldgen-biome-boundary-continuity",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-biome-boundary-continuity/SKILL.md"
+    },
+    {
+      "name": "engine-worldgen-coordinate-overflow-proof",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-coordinate-overflow-proof/SKILL.md"
+    },
+    {
+      "name": "engine-worldgen-cross-version-seed-compatibility",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-cross-version-seed-compatibility/SKILL.md"
+    },
+    {
+      "name": "engine-worldgen-decoration-idempotency",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-decoration-idempotency/SKILL.md"
+    },
+    {
+      "name": "engine-worldgen-density-function-unit-contract",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-density-function-unit-contract/SKILL.md"
+    },
+    {
+      "name": "engine-worldgen-feature-density-budget",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-feature-density-budget/SKILL.md"
+    },
+    {
+      "name": "engine-worldgen-generation-order-independence",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-generation-order-independence/SKILL.md"
+    },
+    {
+      "name": "engine-worldgen-parallel-rng-isolation",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-parallel-rng-isolation/SKILL.md"
+    },
+    {
+      "name": "engine-worldgen-structure-claim-ownership",
+      "category": "Engine architecture & runtime",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-structure-claim-ownership/SKILL.md"
     },
     {
       "name": "game-mod-api-versioning",
@@ -9637,10 +12067,64 @@
       "source_path": null
     },
     {
+      "name": "async-task-cancellation-contract",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/async-task-cancellation-contract/SKILL.md"
+    },
+    {
+      "name": "ecs-system-order-determinism",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/ecs-system-order-determinism/SKILL.md"
+    },
+    {
+      "name": "engine-config-schema-migration",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-config-schema-migration/SKILL.md"
+    },
+    {
+      "name": "engine-plugin-api-version-gate",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-plugin-api-version-gate/SKILL.md"
+    },
+    {
+      "name": "engine-resource-lifetime-ledger",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-resource-lifetime-ledger/SKILL.md"
+    },
+    {
+      "name": "engine-runtime-budget-enforcement",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-runtime-budget-enforcement/SKILL.md"
+    },
+    {
+      "name": "engine-startup-shutdown-order-audit",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/engine-startup-shutdown-order-audit/SKILL.md"
+    },
+    {
       "name": "native-wasm-behavior-parity",
       "category": "Rust & platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/rust-platform-engineering/native-wasm-behavior-parity/SKILL.md"
+    },
+    {
+      "name": "nexora-crate-boundary-audit",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/nexora-crate-boundary-audit/SKILL.md"
+    },
+    {
+      "name": "plugin-capability-permission-manifest",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/plugin-capability-permission-manifest/SKILL.md"
     },
     {
       "name": "rust-allocation-hotspot-benchmark",
@@ -9899,6 +12383,12 @@
       "category": "Rust & platform engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/rust-platform-engineering/rust-feature-flag-compilation-matrix/SKILL.md"
+    },
+    {
+      "name": "rust-feature-matrix-contract",
+      "category": "Rust & platform engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/rust-platform-engineering/rust-feature-matrix-contract/SKILL.md"
     },
     {
       "name": "rust-ffi-buffer-ownership-contract",

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2376,
+  "long_term_target": 2500,
+  "authored_count": 2215,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-filesystem-sandbox-boundary",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-filesystem-sandbox-boundary/SKILL.md",
+      "category": "Curated: nexora-security-boundaries"
+    },
+    {
+      "name": "nexora-network-egress-policy",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-network-egress-policy/SKILL.md",
+      "category": "Curated: nexora-security-boundaries"
+    },
+    {
+      "name": "nexora-mod-resource-quota",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-mod-resource-quota/SKILL.md",
+      "category": "Curated: nexora-security-boundaries"
+    },
+    {
+      "name": "nexora-command-permission-matrix",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-command-permission-matrix/SKILL.md",
+      "category": "Curated: nexora-security-boundaries"
+    },
+    {
+      "name": "nexora-plugin-api-capability-audit",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-plugin-api-capability-audit/SKILL.md",
+      "category": "Curated: nexora-security-boundaries"
+    },
+    {
+      "name": "nexora-world-save-authenticity-boundary",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-world-save-authenticity-boundary/SKILL.md",
+      "category": "Curated: nexora-security-boundaries"
+    },
+    {
+      "name": "nexora-secure-update-manifest",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-secure-update-manifest/SKILL.md",
+      "category": "Curated: nexora-security-boundaries"
+    },
+    {
+      "name": "nexora-secret-redaction-config-contract",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-secret-redaction-config-contract/SKILL.md",
+      "category": "Curated: nexora-security-boundaries"
+    },
+    {
+      "name": "nexora-remote-console-authentication",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-remote-console-authentication/SKILL.md",
+      "category": "Curated: nexora-security-boundaries"
+    },
+    {
+      "name": "nexora-security-regression-corpus",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-security-regression-corpus/SKILL.md",
+      "category": "Curated: nexora-security-boundaries"
+    }
+  ]
+}

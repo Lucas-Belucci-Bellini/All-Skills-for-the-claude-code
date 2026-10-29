@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2276,
+  "long_term_target": 2500,
+  "authored_count": 2115,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-asset-import-dependency-graph",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-asset-import-dependency-graph/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-texture-atlas-fragmentation",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-atlas-fragmentation/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-material-schema-versioning",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-material-schema-versioning/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-hot-reload-generation-swap",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-hot-reload-generation-swap/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-content-provenance-manifest",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-content-provenance-manifest/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-mod-dependency-resolution",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-mod-dependency-resolution/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-mod-api-compatibility-gate",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-mod-api-compatibility-gate/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-content-registry-atomic-publication",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-content-registry-atomic-publication/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-asset-budget-admission",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-asset-budget-admission/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-shader-reflection-contract",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-shader-reflection-contract/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    }
+  ]
+}

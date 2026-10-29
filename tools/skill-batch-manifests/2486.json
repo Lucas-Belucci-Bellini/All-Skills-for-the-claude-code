@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2486,
+  "long_term_target": 2500,
+  "authored_count": 2335,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-world-load-admission",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-world-load-admission/SKILL.md",
+      "category": "Curated: nexora-operations-hardening"
+    },
+    {
+      "name": "nexora-world-session-ownership",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-world-session-ownership/SKILL.md",
+      "category": "Curated: nexora-operations-hardening"
+    },
+    {
+      "name": "nexora-world-save-quiescence-barrier",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-world-save-quiescence-barrier/SKILL.md",
+      "category": "Curated: nexora-operations-hardening"
+    },
+    {
+      "name": "nexora-save-repair-plan-approval",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-save-repair-plan-approval/SKILL.md",
+      "category": "Curated: nexora-operations-hardening"
+    },
+    {
+      "name": "nexora-world-recovery-priority",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-world-recovery-priority/SKILL.md",
+      "category": "Curated: nexora-operations-hardening"
+    },
+    {
+      "name": "nexora-engine-safe-mode-contract",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-engine-safe-mode-contract/SKILL.md",
+      "category": "Curated: nexora-operations-hardening"
+    },
+    {
+      "name": "nexora-incident-timeline-correlation",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-incident-timeline-correlation/SKILL.md",
+      "category": "Curated: nexora-operations-hardening"
+    },
+    {
+      "name": "nexora-runtime-invariant-monitor",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-runtime-invariant-monitor/SKILL.md",
+      "category": "Curated: nexora-operations-hardening"
+    },
+    {
+      "name": "nexora-engine-recovery-drill",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-engine-recovery-drill/SKILL.md",
+      "category": "Curated: nexora-operations-hardening"
+    },
+    {
+      "name": "nexora-feature-fallback-regression-suite",
+      "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-feature-fallback-regression-suite/SKILL.md",
+      "category": "Curated: nexora-operations-hardening"
+    }
+  ]
+}

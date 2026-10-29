@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "batch_size": 14,
+  "milestone_total": 2500,
+  "long_term_target": 2500,
+  "authored_count": 2339,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-engine-readiness-review",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-engine-readiness-review/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-alpha-tester-build-checklist",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-alpha-tester-build-checklist/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-critical-path-smoke-gate",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-critical-path-smoke-gate/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-world-data-loss-release-blocker",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-world-data-loss-release-blocker/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-resource-budget-release-blocker",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-resource-budget-release-blocker/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-mod-compatibility-release-blocker",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-mod-compatibility-release-blocker/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-observability-privacy-release-gate",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-observability-privacy-release-gate/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-feature-flag-retirement-report",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-feature-flag-retirement-report/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-dependency-license-release-gate",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-dependency-license-release-gate/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-clean-room-build-verification",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-clean-room-build-verification/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-engine-known-limitations-register",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-engine-known-limitations-register/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-release-evidence-bundle",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-release-evidence-bundle/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-roadmap-completion-evidence",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-roadmap-completion-evidence/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    },
+    {
+      "name": "nexora-2500-skill-milestone-acceptance",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-2500-skill-milestone-acceptance/SKILL.md",
+      "category": "Curated: nexora-final-acceptance"
+    }
+  ]
+}

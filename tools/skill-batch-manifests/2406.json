@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2406,
+  "long_term_target": 2500,
+  "authored_count": 2245,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-content-registry-migration",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-content-registry-migration/SKILL.md",
+      "category": "Curated: nexora-data-migration"
+    },
+    {
+      "name": "nexora-entity-component-schema-migration",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-entity-component-schema-migration/SKILL.md",
+      "category": "Curated: nexora-data-migration"
+    },
+    {
+      "name": "nexora-network-schema-evolution",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-network-schema-evolution/SKILL.md",
+      "category": "Curated: nexora-data-migration"
+    },
+    {
+      "name": "nexora-config-migration-idempotency",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-config-migration-idempotency/SKILL.md",
+      "category": "Curated: nexora-data-migration"
+    },
+    {
+      "name": "nexora-asset-guid-migration",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-asset-guid-migration/SKILL.md",
+      "category": "Curated: nexora-data-migration"
+    },
+    {
+      "name": "nexora-save-compatibility-fixture-policy",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-save-compatibility-fixture-policy/SKILL.md",
+      "category": "Curated: nexora-data-migration"
+    },
+    {
+      "name": "nexora-content-diff-review",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-content-diff-review/SKILL.md",
+      "category": "Curated: nexora-data-migration"
+    },
+    {
+      "name": "nexora-migration-observability",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-migration-observability/SKILL.md",
+      "category": "Curated: nexora-data-migration"
+    },
+    {
+      "name": "nexora-schema-deprecation-window",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-schema-deprecation-window/SKILL.md",
+      "category": "Curated: nexora-data-migration"
+    },
+    {
+      "name": "nexora-data-migration-dry-run",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-data-migration-dry-run/SKILL.md",
+      "category": "Curated: nexora-data-migration"
+    }
+  ]
+}

@@ -10,8 +10,8 @@
     {
       "name": "all-skills-collection",
       "source": "./plugins/all-skills-collection",
-      "description": "Install the unified collection of 2085 distinct skills with skill-local supporting files.",
-      "version": "2.1.18",
+      "description": "Install the unified collection of 2500 distinct skills with skill-local supporting files.",
+      "version": "2.1.21",
       "category": "development"
     },
     {
@@ -19,6 +19,20 @@
       "source": "./plugins/skill-library-maintainer",
       "description": "Audit, organize, deduplicate and update the skill library, then prepare reviewed pull requests.",
       "version": "1.1.0",
+      "category": "development"
+    },
+    {
+      "name": "agent-orchestration-workbench",
+      "source": "./plugins/agent-orchestration-workbench",
+      "description": "Specialized subagents for multi-agent architecture, deterministic testing, reliability review, security audit, incident triage, and evaluation design.",
+      "version": "0.1.0",
+      "category": "development"
+    },
+    {
+      "name": "artifact-analysis-workbench",
+      "source": "./plugins/artifact-analysis-workbench",
+      "description": "Repository-to-skill synthesis: source inventory, capability mining, provenance, semantic deduplication, routing evaluation, and release gates.",
+      "version": "0.2.0",
       "category": "development"
     }
   ]

@@ -216,3 +216,15 @@ A Git-tree SHA comparison found candidate source paths for all **161** imported 
 - **REA companion pack:** `REA-50-Skills-Claude-Code/NOTICE.txt` and `README-PT-BR.md` identify `https://github.com/morluto/rea` as the upstream REA project and explicitly say the 50 companion skills are community-authored, not official or endorsed. The notice does not itself grant a license to the REA engine, and the package does not currently declare an explicit license for the 50 companion instruction files; confirm their intended license before distribution.
 - **REA agent skills pack:** two parallel directories contain the same four skill names and matching copies. Their README points to `https://github.com/Lucas-Belucci-Bellini/rea`; no nested `LICENSE` file was found in either copy. Confirm the canonical directory and intended license, then remove or document the duplicate only with an approved change.
 - **Remaining local skills:** the `.agents/skills` source family and any other retained entries still need a clear author/upstream record and applicable license decision. Do not infer that the repository root license automatically overrides a third-party notice.
+
+## Full content comparison for agentic gamedev source family
+
+Compared all **35** `SKILL.md` files across the six `abagames/agentic-gamedev-skills` package directories with upstream `main` at `4ed8d751d08b5c1be14ccca02ce0b9a9bea60593`, normalizing only CRLF/LF line endings. Thirty-three files were already content-identical. I refreshed the two stale local files from that exact upstream revision and copied the two supporting references they require:
+- `one-button-game-builder/skills/evaluating-gameplay-balance/SKILL.md`
+- `one-button-game-builder/skills/refining-game-prototypes/SKILL.md`
+- `one-button-game-builder/skills/refining-game-prototypes/references/blind-spot-checks.md`
+- `one-button-game-builder/skills/refining-game-prototypes/references/play-input.md`
+
+The canonical source and generated bundle copies were updated together. The local `one-button-game-builder/LICENSE` is MIT, matching the upstream package's license family. This resolves the content drift found in those two skills, but the broader imported-source audit and the separate proprietary `claude-security` restriction remain open.
+
+**REA license distinction:** the upstream `morluto/rea` repository currently has an MIT `LICENSE`. That license clearly applies to the REA repository's software/documentation under its terms; it should not automatically be assumed to license the separately authored 50 companion skill files in `REA-50-Skills-Claude-Code`. The companion pack has a `NOTICE.txt` but no package-local `LICENSE`; confirm the intended license for those instruction files and preserve the notice before distribution.

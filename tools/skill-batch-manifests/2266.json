@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2266,
+  "long_term_target": 2500,
+  "authored_count": 2105,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-physics-continuous-collision",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-continuous-collision/SKILL.md",
+      "category": "Curated: nexora-runtime-systems"
+    },
+    {
+      "name": "nexora-physics-broadphase-budget",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-broadphase-budget/SKILL.md",
+      "category": "Curated: nexora-runtime-systems"
+    },
+    {
+      "name": "nexora-constraint-solver-stability",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-constraint-solver-stability/SKILL.md",
+      "category": "Curated: nexora-runtime-systems"
+    },
+    {
+      "name": "nexora-audio-voice-budget",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-audio-voice-budget/SKILL.md",
+      "category": "Curated: nexora-runtime-systems"
+    },
+    {
+      "name": "nexora-audio-clock-synchronization",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-audio-clock-synchronization/SKILL.md",
+      "category": "Curated: nexora-runtime-systems"
+    },
+    {
+      "name": "nexora-animation-skeleton-version-contract",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-animation-skeleton-version-contract/SKILL.md",
+      "category": "Curated: nexora-runtime-systems"
+    },
+    {
+      "name": "nexora-animation-root-motion-authority",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-animation-root-motion-authority/SKILL.md",
+      "category": "Curated: nexora-runtime-systems"
+    },
+    {
+      "name": "nexora-camera-origin-rebasing",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-camera-origin-rebasing/SKILL.md",
+      "category": "Curated: nexora-runtime-systems"
+    },
+    {
+      "name": "nexora-collision-shape-cache-identity",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-collision-shape-cache-identity/SKILL.md",
+      "category": "Curated: nexora-runtime-systems"
+    },
+    {
+      "name": "nexora-gameplay-tick-profiler",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-gameplay-tick-profiler/SKILL.md",
+      "category": "Curated: nexora-runtime-systems"
+    }
+  ]
+}

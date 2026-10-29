@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2416,
+  "long_term_target": 2500,
+  "authored_count": 2255,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-build-graph-incrementality",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-graph-incrementality/SKILL.md",
+      "category": "Curated: nexora-build-automation"
+    },
+    {
+      "name": "nexora-generated-code-determinism",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-generated-code-determinism/SKILL.md",
+      "category": "Curated: nexora-build-automation"
+    },
+    {
+      "name": "nexora-build-cache-trust-boundary",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-cache-trust-boundary/SKILL.md",
+      "category": "Curated: nexora-build-automation"
+    },
+    {
+      "name": "nexora-cross-target-compile-matrix",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-cross-target-compile-matrix/SKILL.md",
+      "category": "Curated: nexora-build-automation"
+    },
+    {
+      "name": "nexora-dependency-upgrade-impact",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-dependency-upgrade-impact/SKILL.md",
+      "category": "Curated: nexora-build-automation"
+    },
+    {
+      "name": "nexora-build-feature-provenance",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-feature-provenance/SKILL.md",
+      "category": "Curated: nexora-build-automation"
+    },
+    {
+      "name": "nexora-ci-change-impact-selection",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-ci-change-impact-selection/SKILL.md",
+      "category": "Curated: nexora-build-automation"
+    },
+    {
+      "name": "nexora-benchmark-baseline-refresh",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-benchmark-baseline-refresh/SKILL.md",
+      "category": "Curated: nexora-build-automation"
+    },
+    {
+      "name": "nexora-release-channel-policy",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-release-channel-policy/SKILL.md",
+      "category": "Curated: nexora-build-automation"
+    },
+    {
+      "name": "nexora-build-failure-minimizer",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-failure-minimizer/SKILL.md",
+      "category": "Curated: nexora-build-automation"
+    }
+  ]
+}

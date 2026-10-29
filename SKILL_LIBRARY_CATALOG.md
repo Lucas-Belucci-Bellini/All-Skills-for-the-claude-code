@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
+Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **161**
-- Original curated skills: **1924**
-- Current total: **2085**
+- Original curated skills: **2339**
+- Current total: **2500**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **415**
+- Remaining to long-term target: **0**
 
 ## Categories
 
@@ -284,6 +284,379 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - skill-registry-tenant-separation-tests — NEW
 - tool-call-budget-policy — NEW
 
+### Curated: nexora-ai-tooling (10)
+
+- nexora-ai-action-validation-gate — NEW
+- nexora-ai-behavior-tree-bounded-tick — NEW
+- nexora-ai-generated-content-validation — NEW
+- nexora-ai-navigation-intent-contract — NEW
+- nexora-ai-npc-memory-retention — NEW
+- nexora-ai-observability-redaction — NEW
+- nexora-ai-planner-failure-classification — NEW
+- nexora-ai-planner-world-snapshot — NEW
+- nexora-ai-planning-determinism-boundary — NEW
+- nexora-ai-tool-budget-contract — NEW
+
+### Curated: nexora-assets-validation (10)
+
+- nexora-animation-clip-time-contract — NEW
+- nexora-asset-import-golden-tests — NEW
+- nexora-asset-reference-cycle-audit — NEW
+- nexora-asset-streaming-corruption-recovery — NEW
+- nexora-content-load-order-independence — NEW
+- nexora-mesh-lod-transition-contract — NEW
+- nexora-mesh-topology-validation — NEW
+- nexora-shader-compile-failure-recovery — NEW
+- nexora-skeleton-skin-weight-normalization — NEW
+- nexora-texture-format-fallback — NEW
+
+### Curated: nexora-build-automation (10)
+
+- nexora-benchmark-baseline-refresh — NEW
+- nexora-build-cache-trust-boundary — NEW
+- nexora-build-failure-minimizer — NEW
+- nexora-build-feature-provenance — NEW
+- nexora-build-graph-incrementality — NEW
+- nexora-ci-change-impact-selection — NEW
+- nexora-cross-target-compile-matrix — NEW
+- nexora-dependency-upgrade-impact — NEW
+- nexora-generated-code-determinism — NEW
+- nexora-release-channel-policy — NEW
+
+### Curated: nexora-concurrency-safety (10)
+
+- nexora-async-queue-fairness — NEW
+- nexora-async-singleflight-deduplication — NEW
+- nexora-atomic-generation-swap-contract — NEW
+- nexora-concurrent-world-read-contract — NEW
+- nexora-entity-command-buffer-order — NEW
+- nexora-event-handler-reentrancy — NEW
+- nexora-job-result-publication-transaction — NEW
+- nexora-resource-reservation-atomicity — NEW
+- nexora-shared-cache-concurrent-invalidation — NEW
+- nexora-shutdown-concurrent-request-idempotency — NEW
+
+### Curated: nexora-content-pipeline (10)
+
+- nexora-asset-budget-admission — NEW
+- nexora-asset-import-dependency-graph — NEW
+- nexora-content-provenance-manifest — NEW
+- nexora-content-registry-atomic-publication — NEW
+- nexora-hot-reload-generation-swap — NEW
+- nexora-material-schema-versioning — NEW
+- nexora-mod-api-compatibility-gate — NEW
+- nexora-mod-dependency-resolution — NEW
+- nexora-shader-reflection-contract — NEW
+- nexora-texture-atlas-fragmentation — NEW
+
+### Curated: nexora-data-contracts (10)
+
+- nexora-crafting-recipe-cycle-audit — NEW
+- nexora-inventory-transaction-invariants — NEW
+- nexora-item-stack-identity-contract — NEW
+- nexora-mod-event-subscription-lifecycle — NEW
+- nexora-mod-hot-reload-state-migration — NEW
+- nexora-save-forward-compatibility — NEW
+- nexora-save-migration-rollback — NEW
+- nexora-world-edit-conflict-resolution — NEW
+- nexora-world-region-compaction — NEW
+- nexora-world-region-index-integrity — NEW
+
+### Curated: nexora-data-migration (10)
+
+- nexora-asset-guid-migration — NEW
+- nexora-config-migration-idempotency — NEW
+- nexora-content-diff-review — NEW
+- nexora-content-registry-migration — NEW
+- nexora-data-migration-dry-run — NEW
+- nexora-entity-component-schema-migration — NEW
+- nexora-migration-observability — NEW
+- nexora-network-schema-evolution — NEW
+- nexora-save-compatibility-fixture-policy — NEW
+- nexora-schema-deprecation-window — NEW
+
+### Curated: nexora-editor-tooling (10)
+
+- nexora-debug-overlay-budget — NEW
+- nexora-editor-asset-preview-isolation — NEW
+- nexora-editor-background-job-cancellation — NEW
+- nexora-editor-command-validation — NEW
+- nexora-editor-docking-layout-migration — NEW
+- nexora-editor-save-dirty-state — NEW
+- nexora-editor-selection-identity — NEW
+- nexora-editor-undo-transaction — NEW
+- nexora-live-inspector-snapshot-safety — NEW
+- nexora-tooling-project-repro-manifest — NEW
+
+### Curated: nexora-final-acceptance (14)
+
+- nexora-2500-skill-milestone-acceptance — NEW
+- nexora-alpha-tester-build-checklist — NEW
+- nexora-clean-room-build-verification — NEW
+- nexora-critical-path-smoke-gate — NEW
+- nexora-dependency-license-release-gate — NEW
+- nexora-engine-known-limitations-register — NEW
+- nexora-engine-readiness-review — NEW
+- nexora-feature-flag-retirement-report — NEW
+- nexora-mod-compatibility-release-blocker — NEW
+- nexora-observability-privacy-release-gate — NEW
+- nexora-release-evidence-bundle — NEW
+- nexora-resource-budget-release-blocker — NEW
+- nexora-roadmap-completion-evidence — NEW
+- nexora-world-data-loss-release-blocker — NEW
+
+### Curated: nexora-networking (10)
+
+- nexora-network-backpressure-policy — NEW
+- nexora-network-clock-drift-correction — NEW
+- nexora-network-desync-triage — NEW
+- nexora-network-entity-generation-guard — NEW
+- nexora-network-input-rate-limiter — NEW
+- nexora-network-interest-boundary-test — NEW
+- nexora-network-protocol-version-gate — NEW
+- nexora-network-reliable-event-order — NEW
+- nexora-network-session-epoch-rotation — NEW
+- nexora-replication-delta-baseline — NEW
+
+### Curated: nexora-operations-hardening (10)
+
+- nexora-engine-recovery-drill — NEW
+- nexora-engine-safe-mode-contract — NEW
+- nexora-feature-fallback-regression-suite — NEW
+- nexora-incident-timeline-correlation — NEW
+- nexora-runtime-invariant-monitor — NEW
+- nexora-save-repair-plan-approval — NEW
+- nexora-world-load-admission — NEW
+- nexora-world-recovery-priority — NEW
+- nexora-world-save-quiescence-barrier — NEW
+- nexora-world-session-ownership — NEW
+
+### Curated: nexora-performance-memory (10)
+
+- nexora-allocation-hotpath-audit — NEW
+- nexora-cache-eviction-policy — NEW
+- nexora-frame-allocation-budget — NEW
+- nexora-gpu-memory-pressure-policy — NEW
+- nexora-lock-contention-profile — NEW
+- nexora-memory-budget-admission — NEW
+- nexora-memory-budget-attribution — NEW
+- nexora-memory-leak-lifecycle-test — NEW
+- nexora-task-priority-inversion-audit — NEW
+- nexora-worker-pool-saturation — NEW
+
+### Curated: nexora-platform-compatibility (10)
+
+- nexora-platform-audio-capability-profile — NEW
+- nexora-platform-clock-contract — NEW
+- nexora-platform-file-locking-contract — NEW
+- nexora-platform-filesystem-durability — NEW
+- nexora-platform-gpu-capability-profile — NEW
+- nexora-platform-path-canonicalization — NEW
+- nexora-platform-path-length-fallback — NEW
+- nexora-platform-resource-limit-detection — NEW
+- nexora-platform-runtime-smoke-matrix — NEW
+- nexora-platform-threading-capability — NEW
+
+### Curated: nexora-release-operations (10)
+
+- nexora-config-defaults-drift-audit — NEW
+- nexora-engine-upgrade-smoke-suite — NEW
+- nexora-feature-flag-removal-gate — NEW
+- nexora-mod-compatibility-test-lab — NEW
+- nexora-release-artifact-integrity-check — NEW
+- nexora-release-candidate-gate — NEW
+- nexora-release-notes-contract — NEW
+- nexora-release-rollback-plan — NEW
+- nexora-upgrade-preflight-report — NEW
+- nexora-world-format-support-matrix — NEW
+
+### Curated: nexora-reliability (10)
+
+- nexora-crash-recovery-startup-gate — NEW
+- nexora-diagnostic-log-redaction — NEW
+- nexora-mod-permission-audit — NEW
+- nexora-plugin-failure-containment — NEW
+- nexora-release-artifact-reproducibility — NEW
+- nexora-save-recovery-generation-select — NEW
+- nexora-save-write-ordering — NEW
+- nexora-telemetry-cardinality-budget — NEW
+- nexora-untrusted-asset-parser-hardening — NEW
+- nexora-world-save-checksum-contract — NEW
+
+### Curated: nexora-render-quality (10)
+
+- nexora-animation-lod-transition — NEW
+- nexora-animation-pose-cache-invalidation — NEW
+- nexora-audio-device-loss-recovery — NEW
+- nexora-audio-spatialization-contract — NEW
+- nexora-color-space-pipeline-contract — NEW
+- nexora-occlusion-query-latency-contract — NEW
+- nexora-render-pass-state-contract — NEW
+- nexora-render-resolution-budget — NEW
+- nexora-render-target-resize-transaction — NEW
+- nexora-temporal-history-invalidation — NEW
+
+### Curated: nexora-runtime-observability (10)
+
+- nexora-background-task-deadline-policy — NEW
+- nexora-crash-dump-version-contract — NEW
+- nexora-device-loss-state-machine — NEW
+- nexora-engine-shutdown-order-audit — NEW
+- nexora-restartable-background-task — NEW
+- nexora-runtime-feature-degradation — NEW
+- nexora-runtime-health-check-contract — NEW
+- nexora-service-level-objectives-engine — NEW
+- nexora-structured-diagnostic-event — NEW
+- nexora-watchdog-deadlock-diagnostics — NEW
+
+### Curated: nexora-runtime-reliability (21)
+
+- nexora-asset-content-addressing — NEW
+- nexora-asset-import-failure-isolation — NEW
+- nexora-async-shutdown-barrier — NEW
+- nexora-config-transactional-reload — NEW
+- nexora-crash-report-redaction — NEW
+- nexora-cross-platform-filesystem-contract — NEW
+- nexora-deterministic-tick-input-log — NEW
+- nexora-engine-startup-phase-gates — NEW
+- nexora-frame-pacing-budget — NEW
+- nexora-gpu-resource-retirement — NEW
+- nexora-gpu-upload-backpressure — NEW
+- nexora-mod-capability-boundary — NEW
+- nexora-mod-content-conflict-resolution — NEW
+- nexora-render-graph-dependency-audit — NEW
+- nexora-resource-handle-generation — NEW
+- nexora-runtime-budget-regression — NEW
+- nexora-rust-error-boundary-design — NEW
+- nexora-save-corruption-quarantine — NEW
+- nexora-shader-cache-key-contract — NEW
+- nexora-simulation-render-snapshot-boundary — NEW
+- nexora-texture-streaming-priority — NEW
+
+### Curated: nexora-runtime-systems (10)
+
+- nexora-animation-root-motion-authority — NEW
+- nexora-animation-skeleton-version-contract — NEW
+- nexora-audio-clock-synchronization — NEW
+- nexora-audio-voice-budget — NEW
+- nexora-camera-origin-rebasing — NEW
+- nexora-collision-shape-cache-identity — NEW
+- nexora-constraint-solver-stability — NEW
+- nexora-gameplay-tick-profiler — NEW
+- nexora-physics-broadphase-budget — NEW
+- nexora-physics-continuous-collision — NEW
+
+### Curated: nexora-rust-architecture (10)
+
+- nexora-crate-dependency-direction — NEW
+- nexora-rust-async-cancellation-safety — NEW
+- nexora-rust-error-context-chain — NEW
+- nexora-rust-feature-flag-coherence — NEW
+- nexora-rust-lock-poison-recovery — NEW
+- nexora-rust-public-api-stability — NEW
+- nexora-rust-resource-ownership-ledger — NEW
+- nexora-rust-trait-object-boundary — NEW
+- nexora-rust-unsafe-block-audit — NEW
+- nexora-rust-workspace-release-gate — NEW
+
+### Curated: nexora-security-boundaries (10)
+
+- nexora-command-permission-matrix — NEW
+- nexora-filesystem-sandbox-boundary — NEW
+- nexora-mod-resource-quota — NEW
+- nexora-network-egress-policy — NEW
+- nexora-plugin-api-capability-audit — NEW
+- nexora-remote-console-authentication — NEW
+- nexora-secret-redaction-config-contract — NEW
+- nexora-secure-update-manifest — NEW
+- nexora-security-regression-corpus — NEW
+- nexora-world-save-authenticity-boundary — NEW
+
+### Curated: nexora-simulation-ai (30)
+
+- nexora-ai-agent-tick-budget — NEW
+- nexora-ai-perception-query-budget — NEW
+- nexora-authoritative-combat-resolution — NEW
+- nexora-chunk-simulation-activation — NEW
+- nexora-deterministic-event-ordering — NEW
+- nexora-entity-component-ownership-audit — NEW
+- nexora-entity-despawn-cascade — NEW
+- nexora-fluid-simulation-stability — NEW
+- nexora-gameplay-data-schema-validation — NEW
+- nexora-gameplay-event-idempotency — NEW
+- nexora-large-world-coordinate-contract — NEW
+- nexora-navmesh-invalidation-contract — NEW
+- nexora-network-message-size-contract — NEW
+- nexora-network-reconnect-state-machine — NEW
+- nexora-network-replication-interest — NEW
+- nexora-npc-behavior-state-contract — NEW
+- nexora-npc-save-state-schema — NEW
+- nexora-pathfinding-open-set-safety — NEW
+- nexora-physics-contact-lifecycle — NEW
+- nexora-physics-fixed-step-stability — NEW
+- nexora-replay-divergence-minimizer — NEW
+- nexora-scripted-gameplay-budget — NEW
+- nexora-server-authority-validation — NEW
+- nexora-simulation-overload-degradation — NEW
+- nexora-weather-time-authority — NEW
+- nexora-world-edit-command-transaction — NEW
+- nexora-world-region-lock-order — NEW
+- nexora-world-simulation-fixed-timestep — NEW
+- nexora-world-state-hash-contract — NEW
+- nexora-worldgen-modifier-order — NEW
+
+### Curated: nexora-simulation-quality (10)
+
+- nexora-ai-navigation-reference-tests — NEW
+- nexora-ai-navigation-stuck-recovery — NEW
+- nexora-combat-hitbox-consistency — NEW
+- nexora-gameplay-balance-scenario-harness — NEW
+- nexora-gameplay-regression-scenario-catalog — NEW
+- nexora-gameplay-simulation-replay-contract — NEW
+- nexora-gameplay-state-transition-audit — NEW
+- nexora-item-progression-reachability — NEW
+- nexora-world-event-scheduler-determinism — NEW
+- nexora-world-interaction-reachability — NEW
+
+### Curated: nexora-testing-tooling (10)
+
+- nexora-api-compatibility-test-matrix — NEW
+- nexora-ci-resource-budget — NEW
+- nexora-crash-repro-minimal-project — NEW
+- nexora-deterministic-regression-fixture — NEW
+- nexora-fuzz-parser-entrypoints — NEW
+- nexora-performance-benchmark-contract — NEW
+- nexora-property-test-world-invariants — NEW
+- nexora-static-analysis-gate — NEW
+- nexora-test-failure-classification — NEW
+- nexora-test-isolation-contract — NEW
+
+### Curated: nexora-world-safety (10)
+
+- nexora-save-lock-and-recovery — NEW
+- nexora-world-backup-retention-policy — NEW
+- nexora-world-chunk-boundary-transaction — NEW
+- nexora-world-command-permission-recheck — NEW
+- nexora-world-integrity-audit-report — NEW
+- nexora-world-migration-cross-mod-validation — NEW
+- nexora-world-region-access-boundary — NEW
+- nexora-world-region-recovery-scan — NEW
+- nexora-world-save-privacy-export — NEW
+- nexora-world-snapshot-consistency — NEW
+
+### Curated: nexora-worldgen-streaming (10)
+
+- nexora-chunk-lighting-propagation-budget — NEW
+- nexora-chunk-mesh-version-gate — NEW
+- nexora-chunk-priority-fairness — NEW
+- nexora-chunk-streaming-hysteresis — NEW
+- nexora-streaming-io-backpressure — NEW
+- nexora-worldgen-crash-reproduction — NEW
+- nexora-worldgen-density-boundary — NEW
+- nexora-worldgen-feature-reservation — NEW
+- nexora-worldgen-seed-compatibility — NEW
+- nexora-worldgen-stage-contract — NEW
+
 ### Curated: repository-to-skill-synthesis (15)
 
 - api-contract-to-skill-spec — NEW
@@ -301,6 +674,19 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - skill-trigger-and-negative-case-design — NEW
 - test-fixture-to-skill-validation — NEW
 - upstream-license-provenance-gate — NEW
+
+### Curated: voxel-world-engineering (10)
+
+- voxel-chunk-dirty-state-contract — NEW
+- voxel-chunk-eviction-safety — NEW
+- voxel-chunk-job-deduplication — NEW
+- voxel-chunk-streaming-budget — NEW
+- voxel-neighbor-boundary-meshing — NEW
+- voxel-region-save-transaction — NEW
+- voxel-save-format-versioning — NEW
+- voxel-world-coordinate-safety — NEW
+- voxel-worldgen-property-tests — NEW
+- voxel-worldgen-seed-determinism — NEW
 
 ### Developer environment & CLI tooling (10)
 
@@ -357,7 +743,7 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - runbook-command-risk-review — NEW
 - technical-example-executability-audit — NEW
 
-### Engine architecture & runtime (160)
+### Engine architecture & runtime (260)
 
 - asset-pipeline-provenance — NEW
 - chunk-priority-scheduling — NEW
@@ -365,13 +751,38 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - cross-platform-engine-build-matrix — NEW
 - deterministic-simulation-replay — NEW
 - engine-allocator-tracking — NEW
+- engine-animation-additive-space-validation — NEW
+- engine-animation-compression-error-budget — NEW
+- engine-animation-event-idempotency — NEW
+- engine-animation-notify-authority-boundary — NEW
+- engine-animation-pose-cache-invalidation — NEW
+- engine-animation-retarget-versioning — NEW
+- engine-animation-root-motion-authority — NEW
+- engine-animation-skeleton-retarget-contract — NEW
+- engine-animation-state-transition-coverage — NEW
 - engine-architecture-adr — NEW
+- engine-asset-bundle-boundary-analysis — NEW
+- engine-asset-dependency-cycle-diagnostics — NEW
 - engine-asset-hot-reload — NEW
 - engine-asset-import-cache-invalidation — NEW
+- engine-asset-memory-mapped-lifetime — NEW
+- engine-asset-package-delta-integrity — NEW
 - engine-asset-path-case-sensitivity-audit — NEW
+- engine-asset-remote-cache-integrity — NEW
 - engine-asset-streaming-budget — NEW
+- engine-asset-variant-selection-determinism — NEW
 - engine-async-resource-ownership-transfer — NEW
+- engine-audio-device-switch-recovery — NEW
+- engine-audio-dsp-graph-cycle-detection — NEW
+- engine-audio-latency-loopback-calibration — NEW
+- engine-audio-loudness-peak-validation — NEW
+- engine-audio-mix-snapshot-transition — NEW
 - engine-audio-mixer-latency-budget — NEW
+- engine-audio-occlusion-update-budget — NEW
+- engine-audio-reverb-zone-boundary — NEW
+- engine-audio-spatialization-coordinate-contract — NEW
+- engine-audio-streaming-seek-accuracy — NEW
+- engine-audio-voice-stealing-policy — NEW
 - engine-background-io-batching — NEW
 - engine-background-queue-observability — NEW
 - engine-background-task-cancellation — NEW
@@ -389,6 +800,16 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - engine-deterministic-replay-debugging — NEW
 - engine-deterministic-replay-input-capture — NEW
 - engine-ecs-query-plan-audit — NEW
+- engine-editor-asset-import-transaction — NEW
+- engine-editor-asset-reference-rename — NEW
+- engine-editor-automation-command-contract — NEW
+- engine-editor-command-undo-atomicity — NEW
+- engine-editor-dirty-state-propagation — NEW
+- engine-editor-dock-layout-recovery — NEW
+- engine-editor-gizmo-coordinate-space-contract — NEW
+- engine-editor-multiselection-transform-consistency — NEW
+- engine-editor-playmode-isolation — NEW
+- engine-editor-selection-stability — NEW
 - engine-editor-undo-redo-transaction — NEW
 - engine-entity-handle-generation-safety — NEW
 - engine-event-reentrancy-guard — NEW
@@ -412,7 +833,27 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - engine-memory-fragmentation-audit — NEW
 - engine-memory-pressure-response — NEW
 - engine-mod-api-semver-compatibility — NEW
+- engine-network-backpressure-per-peer — NEW
+- engine-network-clock-offset-estimation — NEW
+- engine-network-entity-id-reuse-window — NEW
+- engine-network-interest-management-stability — NEW
+- engine-network-message-schema-evolution — NEW
+- engine-network-packet-budget-contract — NEW
+- engine-network-prediction-correction-smoothing — NEW
+- engine-network-reconnect-state-reconciliation — NEW
+- engine-network-session-join-rollback — NEW
+- engine-network-snapshot-delta-baseline — NEW
 - engine-performance-benchmarking — NEW
+- engine-physics-ccd-threshold-calibration — NEW
+- engine-physics-contact-manifold-stability — NEW
+- engine-physics-deterministic-query-order — NEW
+- engine-physics-joint-breakage-recovery — NEW
+- engine-physics-material-combination-contract — NEW
+- engine-physics-origin-shift-invariants — NEW
+- engine-physics-query-filter-versioning — NEW
+- engine-physics-shape-cooking-cache — NEW
+- engine-physics-sleep-wake-transition-audit — NEW
+- engine-physics-trigger-overlap-deduplication — NEW
 - engine-platform-capability-matrix — NEW
 - engine-player-state-roundtrip-contract — NEW
 - engine-plugin-abi-compatibility — NEW
@@ -427,6 +868,21 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - engine-render-state-leak-detection — NEW
 - engine-render-target-resize-atomicity — NEW
 - engine-render-upload-thread-boundary — NEW
+- engine-renderer-bindless-resource-fallback — NEW
+- engine-renderer-color-pipeline-contract — NEW
+- engine-renderer-depth-reconstruction-audit — NEW
+- engine-renderer-descriptor-pool-exhaustion — NEW
+- engine-renderer-device-capability-cache — NEW
+- engine-renderer-framegraph-alias-lifetime-proof — NEW
+- engine-renderer-gpu-timestamp-query-pooling — NEW
+- engine-renderer-hdr-metadata-validation — NEW
+- engine-renderer-motion-vector-convention — NEW
+- engine-renderer-multiqueue-dependency-audit — NEW
+- engine-renderer-pipeline-cache-corruption-recovery — NEW
+- engine-renderer-residency-feedback-loop — NEW
+- engine-renderer-shader-permutation-pruning — NEW
+- engine-renderer-swapchain-recreation-atomicity — NEW
+- engine-renderer-temporal-history-validity — NEW
 - engine-resource-budget-overcommit-detection — NEW
 - engine-resource-descriptor-validation — NEW
 - engine-resource-handle-stale-reference-detection — NEW
@@ -451,11 +907,22 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - engine-scheduler-deadline-budget — NEW
 - engine-script-boundary-permission-audit — NEW
 - engine-script-time-budget-enforcement — NEW
+- engine-scripting-api-capability-sandbox — NEW
+- engine-scripting-async-task-lifetime — NEW
+- engine-scripting-debugger-pause-consistency — NEW
+- engine-scripting-deterministic-number-policy — NEW
+- engine-scripting-exception-containment — NEW
+- engine-scripting-hot-reload-state-migration — NEW
+- engine-scripting-mod-api-deprecation — NEW
+- engine-scripting-module-unload-safety — NEW
+- engine-scripting-reflection-schema-stability — NEW
+- engine-scripting-vm-gc-pause-budget — NEW
 - engine-shader-reflection-layout-contract — NEW
 - engine-shutdown-deadline-budget — NEW
 - engine-simulation-fixed-clock-catchup-limit — NEW
 - engine-simulation-pause-resume-invariant — NEW
 - engine-simulation-step-replay-determinism — NEW
+- engine-skeletal-lod-deformation-parity — NEW
 - engine-sound-event-lifetime-audit — NEW
 - engine-span-correlation-validation — NEW
 - engine-spatial-index-invalidation — NEW
@@ -470,13 +937,32 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - engine-thread-affinity-assertion-audit — NEW
 - engine-thread-pool-saturation — NEW
 - engine-tick-phase-order-audit — NEW
+- engine-voxel-block-entity-lifecycle — NEW
+- engine-voxel-chunk-save-version-contract — NEW
 - engine-voxel-edit-transaction-rollback — NEW
+- engine-voxel-fluid-surface-reconstruction — NEW
+- engine-voxel-greedy-mesh-material-boundary — NEW
+- engine-voxel-light-propagation-invalidation — NEW
 - engine-voxel-mesh-cache-versioning — NEW
+- engine-voxel-mesh-incremental-rebuild-budget — NEW
+- engine-voxel-mesh-lod-transition-continuity — NEW
+- engine-voxel-meshing-face-ownership — NEW
+- engine-voxel-region-lock-granularity — NEW
+- engine-voxel-transparency-sort-policy — NEW
 - engine-work-stealing-fairness — NEW
 - engine-worker-capacity-sizing — NEW
 - engine-workload-profile-catalog — NEW
 - engine-world-origin-rebasing — NEW
 - engine-world-state-replay-boundary — NEW
+- engine-worldgen-biome-boundary-continuity — NEW
+- engine-worldgen-coordinate-overflow-proof — NEW
+- engine-worldgen-cross-version-seed-compatibility — NEW
+- engine-worldgen-decoration-idempotency — NEW
+- engine-worldgen-density-function-unit-contract — NEW
+- engine-worldgen-feature-density-budget — NEW
+- engine-worldgen-generation-order-independence — NEW
+- engine-worldgen-parallel-rng-isolation — NEW
+- engine-worldgen-structure-claim-ownership — NEW
 - game-mod-api-versioning — NEW
 - gpu-readback-stall-audit — NEW
 - gpu-resource-lifetime-audit — NEW
@@ -1701,9 +2187,18 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - rea-windows-binary-inspection
 - reverse-engineer-anything
 
-### Rust & platform engineering (89)
+### Rust & platform engineering (99)
 
+- async-task-cancellation-contract — NEW
+- ecs-system-order-determinism — NEW
+- engine-config-schema-migration — NEW
+- engine-plugin-api-version-gate — NEW
+- engine-resource-lifetime-ledger — NEW
+- engine-runtime-budget-enforcement — NEW
+- engine-startup-shutdown-order-audit — NEW
 - native-wasm-behavior-parity — NEW
+- nexora-crate-boundary-audit — NEW
+- plugin-capability-permission-manifest — NEW
 - rust-allocation-hotspot-benchmark — NEW
 - rust-allocator-contention-analysis — NEW
 - rust-allocator-memory-profiling — NEW
@@ -1747,6 +2242,7 @@ Updated: 2026-10-28. The unified bundle contains 2085 distinct skills.
 - rust-error-taxonomy-stability-audit — NEW
 - rust-feature-configuration-smoke-matrix — NEW
 - rust-feature-flag-compilation-matrix — NEW
+- rust-feature-matrix-contract — NEW
 - rust-ffi-buffer-ownership-contract — NEW
 - rust-ffi-panic-boundary-protection — NEW
 - rust-ffi-resource-ownership — NEW

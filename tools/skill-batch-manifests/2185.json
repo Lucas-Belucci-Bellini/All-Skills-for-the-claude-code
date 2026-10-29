@@ -1,0 +1,511 @@
+{
+  "schema_version": 1,
+  "batch_size": 100,
+  "milestone_total": 2185,
+  "long_term_target": 2500,
+  "authored_count": 2024,
+  "retained_count": 161,
+  "plugin_version": "2.1.19",
+  "skills": [
+    {
+      "name": "engine-animation-skeleton-retarget-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-skeleton-retarget-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-animation-root-motion-authority",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-root-motion-authority/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-animation-event-idempotency",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-event-idempotency/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-animation-pose-cache-invalidation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-pose-cache-invalidation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-animation-additive-space-validation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-additive-space-validation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-animation-state-transition-coverage",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-state-transition-coverage/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-animation-compression-error-budget",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-compression-error-budget/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-skeletal-lod-deformation-parity",
+      "source_path": "curated-skill-sources/engine-runtime/engine-skeletal-lod-deformation-parity/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-animation-notify-authority-boundary",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-notify-authority-boundary/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-animation-retarget-versioning",
+      "source_path": "curated-skill-sources/engine-runtime/engine-animation-retarget-versioning/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-physics-contact-manifold-stability",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-contact-manifold-stability/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-physics-ccd-threshold-calibration",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-ccd-threshold-calibration/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-physics-joint-breakage-recovery",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-joint-breakage-recovery/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-physics-trigger-overlap-deduplication",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-trigger-overlap-deduplication/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-physics-origin-shift-invariants",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-origin-shift-invariants/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-physics-deterministic-query-order",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-deterministic-query-order/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-physics-shape-cooking-cache",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-shape-cooking-cache/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-physics-sleep-wake-transition-audit",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-sleep-wake-transition-audit/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-physics-material-combination-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-material-combination-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-physics-query-filter-versioning",
+      "source_path": "curated-skill-sources/engine-runtime/engine-physics-query-filter-versioning/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-color-pipeline-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-color-pipeline-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-temporal-history-validity",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-temporal-history-validity/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-motion-vector-convention",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-motion-vector-convention/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-depth-reconstruction-audit",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-depth-reconstruction-audit/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-bindless-resource-fallback",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-bindless-resource-fallback/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-shader-permutation-pruning",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-shader-permutation-pruning/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-gpu-timestamp-query-pooling",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-gpu-timestamp-query-pooling/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-residency-feedback-loop",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-residency-feedback-loop/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-multiqueue-dependency-audit",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-multiqueue-dependency-audit/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-device-capability-cache",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-device-capability-cache/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-pipeline-cache-corruption-recovery",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-pipeline-cache-corruption-recovery/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-swapchain-recreation-atomicity",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-swapchain-recreation-atomicity/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-hdr-metadata-validation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-hdr-metadata-validation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-framegraph-alias-lifetime-proof",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-framegraph-alias-lifetime-proof/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-renderer-descriptor-pool-exhaustion",
+      "source_path": "curated-skill-sources/engine-runtime/engine-renderer-descriptor-pool-exhaustion/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-editor-command-undo-atomicity",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-command-undo-atomicity/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-editor-multiselection-transform-consistency",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-multiselection-transform-consistency/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-editor-gizmo-coordinate-space-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-gizmo-coordinate-space-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-editor-asset-import-transaction",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-asset-import-transaction/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-editor-playmode-isolation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-playmode-isolation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-editor-dirty-state-propagation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-dirty-state-propagation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-editor-dock-layout-recovery",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-dock-layout-recovery/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-editor-asset-reference-rename",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-asset-reference-rename/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-editor-automation-command-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-automation-command-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-editor-selection-stability",
+      "source_path": "curated-skill-sources/engine-runtime/engine-editor-selection-stability/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scripting-vm-gc-pause-budget",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-vm-gc-pause-budget/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scripting-hot-reload-state-migration",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-hot-reload-state-migration/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scripting-api-capability-sandbox",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-api-capability-sandbox/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scripting-exception-containment",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-exception-containment/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scripting-deterministic-number-policy",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-deterministic-number-policy/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scripting-module-unload-safety",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-module-unload-safety/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scripting-reflection-schema-stability",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-reflection-schema-stability/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scripting-async-task-lifetime",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-async-task-lifetime/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scripting-mod-api-deprecation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-mod-api-deprecation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-scripting-debugger-pause-consistency",
+      "source_path": "curated-skill-sources/engine-runtime/engine-scripting-debugger-pause-consistency/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-audio-voice-stealing-policy",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-voice-stealing-policy/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-audio-spatialization-coordinate-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-spatialization-coordinate-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-audio-occlusion-update-budget",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-occlusion-update-budget/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-audio-streaming-seek-accuracy",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-streaming-seek-accuracy/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-audio-device-switch-recovery",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-device-switch-recovery/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-audio-dsp-graph-cycle-detection",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-dsp-graph-cycle-detection/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-audio-mix-snapshot-transition",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-mix-snapshot-transition/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-audio-loudness-peak-validation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-loudness-peak-validation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-audio-reverb-zone-boundary",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-reverb-zone-boundary/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-audio-latency-loopback-calibration",
+      "source_path": "curated-skill-sources/engine-runtime/engine-audio-latency-loopback-calibration/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-network-session-join-rollback",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-session-join-rollback/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-network-message-schema-evolution",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-message-schema-evolution/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-network-backpressure-per-peer",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-backpressure-per-peer/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-network-interest-management-stability",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-interest-management-stability/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-network-reconnect-state-reconciliation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-reconnect-state-reconciliation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-network-packet-budget-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-packet-budget-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-network-clock-offset-estimation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-clock-offset-estimation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-network-snapshot-delta-baseline",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-snapshot-delta-baseline/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-network-prediction-correction-smoothing",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-prediction-correction-smoothing/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-network-entity-id-reuse-window",
+      "source_path": "curated-skill-sources/engine-runtime/engine-network-entity-id-reuse-window/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-worldgen-coordinate-overflow-proof",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-coordinate-overflow-proof/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-worldgen-generation-order-independence",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-generation-order-independence/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-worldgen-structure-claim-ownership",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-structure-claim-ownership/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-worldgen-feature-density-budget",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-feature-density-budget/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-worldgen-cross-version-seed-compatibility",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-cross-version-seed-compatibility/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-worldgen-biome-boundary-continuity",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-biome-boundary-continuity/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-worldgen-decoration-idempotency",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-decoration-idempotency/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-worldgen-density-function-unit-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-density-function-unit-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-worldgen-parallel-rng-isolation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-worldgen-parallel-rng-isolation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-meshing-face-ownership",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-meshing-face-ownership/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-greedy-mesh-material-boundary",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-greedy-mesh-material-boundary/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-light-propagation-invalidation",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-light-propagation-invalidation/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-transparency-sort-policy",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-transparency-sort-policy/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-mesh-incremental-rebuild-budget",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-mesh-incremental-rebuild-budget/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-chunk-save-version-contract",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-chunk-save-version-contract/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-mesh-lod-transition-continuity",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-mesh-lod-transition-continuity/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-fluid-surface-reconstruction",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-fluid-surface-reconstruction/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-block-entity-lifecycle",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-block-entity-lifecycle/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-voxel-region-lock-granularity",
+      "source_path": "curated-skill-sources/engine-runtime/engine-voxel-region-lock-granularity/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-asset-dependency-cycle-diagnostics",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-dependency-cycle-diagnostics/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-asset-variant-selection-determinism",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-variant-selection-determinism/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-asset-package-delta-integrity",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-package-delta-integrity/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-asset-memory-mapped-lifetime",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-memory-mapped-lifetime/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-asset-remote-cache-integrity",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-remote-cache-integrity/SKILL.md",
+      "category": "Engine architecture & runtime"
+    },
+    {
+      "name": "engine-asset-bundle-boundary-analysis",
+      "source_path": "curated-skill-sources/engine-runtime/engine-asset-bundle-boundary-analysis/SKILL.md",
+      "category": "Engine architecture & runtime"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2476,
+  "long_term_target": 2500,
+  "authored_count": 2325,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-world-command-permission-recheck",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-command-permission-recheck/SKILL.md",
+      "category": "Curated: nexora-world-safety"
+    },
+    {
+      "name": "nexora-world-region-access-boundary",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-region-access-boundary/SKILL.md",
+      "category": "Curated: nexora-world-safety"
+    },
+    {
+      "name": "nexora-save-lock-and-recovery",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-save-lock-and-recovery/SKILL.md",
+      "category": "Curated: nexora-world-safety"
+    },
+    {
+      "name": "nexora-world-snapshot-consistency",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-snapshot-consistency/SKILL.md",
+      "category": "Curated: nexora-world-safety"
+    },
+    {
+      "name": "nexora-world-chunk-boundary-transaction",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-chunk-boundary-transaction/SKILL.md",
+      "category": "Curated: nexora-world-safety"
+    },
+    {
+      "name": "nexora-world-region-recovery-scan",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-region-recovery-scan/SKILL.md",
+      "category": "Curated: nexora-world-safety"
+    },
+    {
+      "name": "nexora-world-save-privacy-export",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-save-privacy-export/SKILL.md",
+      "category": "Curated: nexora-world-safety"
+    },
+    {
+      "name": "nexora-world-backup-retention-policy",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-backup-retention-policy/SKILL.md",
+      "category": "Curated: nexora-world-safety"
+    },
+    {
+      "name": "nexora-world-migration-cross-mod-validation",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-migration-cross-mod-validation/SKILL.md",
+      "category": "Curated: nexora-world-safety"
+    },
+    {
+      "name": "nexora-world-integrity-audit-report",
+      "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-integrity-audit-report/SKILL.md",
+      "category": "Curated: nexora-world-safety"
+    }
+  ]
+}

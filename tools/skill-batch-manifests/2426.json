@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2426,
+  "long_term_target": 2500,
+  "authored_count": 2265,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-gameplay-simulation-replay-contract",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-simulation-replay-contract/SKILL.md",
+      "category": "Curated: nexora-simulation-quality"
+    },
+    {
+      "name": "nexora-gameplay-balance-scenario-harness",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-balance-scenario-harness/SKILL.md",
+      "category": "Curated: nexora-simulation-quality"
+    },
+    {
+      "name": "nexora-ai-navigation-reference-tests",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-ai-navigation-reference-tests/SKILL.md",
+      "category": "Curated: nexora-simulation-quality"
+    },
+    {
+      "name": "nexora-combat-hitbox-consistency",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-combat-hitbox-consistency/SKILL.md",
+      "category": "Curated: nexora-simulation-quality"
+    },
+    {
+      "name": "nexora-ai-navigation-stuck-recovery",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-ai-navigation-stuck-recovery/SKILL.md",
+      "category": "Curated: nexora-simulation-quality"
+    },
+    {
+      "name": "nexora-gameplay-state-transition-audit",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-state-transition-audit/SKILL.md",
+      "category": "Curated: nexora-simulation-quality"
+    },
+    {
+      "name": "nexora-world-interaction-reachability",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-world-interaction-reachability/SKILL.md",
+      "category": "Curated: nexora-simulation-quality"
+    },
+    {
+      "name": "nexora-item-progression-reachability",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-item-progression-reachability/SKILL.md",
+      "category": "Curated: nexora-simulation-quality"
+    },
+    {
+      "name": "nexora-world-event-scheduler-determinism",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-world-event-scheduler-determinism/SKILL.md",
+      "category": "Curated: nexora-simulation-quality"
+    },
+    {
+      "name": "nexora-gameplay-regression-scenario-catalog",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-regression-scenario-catalog/SKILL.md",
+      "category": "Curated: nexora-simulation-quality"
+    }
+  ]
+}

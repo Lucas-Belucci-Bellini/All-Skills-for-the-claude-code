@@ -1,6 +1,6 @@
 # All Skills for Claude Code — Community Collection
 
-This is an independent, community-maintained collection of Claude Code skills and plugins. It is **not affiliated with or endorsed by Anthropic**. The generated aggregate plugin currently packages 2,085 distinct skills (1,924 authored + 161 retained/imported), and component provenance and license terms vary.
+This is an independent, community-maintained collection of Claude Code skills and plugins. It is **not affiliated with or endorsed by Anthropic**. The generated aggregate plugin currently packages 2,205 distinct skills (2,044 authored + 161 retained/imported), and component provenance and license terms vary.
 
 > **Distribution warning:** this repository is currently public, and the imported-skill provenance/licensing audit is not complete. In particular, `claude-security` carries a restrictive, non-sublicensable license. Do not publish or redistribute the combined plugin until the applicable terms are reviewed and the repository owner has resolved the visibility/distribution decision. See [the imported-skill provenance audit](docs/research/imported-skill-provenance-audit.md).
 
@@ -117,6 +117,6 @@ This repository also maintains a unified Claude Code plugin that gathers distinc
 
 After adding a new skill batch, run `node tools/sync-skill-bundles.mjs --write`, review the diff, then validate with `node tools/sync-skill-bundles.mjs --check`. Updates should go through a feature branch and pull request. Keep this repository private until all source license and provenance terms have been reviewed.
 
-The combined collection currently packages 2085 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the long-term plan to reach 2,500 distinct skills (with 500 as the 2026 intermediate milestone). See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
+The combined collection currently packages 2500 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the long-term plan to reach 2,500 distinct skills (with 500 as the 2026 intermediate milestone). See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
 
 The `feat/skills-expansion-2000-simulation-worlds-2026` branch is a historical source milestone, not the current consolidation head. The current consolidation is tracked by [PR #169](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/pull/169) on `feat/all-skills-consolidated-2026`: the generated catalog lists 2,085 distinct skills (1,924 authored + 161 retained/imported), with 415 remaining to the 2,500 planning target. Structural CI is green, but PR #169 remains Draft while imported-skill provenance/licensing and real Claude Code install/discovery checks are pending. This status is not approval to merge or publicly distribute the package. See [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39).
