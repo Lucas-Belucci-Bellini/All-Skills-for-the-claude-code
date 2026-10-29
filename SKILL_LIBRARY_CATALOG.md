@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-29. The unified bundle contains 2366 distinct skills.
+Updated: 2026-10-29. The unified bundle contains 2376 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **161**
-- Original curated skills: **2205**
-- Current total: **2366**
+- Original curated skills: **2215**
+- Current total: **2376**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **134**
+- Remaining to long-term target: **124**
 
 ## Categories
 
@@ -424,6 +424,19 @@ Updated: 2026-10-29. The unified bundle contains 2366 distinct skills.
 - nexora-rust-trait-object-boundary — NEW
 - nexora-rust-unsafe-block-audit — NEW
 - nexora-rust-workspace-release-gate — NEW
+
+### Curated: nexora-security-boundaries (10)
+
+- nexora-command-permission-matrix — NEW
+- nexora-filesystem-sandbox-boundary — NEW
+- nexora-mod-resource-quota — NEW
+- nexora-network-egress-policy — NEW
+- nexora-plugin-api-capability-audit — NEW
+- nexora-remote-console-authentication — NEW
+- nexora-secret-redaction-config-contract — NEW
+- nexora-secure-update-manifest — NEW
+- nexora-security-regression-corpus — NEW
+- nexora-world-save-authenticity-boundary — NEW
 
 ### Curated: nexora-simulation-ai (30)
 
