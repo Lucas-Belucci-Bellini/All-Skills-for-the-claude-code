@@ -1,9 +1,9 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,246 distinct skills (2,085 authored + 161 retained/imported)
+**Current draft inventory:** 2,256 distinct skills (2,095 authored + 161 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 254
+**Remaining to long-term target:** 244
 **Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,185-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
@@ -34,7 +34,8 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 2216 | 2216 | Adds 11 NEXORA runtime reliability workflows |
 | 2226 | 2226 | Adds 10 rendering, asset-pipeline, mod-conflict, simulation-boundary, and startup-reliability workflows |
 | 2236 | 2236 | Adds 10 NEXORA AI scheduling, NPC behavior, navigation, combat, fixed-step simulation, and ECS lifecycle workflows |
-| 2246 | 2246 | Adds 10 NEXORA world-edit transactions, fluid stability, NPC persistence, scripting budgets, data validation, and network trust-boundary workflows for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
+| 2246 | 2246 | Adds 10 NEXORA world-edit transactions, fluid stability, NPC persistence, scripting budgets, data validation, and network trust-boundary workflows |
+| 2256 | 2256 | Adds 10 deterministic event ordering, overload handling, region locking, worldgen modifier ordering, replay minimization, large-world coordinate, and physics lifecycle workflows for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -171,3 +172,8 @@ Added 10 code-focused workflows covering bounded NPC AI, explicit behavior-state
 ## Batch 2,246 — NEXORA world-state and multiplayer contracts (2026-10-29)
 
 Added 10 workflows for transactional world edits, stable fluid simulation, authoritative time/weather, NPC save schemas, script budgets, gameplay data validation, replication interest, packet-size safety, reconnect state machines, and server authority validation.
+
+
+## Batch 2,256 — NEXORA determinism and physics (2026-10-29)
+
+Added 10 workflows for deterministic event ordering, simulation overload degradation, region lock ordering, worldgen modifier ordering, chunk simulation activation, replay divergence minimization, large-world coordinate safety, world-state hashing, physics contact lifecycle, and fixed-step physics stability.
