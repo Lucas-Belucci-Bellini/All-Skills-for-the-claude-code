@@ -52,6 +52,7 @@ Do not invent target hardware or hide variance. If runner noise dominates, mark 
 
 ## Trigger examples
 
-- "Audit runtime budgets and benchmark regression in NEXORA before merging this change."
-- "Create a regression test and recovery plan for this engine subsystem."
-- "Review the current implementation without assuming missing infrastructure exists."
+- **Positive:** A code change or incident directly involves nexora runtime budget regression and needs a reproducible validation plan.
+- **Positive:** Reviewers need explicit invariants, boundary cases, and failure recovery for this subsystem.
+- **Negative:** The request is unrelated to this subsystem or asks for speculative changes without source evidence.
+- **Negative:** The task is only documentation or content work with no runtime, reliability, or code behavior impact.
