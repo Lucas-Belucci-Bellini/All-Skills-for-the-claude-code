@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2356,
+  "long_term_target": 2500,
+  "authored_count": 2195,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-save-migration-rollback",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-save-migration-rollback/SKILL.md",
+      "category": "Curated: nexora-data-contracts"
+    },
+    {
+      "name": "nexora-save-forward-compatibility",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-save-forward-compatibility/SKILL.md",
+      "category": "Curated: nexora-data-contracts"
+    },
+    {
+      "name": "nexora-world-region-index-integrity",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-world-region-index-integrity/SKILL.md",
+      "category": "Curated: nexora-data-contracts"
+    },
+    {
+      "name": "nexora-world-region-compaction",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-world-region-compaction/SKILL.md",
+      "category": "Curated: nexora-data-contracts"
+    },
+    {
+      "name": "nexora-world-edit-conflict-resolution",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-world-edit-conflict-resolution/SKILL.md",
+      "category": "Curated: nexora-data-contracts"
+    },
+    {
+      "name": "nexora-inventory-transaction-invariants",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-inventory-transaction-invariants/SKILL.md",
+      "category": "Curated: nexora-data-contracts"
+    },
+    {
+      "name": "nexora-item-stack-identity-contract",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-item-stack-identity-contract/SKILL.md",
+      "category": "Curated: nexora-data-contracts"
+    },
+    {
+      "name": "nexora-crafting-recipe-cycle-audit",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-crafting-recipe-cycle-audit/SKILL.md",
+      "category": "Curated: nexora-data-contracts"
+    },
+    {
+      "name": "nexora-mod-event-subscription-lifecycle",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-mod-event-subscription-lifecycle/SKILL.md",
+      "category": "Curated: nexora-data-contracts"
+    },
+    {
+      "name": "nexora-mod-hot-reload-state-migration",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-mod-hot-reload-state-migration/SKILL.md",
+      "category": "Curated: nexora-data-contracts"
+    }
+  ]
+}
