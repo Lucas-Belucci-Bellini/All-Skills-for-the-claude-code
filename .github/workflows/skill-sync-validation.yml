@@ -127,6 +127,6 @@ jobs:
       - name: Validate artifact analysis workbench
         run: node tools/validate-artifact-analysis-workbench.mjs
 
-      - name: Validate current consolidated 2,256-skill source and bundle parity
+      - name: Validate current consolidated 2,266-skill source and bundle parity
         if: github.ref_name == 'feat/all-skills-consolidated-2026' || github.head_ref == 'feat/all-skills-consolidated-2026' || github.base_ref == 'feat/all-skills-consolidated-2026'
-        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2256.json
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2266.json
