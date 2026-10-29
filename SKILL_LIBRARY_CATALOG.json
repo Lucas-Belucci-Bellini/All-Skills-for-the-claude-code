@@ -1693,6 +1693,66 @@
       "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-texture-streaming-priority/SKILL.md"
     },
     {
+      "name": "nexora-animation-root-motion-authority",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-animation-root-motion-authority/SKILL.md"
+    },
+    {
+      "name": "nexora-animation-skeleton-version-contract",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-animation-skeleton-version-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-audio-clock-synchronization",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-audio-clock-synchronization/SKILL.md"
+    },
+    {
+      "name": "nexora-audio-voice-budget",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-audio-voice-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-camera-origin-rebasing",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-camera-origin-rebasing/SKILL.md"
+    },
+    {
+      "name": "nexora-collision-shape-cache-identity",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-collision-shape-cache-identity/SKILL.md"
+    },
+    {
+      "name": "nexora-constraint-solver-stability",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-constraint-solver-stability/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-tick-profiler",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-gameplay-tick-profiler/SKILL.md"
+    },
+    {
+      "name": "nexora-physics-broadphase-budget",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-broadphase-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-physics-continuous-collision",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-continuous-collision/SKILL.md"
+    },
+    {
       "name": "nexora-ai-agent-tick-budget",
       "category": "Curated: nexora-simulation-ai",
       "origin": "new-authored",
@@ -13541,66 +13601,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-physics-continuous-collision",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-continuous-collision/SKILL.md"
-    },
-    {
-      "name": "nexora-physics-broadphase-budget",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-broadphase-budget/SKILL.md"
-    },
-    {
-      "name": "nexora-constraint-solver-stability",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-constraint-solver-stability/SKILL.md"
-    },
-    {
-      "name": "nexora-audio-voice-budget",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-audio-voice-budget/SKILL.md"
-    },
-    {
-      "name": "nexora-audio-clock-synchronization",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-audio-clock-synchronization/SKILL.md"
-    },
-    {
-      "name": "nexora-animation-skeleton-version-contract",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-animation-skeleton-version-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-animation-root-motion-authority",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-animation-root-motion-authority/SKILL.md"
-    },
-    {
-      "name": "nexora-camera-origin-rebasing",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-camera-origin-rebasing/SKILL.md"
-    },
-    {
-      "name": "nexora-collision-shape-cache-identity",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-collision-shape-cache-identity/SKILL.md"
-    },
-    {
-      "name": "nexora-gameplay-tick-profiler",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-gameplay-tick-profiler/SKILL.md"
     }
   ]
 }
