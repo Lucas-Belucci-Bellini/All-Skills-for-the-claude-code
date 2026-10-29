@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-29",
-  "unique_skills": 2356,
+  "unique_skills": 2366,
   "target": 2500,
-  "remaining": 144,
+  "remaining": 134,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -14141,6 +14141,66 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
+    },
+    {
+      "name": "nexora-render-pass-state-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-pass-state-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-render-target-resize-transaction",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-target-resize-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-temporal-history-invalidation",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-temporal-history-invalidation/SKILL.md"
+    },
+    {
+      "name": "nexora-color-space-pipeline-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-color-space-pipeline-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-render-resolution-budget",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-resolution-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-occlusion-query-latency-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-occlusion-query-latency-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-animation-pose-cache-invalidation",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-animation-pose-cache-invalidation/SKILL.md"
+    },
+    {
+      "name": "nexora-animation-lod-transition",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-animation-lod-transition/SKILL.md"
+    },
+    {
+      "name": "nexora-audio-device-loss-recovery",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-audio-device-loss-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-audio-spatialization-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-audio-spatialization-contract/SKILL.md"
     }
   ]
 }
