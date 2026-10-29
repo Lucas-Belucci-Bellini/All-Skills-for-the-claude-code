@@ -3,7 +3,7 @@ name: nexora-mod-capability-boundary
 description: "Defines least-privilege capabilities for mods and scripts that interact with filesystem, network, commands, and engine internals."
 ---
 
-# Nexora Mod Capability Boundary
+# nexora mod capability boundary
 
 ## Purpose
 
@@ -26,7 +26,7 @@ Use this workflow for NEXORA-scale engine work when mod sandbox and capability A
 6. audit native-code escape hatches.
 7. make grants visible and revocable where feasible.
 8. test denied, granted, expired, and forged capabilities.
-9. log security-relevant decisions without exposing secrets..
+9. log security-relevant decisions without exposing secrets.
 
 ## Validation checklist
 

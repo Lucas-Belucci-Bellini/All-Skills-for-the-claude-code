@@ -3,7 +3,7 @@ name: nexora-asset-content-addressing
 description: "Builds reliable content-addressed asset identity and cache invalidation for textures, meshes, shaders, and mod assets."
 ---
 
-# Nexora Asset Content Addressing
+# nexora asset content addressing
 
 ## Purpose
 
@@ -25,8 +25,8 @@ Use this workflow for NEXORA-scale engine work when asset cache identity and rep
 5. verify cache hits against metadata.
 6. atomically publish completed artifacts.
 7. handle collisions and corrupt entries as cache misses or explicit integrity errors.
-8. test identical builds and option/dependency changes..
-9. undefined.
+8. test identical builds and option/dependency changes.
+9. Document a safe rollback or fallback path..
 
 ## Validation checklist
 

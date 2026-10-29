@@ -3,7 +3,7 @@ name: nexora-runtime-budget-regression
 description: "Detects performance regressions against explicit CPU, memory, frame-time, and workload budgets in large Rust runtimes."
 ---
 
-# Nexora Runtime Budget Regression
+# nexora runtime budget regression
 
 ## Purpose
 
@@ -26,7 +26,7 @@ Use this workflow for NEXORA-scale engine work when runtime budgets and benchmar
 6. identify the changed subsystem before tuning.
 7. add a reproducible regression fixture.
 8. record hardware, compiler, flags, seed, and dataset.
-9. fail CI only on stable thresholds and publish noisy measurements for review..
+9. fail CI only on stable thresholds and publish noisy measurements for review.
 
 ## Validation checklist
 

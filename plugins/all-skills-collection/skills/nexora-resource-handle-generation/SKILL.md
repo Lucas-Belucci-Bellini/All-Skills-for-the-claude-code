@@ -3,7 +3,7 @@ name: nexora-resource-handle-generation
 description: "Prevents stale handles from accessing reused entity, asset, GPU, or chunk slots after resource deletion."
 ---
 
-# Nexora Resource Handle Generation
+# nexora resource handle generation
 
 ## Purpose
 
@@ -25,8 +25,8 @@ Use this workflow for NEXORA-scale engine work when generational handles and slo
 5. prevent unchecked indexing from bypassing validation.
 6. decide how serialization maps stable IDs versus process-local handles.
 7. test delete/reallocate sequences and stale references.
-8. instrument invalid-handle rates in debug builds..
-9. undefined.
+8. instrument invalid-handle rates in debug builds.
+9. Document a safe rollback or fallback path..
 
 ## Validation checklist
 

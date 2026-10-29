@@ -3,7 +3,7 @@ name: nexora-save-corruption-quarantine
 description: "Recovers safely from corrupt world or region data without overwriting the only recoverable copy."
 ---
 
-# Nexora Save Corruption Quarantine
+# nexora save corruption quarantine
 
 ## Purpose
 
@@ -24,9 +24,9 @@ Use this workflow for NEXORA-scale engine work when save corruption diagnosis an
 4. quarantine the damaged file with metadata and a diagnostic report.
 5. recover only independently valid records.
 6. write repaired output to a new temporary file and atomically replace after validation.
-7. add fixtures for truncation, bit flips, invalid lengths, and partial writes..
-8. undefined.
-9. undefined.
+7. add fixtures for truncation, bit flips, invalid lengths, and partial writes.
+8. Capture results and unresolved risks for review..
+9. Document a safe rollback or fallback path..
 
 ## Validation checklist
 

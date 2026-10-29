@@ -3,7 +3,7 @@ name: nexora-rust-error-boundary-design
 description: "Designs error types and recovery boundaries across Rust engine crates without leaking implementation details across module APIs."
 ---
 
-# Nexora Rust Error Boundary Design
+# nexora rust error boundary design
 
 ## Purpose
 
@@ -24,9 +24,9 @@ Use this workflow for NEXORA-scale engine work when Rust crate errors and subsys
 4. convert to user-facing diagnostics only at application boundaries.
 5. avoid string parsing and blanket error erasure in core paths.
 6. document retryability and whether partial state may exist.
-7. add tests for source chains and recovery decisions..
-8. undefined.
-9. undefined.
+7. add tests for source chains and recovery decisions.
+8. Capture results and unresolved risks for review..
+9. Document a safe rollback or fallback path..
 
 ## Validation checklist
 

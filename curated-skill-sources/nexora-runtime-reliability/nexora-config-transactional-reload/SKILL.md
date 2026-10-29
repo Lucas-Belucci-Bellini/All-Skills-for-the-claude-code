@@ -3,7 +3,7 @@ name: nexora-config-transactional-reload
 description: "Applies live configuration changes atomically while preserving a valid runtime configuration when parsing or validation fails."
 ---
 
-# Nexora Config Transactional Reload
+# nexora config transactional reload
 
 ## Purpose
 
@@ -25,8 +25,8 @@ Use this workflow for NEXORA-scale engine work when runtime config reload and ho
 5. publish the new snapshot atomically or through a single owner.
 6. keep the previous snapshot if any stage fails.
 7. classify settings requiring restart.
-8. test malformed files, concurrent readers, and rollback..
-9. undefined.
+8. test malformed files, concurrent readers, and rollback.
+9. Document a safe rollback or fallback path..
 
 ## Validation checklist
 

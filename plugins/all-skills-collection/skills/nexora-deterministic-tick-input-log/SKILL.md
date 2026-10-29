@@ -3,7 +3,7 @@ name: nexora-deterministic-tick-input-log
 description: "Makes simulation replay reproducible by recording ordered inputs and the versions needed to interpret them."
 ---
 
-# Nexora Deterministic Tick Input Log
+# nexora deterministic tick input log
 
 ## Purpose
 
@@ -25,8 +25,8 @@ Use this workflow for NEXORA-scale engine work when deterministic game tick repl
 5. isolate nondeterministic I/O behind recorded results.
 6. replay from a known initial snapshot.
 7. compare periodic state hashes and identify the first divergent tick.
-8. test varied worker scheduling where deterministic behavior is promised..
-9. undefined.
+8. test varied worker scheduling where deterministic behavior is promised.
+9. Document a safe rollback or fallback path..
 
 ## Validation checklist
 

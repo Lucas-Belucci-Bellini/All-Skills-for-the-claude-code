@@ -3,7 +3,7 @@ name: nexora-crash-report-redaction
 description: "Produces actionable engine crash diagnostics while excluding secrets, private paths, and unnecessary user data."
 ---
 
-# Nexora Crash Report Redaction
+# nexora crash report redaction
 
 ## Purpose
 
@@ -24,9 +24,9 @@ Use this workflow for NEXORA-scale engine work when crash diagnostics and privac
 4. cap report size and bound nested payloads.
 5. attach build ID, subsystem, crash phase, and sanitized stack context.
 6. offer local-only retention and explicit consent for upload.
-7. test with synthetic secret markers and hostile long strings..
-8. undefined.
-9. undefined.
+7. test with synthetic secret markers and hostile long strings.
+8. Capture results and unresolved risks for review..
+9. Document a safe rollback or fallback path..
 
 ## Validation checklist
 

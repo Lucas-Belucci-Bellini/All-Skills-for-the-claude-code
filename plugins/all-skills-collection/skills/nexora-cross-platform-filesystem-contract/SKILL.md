@@ -3,7 +3,7 @@ name: nexora-cross-platform-filesystem-contract
 description: "Makes world saves and asset paths behave consistently across Windows, Linux, and macOS without path traversal or case collisions."
 ---
 
-# Nexora Cross Platform Filesystem Contract
+# nexora cross platform filesystem contract
 
 ## Purpose
 
@@ -23,10 +23,10 @@ Use this workflow for NEXORA-scale engine work when cross-platform save paths an
 3. define case-collision policy for portable worlds.
 4. avoid assuming rename and fsync semantics are identical across platforms.
 5. write through same-volume temporary files where atomic rename is supported.
-6. test Unicode, long paths, symlinks, case-only differences, and permission failures on each target OS..
-7. undefined.
-8. undefined.
-9. undefined.
+6. test Unicode, long paths, symlinks, case-only differences, and permission failures on each target OS.
+7. Run focused tests and static checks available in the repository..
+8. Capture results and unresolved risks for review..
+9. Document a safe rollback or fallback path..
 
 ## Validation checklist
 

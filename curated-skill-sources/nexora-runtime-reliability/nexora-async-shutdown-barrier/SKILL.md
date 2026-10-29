@@ -3,7 +3,7 @@ name: nexora-async-shutdown-barrier
 description: "Coordinates graceful shutdown across asynchronous workers, renderer, networking, and persistence without dropping critical writes."
 ---
 
-# Nexora Async Shutdown Barrier
+# nexora async shutdown barrier
 
 ## Purpose
 
@@ -26,7 +26,7 @@ Use this workflow for NEXORA-scale engine work when async shutdown and worker li
 6. ensure task joins report panics/errors.
 7. define which tasks may be aborted after timeout.
 8. make shutdown idempotent.
-9. test shutdown during generation, save, network disconnect, and partial initialization..
+9. test shutdown during generation, save, network disconnect, and partial initialization.
 
 ## Validation checklist
 
