@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-29",
-  "unique_skills": 2456,
+  "unique_skills": 2466,
   "target": 2500,
-  "remaining": 44,
+  "remaining": 34,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -14741,6 +14741,66 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
+    },
+    {
+      "name": "nexora-concurrent-world-read-contract",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-concurrent-world-read-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-job-result-publication-transaction",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-job-result-publication-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-async-singleflight-deduplication",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-async-singleflight-deduplication/SKILL.md"
+    },
+    {
+      "name": "nexora-async-queue-fairness",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-async-queue-fairness/SKILL.md"
+    },
+    {
+      "name": "nexora-shared-cache-concurrent-invalidation",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-shared-cache-concurrent-invalidation/SKILL.md"
+    },
+    {
+      "name": "nexora-resource-reservation-atomicity",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-resource-reservation-atomicity/SKILL.md"
+    },
+    {
+      "name": "nexora-entity-command-buffer-order",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-entity-command-buffer-order/SKILL.md"
+    },
+    {
+      "name": "nexora-event-handler-reentrancy",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-event-handler-reentrancy/SKILL.md"
+    },
+    {
+      "name": "nexora-shutdown-concurrent-request-idempotency",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-shutdown-concurrent-request-idempotency/SKILL.md"
+    },
+    {
+      "name": "nexora-atomic-generation-swap-contract",
+      "category": "Curated: nexora-concurrency-safety",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-concurrency-safety/nexora-atomic-generation-swap-contract/SKILL.md"
     }
   ]
 }
