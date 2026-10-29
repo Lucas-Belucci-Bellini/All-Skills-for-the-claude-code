@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2456,
+  "long_term_target": 2500,
+  "authored_count": 2295,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-platform-filesystem-durability",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-filesystem-durability/SKILL.md",
+      "category": "Curated: nexora-platform-compatibility"
+    },
+    {
+      "name": "nexora-platform-path-canonicalization",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-path-canonicalization/SKILL.md",
+      "category": "Curated: nexora-platform-compatibility"
+    },
+    {
+      "name": "nexora-platform-threading-capability",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-threading-capability/SKILL.md",
+      "category": "Curated: nexora-platform-compatibility"
+    },
+    {
+      "name": "nexora-platform-clock-contract",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-clock-contract/SKILL.md",
+      "category": "Curated: nexora-platform-compatibility"
+    },
+    {
+      "name": "nexora-platform-gpu-capability-profile",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-gpu-capability-profile/SKILL.md",
+      "category": "Curated: nexora-platform-compatibility"
+    },
+    {
+      "name": "nexora-platform-audio-capability-profile",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-audio-capability-profile/SKILL.md",
+      "category": "Curated: nexora-platform-compatibility"
+    },
+    {
+      "name": "nexora-platform-file-locking-contract",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-file-locking-contract/SKILL.md",
+      "category": "Curated: nexora-platform-compatibility"
+    },
+    {
+      "name": "nexora-platform-path-length-fallback",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-path-length-fallback/SKILL.md",
+      "category": "Curated: nexora-platform-compatibility"
+    },
+    {
+      "name": "nexora-platform-resource-limit-detection",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-resource-limit-detection/SKILL.md",
+      "category": "Curated: nexora-platform-compatibility"
+    },
+    {
+      "name": "nexora-platform-runtime-smoke-matrix",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-platform-runtime-smoke-matrix/SKILL.md",
+      "category": "Curated: nexora-platform-compatibility"
+    }
+  ]
+}
