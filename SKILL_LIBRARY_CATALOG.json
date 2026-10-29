@@ -2713,6 +2713,66 @@
       "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-worldgen-modifier-order/SKILL.md"
     },
     {
+      "name": "nexora-ai-navigation-reference-tests",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-ai-navigation-reference-tests/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-navigation-stuck-recovery",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-ai-navigation-stuck-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-combat-hitbox-consistency",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-combat-hitbox-consistency/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-balance-scenario-harness",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-balance-scenario-harness/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-regression-scenario-catalog",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-regression-scenario-catalog/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-simulation-replay-contract",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-simulation-replay-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-state-transition-audit",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-state-transition-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-item-progression-reachability",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-item-progression-reachability/SKILL.md"
+    },
+    {
+      "name": "nexora-world-event-scheduler-determinism",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-world-event-scheduler-determinism/SKILL.md"
+    },
+    {
+      "name": "nexora-world-interaction-reachability",
+      "category": "Curated: nexora-simulation-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-world-interaction-reachability/SKILL.md"
+    },
+    {
       "name": "nexora-api-compatibility-test-matrix",
       "category": "Curated: nexora-testing-tooling",
       "origin": "new-authored",
@@ -14501,66 +14561,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-gameplay-simulation-replay-contract",
-      "category": "Curated: nexora-simulation-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-simulation-replay-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-gameplay-balance-scenario-harness",
-      "category": "Curated: nexora-simulation-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-balance-scenario-harness/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-navigation-reference-tests",
-      "category": "Curated: nexora-simulation-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-ai-navigation-reference-tests/SKILL.md"
-    },
-    {
-      "name": "nexora-combat-hitbox-consistency",
-      "category": "Curated: nexora-simulation-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-combat-hitbox-consistency/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-navigation-stuck-recovery",
-      "category": "Curated: nexora-simulation-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-ai-navigation-stuck-recovery/SKILL.md"
-    },
-    {
-      "name": "nexora-gameplay-state-transition-audit",
-      "category": "Curated: nexora-simulation-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-state-transition-audit/SKILL.md"
-    },
-    {
-      "name": "nexora-world-interaction-reachability",
-      "category": "Curated: nexora-simulation-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-world-interaction-reachability/SKILL.md"
-    },
-    {
-      "name": "nexora-item-progression-reachability",
-      "category": "Curated: nexora-simulation-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-item-progression-reachability/SKILL.md"
-    },
-    {
-      "name": "nexora-world-event-scheduler-determinism",
-      "category": "Curated: nexora-simulation-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-world-event-scheduler-determinism/SKILL.md"
-    },
-    {
-      "name": "nexora-gameplay-regression-scenario-catalog",
-      "category": "Curated: nexora-simulation-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-quality/nexora-gameplay-regression-scenario-catalog/SKILL.md"
     }
   ]
 }
