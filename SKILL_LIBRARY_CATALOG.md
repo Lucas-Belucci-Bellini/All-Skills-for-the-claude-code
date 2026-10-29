@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-29. The unified bundle contains 2456 distinct skills.
+Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **161**
-- Original curated skills: **2295**
-- Current total: **2456**
+- Original curated skills: **2339**
+- Current total: **2500**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **44**
+- Remaining to long-term target: **0**
 
 ## Categories
 
@@ -323,6 +323,19 @@ Updated: 2026-10-29. The unified bundle contains 2456 distinct skills.
 - nexora-generated-code-determinism — NEW
 - nexora-release-channel-policy — NEW
 
+### Curated: nexora-concurrency-safety (10)
+
+- nexora-async-queue-fairness — NEW
+- nexora-async-singleflight-deduplication — NEW
+- nexora-atomic-generation-swap-contract — NEW
+- nexora-concurrent-world-read-contract — NEW
+- nexora-entity-command-buffer-order — NEW
+- nexora-event-handler-reentrancy — NEW
+- nexora-job-result-publication-transaction — NEW
+- nexora-resource-reservation-atomicity — NEW
+- nexora-shared-cache-concurrent-invalidation — NEW
+- nexora-shutdown-concurrent-request-idempotency — NEW
+
 ### Curated: nexora-content-pipeline (10)
 
 - nexora-asset-budget-admission — NEW
@@ -375,6 +388,23 @@ Updated: 2026-10-29. The unified bundle contains 2456 distinct skills.
 - nexora-live-inspector-snapshot-safety — NEW
 - nexora-tooling-project-repro-manifest — NEW
 
+### Curated: nexora-final-acceptance (14)
+
+- nexora-2500-skill-milestone-acceptance — NEW
+- nexora-alpha-tester-build-checklist — NEW
+- nexora-clean-room-build-verification — NEW
+- nexora-critical-path-smoke-gate — NEW
+- nexora-dependency-license-release-gate — NEW
+- nexora-engine-known-limitations-register — NEW
+- nexora-engine-readiness-review — NEW
+- nexora-feature-flag-retirement-report — NEW
+- nexora-mod-compatibility-release-blocker — NEW
+- nexora-observability-privacy-release-gate — NEW
+- nexora-release-evidence-bundle — NEW
+- nexora-resource-budget-release-blocker — NEW
+- nexora-roadmap-completion-evidence — NEW
+- nexora-world-data-loss-release-blocker — NEW
+
 ### Curated: nexora-networking (10)
 
 - nexora-network-backpressure-policy — NEW
@@ -387,6 +417,19 @@ Updated: 2026-10-29. The unified bundle contains 2456 distinct skills.
 - nexora-network-reliable-event-order — NEW
 - nexora-network-session-epoch-rotation — NEW
 - nexora-replication-delta-baseline — NEW
+
+### Curated: nexora-operations-hardening (10)
+
+- nexora-engine-recovery-drill — NEW
+- nexora-engine-safe-mode-contract — NEW
+- nexora-feature-fallback-regression-suite — NEW
+- nexora-incident-timeline-correlation — NEW
+- nexora-runtime-invariant-monitor — NEW
+- nexora-save-repair-plan-approval — NEW
+- nexora-world-load-admission — NEW
+- nexora-world-recovery-priority — NEW
+- nexora-world-save-quiescence-barrier — NEW
+- nexora-world-session-ownership — NEW
 
 ### Curated: nexora-performance-memory (10)
 
@@ -587,6 +630,19 @@ Updated: 2026-10-29. The unified bundle contains 2456 distinct skills.
 - nexora-static-analysis-gate — NEW
 - nexora-test-failure-classification — NEW
 - nexora-test-isolation-contract — NEW
+
+### Curated: nexora-world-safety (10)
+
+- nexora-save-lock-and-recovery — NEW
+- nexora-world-backup-retention-policy — NEW
+- nexora-world-chunk-boundary-transaction — NEW
+- nexora-world-command-permission-recheck — NEW
+- nexora-world-integrity-audit-report — NEW
+- nexora-world-migration-cross-mod-validation — NEW
+- nexora-world-region-access-boundary — NEW
+- nexora-world-region-recovery-scan — NEW
+- nexora-world-save-privacy-export — NEW
+- nexora-world-snapshot-consistency — NEW
 
 ### Curated: nexora-worldgen-streaming (10)
 
