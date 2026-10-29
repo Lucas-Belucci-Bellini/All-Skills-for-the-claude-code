@@ -1,9 +1,9 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,406 distinct skills (2,245 authored + 161 retained/imported)
+**Current draft inventory:** 2,416 distinct skills (2,255 authored + 161 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 94
+**Remaining to long-term target:** 84
 **Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,185-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
@@ -50,7 +50,8 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 2376 | 2376 | Adds 10 filesystem confinement, network egress, mod quotas, command permissions, plugin capability auditing, save authenticity, secure updates, secret redaction, remote console security, and security regression corpus workflows |
 | 2386 | 2386 | Adds 10 structured diagnostics, health checks, watchdog deadlock reports, crash dump versions, graceful degradation, device-loss recovery, shutdown ordering, restartable tasks, deadlines, and engine SLO workflows |
 | 2396 | 2396 | Adds 10 release candidate gates, rollback plans, world-format support, mod compatibility labs, upgrade preflight, config-default drift, feature removal, smoke tests, release notes, and artifact integrity workflows |
-| 2406 | 2406 | Adds 10 content registry, ECS schema, network schema, config migration, asset ID, save fixture, content diff, migration observability, schema deprecation, and migration dry-run workflows for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
+| 2406 | 2406 | Adds 10 content registry, ECS schema, network schema, config migration, asset ID, save fixture, content diff, migration observability, schema deprecation, and migration dry-run workflows |
+| 2416 | 2416 | Adds 10 build graph determinism, cache trust, cross-target compilation, dependency upgrades, build provenance, CI impact selection, benchmark baselines, release channels, and build failure minimization workflows for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -267,3 +268,8 @@ Added 10 workflows for release-candidate evidence, rollback planning, world-form
 ## Batch 2,406 — NEXORA data migration contracts (2026-10-29)
 
 Added 10 workflows for content-registry migration, ECS component schemas, network schema evolution, idempotent configuration migration, asset-ID migration, save compatibility fixtures, semantic content diffs, migration observability, schema deprecation windows, and read-only migration dry runs.
+
+
+## Batch 2,416 — NEXORA build and CI automation (2026-10-29)
+
+Added 10 workflows for incremental build graphs, generated-code determinism, cache trust boundaries, cross-target compilation, dependency-upgrade impact, build provenance, safe CI test selection, benchmark baseline refresh, release-channel policy, and build-failure minimization.
