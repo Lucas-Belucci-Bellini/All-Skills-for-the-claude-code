@@ -1987,6 +1987,66 @@
       "source_path": "curated-skill-sources/nexora-render-quality/nexora-temporal-history-invalidation/SKILL.md"
     },
     {
+      "name": "nexora-background-task-deadline-policy",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-background-task-deadline-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-crash-dump-version-contract",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-crash-dump-version-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-device-loss-state-machine",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-device-loss-state-machine/SKILL.md"
+    },
+    {
+      "name": "nexora-engine-shutdown-order-audit",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-engine-shutdown-order-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-restartable-background-task",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-restartable-background-task/SKILL.md"
+    },
+    {
+      "name": "nexora-runtime-feature-degradation",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-runtime-feature-degradation/SKILL.md"
+    },
+    {
+      "name": "nexora-runtime-health-check-contract",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-runtime-health-check-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-service-level-objectives-engine",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-service-level-objectives-engine/SKILL.md"
+    },
+    {
+      "name": "nexora-structured-diagnostic-event",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-structured-diagnostic-event/SKILL.md"
+    },
+    {
+      "name": "nexora-watchdog-deadlock-diagnostics",
+      "category": "Curated: nexora-runtime-observability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-watchdog-deadlock-diagnostics/SKILL.md"
+    },
+    {
       "name": "nexora-asset-content-addressing",
       "category": "Curated: nexora-runtime-reliability",
       "origin": "new-authored",
@@ -14261,66 +14321,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-structured-diagnostic-event",
-      "category": "Curated: nexora-runtime-observability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-structured-diagnostic-event/SKILL.md"
-    },
-    {
-      "name": "nexora-runtime-health-check-contract",
-      "category": "Curated: nexora-runtime-observability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-runtime-health-check-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-watchdog-deadlock-diagnostics",
-      "category": "Curated: nexora-runtime-observability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-watchdog-deadlock-diagnostics/SKILL.md"
-    },
-    {
-      "name": "nexora-crash-dump-version-contract",
-      "category": "Curated: nexora-runtime-observability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-crash-dump-version-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-runtime-feature-degradation",
-      "category": "Curated: nexora-runtime-observability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-runtime-feature-degradation/SKILL.md"
-    },
-    {
-      "name": "nexora-device-loss-state-machine",
-      "category": "Curated: nexora-runtime-observability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-device-loss-state-machine/SKILL.md"
-    },
-    {
-      "name": "nexora-engine-shutdown-order-audit",
-      "category": "Curated: nexora-runtime-observability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-engine-shutdown-order-audit/SKILL.md"
-    },
-    {
-      "name": "nexora-restartable-background-task",
-      "category": "Curated: nexora-runtime-observability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-restartable-background-task/SKILL.md"
-    },
-    {
-      "name": "nexora-background-task-deadline-policy",
-      "category": "Curated: nexora-runtime-observability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-background-task-deadline-policy/SKILL.md"
-    },
-    {
-      "name": "nexora-service-level-objectives-engine",
-      "category": "Curated: nexora-runtime-observability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-service-level-objectives-engine/SKILL.md"
     }
   ]
 }
