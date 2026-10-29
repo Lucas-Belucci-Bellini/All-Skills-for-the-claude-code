@@ -1723,6 +1723,18 @@
       "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-entity-despawn-cascade/SKILL.md"
     },
     {
+      "name": "nexora-fluid-simulation-stability",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-fluid-simulation-stability/SKILL.md"
+    },
+    {
+      "name": "nexora-gameplay-data-schema-validation",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-gameplay-data-schema-validation/SKILL.md"
+    },
+    {
       "name": "nexora-gameplay-event-idempotency",
       "category": "Curated: nexora-simulation-ai",
       "origin": "new-authored",
@@ -1735,16 +1747,64 @@
       "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-navmesh-invalidation-contract/SKILL.md"
     },
     {
+      "name": "nexora-network-message-size-contract",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-network-message-size-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-network-reconnect-state-machine",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-network-reconnect-state-machine/SKILL.md"
+    },
+    {
+      "name": "nexora-network-replication-interest",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-network-replication-interest/SKILL.md"
+    },
+    {
       "name": "nexora-npc-behavior-state-contract",
       "category": "Curated: nexora-simulation-ai",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-npc-behavior-state-contract/SKILL.md"
     },
     {
+      "name": "nexora-npc-save-state-schema",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-npc-save-state-schema/SKILL.md"
+    },
+    {
       "name": "nexora-pathfinding-open-set-safety",
       "category": "Curated: nexora-simulation-ai",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-pathfinding-open-set-safety/SKILL.md"
+    },
+    {
+      "name": "nexora-scripted-gameplay-budget",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-scripted-gameplay-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-server-authority-validation",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-server-authority-validation/SKILL.md"
+    },
+    {
+      "name": "nexora-weather-time-authority",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-weather-time-authority/SKILL.md"
+    },
+    {
+      "name": "nexora-world-edit-command-transaction",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-world-edit-command-transaction/SKILL.md"
     },
     {
       "name": "nexora-world-simulation-fixed-timestep",
@@ -13421,66 +13481,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-world-edit-command-transaction",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-world-edit-command-transaction/SKILL.md"
-    },
-    {
-      "name": "nexora-fluid-simulation-stability",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-fluid-simulation-stability/SKILL.md"
-    },
-    {
-      "name": "nexora-weather-time-authority",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-weather-time-authority/SKILL.md"
-    },
-    {
-      "name": "nexora-npc-save-state-schema",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-npc-save-state-schema/SKILL.md"
-    },
-    {
-      "name": "nexora-scripted-gameplay-budget",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-scripted-gameplay-budget/SKILL.md"
-    },
-    {
-      "name": "nexora-gameplay-data-schema-validation",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-gameplay-data-schema-validation/SKILL.md"
-    },
-    {
-      "name": "nexora-network-replication-interest",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-network-replication-interest/SKILL.md"
-    },
-    {
-      "name": "nexora-network-message-size-contract",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-network-message-size-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-network-reconnect-state-machine",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-network-reconnect-state-machine/SKILL.md"
-    },
-    {
-      "name": "nexora-server-authority-validation",
-      "category": "Curated: nexora-simulation-ai",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-server-authority-validation/SKILL.md"
     }
   ]
 }

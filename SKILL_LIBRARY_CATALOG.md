@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-29. The unified bundle contains 2236 distinct skills.
+Updated: 2026-10-29. The unified bundle contains 2246 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **161**
-- Original curated skills: **2075**
-- Current total: **2236**
+- Original curated skills: **2085**
+- Current total: **2246**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **264**
+- Remaining to long-term target: **254**
 
 ## Categories
 
@@ -308,17 +308,27 @@ Updated: 2026-10-29. The unified bundle contains 2236 distinct skills.
 - nexora-simulation-render-snapshot-boundary — NEW
 - nexora-texture-streaming-priority — NEW
 
-### Curated: nexora-simulation-ai (10)
+### Curated: nexora-simulation-ai (20)
 
 - nexora-ai-agent-tick-budget — NEW
 - nexora-ai-perception-query-budget — NEW
 - nexora-authoritative-combat-resolution — NEW
 - nexora-entity-component-ownership-audit — NEW
 - nexora-entity-despawn-cascade — NEW
+- nexora-fluid-simulation-stability — NEW
+- nexora-gameplay-data-schema-validation — NEW
 - nexora-gameplay-event-idempotency — NEW
 - nexora-navmesh-invalidation-contract — NEW
+- nexora-network-message-size-contract — NEW
+- nexora-network-reconnect-state-machine — NEW
+- nexora-network-replication-interest — NEW
 - nexora-npc-behavior-state-contract — NEW
+- nexora-npc-save-state-schema — NEW
 - nexora-pathfinding-open-set-safety — NEW
+- nexora-scripted-gameplay-budget — NEW
+- nexora-server-authority-validation — NEW
+- nexora-weather-time-authority — NEW
+- nexora-world-edit-command-transaction — NEW
 - nexora-world-simulation-fixed-timestep — NEW
 
 ### Curated: repository-to-skill-synthesis (15)
