@@ -1687,6 +1687,66 @@
       "source_path": "curated-skill-sources/nexora-data-contracts/nexora-world-region-index-integrity/SKILL.md"
     },
     {
+      "name": "nexora-asset-guid-migration",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-asset-guid-migration/SKILL.md"
+    },
+    {
+      "name": "nexora-config-migration-idempotency",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-config-migration-idempotency/SKILL.md"
+    },
+    {
+      "name": "nexora-content-diff-review",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-content-diff-review/SKILL.md"
+    },
+    {
+      "name": "nexora-content-registry-migration",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-content-registry-migration/SKILL.md"
+    },
+    {
+      "name": "nexora-data-migration-dry-run",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-data-migration-dry-run/SKILL.md"
+    },
+    {
+      "name": "nexora-entity-component-schema-migration",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-entity-component-schema-migration/SKILL.md"
+    },
+    {
+      "name": "nexora-migration-observability",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-migration-observability/SKILL.md"
+    },
+    {
+      "name": "nexora-network-schema-evolution",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-network-schema-evolution/SKILL.md"
+    },
+    {
+      "name": "nexora-save-compatibility-fixture-policy",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-save-compatibility-fixture-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-schema-deprecation-window",
+      "category": "Curated: nexora-data-migration",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-migration/nexora-schema-deprecation-window/SKILL.md"
+    },
+    {
       "name": "nexora-debug-overlay-budget",
       "category": "Curated: nexora-editor-tooling",
       "origin": "new-authored",
@@ -14381,66 +14441,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-content-registry-migration",
-      "category": "Curated: nexora-data-migration",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-data-migration/nexora-content-registry-migration/SKILL.md"
-    },
-    {
-      "name": "nexora-entity-component-schema-migration",
-      "category": "Curated: nexora-data-migration",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-data-migration/nexora-entity-component-schema-migration/SKILL.md"
-    },
-    {
-      "name": "nexora-network-schema-evolution",
-      "category": "Curated: nexora-data-migration",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-data-migration/nexora-network-schema-evolution/SKILL.md"
-    },
-    {
-      "name": "nexora-config-migration-idempotency",
-      "category": "Curated: nexora-data-migration",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-data-migration/nexora-config-migration-idempotency/SKILL.md"
-    },
-    {
-      "name": "nexora-asset-guid-migration",
-      "category": "Curated: nexora-data-migration",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-data-migration/nexora-asset-guid-migration/SKILL.md"
-    },
-    {
-      "name": "nexora-save-compatibility-fixture-policy",
-      "category": "Curated: nexora-data-migration",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-data-migration/nexora-save-compatibility-fixture-policy/SKILL.md"
-    },
-    {
-      "name": "nexora-content-diff-review",
-      "category": "Curated: nexora-data-migration",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-data-migration/nexora-content-diff-review/SKILL.md"
-    },
-    {
-      "name": "nexora-migration-observability",
-      "category": "Curated: nexora-data-migration",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-data-migration/nexora-migration-observability/SKILL.md"
-    },
-    {
-      "name": "nexora-schema-deprecation-window",
-      "category": "Curated: nexora-data-migration",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-data-migration/nexora-schema-deprecation-window/SKILL.md"
-    },
-    {
-      "name": "nexora-data-migration-dry-run",
-      "category": "Curated: nexora-data-migration",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-data-migration/nexora-data-migration-dry-run/SKILL.md"
     }
   ]
 }
