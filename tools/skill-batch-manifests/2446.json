@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2446,
+  "long_term_target": 2500,
+  "authored_count": 2285,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-ai-tool-budget-contract",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-tool-budget-contract/SKILL.md",
+      "category": "Curated: nexora-ai-tooling"
+    },
+    {
+      "name": "nexora-ai-planner-world-snapshot",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planner-world-snapshot/SKILL.md",
+      "category": "Curated: nexora-ai-tooling"
+    },
+    {
+      "name": "nexora-ai-action-validation-gate",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-action-validation-gate/SKILL.md",
+      "category": "Curated: nexora-ai-tooling"
+    },
+    {
+      "name": "nexora-ai-planning-determinism-boundary",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planning-determinism-boundary/SKILL.md",
+      "category": "Curated: nexora-ai-tooling"
+    },
+    {
+      "name": "nexora-ai-npc-memory-retention",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-npc-memory-retention/SKILL.md",
+      "category": "Curated: nexora-ai-tooling"
+    },
+    {
+      "name": "nexora-ai-navigation-intent-contract",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-navigation-intent-contract/SKILL.md",
+      "category": "Curated: nexora-ai-tooling"
+    },
+    {
+      "name": "nexora-ai-behavior-tree-bounded-tick",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-behavior-tree-bounded-tick/SKILL.md",
+      "category": "Curated: nexora-ai-tooling"
+    },
+    {
+      "name": "nexora-ai-planner-failure-classification",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planner-failure-classification/SKILL.md",
+      "category": "Curated: nexora-ai-tooling"
+    },
+    {
+      "name": "nexora-ai-generated-content-validation",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-generated-content-validation/SKILL.md",
+      "category": "Curated: nexora-ai-tooling"
+    },
+    {
+      "name": "nexora-ai-observability-redaction",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-observability-redaction/SKILL.md",
+      "category": "Curated: nexora-ai-tooling"
+    }
+  ]
+}
