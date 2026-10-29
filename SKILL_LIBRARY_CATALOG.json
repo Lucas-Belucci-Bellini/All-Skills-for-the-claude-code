@@ -1567,6 +1567,66 @@
       "source_path": "curated-skill-sources/agent-tooling/tool-call-budget-policy/SKILL.md"
     },
     {
+      "name": "nexora-animation-clip-time-contract",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-animation-clip-time-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-import-golden-tests",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-import-golden-tests/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-reference-cycle-audit",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-reference-cycle-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-streaming-corruption-recovery",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-streaming-corruption-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-content-load-order-independence",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-content-load-order-independence/SKILL.md"
+    },
+    {
+      "name": "nexora-mesh-lod-transition-contract",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-mesh-lod-transition-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-mesh-topology-validation",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-mesh-topology-validation/SKILL.md"
+    },
+    {
+      "name": "nexora-shader-compile-failure-recovery",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-shader-compile-failure-recovery/SKILL.md"
+    },
+    {
+      "name": "nexora-skeleton-skin-weight-normalization",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-skeleton-skin-weight-normalization/SKILL.md"
+    },
+    {
+      "name": "nexora-texture-format-fallback",
+      "category": "Curated: nexora-assets-validation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-texture-format-fallback/SKILL.md"
+    },
+    {
       "name": "nexora-benchmark-baseline-refresh",
       "category": "Curated: nexora-build-automation",
       "origin": "new-authored",
@@ -14561,66 +14621,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-asset-import-golden-tests",
-      "category": "Curated: nexora-assets-validation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-import-golden-tests/SKILL.md"
-    },
-    {
-      "name": "nexora-mesh-topology-validation",
-      "category": "Curated: nexora-assets-validation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-mesh-topology-validation/SKILL.md"
-    },
-    {
-      "name": "nexora-skeleton-skin-weight-normalization",
-      "category": "Curated: nexora-assets-validation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-skeleton-skin-weight-normalization/SKILL.md"
-    },
-    {
-      "name": "nexora-animation-clip-time-contract",
-      "category": "Curated: nexora-assets-validation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-animation-clip-time-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-mesh-lod-transition-contract",
-      "category": "Curated: nexora-assets-validation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-mesh-lod-transition-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-asset-reference-cycle-audit",
-      "category": "Curated: nexora-assets-validation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-reference-cycle-audit/SKILL.md"
-    },
-    {
-      "name": "nexora-texture-format-fallback",
-      "category": "Curated: nexora-assets-validation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-texture-format-fallback/SKILL.md"
-    },
-    {
-      "name": "nexora-shader-compile-failure-recovery",
-      "category": "Curated: nexora-assets-validation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-shader-compile-failure-recovery/SKILL.md"
-    },
-    {
-      "name": "nexora-asset-streaming-corruption-recovery",
-      "category": "Curated: nexora-assets-validation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-streaming-corruption-recovery/SKILL.md"
-    },
-    {
-      "name": "nexora-content-load-order-independence",
-      "category": "Curated: nexora-assets-validation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-content-load-order-independence/SKILL.md"
     }
   ]
 }
