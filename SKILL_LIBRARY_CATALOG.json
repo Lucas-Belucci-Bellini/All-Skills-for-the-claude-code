@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28",
-  "unique_skills": 2205,
+  "updated_at": "2026-10-29",
+  "unique_skills": 2215,
   "target": 2500,
-  "remaining": 295,
+  "remaining": 285,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -13235,6 +13235,72 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
+    },
+    {
+      "name": "nexora-runtime-budget-regression",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-runtime-budget-regression/SKILL.md"
+    },
+    {
+      "name": "nexora-rust-error-boundary-design",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-rust-error-boundary-design/SKILL.md"
+    },
+    {
+      "name": "nexora-async-shutdown-barrier",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-async-shutdown-barrier/SKILL.md"
+    },
+    {
+      "name": "nexora-resource-handle-generation",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-resource-handle-generation/SKILL.md"
+    },
+    {
+      "name": "nexora-config-transactional-reload",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-config-transactional-reload/SKILL.md"
+    },
+    {
+      "name": "nexora-asset-content-addressing",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-asset-content-addressing/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-capability-boundary",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-mod-capability-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-save-corruption-quarantine",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-save-corruption-quarantine/SKILL.md"
+    },
+    {
+      "name": "nexora-deterministic-tick-input-log",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-deterministic-tick-input-log/SKILL.md"
+    },
+    {
+      "name": "nexora-crash-report-redaction",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-crash-report-redaction/SKILL.md"
+    },
+    {
+      "name": "nexora-cross-platform-filesystem-contract",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-cross-platform-filesystem-contract/SKILL.md"
     }
   ]
 }
