@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2436,
+  "long_term_target": 2500,
+  "authored_count": 2275,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-asset-import-golden-tests",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-import-golden-tests/SKILL.md",
+      "category": "Curated: nexora-assets-validation"
+    },
+    {
+      "name": "nexora-mesh-topology-validation",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-mesh-topology-validation/SKILL.md",
+      "category": "Curated: nexora-assets-validation"
+    },
+    {
+      "name": "nexora-skeleton-skin-weight-normalization",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-skeleton-skin-weight-normalization/SKILL.md",
+      "category": "Curated: nexora-assets-validation"
+    },
+    {
+      "name": "nexora-animation-clip-time-contract",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-animation-clip-time-contract/SKILL.md",
+      "category": "Curated: nexora-assets-validation"
+    },
+    {
+      "name": "nexora-mesh-lod-transition-contract",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-mesh-lod-transition-contract/SKILL.md",
+      "category": "Curated: nexora-assets-validation"
+    },
+    {
+      "name": "nexora-asset-reference-cycle-audit",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-reference-cycle-audit/SKILL.md",
+      "category": "Curated: nexora-assets-validation"
+    },
+    {
+      "name": "nexora-texture-format-fallback",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-texture-format-fallback/SKILL.md",
+      "category": "Curated: nexora-assets-validation"
+    },
+    {
+      "name": "nexora-shader-compile-failure-recovery",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-shader-compile-failure-recovery/SKILL.md",
+      "category": "Curated: nexora-assets-validation"
+    },
+    {
+      "name": "nexora-asset-streaming-corruption-recovery",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-asset-streaming-corruption-recovery/SKILL.md",
+      "category": "Curated: nexora-assets-validation"
+    },
+    {
+      "name": "nexora-content-load-order-independence",
+      "source_path": "curated-skill-sources/nexora-assets-validation/nexora-content-load-order-independence/SKILL.md",
+      "category": "Curated: nexora-assets-validation"
+    }
+  ]
+}
