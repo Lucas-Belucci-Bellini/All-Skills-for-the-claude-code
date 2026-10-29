@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-29",
-  "unique_skills": 2316,
+  "unique_skills": 2326,
   "target": 2500,
-  "remaining": 184,
+  "remaining": 174,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -13901,6 +13901,66 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-undo-transaction",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-undo-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-selection-identity",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-selection-identity/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-command-validation",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-command-validation/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-save-dirty-state",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-save-dirty-state/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-background-job-cancellation",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-background-job-cancellation/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-docking-layout-migration",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-docking-layout-migration/SKILL.md"
+    },
+    {
+      "name": "nexora-debug-overlay-budget",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-debug-overlay-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-live-inspector-snapshot-safety",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-live-inspector-snapshot-safety/SKILL.md"
+    },
+    {
+      "name": "nexora-editor-asset-preview-isolation",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-asset-preview-isolation/SKILL.md"
+    },
+    {
+      "name": "nexora-tooling-project-repro-manifest",
+      "category": "Curated: nexora-editor-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-tooling-project-repro-manifest/SKILL.md"
     }
   ]
 }

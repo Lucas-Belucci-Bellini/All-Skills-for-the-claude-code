@@ -1,9 +1,9 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,316 distinct skills (2,155 authored + 161 retained/imported)
+**Current draft inventory:** 2,326 distinct skills (2,165 authored + 161 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 184
+**Remaining to long-term target:** 174
 **Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,185-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
@@ -41,7 +41,8 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 2286 | 2286 | Adds 10 save integrity/recovery, mod permission auditing, parser hardening, startup crash recovery, telemetry/log redaction, plugin failure containment, and release reproducibility workflows |
 | 2296 | 2296 | Adds 10 property tests, fuzzing, regression fixtures, benchmark contracts, CI budgets, test isolation, crash reproduction, static analysis, API compatibility, and failure classification workflows |
 | 2306 | 2306 | Adds 10 network delta baselines, event ordering, backpressure, protocol gates, rate limiting, clock drift, entity generations, interest boundaries, session epochs, and desync triage workflows |
-| 2316 | 2316 | Adds 10 worldgen stage contracts, density boundaries, feature reservations, streaming hysteresis/fairness, mesh version gates, lighting budgets, seed compatibility, I/O backpressure, and crash reproduction workflows for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
+| 2316 | 2316 | Adds 10 worldgen stage contracts, density boundaries, feature reservations, streaming hysteresis/fairness, mesh version gates, lighting budgets, seed compatibility, I/O backpressure, and crash reproduction workflows |
+| 2326 | 2326 | Adds 10 editor undo/redo, selection identity, command validation, dirty state, job cancellation, layout migration, debug overlay budgets, safe live inspection, preview isolation, and reproducible project manifest workflows for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -213,3 +214,8 @@ Added 10 workflows for replication delta baselines, reliable event ordering, net
 ## Batch 2,316 — NEXORA world generation and streaming (2026-10-29)
 
 Added 10 workflows for worldgen stage contracts, density-field boundary consistency, cross-chunk feature reservations, streaming hysteresis and queue fairness, stale mesh rejection, bounded lighting propagation, seed-version compatibility, I/O backpressure, and minimal worldgen crash reproduction.
+
+
+## Batch 2,326 — NEXORA editor and developer tooling (2026-10-29)
+
+Added 10 workflows for transactional editor history, stable selection identity, command validation, save dirty-state tracking, background-job cancellation, layout migration, debug overlay budgets, live-inspector snapshot safety, asset preview isolation, and reproducible project manifests.
