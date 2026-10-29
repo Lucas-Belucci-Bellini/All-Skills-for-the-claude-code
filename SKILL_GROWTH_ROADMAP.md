@@ -1,9 +1,9 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,486 distinct skills (2,325 authored + 161 retained/imported)
+**Current draft inventory:** 2,500 distinct skills (2,339 authored + 161 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 14
+**Remaining to long-term target:** 0
 **Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,185-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
@@ -58,7 +58,8 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 2456 | 2456 | Adds 10 platform filesystem durability, path canonicalization, threading, clocks, GPU/audio capability profiles, file locking, path limits, resource-limit detection, and runtime smoke matrix workflows |
 | 2466 | 2466 | Adds 10 concurrent world reads, atomic job publication, async deduplication, queue fairness, cache invalidation, resource reservations, ECS command order, event reentrancy, concurrent shutdown, and atomic generation swap workflows |
 | 2476 | 2476 | Adds 10 world command permission rechecks, region access boundaries, save locks, consistent snapshots, cross-chunk transactions, region recovery, privacy exports, backup retention, cross-mod migration, and world integrity audit workflows |
-| 2486 | 2486 | Adds 10 world-load admission, session ownership, save barriers, repair approval, recovery priority, safe mode, incident timelines, invariant monitors, recovery drills, and fallback regression workflows for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
+| 2486 | 2486 | Adds 10 world-load admission, session ownership, save barriers, repair approval, recovery priority, safe mode, incident timelines, invariant monitors, recovery drills, and fallback regression workflows |
+| 2500 | 2500 | Reaches the declared 2,500-skill milestone with 14 final acceptance workflows for alpha readiness, data-loss and resource gates, mod compatibility, privacy, licensing, clean builds, limitations, release evidence, and roadmap completion for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -315,3 +316,10 @@ Added 10 workflows for queued-command permission rechecks, region access boundar
 ## Batch 2,486 — NEXORA operational safety (2026-10-29)
 
 Added 10 workflows for world-load admission, single-owner world sessions, save quiescence barriers, repair approval, recovery priority, engine safe mode, incident timelines, runtime invariant monitoring, recovery drills, and fallback regression coverage.
+
+
+## Batch 2,500 — NEXORA milestone acceptance (2026-10-29)
+
+Completed the declared catalog target with 14 final workflows covering engine readiness, alpha tester build checks, critical-path smoke tests, world-data-loss release blockers, resource-budget gates, mod compatibility gates, privacy and licensing checks, feature-flag retirement, clean-room build verification, known limitations, release evidence bundling, roadmap completion evidence, and 2,500-skill milestone acceptance.
+
+**Important:** This milestone confirms the catalog count only after structural validation. It does not mean every NEXORA runtime feature is implemented, nor does it resolve the separate imported-license review or real Claude Code installation/discovery smoke test.

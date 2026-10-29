@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-29",
-  "unique_skills": 2486,
+  "unique_skills": 2500,
   "target": 2500,
-  "remaining": 14,
+  "remaining": 0,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -14921,6 +14921,90 @@
       "category": "Curated: nexora-operations-hardening",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-operations-hardening/nexora-feature-fallback-regression-suite/SKILL.md"
+    },
+    {
+      "name": "nexora-engine-readiness-review",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-engine-readiness-review/SKILL.md"
+    },
+    {
+      "name": "nexora-alpha-tester-build-checklist",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-alpha-tester-build-checklist/SKILL.md"
+    },
+    {
+      "name": "nexora-critical-path-smoke-gate",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-critical-path-smoke-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-world-data-loss-release-blocker",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-world-data-loss-release-blocker/SKILL.md"
+    },
+    {
+      "name": "nexora-resource-budget-release-blocker",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-resource-budget-release-blocker/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-compatibility-release-blocker",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-mod-compatibility-release-blocker/SKILL.md"
+    },
+    {
+      "name": "nexora-observability-privacy-release-gate",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-observability-privacy-release-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-feature-flag-retirement-report",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-feature-flag-retirement-report/SKILL.md"
+    },
+    {
+      "name": "nexora-dependency-license-release-gate",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-dependency-license-release-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-clean-room-build-verification",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-clean-room-build-verification/SKILL.md"
+    },
+    {
+      "name": "nexora-engine-known-limitations-register",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-engine-known-limitations-register/SKILL.md"
+    },
+    {
+      "name": "nexora-release-evidence-bundle",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-release-evidence-bundle/SKILL.md"
+    },
+    {
+      "name": "nexora-roadmap-completion-evidence",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-roadmap-completion-evidence/SKILL.md"
+    },
+    {
+      "name": "nexora-2500-skill-milestone-acceptance",
+      "category": "Curated: nexora-final-acceptance",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-2500-skill-milestone-acceptance/SKILL.md"
     }
   ]
 }
