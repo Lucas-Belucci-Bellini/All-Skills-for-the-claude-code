@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-29",
-  "unique_skills": 2366,
+  "unique_skills": 2376,
   "target": 2500,
-  "remaining": 134,
+  "remaining": 124,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -14201,6 +14201,66 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
+    },
+    {
+      "name": "nexora-filesystem-sandbox-boundary",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-filesystem-sandbox-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-network-egress-policy",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-network-egress-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-resource-quota",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-mod-resource-quota/SKILL.md"
+    },
+    {
+      "name": "nexora-command-permission-matrix",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-command-permission-matrix/SKILL.md"
+    },
+    {
+      "name": "nexora-plugin-api-capability-audit",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-plugin-api-capability-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-world-save-authenticity-boundary",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-world-save-authenticity-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-secure-update-manifest",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-secure-update-manifest/SKILL.md"
+    },
+    {
+      "name": "nexora-secret-redaction-config-contract",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-secret-redaction-config-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-remote-console-authentication",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-remote-console-authentication/SKILL.md"
+    },
+    {
+      "name": "nexora-security-regression-corpus",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-security-regression-corpus/SKILL.md"
     }
   ]
 }

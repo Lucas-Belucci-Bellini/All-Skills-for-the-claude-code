@@ -1,9 +1,9 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,366 distinct skills (2,205 authored + 161 retained/imported)
+**Current draft inventory:** 2,376 distinct skills (2,215 authored + 161 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 134
+**Remaining to long-term target:** 124
 **Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,185-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
 **Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
 
@@ -46,7 +46,8 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 2336 | 2336 | Adds 10 memory attribution, allocation hot paths, cache eviction, lifecycle leak tests, lock contention, worker saturation, priority inversion, frame allocation budgets, GPU pressure, and memory admission workflows |
 | 2346 | 2346 | Adds 10 Rust crate dependency, public API stability, unsafe audit, feature coherence, async cancellation, lock-poison recovery, error context, resource ownership, trait-object boundaries, and workspace release-gate workflows |
 | 2356 | 2356 | Adds 10 save migration rollback, forward compatibility, region index/compaction, world edit conflict, inventory/item invariants, recipe cycles, and mod event/hot-reload lifecycle workflows |
-| 2366 | 2366 | Adds 10 render pass contracts, target resize, temporal history, color-space pipeline, dynamic resolution, occlusion latency, animation pose/LOD, and audio device/spatialization workflows for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
+| 2366 | 2366 | Adds 10 render pass contracts, target resize, temporal history, color-space pipeline, dynamic resolution, occlusion latency, animation pose/LOD, and audio device/spatialization workflows |
+| 2376 | 2376 | Adds 10 filesystem confinement, network egress, mod quotas, command permissions, plugin capability auditing, save authenticity, secure updates, secret redaction, remote console security, and security regression corpus workflows for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -243,3 +244,8 @@ Added 10 workflows for save migration rollback, forward compatibility, region-in
 ## Batch 2,366 — NEXORA rendering, animation, and audio correctness (2026-10-29)
 
 Added 10 workflows for render-pass state contracts, transactional target resize, temporal-history invalidation, color-space correctness, render-resolution budgets, asynchronous occlusion-query handling, animation pose-cache invalidation, skeletal LOD transitions, audio-device recovery, and spatial-audio coordinate correctness.
+
+
+## Batch 2,376 — NEXORA security boundaries (2026-10-29)
+
+Added 10 workflows for filesystem confinement, network egress policy, mod resource quotas, command permissions, plugin capability auditing, save authenticity threat modeling, secure update manifests, secret redaction, remote console authentication, and a security regression corpus.
