@@ -35,8 +35,8 @@ jobs:
           cmp "$RUNNER_TEMP/first-write.diff" "$RUNNER_TEMP/second-write.diff"
           git diff --check
 
-      - name: Validate current consolidated 2,236-skill structure and source/bundle parity
-        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2236.json
+      - name: Validate current consolidated 2,246-skill structure and source/bundle parity
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2246.json
 
       - name: Commit generated synchronization outputs
         shell: bash
