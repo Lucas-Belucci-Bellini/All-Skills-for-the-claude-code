@@ -1567,6 +1567,66 @@
       "source_path": "curated-skill-sources/agent-tooling/tool-call-budget-policy/SKILL.md"
     },
     {
+      "name": "nexora-ai-action-validation-gate",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-action-validation-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-behavior-tree-bounded-tick",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-behavior-tree-bounded-tick/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-generated-content-validation",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-generated-content-validation/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-navigation-intent-contract",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-navigation-intent-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-npc-memory-retention",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-npc-memory-retention/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-observability-redaction",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-observability-redaction/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-planner-failure-classification",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planner-failure-classification/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-planner-world-snapshot",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planner-world-snapshot/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-planning-determinism-boundary",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planning-determinism-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-ai-tool-budget-contract",
+      "category": "Curated: nexora-ai-tooling",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-tool-budget-contract/SKILL.md"
+    },
+    {
       "name": "nexora-animation-clip-time-contract",
       "category": "Curated: nexora-assets-validation",
       "origin": "new-authored",
@@ -14621,66 +14681,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-tool-budget-contract",
-      "category": "Curated: nexora-ai-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-tool-budget-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-planner-world-snapshot",
-      "category": "Curated: nexora-ai-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planner-world-snapshot/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-action-validation-gate",
-      "category": "Curated: nexora-ai-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-action-validation-gate/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-planning-determinism-boundary",
-      "category": "Curated: nexora-ai-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planning-determinism-boundary/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-npc-memory-retention",
-      "category": "Curated: nexora-ai-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-npc-memory-retention/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-navigation-intent-contract",
-      "category": "Curated: nexora-ai-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-navigation-intent-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-behavior-tree-bounded-tick",
-      "category": "Curated: nexora-ai-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-behavior-tree-bounded-tick/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-planner-failure-classification",
-      "category": "Curated: nexora-ai-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-planner-failure-classification/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-generated-content-validation",
-      "category": "Curated: nexora-ai-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-generated-content-validation/SKILL.md"
-    },
-    {
-      "name": "nexora-ai-observability-redaction",
-      "category": "Curated: nexora-ai-tooling",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-ai-tooling/nexora-ai-observability-redaction/SKILL.md"
     }
   ]
 }
