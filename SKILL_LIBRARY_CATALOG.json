@@ -1627,6 +1627,66 @@
       "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-atlas-fragmentation/SKILL.md"
     },
     {
+      "name": "nexora-network-backpressure-policy",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-backpressure-policy/SKILL.md"
+    },
+    {
+      "name": "nexora-network-clock-drift-correction",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-clock-drift-correction/SKILL.md"
+    },
+    {
+      "name": "nexora-network-desync-triage",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-desync-triage/SKILL.md"
+    },
+    {
+      "name": "nexora-network-entity-generation-guard",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-entity-generation-guard/SKILL.md"
+    },
+    {
+      "name": "nexora-network-input-rate-limiter",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-input-rate-limiter/SKILL.md"
+    },
+    {
+      "name": "nexora-network-interest-boundary-test",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-interest-boundary-test/SKILL.md"
+    },
+    {
+      "name": "nexora-network-protocol-version-gate",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-protocol-version-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-network-reliable-event-order",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-reliable-event-order/SKILL.md"
+    },
+    {
+      "name": "nexora-network-session-epoch-rotation",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-network-session-epoch-rotation/SKILL.md"
+    },
+    {
+      "name": "nexora-replication-delta-baseline",
+      "category": "Curated: nexora-networking",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-networking/nexora-replication-delta-baseline/SKILL.md"
+    },
+    {
       "name": "nexora-crash-recovery-startup-gate",
       "category": "Curated: nexora-reliability",
       "origin": "new-authored",
@@ -13781,66 +13841,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-replication-delta-baseline",
-      "category": "Curated: nexora-networking",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-networking/nexora-replication-delta-baseline/SKILL.md"
-    },
-    {
-      "name": "nexora-network-reliable-event-order",
-      "category": "Curated: nexora-networking",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-networking/nexora-network-reliable-event-order/SKILL.md"
-    },
-    {
-      "name": "nexora-network-backpressure-policy",
-      "category": "Curated: nexora-networking",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-networking/nexora-network-backpressure-policy/SKILL.md"
-    },
-    {
-      "name": "nexora-network-protocol-version-gate",
-      "category": "Curated: nexora-networking",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-networking/nexora-network-protocol-version-gate/SKILL.md"
-    },
-    {
-      "name": "nexora-network-input-rate-limiter",
-      "category": "Curated: nexora-networking",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-networking/nexora-network-input-rate-limiter/SKILL.md"
-    },
-    {
-      "name": "nexora-network-clock-drift-correction",
-      "category": "Curated: nexora-networking",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-networking/nexora-network-clock-drift-correction/SKILL.md"
-    },
-    {
-      "name": "nexora-network-entity-generation-guard",
-      "category": "Curated: nexora-networking",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-networking/nexora-network-entity-generation-guard/SKILL.md"
-    },
-    {
-      "name": "nexora-network-interest-boundary-test",
-      "category": "Curated: nexora-networking",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-networking/nexora-network-interest-boundary-test/SKILL.md"
-    },
-    {
-      "name": "nexora-network-session-epoch-rotation",
-      "category": "Curated: nexora-networking",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-networking/nexora-network-session-epoch-rotation/SKILL.md"
-    },
-    {
-      "name": "nexora-network-desync-triage",
-      "category": "Curated: nexora-networking",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-networking/nexora-network-desync-triage/SKILL.md"
     }
   ]
 }
