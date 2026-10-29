@@ -1567,6 +1567,66 @@
       "source_path": "curated-skill-sources/agent-tooling/tool-call-budget-policy/SKILL.md"
     },
     {
+      "name": "nexora-benchmark-baseline-refresh",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-benchmark-baseline-refresh/SKILL.md"
+    },
+    {
+      "name": "nexora-build-cache-trust-boundary",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-cache-trust-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-build-failure-minimizer",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-failure-minimizer/SKILL.md"
+    },
+    {
+      "name": "nexora-build-feature-provenance",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-feature-provenance/SKILL.md"
+    },
+    {
+      "name": "nexora-build-graph-incrementality",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-graph-incrementality/SKILL.md"
+    },
+    {
+      "name": "nexora-ci-change-impact-selection",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-ci-change-impact-selection/SKILL.md"
+    },
+    {
+      "name": "nexora-cross-target-compile-matrix",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-cross-target-compile-matrix/SKILL.md"
+    },
+    {
+      "name": "nexora-dependency-upgrade-impact",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-dependency-upgrade-impact/SKILL.md"
+    },
+    {
+      "name": "nexora-generated-code-determinism",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-generated-code-determinism/SKILL.md"
+    },
+    {
+      "name": "nexora-release-channel-policy",
+      "category": "Curated: nexora-build-automation",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-build-automation/nexora-release-channel-policy/SKILL.md"
+    },
+    {
       "name": "nexora-asset-budget-admission",
       "category": "Curated: nexora-content-pipeline",
       "origin": "new-authored",
@@ -14441,66 +14501,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-build-graph-incrementality",
-      "category": "Curated: nexora-build-automation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-graph-incrementality/SKILL.md"
-    },
-    {
-      "name": "nexora-generated-code-determinism",
-      "category": "Curated: nexora-build-automation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-build-automation/nexora-generated-code-determinism/SKILL.md"
-    },
-    {
-      "name": "nexora-build-cache-trust-boundary",
-      "category": "Curated: nexora-build-automation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-cache-trust-boundary/SKILL.md"
-    },
-    {
-      "name": "nexora-cross-target-compile-matrix",
-      "category": "Curated: nexora-build-automation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-build-automation/nexora-cross-target-compile-matrix/SKILL.md"
-    },
-    {
-      "name": "nexora-dependency-upgrade-impact",
-      "category": "Curated: nexora-build-automation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-build-automation/nexora-dependency-upgrade-impact/SKILL.md"
-    },
-    {
-      "name": "nexora-build-feature-provenance",
-      "category": "Curated: nexora-build-automation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-feature-provenance/SKILL.md"
-    },
-    {
-      "name": "nexora-ci-change-impact-selection",
-      "category": "Curated: nexora-build-automation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-build-automation/nexora-ci-change-impact-selection/SKILL.md"
-    },
-    {
-      "name": "nexora-benchmark-baseline-refresh",
-      "category": "Curated: nexora-build-automation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-build-automation/nexora-benchmark-baseline-refresh/SKILL.md"
-    },
-    {
-      "name": "nexora-release-channel-policy",
-      "category": "Curated: nexora-build-automation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-build-automation/nexora-release-channel-policy/SKILL.md"
-    },
-    {
-      "name": "nexora-build-failure-minimizer",
-      "category": "Curated: nexora-build-automation",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-build-automation/nexora-build-failure-minimizer/SKILL.md"
     }
   ]
 }
