@@ -1573,6 +1573,12 @@
       "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-asset-content-addressing/SKILL.md"
     },
     {
+      "name": "nexora-asset-import-failure-isolation",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-asset-import-failure-isolation/SKILL.md"
+    },
+    {
       "name": "nexora-async-shutdown-barrier",
       "category": "Curated: nexora-runtime-reliability",
       "origin": "new-authored",
@@ -1603,10 +1609,46 @@
       "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-deterministic-tick-input-log/SKILL.md"
     },
     {
+      "name": "nexora-engine-startup-phase-gates",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-engine-startup-phase-gates/SKILL.md"
+    },
+    {
+      "name": "nexora-frame-pacing-budget",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-frame-pacing-budget/SKILL.md"
+    },
+    {
+      "name": "nexora-gpu-resource-retirement",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-gpu-resource-retirement/SKILL.md"
+    },
+    {
+      "name": "nexora-gpu-upload-backpressure",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-gpu-upload-backpressure/SKILL.md"
+    },
+    {
       "name": "nexora-mod-capability-boundary",
       "category": "Curated: nexora-runtime-reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-mod-capability-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-mod-content-conflict-resolution",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-mod-content-conflict-resolution/SKILL.md"
+    },
+    {
+      "name": "nexora-render-graph-dependency-audit",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-render-graph-dependency-audit/SKILL.md"
     },
     {
       "name": "nexora-resource-handle-generation",
@@ -1631,6 +1673,24 @@
       "category": "Curated: nexora-runtime-reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-save-corruption-quarantine/SKILL.md"
+    },
+    {
+      "name": "nexora-shader-cache-key-contract",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-shader-cache-key-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-simulation-render-snapshot-boundary",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-simulation-render-snapshot-boundary/SKILL.md"
+    },
+    {
+      "name": "nexora-texture-streaming-priority",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-texture-streaming-priority/SKILL.md"
     },
     {
       "name": "api-contract-to-skill-spec",
@@ -13301,66 +13361,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-gpu-upload-backpressure",
-      "category": "Curated: nexora-runtime-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-gpu-upload-backpressure/SKILL.md"
-    },
-    {
-      "name": "nexora-shader-cache-key-contract",
-      "category": "Curated: nexora-runtime-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-shader-cache-key-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-frame-pacing-budget",
-      "category": "Curated: nexora-runtime-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-frame-pacing-budget/SKILL.md"
-    },
-    {
-      "name": "nexora-gpu-resource-retirement",
-      "category": "Curated: nexora-runtime-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-gpu-resource-retirement/SKILL.md"
-    },
-    {
-      "name": "nexora-render-graph-dependency-audit",
-      "category": "Curated: nexora-runtime-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-render-graph-dependency-audit/SKILL.md"
-    },
-    {
-      "name": "nexora-texture-streaming-priority",
-      "category": "Curated: nexora-runtime-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-texture-streaming-priority/SKILL.md"
-    },
-    {
-      "name": "nexora-asset-import-failure-isolation",
-      "category": "Curated: nexora-runtime-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-asset-import-failure-isolation/SKILL.md"
-    },
-    {
-      "name": "nexora-mod-content-conflict-resolution",
-      "category": "Curated: nexora-runtime-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-mod-content-conflict-resolution/SKILL.md"
-    },
-    {
-      "name": "nexora-simulation-render-snapshot-boundary",
-      "category": "Curated: nexora-runtime-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-simulation-render-snapshot-boundary/SKILL.md"
-    },
-    {
-      "name": "nexora-engine-startup-phase-gates",
-      "category": "Curated: nexora-runtime-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-engine-startup-phase-gates/SKILL.md"
     }
   ]
 }

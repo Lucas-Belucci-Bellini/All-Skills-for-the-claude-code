@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-29. The unified bundle contains 2216 distinct skills.
+Updated: 2026-10-29. The unified bundle contains 2226 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **161**
-- Original curated skills: **2055**
-- Current total: **2216**
+- Original curated skills: **2065**
+- Current total: **2226**
 - Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **284**
+- Remaining to long-term target: **274**
 
 ## Categories
 
@@ -284,19 +284,29 @@ Updated: 2026-10-29. The unified bundle contains 2216 distinct skills.
 - skill-registry-tenant-separation-tests — NEW
 - tool-call-budget-policy — NEW
 
-### Curated: nexora-runtime-reliability (11)
+### Curated: nexora-runtime-reliability (21)
 
 - nexora-asset-content-addressing — NEW
+- nexora-asset-import-failure-isolation — NEW
 - nexora-async-shutdown-barrier — NEW
 - nexora-config-transactional-reload — NEW
 - nexora-crash-report-redaction — NEW
 - nexora-cross-platform-filesystem-contract — NEW
 - nexora-deterministic-tick-input-log — NEW
+- nexora-engine-startup-phase-gates — NEW
+- nexora-frame-pacing-budget — NEW
+- nexora-gpu-resource-retirement — NEW
+- nexora-gpu-upload-backpressure — NEW
 - nexora-mod-capability-boundary — NEW
+- nexora-mod-content-conflict-resolution — NEW
+- nexora-render-graph-dependency-audit — NEW
 - nexora-resource-handle-generation — NEW
 - nexora-runtime-budget-regression — NEW
 - nexora-rust-error-boundary-design — NEW
 - nexora-save-corruption-quarantine — NEW
+- nexora-shader-cache-key-contract — NEW
+- nexora-simulation-render-snapshot-boundary — NEW
+- nexora-texture-streaming-priority — NEW
 
 ### Curated: repository-to-skill-synthesis (15)
 
