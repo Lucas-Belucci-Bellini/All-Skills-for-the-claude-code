@@ -405,3 +405,8 @@ Added a dedicated workflow for evolving the current directional sky gradient and
 ## Batch 2,515 — NEXORA voxel palette transition invariants (2026-10-30)
 
 Added a focused correctness workflow for the section storage state machine in `engine/world/src/voxel.rs`. It covers uniform-to-paletted conversion, 1–12-bit index packing, word-boundary behavior, the 4096-to-4097 distinct-state direct promotion, quiet-point compaction, air counters, registry remapping, and malformed persisted parts. It reuses the whole-world memory benchmark and save-format workflows rather than duplicating them. Source/test anchors were inspected; no NEXORA test execution is claimed by this skill PR.
+
+
+## Batch 2,514 — NEXORA environmental VFX event bridge (2026-10-30)
+
+Added a client-side presentation workflow that connects authoritative semantic events to bounded cosmetic emitters. It reuses weather/time, atmosphere/fog, lighting, render-pass, RHI, GPU resource lifecycle, and frame-budget skills; no VFX runtime or performance gain is claimed.
