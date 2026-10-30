@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,507 distinct skills (2,507 authored + 0 retained/imported)
+**Current draft inventory:** 2,508 distinct skills (2,508 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,493
-**Current milestone:** 2,507 original skills: the 2,500-skill authored milestone plus seven NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, and RHI conformance evidence). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41104430907; NEXORA runtime feature validation remains separate.
+**Remaining to long-term target:** 2,492
+**Current milestone:** 2,508 original skills: the 2,500-skill authored milestone plus eight NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, RHI conformance evidence, and Cutout layer integration). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41104430907; NEXORA runtime feature validation remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -67,6 +67,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2505 | 2505 | Adds a NEXORA native UI design-to-code workflow grounded in the client/window/input/render/RHI architecture; no dedicated UI crate exists in the inspected snapshot, so implementation remains a staged design decision |
 | 2506 | 2506 | Adds NEXORA surface acquisition/recovery workflow for bounded Lost/Outdated/Timeout/Occluded handling, host scheduling, minimize/restore and surface-vs-device failure separation |
 | 2507 | 2507 | Adds NEXORA RHI conformance evidence workflow for the active 11-case suite, NullRhi/wgpu parity, CI software adapters and commit-scoped local hardware reports |
+| 2508 | 2508 | Adds the NEXORA Cutout layer integration workflow, covering alpha threshold ownership, cutout pipeline/depth writes, mip coverage, CPU reference continuation, and GPU pixel tests |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -366,3 +367,8 @@ Added an original workflow for the full RHI evidence chain: backend-neutral cont
 ## Enhancement — NEXORA transparent voxel pass ordering (2026-10-30)
 
 The existing `engine-voxel-transparency-sort-policy` workflow was expanded with NEXORA's ADR-0051/DEBT-0056 case. The current renderer draws transparent chunk buffers in caller order despite the mesh contract requiring back-to-front sorting; the CPU reference does not judge rays crossing a second see-through face. The enhanced workflow now requires a deliberate sort granularity, deterministic depth/tie-break policy, multi-layer CPU compositing, GPU regression scenes, and measured sorting cost. This is an enhancement to an existing skill, so the unique skill count remains 2,507.
+
+
+## Batch 2,508 — NEXORA Cutout layer integration (2026-10-30)
+
+Added an original workflow for the missing renderer stage between material/mesher classification and GPU pixel output. The snapshot already routes `BlendMode::Cutout` into `LayeredMesh.cutout`, but the textured `ChunkPass` has no cutout pipeline/buffer and the material schema has no explicit alpha threshold. The workflow requires an explicit threshold decision, alpha discard with depth writes, opaque → cutout → transparent ordering, mip coverage measurements, CPU-reference continuation through discarded texels, and native pixel tests. No runtime implementation is claimed.
