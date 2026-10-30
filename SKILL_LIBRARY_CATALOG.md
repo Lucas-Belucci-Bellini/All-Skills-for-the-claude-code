@@ -601,6 +601,10 @@ Updated: 2026-10-30. The unified bundle contains 2505 distinct skills.
 - nexora-test-failure-classification — NEW
 - nexora-test-isolation-contract — NEW
 
+### Curated: nexora-ui-engineering (1)
+
+- nexora-native-ui-design-to-code — NEW
+
 ### Curated: nexora-world-safety (10)
 
 - nexora-save-lock-and-recovery — NEW
@@ -613,10 +617,6 @@ Updated: 2026-10-30. The unified bundle contains 2505 distinct skills.
 - nexora-world-region-recovery-scan — NEW
 - nexora-world-save-privacy-export — NEW
 - nexora-world-snapshot-consistency — NEW
-
-### Curated: nexora-ui-engineering (1)
-
-- nexora-native-ui-design-to-code — NEW
 
 ### Curated: nexora-worldgen-streaming (13)
 

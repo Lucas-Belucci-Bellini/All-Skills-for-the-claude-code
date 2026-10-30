@@ -3055,6 +3055,12 @@
       "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-test-isolation-contract/SKILL.md"
     },
     {
+      "name": "nexora-native-ui-design-to-code",
+      "category": "Curated: nexora-ui-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ui-engineering/nexora-native-ui-design-to-code/SKILL.md"
+    },
+    {
       "name": "nexora-save-lock-and-recovery",
       "category": "Curated: nexora-world-safety",
       "origin": "new-authored",
@@ -3191,12 +3197,6 @@
       "category": "Curated: nexora-worldgen-streaming",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-stage-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-native-ui-design-to-code",
-      "category": "Curated: nexora-ui-engineering",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-ui-engineering/nexora-native-ui-design-to-code/SKILL.md"
     },
     {
       "name": "api-contract-to-skill-spec",
