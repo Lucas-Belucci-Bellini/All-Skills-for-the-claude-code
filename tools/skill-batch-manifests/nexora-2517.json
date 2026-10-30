@@ -6,7 +6,7 @@
   "long_term_target": 5000,
   "authored_count": 2517,
   "retained_count": 0,
-  "plugin_version": "2.1.41",
+  "plugin_version": "2.1.42",
   "skills": [
     {
       "name": "nexora-durable-edit-journal-replay",
