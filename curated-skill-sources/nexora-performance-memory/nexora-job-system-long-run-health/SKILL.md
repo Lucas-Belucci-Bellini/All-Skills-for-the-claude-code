@@ -53,7 +53,7 @@ These are source observations, not a claim that the long-run test plan has alrea
 14. **Classify outcomes.** Mark each scenario PASS, FAIL, INCONCLUSIVE or NOT RUN. A run that ends before the workload drains is not a pass; a flat RSS line does not prove no logical leak; a bounded retained-results map does not prove the pending queue is bounded.
 15. **Publish actionable findings.** For each failure include the first divergent metric, time window, workload phase, relevant handles/priorities, reproduction seed and smallest reproduction. Separate confirmed defects from hypotheses and follow-up design proposals.
 
-## Long-run acceptance checklist
+## Validation checklist
 
 - [ ] Worker count remains within the configured construction limit.
 - [ ] Queued and running counts reconcile with submitted and terminal outcomes.
