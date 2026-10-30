@@ -193,12 +193,6 @@
       "source_path": "curated-skill-sources/accessibility-inclusive-ux/keyboard-shortcut-conflict-inventory/SKILL.md"
     },
     {
-      "name": "nexora-tracked-local-artifact-exposure-response",
-      "category": "Curated: nexora-security-boundaries",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-tracked-local-artifact-exposure-response/SKILL.md"
-    },
-    {
       "name": "reduced-motion-interaction-equivalence",
       "category": "Accessibility & inclusive UX",
       "origin": "new-authored",
@@ -2849,6 +2843,12 @@
       "category": "Curated: nexora-security-boundaries",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-security-regression-corpus/SKILL.md"
+    },
+    {
+      "name": "nexora-tracked-local-artifact-exposure-response",
+      "category": "Curated: nexora-security-boundaries",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-security-boundaries/nexora-tracked-local-artifact-exposure-response/SKILL.md"
     },
     {
       "name": "nexora-world-save-authenticity-boundary",
