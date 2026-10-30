@@ -5,7 +5,7 @@ description: Use the NEXORA Texture Forge lit 2×2 preview and seam validator to
 
 # nexora-texture-preview-seam-review
 
-## When to use
+## Purpose
 
 Use the NEXORA Texture Forge lit 2×2 preview and seam validator to review tile boundaries and catch normal, roughness, and occlusion defects.
 
@@ -15,7 +15,7 @@ Use the NEXORA Texture Forge lit 2×2 preview and seam validator to review tile 
 - Current source files named below; inspect the active revision before relying on implementation details.
 - Intended output and acceptance criteria. Mark missing evidence unknown rather than assuming capabilities.
 
-## Procedure
+## Workflow
 
 1. Inspect `tools/texture-forge/src/preview.rs` and `tools/texture-forge/src/validator.rs`; confirm constants and thresholds from current source.
 2. Require an albedo map. Report missing input rather than substituting a blank image.
@@ -28,18 +28,27 @@ Use the NEXORA Texture Forge lit 2×2 preview and seam validator to review tile 
 9. Capture material ID, source map hashes, preview dimensions, findings, and tool revision. Classify findings as seam, map-content, shading approximation, or missing-input issues.
 - Evidence: `tools/texture-forge/src/preview.rs`, `tools/texture-forge/src/validator.rs`, `tools/texture-forge/src/pbr.rs`, `docs/plans/TEXTURE FORGE.md`.
 
-## Validation and expected output
+## Validation checklist
 
-- Record source revision, files inspected, commands/tests actually executed, and resulting evidence.
-- Separate source inspection, automated validation, visual review, and runtime integration; one does not imply another.
-- Report failures with affected material identifier and reproducible input. Do not silently normalize invalid content.
-- Deliver accepted, rejected, or blocked status with concrete reasons and follow-up work.
+- [ ] Confirmed the current source contract and recorded the exact source revision.
+- [ ] Validated representative inputs, including malformed or boundary cases relevant to this workflow.
+- [ ] Recorded commands and results; distinguished checks actually run from proposed checks.
+- [ ] Compared generated or reviewed output against the stated invariants and acceptance criteria.
 
-## Failure modes and limits
+## Required output
+
+- A concise decision (accepted, rejected, or blocked), affected material identifiers, source revision, evidence paths, validation results, and actionable follow-up items.
+
+## Boundaries and failure handling
 
 - Do not hand-edit generated assets or registry outputs when derived from source definitions.
 - Do not claim tests were run merely because instructions or fixtures exist.
 - Do not expand this workflow into unrelated renderer, gameplay, or authoring concerns.
+
+## Trigger examples
+
+- **Positive:** A developer is authoring, diagnosing, or reviewing this exact Texture Forge concern in NEXORA.
+- **Negative:** The task concerns unrelated game art direction, a generic image editor, or a renderer subsystem without this workflow's stated inputs.
 
 ## Source evidence
 

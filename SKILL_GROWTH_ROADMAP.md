@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,530 distinct skills (2,530 authored + 0 retained/imported)
+**Current draft inventory:** 2,534 distinct skills (2,534 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,470
-**Current milestone:** 2,530 authored skills: the 2,500-skill milestone plus thirty NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory, rendering, atlas correctness, VFX, native UI and upload scheduling. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,466
+**Current milestone:** 2,534 authored skills: the 2,500-skill milestone plus thirty-four NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory, rendering, atlas correctness, texture manifests, recipe periodicity, reproducible generation, preview/seam review, VFX, native UI and upload scheduling. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -84,6 +84,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2522 | 2522 | Adds metadata-first NEXORA response for tracked machine-local artifacts: safe provenance triage, owner-approved backup/removal, coordinated history decisions, and path-only CI prevention |
 | 2526 | 2526 | Adds four distinct NEXORA workflows for bounded voxel mesh uploads, deterministic world-generation admission, native UI scaling, and keyboard/controller focus navigation; runtime implementation and testing remain separate |
 | 2530 | 2530 | Adds four NEXORA atlas correctness workflows for footprint-based mip selection, per-face texel orientation, deterministic face variants, and CPU/WGSL reference parity; runtime changes are not claimed |
+| 2534 | 2534 | Adds four NEXORA Texture Forge workflows for manifest inheritance, periodic recipe constraints, procedural seed/repair identity, and 2×2 preview plus numeric seam review; runtime changes/tests are not claimed |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
