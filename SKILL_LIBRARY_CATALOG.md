@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-30. The unified bundle contains 2500 distinct skills.
+Updated: 2026-10-30. The unified bundle contains 2501 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2500**
-- Current total: **2500**
+- Original curated skills: **2501**
+- Current total: **2501**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,500**
+- Remaining to long-term target: **2,499**
 
 ## Categories
 
@@ -645,8 +645,9 @@ Updated: 2026-10-30. The unified bundle contains 2500 distinct skills.
 - test-fixture-to-skill-validation — NEW
 - upstream-license-provenance-gate — NEW
 
-### Curated: voxel-world-engineering (10)
+### Curated: voxel-world-engineering (11)
 
+- nexora-greedy-meshing-surface-preservation — NEW
 - voxel-chunk-dirty-state-contract — NEW
 - voxel-chunk-eviction-safety — NEW
 - voxel-chunk-job-deduplication — NEW

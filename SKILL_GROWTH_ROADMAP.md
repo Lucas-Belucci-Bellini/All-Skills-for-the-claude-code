@@ -1,10 +1,10 @@
-# Roadmap to 2,500 distinct skills
+# Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,500 distinct skills (2,500 authored + 0 retained/imported)
+**Current draft inventory:** 2,501 distinct skills (2,501 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,500
-**Current milestone:** 2,500 original skills: 2,339 previously authored skills plus 161 new programming-language workflows covering all 31 public profile languages (five per language plus six polyglot workflows). All 161 retained/imported skill files were removed; the catalog and aggregate bundle contain zero retained/imported skills. Strict Claude Code validation and clean installation/discovery remain required.
+**Remaining to long-term target:** 2,499
+**Current milestone:** 2,501 original skills: the 2,500-skill authored milestone plus one NEXORA-specific greedy-meshing workflow. The catalog and aggregate bundle contain zero retained/imported skills. Strict Claude Code validation and clean installation/discovery remain required.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -59,7 +59,8 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2466 | 2466 | Adds 10 concurrent world reads, atomic job publication, async deduplication, queue fairness, cache invalidation, resource reservations, ECS command order, event reentrancy, concurrent shutdown, and atomic generation swap workflows |
 | 2476 | 2476 | Adds 10 world command permission rechecks, region access boundaries, save locks, consistent snapshots, cross-chunk transactions, region recovery, privacy exports, backup retention, cross-mod migration, and world integrity audit workflows |
 | 2486 | 2486 | Adds 10 world-load admission, session ownership, save barriers, repair approval, recovery priority, safe mode, incident timelines, invariant monitors, recovery drills, and fallback regression workflows |
-| 2500 | 2500 | Reaches the declared 2,500-skill milestone with 14 final acceptance workflows for alpha readiness, data-loss and resource gates, mod compatibility, privacy, licensing, clean builds, limitations, release evidence, and roadmap completion for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
+| 2500 | 2500 | Reaches the declared 2,500-skill authored milestone with 14 final acceptance workflows |
+| 2501 | 2501 | Adds one NEXORA-specific greedy-meshing workflow grounded in the current `nexora-mesh` implementation; focused runtime validation remains pending |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -330,3 +331,8 @@ Completed the declared catalog target with 14 final workflows covering engine re
 ## Reconstituted 2,500-skill milestone — programming-language coverage (2026-10-30)
 
 Added 161 original skills: five workflows for each of the 31 languages detected in the public profile, plus six polyglot workflows for API contracts, serialization compatibility, FFI safety, cross-runtime fixtures, language migration, and reproducible builds. The 161 removed retained/imported entries were not restored. The current catalog is 2,500 authored skills with zero retained/imported entries. The next planning target is 5,000; do not count bundle copies or aliases as additional skills.
+
+
+## Batch 2,501 — NEXORA greedy meshing (2026-10-30)
+
+Added one original workflow for NEXORA's deterministic greedy voxel mesher: neighbor-aware face culling, surface/occlusion merge identity, surface-area preservation, bounded quad dimensions, stable output order, render-layer routing and reproducible validation. The skill is grounded in the current `engine/mesh` implementation; it has not yet been executed against a local NEXORA checkout.
