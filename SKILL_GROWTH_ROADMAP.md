@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,510 distinct skills (2,510 authored + 0 retained/imported)
+**Current draft inventory:** 2,511 distinct skills (2,511 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,490
-**Current milestone:** 2,510 original skills: the 2,500-skill authored milestone plus ten NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, RHI conformance evidence, Cutout layer integration, PBR material render bridge, and lighting render extraction contract). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41110416249; NEXORA runtime feature validation remains separate.
+**Remaining to long-term target:** 2,489
+**Current milestone:** 2,511 original skills: the 2,500-skill authored milestone plus eleven NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, RHI conformance evidence, Cutout layer integration, PBR material render bridge, lighting render extraction contract, and shadow caster extraction contract). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41110416249; NEXORA runtime feature validation remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -70,6 +70,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2508 | 2508 | Adds the NEXORA Cutout layer integration workflow, covering alpha threshold ownership, cutout pipeline/depth writes, mip coverage, CPU reference continuation, and GPU pixel tests |
 | 2509 | 2509 | Adds the NEXORA PBR material render bridge workflow, connecting six asset map roles and PBR scalars to material indexing, face tangent frames, shader bindings, lighting, and CPU/GPU reference evidence |
 | 2510 | 2510 | Adds the NEXORA lighting render extraction contract, separating authoritative world light state from immutable frame snapshots, GPU buffers/textures, CPU reference, and bounded resource lifecycles |
+| 2511 | 2511 | Adds NEXORA shadow caster extraction workflow for independent caster/receiver policy, camera-relative sun cascades, local-light budgets, Cutout silhouettes, cache invalidation, and GPU evidence |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -384,3 +385,8 @@ Added an original workflow for the missing bridge between `SurfaceMaterial`/six 
 ## Batch 2,510 — NEXORA lighting render extraction (2026-10-30)
 
 Added a dedicated workflow for the boundary between authoritative world lighting and GPU rendering. The inspected world/simulation roots do not expose a lighting module, and the current render pass has no light-state input, light buffer/texture binding, dynamic-light list, or shadow pass. The workflow therefore begins with source-of-truth discovery and defines an immutable, versioned extraction contract, deterministic GPU representation, chunk-aligned sampling, dynamic-light budgets, independent CPU reference, and native GPU validation. It reuses existing propagation, invalidation, PBR, render-pass, and RHI workflows rather than duplicating them.
+
+
+## Batch 2,511 — NEXORA shadow caster extraction (2026-10-30)
+
+Added a dedicated workflow for selecting and submitting voxel/entity casters to future sun and local-light shadow passes. The current renderer has no shadow pass or caster API; the plans describe cast/receive flags, camera-relative cascades, LOD, and priority budgets. The workflow defines extraction, light-space culling, depth convention, Cutout/transparent policy, cache invalidation, resource retirement, and native GPU proof without claiming shadow maps are implemented.
