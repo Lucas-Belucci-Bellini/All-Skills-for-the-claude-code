@@ -49,7 +49,7 @@ These are source observations, not a claim that a queue limit or overload policy
 14. **Document rollout compatibility.** If changing public signatures, provide a deliberate migration plan, deprecation window or wrapper with truthful failure semantics. Update tests, API docs and the technical-debt register only when the implementation and evidence support it.
 15. **Publish a reproducible report.** Include workload seed, commit, limits, class quotas, memory model, queue time series, accepted/rejected counts, high-water marks, latency distributions, test results and remaining risks.
 
-## Admission contract checklist
+## Validation checklist
 
 - [ ] Pending queue capacity is explicit and independently configured from worker count.
 - [ ] If queued bytes are material, a byte budget is measured or conservatively bounded.
