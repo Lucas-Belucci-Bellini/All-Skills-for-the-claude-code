@@ -48,6 +48,7 @@ on:
       - feat/nexora-atlas-correctness-batch-2530-2026-10-30
       - feat/nexora-present-blit-fidelity-2535-2026-10-30
       - feat/nexora-memory-ledger-reporting-2536-2026-10-30
+      - feat/nexora-rhi-surface-recovery-2538-2026-10-30
       - feat/nexora-engine-workflows-batch-2525-2026-10-30
       - feat/nexora-tracked-local-artifact-exposure-response-2522-2026-10-30
   pull_request:
@@ -260,6 +261,10 @@ jobs:
       - name: Validate NEXORA 2,536-skill MemoryLedger reporting batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-memory-ledger-reporting-2536-2026-10-30' || github.head_ref == 'feat/nexora-memory-ledger-reporting-2536-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2536.json
+
+      - name: Validate NEXORA 2,537-skill GPU frame timing batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-rhi-surface-recovery-2538-2026-10-30' || github.head_ref == 'feat/nexora-rhi-surface-recovery-2538-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2537.json
 
       - name: Validate current catalog manifest and source/bundle parity
         if: github.ref_name == 'feat/all-skills-consolidated-2026' || github.head_ref == 'feat/all-skills-consolidated-2026' || github.base_ref == 'feat/all-skills-consolidated-2026' || github.head_ref == 'cleanup/remove-retained-imported-skills-2026-10-30' || github.head_ref == 'fix/2500-catalog-validation-routing-2026-10-30' || github.ref_name == 'fix/2500-catalog-validation-routing-2026-10-30' || github.head_ref == 'feat/nexora-stream-handle-lifecycle-2026-10-30' || github.ref_name == 'feat/nexora-stream-handle-lifecycle-2026-10-30' || github.head_ref == 'feat/nexora-climate-lattice-reuse-2026-10-30' || github.ref_name == 'feat/nexora-climate-lattice-reuse-2026-10-30' || github.head_ref == 'feat/nexora-biome-climate-weight-blending-2026-10-30' || github.ref_name == 'feat/nexora-biome-climate-weight-blending-2026-10-30'
