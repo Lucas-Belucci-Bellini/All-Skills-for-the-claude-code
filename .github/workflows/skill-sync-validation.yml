@@ -36,6 +36,7 @@ on:
       - feat/nexora-cutout-layer-integration-2026-10-30
       - feat/nexora-pbr-material-render-bridge-2026-10-30
       - feat/nexora-lighting-render-extraction-2026-10-30
+      - feat/nexora-shadow-caster-extraction-2026-10-30
   pull_request:
     branches:
       - main
@@ -171,6 +172,10 @@ jobs:
       - name: Validate NEXORA 2,510-skill batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-lighting-render-extraction-2026-10-30' || github.head_ref == 'feat/nexora-lighting-render-extraction-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2510.json
+
+      - name: Validate NEXORA 2,511-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-shadow-caster-extraction-2026-10-30' || github.head_ref == 'feat/nexora-shadow-caster-extraction-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2511.json
 
       - name: Validate agent orchestration plugin
         run: node tools/validate-agent-plugin.mjs
