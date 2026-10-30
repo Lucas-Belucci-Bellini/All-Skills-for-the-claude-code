@@ -46,7 +46,9 @@ These are snapshot observations, not permanent API guarantees. Re-run a reposito
 - Recovery source: current chunk snapshot, world snapshot, durable event log, or an explicit refusal to continue.
 - Chunk identity, lifecycle/residency guarantees, retry semantics, and any cross-chunk ordering requirement.
 
-## Consumer contract
+## Workflow
+
+### Consumer contract
 
 1. **Treat the journal as a bounded delta window.** It is not a durable event log, complete history, or persistence source. The authoritative current voxel state remains the chunk/world data.
 2. **Inspect completeness before applying changes.** Read `feed.dropped` or `feed.is_complete()` before interpreting `feed.changes` as a complete interval. Do not infer completeness from a non-empty vector.
