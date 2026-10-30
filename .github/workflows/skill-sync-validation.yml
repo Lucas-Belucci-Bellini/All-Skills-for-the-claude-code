@@ -42,6 +42,7 @@ on:
       - feat/nexora-voxel-palette-transition-invariants-2515-clean-2026-10-30
       - feat/nexora-durable-edit-journal-replay-2517-2026-10-30
       - feat/nexora-region-residency-preservation-2518-2026-10-30
+      - feat/nexora-texture-forge-build-plan-integrity-2519-2026-10-30
   pull_request:
     branches:
       - main
@@ -209,6 +210,10 @@ jobs:
       - name: Validate NEXORA 2,518-skill batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-region-residency-preservation-2518-2026-10-30' || github.head_ref == 'feat/nexora-region-residency-preservation-2518-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2518.json
+
+      - name: Validate NEXORA 2,519-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-texture-forge-build-plan-integrity-2519-2026-10-30' || github.head_ref == 'feat/nexora-texture-forge-build-plan-integrity-2519-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2519.json
 
       - name: Validate agent orchestration plugin
         run: node tools/validate-agent-plugin.mjs
