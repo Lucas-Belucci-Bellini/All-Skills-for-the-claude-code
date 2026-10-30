@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,521 distinct skills (2,521 authored + 0 retained/imported)
+**Current draft inventory:** 2,522 distinct skills (2,522 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,479
-**Current milestone:** 2,519 authored skills: the 2,500-skill milestone plus twenty-one NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge content integrity, world generation, memory, data contracts, rendering, VFX, and native UI. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,478
+**Current milestone:** 2,519 authored skills: the 2,500-skill milestone plus twenty-two NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge content integrity, world generation, memory, data contracts, rendering, VFX, and native UI. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -81,6 +81,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2519 | 2519 | Adds NEXORA Texture Forge build-plan integrity for full preflight, deterministic seeds, exact art-set coverage, SHA-256/PNG validation, and safe resource-index publication |
 | 2520 | 2520 | Adds NEXORA edit-remesh snapshot refresh for bounded hot-region caching, border-aware DenseSnapshot refresh, worker-wave scheduling, version gates, and frame-safe publication |
 | 2521 | 2521 | Adds the NEXORA client retained-column spill lifecycle: isolated spill ownership, bounded asynchronous I/O, region merge safety, movement restore, and complete single-container saves |
+| 2522 | 2522 | Adds metadata-first NEXORA response for tracked machine-local artifacts: safe provenance triage, owner-approved backup/removal, coordinated history decisions, and path-only CI prevention |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -445,3 +446,8 @@ Added a dedicated workflow for the remaining synchronous player-edit remesh path
 ## Batch 2,521 — NEXORA client retained-column spill lifecycle (2026-10-30)
 
 Adds an interactive-client integration workflow for the gap recorded in ADR-0038: client residency still uses memory-only retained chunks while the headless slice already spills them to region files. The workflow distinguishes scratch spill from durable persistence, requires bounded/backpressured I/O outside eviction callbacks, preserves region merge and restore semantics, and requires rehydration before the current single-container save. It does not claim the client implementation or its tests already exist.
+
+
+## Batch 2,522 — NEXORA tracked local artifact exposure response (2026-10-30)
+
+Adds a metadata-first security workflow for already-tracked machine-local databases, caches, assistant state, and other out-of-scope artifacts. It requires owner-approved backups before destructive removal, separates current-tree cleanup from history rewriting, prevents sensitive contents from entering issues/logs, and adds path-only regression gates. The skill is grounded in NEXORA issue #64 and the existing narrow ignore rules; it does not claim the issue has been remediated.
