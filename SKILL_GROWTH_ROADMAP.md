@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,512 distinct skills (2,512 authored + 0 retained/imported)
+**Current draft inventory:** 2,513 distinct skills (2,513 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,488
-**Current milestone:** 2,512 original skills: the 2,500-skill authored milestone plus twelve NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, RHI conformance evidence, Cutout layer integration, PBR material render bridge, lighting render extraction contract, shadow caster extraction contract, and atmosphere/fog composition contract). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41110416249; NEXORA runtime feature validation remains separate.
+**Remaining to long-term target:** 2,487
+**Current milestone:** 2,513 original skills: the 2,500-skill authored milestone plus thirteen NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, RHI conformance evidence, Cutout layer integration, PBR material render bridge, lighting render extraction contract, shadow caster extraction contract, and atmosphere/fog composition contract). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41110416249; NEXORA runtime feature validation remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -396,3 +396,8 @@ Added a dedicated workflow for selecting and submitting voxel/entity casters to 
 ## Batch 2,512 — NEXORA atmosphere/fog composition (2026-10-30)
 
 Added a dedicated workflow for evolving the current directional sky gradient and distance haze into dimension-aware environment composition. It distinguishes climate, weather, atmosphere, sky background, sky-light surface illumination, PBR, and shadows; defines immutable frame inputs, fog representation choices, linear-light composition, water/transparent pass interactions, CPU reference parity, and analytic fallbacks. The current renderer remains a gradient/haze baseline; volumetric atmosphere is not claimed.
+
+
+## Batch 2,513 — NEXORA voxel memory workload benchmark (2026-10-30)
+
+Added an original benchmark-contract workflow for NEXORA issue #48. It defines a precise memory inclusion boundary and separates voxel payload, section/palette overhead, process RSS, auxiliary data, CPU/GPU derived data, transient buffers, and save size. It requires uniform, natural, high-diversity, heavily edited, adversarial, streaming, derived-data, and persistence workloads with pinned seeds, correctness digests, repeated median/p95 measurements, and a controlled reference representation. The historical nine-chunk baseline is preserved as a narrow baseline; no 50-million-voxel or sub-1-GiB result is claimed.
