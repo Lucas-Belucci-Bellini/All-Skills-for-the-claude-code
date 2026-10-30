@@ -85,7 +85,6 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2526 | 2526 | Adds four distinct NEXORA workflows for bounded voxel mesh uploads, deterministic world-generation admission, native UI scaling, and keyboard/controller focus navigation; runtime implementation and testing remain separate |
 | 2530 | 2530 | Adds four NEXORA atlas correctness workflows for footprint-based mip selection, per-face texel orientation, deterministic face variants, and CPU/WGSL reference parity; runtime changes are not claimed |
 | 2534 | 2534 | Adds four NEXORA Texture Forge workflows for manifest inheritance, periodic recipe constraints, procedural seed/repair identity, and 2×2 preview plus numeric seam review; runtime changes/tests are not claimed |
-| 2534 | 2534 | Adds four NEXORA Texture Forge workflows for manifest inheritance, periodic recipe constraints, procedural seed/repair identity, and 2×2 preview plus numeric seam review; runtime changes/tests are not claimed |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
