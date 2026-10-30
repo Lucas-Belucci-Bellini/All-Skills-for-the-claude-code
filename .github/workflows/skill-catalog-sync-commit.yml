@@ -45,10 +45,6 @@ jobs:
         if: github.ref_name == 'feat/nexora-climate-lattice-reuse-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2503.json
 
-      - name: Validate NEXORA 2,504-skill batch and source/bundle parity
-        if: github.ref_name == 'feat/nexora-biome-climate-weight-blending-2026-10-30'
-        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2504.json
-
       - name: Validate NEXORA 2,505-skill batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-biome-climate-weight-blending-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2505.json
