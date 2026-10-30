@@ -473,7 +473,9 @@ Added four source-grounded workflows for the current voxel atlas implementation:
 Added four source-grounded workflows for Texture Forge manifest inheritance and identifier validation, periodic recipe structure for seamless tiling, procedural generate/variant/repair seed identity, and lit 2×2 preview plus numeric seam review. The workflows distinguish manifest parsing from build-plan policy, require provenance-aware reproduction, and pair visual inspection with underlying-map validation. They do not claim NEXORA runtime tests or new engine functionality were executed.
 
 | 2537 | 2537 | Adds a NEXORA GPU frame timing evidence workflow for optional RHI timestamp capability, asynchronous frame-correlated queries, and separating GPU execution from CPU work and presentation wait; runtime changes are not claimed |
-| 2538 | 2538 | Adds a NEXORA Job System long-run health workflow for worker survival, cancellation, result retention/eviction, forgotten outcomes, queue pressure, starvation, memory attribution and shutdown; soak tests are not claimed |\n| 2539 | 2539 | Adds a NEXORA Job Queue admission budget workflow for explicit pending capacity, producer backpressure, batch admission semantics, critical-capacity protection and overload observability; runtime changes are not claimed |
+| 2538 | 2538 | 2538 | Adds a NEXORA Job System long-run health workflow for worker survival, cancellation, result retention/eviction, forgotten outcomes, queue pressure, starvation, memory attribution and shutdown; soak tests are not claimed |
+| 2539 | 2539 | Adds a NEXORA Job Queue admission budget workflow for explicit pending capacity, producer backpressure, batch admission semantics, critical-capacity protection and overload observability; runtime changes are not claimed |
+| 2540 | 2540 | Adds a NEXORA frame-time regression triage workflow for pinned baseline/candidate builds, controlled workloads, tail-percentile comparison, honest metric separation and evidence-based release gates; runtime changes are not claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
