@@ -453,13 +453,14 @@ Updated: 2026-10-30. The unified bundle contains 2507 distinct skills.
 - nexora-untrusted-asset-parser-hardening — NEW
 - nexora-world-save-checksum-contract — NEW
 
-### Curated: nexora-render-quality (12)
+### Curated: nexora-render-quality (13)
 
 - nexora-animation-lod-transition — NEW
 - nexora-animation-pose-cache-invalidation — NEW
 - nexora-audio-device-loss-recovery — NEW
 - nexora-audio-spatialization-contract — NEW
 - nexora-color-space-pipeline-contract — NEW
+- nexora-cutout-layer-integration — NEW
 - nexora-occlusion-query-latency-contract — NEW
 - nexora-render-pass-state-contract — NEW
 - nexora-render-resolution-budget — NEW
