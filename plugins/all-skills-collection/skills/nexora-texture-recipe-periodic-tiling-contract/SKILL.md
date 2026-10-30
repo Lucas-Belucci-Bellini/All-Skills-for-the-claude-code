@@ -50,6 +50,11 @@ Review Texture Forge procedural recipes for tile-periodic structural layers, esp
 - **Positive:** A developer is authoring, diagnosing, or reviewing this exact Texture Forge concern in NEXORA.
 - **Negative:** The task concerns unrelated game art direction, a generic image editor, or a renderer subsystem without this workflow's stated inputs.
 
+## Trigger examples
+
+- **Positive:** A developer is authoring, diagnosing, or reviewing this exact Texture Forge concern in NEXORA.
+- **Negative:** The task concerns unrelated game art direction, a generic image editor, or a renderer subsystem without this workflow's stated inputs.
+
 ## Source evidence
 
 - Evidence: `tools/texture-forge/src/recipe.rs`, `tools/texture-forge/src/noise.rs`, `tools/texture-forge/src/validator.rs`, `tools/texture-forge/src/preview.rs`.

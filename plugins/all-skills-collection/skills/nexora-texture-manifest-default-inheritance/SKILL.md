@@ -50,6 +50,11 @@ Audit and author NEXORA Texture Forge batch manifests where shared defaults, per
 - **Positive:** A developer is authoring, diagnosing, or reviewing this exact Texture Forge concern in NEXORA.
 - **Negative:** The task concerns unrelated game art direction, a generic image editor, or a renderer subsystem without this workflow's stated inputs.
 
+## Trigger examples
+
+- **Positive:** A developer is authoring, diagnosing, or reviewing this exact Texture Forge concern in NEXORA.
+- **Negative:** The task concerns unrelated game art direction, a generic image editor, or a renderer subsystem without this workflow's stated inputs.
+
 ## Source evidence
 
 - Evidence: `tools/texture-forge/src/manifest.rs`, `tools/texture-forge/src/forge.rs`, `docs/plans/TEXTURE FORGE.md`.

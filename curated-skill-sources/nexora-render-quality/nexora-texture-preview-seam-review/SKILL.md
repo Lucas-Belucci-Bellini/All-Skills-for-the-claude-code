@@ -50,6 +50,11 @@ Use the NEXORA Texture Forge lit 2×2 preview and seam validator to review tile 
 - **Positive:** A developer is authoring, diagnosing, or reviewing this exact Texture Forge concern in NEXORA.
 - **Negative:** The task concerns unrelated game art direction, a generic image editor, or a renderer subsystem without this workflow's stated inputs.
 
+## Trigger examples
+
+- **Positive:** A developer is authoring, diagnosing, or reviewing this exact Texture Forge concern in NEXORA.
+- **Negative:** The task concerns unrelated game art direction, a generic image editor, or a renderer subsystem without this workflow's stated inputs.
+
 ## Source evidence
 
 - Evidence: `tools/texture-forge/src/preview.rs`, `tools/texture-forge/src/validator.rs`, `tools/texture-forge/src/pbr.rs`, `docs/plans/TEXTURE FORGE.md`.

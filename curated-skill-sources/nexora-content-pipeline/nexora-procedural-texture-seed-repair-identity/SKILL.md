@@ -50,6 +50,11 @@ Diagnose reproducibility drift in NEXORA Texture Forge generate, variant, and re
 - **Positive:** A developer is authoring, diagnosing, or reviewing this exact Texture Forge concern in NEXORA.
 - **Negative:** The task concerns unrelated game art direction, a generic image editor, or a renderer subsystem without this workflow's stated inputs.
 
+## Trigger examples
+
+- **Positive:** A developer is authoring, diagnosing, or reviewing this exact Texture Forge concern in NEXORA.
+- **Negative:** The task concerns unrelated game art direction, a generic image editor, or a renderer subsystem without this workflow's stated inputs.
+
 ## Source evidence
 
 - Evidence: `tools/texture-forge/src/procedural.rs`, `tools/texture-forge/src/recipe_book.rs`, `engine/asset/src/provenance.rs`, `docs/plans/TEXTURE FORGE.md`.
