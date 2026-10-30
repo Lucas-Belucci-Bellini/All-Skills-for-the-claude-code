@@ -72,6 +72,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2510 | 2510 | Adds the NEXORA lighting render extraction contract, separating authoritative world light state from immutable frame snapshots, GPU buffers/textures, CPU reference, and bounded resource lifecycles |
 | 2511 | 2511 | Adds NEXORA shadow caster extraction workflow for independent caster/receiver policy, camera-relative sun cascades, local-light budgets, Cutout silhouettes, cache invalidation, and GPU evidence |
 | 2512 | 2512 | Adds the NEXORA atmosphere/fog composition contract, separating weather and climate authority from dimension-aware sky profiles, fog inputs, colour-space composition, and deterministic CPU/GPU references |
+| 2513 | 2513 | Adds the NEXORA voxel memory workload benchmark contract for reproducible 50-million-voxel memory investigations, workload diversity, correctness digests, and measured-versus-estimated evidence |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
