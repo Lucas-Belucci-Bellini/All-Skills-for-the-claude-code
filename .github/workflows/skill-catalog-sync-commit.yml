@@ -7,6 +7,7 @@ on:
       - feat/nexora-climate-lattice-reuse-2026-10-30
       - feat/nexora-biome-climate-weight-blending-2026-10-30
       - feat/nexora-surface-acquisition-recovery-2026-10-30
+      - feat/nexora-environmental-vfx-bridge-2514-final-2026-10-30
 
 permissions:
   contents: write
