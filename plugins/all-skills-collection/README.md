@@ -1,6 +1,6 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **2504 distinct skills**, with authored workflows across simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, provenance/privacy, telemetry observability, engine/runtime engineering, Rust/platform systems, release quality, databases, agent reliability, accessibility, technical documentation, and original workflows for all 31 languages in the public profile. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
+A generated plugin containing **2505 distinct skills**, with authored workflows across simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, provenance/privacy, telemetry observability, engine/runtime engineering, Rust/platform systems, release quality, databases, agent reliability, accessibility, technical documentation, and original workflows for all 31 languages in the public profile. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
