@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,514 distinct skills (2,514 authored + 0 retained/imported)
+**Current draft inventory:** 2,515 distinct skills (2,515 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,486
-**Current milestone:** 2,514 original skills: the 2,500-skill authored milestone plus fourteen NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, RHI conformance evidence, Cutout layer integration, PBR material render bridge, lighting render extraction contract, shadow caster extraction contract, atmosphere/fog composition contract, voxel memory workload benchmark, and environmental VFX event bridge). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41110416249; NEXORA runtime feature validation remains separate.
+**Remaining to long-term target:** 2,485
+**Current milestone:** 2,515 authored skills: the 2,500-skill milestone plus fifteen NEXORA-specific engineering workflows spanning voxel meshing, streaming, world generation, memory, rendering, VFX, and native UI. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -74,6 +74,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2512 | 2512 | Adds the NEXORA atmosphere/fog composition contract, separating weather and climate authority from dimension-aware sky profiles, fog inputs, colour-space composition, and deterministic CPU/GPU references |
 | 2513 | 2513 | Adds the NEXORA voxel memory workload benchmark contract for reproducible 50-million-voxel memory investigations, workload diversity, correctness digests, and measured-versus-estimated evidence |
 | 2514 | 2514 | Adds the NEXORA environmental VFX event bridge, connecting authoritative semantic events to bounded cosmetic emitters, headless-safe CPU/GPU paths, and measured render budgets |
+| 2515 | 2515 | Adds NEXORA voxel palette transition invariants for uniform/paletted/direct storage, packed-width boundaries, 4096→4097 promotion, compaction, remapping, and persistence correctness |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -408,3 +409,8 @@ Added an original benchmark-contract workflow for NEXORA issue #48. It defines a
 ## Batch 2,513 — NEXORA voxel memory workload benchmark (2026-10-30)
 
 Added an original benchmark-contract workflow for NEXORA issue #48. It defines a precise memory inclusion boundary and separates voxel payload, section/palette overhead, process RSS, auxiliary data, CPU/GPU derived data, transient buffers, and save size. It requires uniform, natural, high-diversity, heavily edited, adversarial, streaming, derived-data, and persistence workloads with pinned seeds, correctness digests, repeated median/p95 measurements, and a controlled reference representation. The historical nine-chunk baseline is preserved as a narrow baseline; no 50-million-voxel or sub-1-GiB result is claimed.
+
+
+## Batch 2,515 — NEXORA voxel palette transition invariants (2026-10-30)
+
+Added a focused correctness workflow for the section storage state machine in `engine/world/src/voxel.rs`. It covers uniform-to-paletted conversion, 1–12-bit index packing, word-boundary behavior, the 4096-to-4097 distinct-state direct promotion, quiet-point compaction, air counters, registry remapping, and malformed persisted parts. It reuses the whole-world memory benchmark and save-format workflows rather than duplicating them. Source/test anchors were inspected; no NEXORA test execution is claimed by this skill PR.
