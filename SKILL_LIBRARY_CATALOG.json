@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2520,
+  "unique_skills": 2521,
   "target": 5000,
-  "remaining": 2480,
+  "remaining": 2479,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -2297,6 +2297,12 @@
       "category": "Curated: nexora-release-operations",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-release-operations/nexora-world-format-support-matrix/SKILL.md"
+    },
+    {
+      "name": "nexora-client-retained-column-spill-lifecycle",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-client-retained-column-spill-lifecycle/SKILL.md"
     },
     {
       "name": "nexora-crash-recovery-startup-gate",
