@@ -193,12 +193,6 @@
       "source_path": "curated-skill-sources/accessibility-inclusive-ux/keyboard-shortcut-conflict-inventory/SKILL.md"
     },
     {
-      "name": "nexora-client-retained-column-spill-lifecycle",
-      "category": "Curated: nexora-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-reliability/nexora-client-retained-column-spill-lifecycle/SKILL.md"
-    },
-    {
       "name": "reduced-motion-interaction-equivalence",
       "category": "Accessibility & inclusive UX",
       "origin": "new-authored",
@@ -2303,6 +2297,12 @@
       "category": "Curated: nexora-release-operations",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-release-operations/nexora-world-format-support-matrix/SKILL.md"
+    },
+    {
+      "name": "nexora-client-retained-column-spill-lifecycle",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-client-retained-column-spill-lifecycle/SKILL.md"
     },
     {
       "name": "nexora-crash-recovery-startup-gate",
