@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-30. The unified bundle contains 2513 distinct skills.
+Updated: 2026-10-30. The unified bundle contains 2514 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2513**
-- Current total: **2513**
+- Original curated skills: **2514**
+- Current total: **2514**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,487**
+- Remaining to long-term target: **2,486**
 
 ## Categories
 
@@ -412,8 +412,8 @@ Updated: 2026-10-30. The unified bundle contains 2513 distinct skills.
 - nexora-memory-budget-attribution — NEW
 - nexora-memory-leak-lifecycle-test — NEW
 - nexora-task-priority-inversion-audit — NEW
-- nexora-worker-pool-saturation — NEW
 - nexora-voxel-memory-workload-benchmark — NEW
+- nexora-worker-pool-saturation — NEW
 
 ### Curated: nexora-platform-compatibility (10)
 
@@ -454,23 +454,24 @@ Updated: 2026-10-30. The unified bundle contains 2513 distinct skills.
 - nexora-untrusted-asset-parser-hardening — NEW
 - nexora-world-save-checksum-contract — NEW
 
-### Curated: nexora-render-quality (17)
+### Curated: nexora-render-quality (18)
 
 - nexora-animation-lod-transition — NEW
 - nexora-animation-pose-cache-invalidation — NEW
+- nexora-atmosphere-fog-composition-contract — NEW
 - nexora-audio-device-loss-recovery — NEW
 - nexora-audio-spatialization-contract — NEW
 - nexora-color-space-pipeline-contract — NEW
 - nexora-cutout-layer-integration — NEW
+- nexora-environmental-vfx-event-bridge — NEW
+- nexora-lighting-render-extraction-contract — NEW
 - nexora-occlusion-query-latency-contract — NEW
 - nexora-pbr-material-render-bridge — NEW
-- nexora-lighting-render-extraction-contract — NEW
-- nexora-shadow-caster-extraction-contract — NEW
-- nexora-atmosphere-fog-composition-contract — NEW
 - nexora-render-pass-state-contract — NEW
 - nexora-render-resolution-budget — NEW
 - nexora-render-target-resize-transaction — NEW
 - nexora-rhi-conformance-evidence — NEW
+- nexora-shadow-caster-extraction-contract — NEW
 - nexora-surface-acquisition-recovery — NEW
 - nexora-temporal-history-invalidation — NEW
 
