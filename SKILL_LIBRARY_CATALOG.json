@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2512,
+  "unique_skills": 2513,
   "target": 5000,
-  "remaining": 2488,
+  "remaining": 2487,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -15077,6 +15077,12 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
+    },
+    {
+      "name": "nexora-voxel-memory-workload-benchmark",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-voxel-memory-workload-benchmark/SKILL.md"
     }
   ]
 }
