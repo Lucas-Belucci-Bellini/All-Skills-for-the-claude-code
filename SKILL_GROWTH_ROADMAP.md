@@ -1,9 +1,9 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,502 distinct skills (2,502 authored + 0 retained/imported)
+**Current draft inventory:** 2,503 distinct skills (2,503 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,498
+**Remaining to long-term target:** 2,497
 **Current milestone:** 2,502 original skills: the 2,500-skill authored milestone plus two NEXORA-specific engineering workflows (greedy meshing and streaming handle/pin lifecycle). The catalog and aggregate bundle contain zero retained/imported skills. Strict Claude Code validation and clean installation/discovery remain required.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
