@@ -1705,6 +1705,12 @@
       "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-atlas-fragmentation/SKILL.md"
     },
     {
+      "name": "nexora-chunk-change-feed-gap-recovery",
+      "category": "Curated: nexora-data-contracts",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-chunk-change-feed-gap-recovery/SKILL.md"
+    },
+    {
       "name": "nexora-crafting-recipe-cycle-audit",
       "category": "Curated: nexora-data-contracts",
       "origin": "new-authored",
@@ -15095,12 +15101,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-chunk-change-feed-gap-recovery",
-      "category": "Curated: nexora-data-contracts",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-data-contracts/nexora-chunk-change-feed-gap-recovery/SKILL.md"
     }
   ]
 }
