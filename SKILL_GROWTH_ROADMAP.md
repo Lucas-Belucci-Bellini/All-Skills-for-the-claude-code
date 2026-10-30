@@ -75,6 +75,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2513 | 2513 | Adds the NEXORA voxel memory workload benchmark contract for reproducible 50-million-voxel memory investigations, workload diversity, correctness digests, and measured-versus-estimated evidence |
 | 2514 | 2514 | Adds the NEXORA environmental VFX event bridge, connecting authoritative semantic events to bounded cosmetic emitters, headless-safe CPU/GPU paths, and measured render budgets |
 | 2515 | 2515 | Adds NEXORA voxel palette transition invariants for Uniform/Paletted/Direct storage, 1–12-bit packing boundaries, promotion, compaction, and persistence correctness |
+| 2516 | 2516 | Adds NEXORA chunk change-feed gap recovery for bounded journals, dropped-history signaling, retry-safe drains, snapshot resynchronization, and consumer lifecycle correctness |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
