@@ -2,15 +2,20 @@
   "schema_version": 1,
   "updated_at": "2026-10-30",
   "batch_size": 1,
-  "milestone_total": 2503,
+  "milestone_total": 2504,
   "long_term_target": 5000,
-  "authored_count": 2503,
+  "authored_count": 2504,
   "retained_count": 0,
-  "plugin_version": "2.1.26",
+  "plugin_version": "2.1.27",
   "skills": [
     {
       "name": "nexora-climate-lattice-sample-reuse",
       "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-climate-lattice-sample-reuse/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    },
+    {
+      "name": "nexora-biome-climate-weight-blending",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-biome-climate-weight-blending/SKILL.md",
       "category": "Curated: nexora-worldgen-streaming"
     }
   ]
