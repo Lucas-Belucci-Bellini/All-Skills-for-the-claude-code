@@ -67,6 +67,10 @@ These facts describe a gap, not an implemented feature. Do not claim timestamp q
 - [ ] Software CI and physical GPU evidence are reported separately.
 - [ ] DEBT-0041 status reflects actual evidence, not a proposed design.
 
+## Required output
+
+Produce a GPU frame timing evidence report containing: pinned commit; backend/adapter/driver; timestamp capability and precision; frame/pass correlation; CPU work and presentation wait as separate measurements; GPU intervals; query-ring capacity and dropped/unresolved samples; overhead; benchmark scenario; NullRhi behavior; CI and physical-device evidence; executed/unexecuted tests; DEBT-0041 status and unresolved risks.
+
 ## Boundaries and failure handling
 
 - Do not duplicate generic query pooling; use `engine-renderer-gpu-timestamp-query-pooling`.
