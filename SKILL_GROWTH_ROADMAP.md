@@ -323,3 +323,5 @@ Added 10 workflows for world-load admission, single-owner world sessions, save q
 Completed the declared catalog target with 14 final workflows covering engine readiness, alpha tester build checks, critical-path smoke tests, world-data-loss release blockers, resource-budget gates, mod compatibility gates, privacy and licensing checks, feature-flag retirement, clean-room build verification, known limitations, release evidence bundling, roadmap completion evidence, and 2,500-skill milestone acceptance.
 
 **Important:** This milestone confirms the catalog count only after structural validation. It does not mean every NEXORA runtime feature is implemented, nor does it resolve the separate imported-license review or real Claude Code installation/discovery smoke test.
+| 2339 | 2339 | Cleanup checkpoint: all 161 retained/imported entries removed; 2,339 authored skills remain |
+
