@@ -614,12 +614,13 @@ Updated: 2026-10-30. The unified bundle contains 2503 distinct skills.
 - nexora-world-save-privacy-export — NEW
 - nexora-world-snapshot-consistency — NEW
 
-### Curated: nexora-worldgen-streaming (12)
+### Curated: nexora-worldgen-streaming (13)
 
 - nexora-chunk-lighting-propagation-budget — NEW
 - nexora-chunk-mesh-version-gate — NEW
 - nexora-chunk-priority-fairness — NEW
 - nexora-chunk-streaming-hysteresis — NEW
+- nexora-biome-climate-weight-blending — NEW
 - nexora-climate-lattice-sample-reuse — NEW
 - nexora-stream-handle-pin-lifecycle — NEW
 - nexora-streaming-io-backpressure — NEW
