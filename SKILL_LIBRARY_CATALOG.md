@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-30. The unified bundle contains 2522 distinct skills.
+Updated: 2026-10-30. The unified bundle contains 2526 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2522**
-- Current total: **2522**
+- Original curated skills: **2526**
+- Current total: **2526**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,478**
+- Remaining to long-term target: **2,474**
 
 ## Categories
 
@@ -404,7 +404,7 @@ Updated: 2026-10-30. The unified bundle contains 2522 distinct skills.
 - nexora-world-save-quiescence-barrier — NEW
 - nexora-world-session-ownership — NEW
 
-### Curated: nexora-performance-memory (12)
+### Curated: nexora-performance-memory (13)
 
 - nexora-allocation-hotpath-audit — NEW
 - nexora-cache-eviction-policy — NEW
@@ -416,6 +416,7 @@ Updated: 2026-10-30. The unified bundle contains 2522 distinct skills.
 - nexora-memory-leak-lifecycle-test — NEW
 - nexora-task-priority-inversion-audit — NEW
 - nexora-voxel-memory-workload-benchmark — NEW
+- nexora-voxel-mesh-upload-backpressure — NEW
 - nexora-voxel-palette-transition-invariants — NEW
 - nexora-worker-pool-saturation — NEW
 
@@ -618,9 +619,11 @@ Updated: 2026-10-30. The unified bundle contains 2522 distinct skills.
 - nexora-test-failure-classification — NEW
 - nexora-test-isolation-contract — NEW
 
-### Curated: nexora-ui-engineering (1)
+### Curated: nexora-ui-engineering (3)
 
 - nexora-native-ui-design-to-code — NEW
+- nexora-native-ui-focus-navigation-contract — NEW
+- nexora-native-ui-layout-scale-contract — NEW
 
 ### Curated: nexora-world-safety (10)
 
@@ -635,7 +638,7 @@ Updated: 2026-10-30. The unified bundle contains 2522 distinct skills.
 - nexora-world-save-privacy-export — NEW
 - nexora-world-snapshot-consistency — NEW
 
-### Curated: nexora-worldgen-streaming (13)
+### Curated: nexora-worldgen-streaming (14)
 
 - nexora-biome-climate-weight-blending — NEW
 - nexora-chunk-lighting-propagation-budget — NEW
@@ -645,6 +648,7 @@ Updated: 2026-10-30. The unified bundle contains 2522 distinct skills.
 - nexora-climate-lattice-sample-reuse — NEW
 - nexora-stream-handle-pin-lifecycle — NEW
 - nexora-streaming-io-backpressure — NEW
+- nexora-worldgen-column-work-budget — NEW
 - nexora-worldgen-crash-reproduction — NEW
 - nexora-worldgen-density-boundary — NEW
 - nexora-worldgen-feature-reservation — NEW

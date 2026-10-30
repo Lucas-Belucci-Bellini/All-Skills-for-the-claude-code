@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2522,
+  "unique_skills": 2526,
   "target": 5000,
-  "remaining": 2478,
+  "remaining": 2474,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -2167,6 +2167,12 @@
       "source_path": "curated-skill-sources/nexora-performance-memory/nexora-voxel-memory-workload-benchmark/SKILL.md"
     },
     {
+      "name": "nexora-voxel-mesh-upload-backpressure",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-voxel-mesh-upload-backpressure/SKILL.md"
+    },
+    {
       "name": "nexora-voxel-palette-transition-invariants",
       "category": "Curated: nexora-performance-memory",
       "origin": "new-authored",
@@ -3163,6 +3169,18 @@
       "source_path": "curated-skill-sources/nexora-ui-engineering/nexora-native-ui-design-to-code/SKILL.md"
     },
     {
+      "name": "nexora-native-ui-focus-navigation-contract",
+      "category": "Curated: nexora-ui-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ui-engineering/nexora-native-ui-focus-navigation-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-native-ui-layout-scale-contract",
+      "category": "Curated: nexora-ui-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ui-engineering/nexora-native-ui-layout-scale-contract/SKILL.md"
+    },
+    {
       "name": "nexora-save-lock-and-recovery",
       "category": "Curated: nexora-world-safety",
       "origin": "new-authored",
@@ -3269,6 +3287,12 @@
       "category": "Curated: nexora-worldgen-streaming",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-streaming-io-backpressure/SKILL.md"
+    },
+    {
+      "name": "nexora-worldgen-column-work-budget",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-column-work-budget/SKILL.md"
     },
     {
       "name": "nexora-worldgen-crash-reproduction",
