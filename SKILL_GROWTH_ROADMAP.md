@@ -4,7 +4,7 @@
 **Current draft inventory:** 2,507 distinct skills (2,507 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
 **Remaining to long-term target:** 2,493
-**Current milestone:** 2,505 original skills: the 2,500-skill authored milestone plus seven NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, and RHI conformance evidence). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41104430907; NEXORA runtime feature validation remains separate.
+**Current milestone:** 2,507 original skills: the 2,500-skill authored milestone plus seven NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, and RHI conformance evidence). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41104430907; NEXORA runtime feature validation remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -92,8 +92,8 @@ Identify a real workflow gap; define triggers, inputs, outputs, and boundaries; 
 
 ## Known validation limits
 
-- A clean-checkout run of `node tools/sync-skill-bundles.mjs --write` and `--check` remains unverified until actual output is observed.
-- Claude Code installation/discovery has not been verified end-to-end in this workflow.
+- Clean-checkout bundle synchronization/idempotence, `git diff --check`, and `sync-skill-bundles.mjs --check` passed in run 41104430907.
+- Claude Code CLI 2.1.314 strict marketplace/plugin validation and isolated clean-home marketplace installation passed in run 41104430907. Interactive invocation of an individual skill is not separately covered.
 - Third-party provenance and redistribution-license review remains pending.
 - Do not merge PRs, rewrite shared history, force-push, or change repository visibility without explicit authorization.
 
@@ -350,3 +350,12 @@ Added one original workflow for the NEXORA streaming request-handle contract: sl
 ## Batch 2,503 — NEXORA climate lattice sample reuse (2026-10-30)
 
 Added one original workflow for evaluating bounded reuse of positional value-noise lattice corners across nearby NEXORA terrain columns and repeated climate/surface sampling. It is grounded in `engine/world/src/terrain.rs` and ADR-0049, which records 44 lattice-corner reads per column and explicitly defers shared-corner reuse until generation cost warrants it. The workflow requires exact Q16/reference equivalence, negative-coordinate and boundary coverage, bounded job-local memory, scheduling independence, and whole-chunk benchmarks. It does not claim that a cache has been implemented or that a speedup has been measured.
+
+
+## Batch 2,506 — NEXORA surface acquisition and recovery (2026-10-30)
+
+Added an original workflow for bounded recovery across the wgpu surface presenter and the winit window host: Lost/Outdated/Timeout/Occluded classification, retry ownership, backoff, minimized/zero-size suspension, surface-vs-device failure separation, client-state preservation, and deterministic fault-injection coverage. Grounded in `engine/rhi-wgpu/src/surface.rs` and `engine/window/src/lib.rs`; no runtime recovery implementation is claimed.
+
+## Batch 2,507 — NEXORA RHI conformance evidence (2026-10-30)
+
+Added an original workflow for the full RHI evidence chain: backend-neutral contract, NullRhi, wgpu conformance, native probe, software-driver CI matrix, and commit-scoped physical-GPU validation. It follows the active 11-case suite and explicitly flags historical ADR prose that still reports 9 cases. The checked-in RX 6650 XT report is treated as historical diagnostic evidence because it was generated from a dirty working tree; a clean-commit report is still required for release evidence.
