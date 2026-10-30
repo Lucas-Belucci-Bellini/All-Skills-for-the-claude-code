@@ -307,7 +307,6 @@ Updated: 2026-10-30. The unified bundle contains 2517 distinct skills.
 - nexora-shutdown-concurrent-request-idempotency — NEW
 
 ### Curated: nexora-content-pipeline (11)
-- nexora-texture-forge-build-plan-integrity — NEW
 
 - nexora-asset-budget-admission — NEW
 - nexora-asset-import-dependency-graph — NEW
@@ -319,6 +318,7 @@ Updated: 2026-10-30. The unified bundle contains 2517 distinct skills.
 - nexora-mod-dependency-resolution — NEW
 - nexora-shader-reflection-contract — NEW
 - nexora-texture-atlas-fragmentation — NEW
+- nexora-texture-forge-build-plan-integrity — NEW
 
 ### Curated: nexora-data-contracts (11)
 

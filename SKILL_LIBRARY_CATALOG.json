@@ -193,12 +193,6 @@
       "source_path": "curated-skill-sources/accessibility-inclusive-ux/keyboard-shortcut-conflict-inventory/SKILL.md"
     },
     {
-      "name": "nexora-texture-forge-build-plan-integrity",
-      "category": "Curated: nexora-content-pipeline",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-forge-build-plan-integrity/SKILL.md"
-    },
-    {
       "name": "reduced-motion-interaction-equivalence",
       "category": "Accessibility & inclusive UX",
       "origin": "new-authored",
@@ -1709,6 +1703,12 @@
       "category": "Curated: nexora-content-pipeline",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-atlas-fragmentation/SKILL.md"
+    },
+    {
+      "name": "nexora-texture-forge-build-plan-integrity",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-forge-build-plan-integrity/SKILL.md"
     },
     {
       "name": "nexora-chunk-change-feed-gap-recovery",
