@@ -240,6 +240,11 @@ jobs:
         if: github.ref_name == 'feat/nexora-atlas-correctness-batch-2530-2026-10-30' || github.head_ref == 'feat/nexora-atlas-correctness-batch-2530-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2530.json
 
+
+      - name: Validate NEXORA 2,534-skill Texture Forge batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-texture-forge-workflows-2534-2026-10-30' || github.head_ref == 'feat/nexora-texture-forge-workflows-2534-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2534.json
+
       - name: Validate agent orchestration plugin
         run: node tools/validate-agent-plugin.mjs
 
