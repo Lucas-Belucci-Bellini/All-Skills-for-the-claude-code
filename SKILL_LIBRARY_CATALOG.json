@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2500,
+  "unique_skills": 2501,
   "target": 5000,
-  "remaining": 2500,
+  "remaining": 2499,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -3263,6 +3263,12 @@
       "category": "Curated: repository-to-skill-synthesis",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/repository-to-skill-synthesis/upstream-license-provenance-gate/SKILL.md"
+    },
+    {
+      "name": "nexora-greedy-meshing-surface-preservation",
+      "category": "Curated: voxel-world-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/voxel-world-engineering/nexora-greedy-meshing-surface-preservation/SKILL.md"
     },
     {
       "name": "voxel-chunk-dirty-state-contract",
