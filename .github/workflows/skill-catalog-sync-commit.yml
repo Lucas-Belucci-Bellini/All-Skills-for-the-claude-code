@@ -14,6 +14,7 @@ on:
       - feat/nexora-environmental-vfx-bridge-2514-main-2026-10-30
       - feat/nexora-voxel-palette-transition-invariants-2515-clean-2026-10-30
       - feat/nexora-chunk-change-feed-gap-recovery-2516-2026-10-30
+      - feat/nexora-durable-edit-journal-replay-2517-2026-10-30
 
 permissions:
   contents: write
