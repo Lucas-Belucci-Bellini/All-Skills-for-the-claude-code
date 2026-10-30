@@ -4,7 +4,7 @@
 **Current draft inventory:** 2,504 distinct skills (2,504 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
 **Remaining to long-term target:** 2,496
-**Current milestone:** 2,503 original skills: the 2,500-skill authored milestone plus four NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, and biome climate weight blending). The catalog and aggregate bundle contain zero retained/imported skills. Strict Claude Code validation and clean installation/discovery remain required.
+**Current milestone:** 2,504 original skills: the 2,500-skill authored milestone plus four NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, and biome climate weight blending). The catalog and aggregate bundle contain zero retained/imported skills. Strict Claude Code validation and clean installation/discovery remain required.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
