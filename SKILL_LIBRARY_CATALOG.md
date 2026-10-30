@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-30. The unified bundle contains 2539 distinct skills.
+Updated: 2026-10-30. The unified bundle contains 2540 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2539**
-- Current total: **2539**
+- Original curated skills: **2540**
+- Current total: **2540**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,461**
+- Remaining to long-term target: **2,460**
 
 ## Categories
 
@@ -410,11 +410,12 @@ Updated: 2026-10-30. The unified bundle contains 2539 distinct skills.
 - nexora-world-save-quiescence-barrier — NEW
 - nexora-world-session-ownership — NEW
 
-### Curated: nexora-performance-memory (17)
+### Curated: nexora-performance-memory (18)
 
 - nexora-allocation-hotpath-audit — NEW
 - nexora-cache-eviction-policy — NEW
 - nexora-frame-allocation-budget — NEW
+- nexora-frame-time-regression-triage — NEW
 - nexora-gpu-frame-timing-evidence — NEW
 - nexora-gpu-memory-pressure-policy — NEW
 - nexora-job-queue-admission-budget — NEW
