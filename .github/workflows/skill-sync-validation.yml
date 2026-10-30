@@ -196,6 +196,10 @@ jobs:
         if: github.ref_name == 'feat/nexora-voxel-memory-workload-benchmark-2026-10-30' || github.head_ref == 'feat/nexora-voxel-memory-workload-benchmark-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2513.json
 
+      - name: Validate NEXORA 2,516-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-chunk-change-feed-gap-recovery-2516-2026-10-30' || github.head_ref == 'feat/nexora-chunk-change-feed-gap-recovery-2516-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2516.json
+
       - name: Validate agent orchestration plugin
         run: node tools/validate-agent-plugin.mjs
 
