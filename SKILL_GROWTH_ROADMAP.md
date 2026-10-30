@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,501 distinct skills (2,501 authored + 0 retained/imported)
+**Current draft inventory:** 2,502 distinct skills (2,502 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,499
-**Current milestone:** 2,501 original skills: the 2,500-skill authored milestone plus one NEXORA-specific greedy-meshing workflow. The catalog and aggregate bundle contain zero retained/imported skills. Strict Claude Code validation and clean installation/discovery remain required.
+**Remaining to long-term target:** 2,498
+**Current milestone:** 2,502 original skills: the 2,500-skill authored milestone plus two NEXORA-specific engineering workflows (greedy meshing and streaming handle/pin lifecycle). The catalog and aggregate bundle contain zero retained/imported skills. Strict Claude Code validation and clean installation/discovery remain required.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -61,6 +61,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2486 | 2486 | Adds 10 world-load admission, session ownership, save barriers, repair approval, recovery priority, safe mode, incident timelines, invariant monitors, recovery drills, and fallback regression workflows |
 | 2500 | 2500 | Reaches the declared 2,500-skill authored milestone with 14 final acceptance workflows |
 | 2501 | 2501 | Adds one NEXORA-specific greedy-meshing workflow grounded in the current `nexora-mesh` implementation; focused runtime validation remains pending |
+| 2502 | 2502 | Adds one NEXORA streaming-handle/pin lifecycle workflow grounded in `nexora-streaming`; runtime validation remains pending |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -336,3 +337,8 @@ Added 161 original skills: five workflows for each of the 31 languages detected 
 ## Batch 2,501 — NEXORA greedy meshing (2026-10-30)
 
 Added one original workflow for NEXORA's deterministic greedy voxel mesher: neighbor-aware face culling, surface/occlusion merge identity, surface-area preservation, bounded quad dimensions, stable output order, render-layer routing and reproducible validation. The skill is grounded in the current `engine/mesh` implementation; it has not yet been executed against a local NEXORA checkout.
+
+
+## Batch 2,502 — NEXORA stream handle and pin lifecycle (2026-10-30)
+
+Added one original workflow for the NEXORA streaming request-handle contract: slot allocation/reuse, generation validation, stale cancellation, multi-handle pin aggregation, residency guarantees under pressure, deferred eviction after cancellation, and persist-before-evict failure handling. The skill is grounded in `engine/streaming/src/system.rs` and `target.rs`. Existing tests cover stale-handle reuse, pin persistence outside observer interest, and memory-pressure protection; multi-pin aggregation and generation-exhaustion tests are identified as additional coverage targets. No local runtime test execution is claimed.
