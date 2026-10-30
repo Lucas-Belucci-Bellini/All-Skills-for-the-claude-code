@@ -58,6 +58,14 @@ These are pinned-snapshot observations, not permanent guarantees. Recheck curren
 
 ## Workflow
 
+1. Distinguish a checked-in build plan from an inline batch manifest.
+2. Pin all definitions, recipes, art-set records, seeds, generator versions, and output policies.
+3. Preflight every plan entry and collect all path, identity, schema, and policy errors before generation.
+4. Resolve all required recipes and verify exact external art-set coverage before the first write.
+5. Execute the validated plan in order, recording every per-entry status and failure.
+6. Publish the resource index only after the aggregate build report succeeds.
+7. Rebuild from a clean output root and compare definitions, traces, maps, and index bytes.
+
 ### 1. Distinguish plan, batch manifest, and authored definitions
 
 - Use a build plan for a reproducible set of already-authored definition files.
