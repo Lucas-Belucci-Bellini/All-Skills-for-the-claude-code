@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30",
+  "batch_size": 1,
+  "milestone_total": 2540,
+  "long_term_target": 5000,
+  "authored_count": 2540,
+  "retained_count": 0,
+  "plugin_version": "2.1.57",
+  "skills": [
+    {
+      "name": "nexora-frame-time-regression-triage",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-frame-time-regression-triage/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    }
+  ]
+}
