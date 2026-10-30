@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,509 distinct skills (2,509 authored + 0 retained/imported)
+**Current draft inventory:** 2,510 distinct skills (2,510 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,491
-**Current milestone:** 2,509 original skills: the 2,500-skill authored milestone plus nine NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, RHI conformance evidence, Cutout layer integration, and PBR material render bridge). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41110416249; NEXORA runtime feature validation remains separate.
+**Remaining to long-term target:** 2,490
+**Current milestone:** 2,509 original skills: the 2,500-skill authored milestone plus ten NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, RHI conformance evidence, Cutout layer integration, PBR material render bridge, and lighting render extraction contract). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41110416249; NEXORA runtime feature validation remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -69,6 +69,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2507 | 2507 | Adds NEXORA RHI conformance evidence workflow for the active 11-case suite, NullRhi/wgpu parity, CI software adapters and commit-scoped local hardware reports |
 | 2508 | 2508 | Adds the NEXORA Cutout layer integration workflow, covering alpha threshold ownership, cutout pipeline/depth writes, mip coverage, CPU reference continuation, and GPU pixel tests |
 | 2509 | 2509 | Adds the NEXORA PBR material render bridge workflow, connecting six asset map roles and PBR scalars to material indexing, face tangent frames, shader bindings, lighting, and CPU/GPU reference evidence |
+| 2510 | 2510 | Adds the NEXORA lighting render extraction contract, separating authoritative world light state from immutable frame snapshots, GPU buffers/textures, CPU reference, and bounded resource lifecycles |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -378,3 +379,8 @@ Added an original workflow for the missing renderer stage between material/meshe
 ## Batch 2,509 — NEXORA PBR material render bridge (2026-10-30)
 
 Added an original workflow for the missing bridge between `SurfaceMaterial`/six `MapRole` definitions and the current albedo-only textured voxel renderer. It defines staged support for normal, roughness, metallic, AO and height maps; stable GPU material identity; voxel-face tangent frames; shader/RHI layout parity; independent CPU reference; and measured memory/performance. The asset schema's PBR metadata is not treated as proof that PBR shading is implemented.
+
+
+## Batch 2,510 — NEXORA lighting render extraction (2026-10-30)
+
+Added a dedicated workflow for the boundary between authoritative world lighting and GPU rendering. The inspected world/simulation roots do not expose a lighting module, and the current render pass has no light-state input, light buffer/texture binding, dynamic-light list, or shadow pass. The workflow therefore begins with source-of-truth discovery and defines an immutable, versioned extraction contract, deterministic GPU representation, chunk-aligned sampling, dynamic-light budgets, independent CPU reference, and native GPU validation. It reuses existing propagation, invalidation, PBR, render-pass, and RHI workflows rather than duplicating them.
