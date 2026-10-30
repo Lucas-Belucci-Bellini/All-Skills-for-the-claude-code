@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2513,
+  "unique_skills": 2514,
   "target": 5000,
-  "remaining": 2487,
+  "remaining": 2486,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -2143,6 +2143,12 @@
       "source_path": "curated-skill-sources/nexora-performance-memory/nexora-task-priority-inversion-audit/SKILL.md"
     },
     {
+      "name": "nexora-voxel-memory-workload-benchmark",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-voxel-memory-workload-benchmark/SKILL.md"
+    },
+    {
       "name": "nexora-worker-pool-saturation",
       "category": "Curated: nexora-performance-memory",
       "origin": "new-authored",
@@ -2341,6 +2347,12 @@
       "source_path": "curated-skill-sources/nexora-render-quality/nexora-animation-pose-cache-invalidation/SKILL.md"
     },
     {
+      "name": "nexora-atmosphere-fog-composition-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-atmosphere-fog-composition-contract/SKILL.md"
+    },
+    {
       "name": "nexora-audio-device-loss-recovery",
       "category": "Curated: nexora-render-quality",
       "origin": "new-authored",
@@ -2365,6 +2377,18 @@
       "source_path": "curated-skill-sources/nexora-render-quality/nexora-cutout-layer-integration/SKILL.md"
     },
     {
+      "name": "nexora-environmental-vfx-event-bridge",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-environmental-vfx-event-bridge/SKILL.md"
+    },
+    {
+      "name": "nexora-lighting-render-extraction-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-lighting-render-extraction-contract/SKILL.md"
+    },
+    {
       "name": "nexora-occlusion-query-latency-contract",
       "category": "Curated: nexora-render-quality",
       "origin": "new-authored",
@@ -2375,24 +2399,6 @@
       "category": "Curated: nexora-render-quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-render-quality/nexora-pbr-material-render-bridge/SKILL.md"
-    },
-    {
-      "name": "nexora-lighting-render-extraction-contract",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-lighting-render-extraction-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-shadow-caster-extraction-contract",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-shadow-caster-extraction-contract/SKILL.md"
-    },
-    {
-      "name": "nexora-atmosphere-fog-composition-contract",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-atmosphere-fog-composition-contract/SKILL.md"
     },
     {
       "name": "nexora-render-pass-state-contract",
@@ -2417,6 +2423,12 @@
       "category": "Curated: nexora-render-quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-render-quality/nexora-rhi-conformance-evidence/SKILL.md"
+    },
+    {
+      "name": "nexora-shadow-caster-extraction-contract",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-shadow-caster-extraction-contract/SKILL.md"
     },
     {
       "name": "nexora-surface-acquisition-recovery",
@@ -15077,12 +15089,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-voxel-memory-workload-benchmark",
-      "category": "Curated: nexora-performance-memory",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-voxel-memory-workload-benchmark/SKILL.md"
     }
   ]
 }
