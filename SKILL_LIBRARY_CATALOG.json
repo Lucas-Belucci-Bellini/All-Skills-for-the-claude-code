@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2503,
+  "unique_skills": 2505,
   "target": 5000,
-  "remaining": 2497,
+  "remaining": 2495,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -3055,6 +3055,12 @@
       "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-test-isolation-contract/SKILL.md"
     },
     {
+      "name": "nexora-native-ui-design-to-code",
+      "category": "Curated: nexora-ui-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ui-engineering/nexora-native-ui-design-to-code/SKILL.md"
+    },
+    {
       "name": "nexora-save-lock-and-recovery",
       "category": "Curated: nexora-world-safety",
       "origin": "new-authored",
@@ -3113,6 +3119,12 @@
       "category": "Curated: nexora-world-safety",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-world-safety/nexora-world-snapshot-consistency/SKILL.md"
+    },
+    {
+      "name": "nexora-biome-climate-weight-blending",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-biome-climate-weight-blending/SKILL.md"
     },
     {
       "name": "nexora-chunk-lighting-propagation-budget",

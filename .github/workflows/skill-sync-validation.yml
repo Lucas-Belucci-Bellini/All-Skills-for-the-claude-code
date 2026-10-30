@@ -30,6 +30,7 @@ on:
       - fix/2500-catalog-validation-routing-2026-10-30
       - feat/nexora-stream-handle-lifecycle-2026-10-30
       - feat/nexora-climate-lattice-reuse-2026-10-30
+      - feat/nexora-biome-climate-weight-blending-2026-10-30
   pull_request:
     branches:
       - main
@@ -157,5 +158,5 @@ jobs:
         run: node tools/validate-artifact-analysis-workbench.mjs
 
       - name: Validate current catalog manifest and source/bundle parity
-        if: github.ref_name == 'feat/all-skills-consolidated-2026' || github.head_ref == 'feat/all-skills-consolidated-2026' || github.base_ref == 'feat/all-skills-consolidated-2026' || github.head_ref == 'cleanup/remove-retained-imported-skills-2026-10-30' || github.head_ref == 'fix/2500-catalog-validation-routing-2026-10-30' || github.ref_name == 'fix/2500-catalog-validation-routing-2026-10-30' || github.head_ref == 'feat/nexora-stream-handle-lifecycle-2026-10-30' || github.ref_name == 'feat/nexora-stream-handle-lifecycle-2026-10-30' || github.head_ref == 'feat/nexora-climate-lattice-reuse-2026-10-30' || github.ref_name == 'feat/nexora-climate-lattice-reuse-2026-10-30'
-        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2503.json
+        if: github.ref_name == 'feat/all-skills-consolidated-2026' || github.head_ref == 'feat/all-skills-consolidated-2026' || github.base_ref == 'feat/all-skills-consolidated-2026' || github.head_ref == 'cleanup/remove-retained-imported-skills-2026-10-30' || github.head_ref == 'fix/2500-catalog-validation-routing-2026-10-30' || github.ref_name == 'fix/2500-catalog-validation-routing-2026-10-30' || github.head_ref == 'feat/nexora-stream-handle-lifecycle-2026-10-30' || github.ref_name == 'feat/nexora-stream-handle-lifecycle-2026-10-30' || github.head_ref == 'feat/nexora-climate-lattice-reuse-2026-10-30' || github.ref_name == 'feat/nexora-climate-lattice-reuse-2026-10-30' || github.head_ref == 'feat/nexora-biome-climate-weight-blending-2026-10-30' || github.ref_name == 'feat/nexora-biome-climate-weight-blending-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2505.json

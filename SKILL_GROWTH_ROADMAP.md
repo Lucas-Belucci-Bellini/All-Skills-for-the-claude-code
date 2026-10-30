@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,503 distinct skills (2,503 authored + 0 retained/imported)
+**Current draft inventory:** 2,505 distinct skills (2,505 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,497
-**Current milestone:** 2,503 original skills: the 2,500-skill authored milestone plus three NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, and climate lattice sample reuse). The catalog and aggregate bundle contain zero retained/imported skills. Strict Claude Code validation and clean installation/discovery remain required.
+**Remaining to long-term target:** 2,495
+**Current milestone:** 2,505 original skills: the 2,500-skill authored milestone plus five NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, and native UI design-to-code). The catalog and aggregate bundle contain zero retained/imported skills. Strict Claude Code validation and clean installation/discovery remain required.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -63,6 +63,8 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2501 | 2501 | Adds one NEXORA-specific greedy-meshing workflow grounded in the current `nexora-mesh` implementation; focused runtime validation remains pending |
 | 2502 | 2502 | Adds one NEXORA streaming-handle/pin lifecycle workflow grounded in `nexora-streaming`; runtime validation remains pending |
 | 2503 | 2503 | Adds one NEXORA climate-lattice sample reuse workflow grounded in `engine/world/src/terrain.rs` and ADR-0049; optimization is proposed only, benchmark/runtime validation remains pending |
+| 2504 | 2504 | Adds a NEXORA biome climate-weight blending workflow grounded in `docs/plans/BIOME ENGINE.md` and generator-v3 climate fields; runtime implementation/validation remains pending |
+| 2505 | 2505 | Adds a NEXORA native UI design-to-code workflow grounded in the client/window/input/render/RHI architecture; no dedicated UI crate exists in the inspected snapshot, so implementation remains a staged design decision |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
