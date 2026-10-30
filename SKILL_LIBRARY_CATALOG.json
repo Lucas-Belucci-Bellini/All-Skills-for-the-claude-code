@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2516,
+  "unique_skills": 2517,
   "target": 5000,
-  "remaining": 2484,
+  "remaining": 2483,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -1703,6 +1703,12 @@
       "category": "Curated: nexora-content-pipeline",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-atlas-fragmentation/SKILL.md"
+    },
+    {
+      "name": "nexora-texture-forge-build-plan-integrity",
+      "category": "Curated: nexora-content-pipeline",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-forge-build-plan-integrity/SKILL.md"
     },
     {
       "name": "nexora-chunk-change-feed-gap-recovery",
