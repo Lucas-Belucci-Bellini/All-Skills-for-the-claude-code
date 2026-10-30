@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-30. The unified bundle contains 2512 distinct skills.
+Updated: 2026-10-30. The unified bundle contains 2513 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2507**
-- Current total: **2507**
+- Original curated skills: **2513**
+- Current total: **2513**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,493**
+- Remaining to long-term target: **2,487**
 
 ## Categories
 
@@ -453,23 +453,24 @@ Updated: 2026-10-30. The unified bundle contains 2512 distinct skills.
 - nexora-untrusted-asset-parser-hardening — NEW
 - nexora-world-save-checksum-contract — NEW
 
-### Curated: nexora-render-quality (17)
+### Curated: nexora-render-quality (18)
 
 - nexora-animation-lod-transition — NEW
 - nexora-animation-pose-cache-invalidation — NEW
+- nexora-atmosphere-fog-composition-contract — NEW
 - nexora-audio-device-loss-recovery — NEW
 - nexora-audio-spatialization-contract — NEW
 - nexora-color-space-pipeline-contract — NEW
 - nexora-cutout-layer-integration — NEW
+- nexora-environmental-vfx-event-bridge — NEW
+- nexora-lighting-render-extraction-contract — NEW
 - nexora-occlusion-query-latency-contract — NEW
 - nexora-pbr-material-render-bridge — NEW
-- nexora-lighting-render-extraction-contract — NEW
-- nexora-shadow-caster-extraction-contract — NEW
-- nexora-atmosphere-fog-composition-contract — NEW
 - nexora-render-pass-state-contract — NEW
 - nexora-render-resolution-budget — NEW
 - nexora-render-target-resize-transaction — NEW
 - nexora-rhi-conformance-evidence — NEW
+- nexora-shadow-caster-extraction-contract — NEW
 - nexora-surface-acquisition-recovery — NEW
 - nexora-temporal-history-invalidation — NEW
 

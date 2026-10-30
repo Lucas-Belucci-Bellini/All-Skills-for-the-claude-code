@@ -1,9 +1,9 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,512 distinct skills (2,512 authored + 0 retained/imported)
+**Current draft inventory:** 2,513 distinct skills (2,513 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,488
+**Remaining to long-term target:** 2,487
 **Current milestone:** 2,512 original skills: the 2,500-skill authored milestone plus twelve NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, RHI conformance evidence, Cutout layer integration, PBR material render bridge, lighting render extraction contract, shadow caster extraction contract, and atmosphere/fog composition contract). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41110416249; NEXORA runtime feature validation remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
