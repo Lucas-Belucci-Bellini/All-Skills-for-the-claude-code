@@ -70,6 +70,17 @@ Re-check the active checkout before applying these observations; they describe t
 17. **Report results by evidence class.** Separate unit tests, headless/null tests, CI software drivers, local physical GPU, display/surface smoke tests, manual observations, and unexecuted cases. Record commit, OS, API, adapter class, driver, command, status, duration, and artifact location.
 18. **Gate backend adoption.** Do not put a backend under production renderer paths until it passes the shared contract and observable native probe. Do not claim full hardware support from one software driver or one GPU. State unsupported profiles and remaining limitations explicitly.
 
+## Validation checklist
+
+- [ ] The exact commit, toolchain, backend, OS, adapter class and driver are recorded.
+- [ ] The active conformance case list is read from source; historical case counts are not copied.
+- [ ] NullRhi and native backend results are reported separately.
+- [ ] Every configured CI API job has a completed result; skipped/action-required jobs are not called passes.
+- [ ] Physical GPU evidence is tied to a clean commit and a fresh local-validation report.
+- [ ] Upload/readback, draw, bindings, depth, culling and shader validation have observable probe evidence.
+- [ ] Local reports contain no identifying machine data.
+- [ ] Documentation, catalog and skill claims match the evidence actually collected.
+
 ## Validation matrix
 
 | Evidence layer | Minimum proof | Does not prove |
