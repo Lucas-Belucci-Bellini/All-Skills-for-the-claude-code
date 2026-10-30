@@ -10,8 +10,8 @@
     {
       "name": "all-skills-collection",
       "source": "./plugins/all-skills-collection",
-      "description": "Install the unified collection of 2515 distinct skills, all authored, covering all 31 profile languages and specialist engineering workflows.",
-      "version": "2.1.39",
+      "description": "Install the unified collection of 2516 distinct skills, all authored, covering all 31 profile languages and specialist engineering workflows.",
+      "version": "2.1.40",
       "category": "development"
     },
     {
