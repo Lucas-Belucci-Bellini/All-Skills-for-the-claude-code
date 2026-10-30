@@ -461,10 +461,10 @@ Updated: 2026-10-30. The unified bundle contains 2507 distinct skills.
 - nexora-audio-spatialization-contract — NEW
 - nexora-color-space-pipeline-contract — NEW
 - nexora-occlusion-query-latency-contract — NEW
-- nexora-rhi-conformance-evidence — NEW
 - nexora-render-pass-state-contract — NEW
 - nexora-render-resolution-budget — NEW
 - nexora-render-target-resize-transaction — NEW
+- nexora-rhi-conformance-evidence — NEW
 - nexora-surface-acquisition-recovery — NEW
 - nexora-temporal-history-invalidation — NEW
 

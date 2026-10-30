@@ -2365,12 +2365,6 @@
       "source_path": "curated-skill-sources/nexora-render-quality/nexora-occlusion-query-latency-contract/SKILL.md"
     },
     {
-      "name": "nexora-rhi-conformance-evidence",
-      "category": "Curated: nexora-render-quality",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-render-quality/nexora-rhi-conformance-evidence/SKILL.md"
-    },
-    {
       "name": "nexora-render-pass-state-contract",
       "category": "Curated: nexora-render-quality",
       "origin": "new-authored",
@@ -2387,6 +2381,12 @@
       "category": "Curated: nexora-render-quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-target-resize-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-rhi-conformance-evidence",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-rhi-conformance-evidence/SKILL.md"
     },
     {
       "name": "nexora-surface-acquisition-recovery",
