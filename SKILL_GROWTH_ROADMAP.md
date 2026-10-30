@@ -361,3 +361,8 @@ Added an original workflow for bounded recovery across the wgpu surface presente
 ## Batch 2,507 — NEXORA RHI conformance evidence (2026-10-30)
 
 Added an original workflow for the full RHI evidence chain: backend-neutral contract, NullRhi, wgpu conformance, native probe, software-driver CI matrix, and commit-scoped physical-GPU validation. It follows the active 11-case suite and explicitly flags historical ADR prose that still reports 9 cases. The checked-in RX 6650 XT report is treated as historical diagnostic evidence because it was generated from a dirty working tree; a clean-commit report is still required for release evidence.
+
+
+## Enhancement — NEXORA transparent voxel pass ordering (2026-10-30)
+
+The existing `engine-voxel-transparency-sort-policy` workflow was expanded with NEXORA's ADR-0051/DEBT-0056 case. The current renderer draws transparent chunk buffers in caller order despite the mesh contract requiring back-to-front sorting; the CPU reference does not judge rays crossing a second see-through face. The enhanced workflow now requires a deliberate sort granularity, deterministic depth/tie-break policy, multi-layer CPU compositing, GPU regression scenes, and measured sorting cost. This is an enhancement to an existing skill, so the unique skill count remains 2,507.

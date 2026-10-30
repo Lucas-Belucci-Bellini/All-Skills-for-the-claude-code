@@ -32,6 +32,7 @@ on:
       - feat/nexora-climate-lattice-reuse-2026-10-30
       - feat/nexora-biome-climate-weight-blending-2026-10-30
       - feat/nexora-surface-acquisition-recovery-2026-10-30
+      - feat/nexora-transparent-pass-order-2026-10-30
   pull_request:
     branches:
       - main
@@ -153,7 +154,7 @@ jobs:
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1540.json
 
       - name: Validate NEXORA 2,507-skill batch and source/bundle parity
-        if: github.ref_name == 'feat/nexora-surface-acquisition-recovery-2026-10-30' || github.head_ref == 'feat/nexora-surface-acquisition-recovery-2026-10-30'
+        if: github.ref_name == 'feat/nexora-surface-acquisition-recovery-2026-10-30' || github.head_ref == 'feat/nexora-surface-acquisition-recovery-2026-10-30' || github.ref_name == 'feat/nexora-transparent-pass-order-2026-10-30' || github.head_ref == 'feat/nexora-transparent-pass-order-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2507.json
 
       - name: Validate agent orchestration plugin
