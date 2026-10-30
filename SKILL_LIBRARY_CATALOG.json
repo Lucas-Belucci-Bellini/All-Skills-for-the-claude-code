@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2530,
+  "unique_skills": 2534,
   "target": 5000,
-  "remaining": 2470,
+  "remaining": 2466,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -1711,6 +1711,12 @@
       "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-mod-dependency-resolution/SKILL.md"
     },
     {
+      "name": "nexora-procedural-texture-seed-repair-identity",
+      "category": "Curated: nexora-content-pipeline",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-procedural-texture-seed-repair-identity/SKILL.md",
+      "origin": "new-authored"
+    },
+    {
       "name": "nexora-shader-reflection-contract",
       "category": "Curated: nexora-content-pipeline",
       "origin": "new-authored",
@@ -1727,6 +1733,18 @@
       "category": "Curated: nexora-content-pipeline",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-forge-build-plan-integrity/SKILL.md"
+    },
+    {
+      "name": "nexora-texture-manifest-default-inheritance",
+      "category": "Curated: nexora-content-pipeline",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-manifest-default-inheritance/SKILL.md",
+      "origin": "new-authored"
+    },
+    {
+      "name": "nexora-texture-recipe-periodic-tiling-contract",
+      "category": "Curated: nexora-content-pipeline",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-recipe-periodic-tiling-contract/SKILL.md",
+      "origin": "new-authored"
     },
     {
       "name": "nexora-chunk-change-feed-gap-recovery",
@@ -2507,6 +2525,12 @@
       "category": "Curated: nexora-render-quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-render-quality/nexora-temporal-history-invalidation/SKILL.md"
+    },
+    {
+      "name": "nexora-texture-preview-seam-review",
+      "category": "Curated: nexora-render-quality",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-texture-preview-seam-review/SKILL.md",
+      "origin": "new-authored"
     },
     {
       "name": "nexora-background-task-deadline-policy",

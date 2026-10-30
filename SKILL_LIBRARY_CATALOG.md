@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-30. The unified bundle contains 2530 distinct skills.
+Updated: 2026-10-30. The unified bundle contains 2534 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2530**
-- Current total: **2530**
+- Original curated skills: **2534**
+- Current total: **2534**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,470**
+- Remaining to long-term target: **2,466**
 
 ## Categories
 
@@ -306,7 +306,7 @@ Updated: 2026-10-30. The unified bundle contains 2530 distinct skills.
 - nexora-shared-cache-concurrent-invalidation — NEW
 - nexora-shutdown-concurrent-request-idempotency — NEW
 
-### Curated: nexora-content-pipeline (14)
+### Curated: nexora-content-pipeline (17)
 
 - nexora-asset-budget-admission — NEW
 - nexora-asset-import-dependency-graph — NEW
@@ -319,9 +319,12 @@ Updated: 2026-10-30. The unified bundle contains 2530 distinct skills.
 - nexora-material-schema-versioning — NEW
 - nexora-mod-api-compatibility-gate — NEW
 - nexora-mod-dependency-resolution — NEW
+- nexora-procedural-texture-seed-repair-identity — NEW
 - nexora-shader-reflection-contract — NEW
 - nexora-texture-atlas-fragmentation — NEW
 - nexora-texture-forge-build-plan-integrity — NEW
+- nexora-texture-manifest-default-inheritance — NEW
+- nexora-texture-recipe-periodic-tiling-contract — NEW
 
 ### Curated: nexora-data-contracts (12)
 
@@ -464,7 +467,7 @@ Updated: 2026-10-30. The unified bundle contains 2530 distinct skills.
 - nexora-untrusted-asset-parser-hardening — NEW
 - nexora-world-save-checksum-contract — NEW
 
-### Curated: nexora-render-quality (19)
+### Curated: nexora-render-quality (20)
 
 - nexora-animation-lod-transition — NEW
 - nexora-animation-pose-cache-invalidation — NEW
@@ -485,6 +488,7 @@ Updated: 2026-10-30. The unified bundle contains 2530 distinct skills.
 - nexora-shadow-caster-extraction-contract — NEW
 - nexora-surface-acquisition-recovery — NEW
 - nexora-temporal-history-invalidation — NEW
+- nexora-texture-preview-seam-review — NEW
 
 ### Curated: nexora-runtime-observability (10)
 

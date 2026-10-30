@@ -463,3 +463,8 @@ Added four original workflows covering bounded voxel mesh uploads, deterministic
 ## Batch 2,530 — NEXORA atlas correctness workflows (2026-10-30)
 
 Added four source-grounded workflows for the current voxel atlas implementation: footprint-based mip selection with per-tile isolation, face-to-texel orientation and mirror behavior, deterministic per-face variants, and CPU/shader shading-reference parity. The workflows document how to validate the existing contract and do not claim new runtime features or tests were executed.
+
+
+## Batch 2,534 — NEXORA Texture Forge authoring and review workflows (2026-10-30)
+
+Added four source-grounded workflows for Texture Forge manifest inheritance and identifier validation, periodic recipe structure for seamless tiling, procedural generate/variant/repair seed identity, and lit 2×2 preview plus numeric seam review. The workflows distinguish manifest parsing from build-plan policy, require provenance-aware reproduction, and pair visual inspection with underlying-map validation. They do not claim NEXORA runtime tests or new engine functionality were executed.
