@@ -61,7 +61,7 @@ These are snapshot-specific facts. Re-read the implementation and tests before a
 12. **Review generation exhaustion.** Verify the implementation retires an exhausted slot. If practical testing cannot reach `u32::MAX`, use a focused internal test seam or a carefully scoped unit test rather than billions of cancellations.
 13. **Report gaps separately.** Distinguish behavior already covered by tests from new tests proposed or actually executed.
 
-## Validation matrix
+## Validation checklist
 
 - [ ] A valid handle cancels exactly once.
 - [ ] Cancelling the same handle twice returns `false` on the second call.
