@@ -1,9 +1,9 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,518 distinct skills (2,518 authored + 0 retained/imported)
+**Current draft inventory:** 2,519 distinct skills (2,519 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,482
+**Remaining to long-term target:** 2,481
 **Current milestone:** 2,519 authored skills: the 2,500-skill milestone plus nineteen NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge content integrity, world generation, memory, data contracts, rendering, VFX, and native UI. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
