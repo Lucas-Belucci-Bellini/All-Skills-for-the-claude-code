@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
+Updated: 2026-10-30. The unified bundle contains 2500 distinct skills.
 
 ## Inventory summary
 
-- Existing/imported skills retained: **161**
-- Original curated skills: **2339**
+- Existing/imported skills retained: **0**
+- Original curated skills: **2500**
 - Current total: **2500**
-- Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **0**
+- Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
+- Remaining to long-term target: **2,500**
 
 ## Categories
 
@@ -125,36 +125,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - radar-uart-and-gps-parser-boundary-tests — NEW
 - radar-vg-dac-range-and-limit-validation — NEW
 - radar-waveguide-geometry-parametric-validation — NEW
-
-### Agent workflows, Claude Code & MCP (27)
-
-- agent-development
-- build-mcp-app
-- build-mcp-server
-- build-mcpb
-- claude-automation-recommender
-- claude-security
-- command-development
-- critiquing-own-response
-- dispatching-agent-work
-- example-command
-- example-skill
-- extracting-agent-skills
-- extracting-spec-design-ladders
-- gating-by-blind-restoration
-- gating-expensive-batch-work
-- hook-development
-- mcp-integration
-- migrating-agents-md-to-control-flow
-- plugin-settings
-- plugin-structure
-- project-artifact
-- receipts
-- refining-workflows-from-artifacts
-- session-report
-- skill-creator
-- skill-development
-- writing-rules
 
 ### Claude Code setup & MCP (125)
 
@@ -701,12 +671,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - reproducible-toolchain-bootstrap — NEW
 - shell-command-path-quoting-audit — NEW
 
-### Developer tooling, CI & security (3)
-
-- designing-stable-api-contracts
-- relational-database-schema-design
-- safe-database-migrations
-
 ### Documentation & technical knowledge systems (33)
 
 - api-example-schema-conformance — NEW
@@ -1217,71 +1181,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - worldgen-biome-distribution-analysis — NEW
 - worldgen-distribution-drift-detection — NEW
 
-### Game design, engines & gameplay QA (37)
-
-- adversarially-validating-game-repairs
-- arcadifying-mini-games
-- auditing-game-screen-readability
-- auditing-gameplay-implementation-coverage
-- curating-game-concept-portfolio
-- designing-game-combat-resolution
-- designing-game-progression
-- designing-mini-games
-- designing-minimal-game-rules
-- developing-with-crisp-game-lib
-- evaluating-gameplay-balance
-- exploring-game-design-space
-- gating-intent-legibility
-- generating-retro-arcade-concepts
-- generating-semantic-game-mutants
-- godot-game-dev
-- implementing-game-ai-state-machines
-- implementing-gameplay-invariants
-- localizing-game-state-divergence
-- maximizing-game-feel
-- playground
-- probing-web-game-mechanics
-- refining-game-prototypes
-- running-headless-godot
-- scaffolding-godot-mini-games
-- scoping-playable-prototypes
-- smoke-testing-web-games
-- stress-testing-game-concepts
-- structuring-gameplay-playtests
-- testing-procedural-gameplay-encounters
-- unity-game-dev
-- unreal-game-dev
-- validating-game-core-loops
-- validating-game-economy-loops
-- validating-game-movement-feel
-- validating-game-narrative-localization
-- verifying-turn-based-games
-
-### General utilities & productivity (22)
-
-- application-observability
-- async-concurrency-patterns
-- configuration-and-secret-management
-- continuous-integration-pipeline-design
-- debugging-with-minimal-reproduction
-- dependency-injection-patterns
-- designing-quest-objective-dependencies
-- git-branching-and-change-management
-- implementing-incremental-code-changes
-- modular-software-architecture
-- race-condition-detection
-- refactoring-with-characterization-tests
-- release-versioning-and-changelog
-- reliable-error-handling
-- resolving-merge-conflicts-safely
-- secure-coding-practices
-- solid-design-principles
-- sql-query-performance
-- static-analysis-and-linting
-- systematic-code-review
-- unit-testing-strategy
-- validating-multiplayer-session-lifecycle
-
 ### Geospatial visualization & map UX (35)
 
 - geoviz-3d-terrain-provider-fallback-validation — NEW
@@ -1320,11 +1219,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - geoviz-viewport-selection-context-integrity — NEW
 - geoviz-world-overlay-label-budget — NEW
 
-### Hardware & embedded devices (2)
-
-- cardputer-buddy
-- m5-onboard
-
 ### Live public-data ingestion & reliability (35)
 
 - livefeed-api-key-rotation-no-downtime — NEW
@@ -1362,21 +1256,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - livefeed-synthetic-vs-live-fixture-isolation — NEW
 - livefeed-watermark-late-event-policy — NEW
 - livefeed-websocket-reconnect-state-machine — NEW
-
-### Mathematics (3)
-
-- math-olympiad
-- siege
-- solo
-
-### Messaging integrations (6)
-
-- discord-access
-- discord-configure
-- imessage-access
-- imessage-configure
-- telegram-access
-- telegram-configure
 
 ### Minecraft & modpack engineering (230)
 
@@ -1917,6 +1796,170 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - playwright-websocket-close-diagnostics — NEW
 - playwright-worker-resource-contention — NEW
 
+### Programming language engineering (161)
+
+- assembly-idiomatic-data-control-flow — NEW
+- assembly-performance-resource-budget — NEW
+- assembly-project-toolchain-contract — NEW
+- assembly-secure-boundary-interoperability — NEW
+- assembly-testing-debugging-diagnostics — NEW
+- batch-idiomatic-data-control-flow — NEW
+- batch-performance-resource-budget — NEW
+- batch-project-toolchain-contract — NEW
+- batch-secure-boundary-interoperability — NEW
+- batch-testing-debugging-diagnostics — NEW
+- c-idiomatic-data-control-flow — NEW
+- c-performance-resource-budget — NEW
+- c-project-toolchain-contract — NEW
+- c-secure-boundary-interoperability — NEW
+- c-testing-debugging-diagnostics — NEW
+- cmake-idiomatic-data-control-flow — NEW
+- cmake-performance-resource-budget — NEW
+- cmake-project-toolchain-contract — NEW
+- cmake-secure-boundary-interoperability — NEW
+- cmake-testing-debugging-diagnostics — NEW
+- cpp-idiomatic-data-control-flow — NEW
+- cpp-performance-resource-budget — NEW
+- cpp-project-toolchain-contract — NEW
+- cpp-secure-boundary-interoperability — NEW
+- cpp-testing-debugging-diagnostics — NEW
+- csharp-idiomatic-data-control-flow — NEW
+- csharp-performance-resource-budget — NEW
+- csharp-project-toolchain-contract — NEW
+- csharp-secure-boundary-interoperability — NEW
+- csharp-testing-debugging-diagnostics — NEW
+- css-idiomatic-data-control-flow — NEW
+- css-performance-resource-budget — NEW
+- css-project-toolchain-contract — NEW
+- css-secure-boundary-interoperability — NEW
+- css-testing-debugging-diagnostics — NEW
+- dockerfile-idiomatic-data-control-flow — NEW
+- dockerfile-performance-resource-budget — NEW
+- dockerfile-project-toolchain-contract — NEW
+- dockerfile-secure-boundary-interoperability — NEW
+- dockerfile-testing-debugging-diagnostics — NEW
+- gdscript-idiomatic-data-control-flow — NEW
+- gdscript-performance-resource-budget — NEW
+- gdscript-project-toolchain-contract — NEW
+- gdscript-secure-boundary-interoperability — NEW
+- gdscript-testing-debugging-diagnostics — NEW
+- glsl-idiomatic-data-control-flow — NEW
+- glsl-performance-resource-budget — NEW
+- glsl-project-toolchain-contract — NEW
+- glsl-secure-boundary-interoperability — NEW
+- glsl-testing-debugging-diagnostics — NEW
+- go-template-idiomatic-data-control-flow — NEW
+- go-template-performance-resource-budget — NEW
+- go-template-project-toolchain-contract — NEW
+- go-template-secure-boundary-interoperability — NEW
+- go-template-testing-debugging-diagnostics — NEW
+- html-idiomatic-data-control-flow — NEW
+- html-performance-resource-budget — NEW
+- html-project-toolchain-contract — NEW
+- html-secure-boundary-interoperability — NEW
+- html-testing-debugging-diagnostics — NEW
+- java-idiomatic-data-control-flow — NEW
+- java-performance-resource-budget — NEW
+- java-project-toolchain-contract — NEW
+- java-secure-boundary-interoperability — NEW
+- java-testing-debugging-diagnostics — NEW
+- javascript-idiomatic-data-control-flow — NEW
+- javascript-performance-resource-budget — NEW
+- javascript-project-toolchain-contract — NEW
+- javascript-secure-boundary-interoperability — NEW
+- javascript-testing-debugging-diagnostics — NEW
+- linker-script-idiomatic-data-control-flow — NEW
+- linker-script-performance-resource-budget — NEW
+- linker-script-project-toolchain-contract — NEW
+- linker-script-secure-boundary-interoperability — NEW
+- linker-script-testing-debugging-diagnostics — NEW
+- makefile-idiomatic-data-control-flow — NEW
+- makefile-performance-resource-budget — NEW
+- makefile-project-toolchain-contract — NEW
+- makefile-secure-boundary-interoperability — NEW
+- makefile-testing-debugging-diagnostics — NEW
+- nsis-idiomatic-data-control-flow — NEW
+- nsis-performance-resource-budget — NEW
+- nsis-project-toolchain-contract — NEW
+- nsis-secure-boundary-interoperability — NEW
+- nsis-testing-debugging-diagnostics — NEW
+- objective-c-idiomatic-data-control-flow — NEW
+- objective-c-performance-resource-budget — NEW
+- objective-c-project-toolchain-contract — NEW
+- objective-c-secure-boundary-interoperability — NEW
+- objective-c-testing-debugging-diagnostics — NEW
+- plpgsql-idiomatic-data-control-flow — NEW
+- plpgsql-performance-resource-budget — NEW
+- plpgsql-project-toolchain-contract — NEW
+- plpgsql-secure-boundary-interoperability — NEW
+- plpgsql-testing-debugging-diagnostics — NEW
+- polyglot-build-and-release-reproducibility — NEW
+- polyglot-cross-language-api-contract-validation — NEW
+- polyglot-data-schema-serialization-compatibility — NEW
+- polyglot-ffi-and-native-boundary-safety — NEW
+- polyglot-incremental-language-migration-plan — NEW
+- polyglot-multi-runtime-test-fixture-reconciliation — NEW
+- portugol-idiomatic-data-control-flow — NEW
+- portugol-performance-resource-budget — NEW
+- portugol-project-toolchain-contract — NEW
+- portugol-secure-boundary-interoperability — NEW
+- portugol-testing-debugging-diagnostics — NEW
+- powershell-idiomatic-data-control-flow — NEW
+- powershell-performance-resource-budget — NEW
+- powershell-project-toolchain-contract — NEW
+- powershell-secure-boundary-interoperability — NEW
+- powershell-testing-debugging-diagnostics — NEW
+- python-idiomatic-data-control-flow — NEW
+- python-performance-resource-budget — NEW
+- python-project-toolchain-contract — NEW
+- python-secure-boundary-interoperability — NEW
+- python-testing-debugging-diagnostics — NEW
+- rust-idiomatic-data-control-flow — NEW
+- rust-performance-resource-budget — NEW
+- rust-project-toolchain-contract — NEW
+- rust-secure-boundary-interoperability — NEW
+- rust-testing-debugging-diagnostics — NEW
+- scss-idiomatic-data-control-flow — NEW
+- scss-performance-resource-budget — NEW
+- scss-project-toolchain-contract — NEW
+- scss-secure-boundary-interoperability — NEW
+- scss-testing-debugging-diagnostics — NEW
+- shaderlab-idiomatic-data-control-flow — NEW
+- shaderlab-performance-resource-budget — NEW
+- shaderlab-project-toolchain-contract — NEW
+- shaderlab-secure-boundary-interoperability — NEW
+- shaderlab-testing-debugging-diagnostics — NEW
+- shell-idiomatic-data-control-flow — NEW
+- shell-performance-resource-budget — NEW
+- shell-project-toolchain-contract — NEW
+- shell-secure-boundary-interoperability — NEW
+- shell-testing-debugging-diagnostics — NEW
+- solidity-idiomatic-data-control-flow — NEW
+- solidity-performance-resource-budget — NEW
+- solidity-project-toolchain-contract — NEW
+- solidity-secure-boundary-interoperability — NEW
+- solidity-testing-debugging-diagnostics — NEW
+- sqf-idiomatic-data-control-flow — NEW
+- sqf-performance-resource-budget — NEW
+- sqf-project-toolchain-contract — NEW
+- sqf-secure-boundary-interoperability — NEW
+- sqf-testing-debugging-diagnostics — NEW
+- swift-idiomatic-data-control-flow — NEW
+- swift-performance-resource-budget — NEW
+- swift-project-toolchain-contract — NEW
+- swift-secure-boundary-interoperability — NEW
+- swift-testing-debugging-diagnostics — NEW
+- typescript-idiomatic-data-control-flow — NEW
+- typescript-performance-resource-budget — NEW
+- typescript-project-toolchain-contract — NEW
+- typescript-secure-boundary-interoperability — NEW
+- typescript-testing-debugging-diagnostics — NEW
+- wolfram-language-idiomatic-data-control-flow — NEW
+- wolfram-language-performance-resource-budget — NEW
+- wolfram-language-project-toolchain-contract — NEW
+- wolfram-language-secure-boundary-interoperability — NEW
+- wolfram-language-testing-debugging-diagnostics — NEW
+
 ### Public-data provenance, privacy & ethics (35)
 
 - geo-alpr-location-only-data-guardrail — NEW
@@ -2129,63 +2172,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - trace-context-propagation-contract — NEW
 - typescript-api-error-contract-design — NEW
 - web-performance-budget-audit — NEW
-
-### Reverse engineering & artifact analysis (54)
-
-- rea-android-apk-triage
-- rea-android-method-analysis
-- rea-android-resource-analysis
-- rea-app-version-diff
-- rea-assembly-pseudocode-check
-- rea-browser-capture-compare
-- rea-browser-passive-observation
-- rea-browser-scenario-capture
-- rea-changelog-update
-- rea-ci-tests-audit
-- rea-crash-core-analysis
-- rea-dos-ghidra-analysis
-- rea-dotnet-assembly-analysis
-- rea-electron-ipc
-- rea-electron-native-addons
-- rea-elf-layout-audit
-- rea-engine-architecture-learning
-- rea-evm-bytecode-inspection
-- rea-feature-trace
-- rea-firmware-analysis
-- rea-flutter-apk-inventory
-- rea-ghidra-provider-workflow
-- rea-har-network-analysis
-- rea-ida-provider-workflow
-- rea-js-app-map
-- rea-js-bundle-reconstruction
-- rea-js-export-shapes
-- rea-js-module-graph
-- rea-large-binary-investigation
-- rea-native-abi-analysis
-- rea-native-binary-triage
-- rea-native-call-graph
-- rea-native-function-analysis
-- rea-native-function-reconstruction
-- rea-native-string-analysis
-- rea-native-xref-tracing
-- rea-packet-field-discovery
-- rea-pcap-summary-analysis
-- rea-pe-resource-analysis
-- rea-rust-artifact-source-compare
-- rea-rust-binary-inventory
-- rea-rust-dependency-audit
-- rea-rust-dependency-graph
-- rea-rust-runtime-boundary
-- rea-saz-traffic-analysis
-- rea-source-map-provenance
-- rea-sqlite-schema-analysis
-- rea-task-triage
-- rea-tool-design
-- rea-wasm-js-boundary
-- rea-wasm-module-analysis
-- rea-web-feature-tracing
-- rea-windows-binary-inspection
-- reverse-engineer-anything
 
 ### Rust & platform engineering (99)
 
@@ -2612,16 +2598,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - temporal-workflow-replay-regression — NEW
 - temporal-workflow-test-fixture-isolation — NEW
 - temporal-workflow-versioning-marker — NEW
-
-### UI, art, audio & assets (7)
-
-- building-era-authentic-game-audio
-- creating-godot-procedural-audio
-- designing-retro-arcade-sound-kits
-- directing-game-visuals
-- frontend-design
-- generating-dot-assets
-- styling-web-game-typography
 
 ### Vercel AI SDK & agent reliability (75)
 

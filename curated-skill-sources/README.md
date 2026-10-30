@@ -2,6 +2,7 @@
 
 Original skills authored for this library are organized by domain below. Each skill has a unique folder with a `SKILL.md` entrypoint; the unified plugin is generated from these canonical sources. The consolidated draft contains **2,024 original skills** and 161 retained/imported entries, for 2,185 declared distinct skills after the engine creation batch. The current expansion adds workflows for simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, privacy/provenance and OpenTelemetry; it remains a draft branch until its validation and review gates pass.
 
+- `programming-language-engineering/`: five original workflows for each of the 31 public profile languages, plus six cross-language engineering workflows.
 - `agent-tooling/`: agent request contracts, provider adapters, Skill Broker access, MCP configuration, permissions, connection checks, and troubleshooting.
 - `developer-cli-tooling/`: CLI behavior contracts, portable environments, and deterministic command workflows.
 - `documentation-knowledge-systems/`: documentation correctness, traceability, examples, and operational runbooks.
