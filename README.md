@@ -1,6 +1,6 @@
 # All Skills for Claude Code — Community Collection
 
-This is an independent, community-maintained collection of Claude Code skills and plugins. It is **not affiliated with or endorsed by Anthropic**. The generated aggregate plugin currently packages 2339 distinct skills; the 161 entries previously marked retained/imported have been removed from the source tree and generated bundle.
+This is an independent, community-maintained collection of Claude Code skills and plugins. It is **not affiliated with or endorsed by Anthropic**. The combined collection currently packages 2339 distinct skills; the 161 entries previously marked retained/imported have been removed from the source tree and generated bundle.
 
 > **Distribution note:** the 161 retained/imported skill entries and their generated bundle copies have been removed. Third-party plugin packages and their non-skill components may still exist elsewhere in this repository; their LICENSE/NOTICE and provenance requirements remain applicable. This cleanup is not blanket legal approval for every plugin in the marketplace.
 
