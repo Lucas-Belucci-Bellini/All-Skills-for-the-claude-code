@@ -1,13 +1,13 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,500 distinct skills (2,339 authored + 161 retained/imported)
+**Current authored inventory after cleanup:** 2,339 distinct skills (0 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 0
-**Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,185-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
-**Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
+**Remaining to long-term target:** 161
+**Current milestone:** 2,339 original skills remain after removing all 161 retained/imported entries and their bundle copies. The next 161 should be newly authored only; do not reintroduce imported skill files. Strict Claude Code validation and clean installation/discovery remain required.
+**Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
-The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
+The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
 
 ## Milestone sequence
 

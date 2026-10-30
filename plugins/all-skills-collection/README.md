@@ -1,6 +1,6 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **2500 distinct skills**, with authored workflows across simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, provenance/privacy, telemetry observability, engine/runtime engineering, Rust/platform systems, release quality, databases, agent reliability, accessibility and technical documentation. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
+A generated plugin containing **2339 distinct skills**, with authored workflows across simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, provenance/privacy, telemetry observability, engine/runtime engineering, Rust/platform systems, release quality, databases, agent reliability, accessibility and technical documentation. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
@@ -24,4 +24,4 @@ The sync script removes identical skill subtrees from the output, namespaces rea
 
 ## Limits and provenance
 
-This bundle includes skill entrypoints and skill-local files. It does not automatically include every upstream plugin's agents, slash commands, hooks, MCP server implementation or runtime dependencies. Keep the repository private until third-party provenance and redistribution terms have been reviewed.
+This bundle includes skill entrypoints and skill-local files. It does not automatically include every upstream plugin's agents, slash commands, hooks, MCP server implementation or runtime dependencies. The aggregate skill bundle contains only newly authored skill sources. Separately packaged plugins still retain their own license and provenance requirements.

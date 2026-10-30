@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "batch_size": 14,
-  "milestone_total": 2500,
+  "milestone_total": 2339,
   "long_term_target": 2500,
   "authored_count": 2339,
-  "retained_count": 161,
-  "plugin_version": "2.1.21",
+  "retained_count": 0,
+  "plugin_version": "2.1.22",
   "skills": [
     {
       "name": "nexora-engine-readiness-review",
