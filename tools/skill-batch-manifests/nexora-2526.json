@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30",
+  "batch_size": 4,
+  "milestone_total": 2526,
+  "long_term_target": 5000,
+  "authored_count": 2526,
+  "retained_count": 0,
+  "plugin_version": "2.1.49",
+  "skills": [
+    {
+      "name": "nexora-voxel-mesh-upload-backpressure",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-voxel-mesh-upload-backpressure/SKILL.md",
+      "category": "Curated: nexora-performance-memory"
+    },
+    {
+      "name": "nexora-worldgen-column-work-budget",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-column-work-budget/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    },
+    {
+      "name": "nexora-native-ui-layout-scale-contract",
+      "source_path": "curated-skill-sources/nexora-ui-engineering/nexora-native-ui-layout-scale-contract/SKILL.md",
+      "category": "Curated: nexora-ui-engineering"
+    },
+    {
+      "name": "nexora-native-ui-focus-navigation-contract",
+      "source_path": "curated-skill-sources/nexora-ui-engineering/nexora-native-ui-focus-navigation-contract/SKILL.md",
+      "category": "Curated: nexora-ui-engineering"
+    }
+  ]
+}
