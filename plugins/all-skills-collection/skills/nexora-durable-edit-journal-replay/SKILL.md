@@ -129,7 +129,7 @@ These are source-inspected test anchors; this skill authoring step does not clai
 
 Produce a durable-journal replay report containing the pinned commit; record schema and stable identity; physical validation result; replay order; per-record applied/skipped status; deferred-column inventory; recovery completeness; damage metadata; retry/checkpoint semantics; memory bounds; compatibility plan; test commands/results; and unresolved risks.
 
-## Boundaries
+## Boundaries and failure handling
 
 - Do not treat runtime block IDs as durable identity.
 - Do not silently skip missing content or invent replacement blocks.
