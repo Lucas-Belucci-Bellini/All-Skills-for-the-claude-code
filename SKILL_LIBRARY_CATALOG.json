@@ -193,12 +193,6 @@
       "source_path": "curated-skill-sources/accessibility-inclusive-ux/keyboard-shortcut-conflict-inventory/SKILL.md"
     },
     {
-      "name": "nexora-edit-remesh-snapshot-refresh",
-      "category": "Curated: nexora-runtime-reliability",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-edit-remesh-snapshot-refresh/SKILL.md"
-    },
-    {
       "name": "reduced-motion-interaction-equivalence",
       "category": "Accessibility & inclusive UX",
       "origin": "new-authored",
@@ -2579,6 +2573,12 @@
       "category": "Curated: nexora-runtime-reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-deterministic-tick-input-log/SKILL.md"
+    },
+    {
+      "name": "nexora-edit-remesh-snapshot-refresh",
+      "category": "Curated: nexora-runtime-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-reliability/nexora-edit-remesh-snapshot-refresh/SKILL.md"
     },
     {
       "name": "nexora-engine-startup-phase-gates",
