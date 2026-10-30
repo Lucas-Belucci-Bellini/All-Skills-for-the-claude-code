@@ -11,6 +11,7 @@ on:
       - feat/nexora-climate-lattice-reuse-2026-10-30
       - feat/nexora-biome-climate-weight-blending-2026-10-30
       - feat/nexora-rhi-surface-recovery-2538-2026-10-30
+      - feat/nexora-job-system-long-run-health-2538-2026-10-30
       - feat/nexora-surface-acquisition-recovery-2026-10-30
       - feat/nexora-environmental-vfx-bridge-2514-main-2026-10-30
       - feat/nexora-voxel-palette-transition-invariants-2515-clean-2026-10-30
@@ -71,6 +72,10 @@ jobs:
       - name: Validate NEXORA 2,537-skill batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-rhi-surface-recovery-2538-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2537.json
+
+      - name: Validate NEXORA 2,538-skill job system batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-job-system-long-run-health-2538-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2538.json
 
       - name: Commit generated synchronization outputs
         shell: bash
