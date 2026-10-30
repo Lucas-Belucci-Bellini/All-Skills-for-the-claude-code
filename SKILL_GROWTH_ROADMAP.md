@@ -393,9 +393,14 @@ Added a dedicated workflow for the boundary between authoritative world lighting
 Added a dedicated workflow for selecting and submitting voxel/entity casters to future sun and local-light shadow passes. The current renderer has no shadow pass or caster API; the plans describe cast/receive flags, camera-relative cascades, LOD, and priority budgets. The workflow defines extraction, light-space culling, depth convention, Cutout/transparent policy, cache invalidation, resource retirement, and native GPU proof without claiming shadow maps are implemented.
 
 
-## Batch 2,512 — NEXORA atmosphere/fog composition (2026-10-30)
+## Batch 2,513 — NEXORA atmosphere/fog composition (2026-10-30)
 
 Added a dedicated workflow for evolving the current directional sky gradient and distance haze into dimension-aware environment composition. It distinguishes climate, weather, atmosphere, sky background, sky-light surface illumination, PBR, and shadows; defines immutable frame inputs, fog representation choices, linear-light composition, water/transparent pass interactions, CPU reference parity, and analytic fallbacks. The current renderer remains a gradient/haze baseline; volumetric atmosphere is not claimed.
+
+
+## Batch 2,513 — NEXORA voxel memory workload benchmark (2026-10-30)
+
+Added an original benchmark-contract workflow for NEXORA issue #48. It defines a precise memory inclusion boundary and separates voxel payload, section/palette overhead, process RSS, auxiliary data, CPU/GPU derived data, transient buffers, and save size. It requires uniform, natural, high-diversity, heavily edited, adversarial, streaming, derived-data, and persistence workloads with pinned seeds, correctness digests, repeated median/p95 measurements, and a controlled reference representation. The historical nine-chunk baseline is preserved as a narrow baseline; no 50-million-voxel or sub-1-GiB result is claimed.
 
 
 ## Batch 2,513 — NEXORA voxel memory workload benchmark (2026-10-30)
