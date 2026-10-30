@@ -1,13 +1,13 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,500 distinct skills (2,339 authored + 161 retained/imported)
-**Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 0
-**Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,185-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
-**Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
+**Current draft inventory:** 2,500 distinct skills (2,500 authored + 0 retained/imported)
+**Long-term planning target:** 5,000 distinct skills
+**Remaining to long-term target:** 2,500
+**Current milestone:** 2,500 original skills: 2,339 previously authored skills plus 161 new programming-language workflows covering all 31 public profile languages (five per language plus six polyglot workflows). All 161 retained/imported skill files were removed; the catalog and aggregate bundle contain zero retained/imported skills. Strict Claude Code validation and clean installation/discovery remain required.
+**Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
-The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
+The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
 
 ## Milestone sequence
 
@@ -323,3 +323,10 @@ Added 10 workflows for world-load admission, single-owner world sessions, save q
 Completed the declared catalog target with 14 final workflows covering engine readiness, alpha tester build checks, critical-path smoke tests, world-data-loss release blockers, resource-budget gates, mod compatibility gates, privacy and licensing checks, feature-flag retirement, clean-room build verification, known limitations, release evidence bundling, roadmap completion evidence, and 2,500-skill milestone acceptance.
 
 **Important:** This milestone confirms the catalog count only after structural validation. It does not mean every NEXORA runtime feature is implemented, nor does it resolve the separate imported-license review or real Claude Code installation/discovery smoke test.
+| 2339 | 2339 | Historical cleanup checkpoint: 161 retained/imported entries removed; 2,339 authored skills remained |
+
+
+
+## Reconstituted 2,500-skill milestone — programming-language coverage (2026-10-30)
+
+Added 161 original skills: five workflows for each of the 31 languages detected in the public profile, plus six polyglot workflows for API contracts, serialization compatibility, FFI safety, cross-runtime fixtures, language migration, and reproducible builds. The 161 removed retained/imported entries were not restored. The current catalog is 2,500 authored skills with zero retained/imported entries. The next planning target is 5,000; do not count bundle copies or aliases as additional skills.

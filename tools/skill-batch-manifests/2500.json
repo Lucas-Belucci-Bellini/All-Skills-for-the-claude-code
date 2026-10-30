@@ -1,81 +1,816 @@
 {
   "schema_version": 1,
-  "batch_size": 14,
+  "batch_size": 161,
   "milestone_total": 2500,
-  "long_term_target": 2500,
-  "authored_count": 2339,
-  "retained_count": 161,
-  "plugin_version": "2.1.21",
+  "long_term_target": 5000,
+  "authored_count": 2500,
+  "retained_count": 0,
+  "plugin_version": "2.1.23",
   "skills": [
     {
-      "name": "nexora-engine-readiness-review",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-engine-readiness-review/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "typescript-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/typescript-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-alpha-tester-build-checklist",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-alpha-tester-build-checklist/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "typescript-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/typescript-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-critical-path-smoke-gate",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-critical-path-smoke-gate/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "typescript-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/typescript-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-world-data-loss-release-blocker",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-world-data-loss-release-blocker/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "typescript-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/typescript-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-resource-budget-release-blocker",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-resource-budget-release-blocker/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "typescript-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/typescript-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-mod-compatibility-release-blocker",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-mod-compatibility-release-blocker/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "javascript-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/javascript-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-observability-privacy-release-gate",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-observability-privacy-release-gate/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "javascript-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/javascript-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-feature-flag-retirement-report",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-feature-flag-retirement-report/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "javascript-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/javascript-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-dependency-license-release-gate",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-dependency-license-release-gate/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "javascript-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/javascript-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-clean-room-build-verification",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-clean-room-build-verification/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "javascript-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/javascript-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-engine-known-limitations-register",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-engine-known-limitations-register/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "html-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/html-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-release-evidence-bundle",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-release-evidence-bundle/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "html-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/html-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-roadmap-completion-evidence",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-roadmap-completion-evidence/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "html-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/html-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
     },
     {
-      "name": "nexora-2500-skill-milestone-acceptance",
-      "source_path": "curated-skill-sources/nexora-final-acceptance/nexora-2500-skill-milestone-acceptance/SKILL.md",
-      "category": "Curated: nexora-final-acceptance"
+      "name": "html-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/html-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "html-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/html-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "rust-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/rust-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "rust-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/rust-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "rust-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/rust-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "rust-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/rust-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "rust-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/rust-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "csharp-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/csharp-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "csharp-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/csharp-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "csharp-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/csharp-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "csharp-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/csharp-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "csharp-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/csharp-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "glsl-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/glsl-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "glsl-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/glsl-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "glsl-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/glsl-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "glsl-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/glsl-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "glsl-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/glsl-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "python-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/python-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "python-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/python-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "python-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/python-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "python-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/python-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "python-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/python-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "java-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/java-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "java-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/java-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "java-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/java-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "java-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/java-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "java-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/java-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "css-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/css-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "css-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/css-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "css-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/css-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "css-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/css-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "css-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/css-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "scss-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/scss-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "scss-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/scss-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "scss-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/scss-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "scss-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/scss-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "scss-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/scss-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "shell-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/shell-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "shell-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/shell-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "shell-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/shell-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "shell-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/shell-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "shell-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/shell-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "plpgsql-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/plpgsql-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "plpgsql-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/plpgsql-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "plpgsql-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/plpgsql-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "plpgsql-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/plpgsql-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "plpgsql-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/plpgsql-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "cpp-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/cpp-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "cpp-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/cpp-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "cpp-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/cpp-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "cpp-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/cpp-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "cpp-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/cpp-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "gdscript-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/gdscript-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "gdscript-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/gdscript-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "gdscript-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/gdscript-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "gdscript-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/gdscript-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "gdscript-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/gdscript-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "swift-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/swift-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "swift-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/swift-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "swift-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/swift-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "swift-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/swift-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "swift-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/swift-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "sqf-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/sqf-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "sqf-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/sqf-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "sqf-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/sqf-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "sqf-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/sqf-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "sqf-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/sqf-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "powershell-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/powershell-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "powershell-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/powershell-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "powershell-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/powershell-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "powershell-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/powershell-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "powershell-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/powershell-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "c-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/c-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "c-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/c-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "c-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/c-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "c-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/c-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "c-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/c-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "wolfram-language-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/wolfram-language-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "wolfram-language-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/wolfram-language-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "wolfram-language-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/wolfram-language-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "wolfram-language-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/wolfram-language-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "wolfram-language-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/wolfram-language-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "portugol-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/portugol-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "portugol-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/portugol-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "portugol-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/portugol-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "portugol-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/portugol-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "portugol-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/portugol-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "assembly-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/assembly-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "assembly-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/assembly-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "assembly-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/assembly-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "assembly-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/assembly-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "assembly-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/assembly-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "go-template-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/go-template-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "go-template-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/go-template-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "go-template-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/go-template-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "go-template-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/go-template-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "go-template-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/go-template-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "batch-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/batch-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "batch-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/batch-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "batch-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/batch-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "batch-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/batch-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "batch-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/batch-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "objective-c-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/objective-c-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "objective-c-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/objective-c-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "objective-c-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/objective-c-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "objective-c-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/objective-c-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "objective-c-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/objective-c-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "cmake-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/cmake-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "cmake-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/cmake-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "cmake-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/cmake-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "cmake-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/cmake-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "cmake-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/cmake-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "shaderlab-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/shaderlab-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "shaderlab-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/shaderlab-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "shaderlab-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/shaderlab-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "shaderlab-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/shaderlab-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "shaderlab-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/shaderlab-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "makefile-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/makefile-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "makefile-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/makefile-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "makefile-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/makefile-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "makefile-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/makefile-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "makefile-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/makefile-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "linker-script-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/linker-script-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "linker-script-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/linker-script-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "linker-script-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/linker-script-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "linker-script-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/linker-script-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "linker-script-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/linker-script-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "solidity-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/solidity-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "solidity-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/solidity-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "solidity-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/solidity-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "solidity-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/solidity-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "solidity-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/solidity-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "dockerfile-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/dockerfile-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "dockerfile-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/dockerfile-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "dockerfile-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/dockerfile-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "dockerfile-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/dockerfile-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "dockerfile-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/dockerfile-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "nsis-project-toolchain-contract",
+      "source_path": "curated-skill-sources/programming-language-engineering/nsis-project-toolchain-contract/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "nsis-idiomatic-data-control-flow",
+      "source_path": "curated-skill-sources/programming-language-engineering/nsis-idiomatic-data-control-flow/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "nsis-testing-debugging-diagnostics",
+      "source_path": "curated-skill-sources/programming-language-engineering/nsis-testing-debugging-diagnostics/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "nsis-performance-resource-budget",
+      "source_path": "curated-skill-sources/programming-language-engineering/nsis-performance-resource-budget/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "nsis-secure-boundary-interoperability",
+      "source_path": "curated-skill-sources/programming-language-engineering/nsis-secure-boundary-interoperability/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "polyglot-cross-language-api-contract-validation",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-cross-language-api-contract-validation/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "polyglot-data-schema-serialization-compatibility",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-data-schema-serialization-compatibility/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "polyglot-ffi-and-native-boundary-safety",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-ffi-and-native-boundary-safety/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "polyglot-multi-runtime-test-fixture-reconciliation",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-multi-runtime-test-fixture-reconciliation/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "polyglot-incremental-language-migration-plan",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-incremental-language-migration-plan/SKILL.md",
+      "category": "Programming language engineering"
+    },
+    {
+      "name": "polyglot-build-and-release-reproducibility",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-build-and-release-reproducibility/SKILL.md",
+      "category": "Programming language engineering"
     }
   ]
 }

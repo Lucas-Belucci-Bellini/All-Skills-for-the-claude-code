@@ -1,7 +1,7 @@
 {
   "name": "all-skills-collection",
-  "version": "2.1.21",
-  "description": "A generated, unified collection of 2500 distinct skills with skill-local supporting files.",
+  "version": "2.1.23",
+  "description": "A generated collection of 2500 distinct original skills covering all 31 profile languages and specialist engineering workflows.",
   "author": {
     "name": "Lucas-Belucci-Bellini"
   },
@@ -61,6 +61,24 @@
     "multiplayer-determinism",
     "geospatial-data-quality",
     "public-data-provenance",
-    "otel-observability"
+    "otel-observability",
+    "programming-languages",
+    "language-engineering",
+    "polyglot",
+    "typescript",
+    "javascript",
+    "rust",
+    "python",
+    "java",
+    "csharp",
+    "cpp",
+    "swift",
+    "solidity",
+    "glsl",
+    "gdscript",
+    "portugol",
+    "assembly",
+    "cmake",
+    "dockerfile"
   ]
 }

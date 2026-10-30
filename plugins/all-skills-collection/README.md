@@ -1,6 +1,6 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **2500 distinct skills**, with authored workflows across simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, provenance/privacy, telemetry observability, engine/runtime engineering, Rust/platform systems, release quality, databases, agent reliability, accessibility and technical documentation. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
+A generated plugin containing **2500 distinct skills**, with authored workflows across simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, provenance/privacy, telemetry observability, engine/runtime engineering, Rust/platform systems, release quality, databases, agent reliability, accessibility, technical documentation, and original workflows for all 31 languages in the public profile. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
@@ -10,7 +10,7 @@ In Claude Code, add this repository as a marketplace and install all-skills-coll
 
 - Full inventory: SKILL_LIBRARY_CATALOG.md
 - Machine-readable inventory: SKILL_LIBRARY_CATALOG.json
-- Long-term roadmap to 2,500 distinct skills (500 is the 2026 intermediate milestone): SKILL_GROWTH_ROADMAP.md
+- Long-term roadmap to 5,000 distinct skills (the 2,500 original-skill milestone is complete; 500 was the 2026 intermediate milestone): SKILL_GROWTH_ROADMAP.md
 - Canonical authored sources: curated-skill-sources/README.md
 
 ## Refresh after new skills
@@ -24,4 +24,4 @@ The sync script removes identical skill subtrees from the output, namespaces rea
 
 ## Limits and provenance
 
-This bundle includes skill entrypoints and skill-local files. It does not automatically include every upstream plugin's agents, slash commands, hooks, MCP server implementation or runtime dependencies. Keep the repository private until third-party provenance and redistribution terms have been reviewed.
+This bundle includes skill entrypoints and skill-local files. It does not automatically include every upstream plugin's agents, slash commands, hooks, MCP server implementation or runtime dependencies. The aggregate skill bundle contains only newly authored skill sources. Separately packaged plugins still retain their own license and provenance requirements.
