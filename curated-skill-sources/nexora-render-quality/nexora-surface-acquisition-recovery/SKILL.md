@@ -105,7 +105,7 @@ Do not claim these behaviors are already improved or fully tested. The current c
 
 Produce a surface recovery design/report containing: pinned commit; call-path map; observed backend result variants; surface-vs-device failure classification; retry ownership and attempt bounds; host scheduling/backoff policy; minimized/restore behavior; resize/configuration transaction; client/resource preservation rules; diagnostics and counters; deterministic fault-injection plan; platform smoke-test matrix; ADR/API changes; executed and unexecuted validation evidence; and unresolved risks.
 
-## Boundaries
+## Boundaries and failure handling
 
 - Do not add generic GPU device recreation here; use the device-loss workflow.
 - Do not duplicate off-screen render-target resize logic; use the resize transaction workflow.
