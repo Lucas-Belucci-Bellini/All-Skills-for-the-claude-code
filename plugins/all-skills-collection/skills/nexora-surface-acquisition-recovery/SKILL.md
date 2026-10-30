@@ -50,7 +50,7 @@ Do not claim these behaviors are already improved or fully tested. The current c
 - Reproducible failure scenario and evidence: logs, error variants, GPU/backend, window state, resize sequence, and whether the device remains valid.
 - Acceptance criteria for frame continuity, bounded retry, recovery latency, and safe shutdown.
 
-## Recovery workflow
+## Workflow
 
 1. **Pin and trace the complete call path.** Record the commit and trace window creation → surface creation/configuration → frame render → surface acquisition → blit/present → host frame result. Identify the exact layer that observes each error and the layer that decides what happens next.
 2. **Separate failure domains.** Classify the event as surface-only, window lifecycle, device/adapter loss, shader/pipeline validation, or unknown. A `SurfaceError` must not be promoted to device loss without independent device evidence.
