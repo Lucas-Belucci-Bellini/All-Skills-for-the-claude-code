@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,515 distinct skills (2,515 authored + 0 retained/imported)
+**Current draft inventory:** 2,516 distinct skills (2,516 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,485
-**Current milestone:** 2,515 original skills: the 2,500-skill authored milestone plus fifteen NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, RHI conformance evidence, Cutout layer integration, PBR material render bridge, lighting render extraction contract, shadow caster extraction contract, atmosphere/fog composition contract, voxel memory workload benchmark, environmental VFX event bridge, and voxel palette transition invariants). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41110416249; NEXORA runtime feature validation remains separate.
+**Remaining to long-term target:** 2,484
+**Current milestone:** 2,516 authored skills: the 2,500-skill milestone plus sixteen NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, world generation, memory, data contracts, rendering, VFX, and native UI. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -409,3 +409,8 @@ Added an original benchmark-contract workflow for NEXORA issue #48. It defines a
 ## Batch 2,513 — NEXORA voxel memory workload benchmark (2026-10-30)
 
 Added an original benchmark-contract workflow for NEXORA issue #48. It defines a precise memory inclusion boundary and separates voxel payload, section/palette overhead, process RSS, auxiliary data, CPU/GPU derived data, transient buffers, and save size. It requires uniform, natural, high-diversity, heavily edited, adversarial, streaming, derived-data, and persistence workloads with pinned seeds, correctness digests, repeated median/p95 measurements, and a controlled reference representation. The historical nine-chunk baseline is preserved as a narrow baseline; no 50-million-voxel or sub-1-GiB result is claimed.
+
+
+## Batch 2,516 — NEXORA chunk change-feed gap recovery (2026-10-30)
+
+Added a dedicated consumer contract for the bounded per-chunk change journal. It distinguishes complete deltas from truncated feeds, treats empty-but-incomplete feeds as a recovery signal, requires authoritative snapshot resynchronization for state consumers, and defines retry, chunk identity, ordering, dirty-state separation, and downstream queue limits. The inspected snapshot has no history/replication consumer call sites beyond tests; no runtime consumer implementation is claimed.
