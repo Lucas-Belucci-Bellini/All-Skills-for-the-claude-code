@@ -45,6 +45,7 @@ on:
       - feat/nexora-texture-forge-build-plan-integrity-2519-2026-10-30
       - feat/nexora-edit-remesh-snapshot-refresh-2520-main-2026-10-30
       - feat/nexora-client-retained-column-spill-lifecycle-2521-2026-10-30
+      - feat/nexora-atlas-correctness-batch-2530-2026-10-30
       - feat/nexora-engine-workflows-batch-2525-2026-10-30
       - feat/nexora-tracked-local-artifact-exposure-response-2522-2026-10-30
   pull_request:
@@ -234,6 +235,10 @@ jobs:
       - name: Validate NEXORA 2,526-skill batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-engine-workflows-batch-2525-2026-10-30' || github.head_ref == 'feat/nexora-engine-workflows-batch-2525-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2526.json
+
+      - name: Validate NEXORA 2,530-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-atlas-correctness-batch-2530-2026-10-30' || github.head_ref == 'feat/nexora-atlas-correctness-batch-2530-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2530.json
 
       - name: Validate agent orchestration plugin
         run: node tools/validate-agent-plugin.mjs

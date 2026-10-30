@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,526 distinct skills (2,526 authored + 0 retained/imported)
+**Current draft inventory:** 2,530 distinct skills (2,530 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,474
-**Current milestone:** 2,526 authored skills: the 2,500-skill milestone plus twenty-six NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge content integrity, world generation, memory, data contracts, rendering, VFX, native UI and upload scheduling. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,470
+**Current milestone:** 2,530 authored skills: the 2,500-skill milestone plus thirty NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory, rendering, atlas correctness, VFX, native UI and upload scheduling. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -83,6 +83,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2521 | 2521 | Adds the NEXORA client retained-column spill lifecycle: isolated spill ownership, bounded asynchronous I/O, region merge safety, movement restore, and complete single-container saves |
 | 2522 | 2522 | Adds metadata-first NEXORA response for tracked machine-local artifacts: safe provenance triage, owner-approved backup/removal, coordinated history decisions, and path-only CI prevention |
 | 2526 | 2526 | Adds four distinct NEXORA workflows for bounded voxel mesh uploads, deterministic world-generation admission, native UI scaling, and keyboard/controller focus navigation; runtime implementation and testing remain separate |
+| 2530 | 2530 | Adds four NEXORA atlas correctness workflows for footprint-based mip selection, per-face texel orientation, deterministic face variants, and CPU/WGSL reference parity; runtime changes are not claimed |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -457,3 +458,8 @@ Adds a metadata-first security workflow for already-tracked machine-local databa
 ## Batch 2,526 — NEXORA native UI and world pipeline workflows (2026-10-30)
 
 Added four original workflows covering bounded voxel mesh uploads, deterministic world-generation work admission, resolution-independent native UI layout, and keyboard/controller focus navigation. A proposed GPU resource-retirement skill was excluded after semantic review because an existing NEXORA skill already covers GPU resource retirement and deferred deletion. These new workflows do not claim that corresponding engine systems or runtime tests have already been completed.
+
+
+## Batch 2,530 — NEXORA atlas correctness workflows (2026-10-30)
+
+Added four source-grounded workflows for the current voxel atlas implementation: footprint-based mip selection with per-tile isolation, face-to-texel orientation and mirror behavior, deterministic per-face variants, and CPU/shader shading-reference parity. The workflows document how to validate the existing contract and do not claim new runtime features or tests were executed.

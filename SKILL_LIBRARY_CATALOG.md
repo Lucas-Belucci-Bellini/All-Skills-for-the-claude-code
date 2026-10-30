@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-30. The unified bundle contains 2526 distinct skills.
+Updated: 2026-10-30. The unified bundle contains 2530 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2526**
-- Current total: **2526**
+- Original curated skills: **2530**
+- Current total: **2530**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,474**
+- Remaining to long-term target: **2,470**
 
 ## Categories
 
@@ -306,10 +306,13 @@ Updated: 2026-10-30. The unified bundle contains 2526 distinct skills.
 - nexora-shared-cache-concurrent-invalidation — NEW
 - nexora-shutdown-concurrent-request-idempotency — NEW
 
-### Curated: nexora-content-pipeline (11)
+### Curated: nexora-content-pipeline (14)
 
 - nexora-asset-budget-admission — NEW
 - nexora-asset-import-dependency-graph — NEW
+- nexora-atlas-face-texel-orientation-contract — NEW
+- nexora-atlas-face-variant-determinism — NEW
+- nexora-atlas-mip-footprint-selection — NEW
 - nexora-content-provenance-manifest — NEW
 - nexora-content-registry-atomic-publication — NEW
 - nexora-hot-reload-generation-swap — NEW
@@ -461,10 +464,11 @@ Updated: 2026-10-30. The unified bundle contains 2526 distinct skills.
 - nexora-untrusted-asset-parser-hardening — NEW
 - nexora-world-save-checksum-contract — NEW
 
-### Curated: nexora-render-quality (18)
+### Curated: nexora-render-quality (19)
 
 - nexora-animation-lod-transition — NEW
 - nexora-animation-pose-cache-invalidation — NEW
+- nexora-atlas-cpu-shader-reference-parity — NEW
 - nexora-atmosphere-fog-composition-contract — NEW
 - nexora-audio-device-loss-recovery — NEW
 - nexora-audio-spatialization-contract — NEW
