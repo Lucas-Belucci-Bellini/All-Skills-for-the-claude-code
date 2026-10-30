@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,516 distinct skills (2,516 authored + 0 retained/imported)
+**Current draft inventory:** 2,517 distinct skills (2,517 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,484
-**Current milestone:** 2,516 authored skills: the 2,500-skill milestone plus sixteen NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, world generation, memory, data contracts, rendering, VFX, and native UI. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,483
+**Current milestone:** 2,516 authored skills: the 2,500-skill milestone plus seventeen NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, world generation, memory, data contracts, rendering, VFX, and native UI. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -76,6 +76,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2514 | 2514 | Adds the NEXORA environmental VFX event bridge, connecting authoritative semantic events to bounded cosmetic emitters, headless-safe CPU/GPU paths, and measured render budgets |
 | 2515 | 2515 | Adds NEXORA voxel palette transition invariants for Uniform/Paletted/Direct storage, 1–12-bit packing boundaries, promotion, compaction, and persistence correctness |
 | 2516 | 2516 | Adds NEXORA chunk change-feed gap recovery for bounded journals, dropped-history signaling, retry-safe drains, snapshot resynchronization, and consumer lifecycle correctness |
+| 2517 | 2517 | Adds NEXORA Texture Forge build-plan integrity for full preflight, deterministic seeds, exact art-set coverage, SHA-256/PNG validation, and safe resource-index publication |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -415,3 +416,8 @@ Added an original benchmark-contract workflow for NEXORA issue #48. It defines a
 ## Batch 2,516 — NEXORA chunk change-feed gap recovery (2026-10-30)
 
 Added a dedicated consumer contract for the bounded per-chunk change journal. It distinguishes complete deltas from truncated feeds, treats empty-but-incomplete feeds as a recovery signal, requires authoritative snapshot resynchronization for state consumers, and defines retry, chunk identity, ordering, dirty-state separation, and downstream queue limits. The inspected snapshot has no history/replication consumer call sites beyond tests; no runtime consumer implementation is claimed.
+
+
+## Batch 2,517 — NEXORA Texture Forge build-plan integrity (2026-10-30)
+
+Added a focused workflow for checked-in Texture Forge build plans and optional external albedo art sets. It distinguishes plans from inline batch manifests, requires full plan/recipe preflight before writes, verifies exact art-set coverage and source hashes, enforces path/resolution/alpha constraints, preserves generator provenance, and prevents resource-index publication after per-entry failure. It explicitly distinguishes preflight from a filesystem transaction and does not claim NEXORA tests were executed.
