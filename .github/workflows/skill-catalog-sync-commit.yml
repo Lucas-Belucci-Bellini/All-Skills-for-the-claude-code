@@ -1,5 +1,9 @@
 name: Skill catalog sync commit
 
+concurrency:
+  group: skill-catalog-sync-${{ github.ref }}
+  cancel-in-progress: false
+
 on:
   push:
     branches:
