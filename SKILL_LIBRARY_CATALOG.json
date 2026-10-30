@@ -2149,6 +2149,12 @@
       "source_path": "curated-skill-sources/nexora-performance-memory/nexora-voxel-memory-workload-benchmark/SKILL.md"
     },
     {
+      "name": "nexora-voxel-palette-transition-invariants",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-voxel-palette-transition-invariants/SKILL.md"
+    },
+    {
       "name": "nexora-worker-pool-saturation",
       "category": "Curated: nexora-performance-memory",
       "origin": "new-authored",
@@ -15089,12 +15095,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-voxel-palette-transition-invariants",
-      "category": "Curated: nexora-performance-memory",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-voxel-palette-transition-invariants/SKILL.md"
     }
   ]
 }
