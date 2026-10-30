@@ -22,6 +22,19 @@ Pair this workflow with existing skills where applicable; do not copy their scop
 
 This skill owns the design handoff and end-to-end integration workflow. It does not replace general UI accessibility, input mapping, editor docking, or renderer engineering.
 
+## Verified NEXORA snapshot facts
+
+The inspected main snapshot pins `rust-toolchain.toml` to Rust **1.94.1**. The workspace package metadata declares Rust 1.85 as its general floor, but the client/window/RHI-wgpu path requires Rust **1.87**; `nexora-rhi-wgpu` pins `wgpu = 30.0.1`, and `nexora-window` pins `winit = 0.30.13`. Use the pinned toolchain rather than the lower workspace floor when validating the native client path.
+
+Verified package names include `nexora-client`, `nexora-window`, `nexora-render`, `nexora-rhi`, and `nexora-rhi-wgpu`. Useful focused commands to consider after inspecting each crate's test harness are:
+
+- `cargo check -p nexora-client`
+- `cargo test -p nexora-render`
+- `cargo test -p nexora-rhi`
+- `cargo test -p nexora-rhi-wgpu`
+
+Do not blindly run window/client integration tests in a headless CI worker: inspect whether the test harness opens a real display or GPU, use the repository's documented headless/display opt-out where supported, and report skipped runtime coverage separately. These are source-verified package/command references, not evidence that the commands were executed for this skill.
+
 ## Required inputs
 
 - Pinned NEXORA commit and clean checkout state.
