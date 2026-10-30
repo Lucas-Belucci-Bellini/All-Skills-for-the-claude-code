@@ -6,6 +6,7 @@ on:
       - feat/all-skills-consolidated-2026
       - feat/nexora-climate-lattice-reuse-2026-10-30
       - feat/nexora-biome-climate-weight-blending-2026-10-30
+      - feat/nexora-surface-acquisition-recovery-2026-10-30
 
 permissions:
   contents: write
@@ -48,6 +49,10 @@ jobs:
       - name: Validate NEXORA 2,505-skill batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-biome-climate-weight-blending-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2505.json
+
+      - name: Validate NEXORA 2,507-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-surface-acquisition-recovery-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2507.json
 
       - name: Commit generated synchronization outputs
         shell: bash

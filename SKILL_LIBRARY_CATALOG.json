@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2505,
+  "unique_skills": 2507,
   "target": 5000,
-  "remaining": 2495,
+  "remaining": 2493,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -2381,6 +2381,18 @@
       "category": "Curated: nexora-render-quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-target-resize-transaction/SKILL.md"
+    },
+    {
+      "name": "nexora-rhi-conformance-evidence",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-rhi-conformance-evidence/SKILL.md"
+    },
+    {
+      "name": "nexora-surface-acquisition-recovery",
+      "category": "Curated: nexora-render-quality",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-surface-acquisition-recovery/SKILL.md"
     },
     {
       "name": "nexora-temporal-history-invalidation",
