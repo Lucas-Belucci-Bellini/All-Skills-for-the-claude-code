@@ -1,9 +1,9 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,537 distinct skills (2,537 authored + 0 retained/imported)
+**Current draft inventory:** 2,538 distinct skills (2,538 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,463
+**Remaining to long-term target:** 2,462
 **Current milestone:** 2,537 authored skills: the 2,500-skill milestone plus thirty-six NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory ledger reporting, GPU frame timing evidence, rendering, atlas correctness, texture manifests, recipe periodicity, reproducible generation, preview/seam review, final surface-blit fidelity, VFX, native UI and upload scheduling. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
@@ -472,4 +472,9 @@ Added four source-grounded workflows for the current voxel atlas implementation:
 
 Added four source-grounded workflows for Texture Forge manifest inheritance and identifier validation, periodic recipe structure for seamless tiling, procedural generate/variant/repair seed identity, and lit 2×2 preview plus numeric seam review. The workflows distinguish manifest parsing from build-plan policy, require provenance-aware reproduction, and pair visual inspection with underlying-map validation. They do not claim NEXORA runtime tests or new engine functionality were executed.
 
-| 2537 | 2537 | Adds a NEXORA GPU frame timing evidence workflow for optional RHI timestamp capability, asynchronous frame-correlated queries, and separating GPU execution from CPU work and presentation wait; runtime changes are not claimed |
+| 2537 | 2537 | Adds a NEXORA GPU frame timing evidence workflow for optional RHI timestamp capability, asynchronous frame-correlated queries, and separating GPU execution from CPU work and presentation wait; runtime changes are not claimed |\n| 2538 | 2538 | Adds a NEXORA Job System long-run health workflow for worker survival, cancellation, result retention/eviction, forgotten outcomes, queue pressure, starvation, memory attribution and shutdown; soak tests are not claimed |
+
+
+## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
+
+Added a source-grounded workflow for sustained and bursty validation of the NEXORA bounded worker pool: worker survival after panic, cooperative cancellation, queue-versus-worker capacity, retained-result eviction and `Forgotten` outcome honesty, priority starvation, memory attribution, barriers and shutdown. It explicitly notes that the inspected pending `BinaryHeap` has no visible capacity bound, so a fixed worker count must not be mistaken for bounded admission. The workflow defines reproducible long-run reports and does not claim the soak tests have been executed.
