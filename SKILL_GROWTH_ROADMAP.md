@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,536 distinct skills (2,536 authored + 0 retained/imported)
+**Current draft inventory:** 2,537 distinct skills (2,537 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,464
-**Current milestone:** 2,536 authored skills: the 2,500-skill milestone plus thirty-six NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory ledger reporting, rendering, atlas correctness, texture manifests, recipe periodicity, reproducible generation, preview/seam review, final surface-blit fidelity, VFX, native UI and upload scheduling. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,463
+**Current milestone:** 2,537 authored skills: the 2,500-skill milestone plus thirty-six NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory ledger reporting, GPU frame timing evidence, rendering, atlas correctness, texture manifests, recipe periodicity, reproducible generation, preview/seam review, final surface-blit fidelity, VFX, native UI and upload scheduling. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -471,3 +471,5 @@ Added four source-grounded workflows for the current voxel atlas implementation:
 ## Batch 2,534 — NEXORA Texture Forge authoring and review workflows (2026-10-30)
 
 Added four source-grounded workflows for Texture Forge manifest inheritance and identifier validation, periodic recipe structure for seamless tiling, procedural generate/variant/repair seed identity, and lit 2×2 preview plus numeric seam review. The workflows distinguish manifest parsing from build-plan policy, require provenance-aware reproduction, and pair visual inspection with underlying-map validation. They do not claim NEXORA runtime tests or new engine functionality were executed.
+
+| 2537 | 2537 | Adds a NEXORA GPU frame timing evidence workflow for optional RHI timestamp capability, asynchronous frame-correlated queries, and separating GPU execution from CPU work and presentation wait; runtime changes are not claimed |
