@@ -65,6 +65,8 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2503 | 2503 | Adds one NEXORA climate-lattice sample reuse workflow grounded in `engine/world/src/terrain.rs` and ADR-0049; optimization is proposed only, benchmark/runtime validation remains pending |
 | 2504 | 2504 | Adds a NEXORA biome climate-weight blending workflow grounded in `docs/plans/BIOME ENGINE.md` and generator-v3 climate fields; runtime implementation/validation remains pending |
 | 2505 | 2505 | Adds a NEXORA native UI design-to-code workflow grounded in the client/window/input/render/RHI architecture; no dedicated UI crate exists in the inspected snapshot, so implementation remains a staged design decision |
+| 2506 | 2506 | Adds NEXORA surface acquisition/recovery workflow for bounded Lost/Outdated/Timeout/Occluded handling, host scheduling, minimize/restore and surface-vs-device failure separation |
+| 2507 | 2507 | Adds NEXORA RHI conformance evidence workflow for the active 11-case suite, NullRhi/wgpu parity, CI software adapters and commit-scoped local hardware reports |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
