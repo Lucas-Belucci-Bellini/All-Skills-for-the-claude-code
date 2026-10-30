@@ -57,6 +57,12 @@ These are pinned-snapshot observations. Recheck the current client lifecycle, sa
 
 ## Workflow
 
+1. Inspect the client/headless residency paths and pin the exact source revision.
+2. Decide whether spill is process-scoped scratch or a durable sidecar protocol.
+3. Attach region-backed retention without blocking the streaming eviction callback.
+4. Bound and instrument writes, restores, backpressure, and save-time rehydration.
+5. Validate movement, failure, shutdown, reload, and frame-time behavior.
+
 ### 1. Preserve the current authority boundary
 
 - Streaming decides which columns are resident; `ClientResidency` remains the client adapter and must not become a second chunk generator.
