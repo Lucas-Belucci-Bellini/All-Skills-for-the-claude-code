@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,505 distinct skills (2,505 authored + 0 retained/imported)
+**Current draft inventory:** 2,507 distinct skills (2,507 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,495
-**Current milestone:** 2,505 original skills: the 2,500-skill authored milestone plus five NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, and native UI design-to-code). The catalog and aggregate bundle contain zero retained/imported skills. Strict Claude Code validation and clean installation/discovery remain required.
+**Remaining to long-term target:** 2,493
+**Current milestone:** 2,505 original skills: the 2,500-skill authored milestone plus seven NEXORA-specific engineering workflows (greedy meshing, streaming handle/pin lifecycle, climate lattice sample reuse, biome climate weight blending, native UI design-to-code, surface acquisition recovery, and RHI conformance evidence). The catalog and aggregate bundle contain zero retained/imported skills. Claude Code strict validation and clean marketplace installation passed in run 41104430907; NEXORA runtime feature validation remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -327,7 +327,7 @@ Added 10 workflows for world-load admission, single-owner world sessions, save q
 
 Completed the declared catalog target with 14 final workflows covering engine readiness, alpha tester build checks, critical-path smoke tests, world-data-loss release blockers, resource-budget gates, mod compatibility gates, privacy and licensing checks, feature-flag retirement, clean-room build verification, known limitations, release evidence bundling, roadmap completion evidence, and 2,500-skill milestone acceptance.
 
-**Important:** This milestone confirms the catalog count only after structural validation. It does not mean every NEXORA runtime feature is implemented, nor does it resolve the separate imported-license review or real Claude Code installation/discovery smoke test.
+**Important:** This milestone confirms the catalog count only after structural validation. It does not mean every NEXORA runtime feature is implemented. Claude Code strict validation and isolated marketplace installation were subsequently verified by run 41104430907; runtime engine validation remains a separate gate.
 | 2339 | 2339 | Historical cleanup checkpoint: 161 retained/imported entries removed; 2,339 authored skills remained |
 
 
