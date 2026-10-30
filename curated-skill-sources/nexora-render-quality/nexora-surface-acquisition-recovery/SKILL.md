@@ -73,6 +73,17 @@ Do not claim these behaviors are already improved or fully tested. The current c
 19. **Document compatibility and decisions.** If behavior changes from the current error/Flow contract, write or update an ADR and public API docs. Record whether the change is backend-specific or part of a future multi-backend contract.
 20. **Report evidence honestly.** Separate unit tests, headless tests, real-window/GPU smoke tests, manual platform checks, and unexecuted cases. Never infer that a real surface recovery works merely because a fake state-machine test passes.
 
+## Validation checklist
+
+- [ ] Surface errors are classified separately from GPU device loss.
+- [ ] Immediate retries and delayed host retries have explicit finite bounds.
+- [ ] Timeout and occlusion cannot create a busy redraw loop.
+- [ ] Minimize/zero-size suspends acquisition and valid restore resumes safely.
+- [ ] Repeated Lost/Outdated and configuration failure have explicit terminal/recreation policies.
+- [ ] Surface-only recovery preserves client/world state and retires only affected resources.
+- [ ] Resize, Suboptimal, shutdown-while-waiting and fault-injection cases are tested or marked unexecuted.
+- [ ] Presentation counters distinguish shown, skipped, retried and failed frames.
+
 ## Validation matrix
 
 | Scenario | Required invariant |
