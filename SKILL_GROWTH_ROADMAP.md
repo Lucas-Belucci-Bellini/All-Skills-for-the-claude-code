@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,539 distinct skills (2,539 authored + 0 retained/imported)
+**Current draft inventory:** 2,540 distinct skills (2,540 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,461
-**Current milestone:** 2,537 authored skills: the 2,500-skill milestone plus thirty-six NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory ledger reporting, GPU frame timing evidence, rendering, atlas correctness, texture manifests, recipe periodicity, reproducible generation, preview/seam review, final surface-blit fidelity, VFX, native UI and upload scheduling. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,460
+**Current milestone:** 2,540 authored skills: the 2,500-skill milestone plus thirty-six NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory ledger reporting, GPU frame timing evidence, rendering, atlas correctness, texture manifests, recipe periodicity, reproducible generation, preview/seam review, final surface-blit fidelity, VFX, native UI and upload scheduling. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -483,3 +483,7 @@ Added a source-grounded workflow for sustained and bursty validation of the NEXO
 ## Batch 2,539 — NEXORA Job Queue admission budget (2026-10-30)
 
 Added a source-grounded workflow for explicit pending-queue admission limits, producer backpressure, batch semantics, critical-capacity protection, overload observability and caller migration. The inspected runtime uses an unbounded `BinaryHeap` for pending jobs, returns handles directly from `submit`, and exposes no queue-full result in the inspected API; the skill treats this as an implementation gap rather than claiming a fix.
+
+## Batch 2,540 — NEXORA frame-time regression triage (2026-10-30)
+
+Added a repeatable before/after performance gate for clean baseline and candidate commits. It requires controlled hardware/build/workload identity, separate warm-up and steady-state samples, p50/p95/p99/max distributions, explicit deltas, disclosed exclusions, repeatability checks, approved thresholds, and honest separation of CPU work, presentation wait, unattributed time and measured GPU execution. It complements the existing frame-pacing diagnosis and GPU timestamp workflows rather than duplicating them; no runtime changes or benchmark results are claimed.
