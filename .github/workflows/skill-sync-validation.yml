@@ -34,6 +34,7 @@ on:
       - feat/nexora-surface-acquisition-recovery-2026-10-30
       - feat/nexora-transparent-pass-order-2026-10-30
       - feat/nexora-cutout-layer-integration-2026-10-30
+      - feat/nexora-pbr-material-render-bridge-2026-10-30
   pull_request:
     branches:
       - main
