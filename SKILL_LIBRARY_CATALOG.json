@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-30",
   "unique_skills": 2500,
-  "target": 2500,
-  "remaining": 0,
+  "target": 5000,
+  "remaining": 2500,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -653,168 +653,6 @@
       "category": "AERIS-10 radar and embedded-systems engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/aeris-radar-engineering/radar-waveguide-geometry-parametric-validation/SKILL.md"
-    },
-    {
-      "name": "agent-development",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "build-mcp-app",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "build-mcp-server",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "build-mcpb",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "claude-automation-recommender",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "claude-security",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "command-development",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "critiquing-own-response",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "dispatching-agent-work",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "example-command",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "example-skill",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "extracting-agent-skills",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "extracting-spec-design-ladders",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "gating-by-blind-restoration",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "gating-expensive-batch-work",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "hook-development",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "mcp-integration",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "migrating-agents-md-to-control-flow",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "plugin-settings",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "plugin-structure",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "project-artifact",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "receipts",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "refining-workflows-from-artifacts",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "session-report",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "skill-creator",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "skill-development",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "writing-rules",
-      "category": "Agent workflows, Claude Code & MCP",
-      "origin": "existing",
-      "source_path": null
     },
     {
       "name": "agent-action-prepare-commit-guard",
@@ -3545,24 +3383,6 @@
       "category": "Developer environment & CLI tooling",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/developer-cli-tooling/shell-command-path-quoting-audit/SKILL.md"
-    },
-    {
-      "name": "designing-stable-api-contracts",
-      "category": "Developer tooling, CI & security",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "relational-database-schema-design",
-      "category": "Developer tooling, CI & security",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "safe-database-migrations",
-      "category": "Developer tooling, CI & security",
-      "origin": "existing",
-      "source_path": null
     },
     {
       "name": "api-example-schema-conformance",
@@ -6553,360 +6373,6 @@
       "source_path": "curated-skill-sources/game-content-pipelines/worldgen-distribution-drift-detection/SKILL.md"
     },
     {
-      "name": "adversarially-validating-game-repairs",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "arcadifying-mini-games",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "auditing-game-screen-readability",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "auditing-gameplay-implementation-coverage",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "curating-game-concept-portfolio",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "designing-game-combat-resolution",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "designing-game-progression",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "designing-mini-games",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "designing-minimal-game-rules",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "developing-with-crisp-game-lib",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "evaluating-gameplay-balance",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "exploring-game-design-space",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "gating-intent-legibility",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "generating-retro-arcade-concepts",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "generating-semantic-game-mutants",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "godot-game-dev",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "implementing-game-ai-state-machines",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "implementing-gameplay-invariants",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "localizing-game-state-divergence",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "maximizing-game-feel",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "playground",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "probing-web-game-mechanics",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "refining-game-prototypes",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "running-headless-godot",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "scaffolding-godot-mini-games",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "scoping-playable-prototypes",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "smoke-testing-web-games",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "stress-testing-game-concepts",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "structuring-gameplay-playtests",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "testing-procedural-gameplay-encounters",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "unity-game-dev",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "unreal-game-dev",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "validating-game-core-loops",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "validating-game-economy-loops",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "validating-game-movement-feel",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "validating-game-narrative-localization",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "verifying-turn-based-games",
-      "category": "Game design, engines & gameplay QA",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "application-observability",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "async-concurrency-patterns",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "configuration-and-secret-management",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "continuous-integration-pipeline-design",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "debugging-with-minimal-reproduction",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "dependency-injection-patterns",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "designing-quest-objective-dependencies",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "git-branching-and-change-management",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "implementing-incremental-code-changes",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "modular-software-architecture",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "race-condition-detection",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "refactoring-with-characterization-tests",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "release-versioning-and-changelog",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "reliable-error-handling",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "resolving-merge-conflicts-safely",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "secure-coding-practices",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "solid-design-principles",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "sql-query-performance",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "static-analysis-and-linting",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "systematic-code-review",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "unit-testing-strategy",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "validating-multiplayer-session-lifecycle",
-      "category": "General utilities & productivity",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
       "name": "geoviz-3d-terrain-provider-fallback-validation",
       "category": "Geospatial visualization & map UX",
       "origin": "new-authored",
@@ -7117,18 +6583,6 @@
       "source_path": "curated-skill-sources/geospatial-visualization/geoviz-world-overlay-label-budget/SKILL.md"
     },
     {
-      "name": "cardputer-buddy",
-      "category": "Hardware & embedded devices",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "m5-onboard",
-      "category": "Hardware & embedded devices",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
       "name": "livefeed-api-key-rotation-no-downtime",
       "category": "Live public-data ingestion & reliability",
       "origin": "new-authored",
@@ -7337,60 +6791,6 @@
       "category": "Live public-data ingestion & reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/live-public-data-systems/livefeed-websocket-reconnect-state-machine/SKILL.md"
-    },
-    {
-      "name": "math-olympiad",
-      "category": "Mathematics",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "siege",
-      "category": "Mathematics",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "solo",
-      "category": "Mathematics",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "discord-access",
-      "category": "Messaging integrations",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "discord-configure",
-      "category": "Messaging integrations",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "imessage-access",
-      "category": "Messaging integrations",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "imessage-configure",
-      "category": "Messaging integrations",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "telegram-access",
-      "category": "Messaging integrations",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "telegram-configure",
-      "category": "Messaging integrations",
-      "origin": "existing",
-      "source_path": null
     },
     {
       "name": "atm10-attribute-modifier-stacking-audit",
@@ -10519,6 +9919,972 @@
       "source_path": "curated-skill-sources/playwright-e2e-engineering/playwright-worker-resource-contention/SKILL.md"
     },
     {
+      "name": "assembly-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/assembly-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "assembly-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/assembly-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "assembly-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/assembly-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "assembly-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/assembly-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "assembly-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/assembly-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "batch-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/batch-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "batch-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/batch-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "batch-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/batch-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "batch-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/batch-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "batch-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/batch-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "c-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/c-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "c-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/c-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "c-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/c-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "c-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/c-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "c-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/c-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "cmake-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/cmake-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "cmake-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/cmake-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "cmake-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/cmake-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "cmake-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/cmake-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "cmake-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/cmake-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "cpp-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/cpp-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "cpp-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/cpp-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "cpp-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/cpp-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "cpp-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/cpp-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "cpp-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/cpp-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "csharp-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/csharp-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "csharp-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/csharp-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "csharp-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/csharp-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "csharp-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/csharp-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "csharp-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/csharp-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "css-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/css-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "css-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/css-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "css-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/css-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "css-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/css-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "css-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/css-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "dockerfile-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/dockerfile-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "dockerfile-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/dockerfile-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "dockerfile-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/dockerfile-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "dockerfile-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/dockerfile-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "dockerfile-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/dockerfile-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "gdscript-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/gdscript-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "gdscript-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/gdscript-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "gdscript-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/gdscript-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "gdscript-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/gdscript-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "gdscript-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/gdscript-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "glsl-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/glsl-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "glsl-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/glsl-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "glsl-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/glsl-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "glsl-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/glsl-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "glsl-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/glsl-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "go-template-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/go-template-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "go-template-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/go-template-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "go-template-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/go-template-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "go-template-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/go-template-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "go-template-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/go-template-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "html-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/html-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "html-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/html-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "html-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/html-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "html-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/html-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "html-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/html-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "java-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/java-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "java-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/java-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "java-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/java-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "java-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/java-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "java-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/java-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "javascript-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/javascript-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "javascript-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/javascript-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "javascript-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/javascript-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "javascript-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/javascript-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "javascript-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/javascript-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "linker-script-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/linker-script-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "linker-script-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/linker-script-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "linker-script-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/linker-script-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "linker-script-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/linker-script-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "linker-script-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/linker-script-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "makefile-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/makefile-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "makefile-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/makefile-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "makefile-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/makefile-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "makefile-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/makefile-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "makefile-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/makefile-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "nsis-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/nsis-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "nsis-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/nsis-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "nsis-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/nsis-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "nsis-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/nsis-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "nsis-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/nsis-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "objective-c-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/objective-c-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "objective-c-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/objective-c-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "objective-c-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/objective-c-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "objective-c-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/objective-c-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "objective-c-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/objective-c-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "plpgsql-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/plpgsql-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "plpgsql-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/plpgsql-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "plpgsql-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/plpgsql-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "plpgsql-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/plpgsql-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "plpgsql-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/plpgsql-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "polyglot-build-and-release-reproducibility",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-build-and-release-reproducibility/SKILL.md"
+    },
+    {
+      "name": "polyglot-cross-language-api-contract-validation",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-cross-language-api-contract-validation/SKILL.md"
+    },
+    {
+      "name": "polyglot-data-schema-serialization-compatibility",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-data-schema-serialization-compatibility/SKILL.md"
+    },
+    {
+      "name": "polyglot-ffi-and-native-boundary-safety",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-ffi-and-native-boundary-safety/SKILL.md"
+    },
+    {
+      "name": "polyglot-incremental-language-migration-plan",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-incremental-language-migration-plan/SKILL.md"
+    },
+    {
+      "name": "polyglot-multi-runtime-test-fixture-reconciliation",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/polyglot-multi-runtime-test-fixture-reconciliation/SKILL.md"
+    },
+    {
+      "name": "portugol-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/portugol-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "portugol-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/portugol-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "portugol-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/portugol-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "portugol-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/portugol-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "portugol-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/portugol-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "powershell-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/powershell-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "powershell-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/powershell-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "powershell-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/powershell-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "powershell-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/powershell-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "powershell-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/powershell-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "python-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/python-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "python-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/python-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "python-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/python-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "python-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/python-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "python-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/python-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "rust-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/rust-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "rust-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/rust-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "rust-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/rust-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "rust-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/rust-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "rust-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/rust-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "scss-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/scss-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "scss-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/scss-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "scss-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/scss-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "scss-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/scss-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "scss-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/scss-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "shaderlab-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/shaderlab-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "shaderlab-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/shaderlab-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "shaderlab-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/shaderlab-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "shaderlab-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/shaderlab-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "shaderlab-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/shaderlab-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "shell-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/shell-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "shell-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/shell-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "shell-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/shell-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "shell-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/shell-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "shell-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/shell-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "solidity-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/solidity-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "solidity-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/solidity-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "solidity-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/solidity-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "solidity-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/solidity-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "solidity-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/solidity-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "sqf-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/sqf-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "sqf-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/sqf-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "sqf-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/sqf-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "sqf-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/sqf-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "sqf-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/sqf-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "swift-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/swift-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "swift-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/swift-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "swift-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/swift-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "swift-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/swift-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "swift-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/swift-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "typescript-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/typescript-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "typescript-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/typescript-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "typescript-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/typescript-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "typescript-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/typescript-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "typescript-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/typescript-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
+      "name": "wolfram-language-idiomatic-data-control-flow",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/wolfram-language-idiomatic-data-control-flow/SKILL.md"
+    },
+    {
+      "name": "wolfram-language-performance-resource-budget",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/wolfram-language-performance-resource-budget/SKILL.md"
+    },
+    {
+      "name": "wolfram-language-project-toolchain-contract",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/wolfram-language-project-toolchain-contract/SKILL.md"
+    },
+    {
+      "name": "wolfram-language-secure-boundary-interoperability",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/wolfram-language-secure-boundary-interoperability/SKILL.md"
+    },
+    {
+      "name": "wolfram-language-testing-debugging-diagnostics",
+      "category": "Programming language engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/programming-language-engineering/wolfram-language-testing-debugging-diagnostics/SKILL.md"
+    },
+    {
       "name": "geo-alpr-location-only-data-guardrail",
       "category": "Public-data provenance, privacy & ethics",
       "origin": "new-authored",
@@ -11741,330 +12107,6 @@
       "category": "Release, tests & repository quality",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/release-testing-operations/web-performance-budget-audit/SKILL.md"
-    },
-    {
-      "name": "rea-android-apk-triage",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-android-method-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-android-resource-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-app-version-diff",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-assembly-pseudocode-check",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-browser-capture-compare",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-browser-passive-observation",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-browser-scenario-capture",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-changelog-update",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-ci-tests-audit",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-crash-core-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-dos-ghidra-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-dotnet-assembly-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-electron-ipc",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-electron-native-addons",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-elf-layout-audit",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-engine-architecture-learning",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-evm-bytecode-inspection",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-feature-trace",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-firmware-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-flutter-apk-inventory",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-ghidra-provider-workflow",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-har-network-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-ida-provider-workflow",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-js-app-map",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-js-bundle-reconstruction",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-js-export-shapes",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-js-module-graph",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-large-binary-investigation",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-native-abi-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-native-binary-triage",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-native-call-graph",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-native-function-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-native-function-reconstruction",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-native-string-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-native-xref-tracing",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-packet-field-discovery",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-pcap-summary-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-pe-resource-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-rust-artifact-source-compare",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-rust-binary-inventory",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-rust-dependency-audit",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-rust-dependency-graph",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-rust-runtime-boundary",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-saz-traffic-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-source-map-provenance",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-sqlite-schema-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-task-triage",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-tool-design",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-wasm-js-boundary",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-wasm-module-analysis",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-web-feature-tracing",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "rea-windows-binary-inspection",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "reverse-engineer-anything",
-      "category": "Reverse engineering & artifact analysis",
-      "origin": "existing",
-      "source_path": null
     },
     {
       "name": "async-task-cancellation-contract",
@@ -14513,48 +14555,6 @@
       "category": "Temporal durable workflow engineering",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/temporal-durable-workflows/temporal-workflow-versioning-marker/SKILL.md"
-    },
-    {
-      "name": "building-era-authentic-game-audio",
-      "category": "UI, art, audio & assets",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "creating-godot-procedural-audio",
-      "category": "UI, art, audio & assets",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "designing-retro-arcade-sound-kits",
-      "category": "UI, art, audio & assets",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "directing-game-visuals",
-      "category": "UI, art, audio & assets",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "frontend-design",
-      "category": "UI, art, audio & assets",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "generating-dot-assets",
-      "category": "UI, art, audio & assets",
-      "origin": "existing",
-      "source_path": null
-    },
-    {
-      "name": "styling-web-game-typography",
-      "category": "UI, art, audio & assets",
-      "origin": "existing",
-      "source_path": null
     },
     {
       "name": "ai-sdk-agent-duplicate-call-detection",

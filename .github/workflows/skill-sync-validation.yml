@@ -27,6 +27,7 @@ on:
       - feat/repository-draft-candidate-preparation-2026
       - feat/repository-candidate-preassembly-audit-2026
       - feat/all-skills-consolidated-2026
+      - fix/2500-catalog-validation-routing-2026-10-30
   pull_request:
     branches:
       - main
@@ -48,6 +49,32 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Install Claude Code CLI for native plugin validation
+        run: npm install --global @anthropic-ai/claude-code
+
+      - name: Validate marketplace and all local plugins in strict mode
+        shell: bash
+        run: |
+          set -euo pipefail
+          claude --version
+          claude plugin validate --strict .
+          for plugin_dir in plugins/*; do
+            if [[ -f "$plugin_dir/.claude-plugin/plugin.json" ]]; then
+              claude plugin validate --strict "$plugin_dir"
+            fi
+          done
+
+      - name: Smoke test clean marketplace installation
+        shell: bash
+        run: |
+          set -euo pipefail
+          isolated_home="$(mktemp -d)"
+          trap 'rm -rf "$isolated_home"' EXIT
+          export HOME="$isolated_home"
+          export CLAUDE_CONFIG_DIR="$isolated_home/.claude"
+          claude plugin marketplace add "$GITHUB_WORKSPACE"
+          claude plugin install all-skills-collection@all-skills-for-the-claude-code --scope user
 
       - name: Check script syntax
         run: |
@@ -127,6 +154,6 @@ jobs:
       - name: Validate artifact analysis workbench
         run: node tools/validate-artifact-analysis-workbench.mjs
 
-      - name: Validate current consolidated 2,500-skill source and bundle parity
-        if: github.ref_name == 'feat/all-skills-consolidated-2026' || github.head_ref == 'feat/all-skills-consolidated-2026' || github.base_ref == 'feat/all-skills-consolidated-2026'
+      - name: Validate current catalog manifest and source/bundle parity
+        if: github.ref_name == 'feat/all-skills-consolidated-2026' || github.head_ref == 'feat/all-skills-consolidated-2026' || github.base_ref == 'feat/all-skills-consolidated-2026' || github.head_ref == 'cleanup/remove-retained-imported-skills-2026-10-30' || github.head_ref == 'fix/2500-catalog-validation-routing-2026-10-30' || github.ref_name == 'fix/2500-catalog-validation-routing-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2500.json
