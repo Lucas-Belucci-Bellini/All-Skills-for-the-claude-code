@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30",
+  "batch_size": 1,
+  "milestone_total": 2521,
+  "long_term_target": 5000,
+  "authored_count": 2521,
+  "retained_count": 0,
+  "plugin_version": "2.1.47",
+  "skills": [
+    {
+      "name": "nexora-client-retained-column-spill-lifecycle",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-client-retained-column-spill-lifecycle/SKILL.md",
+      "category": "Curated: nexora-reliability"
+    }
+  ]
+}
