@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2501,
+  "unique_skills": 2502,
   "target": 5000,
-  "remaining": 2499,
+  "remaining": 2498,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -3137,6 +3137,12 @@
       "category": "Curated: nexora-worldgen-streaming",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-chunk-streaming-hysteresis/SKILL.md"
+    },
+    {
+      "name": "nexora-stream-handle-pin-lifecycle",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-stream-handle-pin-lifecycle/SKILL.md"
     },
     {
       "name": "nexora-streaming-io-backpressure",
