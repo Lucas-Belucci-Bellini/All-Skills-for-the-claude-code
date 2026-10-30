@@ -1,7 +1,7 @@
 # Roadmap to 2,500 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current authored inventory after cleanup:** 2,339 distinct skills (0 retained/imported)
+**Current draft inventory:** 2,339 distinct skills (2,339 authored + 0 retained/imported)
 **Long-term planning target:** 2,500 distinct skills  
 **Remaining to long-term target:** 161
 **Current milestone:** 2,339 original skills remain after removing all 161 retained/imported entries and their bundle copies. The next 161 should be newly authored only; do not reintroduce imported skill files. Strict Claude Code validation and clean installation/discovery remain required.

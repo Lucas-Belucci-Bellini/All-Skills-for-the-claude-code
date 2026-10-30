@@ -1,6 +1,6 @@
 # Skill Library Catalog
 
-Updated: 2026-10-30. The unified bundle contains 2339 distinct, newly authored skills.
+Updated: 2026-10-30. The unified bundle contains 2339 distinct skills.
 
 ## Inventory summary
 
@@ -125,8 +125,6 @@ Updated: 2026-10-30. The unified bundle contains 2339 distinct, newly authored s
 - radar-uart-and-gps-parser-boundary-tests — NEW
 - radar-vg-dac-range-and-limit-validation — NEW
 - radar-waveguide-geometry-parametric-validation — NEW
-
-
 
 ### Claude Code setup & MCP (125)
 
@@ -673,8 +671,6 @@ Updated: 2026-10-30. The unified bundle contains 2339 distinct, newly authored s
 - reproducible-toolchain-bootstrap — NEW
 - shell-command-path-quoting-audit — NEW
 
-
-
 ### Documentation & technical knowledge systems (33)
 
 - api-example-schema-conformance — NEW
@@ -1185,10 +1181,6 @@ Updated: 2026-10-30. The unified bundle contains 2339 distinct, newly authored s
 - worldgen-biome-distribution-analysis — NEW
 - worldgen-distribution-drift-detection — NEW
 
-
-
-
-
 ### Geospatial visualization & map UX (35)
 
 - geoviz-3d-terrain-provider-fallback-validation — NEW
@@ -1227,8 +1219,6 @@ Updated: 2026-10-30. The unified bundle contains 2339 distinct, newly authored s
 - geoviz-viewport-selection-context-integrity — NEW
 - geoviz-world-overlay-label-budget — NEW
 
-
-
 ### Live public-data ingestion & reliability (35)
 
 - livefeed-api-key-rotation-no-downtime — NEW
@@ -1266,10 +1256,6 @@ Updated: 2026-10-30. The unified bundle contains 2339 distinct, newly authored s
 - livefeed-synthetic-vs-live-fixture-isolation — NEW
 - livefeed-watermark-late-event-policy — NEW
 - livefeed-websocket-reconnect-state-machine — NEW
-
-
-
-
 
 ### Minecraft & modpack engineering (230)
 
@@ -2023,8 +2009,6 @@ Updated: 2026-10-30. The unified bundle contains 2339 distinct, newly authored s
 - typescript-api-error-contract-design — NEW
 - web-performance-budget-audit — NEW
 
-
-
 ### Rust & platform engineering (99)
 
 - async-task-cancellation-contract — NEW
@@ -2450,8 +2434,6 @@ Updated: 2026-10-30. The unified bundle contains 2339 distinct, newly authored s
 - temporal-workflow-replay-regression — NEW
 - temporal-workflow-test-fixture-isolation — NEW
 - temporal-workflow-versioning-marker — NEW
-
-
 
 ### Vercel AI SDK & agent reliability (75)
 
