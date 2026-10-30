@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2514,
+  "unique_skills": 2515,
   "target": 5000,
-  "remaining": 2486,
+  "remaining": 2485,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -2147,6 +2147,12 @@
       "category": "Curated: nexora-performance-memory",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-performance-memory/nexora-voxel-memory-workload-benchmark/SKILL.md"
+    },
+    {
+      "name": "nexora-voxel-palette-transition-invariants",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-voxel-palette-transition-invariants/SKILL.md"
     },
     {
       "name": "nexora-worker-pool-saturation",
