@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,539 distinct skills (2,539 authored + 0 retained/imported)
+**Current draft inventory:** 2,540 distinct skills (2,540 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,461
-**Current milestone:** 2,537 authored skills: the 2,500-skill milestone plus thirty-six NEXORA-specific engineering workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory ledger reporting, GPU frame timing evidence, rendering, atlas correctness, texture manifests, recipe periodicity, reproducible generation, preview/seam review, final surface-blit fidelity, VFX, native UI and upload scheduling. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,460
+**Current milestone:** 2,540 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, scheduling and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -473,7 +473,9 @@ Added four source-grounded workflows for the current voxel atlas implementation:
 Added four source-grounded workflows for Texture Forge manifest inheritance and identifier validation, periodic recipe structure for seamless tiling, procedural generate/variant/repair seed identity, and lit 2×2 preview plus numeric seam review. The workflows distinguish manifest parsing from build-plan policy, require provenance-aware reproduction, and pair visual inspection with underlying-map validation. They do not claim NEXORA runtime tests or new engine functionality were executed.
 
 | 2537 | 2537 | Adds a NEXORA GPU frame timing evidence workflow for optional RHI timestamp capability, asynchronous frame-correlated queries, and separating GPU execution from CPU work and presentation wait; runtime changes are not claimed |
-| 2538 | 2538 | Adds a NEXORA Job System long-run health workflow for worker survival, cancellation, result retention/eviction, forgotten outcomes, queue pressure, starvation, memory attribution and shutdown; soak tests are not claimed |\n| 2539 | 2539 | Adds a NEXORA Job Queue admission budget workflow for explicit pending capacity, producer backpressure, batch admission semantics, critical-capacity protection and overload observability; runtime changes are not claimed |
+| 2538 | 2538 | 2538 | Adds a NEXORA Job System long-run health workflow for worker survival, cancellation, result retention/eviction, forgotten outcomes, queue pressure, starvation, memory attribution and shutdown; soak tests are not claimed |
+| 2539 | 2539 | Adds a NEXORA Job Queue admission budget workflow for explicit pending capacity, producer backpressure, batch admission semantics, critical-capacity protection and overload observability; runtime changes are not claimed |
+| 2540 | 2540 | Adds a NEXORA frame-time regression triage workflow for pinned baseline/candidate builds, controlled workloads, tail-percentile comparison, honest metric separation and evidence-based release gates; runtime changes are not claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
@@ -483,3 +485,7 @@ Added a source-grounded workflow for sustained and bursty validation of the NEXO
 ## Batch 2,539 — NEXORA Job Queue admission budget (2026-10-30)
 
 Added a source-grounded workflow for explicit pending-queue admission limits, producer backpressure, batch semantics, critical-capacity protection, overload observability and caller migration. The inspected runtime uses an unbounded `BinaryHeap` for pending jobs, returns handles directly from `submit`, and exposes no queue-full result in the inspected API; the skill treats this as an implementation gap rather than claiming a fix.
+
+## Batch 2,540 — NEXORA frame-time regression triage (2026-10-30)
+
+Added a repeatable before/after performance gate for clean baseline and candidate commits. It requires controlled hardware/build/workload identity, separate warm-up and steady-state samples, p50/p95/p99/max distributions, explicit deltas, disclosed exclusions, repeatability checks, approved thresholds, and honest separation of CPU work, presentation wait, unattributed time and measured GPU execution. It complements the existing frame-pacing diagnosis and GPU timestamp workflows rather than duplicating them; no runtime changes or benchmark results are claimed.
