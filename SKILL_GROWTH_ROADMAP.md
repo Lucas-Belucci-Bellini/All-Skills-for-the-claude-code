@@ -473,3 +473,8 @@ Added four source-grounded workflows for the current voxel atlas implementation:
 Added four source-grounded workflows for Texture Forge manifest inheritance and identifier validation, periodic recipe structure for seamless tiling, procedural generate/variant/repair seed identity, and lit 2×2 preview plus numeric seam review. The workflows distinguish manifest parsing from build-plan policy, require provenance-aware reproduction, and pair visual inspection with underlying-map validation. They do not claim NEXORA runtime tests or new engine functionality were executed.
 
 | 2537 | 2537 | Adds a NEXORA GPU frame timing evidence workflow for optional RHI timestamp capability, asynchronous frame-correlated queries, and separating GPU execution from CPU work and presentation wait; runtime changes are not claimed |
+
+
+## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
+
+Added a source-grounded workflow for sustained and bursty validation of the NEXORA bounded worker pool: worker survival after panic, cooperative cancellation, queue-versus-worker capacity, retained-result eviction and `Forgotten` outcome honesty, priority starvation, memory attribution, barriers and shutdown. It explicitly notes that the inspected pending `BinaryHeap` has no visible capacity bound, so a fixed worker count must not be mistaken for bounded admission. The workflow defines reproducible long-run reports and does not claim the soak tests have been executed.
