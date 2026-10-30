@@ -1,7 +1,7 @@
 {
   "name": "all-skills-collection",
-  "version": "2.1.52",
-  "description": "A generated collection of 2535 distinct skills, all authored, covering all 31 profile languages and specialist engineering workflows.",
+  "version": "2.1.53",
+  "description": "A generated collection of 2536 distinct skills, all authored, covering all 31 profile languages and specialist engineering workflows.",
   "author": {
     "name": "Lucas-Belucci-Bellini"
   },
@@ -81,6 +81,9 @@
     "cmake",
     "dockerfile",
     "surface-presentation",
-    "pixel-fidelity"
+    "pixel-fidelity",
+    "memory-ledger",
+    "memory-pressure",
+    "leak-diagnostics"
   ]
 }
