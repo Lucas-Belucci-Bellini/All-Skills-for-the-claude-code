@@ -38,9 +38,11 @@ on:
       - feat/nexora-lighting-render-extraction-2026-10-30
       - feat/nexora-shadow-caster-extraction-2026-10-30
       - feat/nexora-atmosphere-fog-composition-2026-10-30
+      - feat/nexora-environmental-vfx-bridge-2514-final-2026-10-30
   pull_request:
     branches:
       - main
+      - feat/nexora-voxel-memory-workload-benchmark-2026-10-30
       - feat/all-skills-consolidated-2026
   workflow_dispatch:
 
@@ -185,6 +187,10 @@ jobs:
       - name: Validate NEXORA 2,513-skill batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-voxel-memory-workload-benchmark-2026-10-30' || github.head_ref == 'feat/nexora-voxel-memory-workload-benchmark-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2513.json
+
+      - name: Validate NEXORA 2,514-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-environmental-vfx-bridge-2514-final-2026-10-30' || github.head_ref == 'feat/nexora-environmental-vfx-bridge-2514-final-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2514.json
 
       - name: Validate agent orchestration plugin
         run: node tools/validate-agent-plugin.mjs
