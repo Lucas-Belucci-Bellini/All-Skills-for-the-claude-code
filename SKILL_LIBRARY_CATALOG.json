@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-31",
-  "unique_skills": 2562,
+  "unique_skills": 2563,
   "target": 5000,
-  "remaining": 2438,
+  "remaining": 2437,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -15377,6 +15377,12 @@
       "category": "Accessibility & inclusive UX",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/accessibility-inclusive-ux/zoom-reflow-overflow-audit/SKILL.md"
+    },
+    {
+      "name": "nexora-windows-portable-client-package-closure",
+      "category": "Curated: nexora-release-operations",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-windows-portable-client-package-closure/SKILL.md"
     }
   ]
 }
