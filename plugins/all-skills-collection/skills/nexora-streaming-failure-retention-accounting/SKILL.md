@@ -25,7 +25,7 @@ In `engine/streaming/src/system.rs`:
 
 Re-open the current source before applying this workflow. Constants, ordering, and counter reset behavior may change. The audited commit is evidence, not a permanent API guarantee.
 
-## Inputs
+## Required inputs
 
 - Exact NEXORA commit SHA and Rust toolchain.
 - `engine/streaming/src/system.rs`, `budget.rs`, backend implementations, and streaming tests.
@@ -33,7 +33,7 @@ Re-open the current source before applying this workflow. Constants, ordering, a
 - A deterministic workload describing target coordinates, observer interest, backend refusal pattern, tick count, and budget.
 - Whether the consumer drains diagnostics once per tick, periodically, or only after an incident.
 
-## Procedure
+## Workflow
 
 1. **Pin the implementation.** Record the NEXORA SHA, relevant source paths, toolchain, and test command. Do not combine observations from different revisions.
 2. **Trace one failure.** Follow the backend error from the failing operation to the per-tick `failed` counter and the retention helper. Confirm that the tick continues processing independent targets where intended.
@@ -51,7 +51,7 @@ Re-open the current source before applying this workflow. Constants, ordering, a
 9. **Review observability consumers.** Ensure logs and dashboards label tick counts, retained samples, and dropped diagnostics distinctly. A truncated sample is not a complete incident history.
 10. **Report evidence.** Separate source inspection, tests executed, tests proposed, and runtime observations. Include the exact command and result for every executed test.
 
-## Invariants
+## Validation checklist
 
 - Retained diagnostic details remain bounded by the configured cap.
 - Every observed backend failure contributes to the per-tick failure count according to the report contract, even when its detail is not retained.
@@ -88,7 +88,7 @@ Use focused unit tests first, then the streaming crate test suite. Run broader w
 - Adding retries in the retention path and accidentally changing streaming determinism.
 - Reporting test coverage from source presence without running the tests.
 
-## Outputs
+## Required output
 
 Produce a short audit containing:
 
@@ -99,6 +99,13 @@ Produce a short audit containing:
 5. Any uncovered reset, overflow, ordering, or failure-isolation gap.
 6. Explicit limits: this workflow does not implement runtime fixes or establish performance gains.
 
-## Boundaries
+## Boundaries and failure handling
 
 Do not modify NEXORA runtime code as part of a skill-only task. If a runtime defect is found, open a separate NEXORA issue with a minimal reproduction and acceptance tests. Do not claim that a new skill fixes the engine.
+
+## Trigger examples
+
+- **Positive:** A NEXORA streaming investigation needs to explain why more backend failures occurred than the number of error details retained, or whether draining the error buffer resets the overflow counter.
+- **Positive:** A burst of backend failures appears to hide earlier or later diagnostics, and the retention ordering must be verified against source and tests.
+- **Negative:** A request is about general streaming queue backpressure, scheduling latency, or target admission without any diagnostic-retention or dropped-failure accounting question.
+- **Negative:** A request asks to implement retries, alter runtime streaming behavior, or increase the diagnostic cap without first establishing the retention contract.
