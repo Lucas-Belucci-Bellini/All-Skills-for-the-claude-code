@@ -1,17 +1,17 @@
 # NEXORA Skill Inventory
 
 Updated: 2026-10-31  
-Catalog snapshot: 2563 distinct skills  
-NEXORA-related catalog entries: 359  
+Catalog snapshot: 2564 distinct skills  
+NEXORA-related catalog entries: 360  
 Scope: skills whose catalog name or category contains "NEXORA". This inventory lists skill assets in the All-Skills library; it does not mean the corresponding game feature is implemented in the NEXORA runtime.
 
 ## Summary
 
-- NEXORA-related skills: **359**
-- Catalog total: **2563**
+- NEXORA-related skills: **360**
+- Catalog total: **2564**
 - Long-term library target: **5000**
-- Remaining to library target: **2437**
-- Latest proposed skill: `nexora-windows-portable-client-package-closure` (PR pending validation).
+- Remaining to library target: **2436**
+- Latest integrated skill: `nexora-gamepad-host-signal-adapter` (PR pending validation).
 
 ## Inventory by category
 
@@ -204,7 +204,7 @@ Scope: skills whose catalog name or category contains "NEXORA". This inventory l
 - `nexora-voxel-palette-transition-invariants`
 - `nexora-worker-pool-saturation`
 
-### Curated: nexora-platform-compatibility (10)
+### Curated: nexora-platform-compatibility (11)
 
 - `nexora-platform-audio-capability-profile`
 - `nexora-platform-clock-contract`
@@ -216,6 +216,7 @@ Scope: skills whose catalog name or category contains "NEXORA". This inventory l
 - `nexora-platform-resource-limit-detection`
 - `nexora-platform-runtime-smoke-matrix`
 - `nexora-platform-threading-capability`
+- `nexora-gamepad-host-signal-adapter`
 
 ### Curated: nexora-release-operations (11)
 
