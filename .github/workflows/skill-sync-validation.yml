@@ -55,6 +55,7 @@ on:
       - feat/nexora-tracked-local-artifact-exposure-response-2522-2026-10-30
       - feat/nexora-texture-detail-review-2554-2026-10-30
       - feat/nexora-digital-logic-audit-2555-2026-10-31
+      - feat/nexora-machine-logic-graph-2556-2026-10-31
   pull_request:
     branches:
       - main
@@ -299,3 +300,7 @@ jobs:
       - name: Validate NEXORA 2,555-skill digital-logic audit batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-digital-logic-audit-2555-2026-10-31' || github.head_ref == 'feat/nexora-digital-logic-audit-2555-2026-10-31'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2555.json
+
+      - name: Validate NEXORA 2,556-skill machine logic graph batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-machine-logic-graph-2556-2026-10-31' || github.head_ref == 'feat/nexora-machine-logic-graph-2556-2026-10-31'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2556.json
