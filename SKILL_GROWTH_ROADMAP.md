@@ -92,7 +92,8 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2561 | 2561 | Adds NEXORA temporal LOD catch-up and rehydration checks for FULL/REGIONAL/ABSTRACT state, authoritative world-time watermarks, bounded catch-up and idempotent transitions; runtime catch-up remains unimplemented/unverified |
 | 2562 | 2562 | Adds NEXORA multiscale climate-field coherence: field ownership, aggregation semantics, region boundaries, LOD handoff and bounded storage; regional climate runtime remains planned/unverified |
 | 2563 | 2563 | Adds Windows portable-client package closure: archive dependencies, launcher paths, clean-machine execution and save persistence |
-| 2564 | 2564 | Adds a NEXORA host-side gamepad adapter contract: stable logical controls, analog normalization, ordered per-frame signals, disconnect handling and physical-device conformance evidence |
+| 2564 | 2564 | Historical gamepad host signal adapter milestone |
+| 2565 | 2565 | NEXORA semantic accessibility caption/localization contract | Adds a NEXORA host-side gamepad adapter contract: stable logical controls, analog normalization, ordered per-frame signals, disconnect handling and physical-device conformance evidence |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
