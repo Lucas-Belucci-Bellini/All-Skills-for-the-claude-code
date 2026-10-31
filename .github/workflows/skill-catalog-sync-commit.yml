@@ -11,6 +11,7 @@ on:
       - feat/nexora-climate-lattice-reuse-2026-10-30
       - feat/nexora-voxel-memory-benchmark-refresh-2551-2026-10-31
       - feat/nexora-hotbar-slot-identity-2552-2026-10-31
+      - feat/nexora-pointer-capture-2553-2026-10-31
       - feat/nexora-biome-climate-weight-blending-2026-10-30
       - feat/nexora-rhi-surface-recovery-2538-2026-10-30
       - feat/nexora-job-system-long-run-health-2538-2026-10-30
@@ -87,6 +88,10 @@ jobs:
       - name: Validate NEXORA 2,552-skill hotbar batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-hotbar-slot-identity-2552-2026-10-31'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2552.json
+
+      - name: Validate NEXORA 2,553-skill pointer-look batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-pointer-capture-2553-2026-10-31'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2553.json
 
       - name: Commit generated synchronization outputs
         shell: bash

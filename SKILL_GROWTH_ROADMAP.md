@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,552 distinct skills (2,552 authored + 0 retained/imported)
+**Current draft inventory:** 2,553 distinct skills (2,553 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,448
-**Current milestone:** 2,552 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,447
+**Current milestone:** 2,553 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -488,6 +488,7 @@ Added four source-grounded workflows for Texture Forge manifest inheritance and 
 | 2550 | 2550 | Adds a NEXORA streaming budget-accounting workflow for failed activation/persistence/eviction attempts and tick-local quota consumption; no runtime changes are claimed |
 | 2551 | 2551 | Adds a NEXORA byte-budget workflow covering post-activation shedding, transient overshoot, pinned residency and failed releases; no runtime changes are claimed |
 | 2552 | 2552 | Adds a NEXORA nine-slot hotbar workflow for deterministic keyboard/wheel selection, stable content identity and validated block placement; no runtime changes are claimed |
+| 2553 | 2553 | Adds a NEXORA pointer-look workflow for relative motion, deterministic replay, cursor-capture lifecycle and crosshair/raycast alignment; no runtime changes are claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
@@ -583,3 +584,12 @@ Added a source-grounded workflow for character movement relative to kinematic su
 - Defines nine-slot selection, digit bindings, explicit mouse-wheel event semantics, stable namespaced content identity, registry resolution, placement authority, icon consistency, and honest persistence boundaries for NEXORA issue #72.
 - Reuses native UI, focus, layout, input action, and inventory skills; no parallel material catalog or atlas-index identity is introduced.
 - This is a skill/documentation delivery only. No NEXORA runtime changes, gameplay smoke tests, or hotbar completion are claimed.
+
+
+## Batch 2,553 — NEXORA first-person pointer motion and cursor capture (2026-10-31)
+
+- Added `nexora-first-person-pointer-motion-and-cursor-capture` under `curated-skill-sources/nexora-runtime-systems/`.
+- Grounded in NEXORA snapshot `19486829d18bd864fea00cac0711f519a5c07a70`, including the window event loop/input collector, runtime input signal model, authoritative player yaw/pitch, derived camera, and client readback checks.
+- Covers typed relative-motion events, deterministic replay, focus/cursor lifecycle, platform capture fallback, player/camera/raycast alignment, and RHI reticle integration without contaminating world-only readback tests.
+- Explicitly treats NEXORA PR #73 as an unmerged proposal during the audit; it does not claim the runtime feature is integrated.
+- This is a skill/documentation delivery only. No NEXORA runtime changes, pointer-capture tests, or Windows gameplay smoke tests are claimed.

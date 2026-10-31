@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-31. The unified bundle contains 2552 distinct skills.
+Updated: 2026-10-31. The unified bundle contains 2553 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2552**
-- Current total: **2552**
+- Original curated skills: **2553**
+- Current total: **2553**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,448**
+- Remaining to long-term target: **2,447**
 
 ## Categories
 
@@ -537,7 +537,7 @@ Updated: 2026-10-31. The unified bundle contains 2552 distinct skills.
 - nexora-simulation-render-snapshot-boundary — NEW
 - nexora-texture-streaming-priority — NEW
 
-### Curated: nexora-runtime-systems (12)
+### Curated: nexora-runtime-systems (13)
 
 - nexora-animation-root-motion-authority — NEW
 - nexora-animation-skeleton-version-contract — NEW
@@ -546,6 +546,7 @@ Updated: 2026-10-31. The unified bundle contains 2552 distinct skills.
 - nexora-camera-origin-rebasing — NEW
 - nexora-collision-shape-cache-identity — NEW
 - nexora-constraint-solver-stability — NEW
+- nexora-first-person-pointer-motion-and-cursor-capture — NEW
 - nexora-gameplay-tick-profiler — NEW
 - nexora-physics-body-pair-sweep-ccd — NEW
 - nexora-physics-broadphase-budget — NEW
