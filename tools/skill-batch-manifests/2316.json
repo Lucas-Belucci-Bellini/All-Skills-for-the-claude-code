@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2316,
+  "long_term_target": 2500,
+  "authored_count": 2155,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-worldgen-stage-contract",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-stage-contract/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    },
+    {
+      "name": "nexora-worldgen-density-boundary",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-density-boundary/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    },
+    {
+      "name": "nexora-worldgen-feature-reservation",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-feature-reservation/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    },
+    {
+      "name": "nexora-chunk-streaming-hysteresis",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-chunk-streaming-hysteresis/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    },
+    {
+      "name": "nexora-chunk-priority-fairness",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-chunk-priority-fairness/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    },
+    {
+      "name": "nexora-chunk-mesh-version-gate",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-chunk-mesh-version-gate/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    },
+    {
+      "name": "nexora-chunk-lighting-propagation-budget",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-chunk-lighting-propagation-budget/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    },
+    {
+      "name": "nexora-worldgen-seed-compatibility",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-seed-compatibility/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    },
+    {
+      "name": "nexora-streaming-io-backpressure",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-streaming-io-backpressure/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    },
+    {
+      "name": "nexora-worldgen-crash-reproduction",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-worldgen-crash-reproduction/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    }
+  ]
+}

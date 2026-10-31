@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2396,
+  "long_term_target": 2500,
+  "authored_count": 2235,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-release-candidate-gate",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-release-candidate-gate/SKILL.md",
+      "category": "Curated: nexora-release-operations"
+    },
+    {
+      "name": "nexora-release-rollback-plan",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-release-rollback-plan/SKILL.md",
+      "category": "Curated: nexora-release-operations"
+    },
+    {
+      "name": "nexora-world-format-support-matrix",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-world-format-support-matrix/SKILL.md",
+      "category": "Curated: nexora-release-operations"
+    },
+    {
+      "name": "nexora-mod-compatibility-test-lab",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-mod-compatibility-test-lab/SKILL.md",
+      "category": "Curated: nexora-release-operations"
+    },
+    {
+      "name": "nexora-upgrade-preflight-report",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-upgrade-preflight-report/SKILL.md",
+      "category": "Curated: nexora-release-operations"
+    },
+    {
+      "name": "nexora-config-defaults-drift-audit",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-config-defaults-drift-audit/SKILL.md",
+      "category": "Curated: nexora-release-operations"
+    },
+    {
+      "name": "nexora-feature-flag-removal-gate",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-feature-flag-removal-gate/SKILL.md",
+      "category": "Curated: nexora-release-operations"
+    },
+    {
+      "name": "nexora-engine-upgrade-smoke-suite",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-engine-upgrade-smoke-suite/SKILL.md",
+      "category": "Curated: nexora-release-operations"
+    },
+    {
+      "name": "nexora-release-notes-contract",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-release-notes-contract/SKILL.md",
+      "category": "Curated: nexora-release-operations"
+    },
+    {
+      "name": "nexora-release-artifact-integrity-check",
+      "source_path": "curated-skill-sources/nexora-release-operations/nexora-release-artifact-integrity-check/SKILL.md",
+      "category": "Curated: nexora-release-operations"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2386,
+  "long_term_target": 2500,
+  "authored_count": 2225,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-structured-diagnostic-event",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-structured-diagnostic-event/SKILL.md",
+      "category": "Curated: nexora-runtime-observability"
+    },
+    {
+      "name": "nexora-runtime-health-check-contract",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-runtime-health-check-contract/SKILL.md",
+      "category": "Curated: nexora-runtime-observability"
+    },
+    {
+      "name": "nexora-watchdog-deadlock-diagnostics",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-watchdog-deadlock-diagnostics/SKILL.md",
+      "category": "Curated: nexora-runtime-observability"
+    },
+    {
+      "name": "nexora-crash-dump-version-contract",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-crash-dump-version-contract/SKILL.md",
+      "category": "Curated: nexora-runtime-observability"
+    },
+    {
+      "name": "nexora-runtime-feature-degradation",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-runtime-feature-degradation/SKILL.md",
+      "category": "Curated: nexora-runtime-observability"
+    },
+    {
+      "name": "nexora-device-loss-state-machine",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-device-loss-state-machine/SKILL.md",
+      "category": "Curated: nexora-runtime-observability"
+    },
+    {
+      "name": "nexora-engine-shutdown-order-audit",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-engine-shutdown-order-audit/SKILL.md",
+      "category": "Curated: nexora-runtime-observability"
+    },
+    {
+      "name": "nexora-restartable-background-task",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-restartable-background-task/SKILL.md",
+      "category": "Curated: nexora-runtime-observability"
+    },
+    {
+      "name": "nexora-background-task-deadline-policy",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-background-task-deadline-policy/SKILL.md",
+      "category": "Curated: nexora-runtime-observability"
+    },
+    {
+      "name": "nexora-service-level-objectives-engine",
+      "source_path": "curated-skill-sources/nexora-runtime-observability/nexora-service-level-objectives-engine/SKILL.md",
+      "category": "Curated: nexora-runtime-observability"
+    }
+  ]
+}

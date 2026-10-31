@@ -1,47 +1,46 @@
 ---
 name: otel-collector-startup-config-validation
-description: "Validate opentelemetry collector startup config validation with task-specific acceptance criteria, boundary cases, and reproducible evidence."
+description: Verify that an OpenTelemetry Collector process loads its effective configuration and starts safely with real environment variables, config providers, endpoints, and runtime dependencies.
 ---
 
 # OpenTelemetry Collector Startup Config Validation
 
 ## Purpose
 
-Establish a verifiable engineering contract for opentelemetry collector startup config validation. Identify a concrete failure mode, reproduce it safely, and produce evidence that distinguishes expected behavior from hidden state, lost signals, or unsafe recovery.
+Verify runtime initialization behavior after configuration parsing: environment expansion, secret/config-provider resolution, listener binding, component startup order, dependency failures, readiness, and restart behavior. This skill is distinct from static schema validation, which checks whether fields and component definitions are supported.
 
 ## Required inputs
 
-OpenTelemetry Collector configuration, receiver/processor/connector/exporter graph, representative synthetic OTLP payloads, resource attributes, exporter status, and sanitized telemetry.
+The deployment manifest or service definition; pinned Collector distribution and version; sanitized environment-variable names and config-provider references; expected listeners and ports; secret-mount and file permissions; readiness/liveness rules; and startup logs from a disposable test environment.
 
 ## Workflow
 
-1. Locate the receiver, processor, connector, exporter, extension, and configuration responsible for opentelemetry collector startup config validation. Record signal types, owners, endpoints, and the exact configuration revision.
-2. State the data-plane invariant for opentelemetry collector startup config validation: what is accepted, transformed, sampled, rejected, queued, or exported, and which identity or attributes must be preserved.
-3. Build synthetic telemetry fixtures for normal traffic, malformed/high-cardinality input, and a slow or unavailable downstream destination.
-4. Validate configuration syntax and component order, then run the test against the exact Collector distribution and version used by the target environment.
-5. Measure accepted, refused, dropped, retried, queued, and exported items separately while observing memory, cardinality, throughput, and latency.
-6. Inject one controlled failure and verify bounded backpressure, explicit diagnostics, and recovery without silent loss or unbounded buffering.
-7. Record the config diff, signal accounting, resource budget, deployment gate, and rollback path; label any production-only assumptions as pending.
+1. Reconstruct the effective startup environment: arguments, config-file locations, environment variable names, mounted files, config providers, working directory, user/group, capabilities, and expected ports. Never request secret values when presence/shape is sufficient.
+2. Start the exact Collector image or binary in an isolated environment using the candidate deployment settings. Capture the effective config source, startup logs, exit code, readiness transitions, and component-specific diagnostics.
+3. Test missing and malformed environment variables, unavailable config providers, unreadable secret files, absent certificates, invalid bind addresses, and occupied ports. Verify failures are explicit and occur before the service reports ready.
+4. Test successful startup with representative dependencies available. Confirm each required receiver/exporter/listener reaches its expected state and readiness does not become healthy prematurely.
+5. Remove or delay one dependency at a time. Verify bounded retry/backoff, a useful error, and a predictable readiness or process-exit policy; distinguish optional components from mandatory ones.
+6. Restart the process after a failed start and after a healthy start. Check for leaked listeners, stale state, duplicated pipelines, stuck shutdown, and inconsistent behavior between first boot and restart.
+7. Compare startup behavior against the deployment contract. Document which failures should block rollout, which are recoverable, and the exact rollback or remediation action.
 
 ## Validation checklist
 
-- [ ] The receiver-to-exporter path and processor ordering are explicit.
-- [ ] Accepted, dropped, refused, retried, delayed, and exported signals are tracked separately.
-- [ ] Resource identity, sensitive attributes, and cardinality policies are validated.
-- [ ] Queue, retry, and memory bounds are tested under representative load.
-- [ ] Stale or missing input is not mistaken for a healthy pipeline.
-- [ ] The rollout and rollback instructions reference the same tested config revision.
-- [ ] Any external exporter or auth dependency not exercised is marked pending.
+- [ ] Tests use the same image/version, arguments, mounts, and runtime identity as deployment.
+- [ ] Missing environment/config-provider inputs fail safely and are not silently replaced by empty values.
+- [ ] Listener conflicts, permissions, certificates, and dependency failures produce actionable diagnostics.
+- [ ] Readiness reflects required components being ready rather than merely a live process.
+- [ ] Restart and shutdown behavior is bounded and repeatable.
+- [ ] Logs and reports redact secret values and sensitive endpoints.
 
 ## Required output
 
-Produce an observability pipeline audit containing a pipeline map, config diff, signal-loss accounting, resource budget, and rollback-safe rollout plan. Include the target revision/configuration, acceptance criteria, pass/fail/blocked checks, exact command or artifact references, observed limitations, and the smallest justified next action.
+A startup test matrix with environment scenario, expected state, observed state, logs/exit code, readiness result, recovery behavior, and pass/fail/pending status, plus the deployment gate and rollback decision.
 
 ## Boundaries and failure handling
 
-Use synthetic or sanitized telemetry. Preserve signal semantics and resource identity across processors, and redact sensitive attributes before export. If a receiver, exporter, or metric source is unavailable, distinguish no input from dropped data and failed export; an empty output is not a success signal.
+Do not treat a successful YAML parse as proof of startup readiness. Do not expose credentials to make a test easier. Do not change production listener or retry settings without approval. If a dependency cannot be safely simulated, mark that scenario pending and state the required test environment.
 
 ## Trigger examples
 
-- **Positive:** A telemetry pipeline change needs proof of opentelemetry collector startup config validation under normal and degraded load.
-- **Negative:** A request asks to drop high-volume telemetry silently or raise queue/memory/retry limits without measuring downstream effects.
+- **Positive:** A Collector container starts locally but may fail in Kubernetes because of missing env vars, mounts, permissions, occupied ports, or unavailable config providers.
+- **Negative:** A request only needs a static check for an unknown field or unsupported component option.

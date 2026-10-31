@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2256,
+  "long_term_target": 2500,
+  "authored_count": 2095,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-deterministic-event-ordering",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-deterministic-event-ordering/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-simulation-overload-degradation",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-simulation-overload-degradation/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-world-region-lock-order",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-world-region-lock-order/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-worldgen-modifier-order",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-worldgen-modifier-order/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-chunk-simulation-activation",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-chunk-simulation-activation/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-replay-divergence-minimizer",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-replay-divergence-minimizer/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-large-world-coordinate-contract",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-large-world-coordinate-contract/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-world-state-hash-contract",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-world-state-hash-contract/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-physics-contact-lifecycle",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-physics-contact-lifecycle/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-physics-fixed-step-stability",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-physics-fixed-step-stability/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    }
+  ]
+}

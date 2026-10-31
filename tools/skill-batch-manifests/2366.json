@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2366,
+  "long_term_target": 2500,
+  "authored_count": 2205,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-render-pass-state-contract",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-pass-state-contract/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    },
+    {
+      "name": "nexora-render-target-resize-transaction",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-target-resize-transaction/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    },
+    {
+      "name": "nexora-temporal-history-invalidation",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-temporal-history-invalidation/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    },
+    {
+      "name": "nexora-color-space-pipeline-contract",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-color-space-pipeline-contract/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    },
+    {
+      "name": "nexora-render-resolution-budget",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-render-resolution-budget/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    },
+    {
+      "name": "nexora-occlusion-query-latency-contract",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-occlusion-query-latency-contract/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    },
+    {
+      "name": "nexora-animation-pose-cache-invalidation",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-animation-pose-cache-invalidation/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    },
+    {
+      "name": "nexora-animation-lod-transition",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-animation-lod-transition/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    },
+    {
+      "name": "nexora-audio-device-loss-recovery",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-audio-device-loss-recovery/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    },
+    {
+      "name": "nexora-audio-spatialization-contract",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-audio-spatialization-contract/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    }
+  ]
+}

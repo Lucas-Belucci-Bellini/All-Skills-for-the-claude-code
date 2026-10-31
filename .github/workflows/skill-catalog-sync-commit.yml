@@ -1,0 +1,53 @@
+name: Skill catalog sync commit
+
+on:
+  push:
+    branches:
+      - feat/all-skills-consolidated-2026
+
+permissions:
+  contents: write
+
+jobs:
+  sync-and-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: feat/all-skills-consolidated-2026
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate bundle and verify idempotence
+        shell: bash
+        run: |
+          set -euo pipefail
+          node tools/sync-skill-bundles.mjs --write
+          git diff --binary > "$RUNNER_TEMP/first-write.diff"
+          node tools/sync-skill-bundles.mjs --write
+          git diff --binary > "$RUNNER_TEMP/second-write.diff"
+          cmp "$RUNNER_TEMP/first-write.diff" "$RUNNER_TEMP/second-write.diff"
+          git diff --check
+
+      - name: Validate current consolidated 2,500-skill structure and source/bundle parity
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2500.json
+
+      - name: Commit generated synchronization outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Generated outputs already synchronized; no commit needed."
+            exit 0
+          fi
+          git commit -m "chore: sync generated skill catalogs and bundles"
+          git push origin "HEAD:feat/all-skills-consolidated-2026"

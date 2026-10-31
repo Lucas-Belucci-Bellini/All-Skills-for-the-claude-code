@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2236,
+  "long_term_target": 2500,
+  "authored_count": 2075,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-ai-agent-tick-budget",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-ai-agent-tick-budget/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-npc-behavior-state-contract",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-npc-behavior-state-contract/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-navmesh-invalidation-contract",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-navmesh-invalidation-contract/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-ai-perception-query-budget",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-ai-perception-query-budget/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-pathfinding-open-set-safety",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-pathfinding-open-set-safety/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-authoritative-combat-resolution",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-authoritative-combat-resolution/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-gameplay-event-idempotency",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-gameplay-event-idempotency/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-world-simulation-fixed-timestep",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-world-simulation-fixed-timestep/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-entity-component-ownership-audit",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-entity-component-ownership-audit/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    },
+    {
+      "name": "nexora-entity-despawn-cascade",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-entity-despawn-cascade/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    }
+  ]
+}

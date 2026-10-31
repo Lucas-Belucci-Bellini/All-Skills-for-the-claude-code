@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "batch_size": 10,
+  "milestone_total": 2326,
+  "long_term_target": 2500,
+  "authored_count": 2165,
+  "retained_count": 161,
+  "plugin_version": "2.1.21",
+  "skills": [
+    {
+      "name": "nexora-editor-undo-transaction",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-undo-transaction/SKILL.md",
+      "category": "Curated: nexora-editor-tooling"
+    },
+    {
+      "name": "nexora-editor-selection-identity",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-selection-identity/SKILL.md",
+      "category": "Curated: nexora-editor-tooling"
+    },
+    {
+      "name": "nexora-editor-command-validation",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-command-validation/SKILL.md",
+      "category": "Curated: nexora-editor-tooling"
+    },
+    {
+      "name": "nexora-editor-save-dirty-state",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-save-dirty-state/SKILL.md",
+      "category": "Curated: nexora-editor-tooling"
+    },
+    {
+      "name": "nexora-editor-background-job-cancellation",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-background-job-cancellation/SKILL.md",
+      "category": "Curated: nexora-editor-tooling"
+    },
+    {
+      "name": "nexora-editor-docking-layout-migration",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-docking-layout-migration/SKILL.md",
+      "category": "Curated: nexora-editor-tooling"
+    },
+    {
+      "name": "nexora-debug-overlay-budget",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-debug-overlay-budget/SKILL.md",
+      "category": "Curated: nexora-editor-tooling"
+    },
+    {
+      "name": "nexora-live-inspector-snapshot-safety",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-live-inspector-snapshot-safety/SKILL.md",
+      "category": "Curated: nexora-editor-tooling"
+    },
+    {
+      "name": "nexora-editor-asset-preview-isolation",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-editor-asset-preview-isolation/SKILL.md",
+      "category": "Curated: nexora-editor-tooling"
+    },
+    {
+      "name": "nexora-tooling-project-repro-manifest",
+      "source_path": "curated-skill-sources/nexora-editor-tooling/nexora-tooling-project-repro-manifest/SKILL.md",
+      "category": "Curated: nexora-editor-tooling"
+    }
+  ]
+}

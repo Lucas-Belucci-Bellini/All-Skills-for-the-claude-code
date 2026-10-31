@@ -1,80 +1,122 @@
-# All Skills for Claude Code
+# All Skills for Claude Code — Community Collection
 
-English | [日本語](README.ja.md)
+This is an independent, community-maintained collection of Claude Code skills and plugins. It is **not affiliated with or endorsed by Anthropic**. The generated aggregate plugin currently packages 2,205 distinct skills (2,044 authored + 161 retained/imported), and component provenance and license terms vary.
 
-A personal, work-in-progress library of agent skills for Claude Code, maintained by [Lucas Belucci Bellini](https://github.com/Lucas-Belucci-Bellini). The skills grew out of my own game-development, Minecraft modpack, and software projects.
+> **Distribution warning:** this repository is currently public, and the imported-skill provenance/licensing audit is not complete. In particular, `claude-security` carries a restrictive, non-sublicensable license. Do not publish or redistribute the combined plugin until the applicable terms are reviewed and the repository owner has resolved the visibility/distribution decision. See [the imported-skill provenance audit](docs/research/imported-skill-provenance-audit.md).
 
-> **Not affiliated with Anthropic.** This is an independent project. It is not an official Anthropic repository, marketplace, or plugin directory. Some folders contain third-party material, credited below under its original license.
+## Repository structure
 
-## Status
+- `curated-skill-sources/` — canonical source files for newly authored skills.
+- `plugins/all-skills-collection/` — generated aggregate plugin; do not edit its skill copies by hand.
+- `plugins/` — plugin packages in this collection, including imported and community-maintained components. Check each component's README, LICENSE, and NOTICE.
+- `external_plugins/` — upstream plugin sources and supporting files; their own license and provenance notices remain applicable.
+- `roadmap/skill-batches/` — planning folders for future skill batches; these folders are not counted as completed skills.
 
-- The unified plugin currently packages 1499 distinct skills: 1,374 written for this library and 125 retained from third-party sources. See [SKILL_LIBRARY_CATALOG.md](SKILL_LIBRARY_CATALOG.md).
-- Many of the newer skills were drafted with AI assistance from templates, and **a quality repair is in progress**. Some files still have template errors (for example, a literal `undefined` in trigger examples). These will be fixed, merged, or removed.
-- Skill counts and milestone numbers in the issues and roadmap are **planning targets**, not claims that the work is finished or validated.
+## Validate and test locally
 
-## Install
+From a clone of this repository, with a current Claude Code CLI:
 
-Add this repository as a marketplace in Claude Code, then install the plugin:
-
+```bash
+claude plugin validate . --strict
+claude plugin validate ./plugins/all-skills-collection --strict
 ```
-/plugin marketplace add Lucas-Belucci-Bellini/All-Skills-for-the-claude-code
+
+For a disposable local installation test, add this checkout as a marketplace and install the aggregate plugin:
+
+```text
+/plugin marketplace add /absolute/path/to/All-Skills-for-the-claude-code
 /plugin install all-skills-collection@all-skills-for-the-claude-code
 ```
 
-The marketplace is defined in [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json) and offers two plugins:
+The installation/discovery smoke test is documented in [docs/research/plugin-install-smoke-test.md](docs/research/plugin-install-smoke-test.md). Passing repository CI does not substitute for running the real Claude Code validator and installation test.
 
-| Plugin | Purpose |
-| --- | --- |
-| [`all-skills-collection`](plugins/all-skills-collection/README.md) | The unified, generated skill bundle |
-| [`skill-library-maintainer`](plugins/skill-library-maintainer/README.md) | Commands to audit and regenerate the library |
+## Contributing
 
-Review a skill before relying on it. Skills are instructions for an agent and can suggest commands that change your system.
+- Add new authored skills under `curated-skill-sources/`; do not hand-edit the generated plugin copies.
+- Run `node tools/sync-skill-bundles.mjs --write`, inspect the diff, then run `node tools/sync-skill-bundles.mjs --check`.
+- Validate the active batch with its manifest and keep changes on a feature branch with a pull request.
+- For imported components, record the upstream repository/revision, preserve required LICENSE/NOTICE/attribution, and verify redistribution terms before adding or publishing them.
 
-## Repository layout
+## Plugin Structure
 
-| Path | What it is |
-| --- | --- |
-| `curated-skill-sources/<category>/<skill>/SKILL.md` | **Canonical source** for the skills written for this library |
-| `plugins/all-skills-collection/skills/` | Generated copy that gets installed. Do not edit by hand. |
-| `tools/sync-skill-bundles.mjs` | Regenerates the bundle, catalog, and roadmap from the sources |
-| `tools/validate-skill-batch.mjs`, `tools/skill-batch-manifests/` | Batch validation |
-| `SKILL_LIBRARY_CATALOG.{md,json}`, `SKILL_GROWTH_ROADMAP.md` | Generated inventory and roadmap |
-| `docs/` | Guides and research notes |
-| Other top-level folders | Third-party material (see below) |
-
-## Maintaining the library
-
-After changing a skill under `curated-skill-sources/`:
+Each plugin follows a standard structure:
 
 ```
-node tools/sync-skill-bundles.mjs --write
-node tools/sync-skill-bundles.mjs --check
+plugin-name/
+├── .claude-plugin/
+│   └── plugin.json      # Plugin metadata (required)
+├── .mcp.json            # MCP server configuration (optional)
+├── commands/            # Slash commands (optional)
+├── agents/              # Agent definitions (optional)
+├── skills/              # Skill definitions (optional)
+└── README.md            # Documentation
 ```
 
-Review the diff, then open a pull request. The CI workflow ([.github/workflows/skill-sync-validation.yml](.github/workflows/skill-sync-validation.yml)) runs the same check.
+## Plugin names are immutable
 
-## Third-party material and licenses
+The `name` field in a marketplace entry is an **immutable slug**. Once a plugin has been published, its `name` must not change — users have it installed under that slug, and renaming it breaks their install with a `plugin-not-found` error.
 
-The [root LICENSE](LICENSE) (Apache-2.0) covers this repository's own content. **It does not relicense third-party material.** Each folder below keeps its upstream license file, which takes precedence.
+- To change how a plugin is labeled in the UI, set or update `displayName` instead.
+- If a rename is genuinely unavoidable, add an entry to the top-level `renames` map in `.claude-plugin/marketplace.json` so existing installs auto-migrate:
 
-| Folders | Origin | License |
-| --- | --- | --- |
-| `agent-sdk-dev`, `clangd-lsp`, `claude-code-setup`, `code-review`, `code-simplifier`, `commit-commands`, `csharp-lsp`, `cwc-makers`, `example-plugin`, `explanatory-output-style`, `feature-dev`, `frontend-design`, `gopls-lsp`, `hookify`, `jdtls-lsp`, `kotlin-lsp`, `learning-output-style`, `lua-lsp`, `math-olympiad`, `math-proof`, `mcp-server-dev`, `mcp-tunnels`, `php-lsp`, `playground`, `plugin-dev`, `pr-review-toolkit`, `project-artifact`, `pyright-lsp`, `ralph-loop`, `receipts`, `ruby-lsp`, `rust-analyzer-lsp`, `security-guidance`, `session-report`, `skill-creator`, `swift-lsp`, `typescript-lsp` | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Apache-2.0 |
-| `asana`, `context7`, `discord`, `fakechat`, `imessage`, `telegram`, `external_plugins/` | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) (external plugins) | See each folder and its upstream |
-| `agent-workflow-engineering`, `game-concept-workbench`, `gameplay-debugging-toolkit`, `godot-mini-game-builder`, `one-button-game-builder`, `retro-arcade-game-finisher`, `web-mini-game-kit` (and their `.json` files), `marketplace.json`, `schema.json`, `PLUGIN_RELEASE.md` | [abagames/agentic-gamedev-skills](https://github.com/abagames/agentic-gamedev-skills) | MIT, © abagames |
-| `plugins/godot`, `plugins/unity`, `plugins/unreal`, `scripts/` | [IvanMurzak/ai-game-dev-plugin](https://github.com/IvanMurzak/ai-game-dev-plugin) | Apache-2.0 |
-| `REA-50-Skills-Claude-Code`, `rea-agent-skills-pack` | Companion skills for [morluto/rea](https://github.com/morluto/rea) (independently written; see `REA-50-Skills-Claude-Code/NOTICE.txt`) | REA itself is MIT. The packs have no license file yet. |
+```json
+"renames": {
+  "old-name": "new-name"
+}
+```
 
-Anthropic's `claude-security` plugin was included here by mistake. Its proprietary license does not permit redistribution, so it has been removed, and `tools/sync-skill-bundles.mjs` now excludes it from the bundle.
+The Claude Code plugin loader reads this map and transparently rewrites the old slug to the new one on the user's next sync.
 
-The generated bundle also copies some of these skills. See [plugins/all-skills-collection/ATTRIBUTION.md](plugins/all-skills-collection/ATTRIBUTION.md). A per-source license review is still pending.
+## Skill-bundle plugins
 
-Skills inspired by public projects (OSIRIS, AERIS-10/PLFM_RADAR, Flipper Zero firmware, and others) are original workflow writing. They do not copy upstream code, schematics, or assets. See [docs/research/](docs/research/).
+When a plugin's source repository ships skills (`SKILL.md` files) without a `.claude-plugin/plugin.json` manifest, the marketplace entry can declare the skills directly using `strict: false` and an explicit `skills` array.
 
-## Responsible use
+```json
+{
+  "name": "example-bundle",
+  "description": "Brief description of the bundled skills.",
+  "author": { "name": "Author Name" },
+  "category": "development",
+  "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/example-org/sdk.git",
+    "path": "packages/agent-skills",
+    "ref": "main",
+    "sha": "<commit sha>"
+  },
+  "strict": false,
+  "skills": [
+    "./skill-a",
+    "./skill-b",
+    "./skill-c"
+  ],
+  "homepage": "https://github.com/example-org/sdk"
+}
+```
 
-Some skills cover reverse engineering, radio hardware, firmware, or security testing. Use them only on systems and artifacts you own or are explicitly authorized to test.
+Each path in `skills` is relative to `source.path` and points at a directory containing a `SKILL.md`. Paths can reach deeper than a single level — for example, `["./libA/skill-1", "./libB/skill-2"]` exposes a curated subset across multiple library subdirectories. Each skill is registered as `<plugin-name>:<skill-name>` in Claude Code.
 
-## Contact
+For the underlying schema, see [Strict mode](https://code.claude.com/docs/en/plugin-marketplaces) in the marketplace documentation.
 
-Open an issue in this repository.
+## License
+
+Please see each linked plugin for the relevant LICENSE file.
+
+## Documentation
+
+For more information on developing Claude Code plugins, see the [official documentation](https://code.claude.com/docs/en/plugins).
+
+
+## Unified Skills Library (Lucas's collection)
+
+This repository also maintains a unified Claude Code plugin that gathers distinct skill sources while preserving each skill's supporting files.
+
+- [All Skills Collection plugin](plugins/all-skills-collection/README.md)
+- [Skill Library Maintainer plugin](plugins/skill-library-maintainer/README.md)
+- [Source refresh script](tools/sync-skill-bundles.mjs)
+
+After adding a new skill batch, run `node tools/sync-skill-bundles.mjs --write`, review the diff, then validate with `node tools/sync-skill-bundles.mjs --check`. Updates should go through a feature branch and pull request. Keep this repository private until all source license and provenance terms have been reviewed.
+
+The combined collection currently packages 2500 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the long-term plan to reach 2,500 distinct skills (with 500 as the 2026 intermediate milestone). See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
+
+The `feat/skills-expansion-2000-simulation-worlds-2026` branch is a historical source milestone, not the current consolidation head. The current consolidation is tracked by [PR #169](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/pull/169) on `feat/all-skills-consolidated-2026`: the generated catalog lists 2,085 distinct skills (1,924 authored + 161 retained/imported), with 415 remaining to the 2,500 planning target. Structural CI is green, but PR #169 remains Draft while imported-skill provenance/licensing and real Claude Code install/discovery checks are pending. This status is not approval to merge or publicly distribute the package. See [roadmap issue #39](https://github.com/Lucas-Belucci-Bellini/All-Skills-for-the-claude-code/issues/39).

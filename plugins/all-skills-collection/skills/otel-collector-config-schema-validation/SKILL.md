@@ -1,47 +1,46 @@
 ---
 name: otel-collector-config-schema-validation
-description: "Validate opentelemetry collector config schema validation with task-specific acceptance criteria, boundary cases, and reproducible evidence."
+description: Validate OpenTelemetry Collector configuration against the exact distribution's component schema, supported fields, types, and version-specific deprecations before rollout.
 ---
 
 # OpenTelemetry Collector Config Schema Validation
 
 ## Purpose
 
-Establish a verifiable engineering contract for opentelemetry collector config schema validation. Identify a concrete failure mode, reproduce it safely, and produce evidence that distinguishes expected behavior from hidden state, lost signals, or unsafe recovery.
+Catch structurally invalid or unsupported Collector configuration before it reaches deployment. Focus on YAML/TOML decoding, component schemas, required fields, type constraints, component references, and version drift—not whether the Collector can successfully start in a particular environment.
 
 ## Required inputs
 
-OpenTelemetry Collector configuration, receiver/processor/connector/exporter graph, representative synthetic OTLP payloads, resource attributes, exporter status, and sanitized telemetry.
+The exact Collector distribution and version; the full configuration with secrets redacted; enabled receivers, processors, connectors, exporters, and extensions; config-provider and environment-substitution rules; and the command or CI environment used to validate the file.
 
 ## Workflow
 
-1. Locate the receiver, processor, connector, exporter, extension, and configuration responsible for opentelemetry collector config schema validation. Record signal types, owners, endpoints, and the exact configuration revision.
-2. State the data-plane invariant for opentelemetry collector config schema validation: what is accepted, transformed, sampled, rejected, queued, or exported, and which identity or attributes must be preserved.
-3. Build synthetic telemetry fixtures for normal traffic, malformed/high-cardinality input, and a slow or unavailable downstream destination.
-4. Validate configuration syntax and component order, then run the test against the exact Collector distribution and version used by the target environment.
-5. Measure accepted, refused, dropped, retried, queued, and exported items separately while observing memory, cardinality, throughput, and latency.
-6. Inject one controlled failure and verify bounded backpressure, explicit diagnostics, and recovery without silent loss or unbounded buffering.
-7. Record the config diff, signal accounting, resource budget, deployment gate, and rollback path; label any production-only assumptions as pending.
+1. Pin the target binary or container image by version and digest. Record whether it is core, contrib, or a vendor distribution because component availability and schemas can differ.
+2. Inventory every configured component and cross-reference it with the pinned distribution. Flag unknown component types, renamed components, unsupported fields, and deprecated options.
+3. Run the distribution's supported configuration-validation command or startup validation mode against the exact candidate file. Record the command, exit code, and complete sanitized diagnostics; do not substitute a different Collector version.
+4. Build negative fixtures for an unknown key, wrong field type, missing required field, invalid component reference, and unsupported component. Confirm each fixture is rejected for the expected reason.
+5. Build positive fixtures for the smallest valid configuration of each component family in use. Check nested maps, lists, duration syntax, feature gates, and config-provider expansion where supported.
+6. Compare the result with the prior known-good config and identify schema changes caused by version upgrades. Keep schema validation separate from network connectivity, credentials, permissions, and downstream availability checks.
+7. Produce a field-level findings table with component, location, expected type/constraint, observed value, validation evidence, severity, and recommended correction.
 
 ## Validation checklist
 
-- [ ] The receiver-to-exporter path and processor ordering are explicit.
-- [ ] Accepted, dropped, refused, retried, delayed, and exported signals are tracked separately.
-- [ ] Resource identity, sensitive attributes, and cardinality policies are validated.
-- [ ] Queue, retry, and memory bounds are tested under representative load.
-- [ ] Stale or missing input is not mistaken for a healthy pipeline.
-- [ ] The rollout and rollback instructions reference the same tested config revision.
-- [ ] Any external exporter or auth dependency not exercised is marked pending.
+- [ ] The binary/image and component set are pinned to the target release.
+- [ ] Unknown fields, invalid types, missing required fields, and broken references fail with actionable diagnostics.
+- [ ] Valid configuration fixtures pass using the same distribution as deployment.
+- [ ] Deprecations, feature gates, and config-provider behavior are checked explicitly.
+- [ ] No secret values are copied into logs, fixtures, or the report.
+- [ ] Schema errors are not confused with runtime startup or downstream connectivity errors.
 
 ## Required output
 
-Produce an observability pipeline audit containing a pipeline map, config diff, signal-loss accounting, resource budget, and rollback-safe rollout plan. Include the target revision/configuration, acceptance criteria, pass/fail/blocked checks, exact command or artifact references, observed limitations, and the smallest justified next action.
+A version-pinned schema-validation report containing the tested config revision, exact command, exit status, accepted/rejected fixtures, field-level findings, and pass/fail/pending status for any check that could not be executed.
 
 ## Boundaries and failure handling
 
-Use synthetic or sanitized telemetry. Preserve signal semantics and resource identity across processors, and redact sensitive attributes before export. If a receiver, exporter, or metric source is unavailable, distinguish no input from dropped data and failed export; an empty output is not a success signal.
+Do not infer schema validity from a successful deployment of an older config. Do not silently remove unsupported fields or downgrade component versions to make validation pass. If the target binary is unavailable, mark the result pending and provide the exact reproducible command rather than claiming success.
 
 ## Trigger examples
 
-- **Positive:** A telemetry pipeline change needs proof of opentelemetry collector config schema validation under normal and degraded load.
-- **Negative:** A request asks to drop high-volume telemetry silently or raise queue/memory/retry limits without measuring downstream effects.
+- **Positive:** A Collector upgrade or config change needs proof that every configured component and field is supported by the target release.
+- **Negative:** A request asks whether a live endpoint is reachable or whether telemetry is being exported successfully without validating configuration structure.
