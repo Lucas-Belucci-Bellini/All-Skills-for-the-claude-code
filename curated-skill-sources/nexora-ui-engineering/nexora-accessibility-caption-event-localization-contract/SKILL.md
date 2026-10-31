@@ -125,3 +125,57 @@ Use property tests for bounded queues and stable ordering; golden locale fixture
 ## Non-goals
 
 This workflow does not implement a caption renderer, speech recognition, text-to-speech, audio mixing, localization runtime, translation content, input remapping, or networking. Do not claim NEXORA supports captions until runtime systems and end-to-end tests exist.
+
+
+## Required inputs
+
+- Current NEXORA plan documents and relevant implementation/ADR paths.
+- Semantic event types and their source/authority, or an explicit statement that these are still planned.
+- Localization key/bundle schema, locale fallback policy, and formatting capabilities.
+- Caption preference/settings model and presentation owner.
+- Multiplayer/replay event provenance where applicable.
+- Existing tests, build commands, and known platform limitations.
+
+## Workflow
+
+1. Trace one representative event (for example, a stone block break or thunder cue) from its authoritative producer through the event bus and audio/caption consumers. Mark every missing link as a gap.
+2. Specify a versioned semantic event envelope, namespaced localization mapping, typed formatting arguments, privacy exclusions, and deterministic ordering.
+3. Define queue/coalescing budgets, locale fallback, preference isolation, lifecycle behavior, and client/server/prediction ownership for each event class.
+4. Implement or review the smallest compatible change in the correct runtime subsystem; keep presentation concerns out of simulation authority.
+5. Add unit/property/golden tests for mapping, fallback, formatting, boundedness, ordering, privacy, locale switching, and duplicate suppression.
+6. Report exact changed files, executed commands, outcomes, and remaining untested runtime/hardware behavior.
+
+## Required output
+
+Produce a concise implementation/audit report containing:
+- event-to-caption data-flow diagram and ownership table
+- event schema and localization-key mapping
+- fallback, ordering, coalescing, queue, privacy, and lifecycle policies
+- test matrix with pass/fail/not-run status
+- exact files/symbols and runtime gaps
+- explicit statement that presentation preferences do not alter authoritative state
+
+## Boundaries and failure handling
+
+- If a required runtime system is absent, return a plan and acceptance criteria; do not fabricate code symbols or claim integration.
+- If event identity/order cannot be established, do not merge or coalesce events in a way that can hide critical information.
+- If locale resolution or formatting fails, use the documented safe fallback and emit bounded diagnostics; never crash or suppress the authoritative event.
+- If privacy classification is unknown, omit sensitive fields and do not render the event to clients until reviewed.
+- If the implementation would change simulation authority, persistence semantics, or network protocol, stop and request an explicit architecture review.
+
+## Validation checklist
+
+- [ ] Evidence and planned-versus-implemented status are recorded.
+- [ ] Event schema, identity, and privacy exclusions are explicit.
+- [ ] Locale mapping, fallback, and typed formatting are covered.
+- [ ] Ordering and presentation queues are deterministic and bounded.
+- [ ] Preferences are isolated from authoritative simulation.
+- [ ] Prediction/replay paths do not duplicate or leak captions.
+- [ ] Tests and untested behavior are reported accurately.
+
+## Trigger examples
+
+- **Positive:** "Design NEXORA subtitles for thunder, footsteps, and block sounds using the existing Audio and Localization plans."
+- **Positive:** "Audit whether caption settings can affect authoritative gameplay or leak hidden multiplayer state."
+- **Negative:** "Implement a generic React accessibility modal unrelated to NEXORA gameplay events."
+- **Negative:** "Translate the whole game into Portuguese without reviewing the localization runtime or event contract."
