@@ -309,3 +309,7 @@ jobs:
       - name: Validate NEXORA 2,557-skill energy network transaction batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-energy-network-transaction-contract-2557-2026-10-31' || github.head_ref == 'feat/nexora-energy-network-transaction-contract-2557-2026-10-31'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2557.json
+
+      - name: Validate NEXORA 2,558-skill fluid network transport batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-fluid-network-transport-2558-2026-10-31' || github.head_ref == 'feat/nexora-fluid-network-transport-2558-2026-10-31'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2558.json

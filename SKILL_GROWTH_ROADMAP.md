@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,557 distinct skills (2,557 authored + 0 retained/imported)
+**Current draft inventory:** 2,558 distinct skills (2,558 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,443
-**Current milestone:** 2,557 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,442
+**Current milestone:** 2,558 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -493,6 +493,7 @@ Added four source-grounded workflows for Texture Forge manifest inheritance and 
 | 2555 | 2555 | Adds a NEXORA digital-logic library audit for evidence-backed chip classification, licensing, architecture fit, deterministic timing, persistence and test requirements; no UMBRA code or engine integration is claimed |
 | 2556 | 2556 | Adds a NEXORA machine-logic graph contract for typed signals, deterministic gate evaluation, cycle policy, command boundaries, persistence and Phase 5 readiness; no runtime graph implementation is claimed |
 | 2557 | 2557 | Adds a NEXORA energy-network transaction contract for atomic transfers, conservation, loss accounting, deterministic priority allocation, replay and persistence; no energy runtime implementation is claimed |
+| 2558 | 2558 | Adds a NEXORA fluid-network transport contract for typed ports, deterministic topology/routing, bounded atomic transfers, conservation, pressure ownership, persistence and multiplayer authority; no fluid runtime implementation is claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
@@ -631,3 +632,14 @@ Added a source-grounded workflow for character movement relative to kinematic su
 - Grounded in the Machine and Automation plan's EnergyNode, EnergyTransfer, consumer priorities, storage, and transfer/distance/conversion loss concepts.
 - Defines canonical units, deterministic rounding, atomic reservations, conservation, priority/fairness, topology snapshots, replay, persistence, and multiplayer authority.
 - Documentation/skill delivery only; no NEXORA energy runtime was implemented or tested.
+
+
+## Batch 2,558 — NEXORA fluid network transport contract (2026-10-31)
+
+- Added `nexora-fluid-network-transport-contract` under `curated-skill-sources/nexora-machine-automation/`.
+- Grounded in the Machine and Automation plan's Fluid Network, FluidPort, routing, pumps, tanks, pressure, and multi-network machine integration concepts.
+- Defines typed ports, deterministic topology and routing, bounded transport, atomic reservations/rollback, conservation, pressure ownership by the Fluid Engine, persistence, multiplayer authority, and invariant-driven tests.
+- Complements (does not duplicate) the existing NEXORA fluid-simulation-stability skill: this batch covers network transport and topology, not numerical fluid simulation.
+- Documentation/skill delivery only; no NEXORA fluid network, pressure solver, or runtime integration was implemented or tested.
+- **Current draft inventory:** 2,558 distinct skills (2,558 authored + 0 retained/imported)
+- **Remaining to long-term target:** 2,442
