@@ -631,3 +631,12 @@ Added a source-grounded workflow for character movement relative to kinematic su
 - Grounded in the Machine and Automation plan's EnergyNode, EnergyTransfer, consumer priorities, storage, and transfer/distance/conversion loss concepts.
 - Defines canonical units, deterministic rounding, atomic reservations, conservation, priority/fairness, topology snapshots, replay, persistence, and multiplayer authority.
 - Documentation/skill delivery only; no NEXORA energy runtime was implemented or tested.
+
+
+## Batch 2,558 — NEXORA fluid network transport contract (2026-10-31)
+
+- Added `nexora-fluid-network-transport-contract` under `curated-skill-sources/nexora-machine-automation/`.
+- Grounded in the Machine and Automation plan's Fluid Network, FluidPort, routing, pumps, tanks, pressure, and multi-network machine integration concepts.
+- Defines typed ports, deterministic topology and routing, bounded transport, atomic reservations/rollback, conservation, pressure ownership by the Fluid Engine, persistence, multiplayer authority, and invariant-driven tests.
+- Complements (does not duplicate) the existing NEXORA fluid-simulation-stability skill: this batch covers network transport and topology, not numerical fluid simulation.
+- Documentation/skill delivery only; no NEXORA fluid network, pressure solver, or runtime integration was implemented or tested.
