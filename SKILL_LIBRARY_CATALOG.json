@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-31",
-  "unique_skills": 2544,
+  "unique_skills": 2545,
   "target": 5000,
-  "remaining": 2456,
+  "remaining": 2455,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -2975,6 +2975,12 @@
       "category": "Curated: nexora-simulation-ai",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-authoritative-combat-resolution/SKILL.md"
+    },
+    {
+      "name": "nexora-character-moving-platform-velocity-inheritance",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-character-moving-platform-velocity-inheritance/SKILL.md"
     },
     {
       "name": "nexora-chunk-simulation-activation",
