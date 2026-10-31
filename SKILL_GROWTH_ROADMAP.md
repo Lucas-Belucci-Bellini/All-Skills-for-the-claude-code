@@ -1,9 +1,9 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,560 distinct skills (2,560 authored + 0 retained/imported)
+**Current draft inventory:** 2,561 distinct skills (2,561 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,440
+**Remaining to long-term target:** 2,439
 **Current milestone:** 2,558 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
@@ -89,6 +89,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2536 | 2536 | Adds a NEXORA MemoryLedger reporting workflow for owner-per-byte accounting, pressure thresholds, high-water/refusal interpretation, at-rest leak semantics, and poisoned-report caveats; no runtime change is claimed |
 | 2559 | 2559 | Adds the NEXORA long-session streaming residency soak workflow for pin ownership, residency convergence, budget pressure, byte accounting and failure-retention diagnostics; runtime soak execution remains pending |
 | 2560 | 2560 | Adds a focused NEXORA world reproduction-key completeness workflow for canonical inputs, mod manifests, stable fingerprints and save/load round trips; runtime persistence changes remain unimplemented |
+| 2561 | 2561 | Adds NEXORA temporal LOD catch-up and rehydration checks for FULL/REGIONAL/ABSTRACT state, authoritative world-time watermarks, bounded catch-up and idempotent transitions; runtime catch-up remains unimplemented/unverified |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -663,5 +664,13 @@ Added a source-grounded workflow for character movement relative to kinematic su
 - Records the current hard-coded content version and empty mod list as source observations, not as a claim that every omitted value already changes terrain.
 - Documentation/skill delivery only; no NEXORA runtime code, save schema or multiplayer behavior was changed or tested.
 
-**Current draft inventory:** 2,560 distinct skills (2,560 authored + 0 retained/imported)
-**Remaining to long-term target:** 2,440
+## Batch 2,561 — NEXORA temporal LOD offline catch-up (2026-10-31)
+
+- Added `nexora-temporal-lod-offline-catchup` under `curated-skill-sources/nexora-simulation-ai/`.
+- Grounded in NEXORA snapshot `92cc410999c05b0afcb8210c3d8bd4cdbec33d9e`, especially the Entity System sleep/wake, scheduler and temporal LOD sections; Mob Ecology FULL/REGIONAL/ABSTRACT and event-driven AI cadence; Climate regional weather aggregation; and the authoritative World Time contract.
+- Defines subsystem-specific catch-up, world-time watermarks, bounded/resumable processing, event coalescing, no-double-advance handoff and deterministic rehydration.
+- Explicitly records that the reviewed documents do not prove a complete runtime catch-up algorithm or persisted checkpoint schema.
+- Skill/documentation delivery only; no NEXORA runtime code or simulation behavior was changed or tested.
+
+**Current draft inventory:** 2,561 distinct skills (2,561 authored + 0 retained/imported)
+**Remaining to long-term target:** 2,439
