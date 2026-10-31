@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,561 distinct skills (2,561 authored + 0 retained/imported)
+**Current draft inventory:** 2,562 distinct skills (2,562 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,439
-**Current milestone:** 2,558 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,438
+**Current milestone:** 2,562 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -674,3 +674,14 @@ Added a source-grounded workflow for character movement relative to kinematic su
 
 **Current draft inventory:** 2,561 distinct skills (2,561 authored + 0 retained/imported)
 **Remaining to long-term target:** 2,439
+
+## Batch 2,562 — NEXORA climate multiscale field coherence (2026-10-31)
+
+- Added `nexora-climate-multiscale-field-coherence` under `curated-skill-sources/nexora-worldgen-streaming/`.
+- Grounded in NEXORA `docs/plans/CLIMATE and ATMOSPHERE.md` (voxel/chunk/region/continent/planet scales and regional environmental fields), `docs/plans/TIME AND CALENDAR SYSTEM.md` (single world-time authority), and `engine/world/src/terrain.rs` (generator-v3 Q16 column climate fields).
+- Defines field ownership, aggregation semantics, intensive/extensive quantity handling, parent-child reconciliation, boundary continuity, LOD handoff, stale/missing data, schema versioning, and spatial-versus-temporal separation.
+- Explicitly distinguishes implemented generator-v3 column climate sampling from the planned multiresolution regional Climate Engine; no runtime capability is assumed.
+- Skill/documentation delivery only; no NEXORA runtime code or simulation behavior was changed or tested.
+
+**Current draft inventory:** 2,562 distinct skills (2,562 authored + 0 retained/imported)
+**Remaining to long-term target:** 2,438
