@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-31",
+  "batch_size": 1,
+  "milestone_total": 2564,
+  "long_term_target": 5000,
+  "authored_count": 2564,
+  "retained_count": 0,
+  "plugin_version": "2.1.83",
+  "skills": [
+    {
+      "name": "nexora-gamepad-host-signal-adapter",
+      "source_path": "curated-skill-sources/nexora-platform-compatibility/nexora-gamepad-host-signal-adapter/SKILL.md",
+      "category": "Curated: nexora-platform-compatibility"
+    }
+  ]
+}
