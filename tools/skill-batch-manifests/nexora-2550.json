@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30",
+  "batch_size": 1,
+  "milestone_total": 2550,
+  "long_term_target": 5000,
+  "authored_count": 2550,
+  "retained_count": 0,
+  "plugin_version": "2.1.68",
+  "skills": [
+    {
+      "name": "nexora-streaming-failed-operation-budget-accounting",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-streaming-failed-operation-budget-accounting/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    }
+  ]
+}
