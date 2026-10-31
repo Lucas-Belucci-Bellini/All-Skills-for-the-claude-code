@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-31. The unified bundle contains 2561 distinct skills.
+Updated: 2026-10-31. The unified bundle contains 2562 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2561**
-- Current total: **2561**
+- Original curated skills: **2562**
+- Current total: **2562**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,439**
+- Remaining to long-term target: **2,438**
 
 ## Categories
 
@@ -672,7 +672,7 @@ Updated: 2026-10-31. The unified bundle contains 2561 distinct skills.
 - nexora-world-save-privacy-export — NEW
 - nexora-world-snapshot-consistency — NEW
 
-### Curated: nexora-worldgen-streaming (21)
+### Curated: nexora-worldgen-streaming (22)
 
 - nexora-biome-climate-weight-blending — NEW
 - nexora-chunk-lighting-propagation-budget — NEW
@@ -680,6 +680,7 @@ Updated: 2026-10-31. The unified bundle contains 2561 distinct skills.
 - nexora-chunk-priority-fairness — NEW
 - nexora-chunk-streaming-hysteresis — NEW
 - nexora-climate-lattice-sample-reuse — NEW
+- nexora-climate-multiscale-field-coherence — NEW
 - nexora-stream-handle-pin-lifecycle — NEW
 - nexora-streaming-byte-budget-post-activation-shedding — NEW
 - nexora-streaming-failed-operation-budget-accounting — NEW
