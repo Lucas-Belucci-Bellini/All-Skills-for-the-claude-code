@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-31",
-  "unique_skills": 2551,
+  "unique_skills": 2552,
   "target": 5000,
-  "remaining": 2449,
+  "remaining": 2448,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -3281,6 +3281,12 @@
       "category": "Curated: nexora-testing-tooling",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-testing-tooling/nexora-test-isolation-contract/SKILL.md"
+    },
+    {
+      "name": "nexora-hotbar-slot-selection-and-placement-identity",
+      "category": "Curated: nexora-ui-engineering",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-ui-engineering/nexora-hotbar-slot-selection-and-placement-identity/SKILL.md"
     },
     {
       "name": "nexora-native-ui-design-to-code",

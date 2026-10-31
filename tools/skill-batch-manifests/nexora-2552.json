@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-31",
+  "batch_size": 1,
+  "milestone_total": 2552,
+  "long_term_target": 5000,
+  "authored_count": 2552,
+  "retained_count": 0,
+  "plugin_version": "2.1.71",
+  "skills": [
+    {
+      "name": "nexora-hotbar-slot-selection-and-placement-identity",
+      "source_path": "curated-skill-sources/nexora-ui-engineering/nexora-hotbar-slot-selection-and-placement-identity/SKILL.md",
+      "category": "Curated: nexora-ui-engineering"
+    }
+  ]
+}
