@@ -6,7 +6,7 @@
   "long_term_target": 5000,
   "authored_count": 2543,
   "retained_count": 0,
-  "plugin_version": "2.1.60",
+  "plugin_version": "2.1.61",
   "skills": [
     {
       "name": "nexora-physics-body-pair-sweep-ccd",
