@@ -1,6 +1,6 @@
 # Skill Library Catalog
 
-Updated: 2026-10-31. The unified bundle contains 2554 distinct skills.
+Updated: 2026-10-31. The unified bundle contains 2555 distinct skills.
 
 ## Inventory summary
 
@@ -8,7 +8,7 @@ Updated: 2026-10-31. The unified bundle contains 2554 distinct skills.
 - Original curated skills: **2554**
 - Current total: **2554**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,446**
+- Remaining to long-term target: **2,445**
 
 ## Categories
 
@@ -2733,6 +2733,10 @@ Updated: 2026-10-31. The unified bundle contains 2554 distinct skills.
 - ai-sdk-tracing-span-cardinality — NEW
 - ai-sdk-untrusted-tool-result-delimiting — NEW
 - ai-sdk-user-session-scope — NEW
+
+### Curated: nexora-digital-logic (1)
+
+- nexora-digital-logic-library-integration-audit — NEW
 
 ## Source-of-truth rules
 
