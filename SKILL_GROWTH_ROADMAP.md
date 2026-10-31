@@ -478,6 +478,7 @@ Added four source-grounded workflows for Texture Forge manifest inheritance and 
 | 2540 | 2540 | Adds a NEXORA frame-time regression triage workflow for pinned baseline/candidate builds, controlled workloads, tail-percentile comparison, honest metric separation and evidence-based release gates; runtime changes are not claimed |
 | 2541 | 2541 | Adds a NEXORA profiler-overhead calibration workflow for measuring observer effect, sampling/event density, trace-buffer pressure, event loss, timestamp integrity and capture-versus-export cost; no runtime changes or calibration results are claimed |
 | 2542 | 2542 | Adds a NEXORA allocator-fragmentation attribution workflow to separate live allocations, allocator-retained pages, caches, fragmentation and leaks across reproducible lifecycle workloads; no allocator changes or benchmark results are claimed |
+| 2543 | 2543 | Adds a NEXORA body-pair continuous collision workflow to distinguish end-of-substep AABB overlap from swept body-pair contact, preserving deterministic broadphase ordering, voxel authority and bounded solver cost; no runtime CCD implementation or test result is claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
