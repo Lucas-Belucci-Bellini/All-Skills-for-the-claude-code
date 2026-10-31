@@ -654,12 +654,13 @@ Updated: 2026-10-31. The unified bundle contains 2565 distinct skills.
 - nexora-test-failure-classification — NEW
 - nexora-test-isolation-contract — NEW
 
-### Curated: nexora-ui-engineering (4)
+### Curated: nexora-ui-engineering (5)
 
 - nexora-hotbar-slot-selection-and-placement-identity — NEW
 - nexora-native-ui-design-to-code — NEW
 - nexora-native-ui-focus-navigation-contract — NEW
 - nexora-native-ui-layout-scale-contract — NEW
+- nexora-accessibility-caption-event-localization-contract — NEW
 
 ### Curated: nexora-world-safety (10)
 
