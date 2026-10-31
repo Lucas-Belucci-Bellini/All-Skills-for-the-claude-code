@@ -2738,7 +2738,7 @@ Updated: 2026-10-31. The unified bundle contains 2557 distinct skills.
 
 - nexora-digital-logic-library-integration-audit — NEW
 
-### Curated: nexora-machine-automation (1)
+### Curated: nexora-machine-automation (2)
 
 - nexora-machine-logic-graph-contract — NEW
 - nexora-energy-network-transaction-contract — NEW
