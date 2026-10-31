@@ -59,6 +59,7 @@ on:
       - feat/nexora-energy-network-transaction-contract-2557-2026-10-31
       - feat/nexora-windows-portable-client-package-closure-2563-2026-10-31
       - feat/nexora-gamepad-host-signal-adapter-2564-2026-10-31
+      - feat/nexora-accessibility-caption-localization-contract-2565-2026-10-31
   pull_request:
     branches:
       - main
@@ -297,6 +298,10 @@ jobs:
       - name: Validate NEXORA 2,564-skill gamepad host signal adapter batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-gamepad-host-signal-adapter-2564-2026-10-31' || github.head_ref == 'feat/nexora-gamepad-host-signal-adapter-2564-2026-10-31'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2564.json
+
+      - name: Validate NEXORA 2,565-skill accessibility caption localization batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-accessibility-caption-localization-contract-2565-2026-10-31' || github.head_ref == 'feat/nexora-accessibility-caption-localization-contract-2565-2026-10-31'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2565.json
 
       - name: Validate latest NEXORA batch manifest and complete catalog
         if: (github.event_name == 'pull_request' && github.base_ref == 'main') || github.ref_name == 'main'

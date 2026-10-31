@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-31. The unified bundle contains 2564 distinct skills.
+Updated: 2026-10-31. The unified bundle contains 2565 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2564**
-- Current total: **2563**
+- Original curated skills: **2565**
+- Current total: **2565**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,436**
+- Remaining to long-term target: **2,435**
 
 ## Categories
 
@@ -457,7 +457,7 @@ Updated: 2026-10-31. The unified bundle contains 2564 distinct skills.
 - nexora-platform-threading-capability — NEW
 - nexora-gamepad-host-signal-adapter — NEW
 
-### Curated: nexora-release-operations (10)
+### Curated: nexora-release-operations (11)
 
 - nexora-config-defaults-drift-audit — NEW
 - nexora-engine-upgrade-smoke-suite — NEW
@@ -654,12 +654,13 @@ Updated: 2026-10-31. The unified bundle contains 2564 distinct skills.
 - nexora-test-failure-classification — NEW
 - nexora-test-isolation-contract — NEW
 
-### Curated: nexora-ui-engineering (4)
+### Curated: nexora-ui-engineering (5)
 
 - nexora-hotbar-slot-selection-and-placement-identity — NEW
 - nexora-native-ui-design-to-code — NEW
 - nexora-native-ui-focus-navigation-contract — NEW
 - nexora-native-ui-layout-scale-contract — NEW
+- nexora-accessibility-caption-event-localization-contract — NEW
 
 ### Curated: nexora-world-safety (10)
 
