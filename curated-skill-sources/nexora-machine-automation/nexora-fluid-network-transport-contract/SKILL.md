@@ -71,6 +71,21 @@ Produce a reviewable fluid-network contract or implementation plan containing:
 - Test matrix with named invariants and actual execution results.
 - Explicit gaps between the current repository state and the proposed design.
 
+## Trigger examples
+
+### Positive examples
+
+- Design the NEXORA fluid network contract for pumps, pipes, tanks, and machine fluid ports.
+- Review whether a fluid transfer is deterministic, capacity-safe, atomic, and conserved.
+- Specify how fluid network topology rebuilds after a pipe is removed or a chunk unloads.
+
+### Negative examples
+
+- Implement a new fluid simulation solver or tune numerical stability. Use the existing fluid simulation stability workflow and Fluid Engine ownership instead.
+- Create an energy network transfer contract. Use the NEXORA energy network transaction skill.
+- Build a generic item conveyor or storage-routing network. Use the relevant logistics/item-transport workflow.
+- Claim the NEXORA fluid network is implemented because a plan exists. Require code and test evidence.
+
 ## Boundaries and failure handling
 
 - Do not create a second Fluid Engine, independent pressure solver, or parallel machine lifecycle.
