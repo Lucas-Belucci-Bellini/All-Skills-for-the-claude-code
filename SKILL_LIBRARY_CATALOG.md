@@ -457,7 +457,7 @@ Updated: 2026-10-31. The unified bundle contains 2565 distinct skills.
 - nexora-platform-threading-capability — NEW
 - nexora-gamepad-host-signal-adapter — NEW
 
-### Curated: nexora-release-operations (10)
+### Curated: nexora-release-operations (11)
 
 - nexora-config-defaults-drift-audit — NEW
 - nexora-engine-upgrade-smoke-suite — NEW
