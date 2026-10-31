@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,541 distinct skills (2,541 authored + 0 retained/imported)
+**Current draft inventory:** 2,542 distinct skills (2,542 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,459
-**Current milestone:** 2,541 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, scheduling and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,458
+**Current milestone:** 2,542 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, scheduling and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -477,6 +477,7 @@ Added four source-grounded workflows for Texture Forge manifest inheritance and 
 | 2539 | 2539 | Adds a NEXORA Job Queue admission budget workflow for explicit pending capacity, producer backpressure, batch admission semantics, critical-capacity protection and overload observability; runtime changes are not claimed |
 | 2540 | 2540 | Adds a NEXORA frame-time regression triage workflow for pinned baseline/candidate builds, controlled workloads, tail-percentile comparison, honest metric separation and evidence-based release gates; runtime changes are not claimed |
 | 2541 | 2541 | Adds a NEXORA profiler-overhead calibration workflow for measuring observer effect, sampling/event density, trace-buffer pressure, event loss, timestamp integrity and capture-versus-export cost; no runtime changes or calibration results are claimed |
+| 2542 | 2542 | Adds a NEXORA allocator-fragmentation attribution workflow to separate live allocations, allocator-retained pages, caches, fragmentation and leaks across reproducible lifecycle workloads; no allocator changes or benchmark results are claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
@@ -494,3 +495,8 @@ Added a repeatable before/after performance gate for clean baseline and candidat
 ## Batch 2,541 — NEXORA profiler overhead calibration (2026-10-30)
 
 Added a measurement-quality workflow that calibrates the observer effect of profiling, tracing, counters, allocation tracking and GPU timing. It compares instrumentation tiers against a matched baseline, separates capture from export/symbolization, checks buffer bounds and event loss, validates clocks, and reports the performance cost alongside diagnostic fidelity. It does not assume a specific profiler backend exists and does not claim that calibration was run.
+
+
+## Batch 2,542 — NEXORA allocator fragmentation attribution (2026-10-30)
+
+Added a source-agnostic but NEXORA-specific diagnostic protocol to distinguish live allocations, retained free pages, internal/external fragmentation, cache capacity and genuine leaks. It correlates allocator statistics with subsystem ownership and MemoryLedger reports without treating the ledger as allocator introspection. It requires bounded arena/pool lifetimes, matched churn experiments, and memory plus p95/p99 latency evidence; no allocator implementation change or benchmark result is claimed.
