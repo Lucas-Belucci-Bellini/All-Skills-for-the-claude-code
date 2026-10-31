@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,548 distinct skills (2,548 authored + 0 retained/imported)
+**Current draft inventory:** 2,549 distinct skills (2,549 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,452
-**Current milestone:** 2,548 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, scheduling and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,451
+**Current milestone:** 2,549 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, scheduling and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -484,6 +484,7 @@ Added four source-grounded workflows for Texture Forge manifest inheritance and 
 | 2546 | 2546 | Adds a NEXORA streaming backend-failure retention workflow distinguishing per-tick failures, retained diagnostics, dropped details and drain semantics; no runtime changes are claimed |
 | 2547 | 2547 | Adds a NEXORA streaming interest-source admission workflow for the 256-source cap, stable ID updates, rejection atomicity, removal and reconnect semantics; no runtime changes are claimed |
 | 2548 | 2548 | Adds a NEXORA multi-source streaming candidate-amplification workflow with overlap-aware candidate counts and theoretical source-scan bounds; no runtime changes or benchmark gains are claimed |
+| 2549 | 2549 | Adds a NEXORA StreamingReport interpretation workflow separating quiet state, budget saturation, backend failures, deferred work and persistence outcomes; no runtime changes are claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
@@ -546,3 +547,11 @@ Added a source-grounded workflow for character movement relative to kinematic su
 - Distinguishes raw per-source coordinate insertions, unique candidates after BTreeSet deduplication, tracked/pinned candidates, and candidate/source visits in the scoring loop.
 - The 16,646,400-candidate and 4,261,478,400 candidate/source-visit values are explicitly theoretical structural bounds, not benchmark results.
 - This is a skill/documentation delivery only. No NEXORA runtime code or runtime performance tests are claimed.
+
+
+## Batch 2,549 — NEXORA streaming report outcome classification (2026-10-30)
+
+- Added `nexora-streaming-report-outcome-classification` under `curated-skill-sources/nexora-worldgen-streaming/`.
+- Grounded in NEXORA snapshot `19486829d18bd864fea00cac0711f519a5c07a70`, especially `StreamingReport::is_quiet()` and `is_saturated()` in `engine/streaming/src/budget.rs` and their consumers/tests in `system.rs`.
+- Separates state transitions, backend failures, budget pressure, persistence and end-of-tick state. Quiet is explicitly not treated as a health or completion signal.
+- This is a skill/documentation delivery only. No NEXORA runtime code or runtime tests are claimed.
