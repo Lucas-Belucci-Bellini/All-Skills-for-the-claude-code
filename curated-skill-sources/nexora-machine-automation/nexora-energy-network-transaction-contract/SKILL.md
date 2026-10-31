@@ -11,7 +11,7 @@ Use this skill to design or review energy transfer between generators, storage, 
 
 This is an architecture and implementation-readiness skill. The current Machine and Automation plan describes these concepts, but a plan is not evidence that an energy network is implemented.
 
-## Required evidence
+## Required inputs
 
 - Pinned NEXORA commit and current Machine and Automation plan.
 - Existing resource, inventory, machine lifecycle, command, world-clock, persistence, and simulation ownership contracts.
@@ -114,6 +114,31 @@ Define stable outcomes for insufficient supply, full destination, rate limit, di
 
 Expose counters or traces for requested/delivered energy, losses by category, rejected transfers by reason, reservation rollbacks, per-priority unmet demand, and network work budget. Observability must not mutate simulation state or change allocation order.
 
+## Validation checklist
+
+- [ ] Existing resource, machine, command, clock, save, and network contracts are inspected.
+- [ ] Energy units, rate units, numeric representation, conversions, rounding, and overflow are explicit.
+- [ ] Transfer reservation, commit, rollback, and duplicate handling are atomic.
+- [ ] Conservation reconciles source debit, destination credit, and every loss category.
+- [ ] Source/destination capacity and per-tick rate limits cannot be exceeded.
+- [ ] Priority, fairness, and starvation behavior are deterministic.
+- [ ] Path selection and topology versioning are deterministic and bounded.
+- [ ] Save/load and replay preserve state that influences future allocation.
+- [ ] Multiplayer authority and replication boundaries are explicit.
+- [ ] Tests cover conservation, rounding, overflow, rollback, fairness, topology changes, replay, and persistence.
+- [ ] No implementation or test is claimed unless it was actually changed and executed.
+
+## Required output
+
+1. Evidence map for existing, accepted, planned, and unknown machine/resource contracts.
+2. Canonical energy unit and numeric/rate representation.
+3. Transaction state machine and atomic reservation/rollback design.
+4. Conservation equation and loss-accounting example.
+5. Deterministic priority/fairness allocation policy.
+6. Topology/path/loss rules and bounded-work limits.
+7. Persistence, replay, multiplayer, and observability decisions.
+8. ADR draft, test matrix, executed commands/results, and remaining risks.
+
 ## Workflow
 
 1. Pin NEXORA and inspect the live source tree plus the current machine plan and relevant architecture decisions.
@@ -156,7 +181,7 @@ Expose counters or traces for requested/delivered energy, losses by category, re
 7. Persistence, replay, multiplayer, and observability decisions.
 8. ADR draft, test matrix, executed commands/results, and remaining risks.
 
-## Boundaries
+## Boundaries and failure handling
 
 - Do not create a parallel resource, machine, scheduler, or network runtime.
 - Do not use wall-clock time or nondeterministic iteration for authoritative allocation.
