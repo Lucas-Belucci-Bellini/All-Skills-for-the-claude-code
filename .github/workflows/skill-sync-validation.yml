@@ -279,3 +279,13 @@ jobs:
       - name: Validate current catalog manifest and source/bundle parity
         if: github.ref_name == 'feat/all-skills-consolidated-2026' || github.head_ref == 'feat/all-skills-consolidated-2026' || github.base_ref == 'feat/all-skills-consolidated-2026' || github.head_ref == 'cleanup/remove-retained-imported-skills-2026-10-30' || github.head_ref == 'fix/2500-catalog-validation-routing-2026-10-30' || github.ref_name == 'fix/2500-catalog-validation-routing-2026-10-30' || github.head_ref == 'feat/nexora-stream-handle-lifecycle-2026-10-30' || github.ref_name == 'feat/nexora-stream-handle-lifecycle-2026-10-30' || github.head_ref == 'feat/nexora-climate-lattice-reuse-2026-10-30' || github.ref_name == 'feat/nexora-climate-lattice-reuse-2026-10-30' || github.head_ref == 'feat/nexora-biome-climate-weight-blending-2026-10-30' || github.ref_name == 'feat/nexora-biome-climate-weight-blending-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2505.json
+
+      - name: Validate latest NEXORA batch manifest and complete catalog
+        if: (github.event_name == 'pull_request' && github.base_ref == 'main') || github.ref_name == 'main'
+        shell: bash
+        run: |
+          set -euo pipefail
+          latest_manifest="$(find tools/skill-batch-manifests -maxdepth 1 -type f -name 'nexora-*.json' -print | sort -V | tail -n 1)"
+          test -n "$latest_manifest"
+          echo "Validating latest NEXORA manifest: $latest_manifest"
+          node tools/validate-skill-batch.mjs "$latest_manifest"

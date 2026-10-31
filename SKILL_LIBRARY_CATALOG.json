@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-30",
-  "unique_skills": 2539,
+  "unique_skills": 2541,
   "target": 5000,
-  "remaining": 2461,
+  "remaining": 2459,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -2161,6 +2161,12 @@
       "source_path": "curated-skill-sources/nexora-performance-memory/nexora-frame-allocation-budget/SKILL.md"
     },
     {
+      "name": "nexora-frame-time-regression-triage",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-frame-time-regression-triage/SKILL.md"
+    },
+    {
       "name": "nexora-gpu-frame-timing-evidence",
       "category": "Curated: nexora-performance-memory",
       "origin": "new-authored",
@@ -2213,6 +2219,12 @@
       "category": "Curated: nexora-performance-memory",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-performance-memory/nexora-memory-ledger-pressure-reporting/SKILL.md"
+    },
+    {
+      "name": "nexora-profiler-overhead-calibration",
+      "category": "Curated: nexora-performance-memory",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-performance-memory/nexora-profiler-overhead-calibration/SKILL.md"
     },
     {
       "name": "nexora-task-priority-inversion-audit",
