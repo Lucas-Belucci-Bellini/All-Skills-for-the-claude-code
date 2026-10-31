@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,554 distinct skills (2,554 authored + 0 retained/imported)
+**Current draft inventory:** 2,555 distinct skills (2,555 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,446
-**Current milestone:** 2,554 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,445
+**Current milestone:** 2,555 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -490,6 +490,7 @@ Added four source-grounded workflows for Texture Forge manifest inheritance and 
 | 2552 | 2552 | Adds a NEXORA nine-slot hotbar workflow for deterministic keyboard/wheel selection, stable content identity and validated block placement; no runtime changes are claimed |
 | 2553 | 2553 | Adds a NEXORA pointer-look workflow for relative motion, deterministic replay, cursor-capture lifecycle and crosshair/raycast alignment; no runtime changes are claimed |
 | 2554 | 2554 | Adds a NEXORA texture art-direction audit for detail hierarchy, material readability, palette/noise discipline, and cross-family coherence; no PNG inspection or asset changes are claimed |
+| 2555 | 2555 | Adds a NEXORA digital-logic library audit for evidence-backed chip classification, licensing, architecture fit, deterministic timing, persistence and test requirements; no UMBRA code or engine integration is claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
@@ -603,3 +604,12 @@ Added a source-grounded workflow for character movement relative to kinematic su
 - Reuses Texture Forge build-plan, seam-review, PBR bridge, provenance, and importer-golden workflows rather than duplicating them.
 - Explicitly forbids claims about inaccessible images and prohibits copying third-party textures; existing good assets should be preserved.
 - This is a skill/documentation delivery only. No NEXORA PNGs were inspected or modified, and no runtime or visual test results are claimed.
+
+
+## Batch 2,555 — NEXORA digital-logic library integration audit (2026-10-31)
+
+- Added `nexora-digital-logic-library-integration-audit` under `curated-skill-sources/nexora-digital-logic/`.
+- Defines an evidence-first audit for external chip libraries against NEXORA's existing signal, bus, clock, timing, persistence, determinism, and modding contracts.
+- Adds the eight required component classifications and a license/provenance gate; public availability is not treated as permission to copy.
+- Requires truth-table, sequential, timing, determinism, persistence, property, integration, and performance tests where applicable.
+- This is a skill/documentation delivery only. The UMBRA-LIMA-ALFA README/license and NEXORA implementation were not independently inspected in this task; no chip code was copied, no engine code was changed, and no runtime integration is claimed.
