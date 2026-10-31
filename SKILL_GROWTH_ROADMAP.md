@@ -1,9 +1,9 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,564 distinct skills (2,564 authored + 0 retained/imported)
+**Current draft inventory:** 2,565 distinct skills (2,565 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,436
+**Remaining to long-term target:** 2,435
 **Current milestone:** 2,564 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
@@ -692,3 +692,12 @@ Added a source-grounded workflow for character movement relative to kinematic su
 ## Batch 2,564 — NEXORA gamepad host signal adapter (2026-10-31)
 
 Adds a host-boundary workflow for translating physical controller events into the existing runtime input signal contract. It does not add a gamepad backend or claim physical controller support; backend selection and hardware validation remain future implementation work.
+
+
+## Batch 2,565 — NEXORA accessibility caption event localization contract (2026-10-31)
+
+- Added `nexora-accessibility-caption-event-localization-contract` under `curated-skill-sources/nexora-ui-engineering/`.
+- Grounded in NEXORA's Accessibility System, Audio System, and Localization System plans: semantic gameplay/world facts may drive captions and cues; locale-specific strings remain presentation; accessibility preferences must not change authoritative simulation.
+- Defines a bounded semantic event envelope, stable localized caption keys, typed formatting arguments, locale fallback, deterministic ordering/coalescing, multiplayer/replay privacy, presentation-only preferences, and a focused validation matrix.
+- Reviewed generic accessibility, localization fallback, audio clock/device/spatialization/voice-budget, and live-region skills; this workflow is specific to NEXORA's semantic gameplay-caption integration boundary.
+- Plan-level skill delivery only. No NEXORA caption renderer, audio engine, localization runtime, or accessibility subsystem was implemented or tested.
