@@ -25,6 +25,17 @@ This is an audit and integration-planning workflow. It does not claim that UMBRA
 
 If any required repository cannot be read, stop the corresponding audit and produce an explicit blocked/incomplete report. Never fill missing evidence with assumptions.
 
+## Required inputs
+
+- Exact commit SHA and repository URL for NEXORA and the external library.
+- Full source-tree access, including documentation, package manifests, tests, and every applicable LICENSE/NOTICE file.
+- NEXORA's current logic/signal/bus/clock/timing contracts and the existing component catalog.
+- Target use cases, supported platforms, performance budgets, and modding/persistence requirements.
+- A list of candidate chips with source paths and behavioral evidence; names alone are insufficient.
+- The intended distribution and modification model so license compatibility can be evaluated accurately.
+
+If any item is unavailable, record it as blocked and narrow the conclusion. Do not substitute assumptions or repository metadata for missing source evidence.
+
 ## Audit A — external library
 
 Inspect and record:
