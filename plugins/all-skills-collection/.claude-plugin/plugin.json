@@ -1,7 +1,7 @@
 {
   "name": "all-skills-collection",
-  "version": "2.1.74",
-  "description": "A generated collection of 2555 distinct skills, all authored, covering all 31 profile languages and specialist engineering workflows.",
+  "version": "2.1.75",
+  "description": "A generated collection of 2556 distinct skills, all authored, covering all 31 profile languages and specialist engineering workflows.",
   "author": {
     "name": "Lucas-Belucci-Bellini"
   },
@@ -89,6 +89,10 @@
     "circuit-simulation",
     "truth-tables",
     "chip-library",
-    "deterministic-simulation"
+    "deterministic-simulation",
+    "machine-automation",
+    "logic-graph",
+    "typed-signals",
+    "deterministic-control"
   ]
 }
