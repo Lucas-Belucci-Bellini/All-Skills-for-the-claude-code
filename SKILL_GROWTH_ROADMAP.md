@@ -1,9 +1,9 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,563 distinct skills (2,563 authored + 0 retained/imported)
+**Current draft inventory:** 2,564 distinct skills (2,564 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,437
+**Remaining to long-term target:** 2,436
 **Current milestone:** 2,563 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
@@ -92,6 +92,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2561 | 2561 | Adds NEXORA temporal LOD catch-up and rehydration checks for FULL/REGIONAL/ABSTRACT state, authoritative world-time watermarks, bounded catch-up and idempotent transitions; runtime catch-up remains unimplemented/unverified |
 | 2562 | 2562 | Adds NEXORA multiscale climate-field coherence: field ownership, aggregation semantics, region boundaries, LOD handoff and bounded storage; regional climate runtime remains planned/unverified |
 | 2563 | 2563 | Adds Windows portable-client package closure: archive dependencies, launcher paths, clean-machine execution and save persistence |
+| 2564 | 2564 | Adds a NEXORA host-side gamepad adapter contract: stable logical controls, analog normalization, ordered per-frame signals, disconnect handling and physical-device conformance evidence |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -687,3 +688,7 @@ Added a source-grounded workflow for character movement relative to kinematic su
 
 **Current draft inventory:** 2,563 distinct skills (2,563 authored + 0 retained/imported)
 **Remaining to long-term target:** 2,437
+
+## Batch 2,564 — NEXORA gamepad host signal adapter (2026-10-31)
+
+Adds a host-boundary workflow for translating physical controller events into the existing runtime input signal contract. It does not add a gamepad backend or claim physical controller support; backend selection and hardware validation remain future implementation work.
