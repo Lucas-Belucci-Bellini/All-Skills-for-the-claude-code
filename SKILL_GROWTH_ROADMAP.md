@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,543 distinct skills (2,543 authored + 0 retained/imported)
+**Current draft inventory:** 2,544 distinct skills (2,544 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,457
-**Current milestone:** 2,543 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, scheduling and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,456
+**Current milestone:** 2,544 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, scheduling and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -479,6 +479,7 @@ Added four source-grounded workflows for Texture Forge manifest inheritance and 
 | 2541 | 2541 | Adds a NEXORA profiler-overhead calibration workflow for measuring observer effect, sampling/event density, trace-buffer pressure, event loss, timestamp integrity and capture-versus-export cost; no runtime changes or calibration results are claimed |
 | 2542 | 2542 | Adds a NEXORA allocator-fragmentation attribution workflow to separate live allocations, allocator-retained pages, caches, fragmentation and leaks across reproducible lifecycle workloads; no allocator changes or benchmark results are claimed |
 | 2543 | 2543 | Adds a NEXORA body-pair continuous collision workflow to distinguish end-of-substep AABB overlap from swept body-pair contact, preserving deterministic broadphase ordering, voxel authority and bounded solver cost; no runtime CCD implementation or test result is claimed |
+| 2544 | 2544 | Adds a NEXORA physics StepReport overload-accounting workflow to reconcile executed work, dropped full substeps, discarded fractional remainder and telemetry semantics; no runtime telemetry or engine changes are claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
@@ -506,3 +507,8 @@ Added a source-agnostic but NEXORA-specific diagnostic protocol to distinguish l
 ## Batch 2,543 — NEXORA body-pair continuous collision detection (2026-10-30)
 
 Added a source-grounded workflow for the documented gap between voxel-terrain sweeps and body-pair collision: the current pair pass detects overlap from end-of-substep AABBs, so fast bodies can cross without being detected. The skill focuses on swept candidate generation, time-of-impact evidence, deterministic ordering, voxel authority, wake semantics and bounded solver cost. It does not claim body-pair CCD is implemented or that engine tests/benchmarks were run.
+
+
+## Batch 2,544 — NEXORA physics StepReport overload accounting (2026-10-31)
+
+Added a source-grounded audit workflow for the boundary between the integer fixed-step accumulator and `PhysicsWorld::StepReport`. It distinguishes earned, executed and dropped substeps; identifies that the over-cap path clears fractional remainder not represented by the dropped-substep integer alone; keeps `StepStats` limited to work actually executed; and separates per-substep physics budgets from frame/GPU/presentation metrics. No runtime implementation, telemetry or benchmark result is claimed.
