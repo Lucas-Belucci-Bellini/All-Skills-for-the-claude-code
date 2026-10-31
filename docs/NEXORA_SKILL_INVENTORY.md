@@ -1,17 +1,17 @@
 # NEXORA Skill Inventory
 
 Updated: 2026-10-31  
-Catalog snapshot: 2562 distinct skills  
-NEXORA-related catalog entries: 358  
+Catalog snapshot: 2563 distinct skills  
+NEXORA-related catalog entries: 359  
 Scope: skills whose catalog name or category contains "NEXORA". This inventory lists skill assets in the All-Skills library; it does not mean the corresponding game feature is implemented in the NEXORA runtime.
 
 ## Summary
 
-- NEXORA-related skills: **358**
-- Catalog total: **2562**
+- NEXORA-related skills: **359**
+- Catalog total: **2563**
 - Long-term library target: **5000**
-- Remaining to library target: **2438**
-- Latest integrated skill: `nexora-climate-multiscale-field-coherence` (PR #262; merged after CI validation).
+- Remaining to library target: **2437**
+- Latest proposed skill: `nexora-windows-portable-client-package-closure` (PR pending validation).
 
 ## Inventory by category
 
@@ -217,7 +217,7 @@ Scope: skills whose catalog name or category contains "NEXORA". This inventory l
 - `nexora-platform-runtime-smoke-matrix`
 - `nexora-platform-threading-capability`
 
-### Curated: nexora-release-operations (10)
+### Curated: nexora-release-operations (11)
 
 - `nexora-config-defaults-drift-audit`
 - `nexora-engine-upgrade-smoke-suite`
@@ -229,6 +229,7 @@ Scope: skills whose catalog name or category contains "NEXORA". This inventory l
 - `nexora-release-rollback-plan`
 - `nexora-upgrade-preflight-report`
 - `nexora-world-format-support-matrix`
+- `nexora-windows-portable-client-package-closure`
 
 ### Curated: nexora-reliability (13)
 

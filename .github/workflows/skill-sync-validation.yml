@@ -57,6 +57,7 @@ on:
       - feat/nexora-digital-logic-audit-2555-2026-10-31
       - feat/nexora-machine-logic-graph-2556-2026-10-31
       - feat/nexora-energy-network-transaction-contract-2557-2026-10-31
+      - feat/nexora-windows-portable-client-package-closure-2563-2026-10-31
   pull_request:
     branches:
       - main
@@ -287,6 +288,10 @@ jobs:
       - name: Validate NEXORA 2,554-skill texture art-direction batch and source/bundle parity
         if: github.ref_name == 'feat/nexora-texture-detail-review-2554-2026-10-30' || github.head_ref == 'feat/nexora-texture-detail-review-2554-2026-10-30'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2554.json
+
+      - name: Validate NEXORA 2,563-skill Windows portable package closure batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-windows-portable-client-package-closure-2563-2026-10-31' || github.head_ref == 'feat/nexora-windows-portable-client-package-closure-2563-2026-10-31'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2563.json
 
       - name: Validate latest NEXORA batch manifest and complete catalog
         if: (github.event_name == 'pull_request' && github.base_ref == 'main') || github.ref_name == 'main'

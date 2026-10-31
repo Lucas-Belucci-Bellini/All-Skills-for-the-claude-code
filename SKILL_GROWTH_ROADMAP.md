@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,562 distinct skills (2,562 authored + 0 retained/imported)
+**Current draft inventory:** 2,563 distinct skills (2,563 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,438
-**Current milestone:** 2,562 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,437
+**Current milestone:** 2,563 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -91,6 +91,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2560 | 2560 | Adds a focused NEXORA world reproduction-key completeness workflow for canonical inputs, mod manifests, stable fingerprints and save/load round trips; runtime persistence changes remain unimplemented |
 | 2561 | 2561 | Adds NEXORA temporal LOD catch-up and rehydration checks for FULL/REGIONAL/ABSTRACT state, authoritative world-time watermarks, bounded catch-up and idempotent transitions; runtime catch-up remains unimplemented/unverified |
 | 2562 | 2562 | Adds NEXORA multiscale climate-field coherence: field ownership, aggregation semantics, region boundaries, LOD handoff and bounded storage; regional climate runtime remains planned/unverified |
+| 2563 | 2563 | Adds Windows portable-client package closure: archive dependencies, launcher paths, clean-machine execution and save persistence |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -673,10 +674,10 @@ Added a source-grounded workflow for character movement relative to kinematic su
 - Explicitly records that the reviewed documents do not prove a complete runtime catch-up algorithm or persisted checkpoint schema.
 - Skill/documentation delivery only; no NEXORA runtime code or simulation behavior was changed or tested.
 
-**Current draft inventory:** 2,562 distinct skills (2,562 authored + 0 retained/imported)
-**Remaining to long-term target:** 2,438
+**Current draft inventory:** 2,563 distinct skills (2,563 authored + 0 retained/imported)
+**Remaining to long-term target:** 2,437
 
-## Batch 2,562 — NEXORA climate multiscale field coherence (2026-10-31)
+## Batch 2,563 — NEXORA climate multiscale field coherence (2026-10-31)
 
 - Added `nexora-climate-multiscale-field-coherence` under `curated-skill-sources/nexora-worldgen-streaming/`.
 - Grounded in NEXORA `docs/plans/CLIMATE and ATMOSPHERE.md` (voxel/chunk/region/continent/planet scales and regional environmental fields), `docs/plans/TIME AND CALENDAR SYSTEM.md` (single world-time authority), and `engine/world/src/terrain.rs` (generator-v3 Q16 column climate fields).
@@ -684,5 +685,5 @@ Added a source-grounded workflow for character movement relative to kinematic su
 - Explicitly distinguishes implemented generator-v3 column climate sampling from the planned multiresolution regional Climate Engine; no runtime capability is assumed.
 - Skill/documentation delivery only; no NEXORA runtime code or simulation behavior was changed or tested.
 
-**Current draft inventory:** 2,562 distinct skills (2,562 authored + 0 retained/imported)
-**Remaining to long-term target:** 2,438
+**Current draft inventory:** 2,563 distinct skills (2,563 authored + 0 retained/imported)
+**Remaining to long-term target:** 2,437
