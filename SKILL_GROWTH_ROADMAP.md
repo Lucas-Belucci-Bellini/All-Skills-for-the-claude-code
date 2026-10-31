@@ -90,6 +90,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2559 | 2559 | Adds the NEXORA long-session streaming residency soak workflow for pin ownership, residency convergence, budget pressure, byte accounting and failure-retention diagnostics; runtime soak execution remains pending |
 | 2560 | 2560 | Adds a focused NEXORA world reproduction-key completeness workflow for canonical inputs, mod manifests, stable fingerprints and save/load round trips; runtime persistence changes remain unimplemented |
 | 2561 | 2561 | Adds NEXORA temporal LOD catch-up and rehydration checks for FULL/REGIONAL/ABSTRACT state, authoritative world-time watermarks, bounded catch-up and idempotent transitions; runtime catch-up remains unimplemented/unverified |
+| 2562 | 2562 | Adds NEXORA multiscale climate-field coherence: field ownership, aggregation semantics, region boundaries, LOD handoff and bounded storage; regional climate runtime remains planned/unverified |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
