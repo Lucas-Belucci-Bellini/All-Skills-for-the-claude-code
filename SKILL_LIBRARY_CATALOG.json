@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-31",
-  "unique_skills": 2552,
+  "unique_skills": 2553,
   "target": 5000,
-  "remaining": 2448,
+  "remaining": 2447,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -2819,6 +2819,12 @@
       "category": "Curated: nexora-runtime-systems",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-constraint-solver-stability/SKILL.md"
+    },
+    {
+      "name": "nexora-first-person-pointer-motion-and-cursor-capture",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-first-person-pointer-motion-and-cursor-capture/SKILL.md"
     },
     {
       "name": "nexora-gameplay-tick-profiler",
