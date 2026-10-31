@@ -98,6 +98,18 @@ Do not label a component `COMPATÍVEL_PARA_INTEGRAÇÃO` until both semantic com
 8. Expose modding hooks only after input validation, resource budgets, versioning, and deterministic behavior are enforced.
 9. Avoid adding dependencies solely for catalog breadth. Evaluate binary size, compile time, runtime cost, license, maintenance, and target-platform support.
 
+## Validation checklist
+
+- [ ] Both repositories are pinned to exact commit SHAs.
+- [ ] Source tree, documentation, dependencies, tests, and license notices were inspected or explicitly marked unavailable.
+- [ ] NEXORA's existing logic, signal, bus, clock, timing, persistence, determinism, and modding contracts are mapped.
+- [ ] Every candidate chip has an evidence-backed classification and license status.
+- [ ] Duplicates are excluded and no parallel logic engine or scheduler is introduced.
+- [ ] Sequential and combinational semantics, reset, widths, and invalid-input behavior are defined.
+- [ ] Required truth-table, sequential, timing, determinism, persistence, and property tests are identified and executed where applicable.
+- [ ] Optional integration remains non-blocking for projects that do not use digital logic.
+- [ ] All unrun tests, unavailable files, and unresolved legal or technical risks are listed.
+
 ## Test strategy
 
 For every integrated or independently reimplemented component, select tests appropriate to its behavior:
@@ -113,7 +125,7 @@ For every integrated or independently reimplemented component, select tests appr
 
 Tests must exercise NEXORA's actual contracts. Upstream tests may be used as behavioral references only when their license permits; do not treat upstream green tests as proof that the NEXORA adapter works.
 
-## Safe execution sequence
+## Workflow
 
 1. Pin and audit both repositories.
 2. Verify license and provenance before copying or adapting any implementation.
@@ -146,6 +158,28 @@ Tests must exercise NEXORA's actual contracts. Upstream tests may be used as beh
 - If deterministic behavior cannot be demonstrated, do not expose the component to authoritative world state, saves, or multiplayer.
 - If a chip has no clear gameplay or simulation value, classify it as `FORA_DE_ESCOPO`.
 - If existing NEXORA behavior is equivalent, classify it as `DUPLICADO` or `EXISTENTE_NO_NEXORA`; do not inflate the catalog.
+
+## Required output
+
+1. External and NEXORA repository URLs with pinned commit SHAs.
+2. Evidence-backed audit notes with paths, symbols, tests, dependencies, and license findings.
+3. Consolidated chip catalog with one of the eight required classifications per candidate.
+4. Duplicate map and NEXORA existing-capability inventory.
+5. Copy/reimplement/block decision with provenance for every selected component.
+6. Architecture decision record covering adapter boundaries, timing, determinism, persistence, modding, and rollback.
+7. Component contracts and a test matrix mapped to actual test results.
+8. Commands executed, outcomes, performance evidence, unrun checks, and remaining risks.
+
+## Boundaries and failure handling
+
+- Never claim a repository, source file, test, or license was inspected unless it was actually accessible.
+- Never copy implementation code, tests, schemas, or assets while license and provenance are unresolved.
+- Do not treat repository visibility as permission to redistribute.
+- Do not duplicate an existing NEXORA component or add chips solely to increase counts.
+- Do not create a competing simulation engine, clock, scheduler, registry, or persistence format.
+- Do not expose non-deterministic components to authoritative world state, saves, or multiplayer.
+- Keep external library integration optional until compatibility and tests are proven.
+- Record blocked evidence and stop the affected integration path rather than guessing.
 
 ## Trigger examples
 
