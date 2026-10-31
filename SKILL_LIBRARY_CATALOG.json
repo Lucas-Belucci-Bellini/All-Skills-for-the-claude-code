@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-31",
-  "unique_skills": 2545,
+  "unique_skills": 2551,
   "target": 5000,
-  "remaining": 2455,
+  "remaining": 2449,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -2437,6 +2437,12 @@
       "source_path": "curated-skill-sources/nexora-reliability/nexora-save-write-ordering/SKILL.md"
     },
     {
+      "name": "nexora-streaming-failure-retention-accounting",
+      "category": "Curated: nexora-reliability",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-reliability/nexora-streaming-failure-retention-accounting/SKILL.md"
+    },
+    {
       "name": "nexora-telemetry-cardinality-budget",
       "category": "Curated: nexora-reliability",
       "origin": "new-authored",
@@ -2821,6 +2827,12 @@
       "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-gameplay-tick-profiler/SKILL.md"
     },
     {
+      "name": "nexora-physics-body-pair-sweep-ccd",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-body-pair-sweep-ccd/SKILL.md"
+    },
+    {
       "name": "nexora-physics-broadphase-budget",
       "category": "Curated: nexora-runtime-systems",
       "origin": "new-authored",
@@ -2831,6 +2843,12 @@
       "category": "Curated: nexora-runtime-systems",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-continuous-collision/SKILL.md"
+    },
+    {
+      "name": "nexora-physics-step-report-overload-accounting",
+      "category": "Curated: nexora-runtime-systems",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-step-report-overload-accounting/SKILL.md"
     },
     {
       "name": "nexora-crate-dependency-direction",
@@ -3385,10 +3403,40 @@
       "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-stream-handle-pin-lifecycle/SKILL.md"
     },
     {
+      "name": "nexora-streaming-byte-budget-post-activation-shedding",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-streaming-byte-budget-post-activation-shedding/SKILL.md"
+    },
+    {
+      "name": "nexora-streaming-failed-operation-budget-accounting",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-streaming-failed-operation-budget-accounting/SKILL.md"
+    },
+    {
+      "name": "nexora-streaming-interest-candidate-amplification",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-streaming-interest-candidate-amplification/SKILL.md"
+    },
+    {
+      "name": "nexora-streaming-interest-source-admission",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-streaming-interest-source-admission/SKILL.md"
+    },
+    {
       "name": "nexora-streaming-io-backpressure",
       "category": "Curated: nexora-worldgen-streaming",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-streaming-io-backpressure/SKILL.md"
+    },
+    {
+      "name": "nexora-streaming-report-outcome-classification",
+      "category": "Curated: nexora-worldgen-streaming",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-streaming-report-outcome-classification/SKILL.md"
     },
     {
       "name": "nexora-worldgen-column-work-budget",
@@ -15263,18 +15311,6 @@
       "category": "Vercel AI SDK & agent reliability",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/ai-sdk-agent-reliability/ai-sdk-user-session-scope/SKILL.md"
-    },
-    {
-      "name": "nexora-physics-body-pair-sweep-ccd",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-body-pair-sweep-ccd/SKILL.md"
-    },
-    {
-      "name": "nexora-physics-step-report-overload-accounting",
-      "category": "Curated: nexora-runtime-systems",
-      "origin": "new-authored",
-      "source_path": "curated-skill-sources/nexora-runtime-systems/nexora-physics-step-report-overload-accounting/SKILL.md"
     }
   ]
 }

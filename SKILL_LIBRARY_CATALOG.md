@@ -1,6 +1,6 @@
 # Skill Library Catalog
 
-Updated: 2026-10-30. The unified bundle contains 2551 distinct skills.
+Updated: 2026-10-31. The unified bundle contains 2551 distinct skills.
 
 ## Inventory summary
 
@@ -469,8 +469,8 @@ Updated: 2026-10-30. The unified bundle contains 2551 distinct skills.
 - nexora-plugin-failure-containment — NEW
 - nexora-release-artifact-reproducibility — NEW
 - nexora-save-recovery-generation-select — NEW
-- nexora-streaming-failure-retention-accounting — NEW
 - nexora-save-write-ordering — NEW
+- nexora-streaming-failure-retention-accounting — NEW
 - nexora-telemetry-cardinality-budget — NEW
 - nexora-untrusted-asset-parser-hardening — NEW
 - nexora-world-save-checksum-contract — NEW
@@ -547,10 +547,9 @@ Updated: 2026-10-30. The unified bundle contains 2551 distinct skills.
 - nexora-collision-shape-cache-identity — NEW
 - nexora-constraint-solver-stability — NEW
 - nexora-gameplay-tick-profiler — NEW
+- nexora-physics-body-pair-sweep-ccd — NEW
 - nexora-physics-broadphase-budget — NEW
 - nexora-physics-continuous-collision — NEW
-
-- nexora-physics-body-pair-sweep-ccd — NEW
 - nexora-physics-step-report-overload-accounting — NEW
 
 ### Curated: nexora-rust-architecture (10)
@@ -668,12 +667,12 @@ Updated: 2026-10-30. The unified bundle contains 2551 distinct skills.
 - nexora-chunk-streaming-hysteresis — NEW
 - nexora-climate-lattice-sample-reuse — NEW
 - nexora-stream-handle-pin-lifecycle — NEW
-- nexora-streaming-io-backpressure — NEW
-- nexora-streaming-interest-source-admission — NEW
-- nexora-streaming-interest-candidate-amplification — NEW
-- nexora-streaming-report-outcome-classification — NEW
-- nexora-streaming-failed-operation-budget-accounting — NEW
 - nexora-streaming-byte-budget-post-activation-shedding — NEW
+- nexora-streaming-failed-operation-budget-accounting — NEW
+- nexora-streaming-interest-candidate-amplification — NEW
+- nexora-streaming-interest-source-admission — NEW
+- nexora-streaming-io-backpressure — NEW
+- nexora-streaming-report-outcome-classification — NEW
 - nexora-worldgen-column-work-budget — NEW
 - nexora-worldgen-crash-reproduction — NEW
 - nexora-worldgen-density-boundary — NEW

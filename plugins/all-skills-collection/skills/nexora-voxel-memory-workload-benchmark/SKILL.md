@@ -26,14 +26,71 @@ Do not reproduce those workflows. This skill defines how to build comparable vox
 
 Re-check the pinned checkout before applying these observations.
 
-- `engine/world/src/voxel.rs` defines section storage with uniform and paletted representations; a section can remain uniform until a write requires palette-backed storage.
+- `engine/world/src/voxel.rs` defines three section representations: Uniform, Paletted, and Direct. A section starts Uniform, grows to Paletted when a write introduces a second state, and can promote to Direct when the palette limit is exceeded. Compaction is an explicit quiet-point operation, not an automatic per-write shrink.
 - `engine/world/src/chunk.rs` owns section collections and chunk-level access.
-- `engine/benchmark/src/suites.rs` contains the Rust benchmark suites, including voxel/world measurements.
-- `engine/headless/src/lib.rs` builds deterministic headless world workloads and reports voxel storage bytes.
+- `engine/benchmark/src/memory.rs` contains the isolated section-storage workload matrix; `engine/benchmark/src/main.rs` exposes it through the `nexora-benchmark` CLI.
+- `docs/benchmarks/VOXEL-MEMORY-WORKLOAD-MATRIX.md` documents the current executable commands and interpretation boundaries.
 - `docs/benchmarks/PHASE-0-BASELINE.md` records an earlier baseline: 18,293,973 non-air blocks across 9 chunks, 144.3 KiB voxel storage, 7.0 MiB peak RSS for the whole benchmark process, and a 152.1 KiB save.
-- That baseline is a useful historical reference, not proof that 50 million arbitrary or heavily edited voxels fit below 1 GiB. Its own workload and environment are narrower than the acceptance matrix below.
+- The older nine-chunk baseline is historical context, not proof that 50 million arbitrary or heavily edited voxels fit below 1 GiB.
 
-These facts describe the inspected repository snapshot, not permanent API guarantees. Re-read the implementation, benchmark harness, save path, and current baseline before changing a workload.
+These facts were re-checked against NEXORA `main` at source commit `19486829d18bd864fea00cac0711f519a5c07a70` on 2026-10-31. They are snapshot-specific, not permanent API guarantees. Re-check the source commit, benchmark harness, save path, and current baseline before applying them.
+
+
+## Current executable section-storage slice
+
+The current implementation provides seven deterministic templates, each run as a separate process:
+
+| CLI workload | Representation / case | Important interpretation |
+|---|---|---|
+| `uniform-air` | Uniform air | Zero storage payload; not a realistic whole-world memory result |
+| `uniform-solid` | Uniform non-air | Uniform representation with a non-air count |
+| `natural` | Paletted | Deterministic synthetic terrain-like mix of air, stone, dirt, grass, and sparse ore; it is not a full invocation of the world generator |
+| `high-diversity` | Paletted | 4,096 total states including air, at the configured palette ceiling |
+| `edited-stale-palette` | Paletted | Palette entries remain allocated after edits leave only two live states |
+| `edited-compacted` | Paletted | Same final voxel content after explicit compaction at a quiet point |
+| `adversarial-direct` | Direct | 4,097 total states including air, forcing promotion beyond the palette ceiling |
+
+For the default cubic section shape of 32³, the default 50,000,000-voxel request rounds up to 1,526 whole sections (50,003,968 logical voxels). Treat this as the benchmark's logical allocation target, not as proof that an entire 50-million-voxel World, streaming window, or rendered scene is resident.
+
+### Reproduction commands
+
+From the NEXORA repository root, build the optimized benchmark:
+
+```powershell
+cargo build --release -p nexora-benchmark
+```
+
+Run one workload per fresh process so process high-water memory and allocator history do not contaminate another scenario:
+
+```powershell
+cargo run --release -p nexora-benchmark -- --memory-workload uniform-air --markdown
+cargo run --release -p nexora-benchmark -- --memory-workload uniform-solid --markdown
+cargo run --release -p nexora-benchmark -- --memory-workload natural --markdown
+cargo run --release -p nexora-benchmark -- --memory-workload high-diversity --markdown
+cargo run --release -p nexora-benchmark -- --memory-workload edited-stale-palette --markdown
+cargo run --release -p nexora-benchmark -- --memory-workload edited-compacted --markdown
+cargo run --release -p nexora-benchmark -- --memory-workload adversarial-direct --markdown
+```
+
+A smaller manual fixture can be selected with `--memory-voxels 1000000`; this option requires `--memory-workload`. Preserve each output separately and record the exact command, commit, OS, hardware, and build profile.
+
+### Interpret the emitted counters precisely
+
+- `memory.storage_payload_bytes` counts initialized storage elements; it excludes spare vector capacity and allocator-private metadata.
+- `memory.storage_capacity_bytes` sums backing `Vec` capacities for palettes, packed words, and direct cells.
+- `memory.section_struct_bytes` is the inline `Section` vector capacity multiplied by `size_of::<Section>()`.
+- `memory.section_owned_bytes` is the section-vector capacity plus section storage buffer capacities. It is not total process memory and excludes world/chunk maps, streaming, persistence staging, meshes, GPU resources, entities, lighting, fluids, caches, allocator metadata, and fragmentation.
+- `memory.storage_heap_buffers` counts section-owned `Vec` backing buffers; it is not an allocator-call count.
+- The process high-water value is captured after allocation and a full-content digest pass. Linux reads `VmHWM`; Windows reads `PeakWorkingSet64` using inbox PowerShell. It covers the whole benchmark process and does not attribute memory to a subsystem.
+- `memory.content_digest_fnv1a64` traverses every voxel state in section order. It checks stable content for identical workloads; it does not prove save/load, unload/reload, or generator round-trip correctness.
+
+The source tests assert that all three representations are reached, capacity is never below initialized payload, stale and compacted fixtures retain the same digest/non-air count while compacted storage is smaller, and backing-buffer counts match each representation. These are source-level tests to run, not claims that they were executed during a skill-library update. A focused command is `cargo test -p nexora-benchmark memory::tests`.
+
+### Explicitly unmeasured by this slice
+
+The current memory workload allocates cloned `Section` objects only. It does not instantiate a complete `World` or streaming manager and does not measure chunk/world maps, residency, streaming load/evict, persistence encode/decode or save size, CPU meshes, GPU memory, entities, lighting, fluids, caches, allocator metadata, or fragmentation. Keep those as separate follow-up workloads and do not mark issue #48 complete from this slice alone.
+
+The seven templates are deliberately storage fixtures. In particular, `natural` is deterministic synthetic data rather than proof of a real generator output distribution. For an end-to-end claim, add generator-produced fixtures with pinned seed/version and verify content digests across candidate/reference runs.
 
 ## Required inputs
 
