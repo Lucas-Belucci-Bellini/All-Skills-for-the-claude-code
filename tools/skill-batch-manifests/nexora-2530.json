@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30",
+  "batch_size": 4,
+  "milestone_total": 2530,
+  "long_term_target": 5000,
+  "authored_count": 2530,
+  "retained_count": 0,
+  "plugin_version": "2.1.50",
+  "skills": [
+    {
+      "name": "nexora-atlas-mip-footprint-selection",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-atlas-mip-footprint-selection/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-atlas-face-texel-orientation-contract",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-atlas-face-texel-orientation-contract/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-atlas-face-variant-determinism",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-atlas-face-variant-determinism/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-atlas-cpu-shader-reference-parity",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-atlas-cpu-shader-reference-parity/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
-# Roadmap to 2,500 distinct skills
+# Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,500 distinct skills (2,339 authored + 161 retained/imported)
-**Long-term planning target:** 2,500 distinct skills  
-**Remaining to long-term target:** 0
-**Current milestone:** Consolidation PR #169 on `feat/all-skills-consolidated-2026` tracks the 2,185-skill inventory; structural CI passes, while imported-skill provenance/licensing and real Claude Code installation/discovery remain pending. The 2,000-skill branch below is a historical source milestone.
-**Intermediate milestone:** 500 by 2026-12-31 — reached in the draft inventory, pending review and merge of the PR chain
+**Current draft inventory:** 2,561 distinct skills (2,561 authored + 0 retained/imported)
+**Long-term planning target:** 5,000 distinct skills
+**Remaining to long-term target:** 2,439
+**Current milestone:** 2,558 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
-The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
+The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
 
 ## Milestone sequence
 
@@ -59,7 +59,37 @@ The 2,500 figure is a long-term planning ceiling, not a reason to ship filler or
 | 2466 | 2466 | Adds 10 concurrent world reads, atomic job publication, async deduplication, queue fairness, cache invalidation, resource reservations, ECS command order, event reentrancy, concurrent shutdown, and atomic generation swap workflows |
 | 2476 | 2476 | Adds 10 world command permission rechecks, region access boundaries, save locks, consistent snapshots, cross-chunk transactions, region recovery, privacy exports, backup retention, cross-mod migration, and world integrity audit workflows |
 | 2486 | 2486 | Adds 10 world-load admission, session ownership, save barriers, repair approval, recovery priority, safe mode, incident timelines, invariant monitors, recovery drills, and fallback regression workflows |
-| 2500 | 2500 | Reaches the declared 2,500-skill milestone with 14 final acceptance workflows for alpha readiness, data-loss and resource gates, mod compatibility, privacy, licensing, clean builds, limitations, release evidence, and roadmap completion for budgets, Rust errors, shutdown, handles, config reload, asset identity, mod capabilities, save recovery, replay, diagnostics, and filesystem portability |
+| 2500 | 2500 | Reaches the declared 2,500-skill authored milestone with 14 final acceptance workflows |
+| 2501 | 2501 | Adds one NEXORA-specific greedy-meshing workflow grounded in the current `nexora-mesh` implementation; focused runtime validation remains pending |
+| 2502 | 2502 | Adds one NEXORA streaming-handle/pin lifecycle workflow grounded in `nexora-streaming`; runtime validation remains pending |
+| 2503 | 2503 | Adds one NEXORA climate-lattice sample reuse workflow grounded in `engine/world/src/terrain.rs` and ADR-0049; optimization is proposed only, benchmark/runtime validation remains pending |
+| 2504 | 2504 | Adds a NEXORA biome climate-weight blending workflow grounded in `docs/plans/BIOME ENGINE.md` and generator-v3 climate fields; runtime implementation/validation remains pending |
+| 2505 | 2505 | Adds a NEXORA native UI design-to-code workflow grounded in the client/window/input/render/RHI architecture; no dedicated UI crate exists in the inspected snapshot, so implementation remains a staged design decision |
+| 2506 | 2506 | Adds NEXORA surface acquisition/recovery workflow for bounded Lost/Outdated/Timeout/Occluded handling, host scheduling, minimize/restore and surface-vs-device failure separation |
+| 2507 | 2507 | Adds NEXORA RHI conformance evidence workflow for the active 11-case suite, NullRhi/wgpu parity, CI software adapters and commit-scoped local hardware reports |
+| 2508 | 2508 | Adds the NEXORA Cutout layer integration workflow, covering alpha threshold ownership, cutout pipeline/depth writes, mip coverage, CPU reference continuation, and GPU pixel tests |
+| 2509 | 2509 | Adds the NEXORA PBR material render bridge workflow, connecting six asset map roles and PBR scalars to material indexing, face tangent frames, shader bindings, lighting, and CPU/GPU reference evidence |
+| 2510 | 2510 | Adds the NEXORA lighting render extraction contract, separating authoritative world light state from immutable frame snapshots, GPU buffers/textures, CPU reference, and bounded resource lifecycles |
+| 2511 | 2511 | Adds NEXORA shadow caster extraction workflow for independent caster/receiver policy, camera-relative sun cascades, local-light budgets, Cutout silhouettes, cache invalidation, and GPU evidence |
+| 2512 | 2512 | Adds the NEXORA atmosphere/fog composition contract, separating weather and climate authority from dimension-aware sky profiles, fog inputs, colour-space composition, and deterministic CPU/GPU references |
+| 2513 | 2513 | Adds the NEXORA voxel memory workload benchmark contract for reproducible 50-million-voxel memory investigations, workload diversity, correctness digests, and measured-versus-estimated evidence |
+| 2514 | 2514 | Adds the NEXORA environmental VFX event bridge, connecting authoritative semantic events to bounded cosmetic emitters, headless-safe CPU/GPU paths, and measured render budgets |
+| 2515 | 2515 | Adds NEXORA voxel palette transition invariants for Uniform/Paletted/Direct storage, 1–12-bit packing boundaries, promotion, compaction, and persistence correctness |
+| 2516 | 2516 | Adds NEXORA chunk change-feed gap recovery for bounded journals, dropped-history signaling, retry-safe drains, snapshot resynchronization, and consumer lifecycle correctness |
+| 2517 | 2517 | Adds NEXORA durable edit-journal replay semantics for stable registry identifiers, journal order, deferred column residency, partial recovery reporting, and bounded pending work |
+| 2518 | 2518 | Adds NEXORA region-residency preservation: disk remains authoritative for nonresident columns, eviction merges preserve neighbors, dirty-only saves remain safe, and region payloads publish before header metadata |
+| 2519 | 2519 | Adds NEXORA Texture Forge build-plan integrity for full preflight, deterministic seeds, exact art-set coverage, SHA-256/PNG validation, and safe resource-index publication |
+| 2520 | 2520 | Adds NEXORA edit-remesh snapshot refresh for bounded hot-region caching, border-aware DenseSnapshot refresh, worker-wave scheduling, version gates, and frame-safe publication |
+| 2521 | 2521 | Adds the NEXORA client retained-column spill lifecycle: isolated spill ownership, bounded asynchronous I/O, region merge safety, movement restore, and complete single-container saves |
+| 2522 | 2522 | Adds metadata-first NEXORA response for tracked machine-local artifacts: safe provenance triage, owner-approved backup/removal, coordinated history decisions, and path-only CI prevention |
+| 2526 | 2526 | Adds four distinct NEXORA workflows for bounded voxel mesh uploads, deterministic world-generation admission, native UI scaling, and keyboard/controller focus navigation; runtime implementation and testing remain separate |
+| 2530 | 2530 | Adds four NEXORA atlas correctness workflows for footprint-based mip selection, per-face texel orientation, deterministic face variants, and CPU/WGSL reference parity; runtime changes are not claimed |
+| 2534 | 2534 | Adds four NEXORA Texture Forge workflows for manifest inheritance, periodic recipe constraints, procedural seed/repair identity, and 2×2 preview plus numeric seam review; runtime changes/tests are not claimed |
+| 2535 | 2535 | Adds a NEXORA final surface-blit fidelity workflow for format/capability negotiation, nearest-sampled pixel mapping, channel order, and truthful window readback; no runtime change is claimed |
+| 2536 | 2536 | Adds a NEXORA MemoryLedger reporting workflow for owner-per-byte accounting, pressure thresholds, high-water/refusal interpretation, at-rest leak semantics, and poisoned-report caveats; no runtime change is claimed |
+| 2559 | 2559 | Adds the NEXORA long-session streaming residency soak workflow for pin ownership, residency convergence, budget pressure, byte accounting and failure-retention diagnostics; runtime soak execution remains pending |
+| 2560 | 2560 | Adds a focused NEXORA world reproduction-key completeness workflow for canonical inputs, mod manifests, stable fingerprints and save/load round trips; runtime persistence changes remain unimplemented |
+| 2561 | 2561 | Adds NEXORA temporal LOD catch-up and rehydration checks for FULL/REGIONAL/ABSTRACT state, authoritative world-time watermarks, bounded catch-up and idempotent transitions; runtime catch-up remains unimplemented/unverified |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -87,8 +117,8 @@ Identify a real workflow gap; define triggers, inputs, outputs, and boundaries; 
 
 ## Known validation limits
 
-- A clean-checkout run of `node tools/sync-skill-bundles.mjs --write` and `--check` remains unverified until actual output is observed.
-- Claude Code installation/discovery has not been verified end-to-end in this workflow.
+- Clean-checkout bundle synchronization/idempotence, `git diff --check`, and `sync-skill-bundles.mjs --check` passed in run 41104430907.
+- Claude Code CLI 2.1.314 strict marketplace/plugin validation and isolated clean-home marketplace installation passed in run 41104430907. Interactive invocation of an individual skill is not separately covered.
 - Third-party provenance and redistribution-license review remains pending.
 - Do not merge PRs, rewrite shared history, force-push, or change repository visibility without explicit authorization.
 
@@ -322,4 +352,325 @@ Added 10 workflows for world-load admission, single-owner world sessions, save q
 
 Completed the declared catalog target with 14 final workflows covering engine readiness, alpha tester build checks, critical-path smoke tests, world-data-loss release blockers, resource-budget gates, mod compatibility gates, privacy and licensing checks, feature-flag retirement, clean-room build verification, known limitations, release evidence bundling, roadmap completion evidence, and 2,500-skill milestone acceptance.
 
-**Important:** This milestone confirms the catalog count only after structural validation. It does not mean every NEXORA runtime feature is implemented, nor does it resolve the separate imported-license review or real Claude Code installation/discovery smoke test.
+**Important:** This milestone confirms the catalog count only after structural validation. It does not mean every NEXORA runtime feature is implemented. Claude Code strict validation and isolated marketplace installation were subsequently verified by run 41104430907; runtime engine validation remains a separate gate.
+| 2339 | 2339 | Historical cleanup checkpoint: 161 retained/imported entries removed; 2,339 authored skills remained |
+
+
+
+## Reconstituted 2,500-skill milestone — programming-language coverage (2026-10-30)
+
+Added 161 original skills: five workflows for each of the 31 languages detected in the public profile, plus six polyglot workflows for API contracts, serialization compatibility, FFI safety, cross-runtime fixtures, language migration, and reproducible builds. The 161 removed retained/imported entries were not restored. The current catalog is 2,500 authored skills with zero retained/imported entries. The next planning target is 5,000; do not count bundle copies or aliases as additional skills.
+
+
+## Batch 2,501 — NEXORA greedy meshing (2026-10-30)
+
+Added one original workflow for NEXORA's deterministic greedy voxel mesher: neighbor-aware face culling, surface/occlusion merge identity, surface-area preservation, bounded quad dimensions, stable output order, render-layer routing and reproducible validation. The skill is grounded in the current `engine/mesh` implementation; it has not yet been executed against a local NEXORA checkout.
+
+
+## Batch 2,502 — NEXORA stream handle and pin lifecycle (2026-10-30)
+
+Added one original workflow for the NEXORA streaming request-handle contract: slot allocation/reuse, generation validation, stale cancellation, multi-handle pin aggregation, residency guarantees under pressure, deferred eviction after cancellation, and persist-before-evict failure handling. The skill is grounded in `engine/streaming/src/system.rs` and `target.rs`. Existing tests cover stale-handle reuse, pin persistence outside observer interest, and memory-pressure protection; multi-pin aggregation and generation-exhaustion tests are identified as additional coverage targets. No local runtime test execution is claimed.
+
+
+## Batch 2,503 — NEXORA climate lattice sample reuse (2026-10-30)
+
+Added one original workflow for evaluating bounded reuse of positional value-noise lattice corners across nearby NEXORA terrain columns and repeated climate/surface sampling. It is grounded in `engine/world/src/terrain.rs` and ADR-0049, which records 44 lattice-corner reads per column and explicitly defers shared-corner reuse until generation cost warrants it. The workflow requires exact Q16/reference equivalence, negative-coordinate and boundary coverage, bounded job-local memory, scheduling independence, and whole-chunk benchmarks. It does not claim that a cache has been implemented or that a speedup has been measured.
+
+
+## Batch 2,506 — NEXORA surface acquisition and recovery (2026-10-30)
+
+Added an original workflow for bounded recovery across the wgpu surface presenter and the winit window host: Lost/Outdated/Timeout/Occluded classification, retry ownership, backoff, minimized/zero-size suspension, surface-vs-device failure separation, client-state preservation, and deterministic fault-injection coverage. Grounded in `engine/rhi-wgpu/src/surface.rs` and `engine/window/src/lib.rs`; no runtime recovery implementation is claimed.
+
+## Batch 2,507 — NEXORA RHI conformance evidence (2026-10-30)
+
+Added an original workflow for the full RHI evidence chain: backend-neutral contract, NullRhi, wgpu conformance, native probe, software-driver CI matrix, and commit-scoped physical-GPU validation. It follows the active 11-case suite and explicitly flags historical ADR prose that still reports 9 cases. The checked-in RX 6650 XT report is treated as historical diagnostic evidence because it was generated from a dirty working tree; a clean-commit report is still required for release evidence.
+
+
+## Enhancement — NEXORA transparent voxel pass ordering (2026-10-30)
+
+The existing `engine-voxel-transparency-sort-policy` workflow was expanded with NEXORA's ADR-0051/DEBT-0056 case. The current renderer draws transparent chunk buffers in caller order despite the mesh contract requiring back-to-front sorting; the CPU reference does not judge rays crossing a second see-through face. The enhanced workflow now requires a deliberate sort granularity, deterministic depth/tie-break policy, multi-layer CPU compositing, GPU regression scenes, and measured sorting cost. This is an enhancement to an existing skill, so the unique skill count remains 2,507.
+
+
+## Batch 2,508 — NEXORA Cutout layer integration (2026-10-30)
+
+Added an original workflow for the missing renderer stage between material/mesher classification and GPU pixel output. The snapshot already routes `BlendMode::Cutout` into `LayeredMesh.cutout`, but the textured `ChunkPass` has no cutout pipeline/buffer and the material schema has no explicit alpha threshold. The workflow requires an explicit threshold decision, alpha discard with depth writes, opaque → cutout → transparent ordering, mip coverage measurements, CPU-reference continuation through discarded texels, and native pixel tests. No runtime implementation is claimed.
+
+
+## Batch 2,509 — NEXORA PBR material render bridge (2026-10-30)
+
+Added an original workflow for the missing bridge between `SurfaceMaterial`/six `MapRole` definitions and the current albedo-only textured voxel renderer. It defines staged support for normal, roughness, metallic, AO and height maps; stable GPU material identity; voxel-face tangent frames; shader/RHI layout parity; independent CPU reference; and measured memory/performance. The asset schema's PBR metadata is not treated as proof that PBR shading is implemented.
+
+
+## Batch 2,510 — NEXORA lighting render extraction (2026-10-30)
+
+Added a dedicated workflow for the boundary between authoritative world lighting and GPU rendering. The inspected world/simulation roots do not expose a lighting module, and the current render pass has no light-state input, light buffer/texture binding, dynamic-light list, or shadow pass. The workflow therefore begins with source-of-truth discovery and defines an immutable, versioned extraction contract, deterministic GPU representation, chunk-aligned sampling, dynamic-light budgets, independent CPU reference, and native GPU validation. It reuses existing propagation, invalidation, PBR, render-pass, and RHI workflows rather than duplicating them.
+
+
+## Batch 2,511 — NEXORA shadow caster extraction (2026-10-30)
+
+Added a dedicated workflow for selecting and submitting voxel/entity casters to future sun and local-light shadow passes. The current renderer has no shadow pass or caster API; the plans describe cast/receive flags, camera-relative cascades, LOD, and priority budgets. The workflow defines extraction, light-space culling, depth convention, Cutout/transparent policy, cache invalidation, resource retirement, and native GPU proof without claiming shadow maps are implemented.
+
+
+## Batch 2,513 — NEXORA atmosphere/fog composition (2026-10-30)
+
+Added a dedicated workflow for evolving the current directional sky gradient and distance haze into dimension-aware environment composition. It distinguishes climate, weather, atmosphere, sky background, sky-light surface illumination, PBR, and shadows; defines immutable frame inputs, fog representation choices, linear-light composition, water/transparent pass interactions, CPU reference parity, and analytic fallbacks. The current renderer remains a gradient/haze baseline; volumetric atmosphere is not claimed.
+
+
+## Batch 2,513 — NEXORA voxel memory workload benchmark (2026-10-30)
+
+Added an original benchmark-contract workflow for NEXORA issue #48. It defines a precise memory inclusion boundary and separates voxel payload, section/palette overhead, process RSS, auxiliary data, CPU/GPU derived data, transient buffers, and save size. It requires uniform, natural, high-diversity, heavily edited, adversarial, streaming, derived-data, and persistence workloads with pinned seeds, correctness digests, repeated median/p95 measurements, and a controlled reference representation. The historical nine-chunk baseline is preserved as a narrow baseline; no 50-million-voxel or sub-1-GiB result is claimed.
+
+
+## Batch 2,513 — NEXORA voxel memory workload benchmark (2026-10-30)
+
+Added an original benchmark-contract workflow for NEXORA issue #48. It defines a precise memory inclusion boundary and separates voxel payload, section/palette overhead, process RSS, auxiliary data, CPU/GPU derived data, transient buffers, and save size. It requires uniform, natural, high-diversity, heavily edited, adversarial, streaming, derived-data, and persistence workloads with pinned seeds, correctness digests, repeated median/p95 measurements, and a controlled reference representation. The historical nine-chunk baseline is preserved as a narrow baseline; no 50-million-voxel or sub-1-GiB result is claimed.
+
+
+## Batch 2,516 — NEXORA chunk change-feed gap recovery (2026-10-30)
+
+Added a dedicated consumer contract for the bounded per-chunk change journal. It distinguishes complete deltas from truncated feeds, treats empty-but-incomplete feeds as a recovery signal, requires authoritative snapshot resynchronization for state consumers, and defines retry, chunk identity, ordering, dirty-state separation, and downstream queue limits. The inspected snapshot has no history/replication consumer call sites beyond tests; no runtime consumer implementation is claimed.
+
+
+## Batch 2,517 — NEXORA durable edit-journal replay (2026-10-30)
+
+Added a focused semantic-replay contract for the durable world edit journal. It separates physical journal validation from world-level application; preserves stable namespaced block identifiers and journal order; defers residency-only failures by column while preserving per-column order; reports missing content, malformed records, torn-tail damage, and incomplete recovery; and defines safe retry/checkpoint semantics without claiming exactly-once delivery. The transient bounded chunk change feed remains explicitly separate from the durable recovery journal. Runtime tests were source-inspected, not executed during skill authoring.
+
+
+## Batch 2,518 — NEXORA region residency preservation (2026-10-30)
+
+Added a region-store-specific contract for the relationship between resident chunks and authoritative region files. It requires nonresident region files to remain on disk, eviction to merge incoming columns without displacing other stored columns, dirty-only saves to preserve untouched regions, persisted region shape to be checked before writes, and region payloads to publish before header/clock metadata. Source test names were audited but not executed during skill authoring.
+
+
+## Batch 2,519 — NEXORA Texture Forge build-plan integrity (2026-10-30)
+
+Added a focused workflow for checked-in Texture Forge build plans and optional external albedo art sets. It distinguishes plans from inline batch manifests, requires full plan/recipe preflight before writes, verifies exact art-set coverage and source hashes, enforces path/resolution/alpha constraints, preserves generator provenance, and prevents resource-index publication after per-entry failure. It explicitly distinguishes preflight from a filesystem transaction and does not claim NEXORA tests were executed.
+
+
+## Batch 2,520 — NEXORA edit-remesh snapshot refresh (2026-10-30)
+
+Added a dedicated workflow for the remaining synchronous player-edit remesh path. It documents how to reuse `DenseSnapshot::refresh` across edits without turning the visible scene into an unbounded memory mirror, including one-cell border refresh, hot-region cache budgets, lifecycle invalidation, worker ownership, version gates, slot ordering, and frame-safe CPU/GPU publication. It does not claim the runtime cache or worker path has been implemented or benchmarked.
+
+
+## Batch 2,521 — NEXORA client retained-column spill lifecycle (2026-10-30)
+
+Adds an interactive-client integration workflow for the gap recorded in ADR-0038: client residency still uses memory-only retained chunks while the headless slice already spills them to region files. The workflow distinguishes scratch spill from durable persistence, requires bounded/backpressured I/O outside eviction callbacks, preserves region merge and restore semantics, and requires rehydration before the current single-container save. It does not claim the client implementation or its tests already exist.
+
+
+## Batch 2,522 — NEXORA tracked local artifact exposure response (2026-10-30)
+
+Adds a metadata-first security workflow for already-tracked machine-local databases, caches, assistant state, and other out-of-scope artifacts. It requires owner-approved backups before destructive removal, separates current-tree cleanup from history rewriting, prevents sensitive contents from entering issues/logs, and adds path-only regression gates. The skill is grounded in NEXORA issue #64 and the existing narrow ignore rules; it does not claim the issue has been remediated.
+
+
+## Batch 2,526 — NEXORA native UI and world pipeline workflows (2026-10-30)
+
+Added four original workflows covering bounded voxel mesh uploads, deterministic world-generation work admission, resolution-independent native UI layout, and keyboard/controller focus navigation. A proposed GPU resource-retirement skill was excluded after semantic review because an existing NEXORA skill already covers GPU resource retirement and deferred deletion. These new workflows do not claim that corresponding engine systems or runtime tests have already been completed.
+
+
+## Batch 2,530 — NEXORA atlas correctness workflows (2026-10-30)
+
+Added four source-grounded workflows for the current voxel atlas implementation: footprint-based mip selection with per-tile isolation, face-to-texel orientation and mirror behavior, deterministic per-face variants, and CPU/shader shading-reference parity. The workflows document how to validate the existing contract and do not claim new runtime features or tests were executed.
+
+
+## Batch 2,534 — NEXORA Texture Forge authoring and review workflows (2026-10-30)
+
+Added four source-grounded workflows for Texture Forge manifest inheritance and identifier validation, periodic recipe structure for seamless tiling, procedural generate/variant/repair seed identity, and lit 2×2 preview plus numeric seam review. The workflows distinguish manifest parsing from build-plan policy, require provenance-aware reproduction, and pair visual inspection with underlying-map validation. They do not claim NEXORA runtime tests or new engine functionality were executed.
+
+| 2537 | 2537 | Adds a NEXORA GPU frame timing evidence workflow for optional RHI timestamp capability, asynchronous frame-correlated queries, and separating GPU execution from CPU work and presentation wait; runtime changes are not claimed |
+| 2538 | 2538 | 2538 | Adds a NEXORA Job System long-run health workflow for worker survival, cancellation, result retention/eviction, forgotten outcomes, queue pressure, starvation, memory attribution and shutdown; soak tests are not claimed |
+| 2539 | 2539 | Adds a NEXORA Job Queue admission budget workflow for explicit pending capacity, producer backpressure, batch admission semantics, critical-capacity protection and overload observability; runtime changes are not claimed |
+| 2540 | 2540 | Adds a NEXORA frame-time regression triage workflow for pinned baseline/candidate builds, controlled workloads, tail-percentile comparison, honest metric separation and evidence-based release gates; runtime changes are not claimed |
+| 2541 | 2541 | Adds a NEXORA profiler-overhead calibration workflow for measuring observer effect, sampling/event density, trace-buffer pressure, event loss, timestamp integrity and capture-versus-export cost; no runtime changes or calibration results are claimed |
+| 2542 | 2542 | Adds a NEXORA allocator-fragmentation attribution workflow to separate live allocations, allocator-retained pages, caches, fragmentation and leaks across reproducible lifecycle workloads; no allocator changes or benchmark results are claimed |
+| 2543 | 2543 | Adds a NEXORA body-pair continuous collision workflow to distinguish end-of-substep AABB overlap from swept body-pair contact, preserving deterministic broadphase ordering, voxel authority and bounded solver cost; no runtime CCD implementation or test result is claimed |
+| 2544 | 2544 | Adds a NEXORA physics StepReport overload-accounting workflow to reconcile executed work, dropped full substeps, discarded fractional remainder and telemetry semantics; no runtime telemetry or engine changes are claimed |
+| 2545 | 2545 | Adds a NEXORA character/moving-platform velocity-inheritance workflow for grounded support-relative movement, first-tick transitions, airborne authority and deterministic rider behavior; no runtime changes are claimed |
+| 2546 | 2546 | Adds a NEXORA streaming backend-failure retention workflow distinguishing per-tick failures, retained diagnostics, dropped details and drain semantics; no runtime changes are claimed |
+| 2547 | 2547 | Adds a NEXORA streaming interest-source admission workflow for the 256-source cap, stable ID updates, rejection atomicity, removal and reconnect semantics; no runtime changes are claimed |
+| 2548 | 2548 | Adds a NEXORA multi-source streaming candidate-amplification workflow with overlap-aware candidate counts and theoretical source-scan bounds; no runtime changes or benchmark gains are claimed |
+| 2549 | 2549 | Adds a NEXORA StreamingReport interpretation workflow separating quiet state, budget saturation, backend failures, deferred work and persistence outcomes; no runtime changes are claimed |
+| 2550 | 2550 | Adds a NEXORA streaming budget-accounting workflow for failed activation/persistence/eviction attempts and tick-local quota consumption; no runtime changes are claimed |
+| 2551 | 2551 | Adds a NEXORA byte-budget workflow covering post-activation shedding, transient overshoot, pinned residency and failed releases; no runtime changes are claimed |
+| 2552 | 2552 | Adds a NEXORA nine-slot hotbar workflow for deterministic keyboard/wheel selection, stable content identity and validated block placement; no runtime changes are claimed |
+| 2553 | 2553 | Adds a NEXORA pointer-look workflow for relative motion, deterministic replay, cursor-capture lifecycle and crosshair/raycast alignment; no runtime changes are claimed |
+| 2554 | 2554 | Adds a NEXORA texture art-direction audit for detail hierarchy, material readability, palette/noise discipline, and cross-family coherence; no PNG inspection or asset changes are claimed |
+| 2555 | 2555 | Adds a NEXORA digital-logic library audit for evidence-backed chip classification, licensing, architecture fit, deterministic timing, persistence and test requirements; no UMBRA code or engine integration is claimed |
+| 2556 | 2556 | Adds a NEXORA machine-logic graph contract for typed signals, deterministic gate evaluation, cycle policy, command boundaries, persistence and Phase 5 readiness; no runtime graph implementation is claimed |
+| 2557 | 2557 | Adds a NEXORA energy-network transaction contract for atomic transfers, conservation, loss accounting, deterministic priority allocation, replay and persistence; no energy runtime implementation is claimed |
+| 2558 | 2558 | Adds a NEXORA fluid-network transport contract for typed ports, deterministic topology/routing, bounded atomic transfers, conservation, pressure ownership, persistence and multiplayer authority; no fluid runtime implementation is claimed |
+
+
+## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
+
+Added a source-grounded workflow for sustained and bursty validation of the NEXORA bounded worker pool: worker survival after panic, cooperative cancellation, queue-versus-worker capacity, retained-result eviction and `Forgotten` outcome honesty, priority starvation, memory attribution, barriers and shutdown. It explicitly notes that the inspected pending `BinaryHeap` has no visible capacity bound, so a fixed worker count must not be mistaken for bounded admission. The workflow defines reproducible long-run reports and does not claim the soak tests have been executed.
+
+## Batch 2,539 — NEXORA Job Queue admission budget (2026-10-30)
+
+Added a source-grounded workflow for explicit pending-queue admission limits, producer backpressure, batch semantics, critical-capacity protection, overload observability and caller migration. The inspected runtime uses an unbounded `BinaryHeap` for pending jobs, returns handles directly from `submit`, and exposes no queue-full result in the inspected API; the skill treats this as an implementation gap rather than claiming a fix.
+
+## Batch 2,540 — NEXORA frame-time regression triage (2026-10-30)
+
+Added a repeatable before/after performance gate for clean baseline and candidate commits. It requires controlled hardware/build/workload identity, separate warm-up and steady-state samples, p50/p95/p99/max distributions, explicit deltas, disclosed exclusions, repeatability checks, approved thresholds, and honest separation of CPU work, presentation wait, unattributed time and measured GPU execution. It complements the existing frame-pacing diagnosis and GPU timestamp workflows rather than duplicating them; no runtime changes or benchmark results are claimed.
+
+## Batch 2,541 — NEXORA profiler overhead calibration (2026-10-30)
+
+Added a measurement-quality workflow that calibrates the observer effect of profiling, tracing, counters, allocation tracking and GPU timing. It compares instrumentation tiers against a matched baseline, separates capture from export/symbolization, checks buffer bounds and event loss, validates clocks, and reports the performance cost alongside diagnostic fidelity. It does not assume a specific profiler backend exists and does not claim that calibration was run.
+
+
+## Batch 2,542 — NEXORA allocator fragmentation attribution (2026-10-30)
+
+Added a source-agnostic but NEXORA-specific diagnostic protocol to distinguish live allocations, retained free pages, internal/external fragmentation, cache capacity and genuine leaks. It correlates allocator statistics with subsystem ownership and MemoryLedger reports without treating the ledger as allocator introspection. It requires bounded arena/pool lifetimes, matched churn experiments, and memory plus p95/p99 latency evidence; no allocator implementation change or benchmark result is claimed.
+
+
+## Batch 2,543 — NEXORA body-pair continuous collision detection (2026-10-30)
+
+Added a source-grounded workflow for the documented gap between voxel-terrain sweeps and body-pair collision: the current pair pass detects overlap from end-of-substep AABBs, so fast bodies can cross without being detected. The skill focuses on swept candidate generation, time-of-impact evidence, deterministic ordering, voxel authority, wake semantics and bounded solver cost. It does not claim body-pair CCD is implemented or that engine tests/benchmarks were run.
+
+
+## Batch 2,544 — NEXORA physics StepReport overload accounting (2026-10-31)
+
+Added a source-grounded audit workflow for the boundary between the integer fixed-step accumulator and `PhysicsWorld::StepReport`. It distinguishes earned, executed and dropped substeps; identifies that the over-cap path clears fractional remainder not represented by the dropped-substep integer alone; keeps `StepStats` limited to work actually executed; and separates per-substep physics budgets from frame/GPU/presentation metrics. No runtime implementation, telemetry or benchmark result is claimed.
+
+
+## Batch 2,545 — NEXORA character moving-platform velocity inheritance (2026-10-31)
+
+Added a source-grounded workflow for character movement relative to kinematic supports. It distinguishes controller intent from support velocity, documents horizontal inheritance and solver-owned vertical motion, and tests the first tick when a platform starts moving separately from steady-state riding. It covers relative walking, support loss, jump/air-control transitions, stop/reversal and wake behavior. No runtime changes or engine test results are claimed.
+
+
+## Batch 2,546 — NEXORA streaming failure retention (2026-10-30)
+
+- Added `nexora-streaming-failure-retention-accounting` under `curated-skill-sources/nexora-reliability/`.
+- Grounded in NEXORA snapshot `19486829d18bd864fea00cac0711f519a5c07a70`, specifically `engine/streaming/src/system.rs` and its bounded-retention test.
+- Separates per-tick backend failures, retained error details, dropped diagnostic details and drained details; includes burst, multi-tick, drain and failure-isolation validation.
+- This is a skill/documentation delivery only. No NEXORA runtime code or runtime tests are claimed.
+
+
+## Batch 2,547 — NEXORA streaming interest-source admission (2026-10-30)
+
+- Added `nexora-streaming-interest-source-admission` under `curated-skill-sources/nexora-worldgen-streaming/`.
+- Grounded in NEXORA snapshot `19486829d18bd864fea00cac0711f519a5c07a70`, especially `engine/streaming/src/system.rs` and `too_many_interest_sources_are_refused_but_moving_one_never_is`.
+- Covers the 256-source admission cap, updating an existing ID at capacity, independent observers, removal/tick reconciliation and reconnect behavior.
+- This is a skill/documentation delivery only. No NEXORA runtime code or runtime tests are claimed.
+
+
+## Batch 2,548 — NEXORA streaming interest candidate amplification (2026-10-30)
+
+- Added `nexora-streaming-interest-candidate-amplification` under `curated-skill-sources/nexora-worldgen-streaming/`.
+- Grounded in NEXORA snapshot `19486829d18bd864fea00cac0711f519a5c07a70`, particularly `desired_tiers()` in `engine/streaming/src/system.rs` and the source/radius caps in `system.rs` and `interest.rs`.
+- Distinguishes raw per-source coordinate insertions, unique candidates after BTreeSet deduplication, tracked/pinned candidates, and candidate/source visits in the scoring loop.
+- The 16,646,400-candidate and 4,261,478,400 candidate/source-visit values are explicitly theoretical structural bounds, not benchmark results.
+- This is a skill/documentation delivery only. No NEXORA runtime code or runtime performance tests are claimed.
+
+
+## Batch 2,549 — NEXORA streaming report outcome classification (2026-10-30)
+
+- Added `nexora-streaming-report-outcome-classification` under `curated-skill-sources/nexora-worldgen-streaming/`.
+- Grounded in NEXORA snapshot `19486829d18bd864fea00cac0711f519a5c07a70`, especially `StreamingReport::is_quiet()` and `is_saturated()` in `engine/streaming/src/budget.rs` and their consumers/tests in `system.rs`.
+- Separates state transitions, backend failures, budget pressure, persistence and end-of-tick state. Quiet is explicitly not treated as a health or completion signal.
+- This is a skill/documentation delivery only. No NEXORA runtime code or runtime tests are claimed.
+
+
+## Batch 2,550 — NEXORA streaming failed-operation budget accounting (2026-10-30)
+
+- Added `nexora-streaming-failed-operation-budget-accounting` under `curated-skill-sources/nexora-worldgen-streaming/`.
+- Grounded in NEXORA snapshot `19486829d18bd864fea00cac0711f519a5c07a70`, especially the quota increments before `backend.activate()` and `release()` in `engine/streaming/src/system.rs`.
+- Distinguishes attempted backend operations from successful residency transitions, including persistence and eviction failures consuming the tick-local eviction quota.
+- This is a skill/documentation delivery only. No NEXORA runtime changes or runtime tests are claimed.
+
+
+## Batch 2,551 — NEXORA streaming byte-budget post-activation shedding (2026-10-30)
+
+- Added `nexora-streaming-byte-budget-post-activation-shedding` under `curated-skill-sources/nexora-worldgen-streaming/`.
+- Grounded in NEXORA snapshot `19486829d18bd864fea00cac0711f519a5c07a70`, tracing `tick()`, `apply_promotions()` and `shed_over_budget()` in `engine/streaming/src/system.rs`.
+- Documents that the current byte limit is corrected after activation via shedding, and may remain exceeded when all residents are pinned or release fails. It distinguishes backend-reported bytes from RSS/GPU memory.
+- This is a skill/documentation delivery only. No NEXORA runtime changes or runtime benchmarks are claimed.
+
+
+## Batch 2,552 — NEXORA hotbar slot selection and placement identity (2026-10-31)
+
+- Added `nexora-hotbar-slot-selection-and-placement-identity` under `curated-skill-sources/nexora-ui-engineering/`.
+- Grounded in NEXORA snapshot `19486829d18bd864fea00cac0711f519a5c07a70`, including the fixed `BUILT_BLOCK`, existing `Controls`/input signal path, `BlockEditor::apply`, and `PlaceBlockHandler` behavior.
+- Defines nine-slot selection, digit bindings, explicit mouse-wheel event semantics, stable namespaced content identity, registry resolution, placement authority, icon consistency, and honest persistence boundaries for NEXORA issue #72.
+- Reuses native UI, focus, layout, input action, and inventory skills; no parallel material catalog or atlas-index identity is introduced.
+- This is a skill/documentation delivery only. No NEXORA runtime changes, gameplay smoke tests, or hotbar completion are claimed.
+
+
+## Batch 2,553 — NEXORA first-person pointer motion and cursor capture (2026-10-31)
+
+- Added `nexora-first-person-pointer-motion-and-cursor-capture` under `curated-skill-sources/nexora-runtime-systems/`.
+- Grounded in NEXORA snapshot `19486829d18bd864fea00cac0711f519a5c07a70`, including the window event loop/input collector, runtime input signal model, authoritative player yaw/pitch, derived camera, and client readback checks.
+- Covers typed relative-motion events, deterministic replay, focus/cursor lifecycle, platform capture fallback, player/camera/raycast alignment, and RHI reticle integration without contaminating world-only readback tests.
+- Explicitly treats NEXORA PR #73 as an unmerged proposal during the audit; it does not claim the runtime feature is integrated.
+- This is a skill/documentation delivery only. No NEXORA runtime changes, pointer-capture tests, or Windows gameplay smoke tests are claimed.
+
+
+## Batch 2,554 — NEXORA texture art-direction and coherence audit (2026-10-31)
+
+- Added `nexora-texture-art-direction-coherence-audit` under `curated-skill-sources/nexora-render-quality/`.
+- Addresses NEXORA issue #44 with a focused review contract for actual PNG evidence, native/gameplay-scale readability, detail hierarchy, palette/noise discipline, repetition, material identity, and cross-family consistency.
+- Reuses Texture Forge build-plan, seam-review, PBR bridge, provenance, and importer-golden workflows rather than duplicating them.
+- Explicitly forbids claims about inaccessible images and prohibits copying third-party textures; existing good assets should be preserved.
+- This is a skill/documentation delivery only. No NEXORA PNGs were inspected or modified, and no runtime or visual test results are claimed.
+
+
+## Batch 2,555 — NEXORA digital-logic library integration audit (2026-10-31)
+
+- Added `nexora-digital-logic-library-integration-audit` under `curated-skill-sources/nexora-digital-logic/`.
+- Defines an evidence-first audit for external chip libraries against NEXORA's existing signal, bus, clock, timing, persistence, determinism, and modding contracts.
+- Adds the eight required component classifications and a license/provenance gate; public availability is not treated as permission to copy.
+- Requires truth-table, sequential, timing, determinism, persistence, property, integration, and performance tests where applicable.
+- This is a skill/documentation delivery only. The UMBRA-LIMA-ALFA README/license and NEXORA implementation were not independently inspected in this task; no chip code was copied, no engine code was changed, and no runtime integration is claimed.
+
+
+## Batch 2,556 — NEXORA machine logic graph contract (2026-10-31)
+
+- Added `nexora-machine-logic-graph-contract` under `curated-skill-sources/nexora-machine-automation/`.
+- Grounded in the current Machine and Automation plan's signal fields (`value`, `type`, `source`, `timestamp`), initial AND/OR/NOT/XOR/COMPARE gates, and Sensor → Comparator → Controller → Machine graph.
+- Preserves NEXORA's authoritative world clock and command boundary, defines deterministic graph ordering and cycle/resource limits, and treats Phase 5 as a readiness gate rather than current implementation.
+- This is a skill/documentation delivery only. No NEXORA runtime logic graph or machine system was implemented or tested.
+
+
+## Batch 2,557 — NEXORA energy network transaction contract (2026-10-31)
+
+- Added `nexora-energy-network-transaction-contract` under `curated-skill-sources/nexora-machine-automation/`.
+- Grounded in the Machine and Automation plan's EnergyNode, EnergyTransfer, consumer priorities, storage, and transfer/distance/conversion loss concepts.
+- Defines canonical units, deterministic rounding, atomic reservations, conservation, priority/fairness, topology snapshots, replay, persistence, and multiplayer authority.
+- Documentation/skill delivery only; no NEXORA energy runtime was implemented or tested.
+
+
+## Batch 2,558 — NEXORA fluid network transport contract (2026-10-31)
+
+- Added `nexora-fluid-network-transport-contract` under `curated-skill-sources/nexora-machine-automation/`.
+- Grounded in the Machine and Automation plan's Fluid Network, FluidPort, routing, pumps, tanks, pressure, and multi-network machine integration concepts.
+- Defines typed ports, deterministic topology and routing, bounded transport, atomic reservations/rollback, conservation, pressure ownership by the Fluid Engine, persistence, multiplayer authority, and invariant-driven tests.
+- Complements (does not duplicate) the existing NEXORA fluid-simulation-stability skill: this batch covers network transport and topology, not numerical fluid simulation.
+- Documentation/skill delivery only; no NEXORA fluid network, pressure solver, or runtime integration was implemented or tested.
+- **Current draft inventory:** 2,558 distinct skills (2,558 authored + 0 retained/imported)
+- **Remaining to long-term target:** 2,442
+
+
+## Batch 2,559 — NEXORA long-session streaming residency soak (2026-10-31)
+
+- Added `nexora-streaming-long-session-residency-soak` under `curated-skill-sources/nexora-worldgen-streaming/`.
+- Grounded in the audited NEXORA streaming manager and budget/report implementation: interest-source identity, generation-checked request pins, resident/tracked targets, backend-reported bytes, promotion/eviction budgets, post-activation shedding, and bounded failure diagnostics.
+- Defines repeatable traversal, teleport, observer removal, pin reconciliation, pressure, pinned-overrun, failure-injection and long-session convergence scenarios.
+- Explicitly separates backend-reported bytes from RSS/heap/VRAM and does not claim a runtime soak or benchmark has been executed.
+- This is a skill/documentation delivery only; no NEXORA runtime code was changed or tested.
+
+## Batch 2,560 — NEXORA world reproduction-key completeness (2026-10-31)
+
+- Added `nexora-world-reproduction-key-completeness` under `curated-skill-sources/nexora-worldgen-streaming/`.
+- Grounded in NEXORA snapshot `92cc410999c05b0afcb8210c3d8bd4cdbec33d9e`, especially `ReproductionKey::fingerprint()` in `engine/foundation/src/rng.rs`, `Fnv1a64::write_str` in `engine/foundation/src/hashing.rs`, and `WorldDescriptor::reproduction_key()` in `engine/world/src/world.rs`.
+- Separates stable fingerprint encoding and mod-order canonicalization from the broader audit question of whether descriptor/configuration/content inputs are complete and persisted.
+- Records the current hard-coded content version and empty mod list as source observations, not as a claim that every omitted value already changes terrain.
+- Documentation/skill delivery only; no NEXORA runtime code, save schema or multiplayer behavior was changed or tested.
+
+## Batch 2,561 — NEXORA temporal LOD offline catch-up (2026-10-31)
+
+- Added `nexora-temporal-lod-offline-catchup` under `curated-skill-sources/nexora-simulation-ai/`.
+- Grounded in NEXORA snapshot `92cc410999c05b0afcb8210c3d8bd4cdbec33d9e`, especially the Entity System sleep/wake, scheduler and temporal LOD sections; Mob Ecology FULL/REGIONAL/ABSTRACT and event-driven AI cadence; Climate regional weather aggregation; and the authoritative World Time contract.
+- Defines subsystem-specific catch-up, world-time watermarks, bounded/resumable processing, event coalescing, no-double-advance handoff and deterministic rehydration.
+- Explicitly records that the reviewed documents do not prove a complete runtime catch-up algorithm or persisted checkpoint schema.
+- Skill/documentation delivery only; no NEXORA runtime code or simulation behavior was changed or tested.
+
+**Current draft inventory:** 2,561 distinct skills (2,561 authored + 0 retained/imported)
+**Remaining to long-term target:** 2,439

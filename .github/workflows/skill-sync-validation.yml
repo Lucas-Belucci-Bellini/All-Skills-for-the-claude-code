@@ -27,6 +27,36 @@ on:
       - feat/repository-draft-candidate-preparation-2026
       - feat/repository-candidate-preassembly-audit-2026
       - feat/all-skills-consolidated-2026
+      - fix/2500-catalog-validation-routing-2026-10-30
+      - feat/nexora-stream-handle-lifecycle-2026-10-30
+      - feat/nexora-climate-lattice-reuse-2026-10-30
+      - feat/nexora-biome-climate-weight-blending-2026-10-30
+      - feat/nexora-surface-acquisition-recovery-2026-10-30
+      - feat/nexora-transparent-pass-order-2026-10-30
+      - feat/nexora-cutout-layer-integration-2026-10-30
+      - feat/nexora-pbr-material-render-bridge-2026-10-30
+      - feat/nexora-lighting-render-extraction-2026-10-30
+      - feat/nexora-shadow-caster-extraction-2026-10-30
+      - feat/nexora-atmosphere-fog-composition-2026-10-30
+      - feat/nexora-environmental-vfx-bridge-2514-main-2026-10-30
+      - feat/nexora-voxel-palette-transition-invariants-2515-clean-2026-10-30
+      - feat/nexora-durable-edit-journal-replay-2517-2026-10-30
+      - feat/nexora-region-residency-preservation-2518-2026-10-30
+      - feat/nexora-texture-forge-build-plan-integrity-2519-2026-10-30
+      - feat/nexora-edit-remesh-snapshot-refresh-2520-main-2026-10-30
+      - feat/nexora-client-retained-column-spill-lifecycle-2521-2026-10-30
+      - feat/nexora-atlas-correctness-batch-2530-2026-10-30
+      - feat/nexora-present-blit-fidelity-2535-2026-10-30
+      - feat/nexora-memory-ledger-reporting-2536-2026-10-30
+      - feat/nexora-rhi-surface-recovery-2538-2026-10-30
+      - feat/nexora-job-system-long-run-health-2538-2026-10-30
+      - feat/nexora-job-queue-admission-budget-2539-2026-10-30
+      - feat/nexora-engine-workflows-batch-2525-2026-10-30
+      - feat/nexora-tracked-local-artifact-exposure-response-2522-2026-10-30
+      - feat/nexora-texture-detail-review-2554-2026-10-30
+      - feat/nexora-digital-logic-audit-2555-2026-10-31
+      - feat/nexora-machine-logic-graph-2556-2026-10-31
+      - feat/nexora-energy-network-transaction-contract-2557-2026-10-31
   pull_request:
     branches:
       - main
@@ -48,6 +78,32 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Install Claude Code CLI for native plugin validation
+        run: npm install --global @anthropic-ai/claude-code
+
+      - name: Validate marketplace and all local plugins in strict mode
+        shell: bash
+        run: |
+          set -euo pipefail
+          claude --version
+          claude plugin validate --strict .
+          for plugin_dir in plugins/*; do
+            if [[ -f "$plugin_dir/.claude-plugin/plugin.json" ]]; then
+              claude plugin validate --strict "$plugin_dir"
+            fi
+          done
+
+      - name: Smoke test clean marketplace installation
+        shell: bash
+        run: |
+          set -euo pipefail
+          isolated_home="$(mktemp -d)"
+          trap 'rm -rf "$isolated_home"' EXIT
+          export HOME="$isolated_home"
+          export CLAUDE_CONFIG_DIR="$isolated_home/.claude"
+          claude plugin marketplace add "$GITHUB_WORKSPACE"
+          claude plugin install all-skills-collection@all-skills-for-the-claude-code --scope user
 
       - name: Check script syntax
         run: |
@@ -121,12 +177,139 @@ jobs:
         if: github.ref_name == 'feat/rea-inspired-150-agents-25k-skills-2026' || github.ref_name == 'feat/orchestration-workflow-commands-2026' || github.ref_name == 'fix/1540-skill-sync-validation-routing-2026' || github.ref_name == 'feat/repository-skill-candidate-gate-2026' || github.ref_name == 'feat/repository-evidence-manifest-2026' || github.ref_name == 'feat/repository-candidate-assembly-2026' || github.ref_name == 'feat/repository-review-batches-2026' || github.ref_name == 'feat/repository-skill-spec-scaffolder-2026' || github.ref_name == 'feat/repository-skill-spec-validation-2026' || github.ref_name == 'feat/repository-draft-spec-preflight-2026' || github.ref_name == 'feat/repository-draft-candidate-handoff-2026' || github.ref_name == 'feat/repository-draft-candidate-preparation-2026'
         run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/1540.json
 
+      - name: Validate NEXORA 2,507-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-surface-acquisition-recovery-2026-10-30' || github.head_ref == 'feat/nexora-surface-acquisition-recovery-2026-10-30' || github.ref_name == 'feat/nexora-transparent-pass-order-2026-10-30' || github.head_ref == 'feat/nexora-transparent-pass-order-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2507.json
+
+      - name: Validate NEXORA 2,508-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-cutout-layer-integration-2026-10-30' || github.head_ref == 'feat/nexora-cutout-layer-integration-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2508.json
+
+      - name: Validate NEXORA 2,509-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-pbr-material-render-bridge-2026-10-30' || github.head_ref == 'feat/nexora-pbr-material-render-bridge-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2509.json
+
+      - name: Validate NEXORA 2,510-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-lighting-render-extraction-2026-10-30' || github.head_ref == 'feat/nexora-lighting-render-extraction-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2510.json
+
+      - name: Validate NEXORA 2,511-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-shadow-caster-extraction-2026-10-30' || github.head_ref == 'feat/nexora-shadow-caster-extraction-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2511.json
+
+      - name: Validate NEXORA 2,512-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-atmosphere-fog-composition-2026-10-30' || github.head_ref == 'feat/nexora-atmosphere-fog-composition-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2512.json
+
+      - name: Validate NEXORA 2,514-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-environmental-vfx-bridge-2514-main-2026-10-30' || github.head_ref == 'feat/nexora-environmental-vfx-bridge-2514-main-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2514.json
+
+      - name: Validate NEXORA 2,515-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-voxel-palette-transition-invariants-2515-clean-2026-10-30' || github.head_ref == 'feat/nexora-voxel-palette-transition-invariants-2515-clean-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2515.json
+
+      - name: Validate NEXORA 2,513-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-voxel-memory-workload-benchmark-2026-10-30' || github.head_ref == 'feat/nexora-voxel-memory-workload-benchmark-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2513.json
+
+      - name: Validate NEXORA 2,516-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-chunk-change-feed-gap-recovery-2516-2026-10-30' || github.head_ref == 'feat/nexora-chunk-change-feed-gap-recovery-2516-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2516.json
+
+      - name: Validate NEXORA 2,517-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-durable-edit-journal-replay-2517-2026-10-30' || github.head_ref == 'feat/nexora-durable-edit-journal-replay-2517-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2517.json
+
+      - name: Validate NEXORA 2,518-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-region-residency-preservation-2518-2026-10-30' || github.head_ref == 'feat/nexora-region-residency-preservation-2518-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2518.json
+
+      - name: Validate NEXORA 2,519-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-texture-forge-build-plan-integrity-2519-2026-10-30' || github.head_ref == 'feat/nexora-texture-forge-build-plan-integrity-2519-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2519.json
+
+      - name: Validate NEXORA 2,520-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-edit-remesh-snapshot-refresh-2520-main-2026-10-30' || github.head_ref == 'feat/nexora-edit-remesh-snapshot-refresh-2520-main-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2520.json
+
+      - name: Validate NEXORA 2,521-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-client-retained-column-spill-lifecycle-2521-2026-10-30' || github.head_ref == 'feat/nexora-client-retained-column-spill-lifecycle-2521-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2521.json
+
+      - name: Validate NEXORA 2,522-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-tracked-local-artifact-exposure-response-2522-2026-10-30' || github.head_ref == 'feat/nexora-tracked-local-artifact-exposure-response-2522-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2522.json
+
+      - name: Validate NEXORA 2,526-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-engine-workflows-batch-2525-2026-10-30' || github.head_ref == 'feat/nexora-engine-workflows-batch-2525-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2526.json
+
+      - name: Validate NEXORA 2,530-skill batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-atlas-correctness-batch-2530-2026-10-30' || github.head_ref == 'feat/nexora-atlas-correctness-batch-2530-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2530.json
+
+
+      - name: Validate NEXORA 2,534-skill Texture Forge batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-texture-forge-workflows-2534-2026-10-30' || github.head_ref == 'feat/nexora-texture-forge-workflows-2534-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2534.json
+
       - name: Validate agent orchestration plugin
         run: node tools/validate-agent-plugin.mjs
 
       - name: Validate artifact analysis workbench
         run: node tools/validate-artifact-analysis-workbench.mjs
 
-      - name: Validate current consolidated 2,500-skill source and bundle parity
-        if: github.ref_name == 'feat/all-skills-consolidated-2026' || github.head_ref == 'feat/all-skills-consolidated-2026' || github.base_ref == 'feat/all-skills-consolidated-2026'
-        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/2500.json
+      - name: Validate NEXORA 2,535-skill surface presentation batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-present-blit-fidelity-2535-2026-10-30' || github.head_ref == 'feat/nexora-present-blit-fidelity-2535-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2535.json
+
+      - name: Validate NEXORA 2,536-skill MemoryLedger reporting batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-memory-ledger-reporting-2536-2026-10-30' || github.head_ref == 'feat/nexora-memory-ledger-reporting-2536-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2536.json
+
+      - name: Validate NEXORA 2,537-skill GPU frame timing batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-rhi-surface-recovery-2538-2026-10-30' || github.head_ref == 'feat/nexora-rhi-surface-recovery-2538-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2537.json
+
+      - name: Validate NEXORA 2,538-skill job system batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-job-system-long-run-health-2538-2026-10-30' || github.head_ref == 'feat/nexora-job-system-long-run-health-2538-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2538.json
+
+      - name: Validate NEXORA 2,539-skill job queue admission batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-job-queue-admission-budget-2539-2026-10-30' || github.head_ref == 'feat/nexora-job-queue-admission-budget-2539-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2539.json
+
+      - name: Validate current catalog manifest and source/bundle parity
+        if: github.ref_name == 'feat/all-skills-consolidated-2026' || github.head_ref == 'feat/all-skills-consolidated-2026' || github.base_ref == 'feat/all-skills-consolidated-2026' || github.head_ref == 'cleanup/remove-retained-imported-skills-2026-10-30' || github.head_ref == 'fix/2500-catalog-validation-routing-2026-10-30' || github.ref_name == 'fix/2500-catalog-validation-routing-2026-10-30' || github.head_ref == 'feat/nexora-stream-handle-lifecycle-2026-10-30' || github.ref_name == 'feat/nexora-stream-handle-lifecycle-2026-10-30' || github.head_ref == 'feat/nexora-climate-lattice-reuse-2026-10-30' || github.ref_name == 'feat/nexora-climate-lattice-reuse-2026-10-30' || github.head_ref == 'feat/nexora-biome-climate-weight-blending-2026-10-30' || github.ref_name == 'feat/nexora-biome-climate-weight-blending-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2505.json
+
+      - name: Validate NEXORA 2,554-skill texture art-direction batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-texture-detail-review-2554-2026-10-30' || github.head_ref == 'feat/nexora-texture-detail-review-2554-2026-10-30'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2554.json
+
+      - name: Validate latest NEXORA batch manifest and complete catalog
+        if: (github.event_name == 'pull_request' && github.base_ref == 'main') || github.ref_name == 'main'
+        shell: bash
+        run: |
+          set -euo pipefail
+          latest_manifest="$(find tools/skill-batch-manifests -maxdepth 1 -type f -name 'nexora-*.json' -print | sort -V | tail -n 1)"
+          test -n "$latest_manifest"
+          echo "Validating latest NEXORA manifest: $latest_manifest"
+          node tools/validate-skill-batch.mjs "$latest_manifest"
+
+      - name: Validate NEXORA 2,555-skill digital-logic audit batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-digital-logic-audit-2555-2026-10-31' || github.head_ref == 'feat/nexora-digital-logic-audit-2555-2026-10-31'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2555.json
+
+      - name: Validate NEXORA 2,556-skill machine logic graph batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-machine-logic-graph-2556-2026-10-31' || github.head_ref == 'feat/nexora-machine-logic-graph-2556-2026-10-31'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2556.json
+
+      - name: Validate NEXORA 2,557-skill energy network transaction batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-energy-network-transaction-contract-2557-2026-10-31' || github.head_ref == 'feat/nexora-energy-network-transaction-contract-2557-2026-10-31'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2557.json
+
+      - name: Validate NEXORA 2,558-skill fluid network transport batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-fluid-network-transport-2558-2026-10-31' || github.head_ref == 'feat/nexora-fluid-network-transport-2558-2026-10-31'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2558.json

@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
+Updated: 2026-10-31. The unified bundle contains 2561 distinct skills.
 
 ## Inventory summary
 
-- Existing/imported skills retained: **161**
-- Original curated skills: **2339**
-- Current total: **2500**
-- Long-term planning target: **2,500 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **0**
+- Existing/imported skills retained: **0**
+- Original curated skills: **2561**
+- Current total: **2561**
+- Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
+- Remaining to long-term target: **2,439**
 
 ## Categories
 
@@ -125,36 +125,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - radar-uart-and-gps-parser-boundary-tests — NEW
 - radar-vg-dac-range-and-limit-validation — NEW
 - radar-waveguide-geometry-parametric-validation — NEW
-
-### Agent workflows, Claude Code & MCP (27)
-
-- agent-development
-- build-mcp-app
-- build-mcp-server
-- build-mcpb
-- claude-automation-recommender
-- claude-security
-- command-development
-- critiquing-own-response
-- dispatching-agent-work
-- example-command
-- example-skill
-- extracting-agent-skills
-- extracting-spec-design-ladders
-- gating-by-blind-restoration
-- gating-expensive-batch-work
-- hook-development
-- mcp-integration
-- migrating-agents-md-to-control-flow
-- plugin-settings
-- plugin-structure
-- project-artifact
-- receipts
-- refining-workflows-from-artifacts
-- session-report
-- skill-creator
-- skill-development
-- writing-rules
 
 ### Claude Code setup & MCP (125)
 
@@ -336,26 +306,35 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-shared-cache-concurrent-invalidation — NEW
 - nexora-shutdown-concurrent-request-idempotency — NEW
 
-### Curated: nexora-content-pipeline (10)
+### Curated: nexora-content-pipeline (17)
 
 - nexora-asset-budget-admission — NEW
 - nexora-asset-import-dependency-graph — NEW
+- nexora-atlas-face-texel-orientation-contract — NEW
+- nexora-atlas-face-variant-determinism — NEW
+- nexora-atlas-mip-footprint-selection — NEW
 - nexora-content-provenance-manifest — NEW
 - nexora-content-registry-atomic-publication — NEW
 - nexora-hot-reload-generation-swap — NEW
 - nexora-material-schema-versioning — NEW
 - nexora-mod-api-compatibility-gate — NEW
 - nexora-mod-dependency-resolution — NEW
+- nexora-procedural-texture-seed-repair-identity — NEW
 - nexora-shader-reflection-contract — NEW
 - nexora-texture-atlas-fragmentation — NEW
+- nexora-texture-forge-build-plan-integrity — NEW
+- nexora-texture-manifest-default-inheritance — NEW
+- nexora-texture-recipe-periodic-tiling-contract — NEW
 
-### Curated: nexora-data-contracts (10)
+### Curated: nexora-data-contracts (12)
 
+- nexora-chunk-change-feed-gap-recovery — NEW
 - nexora-crafting-recipe-cycle-audit — NEW
 - nexora-inventory-transaction-invariants — NEW
 - nexora-item-stack-identity-contract — NEW
 - nexora-mod-event-subscription-lifecycle — NEW
 - nexora-mod-hot-reload-state-migration — NEW
+- nexora-region-residency-preservation — NEW
 - nexora-save-forward-compatibility — NEW
 - nexora-save-migration-rollback — NEW
 - nexora-world-edit-conflict-resolution — NEW
@@ -374,6 +353,10 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-network-schema-evolution — NEW
 - nexora-save-compatibility-fixture-policy — NEW
 - nexora-schema-deprecation-window — NEW
+
+### Curated: nexora-digital-logic (1)
+
+- nexora-digital-logic-library-integration-audit — NEW
 
 ### Curated: nexora-editor-tooling (10)
 
@@ -405,6 +388,12 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-roadmap-completion-evidence — NEW
 - nexora-world-data-loss-release-blocker — NEW
 
+### Curated: nexora-machine-automation (3)
+
+- nexora-energy-network-transaction-contract — NEW
+- nexora-fluid-network-transport-contract — NEW
+- nexora-machine-logic-graph-contract — NEW
+
 ### Curated: nexora-networking (10)
 
 - nexora-network-backpressure-policy — NEW
@@ -431,17 +420,27 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-world-save-quiescence-barrier — NEW
 - nexora-world-session-ownership — NEW
 
-### Curated: nexora-performance-memory (10)
+### Curated: nexora-performance-memory (20)
 
 - nexora-allocation-hotpath-audit — NEW
+- nexora-allocator-fragmentation-attribution — NEW
 - nexora-cache-eviction-policy — NEW
 - nexora-frame-allocation-budget — NEW
+- nexora-frame-time-regression-triage — NEW
+- nexora-gpu-frame-timing-evidence — NEW
 - nexora-gpu-memory-pressure-policy — NEW
+- nexora-job-queue-admission-budget — NEW
+- nexora-job-system-long-run-health — NEW
 - nexora-lock-contention-profile — NEW
 - nexora-memory-budget-admission — NEW
 - nexora-memory-budget-attribution — NEW
 - nexora-memory-leak-lifecycle-test — NEW
+- nexora-memory-ledger-pressure-reporting — NEW
+- nexora-profiler-overhead-calibration — NEW
 - nexora-task-priority-inversion-audit — NEW
+- nexora-voxel-memory-workload-benchmark — NEW
+- nexora-voxel-mesh-upload-backpressure — NEW
+- nexora-voxel-palette-transition-invariants — NEW
 - nexora-worker-pool-saturation — NEW
 
 ### Curated: nexora-platform-compatibility (10)
@@ -470,31 +469,46 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-upgrade-preflight-report — NEW
 - nexora-world-format-support-matrix — NEW
 
-### Curated: nexora-reliability (10)
+### Curated: nexora-reliability (13)
 
+- nexora-client-retained-column-spill-lifecycle — NEW
 - nexora-crash-recovery-startup-gate — NEW
 - nexora-diagnostic-log-redaction — NEW
+- nexora-durable-edit-journal-replay — NEW
 - nexora-mod-permission-audit — NEW
 - nexora-plugin-failure-containment — NEW
 - nexora-release-artifact-reproducibility — NEW
 - nexora-save-recovery-generation-select — NEW
 - nexora-save-write-ordering — NEW
+- nexora-streaming-failure-retention-accounting — NEW
 - nexora-telemetry-cardinality-budget — NEW
 - nexora-untrusted-asset-parser-hardening — NEW
 - nexora-world-save-checksum-contract — NEW
 
-### Curated: nexora-render-quality (10)
+### Curated: nexora-render-quality (22)
 
 - nexora-animation-lod-transition — NEW
 - nexora-animation-pose-cache-invalidation — NEW
+- nexora-atlas-cpu-shader-reference-parity — NEW
+- nexora-atmosphere-fog-composition-contract — NEW
 - nexora-audio-device-loss-recovery — NEW
 - nexora-audio-spatialization-contract — NEW
 - nexora-color-space-pipeline-contract — NEW
+- nexora-cutout-layer-integration — NEW
+- nexora-environmental-vfx-event-bridge — NEW
+- nexora-lighting-render-extraction-contract — NEW
 - nexora-occlusion-query-latency-contract — NEW
+- nexora-pbr-material-render-bridge — NEW
 - nexora-render-pass-state-contract — NEW
 - nexora-render-resolution-budget — NEW
 - nexora-render-target-resize-transaction — NEW
+- nexora-rhi-conformance-evidence — NEW
+- nexora-shadow-caster-extraction-contract — NEW
+- nexora-surface-acquisition-recovery — NEW
+- nexora-surface-present-blit-fidelity — NEW
 - nexora-temporal-history-invalidation — NEW
+- nexora-texture-art-direction-coherence-audit — NEW
+- nexora-texture-preview-seam-review — NEW
 
 ### Curated: nexora-runtime-observability (10)
 
@@ -509,7 +523,7 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-structured-diagnostic-event — NEW
 - nexora-watchdog-deadlock-diagnostics — NEW
 
-### Curated: nexora-runtime-reliability (21)
+### Curated: nexora-runtime-reliability (22)
 
 - nexora-asset-content-addressing — NEW
 - nexora-asset-import-failure-isolation — NEW
@@ -518,6 +532,7 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-crash-report-redaction — NEW
 - nexora-cross-platform-filesystem-contract — NEW
 - nexora-deterministic-tick-input-log — NEW
+- nexora-edit-remesh-snapshot-refresh — NEW
 - nexora-engine-startup-phase-gates — NEW
 - nexora-frame-pacing-budget — NEW
 - nexora-gpu-resource-retirement — NEW
@@ -533,7 +548,7 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-simulation-render-snapshot-boundary — NEW
 - nexora-texture-streaming-priority — NEW
 
-### Curated: nexora-runtime-systems (10)
+### Curated: nexora-runtime-systems (13)
 
 - nexora-animation-root-motion-authority — NEW
 - nexora-animation-skeleton-version-contract — NEW
@@ -542,9 +557,12 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-camera-origin-rebasing — NEW
 - nexora-collision-shape-cache-identity — NEW
 - nexora-constraint-solver-stability — NEW
+- nexora-first-person-pointer-motion-and-cursor-capture — NEW
 - nexora-gameplay-tick-profiler — NEW
+- nexora-physics-body-pair-sweep-ccd — NEW
 - nexora-physics-broadphase-budget — NEW
 - nexora-physics-continuous-collision — NEW
+- nexora-physics-step-report-overload-accounting — NEW
 
 ### Curated: nexora-rust-architecture (10)
 
@@ -559,7 +577,7 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-rust-unsafe-block-audit — NEW
 - nexora-rust-workspace-release-gate — NEW
 
-### Curated: nexora-security-boundaries (10)
+### Curated: nexora-security-boundaries (11)
 
 - nexora-command-permission-matrix — NEW
 - nexora-filesystem-sandbox-boundary — NEW
@@ -570,13 +588,15 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-secret-redaction-config-contract — NEW
 - nexora-secure-update-manifest — NEW
 - nexora-security-regression-corpus — NEW
+- nexora-tracked-local-artifact-exposure-response — NEW
 - nexora-world-save-authenticity-boundary — NEW
 
-### Curated: nexora-simulation-ai (30)
+### Curated: nexora-simulation-ai (32)
 
 - nexora-ai-agent-tick-budget — NEW
 - nexora-ai-perception-query-budget — NEW
 - nexora-authoritative-combat-resolution — NEW
+- nexora-character-moving-platform-velocity-inheritance — NEW
 - nexora-chunk-simulation-activation — NEW
 - nexora-deterministic-event-ordering — NEW
 - nexora-entity-component-ownership-audit — NEW
@@ -598,6 +618,7 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-scripted-gameplay-budget — NEW
 - nexora-server-authority-validation — NEW
 - nexora-simulation-overload-degradation — NEW
+- nexora-temporal-lod-offline-catchup — NEW
 - nexora-weather-time-authority — NEW
 - nexora-world-edit-command-transaction — NEW
 - nexora-world-region-lock-order — NEW
@@ -631,6 +652,13 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-test-failure-classification — NEW
 - nexora-test-isolation-contract — NEW
 
+### Curated: nexora-ui-engineering (4)
+
+- nexora-hotbar-slot-selection-and-placement-identity — NEW
+- nexora-native-ui-design-to-code — NEW
+- nexora-native-ui-focus-navigation-contract — NEW
+- nexora-native-ui-layout-scale-contract — NEW
+
 ### Curated: nexora-world-safety (10)
 
 - nexora-save-lock-and-recovery — NEW
@@ -644,13 +672,24 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - nexora-world-save-privacy-export — NEW
 - nexora-world-snapshot-consistency — NEW
 
-### Curated: nexora-worldgen-streaming (10)
+### Curated: nexora-worldgen-streaming (21)
 
+- nexora-biome-climate-weight-blending — NEW
 - nexora-chunk-lighting-propagation-budget — NEW
 - nexora-chunk-mesh-version-gate — NEW
 - nexora-chunk-priority-fairness — NEW
 - nexora-chunk-streaming-hysteresis — NEW
+- nexora-climate-lattice-sample-reuse — NEW
+- nexora-stream-handle-pin-lifecycle — NEW
+- nexora-streaming-byte-budget-post-activation-shedding — NEW
+- nexora-streaming-failed-operation-budget-accounting — NEW
+- nexora-streaming-interest-candidate-amplification — NEW
+- nexora-streaming-interest-source-admission — NEW
 - nexora-streaming-io-backpressure — NEW
+- nexora-streaming-long-session-residency-soak — NEW
+- nexora-streaming-report-outcome-classification — NEW
+- nexora-world-reproduction-key-completeness — NEW
+- nexora-worldgen-column-work-budget — NEW
 - nexora-worldgen-crash-reproduction — NEW
 - nexora-worldgen-density-boundary — NEW
 - nexora-worldgen-feature-reservation — NEW
@@ -675,8 +714,9 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - test-fixture-to-skill-validation — NEW
 - upstream-license-provenance-gate — NEW
 
-### Curated: voxel-world-engineering (10)
+### Curated: voxel-world-engineering (11)
 
+- nexora-greedy-meshing-surface-preservation — NEW
 - voxel-chunk-dirty-state-contract — NEW
 - voxel-chunk-eviction-safety — NEW
 - voxel-chunk-job-deduplication — NEW
@@ -700,12 +740,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - local-dev-environment-preflight-doctor — NEW
 - reproducible-toolchain-bootstrap — NEW
 - shell-command-path-quoting-audit — NEW
-
-### Developer tooling, CI & security (3)
-
-- designing-stable-api-contracts
-- relational-database-schema-design
-- safe-database-migrations
 
 ### Documentation & technical knowledge systems (33)
 
@@ -1217,71 +1251,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - worldgen-biome-distribution-analysis — NEW
 - worldgen-distribution-drift-detection — NEW
 
-### Game design, engines & gameplay QA (37)
-
-- adversarially-validating-game-repairs
-- arcadifying-mini-games
-- auditing-game-screen-readability
-- auditing-gameplay-implementation-coverage
-- curating-game-concept-portfolio
-- designing-game-combat-resolution
-- designing-game-progression
-- designing-mini-games
-- designing-minimal-game-rules
-- developing-with-crisp-game-lib
-- evaluating-gameplay-balance
-- exploring-game-design-space
-- gating-intent-legibility
-- generating-retro-arcade-concepts
-- generating-semantic-game-mutants
-- godot-game-dev
-- implementing-game-ai-state-machines
-- implementing-gameplay-invariants
-- localizing-game-state-divergence
-- maximizing-game-feel
-- playground
-- probing-web-game-mechanics
-- refining-game-prototypes
-- running-headless-godot
-- scaffolding-godot-mini-games
-- scoping-playable-prototypes
-- smoke-testing-web-games
-- stress-testing-game-concepts
-- structuring-gameplay-playtests
-- testing-procedural-gameplay-encounters
-- unity-game-dev
-- unreal-game-dev
-- validating-game-core-loops
-- validating-game-economy-loops
-- validating-game-movement-feel
-- validating-game-narrative-localization
-- verifying-turn-based-games
-
-### General utilities & productivity (22)
-
-- application-observability
-- async-concurrency-patterns
-- configuration-and-secret-management
-- continuous-integration-pipeline-design
-- debugging-with-minimal-reproduction
-- dependency-injection-patterns
-- designing-quest-objective-dependencies
-- git-branching-and-change-management
-- implementing-incremental-code-changes
-- modular-software-architecture
-- race-condition-detection
-- refactoring-with-characterization-tests
-- release-versioning-and-changelog
-- reliable-error-handling
-- resolving-merge-conflicts-safely
-- secure-coding-practices
-- solid-design-principles
-- sql-query-performance
-- static-analysis-and-linting
-- systematic-code-review
-- unit-testing-strategy
-- validating-multiplayer-session-lifecycle
-
 ### Geospatial visualization & map UX (35)
 
 - geoviz-3d-terrain-provider-fallback-validation — NEW
@@ -1320,11 +1289,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - geoviz-viewport-selection-context-integrity — NEW
 - geoviz-world-overlay-label-budget — NEW
 
-### Hardware & embedded devices (2)
-
-- cardputer-buddy
-- m5-onboard
-
 ### Live public-data ingestion & reliability (35)
 
 - livefeed-api-key-rotation-no-downtime — NEW
@@ -1362,21 +1326,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - livefeed-synthetic-vs-live-fixture-isolation — NEW
 - livefeed-watermark-late-event-policy — NEW
 - livefeed-websocket-reconnect-state-machine — NEW
-
-### Mathematics (3)
-
-- math-olympiad
-- siege
-- solo
-
-### Messaging integrations (6)
-
-- discord-access
-- discord-configure
-- imessage-access
-- imessage-configure
-- telegram-access
-- telegram-configure
 
 ### Minecraft & modpack engineering (230)
 
@@ -1917,6 +1866,170 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - playwright-websocket-close-diagnostics — NEW
 - playwright-worker-resource-contention — NEW
 
+### Programming language engineering (161)
+
+- assembly-idiomatic-data-control-flow — NEW
+- assembly-performance-resource-budget — NEW
+- assembly-project-toolchain-contract — NEW
+- assembly-secure-boundary-interoperability — NEW
+- assembly-testing-debugging-diagnostics — NEW
+- batch-idiomatic-data-control-flow — NEW
+- batch-performance-resource-budget — NEW
+- batch-project-toolchain-contract — NEW
+- batch-secure-boundary-interoperability — NEW
+- batch-testing-debugging-diagnostics — NEW
+- c-idiomatic-data-control-flow — NEW
+- c-performance-resource-budget — NEW
+- c-project-toolchain-contract — NEW
+- c-secure-boundary-interoperability — NEW
+- c-testing-debugging-diagnostics — NEW
+- cmake-idiomatic-data-control-flow — NEW
+- cmake-performance-resource-budget — NEW
+- cmake-project-toolchain-contract — NEW
+- cmake-secure-boundary-interoperability — NEW
+- cmake-testing-debugging-diagnostics — NEW
+- cpp-idiomatic-data-control-flow — NEW
+- cpp-performance-resource-budget — NEW
+- cpp-project-toolchain-contract — NEW
+- cpp-secure-boundary-interoperability — NEW
+- cpp-testing-debugging-diagnostics — NEW
+- csharp-idiomatic-data-control-flow — NEW
+- csharp-performance-resource-budget — NEW
+- csharp-project-toolchain-contract — NEW
+- csharp-secure-boundary-interoperability — NEW
+- csharp-testing-debugging-diagnostics — NEW
+- css-idiomatic-data-control-flow — NEW
+- css-performance-resource-budget — NEW
+- css-project-toolchain-contract — NEW
+- css-secure-boundary-interoperability — NEW
+- css-testing-debugging-diagnostics — NEW
+- dockerfile-idiomatic-data-control-flow — NEW
+- dockerfile-performance-resource-budget — NEW
+- dockerfile-project-toolchain-contract — NEW
+- dockerfile-secure-boundary-interoperability — NEW
+- dockerfile-testing-debugging-diagnostics — NEW
+- gdscript-idiomatic-data-control-flow — NEW
+- gdscript-performance-resource-budget — NEW
+- gdscript-project-toolchain-contract — NEW
+- gdscript-secure-boundary-interoperability — NEW
+- gdscript-testing-debugging-diagnostics — NEW
+- glsl-idiomatic-data-control-flow — NEW
+- glsl-performance-resource-budget — NEW
+- glsl-project-toolchain-contract — NEW
+- glsl-secure-boundary-interoperability — NEW
+- glsl-testing-debugging-diagnostics — NEW
+- go-template-idiomatic-data-control-flow — NEW
+- go-template-performance-resource-budget — NEW
+- go-template-project-toolchain-contract — NEW
+- go-template-secure-boundary-interoperability — NEW
+- go-template-testing-debugging-diagnostics — NEW
+- html-idiomatic-data-control-flow — NEW
+- html-performance-resource-budget — NEW
+- html-project-toolchain-contract — NEW
+- html-secure-boundary-interoperability — NEW
+- html-testing-debugging-diagnostics — NEW
+- java-idiomatic-data-control-flow — NEW
+- java-performance-resource-budget — NEW
+- java-project-toolchain-contract — NEW
+- java-secure-boundary-interoperability — NEW
+- java-testing-debugging-diagnostics — NEW
+- javascript-idiomatic-data-control-flow — NEW
+- javascript-performance-resource-budget — NEW
+- javascript-project-toolchain-contract — NEW
+- javascript-secure-boundary-interoperability — NEW
+- javascript-testing-debugging-diagnostics — NEW
+- linker-script-idiomatic-data-control-flow — NEW
+- linker-script-performance-resource-budget — NEW
+- linker-script-project-toolchain-contract — NEW
+- linker-script-secure-boundary-interoperability — NEW
+- linker-script-testing-debugging-diagnostics — NEW
+- makefile-idiomatic-data-control-flow — NEW
+- makefile-performance-resource-budget — NEW
+- makefile-project-toolchain-contract — NEW
+- makefile-secure-boundary-interoperability — NEW
+- makefile-testing-debugging-diagnostics — NEW
+- nsis-idiomatic-data-control-flow — NEW
+- nsis-performance-resource-budget — NEW
+- nsis-project-toolchain-contract — NEW
+- nsis-secure-boundary-interoperability — NEW
+- nsis-testing-debugging-diagnostics — NEW
+- objective-c-idiomatic-data-control-flow — NEW
+- objective-c-performance-resource-budget — NEW
+- objective-c-project-toolchain-contract — NEW
+- objective-c-secure-boundary-interoperability — NEW
+- objective-c-testing-debugging-diagnostics — NEW
+- plpgsql-idiomatic-data-control-flow — NEW
+- plpgsql-performance-resource-budget — NEW
+- plpgsql-project-toolchain-contract — NEW
+- plpgsql-secure-boundary-interoperability — NEW
+- plpgsql-testing-debugging-diagnostics — NEW
+- polyglot-build-and-release-reproducibility — NEW
+- polyglot-cross-language-api-contract-validation — NEW
+- polyglot-data-schema-serialization-compatibility — NEW
+- polyglot-ffi-and-native-boundary-safety — NEW
+- polyglot-incremental-language-migration-plan — NEW
+- polyglot-multi-runtime-test-fixture-reconciliation — NEW
+- portugol-idiomatic-data-control-flow — NEW
+- portugol-performance-resource-budget — NEW
+- portugol-project-toolchain-contract — NEW
+- portugol-secure-boundary-interoperability — NEW
+- portugol-testing-debugging-diagnostics — NEW
+- powershell-idiomatic-data-control-flow — NEW
+- powershell-performance-resource-budget — NEW
+- powershell-project-toolchain-contract — NEW
+- powershell-secure-boundary-interoperability — NEW
+- powershell-testing-debugging-diagnostics — NEW
+- python-idiomatic-data-control-flow — NEW
+- python-performance-resource-budget — NEW
+- python-project-toolchain-contract — NEW
+- python-secure-boundary-interoperability — NEW
+- python-testing-debugging-diagnostics — NEW
+- rust-idiomatic-data-control-flow — NEW
+- rust-performance-resource-budget — NEW
+- rust-project-toolchain-contract — NEW
+- rust-secure-boundary-interoperability — NEW
+- rust-testing-debugging-diagnostics — NEW
+- scss-idiomatic-data-control-flow — NEW
+- scss-performance-resource-budget — NEW
+- scss-project-toolchain-contract — NEW
+- scss-secure-boundary-interoperability — NEW
+- scss-testing-debugging-diagnostics — NEW
+- shaderlab-idiomatic-data-control-flow — NEW
+- shaderlab-performance-resource-budget — NEW
+- shaderlab-project-toolchain-contract — NEW
+- shaderlab-secure-boundary-interoperability — NEW
+- shaderlab-testing-debugging-diagnostics — NEW
+- shell-idiomatic-data-control-flow — NEW
+- shell-performance-resource-budget — NEW
+- shell-project-toolchain-contract — NEW
+- shell-secure-boundary-interoperability — NEW
+- shell-testing-debugging-diagnostics — NEW
+- solidity-idiomatic-data-control-flow — NEW
+- solidity-performance-resource-budget — NEW
+- solidity-project-toolchain-contract — NEW
+- solidity-secure-boundary-interoperability — NEW
+- solidity-testing-debugging-diagnostics — NEW
+- sqf-idiomatic-data-control-flow — NEW
+- sqf-performance-resource-budget — NEW
+- sqf-project-toolchain-contract — NEW
+- sqf-secure-boundary-interoperability — NEW
+- sqf-testing-debugging-diagnostics — NEW
+- swift-idiomatic-data-control-flow — NEW
+- swift-performance-resource-budget — NEW
+- swift-project-toolchain-contract — NEW
+- swift-secure-boundary-interoperability — NEW
+- swift-testing-debugging-diagnostics — NEW
+- typescript-idiomatic-data-control-flow — NEW
+- typescript-performance-resource-budget — NEW
+- typescript-project-toolchain-contract — NEW
+- typescript-secure-boundary-interoperability — NEW
+- typescript-testing-debugging-diagnostics — NEW
+- wolfram-language-idiomatic-data-control-flow — NEW
+- wolfram-language-performance-resource-budget — NEW
+- wolfram-language-project-toolchain-contract — NEW
+- wolfram-language-secure-boundary-interoperability — NEW
+- wolfram-language-testing-debugging-diagnostics — NEW
+
 ### Public-data provenance, privacy & ethics (35)
 
 - geo-alpr-location-only-data-guardrail — NEW
@@ -2129,63 +2242,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - trace-context-propagation-contract — NEW
 - typescript-api-error-contract-design — NEW
 - web-performance-budget-audit — NEW
-
-### Reverse engineering & artifact analysis (54)
-
-- rea-android-apk-triage
-- rea-android-method-analysis
-- rea-android-resource-analysis
-- rea-app-version-diff
-- rea-assembly-pseudocode-check
-- rea-browser-capture-compare
-- rea-browser-passive-observation
-- rea-browser-scenario-capture
-- rea-changelog-update
-- rea-ci-tests-audit
-- rea-crash-core-analysis
-- rea-dos-ghidra-analysis
-- rea-dotnet-assembly-analysis
-- rea-electron-ipc
-- rea-electron-native-addons
-- rea-elf-layout-audit
-- rea-engine-architecture-learning
-- rea-evm-bytecode-inspection
-- rea-feature-trace
-- rea-firmware-analysis
-- rea-flutter-apk-inventory
-- rea-ghidra-provider-workflow
-- rea-har-network-analysis
-- rea-ida-provider-workflow
-- rea-js-app-map
-- rea-js-bundle-reconstruction
-- rea-js-export-shapes
-- rea-js-module-graph
-- rea-large-binary-investigation
-- rea-native-abi-analysis
-- rea-native-binary-triage
-- rea-native-call-graph
-- rea-native-function-analysis
-- rea-native-function-reconstruction
-- rea-native-string-analysis
-- rea-native-xref-tracing
-- rea-packet-field-discovery
-- rea-pcap-summary-analysis
-- rea-pe-resource-analysis
-- rea-rust-artifact-source-compare
-- rea-rust-binary-inventory
-- rea-rust-dependency-audit
-- rea-rust-dependency-graph
-- rea-rust-runtime-boundary
-- rea-saz-traffic-analysis
-- rea-source-map-provenance
-- rea-sqlite-schema-analysis
-- rea-task-triage
-- rea-tool-design
-- rea-wasm-js-boundary
-- rea-wasm-module-analysis
-- rea-web-feature-tracing
-- rea-windows-binary-inspection
-- reverse-engineer-anything
 
 ### Rust & platform engineering (99)
 
@@ -2612,16 +2668,6 @@ Updated: 2026-10-29. The unified bundle contains 2500 distinct skills.
 - temporal-workflow-replay-regression — NEW
 - temporal-workflow-test-fixture-isolation — NEW
 - temporal-workflow-versioning-marker — NEW
-
-### UI, art, audio & assets (7)
-
-- building-era-authentic-game-audio
-- creating-godot-procedural-audio
-- designing-retro-arcade-sound-kits
-- directing-game-visuals
-- frontend-design
-- generating-dot-assets
-- styling-web-game-typography
 
 ### Vercel AI SDK & agent reliability (75)
 

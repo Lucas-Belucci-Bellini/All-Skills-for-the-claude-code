@@ -17,7 +17,7 @@ const readmePath = path.join(pluginRoot, "README.md");
 const skillCatalogPath = path.join(root, "SKILL_LIBRARY_CATALOG.json");
 const skillCatalogMarkdownPath = path.join(root, "SKILL_LIBRARY_CATALOG.md");
 const growthRoadmapPath = path.join(root, "SKILL_GROWTH_ROADMAP.md");
-const LONG_TERM_TARGET = 2500;
+const LONG_TERM_TARGET = 5000;
 const skipDirs = new Set([".git", "node_modules", ".next", "coverage", "dist", "vendor"]);
 const generated = ["plugins/all-skills-collection/", "plugins/skill-library-maintainer/"];
 // Sources whose license forbids redistribution; never scan or bundle them, even if re-imported.
@@ -179,6 +179,7 @@ const CURATED_CATEGORY_LABELS = {
   "skill-library-governance": "Skill library governance",
   "game-content-pipelines": "Game content & save systems",
   "agent-tooling": "Claude Code setup & MCP",
+  "programming-language-engineering": "Programming language engineering",
 };
 function categoryForExistingSkill(n) {
   if (n.startsWith("rea-") || n === "reverse-engineer-anything") return "Reverse engineering & artifact analysis";

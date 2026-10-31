@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "batch_size": 1,
+  "milestone_total": 2501,
+  "long_term_target": 5000,
+  "authored_count": 2501,
+  "retained_count": 0,
+  "plugin_version": "2.1.24",
+  "skills": [
+    {
+      "name": "nexora-greedy-meshing-surface-preservation",
+      "source_path": "curated-skill-sources/voxel-world-engineering/nexora-greedy-meshing-surface-preservation/SKILL.md",
+      "category": "Curated: voxel-world-engineering"
+    }
+  ]
+}

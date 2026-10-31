@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-31",
+  "batch_size": 1,
+  "milestone_total": 2560,
+  "long_term_target": 5000,
+  "authored_count": 2560,
+  "retained_count": 0,
+  "plugin_version": "2.1.79",
+  "skills": [
+    {
+      "name": "nexora-world-reproduction-key-completeness",
+      "source_path": "curated-skill-sources/nexora-worldgen-streaming/nexora-world-reproduction-key-completeness/SKILL.md",
+      "category": "Curated: nexora-worldgen-streaming"
+    }
+  ]
+}

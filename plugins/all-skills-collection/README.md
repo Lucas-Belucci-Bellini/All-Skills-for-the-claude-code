@@ -1,6 +1,6 @@
 # All Skills Collection — Claude Code Plugin
 
-A generated plugin containing **2500 distinct skills**, with authored workflows across simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, provenance/privacy, telemetry observability, engine/runtime engineering, Rust/platform systems, release quality, databases, agent reliability, accessibility and technical documentation. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
+A generated plugin containing **2561 distinct skills**, with authored workflows across simulation/NPCs/world history, game content and save systems, deterministic multiplayer, geospatial UX, live public data, provenance/privacy, telemetry observability, engine/runtime engineering, Rust/platform systems, release quality, databases, agent reliability, accessibility, technical documentation, and original workflows for all 31 languages in the public profile, including NEXORA surface recovery, RHI conformance evidence, Cutout layer integration, PBR material rendering, lighting render extraction, shadow caster extraction, atmosphere/fog composition, voxel memory workload benchmarking, environmental VFX event integration, voxel palette transition invariants, chunk change-feed gap recovery, durable edit-journal replay, region-residency preservation, Texture Forge build-plan integrity, edit-remesh snapshot refresh, client retained-column spill lifecycle, tracked local artifact exposure response, and transparent voxel pass ordering, Texture Forge manifest inheritance, periodic recipe tiling, procedural texture seed/repair identity, and 2×2 seam review, and final wgpu surface-blit pixel fidelity, and MemoryLedger pressure/report interpretation, and allocator fragmentation attribution, and body-pair continuous collision detection, and physics StepReport overload accounting. and moving-platform character velocity inheritance, and streaming backend-failure retention accounting, and streaming interest-source admission, and multi-source streaming candidate-amplification accounting, and StreamingReport outcome classification, and failed-operation budget accounting, and post-activation byte-budget shedding, and texture art-direction coherence review, digital-logic library integration audit, deterministic machine logic graph contracts, and conserved energy-network transaction contracts, and deterministic fluid-network transport contracts. Supporting files local to each skill are preserved. Add new authored skills to curated-skill-sources; do not hand-edit the generated plugin copy.
 
 ## Install
 
@@ -10,7 +10,7 @@ In Claude Code, add this repository as a marketplace and install all-skills-coll
 
 - Full inventory: SKILL_LIBRARY_CATALOG.md
 - Machine-readable inventory: SKILL_LIBRARY_CATALOG.json
-- Long-term roadmap to 2,500 distinct skills (500 is the 2026 intermediate milestone): SKILL_GROWTH_ROADMAP.md
+- Long-term roadmap to 5,000 distinct skills (the 2,500 original-skill milestone is complete; 500 was the 2026 intermediate milestone): SKILL_GROWTH_ROADMAP.md
 - Canonical authored sources: curated-skill-sources/README.md
 
 ## Refresh after new skills
@@ -24,4 +24,4 @@ The sync script removes identical skill subtrees from the output, namespaces rea
 
 ## Limits and provenance
 
-This bundle includes skill entrypoints and skill-local files. It does not automatically include every upstream plugin's agents, slash commands, hooks, MCP server implementation or runtime dependencies. Keep the repository private until third-party provenance and redistribution terms have been reviewed.
+This bundle includes skill entrypoints and skill-local files. It does not automatically include every upstream plugin's agents, slash commands, hooks, MCP server implementation or runtime dependencies. The aggregate skill bundle contains only newly authored skill sources. Separately packaged plugins still retain their own license and provenance requirements.

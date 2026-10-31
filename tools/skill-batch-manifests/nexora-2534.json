@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30",
+  "batch_size": 4,
+  "milestone_total": 2534,
+  "long_term_target": 5000,
+  "authored_count": 2534,
+  "retained_count": 0,
+  "plugin_version": "2.1.51",
+  "skills": [
+    {
+      "name": "nexora-texture-manifest-default-inheritance",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-manifest-default-inheritance/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-texture-recipe-periodic-tiling-contract",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-texture-recipe-periodic-tiling-contract/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-procedural-texture-seed-repair-identity",
+      "source_path": "curated-skill-sources/nexora-content-pipeline/nexora-procedural-texture-seed-repair-identity/SKILL.md",
+      "category": "Curated: nexora-content-pipeline"
+    },
+    {
+      "name": "nexora-texture-preview-seam-review",
+      "source_path": "curated-skill-sources/nexora-render-quality/nexora-texture-preview-seam-review/SKILL.md",
+      "category": "Curated: nexora-render-quality"
+    }
+  ]
+}

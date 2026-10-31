@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-31",
+  "batch_size": 1,
+  "milestone_total": 2561,
+  "long_term_target": 5000,
+  "authored_count": 2561,
+  "retained_count": 0,
+  "plugin_version": "2.1.80",
+  "skills": [
+    {
+      "name": "nexora-temporal-lod-offline-catchup",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-temporal-lod-offline-catchup/SKILL.md",
+      "category": "Curated: nexora-simulation-ai"
+    }
+  ]
+}
