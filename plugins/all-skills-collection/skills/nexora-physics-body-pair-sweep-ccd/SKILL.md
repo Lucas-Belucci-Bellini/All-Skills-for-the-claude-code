@@ -45,7 +45,7 @@ Re-check the exact commit and source before applying this workflow. Do not assum
 11. **Test determinism and replay.** Repeat identical scenarios with different slot allocation histories and save/load reconstruction. Compare stable state hashes or the project's established deterministic evidence.
 12. **Report implementation status honestly.** Separate existing behavior, proposed algorithm, tests present, tests executed, benchmark evidence and unresolved limitations.
 
-## Validation matrix
+## Validation checklist
 
 - [ ] Two fast dynamic bodies cross within one substep without overlapping at either endpoint.
 - [ ] Dynamic body collides with a moving kinematic body.
