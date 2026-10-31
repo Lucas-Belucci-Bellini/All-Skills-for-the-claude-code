@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-31. The unified bundle contains 2560 distinct skills.
+Updated: 2026-10-31. The unified bundle contains 2561 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2560**
-- Current total: **2560**
+- Original curated skills: **2561**
+- Current total: **2561**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,440**
+- Remaining to long-term target: **2,439**
 
 ## Categories
 
@@ -591,7 +591,7 @@ Updated: 2026-10-31. The unified bundle contains 2560 distinct skills.
 - nexora-tracked-local-artifact-exposure-response — NEW
 - nexora-world-save-authenticity-boundary — NEW
 
-### Curated: nexora-simulation-ai (31)
+### Curated: nexora-simulation-ai (32)
 
 - nexora-ai-agent-tick-budget — NEW
 - nexora-ai-perception-query-budget — NEW
@@ -618,6 +618,7 @@ Updated: 2026-10-31. The unified bundle contains 2560 distinct skills.
 - nexora-scripted-gameplay-budget — NEW
 - nexora-server-authority-validation — NEW
 - nexora-simulation-overload-degradation — NEW
+- nexora-temporal-lod-offline-catchup — NEW
 - nexora-weather-time-authority — NEW
 - nexora-world-edit-command-transaction — NEW
 - nexora-world-region-lock-order — NEW
