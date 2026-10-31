@@ -81,6 +81,11 @@ Produce a reviewable fluid-network contract or implementation plan containing:
 - **Negative:** Build a generic item conveyor or storage-routing network; use the relevant logistics skill.
 - **Negative:** Claim runtime behavior is implemented based only on a design document; require code and test evidence.
 
+- **Positive:** Design the NEXORA fluid network contract for pumps, pipes, tanks, and machine fluid ports.
+- **Positive:** Review whether fluid transfers are deterministic, capacity-safe, atomic, and conserved.
+- **Negative:** Implement a new fluid simulation solver; use the existing fluid simulation stability workflow and Fluid Engine ownership instead.
+- **Negative:** Create an energy network transfer contract; use the NEXORA energy network transaction skill.
+
 ## Boundaries and failure handling
 
 - Do not create a second Fluid Engine, independent pressure solver, or parallel machine lifecycle.
