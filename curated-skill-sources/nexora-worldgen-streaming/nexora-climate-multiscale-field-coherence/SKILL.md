@@ -25,7 +25,7 @@ Pin the NEXORA commit and inspect:
 
 Classify every relevant feature as **implemented**, **planned**, **partially implemented**, or **unknown**. Cite exact files and symbols in the resulting review.
 
-## Spatial contract workflow
+## Workflow
 
 1. **Name each field and its meaning.** Separate climate statistics, instantaneous weather, atmospheric properties, terrain-derived inputs, and presentation-only values. Record units, valid range, coordinate frame, vertical applicability, and whether the field is authoritative or derived.
 2. **Assign one owning resolution.** For each field, select the coarsest scale that preserves the behavior it must represent. A voxel-level query may sample or interpolate a regional field; it must not silently create a second independently simulated climate state.
@@ -42,6 +42,15 @@ Classify every relevant feature as **implemented**, **planned**, **partially imp
 13. **Version the field schema.** Persist field identity, units/schema version, resolution metadata, and any algorithm version needed to interpret stored values. Define migration and fallback behavior for older saves.
 14. **Expose provenance and diagnostics.** Make it possible to inspect the source scale, parent region, source timestamp, interpolation/aggregation method, and stale/missing status behind a sampled value without logging every voxel query.
 15. **Keep consumers decoupled.** Biome selection, hydrology, ecology, agriculture, physics, and rendering consume documented field contracts. They must not each invent their own climate authority or mutate shared climate state through presentation queries.
+
+## Required inputs
+
+- Exact NEXORA commit SHA and current climate/atmosphere design documents.
+- Current implementations of terrain climate sampling, world descriptors, region/chunk ownership, and save/load schemas.
+- Field inventory with units, coordinate frame, expected range, consumers, and authoritative owner where known.
+- Chunk dimensions, region dimensions, active LOD levels, and worker/query model.
+- Existing climate lattice, biome blending, temporal LOD, and world-time tests.
+- Target memory, update-time, and transition budgets; label missing measurements as unknown rather than inventing values.
 
 ## Validation matrix
 
@@ -81,3 +90,24 @@ Deliver:
 - implemented-versus-planned gaps and unresolved design decisions.
 
 Never claim that a runtime Climate Engine, regional weather simulation, conservation guarantee, or benchmark exists unless the inspected code and executed tests prove it.
+
+## Validation checklist
+
+- [ ] Every field has a documented meaning, unit, owner, and spatial resolution.
+- [ ] Aggregation semantics distinguish intensive, extensive, vector, categorical, and accumulated quantities.
+- [ ] Parent-child reconciliation prevents stale writes and double counting.
+- [ ] Shared chunk/region boundaries produce deterministic compatible samples.
+- [ ] LOD transitions do not mix incompatible timestamps or advance simulation time.
+- [ ] Missing/stale data, schema migration, and memory limits have explicit policies.
+- [ ] Tests use reproducible fixtures and report exact commands and outcomes.
+
+## Boundaries and failure handling
+
+Do not turn this audit into an unrequested rewrite of the climate generator. If field units, physical meaning, region ownership, or timestamps are undocumented, record the gap and request a design decision rather than choosing an arbitrary aggregation. If the runtime has no regional climate store, describe the multiscale model as a proposed contract and do not claim it is implemented. If child regions are incomplete, stale, or corrupt, use only an explicitly approved fallback and preserve provenance. If interpolation or aggregation changes terrain generation outputs, stop and route the change through generator-version compatibility and regression review. Keep temporal catch-up and world-clock advancement owned by their dedicated systems.
+
+## Trigger examples
+
+- **Positive:** Review a proposed regional climate cache for deterministic aggregation, boundary continuity, and bounded memory.
+- **Positive:** Design how chunk-level climate samples should be derived from continent and region fields without creating multiple authorities.
+- **Negative:** Optimize repeated value-noise corner reads inside terrain column generation; use the climate lattice sample-reuse workflow.
+- **Negative:** Advance weather while a region is unloaded; use the temporal LOD offline catch-up and weather-time authority workflows.
