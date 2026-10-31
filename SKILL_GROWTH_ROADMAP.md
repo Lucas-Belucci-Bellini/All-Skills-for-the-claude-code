@@ -1,9 +1,9 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,545 distinct skills (2,545 authored + 0 retained/imported)
+**Current draft inventory:** 2,546 distinct skills (2,546 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,455
+**Remaining to long-term target:** 2,454
 **Current milestone:** 2,545 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, scheduling and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
@@ -481,6 +481,7 @@ Added four source-grounded workflows for Texture Forge manifest inheritance and 
 | 2543 | 2543 | Adds a NEXORA body-pair continuous collision workflow to distinguish end-of-substep AABB overlap from swept body-pair contact, preserving deterministic broadphase ordering, voxel authority and bounded solver cost; no runtime CCD implementation or test result is claimed |
 | 2544 | 2544 | Adds a NEXORA physics StepReport overload-accounting workflow to reconcile executed work, dropped full substeps, discarded fractional remainder and telemetry semantics; no runtime telemetry or engine changes are claimed |
 | 2545 | 2545 | Adds a NEXORA character/moving-platform velocity-inheritance workflow for grounded support-relative movement, first-tick transitions, airborne authority and deterministic rider behavior; no runtime changes are claimed |
+| 2546 | 2546 | Adds a NEXORA streaming backend-failure retention workflow distinguishing per-tick failures, retained diagnostics, dropped details and drain semantics; no runtime changes are claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
@@ -518,3 +519,11 @@ Added a source-grounded audit workflow for the boundary between the integer fixe
 ## Batch 2,545 — NEXORA character moving-platform velocity inheritance (2026-10-31)
 
 Added a source-grounded workflow for character movement relative to kinematic supports. It distinguishes controller intent from support velocity, documents horizontal inheritance and solver-owned vertical motion, and tests the first tick when a platform starts moving separately from steady-state riding. It covers relative walking, support loss, jump/air-control transitions, stop/reversal and wake behavior. No runtime changes or engine test results are claimed.
+
+
+## Batch 2,546 — NEXORA streaming failure retention (2026-10-30)
+
+- Added `nexora-streaming-failure-retention-accounting` under `curated-skill-sources/nexora-reliability/`.
+- Grounded in NEXORA snapshot `19486829d18bd864fea00cac0711f519a5c07a70`, specifically `engine/streaming/src/system.rs` and its bounded-retention test.
+- Separates per-tick backend failures, retained error details, dropped diagnostic details and drained details; includes burst, multi-tick, drain and failure-isolation validation.
+- This is a skill/documentation delivery only. No NEXORA runtime code or runtime tests are claimed.

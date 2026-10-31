@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-30. The unified bundle contains 2545 distinct skills.
+Updated: 2026-10-30. The unified bundle contains 2546 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2545**
+- Original curated skills: **2546**
 - Current total: **2545**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,455**
+- Remaining to long-term target: **2,454**
 
 ## Categories
 
@@ -459,7 +459,7 @@ Updated: 2026-10-30. The unified bundle contains 2545 distinct skills.
 - nexora-upgrade-preflight-report — NEW
 - nexora-world-format-support-matrix — NEW
 
-### Curated: nexora-reliability (12)
+### Curated: nexora-reliability (13)
 
 - nexora-client-retained-column-spill-lifecycle — NEW
 - nexora-crash-recovery-startup-gate — NEW
@@ -469,6 +469,7 @@ Updated: 2026-10-30. The unified bundle contains 2545 distinct skills.
 - nexora-plugin-failure-containment — NEW
 - nexora-release-artifact-reproducibility — NEW
 - nexora-save-recovery-generation-select — NEW
+- nexora-streaming-failure-retention-accounting — NEW
 - nexora-save-write-ordering — NEW
 - nexora-telemetry-cardinality-budget — NEW
 - nexora-untrusted-asset-parser-hardening — NEW
