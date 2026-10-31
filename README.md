@@ -124,4 +124,4 @@ The current catalog contains 2,563 distinct skills: 2,563 original authored skil
 
 ## NEXORA skill inventory
 
-- NEXORA-specific skill inventory: [`docs/NEXORA_SKILL_INVENTORY.md`](docs/NEXORA_SKILL_INVENTORY.md) (358 catalog entries across 31 categories; includes the integrated 2,563-skill catalog inventory).
+- NEXORA-specific skill inventory: [`docs/NEXORA_SKILL_INVENTORY.md`](docs/NEXORA_SKILL_INVENTORY.md) (359 catalog entries across 31 categories; includes the integrated 2,563-skill catalog inventory).
