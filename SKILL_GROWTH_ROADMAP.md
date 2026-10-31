@@ -490,6 +490,7 @@ Added four source-grounded workflows for Texture Forge manifest inheritance and 
 | 2552 | 2552 | Adds a NEXORA nine-slot hotbar workflow for deterministic keyboard/wheel selection, stable content identity and validated block placement; no runtime changes are claimed |
 | 2553 | 2553 | Adds a NEXORA pointer-look workflow for relative motion, deterministic replay, cursor-capture lifecycle and crosshair/raycast alignment; no runtime changes are claimed |
 | 2554 | 2554 | Adds a NEXORA texture art-direction audit for detail hierarchy, material readability, palette/noise discipline, and cross-family coherence; no PNG inspection or asset changes are claimed |
+| 2555 | 2555 | Adds a NEXORA digital-logic library audit for evidence-backed chip classification, licensing, architecture fit, deterministic timing, persistence and test requirements; no UMBRA code or engine integration is claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
