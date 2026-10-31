@@ -1,10 +1,10 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,556 distinct skills (2,556 authored + 0 retained/imported)
+**Current draft inventory:** 2,557 distinct skills (2,557 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,444
-**Current milestone:** 2,556 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
+**Remaining to long-term target:** 2,443
+**Current milestone:** 2,557 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
 The 2,500 figure remains a long-term planning target, not a reason to ship filler or a promise that every future skill will be completed by a fixed date. Count canonical skill identities only: aliases, bundle copies, alternate paths, and duplicates do not increase the total.
@@ -492,6 +492,7 @@ Added four source-grounded workflows for Texture Forge manifest inheritance and 
 | 2554 | 2554 | Adds a NEXORA texture art-direction audit for detail hierarchy, material readability, palette/noise discipline, and cross-family coherence; no PNG inspection or asset changes are claimed |
 | 2555 | 2555 | Adds a NEXORA digital-logic library audit for evidence-backed chip classification, licensing, architecture fit, deterministic timing, persistence and test requirements; no UMBRA code or engine integration is claimed |
 | 2556 | 2556 | Adds a NEXORA machine-logic graph contract for typed signals, deterministic gate evaluation, cycle policy, command boundaries, persistence and Phase 5 readiness; no runtime graph implementation is claimed |
+| 2557 | 2557 | Adds a NEXORA energy-network transaction contract for atomic transfers, conservation, loss accounting, deterministic priority allocation, replay and persistence; no energy runtime implementation is claimed |
 
 
 ## Batch 2,538 — NEXORA Job System long-run health (2026-10-30)
@@ -622,3 +623,11 @@ Added a source-grounded workflow for character movement relative to kinematic su
 - Grounded in the current Machine and Automation plan's signal fields (`value`, `type`, `source`, `timestamp`), initial AND/OR/NOT/XOR/COMPARE gates, and Sensor → Comparator → Controller → Machine graph.
 - Preserves NEXORA's authoritative world clock and command boundary, defines deterministic graph ordering and cycle/resource limits, and treats Phase 5 as a readiness gate rather than current implementation.
 - This is a skill/documentation delivery only. No NEXORA runtime logic graph or machine system was implemented or tested.
+
+
+## Batch 2,557 — NEXORA energy network transaction contract (2026-10-31)
+
+- Added `nexora-energy-network-transaction-contract` under `curated-skill-sources/nexora-machine-automation/`.
+- Grounded in the Machine and Automation plan's EnergyNode, EnergyTransfer, consumer priorities, storage, and transfer/distance/conversion loss concepts.
+- Defines canonical units, deterministic rounding, atomic reservations, conservation, priority/fairness, topology snapshots, replay, persistence, and multiplayer authority.
+- Documentation/skill delivery only; no NEXORA energy runtime was implemented or tested.
