@@ -1,16 +1,16 @@
 # NEXORA Skill Inventory
 
 Updated: 2026-10-31  
-Catalog snapshot: 2564 distinct skills  
-NEXORA-related catalog entries: 360  
+Catalog snapshot: 2565 distinct skills  
+NEXORA-related catalog entries: 361  
 Scope: skills whose catalog name or category contains "NEXORA". This inventory lists skill assets in the All-Skills library; it does not mean the corresponding game feature is implemented in the NEXORA runtime.
 
 ## Summary
 
-- NEXORA-related skills: **360**
-- Catalog total: **2564**
+- NEXORA-related skills: **361**
+- Catalog total: **2565**
 - Long-term library target: **5000**
-- Remaining to library target: **2436**
+- Remaining to library target: **2435**
 - Latest integrated skill: `nexora-gamepad-host-signal-adapter` (PR pending validation).
 
 ## Inventory by category
@@ -415,12 +415,12 @@ Scope: skills whose catalog name or category contains "NEXORA". This inventory l
 - `nexora-test-failure-classification`
 - `nexora-test-isolation-contract`
 
-### Curated: nexora-ui-engineering (4)
+### Curated: nexora-ui-engineering (5)
 
 - `nexora-hotbar-slot-selection-and-placement-identity`
 - `nexora-native-ui-design-to-code`
 - `nexora-native-ui-focus-navigation-contract`
-- `nexora-native-ui-layout-scale-contract`
+- `nexora-native-ui-layout-scale-contract`\n- `nexora-accessibility-caption-event-localization-contract`
 
 ### Curated: nexora-world-safety (10)
 
