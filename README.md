@@ -1,6 +1,6 @@
 # All Skills for Claude Code — Community Collection
 
-This is an independent, community-maintained collection of Claude Code skills and plugins. It is **not affiliated with or endorsed by Anthropic**. The combined collection currently packages 2563 distinct skills: 2563 original skills and zero retained/imported skills. The 161 retained/imported entries were removed and replaced with 161 newly authored language-engineering workflows covering all 31 languages in the public profile.
+This is an independent, community-maintained collection of Claude Code skills and plugins. It is **not affiliated with or endorsed by Anthropic**. The combined collection currently packages 2564 distinct skills: 2564 original skills and zero retained/imported skills. The 161 retained/imported entries were removed and replaced with 161 newly authored language-engineering workflows covering all 31 languages in the public profile.
 
 > **Distribution note:** the 161 retained/imported skill entries and their generated bundle copies have been removed. Third-party plugin packages and their non-skill components may still exist elsewhere in this repository; their LICENSE/NOTICE and provenance requirements remain applicable. This cleanup is not blanket legal approval for every plugin in the marketplace.
 
@@ -117,11 +117,11 @@ This repository also maintains a unified Claude Code plugin that gathers distinc
 
 After adding a new skill batch, run `node tools/sync-skill-bundles.mjs --write`, review the diff, then validate with `node tools/sync-skill-bundles.mjs --check`. Updates should go through a feature branch and pull request. Review source licenses and provenance before redistributing any third-party component.
 
-The combined collection currently packages 2,563 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the long-term expansion plan beyond this completed milestone. See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
+The combined collection currently packages 2,564 distinct skills. Use SKILL_LIBRARY_CATALOG.md for the inventory and SKILL_GROWTH_ROADMAP.md for the long-term expansion plan beyond this completed milestone. See also the [beginner guide to setting up MCP in Claude Code (PT-BR)](docs/guides/como-configurar-mcp-no-claude-code.md).
 
-The current catalog contains 2,563 distinct skills: 2,563 original authored skills and zero retained/imported skill entries. The 161 previously retained/imported entries were removed and replaced with original language-engineering workflows. This is a catalog count, not proof that every skill has been runtime-tested or cleared for redistribution. Third-party plugin packages and non-skill components retain their own license and NOTICE obligations; review those terms before redistribution. Strict Claude Code validation and a clean marketplace installation/discovery test should be treated as separate release checks and reported only when executed.
+The current catalog contains 2,564 distinct skills: 2,564 original authored skills and zero retained/imported skill entries. The 161 previously retained/imported entries were removed and replaced with original language-engineering workflows. This is a catalog count, not proof that every skill has been runtime-tested or cleared for redistribution. Third-party plugin packages and non-skill components retain their own license and NOTICE obligations; review those terms before redistribution. Strict Claude Code validation and a clean marketplace installation/discovery test should be treated as separate release checks and reported only when executed.
 
 
 ## NEXORA skill inventory
 
-- NEXORA-specific skill inventory: [`docs/NEXORA_SKILL_INVENTORY.md`](docs/NEXORA_SKILL_INVENTORY.md) (359 catalog entries across 31 categories; includes the integrated 2,563-skill catalog inventory).
+- NEXORA-specific skill inventory: [`docs/NEXORA_SKILL_INVENTORY.md`](docs/NEXORA_SKILL_INVENTORY.md) (360 catalog entries across 31 categories; includes the integrated 2,564-skill catalog inventory).
