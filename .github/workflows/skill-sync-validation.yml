@@ -54,6 +54,7 @@ on:
       - feat/nexora-engine-workflows-batch-2525-2026-10-30
       - feat/nexora-tracked-local-artifact-exposure-response-2522-2026-10-30
       - feat/nexora-texture-detail-review-2554-2026-10-30
+      - feat/nexora-digital-logic-audit-2555-2026-10-31
   pull_request:
     branches:
       - main
@@ -294,3 +295,7 @@ jobs:
           test -n "$latest_manifest"
           echo "Validating latest NEXORA manifest: $latest_manifest"
           node tools/validate-skill-batch.mjs "$latest_manifest"
+
+      - name: Validate NEXORA 2,555-skill digital-logic audit batch and source/bundle parity
+        if: github.ref_name == 'feat/nexora-digital-logic-audit-2555-2026-10-31' || github.head_ref == 'feat/nexora-digital-logic-audit-2555-2026-10-31'
+        run: node tools/validate-skill-batch.mjs tools/skill-batch-manifests/nexora-2555.json
