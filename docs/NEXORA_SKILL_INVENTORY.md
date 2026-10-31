@@ -11,7 +11,7 @@ Scope: skills whose catalog name or category contains "NEXORA". This inventory l
 - Catalog total: **2562**
 - Long-term library target: **5000**
 - Remaining to library target: **2438**
-- Skills added in the latest pending batch: `nexora-climate-multiscale-field-coherence` (PR #262; pending CI/merge).
+- Latest integrated skill: `nexora-climate-multiscale-field-coherence` (PR #262; merged after CI validation).
 
 ## Inventory by category
 
