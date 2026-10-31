@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-31. The unified bundle contains 2557 distinct skills.
+Updated: 2026-10-31. The unified bundle contains 2558 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2554**
-- Current total: **2554**
+- Original curated skills: **2555**
+- Current total: **2558**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,443**
+- Remaining to long-term target: **2,442**
 
 ## Categories
 
@@ -2742,6 +2742,7 @@ Updated: 2026-10-31. The unified bundle contains 2557 distinct skills.
 
 - nexora-machine-logic-graph-contract — NEW
 - nexora-energy-network-transaction-contract — NEW
+- nexora-fluid-network-transport-contract — NEW
 
 ## Source-of-truth rules
 
