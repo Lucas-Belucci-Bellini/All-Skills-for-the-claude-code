@@ -40,7 +40,7 @@ for(const item of batch){
  assert.equal(unquote(nm?.[1]),item.name,item.name+": frontmatter name mismatch");
  assert.ok(unquote(dm?.[1])?.length>=35,item.name+": description too short");
  for(const h of ["# ","## Purpose","## Required inputs","## Validation checklist","## Required output","## Boundaries and failure handling","## Trigger examples"])assert.ok(src.includes(h),item.name+": missing "+h);
- assert.ok(/^## (?:Workflow|.*\\bprotocol)$/im.test(src),item.name+": missing workflow/protocol section");
+ assert.ok(/^## (?:Workflow|.*protocol)$/im.test(src),item.name+": missing workflow/protocol section");
  assert.ok((src.match(/^\d+\.\s/gm)||[]).length>=4,item.name+": workflow too short");
  assert.ok((src.match(/^- \[ \] /gm)||[]).length>=4,item.name+": checklist too short");
  assert.match(src, /^- \*\*Positive:\*\*/m,item.name+": positive trigger missing");
