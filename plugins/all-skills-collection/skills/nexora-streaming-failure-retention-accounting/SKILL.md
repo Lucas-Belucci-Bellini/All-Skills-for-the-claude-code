@@ -53,13 +53,13 @@ Re-open the current source before applying this workflow. Constants, ordering, a
 
 ## Validation checklist
 
-- Retained diagnostic details remain bounded by the configured cap.
-- Every observed backend failure contributes to the per-tick failure count according to the report contract, even when its detail is not retained.
-- Overflow accounting is not silently inferred from the number of retained errors.
-- Draining diagnostic details does not retroactively change the report for a completed tick.
-- Failure retention does not change backend retry behavior, residency decisions, or the streaming budget.
-- A failed target must not be reported as successfully activated.
-- A truncated diagnostic sample must be identified as incomplete.
+- [ ] Retained diagnostic details remain bounded by the configured cap.
+- [ ] Every observed backend failure contributes to the per-tick failure count according to the report contract, even when its detail is not retained.
+- [ ] Overflow accounting is not silently inferred from the number of retained errors.
+- [ ] Draining diagnostic details does not retroactively change the report for a completed tick.
+- [ ] Failure retention does not change backend retry behavior, residency decisions, or the streaming budget.
+- [ ] A failed target must not be reported as successfully activated.
+- [ ] A truncated diagnostic sample must be identified as incomplete.
 
 ## Validation matrix
 
