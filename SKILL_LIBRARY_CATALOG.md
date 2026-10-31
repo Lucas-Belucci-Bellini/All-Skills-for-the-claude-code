@@ -1,14 +1,14 @@
 # Skill Library Catalog
 
-Updated: 2026-10-31. The unified bundle contains 2558 distinct skills.
+Updated: 2026-10-31. The unified bundle contains 2559 distinct skills.
 
 ## Inventory summary
 
 - Existing/imported skills retained: **0**
-- Original curated skills: **2555**
-- Current total: **2558**
+- Original curated skills: **2559**
+- Current total: **2559**
 - Long-term planning target: **5,000 distinct skills**; 500 remains the intermediate milestone for 2026-12-31
-- Remaining to long-term target: **2,442**
+- Remaining to long-term target: **2,441**
 
 ## Categories
 
@@ -354,6 +354,10 @@ Updated: 2026-10-31. The unified bundle contains 2558 distinct skills.
 - nexora-save-compatibility-fixture-policy — NEW
 - nexora-schema-deprecation-window — NEW
 
+### Curated: nexora-digital-logic (1)
+
+- nexora-digital-logic-library-integration-audit — NEW
+
 ### Curated: nexora-editor-tooling (10)
 
 - nexora-debug-overlay-budget — NEW
@@ -383,6 +387,12 @@ Updated: 2026-10-31. The unified bundle contains 2558 distinct skills.
 - nexora-resource-budget-release-blocker — NEW
 - nexora-roadmap-completion-evidence — NEW
 - nexora-world-data-loss-release-blocker — NEW
+
+### Curated: nexora-machine-automation (3)
+
+- nexora-energy-network-transaction-contract — NEW
+- nexora-fluid-network-transport-contract — NEW
+- nexora-machine-logic-graph-contract — NEW
 
 ### Curated: nexora-networking (10)
 
@@ -661,7 +671,7 @@ Updated: 2026-10-31. The unified bundle contains 2558 distinct skills.
 - nexora-world-save-privacy-export — NEW
 - nexora-world-snapshot-consistency — NEW
 
-### Curated: nexora-worldgen-streaming (19)
+### Curated: nexora-worldgen-streaming (20)
 
 - nexora-biome-climate-weight-blending — NEW
 - nexora-chunk-lighting-propagation-budget — NEW
@@ -675,6 +685,7 @@ Updated: 2026-10-31. The unified bundle contains 2558 distinct skills.
 - nexora-streaming-interest-candidate-amplification — NEW
 - nexora-streaming-interest-source-admission — NEW
 - nexora-streaming-io-backpressure — NEW
+- nexora-streaming-long-session-residency-soak — NEW
 - nexora-streaming-report-outcome-classification — NEW
 - nexora-worldgen-column-work-budget — NEW
 - nexora-worldgen-crash-reproduction — NEW
@@ -2733,16 +2744,6 @@ Updated: 2026-10-31. The unified bundle contains 2558 distinct skills.
 - ai-sdk-tracing-span-cardinality — NEW
 - ai-sdk-untrusted-tool-result-delimiting — NEW
 - ai-sdk-user-session-scope — NEW
-
-### Curated: nexora-digital-logic (1)
-
-- nexora-digital-logic-library-integration-audit — NEW
-
-### Curated: nexora-machine-automation (3)
-
-- nexora-machine-logic-graph-contract — NEW
-- nexora-energy-network-transaction-contract — NEW
-- nexora-fluid-network-transport-contract — NEW
 
 ## Source-of-truth rules
 

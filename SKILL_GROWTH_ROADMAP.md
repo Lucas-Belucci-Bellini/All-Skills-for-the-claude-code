@@ -1,9 +1,9 @@
 # Roadmap to 5,000 distinct skills
 
 **Baseline date:** 2026-10-17
-**Current draft inventory:** 2,558 distinct skills (2,558 authored + 0 retained/imported)
+**Current draft inventory:** 2,559 distinct skills (2,559 authored + 0 retained/imported)
 **Long-term planning target:** 5,000 distinct skills
-**Remaining to long-term target:** 2,442
+**Remaining to long-term target:** 2,441
 **Current milestone:** 2,558 authored skills. The post-2,500 expansion includes NEXORA workflows spanning voxel storage, chunk streaming, durable recovery, region residency, Texture Forge integrity, world generation, memory accounting, GPU/frame timing, rendering, atlas correctness, asset pipelines, VFX, native UI, hotbar slot identity, first-person pointer-look and runtime reliability. The catalog and aggregate bundle contain zero retained/imported skills; runtime validation of the engine remains separate.
 **Intermediate milestone:** 500 by 2026-12-31 — achieved in the authored inventory
 
@@ -87,6 +87,7 @@ The 2,500 figure remains a long-term planning target, not a reason to ship fille
 | 2534 | 2534 | Adds four NEXORA Texture Forge workflows for manifest inheritance, periodic recipe constraints, procedural seed/repair identity, and 2×2 preview plus numeric seam review; runtime changes/tests are not claimed |
 | 2535 | 2535 | Adds a NEXORA final surface-blit fidelity workflow for format/capability negotiation, nearest-sampled pixel mapping, channel order, and truthful window readback; no runtime change is claimed |
 | 2536 | 2536 | Adds a NEXORA MemoryLedger reporting workflow for owner-per-byte accounting, pressure thresholds, high-water/refusal interpretation, at-rest leak semantics, and poisoned-report caveats; no runtime change is claimed |
+| 2559 | 2559 | Adds the NEXORA long-session streaming residency soak workflow for pin ownership, residency convergence, budget pressure, byte accounting and failure-retention diagnostics; runtime soak execution remains pending |
 | 2026-12-31 | 500 | Initial target reached in draft; merge still depends on review, tests, and provenance/license checks |
 | Scale-up | 2,025–2,250 | Continue in batches of 25–50; review domain balance and real usage every 100 skills |
 | Extended scale | 2,275–2,500 | Prioritize demonstrated workflow gaps; consolidate or retire low-value overlap |
@@ -643,3 +644,15 @@ Added a source-grounded workflow for character movement relative to kinematic su
 - Documentation/skill delivery only; no NEXORA fluid network, pressure solver, or runtime integration was implemented or tested.
 - **Current draft inventory:** 2,558 distinct skills (2,558 authored + 0 retained/imported)
 - **Remaining to long-term target:** 2,442
+
+
+## Batch 2,559 — NEXORA long-session streaming residency soak (2026-10-31)
+
+- Added `nexora-streaming-long-session-residency-soak` under `curated-skill-sources/nexora-worldgen-streaming/`.
+- Grounded in the audited NEXORA streaming manager and budget/report implementation: interest-source identity, generation-checked request pins, resident/tracked targets, backend-reported bytes, promotion/eviction budgets, post-activation shedding, and bounded failure diagnostics.
+- Defines repeatable traversal, teleport, observer removal, pin reconciliation, pressure, pinned-overrun, failure-injection and long-session convergence scenarios.
+- Explicitly separates backend-reported bytes from RSS/heap/VRAM and does not claim a runtime soak or benchmark has been executed.
+- This is a skill/documentation delivery only; no NEXORA runtime code was changed or tested.
+
+**Current draft inventory:** 2,559 distinct skills (2,559 authored + 0 retained/imported)
+**Remaining to long-term target:** 2,441
