@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "updated_at": "2026-10-31",
-  "unique_skills": 2560,
+  "unique_skills": 2561,
   "target": 5000,
-  "remaining": 2440,
+  "remaining": 2439,
   "source_policy": "Generated plugins are distributions. New authored source files live under curated-skill-sources; imported source files preserve their upstream provenance.",
   "skills": [
     {
@@ -3161,6 +3161,12 @@
       "category": "Curated: nexora-simulation-ai",
       "origin": "new-authored",
       "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-simulation-overload-degradation/SKILL.md"
+    },
+    {
+      "name": "nexora-temporal-lod-offline-catchup",
+      "category": "Curated: nexora-simulation-ai",
+      "origin": "new-authored",
+      "source_path": "curated-skill-sources/nexora-simulation-ai/nexora-temporal-lod-offline-catchup/SKILL.md"
     },
     {
       "name": "nexora-weather-time-authority",
